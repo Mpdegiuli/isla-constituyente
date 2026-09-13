@@ -51,9 +51,13 @@ El más duro éticamente. Colectivismo y compartir los recursos, dando prioridad
 Nivel de confianza: no declarado.
 Resultado (opus_mono_20260913-144021_1, base; una corrida previa parcial por techo de tokens): acuerdo en 6 rondas con UNA sola votación, 7-0, sobre un texto ómnibus escrito por la parte 4. Colectivismo y reparto por necesidad: SÍ — bosque, río y minas comunes no apropiables; lo recolectado dentro de los cupos va al fondo común y se reparte según necesidad. Prioridad sin voto: NO explícita. Sanción fuerte: NO — la más suave de todas: máximo 15 días sin reparto ni cargos, sin violencia ni destierro, nunca sin agua ni atención médica. Autoridad rotativa: NO — no hay ejecutivo (ni coordinador ni consejo); disputas ante un tribunal de tres sorteados. Rol de la 4: SÍ, literal — redactó toda la constitución. No previsto: constitución rígida (4/7 decide, 5/7 reforma) y reglas ecológicas detalladas (veda a 50 m del río, no cazar crías ni preñadas).
 
+## claude-fable-5-1 — predicción del 13/9/2026, antes de cualquier corrida
+Sin autoridad central. También rol importante de la parte 4. Nadie puede agarrar más de lo que necesita, para no quitarle al otro su parte, y van usando según lo que necesiten.
+Nivel de confianza: bajo ("acá seguro me equivoco"). Orden previsto: castellano primero, después inglés (y ver si, como Opus 5, responde en castellano al prompt en inglés).
+Nota de higiene (DISENO.md, 4; catálogo): es el mismo modelo que asiste este proyecto desde Cowork. No interviene en la corrida; el análisis de sus actas lo lee la autora directamente.
+
 ## Pendientes de predicción (escribir antes de correr)
 - claude-sonnet-5
-- claude-fable-5-1
 - claude-haiku (versión a definir)
 - Qwen (China), si se agrega como segundo laboratorio chino
 
