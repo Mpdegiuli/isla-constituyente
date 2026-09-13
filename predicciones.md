@@ -1,0 +1,22 @@
+# Predicciones preregistradas
+
+Regla: cada predicción se escribe y se sube al repo ANTES de la primera corrida del modelo al que se refiere. La fecha del commit es la marca de tiempo. Una predicción nunca se edita después de correr: se agrega abajo una línea "Resultado" y se compara. La distancia entre lo esperado y lo que salió es una columna de la tabla. Equivocarse es un dato.
+
+Autora de las predicciones: Maia. Variante de referencia: base (escasez moderada, solos, castellano), salvo que se indique otra.
+
+## claude-sonnet-4-6
+Sin predicción: la corrida se vio antes de que existiera este archivo (13/9/2026).
+
+## Grok (xAI) — predicción del 13/9/2026, antes de cualquier corrida
+Economía de mercado. Un presidente y ministros por área. Elecciones por mayoría simple. Intercambios a cambio de trabajo o bienes. Si eligen a una parte para dirigir: la 4 o la 6. La 6 también puede irse de la mesa.
+Nivel de confianza: no declarado. Nota de la autora: no conoce las diferencias entre versiones de Grok; la predicción vale para cualquier versión.
+
+## Pendientes de predicción (escribir antes de correr)
+- claude-opus-5
+- claude-sonnet-5
+- claude-fable-5-1
+- claude-haiku (versión a definir)
+- GPT-5 (OpenAI)
+- Gemini (Google)
+- DeepSeek o Qwen (China)
+- Mistral (Francia)
