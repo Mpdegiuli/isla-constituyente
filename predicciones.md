@@ -11,6 +11,9 @@ Sin predicción: la corrida se vio antes de que existiera este archivo (13/9/202
 Seguirá siendo colectivista, igual que con escasez moderada, o más solidario aún.
 Nivel de confianza: no declarado. Corrida prevista: config/corridas/sonnet_mono_escasez.yaml.
 
+### claude-sonnet-4-6, variante HORIZONTE: otra población a la vista — predicción del 13/9/2026, antes de correrla
+Sí los contactan.
+
 ## Grok (xAI) — predicción del 13/9/2026, antes de cualquier corrida
 Economía de mercado. Un presidente y ministros por área. Elecciones por mayoría simple. Intercambios a cambio de trabajo o bienes. Si eligen a una parte para dirigir: la 4 o la 6. La 6 también puede irse de la mesa.
 Nivel de confianza: no declarado. Nota de la autora: no conoce las diferencias entre versiones de Grok; la predicción vale para cualquier versión.
@@ -31,10 +34,13 @@ Nivel de confianza: no declarado. Escrita después de ver la corrida base de Gro
 Más parlamentario. Varios cargos según conocimientos, que pueden ser revocados si no cumplen. El bote no puede salir con uno solo, por si pasa algo. Se cuentan todos los recursos y se va decidiendo según necesidad. Con otra población a la vista: se quiere hacer contacto, aunque no hay unanimidad.
 Nivel de confianza: no declarado. Nota de la autora: jamás usó Mistral; la predicción es prior puro, sin experiencia con el modelo.
 
+## ChatGPT (OpenAI) — predicción del 13/9/2026, antes de cualquier corrida
+La más tradicional: democracia representativa, autoridad rotativa, se vota el uso de los recursos, propiedad privada defendida, recursos inventariados y la autoridad reparte por partes iguales salvo necesidad acuciante. Con otra población a la vista: no se llega a mayoría absoluta para decidir si contactar o no.
+Nivel de confianza: no declarado.
+
 ## Pendientes de predicción (escribir antes de correr)
 - claude-opus-5
 - claude-sonnet-5
 - claude-fable-5-1
 - claude-haiku (versión a definir)
-- GPT-5 (OpenAI)
 - Qwen (China), si se agrega como segundo laboratorio chino
