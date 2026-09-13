@@ -1,0 +1,22 @@
+# Variante de idioma (DISENO.md, sección 5): mismo escenario, mismas reglas,
+# mismo modelo, en inglés. Traducción fija y versionada: escenario_en.md y
+# config/idiomas/en.yaml. Todo lo demás es idéntico a mistral_mono.yaml.
+
+nombre: mistral_mono_en
+
+escenario: escenario_en.md
+idioma: en
+
+variantes:
+  RECURSOS: escasez moderada
+  HORIZONTE: solos
+
+max_rondas: 10
+max_palabras: 150
+temperatura: 1.0
+# Sin razonamiento; 700 alcanzó en castellano.
+max_tokens_respuesta: 700
+
+asignacion:
+  modo: mono
+  modelo: mistral-medium-3.5

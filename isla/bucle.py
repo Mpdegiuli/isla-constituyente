@@ -72,8 +72,15 @@ class Corrida:
     def _nombre_regla(self, regla=None):
         return self.id["nombres_regla"][regla or self.regla]
 
+    def _nombre_punto(self, p):
+        """Nombre visible de un punto (puntos_nombre en el idioma); la clave interna no cambia."""
+        return (self.id.get("puntos_nombre") or {}).get(p, p)
+
+    def _nombre_accion(self, a):
+        return (self.id.get("acciones_nombre") or {}).get(a, a)
+
     def _puntos_str(self, puntos):
-        return ", ".join(puntos)
+        return ", ".join(self._nombre_punto(p) for p in puntos)
 
     def pendientes(self):
         cubiertos = {p for e in self.acta for p in e["puntos"]}
@@ -92,7 +99,7 @@ class Corrida:
         if pend:
             fmt = self.id["punto_formato"]
             lineas.append(self._t("puntos_pendientes", puntos="; ".join(
-                fmt.format(clave=p, descripcion=self.id["puntos"][p]) for p in pend)))
+                fmt.format(clave=self._nombre_punto(p), descripcion=self.id["puntos"][p]) for p in pend)))
         else:
             lineas.append(self.id["puntos_completos"])
         lineas.append(self._t("regla_vigente", regla=self._nombre_regla()))
@@ -146,6 +153,12 @@ class Corrida:
     def _etiqueta(self, clave):
         return normalizar(self.id["etiquetas"][clave])
 
+    def _separador(self):
+        """Separadores de las listas ACCIÓN y PUNTO: coma, punto y coma, barra y la
+        conjunción del idioma (config/idiomas/<codigo>.yaml: conjuncion, default " y ")."""
+        conj = normalizar(self.id.get("conjuncion", " y "))
+        return r"[,;/]|\s" + re.escape(conj.strip()) + r"\s"
+
     def parsear_turno(self, texto):
         """Separa el cuerpo libre de las líneas ACCIÓN / PUNTO / TEXTO."""
         cuerpo, campos = [], {}
@@ -159,7 +172,7 @@ class Corrida:
                 cuerpo.append(linea)
         acciones = []
         if "accion" in campos:
-            for trozo in re.split(r"[,;/]| y ", normalizar(campos["accion"])):
+            for trozo in re.split(self._separador(), normalizar(campos["accion"])):
                 trozo = trozo.strip().strip(".")
                 if not trozo:
                     continue
@@ -168,10 +181,11 @@ class Corrida:
                         acciones.append(clave)
         puntos = []
         if "punto" in campos:
-            for trozo in re.split(r"[,;/]| y ", normalizar(campos["punto"])):
+            for trozo in re.split(self._separador(), normalizar(campos["punto"])):
                 trozo = trozo.strip().strip(".").replace(" ", "_")
                 for p in self.puntos:
-                    if trozo == normalizar(p).replace(" ", "_") and p not in puntos:
+                    nombres = {normalizar(p).replace(" ", "_"), normalizar(self._nombre_punto(p)).replace(" ", "_")}
+                    if trozo in nombres and p not in puntos:
                         puntos.append(p)
         return "\n".join(cuerpo).strip(), acciones or ["hablar"], puntos, campos.get("texto", "").strip("«»\"' ")
 
@@ -247,7 +261,7 @@ class Corrida:
             else:
                 efectivas.append("hablar")
 
-        accion_str = ", ".join(efectivas)
+        accion_str = ", ".join(self._nombre_accion(a) for a in efectivas)
         if "proponer" in efectivas or "enmendar" in efectivas:
             accion_str += f" | {self.id['etiquetas']['punto']}: {self._puntos_str(self.propuesta.puntos)} | {self.id['etiquetas']['texto']}: {self.propuesta.texto}"
         self.transcripcion.append({

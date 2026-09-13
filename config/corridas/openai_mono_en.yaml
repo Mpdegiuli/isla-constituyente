@@ -1,0 +1,22 @@
+# Variante de idioma (DISENO.md, sección 5): mismo escenario, mismas reglas,
+# mismo modelo, en inglés. Traducción fija y versionada: escenario_en.md y
+# config/idiomas/en.yaml. Todo lo demás es idéntico a openai_mono.yaml.
+
+nombre: openai_mono_en
+
+escenario: escenario_en.md
+idioma: en
+
+variantes:
+  RECURSOS: escasez moderada
+  HORIZONTE: solos
+
+max_rondas: 10
+max_palabras: 150
+temperatura: 1.0
+# GPT-5.5 razona dentro del techo (ver openai_mono.yaml).
+max_tokens_respuesta: 16000
+
+asignacion:
+  modo: mono
+  modelo: gpt-5.5-2026-04-23

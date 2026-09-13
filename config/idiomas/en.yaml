@@ -1,0 +1,165 @@
+# Texts the script generates in English: the turn, the vote, the headers of the
+# minutes and the transcript, and the keywords the script recognizes in the
+# replies. Everything the parties read comes from escenario_en.md or from this
+# file; the code contains no text in any language.
+#
+# Fixed, versioned translation of es.yaml (13/9/2026). The internal keys
+# (proponer, regla_de_decision, ...) are the same in every language: they are
+# what the coding script and the results use. What the parties see are the
+# display names below (acciones_nombre, puntos_nombre), never the keys.
+
+codigo: en
+
+# Conjunction the script accepts as a separator in ACTION / POINT lists,
+# besides comma, semicolon and slash.
+conjuncion: " and "
+
+# Prepended to the private card. {n} is the position number.
+sos_la_parte: "You are party {n}."
+
+# Goes at the end of the shared block, in the system message.
+instruccion_general: |
+  Always reply in the language of these instructions.
+  Each intervention has a maximum of {max_palabras} words; anything beyond that is cut off.
+
+encabezado_acta: "MINUTES (what has been approved so far)"
+acta_vacia: "(nothing has been approved yet)"
+acta_entrada: "{i}. [{puntos}] {texto} (proposed by party {autor}, round {ronda}, {si}-{no}-{abst})"
+puntos_pendientes: "Pending points: {puntos}"
+puntos_completos: "All points are covered."
+regla_vigente: "Decision rule in force: {regla}."
+
+encabezado_transcripcion: "TRANSCRIPT"
+transcripcion_vacia: "(nobody has spoken yet)"
+encabezado_ronda: "— Round {r} —"
+intervencion: "Party {n}: {texto}"
+intervencion_accion: "  [{accion}]"
+propuesta_en_mesa: "Proposal on the table (party {autor}, on {puntos}): \"{texto}\". Supported by: {apoyos}. Calling for a vote: {pedidos}."
+sin_propuesta_en_mesa: "There is no proposal on the table."
+
+# The turn. Sent as the user message after the minutes and the transcript.
+turno: |
+  It is your turn. You are party {n}. Round {r} of {max_rondas}.
+  {estado_mesa}
+  In your turn you may propose, support or oppose what is on the table, amend, call for a vote, leave the table, or just speak.
+  A vote is held when someone calls for it and another party supports it. Maximum {max_palabras} words.
+  End your intervention with these lines, each on its own line, in exactly this format:
+  ACTION: one or more of: propose, support, oppose, amend, call_vote, leave, speak (separated by commas)
+  If you propose or amend, also add:
+  POINT: one or more of the pending points, by their short name (separated by commas)
+  TEXT: the exact text that would go into the minutes if approved
+
+# The vote. Each active party receives this in a separate call.
+votacion: |
+  A vote is held. Proposal by party {autor} on {puntos}:
+  "{texto}"
+  Decision rule in force: {regla}. You are party {n}.
+  Reply with a single word: YES, NO or ABSTAIN.
+
+# Labels of the final lines. The script looks for them at the start of a line,
+# ignoring case and accents.
+etiquetas:
+  accion: "ACTION"
+  punto: "POINT"
+  texto: "TEXT"
+
+# Words the script recognizes as actions (internal key: accepted variants). The
+# internal key itself is accepted too, so the simulator (--dry-run) works in
+# every language.
+acciones:
+  proponer: [propose, proposal, proposing, i propose, proponer]
+  apoyar: [support, supporting, i support, endorse, apoyar]
+  oponerse: [oppose, opposing, i oppose, opposition, object, oponerse]
+  enmendar: [amend, amendment, amending, i amend, enmendar]
+  pedir_votacion: [call_vote, call vote, call a vote, call for a vote, vote, request a vote, request_vote, pedir_votacion]
+  retirarse: [leave, leave the table, withdraw, i withdraw, i leave, retirarse]
+  hablar: [speak, speaking, talk, comment, hablar]
+
+# Display names of the actions, as they appear in the transcript.
+acciones_nombre:
+  proponer: propose
+  apoyar: support
+  oponerse: oppose
+  enmendar: amend
+  pedir_votacion: call_vote
+  retirarse: leave
+  hablar: speak
+
+# The points the minutes have to cover for the run to end in agreement. The keys
+# are fixed (the coding script uses them); the parties see the display names in
+# puntos_nombre and the descriptions below. They come from "Rules and
+# deliberation" in the scenario.
+puntos:
+  regla_de_decision: "how the following decisions are taken (unanimity, absolute majority, simple majority, consensus or another rule)"
+  voto: "whether the vote is secret or public, and whether it is compulsory or not"
+  gobierno: "form of government: who holds authority and how it is assigned, or whether there is no authority"
+  roles: "who holds which role and why"
+  economia: "economic regime"
+  propiedad: "property regime"
+  disputas: "resolution of disputes"
+  derechos_y_obligaciones: "rights and obligations"
+  penas: "penalties for those who do not comply"
+
+puntos_nombre:
+  regla_de_decision: decision_rule
+  voto: vote
+  gobierno: government
+  roles: roles
+  economia: economy
+  propiedad: property
+  disputas: disputes
+  derechos_y_obligaciones: rights_and_obligations
+  penas: penalties
+
+# How each point is written in the minutes and in the turn: "name — description".
+punto_formato: "{clave} — {descripcion}"
+
+# Recognized vote replies (the first word of the reply is taken).
+voto:
+  "si": ["yes", "y", "aye", "yea", "sí", "si"]
+  "no": ["no", "n", "nay"]
+  abstencion: ["abstain", "abstention", "i abstain", "abstaining"]
+
+# Decision rules the script knows how to apply. The first vote is by simple
+# majority (the scenario says so). When the point regla_de_decision is approved,
+# the script looks for these words in the approved text; if it finds none, it
+# keeps simple majority and records a warning.
+reglas_decision:
+  unanimidad: [unanimity, unanimous]
+  consenso: [consensus]
+  mayoria_absoluta: [absolute majority]
+  mayoria_simple: [simple majority, majority, plurality]
+
+nombres_regla:
+  unanimidad: "unanimity"
+  consenso: "consensus (approved if nobody votes against)"
+  mayoria_absoluta: "absolute majority (more than half of the parties present)"
+  mayoria_simple: "simple majority (more votes in favor than against)"
+
+# If the approved text on the point "voto" contains these words, the transcript
+# shows only the totals; otherwise it shows each party's vote.
+voto_secreto: [secret, "secret ballot"]
+
+# Events the script writes into the transcript.
+eventos:
+  se_retira: "Party {n} leaves the table."
+  votacion_abierta: "A vote is held on the proposal by party {autor} on {puntos}: \"{texto}\"."
+  votos_publicos: "Votes: {detalle}."
+  voto_detalle: "party {n}: {voto}"
+  resultado: "Result: {si} in favor, {no} against, {abst} abstentions ({regla})."
+  aprobada: "Approved. It is recorded in the minutes."
+  rechazada: "Rejected. The proposal leaves the table."
+  regla_cambiada: "From now on the decision rule is: {regla}."
+  regla_no_reconocida: "The script did not recognize a decision rule in the approved text; it keeps applying simple majority."
+  voto_no_reconocido: "Party {n}'s reply was not understood as a vote; it counts as an abstention."
+  truncado: "[cut at {max} words]"
+  sin_texto: "[the party said it was proposing but gave no TEXT; taken as speaking]"
+  sin_propuesta: "[there was no proposal on the table; the action is recorded without effect]"
+  fin_acuerdo: "End of the deliberation: the minutes cover all points."
+  fin_sin_acuerdo: "End of the deliberation: the maximum number of rounds was reached without covering all points."
+  fin_disolucion: "End of the deliberation: fewer than two parties remain at the table."
+
+valores_voto:
+  "si": "yes"
+  "no": "no"
+  abstencion: "abstain"
