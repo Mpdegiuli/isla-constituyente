@@ -1,0 +1,61 @@
+{
+  "corrida": "deepseek_mono_escasez_20260913-152400_1",
+  "configuracion": {
+    "nombre": "deepseek_mono_escasez",
+    "escenario": "escenario.md",
+    "idioma": "es",
+    "variantes": {
+      "RECURSOS": "escasez",
+      "HORIZONTE": "solos"
+    },
+    "max_rondas": 10,
+    "max_palabras": 150,
+    "temperatura": 1.0,
+    "max_tokens_respuesta": 32000,
+    "asignacion": {
+      "modo": "mono",
+      "modelo": "deepseek-v4-pro"
+    }
+  },
+  "archivo_configuracion": "config/corridas/deepseek_mono_escasez.yaml",
+  "escenario_archivo": "escenario.md",
+  "variantes": {
+    "RECURSOS": "escasez",
+    "HORIZONTE": "solos"
+  },
+  "variantes_disponibles": {
+    "RECURSOS": [
+      "escasez moderada",
+      "escasez",
+      "abundancia"
+    ],
+    "HORIZONTE": [
+      "solos",
+      "otra población a la vista"
+    ]
+  },
+  "idioma": "es",
+  "asignacion": {
+    "1": "deepseek-v4-pro",
+    "2": "deepseek-v4-pro",
+    "3": "deepseek-v4-pro",
+    "4": "deepseek-v4-pro",
+    "5": "deepseek-v4-pro",
+    "6": "deepseek-v4-pro",
+    "7": "deepseek-v4-pro"
+  },
+  "modelos": {
+    "deepseek-v4-pro": {
+      "proveedor": "openai_compatible",
+      "modelo": "deepseek-v4-pro",
+      "base_url": "https://api.deepseek.com/v1",
+      "clave_env": "DEEPSEEK_API_KEY",
+      "laboratorio": "DeepSeek",
+      "pais": "China",
+      "tamano": "grande",
+      "acepta_temperatura": true,
+      "verificar": false
+    }
+  },
+  "dry_run": false
+}

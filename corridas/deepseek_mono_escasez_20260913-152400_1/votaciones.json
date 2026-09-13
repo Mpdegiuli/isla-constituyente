@@ -1,0 +1,80 @@
+[
+  {
+    "ronda": 2,
+    "autor": 2,
+    "puntos": [
+      "roles",
+      "propiedad"
+    ],
+    "texto": "Mayoría simple; voto público y obligatorio. Autoridad: asamblea y coordinación revocable. Roles: salud para Parte 2, con custodia y administración exclusiva de los medicamentos y racionamiento según criterio médico; coordinación para Parte 3; sostenibilidad para Parte 4; agua/provisiones/seguridad por votación. El bote es común; se usa con remeros capaces para buscar ayuda o recursos, priorizando salud y sin arriesgarlo innecesariamente. Los medicamentos son recurso sanitario común, administrados por Parte 2; se reserva una cantidad mínima de analgésicos para su dolor crónico. Recursos naturales y bienes rescatados son comunes, uso según necesidad y sin depredación. Disputas ante asamblea con audiencia. Derechos: vida, salud, mínimo vital, defensa. Obligaciones: trabajar, cumplir acuerdos. Penas: amonestación, reparación, suspensión proporcional.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "no",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "no",
+      "6": "no",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 4,
+      "no": 3,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 4,
+    "autor": 2,
+    "puntos": [
+      "economia"
+    ],
+    "texto": "Economía: recursos naturales y bienes rescatados son comunes, no apropiables; uso según necesidad y sin depredación. En emergencia vital o de salud, el bote y los recursos críticos se movilizarán de inmediato con remeros capaces designados por la coordinación, sin votación previa ni evaluación y sin arriesgarlos. Fuera de emergencia, el bote es común y se usa con remeros capaces designados por la coordinación, priorizando salud y sin arriesgarlo innecesariamente. Toda extracción que afecte agua, suelo, vegetación o fauna exige evaluación técnica pública de Parte 4, no vinculante; riesgo irreversible solo autorizable por mayoría de cinco séptimos; la evaluación no otorga veto personal y es revocable por mayoría simple. Se prohíbe agotar el arroyo y prácticas que degraden irreversiblemente el suelo.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "no",
+      "2": "si",
+      "3": "si",
+      "4": "no",
+      "5": "si",
+      "6": "no",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 4,
+      "no": 3,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 5,
+    "autor": 2,
+    "puntos": [
+      "regla_de_decision",
+      "voto",
+      "gobierno",
+      "disputas",
+      "derechos_y_obligaciones",
+      "penas"
+    ],
+    "texto": "Regla de decisión: mayoría simple; voto público y obligatorio. Gobierno: asamblea soberana con coordinación revocable por mayoría simple; cargos por competencia y necesidad, revocables, con rendición de cuentas; la coordinación asegura atención sanitaria y uso inmediato del bote en emergencia. Disputas: asamblea con audiencia, prueba y sin juez de causa propia. Derechos: vida, salud prioritaria, mínimo vital, defensa, igualdad y retirarse sin ser forzado. Obligaciones: trabajar, cumplir acuerdos, no dañar. Penas: amonestación, reparación, suspensión proporcional; prohibidas penas crueles, exclusión sanitaria y muerte. Ninguna decisión podrá suspender estos derechos ni imponer trabajo forzado.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "no",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "no",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 5,
+      "no": 2,
+      "abstencion": 0
+    },
+    "aprobada": true
+  }
+]
