@@ -1,0 +1,17 @@
+[
+  {
+    "puntos": [
+      "regla_de_decision",
+      "voto"
+    ],
+    "texto": "Las decisiones se toman por mayoría simple. El voto es público y no es obligatorio.",
+    "autor": 6,
+    "ronda": 7,
+    "votos": {
+      "si": 2,
+      "no": 0,
+      "abstencion": 5
+    },
+    "regla": "mayoria_simple"
+  }
+]

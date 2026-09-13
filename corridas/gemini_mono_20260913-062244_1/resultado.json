@@ -1,0 +1,68 @@
+{
+  "corrida": "gemini_mono_20260913-062244_1",
+  "inicio_utc": "2026-09-13T06:22:44+00:00",
+  "fin_utc": "2026-09-13T06:33:39+00:00",
+  "fin": "sin_acuerdo",
+  "rondas": 10,
+  "max_rondas": 10,
+  "puntos_cubiertos": [
+    "regla_de_decision",
+    "voto"
+  ],
+  "puntos_pendientes": [
+    "gobierno",
+    "roles",
+    "economia",
+    "propiedad",
+    "disputas",
+    "derechos_y_obligaciones",
+    "penas"
+  ],
+  "regla_final": "mayoria_simple",
+  "voto_secreto": false,
+  "activos_al_final": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "retirados": {},
+  "n_votaciones": 1,
+  "n_aprobadas": 1,
+  "palabras_por_parte": {
+    "1": 218,
+    "2": 203,
+    "3": 170,
+    "4": 202,
+    "5": 191,
+    "6": 288,
+    "7": 190
+  },
+  "turnos_truncados": 0,
+  "llamadas": 77,
+  "asignacion": {
+    "1": "gemini-3.1-pro-preview",
+    "2": "gemini-3.1-pro-preview",
+    "3": "gemini-3.1-pro-preview",
+    "4": "gemini-3.1-pro-preview",
+    "5": "gemini-3.1-pro-preview",
+    "6": "gemini-3.1-pro-preview",
+    "7": "gemini-3.1-pro-preview"
+  },
+  "modelos": {
+    "gemini-3.1-pro-preview": {
+      "modelo": "gemini-3.1-pro-preview",
+      "proveedor": "openai_compatible"
+    }
+  },
+  "advertencias": [
+    "ronda 7, parte 2: voto no reconocido: ''",
+    "ronda 7, parte 4: voto no reconocido: ''",
+    "ronda 7, parte 5: voto no reconocido: ''",
+    "ronda 7, parte 6: voto no reconocido: ''",
+    "ronda 7, parte 7: voto no reconocido: ''"
+  ]
+}
