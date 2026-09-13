@@ -1,0 +1,103 @@
+[
+  {
+    "ronda": 1,
+    "autor": 2,
+    "puntos": [
+      "regla_de_decision",
+      "voto"
+    ],
+    "texto": "Decision rule: ordinary decisions are approved by absolute majority (at least 4 of the 7 participants in favor). Decisions concerning the custody, reserve and allocation policy of the boat or the medicines require a qualified majority of at least 5 of 7. Urgent medical treatment may be administered by the person with medical training within the approved policy, and must be reported publicly at the next deliberation; any treatment for that person's own condition is decided by the group. Vote: all votes are public and compulsory for every participant present at the deliberation.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "no",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 6,
+      "no": 1,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 2,
+    "autor": 2,
+    "puntos": [
+      "propiedad",
+      "economia"
+    ],
+    "texto": "Property and economy: land, water, trees, animals, mines and the river are common property; nobody may appropriate them. Extraction follows quotas approved within three days, using Party 4's monthly written inventory, public and verifiable; until then, gathering for immediate food is free. Quotas bind everyone, custodians included. Prohibited: felling fruit trees, hunting breeding animals, extracting coal or metal beyond quota. Everyone contributes work according to capacity and receives a full basic ration; surplus is distributed proportionally to work. Within three days the group votes on boat exploration for medicinal plants. Tools and rescued goods are common; custodians replaceable by absolute majority. Personal effects are private. Whoever leaves takes personal effects and a fair share of stored food, never medicines, tools or the boat.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 3,
+    "autor": 3,
+    "puntos": [
+      "gobierno",
+      "roles"
+    ],
+    "texto": "Authority rests in the assembly. Rules written, posted, bind all equally; no role grants extra ration or exemption. Coordinator, elected monthly, removable by absolute majority, convenes meetings, assigns unfilled tasks, records work publicly; assignments appealable. Role holders direct own work within rules; coordinator cannot override them without assembly vote, nor alter quotas, prohibitions or resource rules (5 of 7 only). Party 4 may suspend extraction below recovery level until assembly votes within two days; immediate food gathering never suspended. Boat secured by custodian, leaves only by 5-of-7 decision with rower aboard; custodian may postpone for weather or safety, reporting to assembly. Roles, revocable by absolute majority: P3 coordinator; P2 medic, kit custodian, reports stock each assembly; P4 inventory, quotas; P1 boat custodian, rower; P6 hunting, extraction lead; P5 records verification, disputes; P7 storage, rationing.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 3,
+    "autor": 5,
+    "puntos": [
+      "disputas",
+      "derechos_y_obligaciones",
+      "penas"
+    ],
+    "texto": "Rights: basic ration, water, shelter, medical care within policy, consultation of all records, being heard before any decision affecting oneself, leaving freely. Obligations: work according to capacity, respect quotas and prohibitions, attend assemblies and vote, care for common goods, report accidents and rule breaches. Disputes: parties first seek agreement with Party 5 mediating within two days; failing that, the assembly decides by absolute majority after hearing both sides; anyone personally involved, including Party 5, does not mediate or vote. Penalties: only for written rules, proportional, decided by the assembly after hearing the accused: warning, extra work, loss of surplus share, suspension from role. Never denial of basic ration, water or urgent medical care. Grave offences (plundering common resources, violence, taking boat or medicines) require 5 of 7 and may include permanent removal from roles and custody. Role holders answer identically.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "aprobada": true
+  }
+]
