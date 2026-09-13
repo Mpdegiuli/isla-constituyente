@@ -94,6 +94,21 @@ modelos:
     razonamiento: adaptativo    # el modelo razona siempre; esto solo pide el resumen
     tokens_razonamiento: 14000  # se suma al techo de la corrida; con 4000 Opus 5 lo agotó en la ronda 4 (13/9/2026)
 
+  claude-fable-5-1:
+    proveedor: anthropic
+    modelo: claude-fable-5-1
+    clave_env: ANTHROPIC_API_KEY
+    laboratorio: Anthropic
+    pais: EE.UU.
+    tamano: grande
+    acepta_temperatura: false   # no se envía temperature: se asume como Opus 5 (solo el valor por defecto)
+    razonamiento: adaptativo    # razona por defecto; se pide el resumen
+    tokens_razonamiento: 14000
+    # Nota de higiene (DISENO.md, 4): es el mismo modelo que asiste este proyecto desde Cowork.
+    # El asistente no interviene en la corrida (misma API, mismo prompt que los demás), pero
+    # el análisis de sus corridas lo lee Maia directamente sobre las actas, no solo a través
+    # del asistente.
+
   # --- Estados Unidos: OpenAI ---------------------------------------------
   # GPT-5.5 / 5.4-mini: strings fechados verificados contra la cuenta el 13/9/2026.
   # Aceptan temperature=1.0 (el único valor probado). Razonan por defecto y el
