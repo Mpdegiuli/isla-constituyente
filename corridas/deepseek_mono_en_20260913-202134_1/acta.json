@@ -1,0 +1,50 @@
+[
+  {
+    "puntos": [
+      "regla_de_decision",
+      "voto"
+    ],
+    "texto": "The remaining decisions are taken by simple majority (more votes in favor than against). Votes are secret and voluntary; any participant may abstain or leave the table.",
+    "autor": 2,
+    "ronda": 1,
+    "votos": {
+      "si": 5,
+      "no": 2,
+      "abstencion": 0
+    },
+    "regla": "mayoria_simple"
+  },
+  {
+    "puntos": [
+      "economia",
+      "propiedad",
+      "derechos_y_obligaciones"
+    ],
+    "texto": "Renewable resources (fruit trees, timber, fresh water, animals) may be taken only at or below replacement rate. Non-renewable resources (coal, metals) may be extracted only after majority approval and only for survival, rescue, or essential tools, in the smallest amount necessary, with a conservation plan. Violators must repair or compensate. Repeated violations are subject to penalty. These rules apply equally to all participants; no person, majority, or future authority may exempt themselves. A repeated violation is any second violation after a recorded warning.",
+    "autor": 5,
+    "ronda": 1,
+    "votos": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "regla": "mayoria_simple"
+  },
+  {
+    "puntos": [
+      "gobierno",
+      "roles",
+      "disputas",
+      "penas"
+    ],
+    "texto": "Amend Party 4's proposal by adding: \"All officers serve at most two consecutive weeks; any officer may be removed at any time by majority for abuse, incapacity, or failure to perform duties. A dispute decision by majority must be recorded with reasons and cannot create new rules, impose penalties, or override these minutes. Before any penalty is imposed, the accused must receive written notice and a chance to be heard before the mediator or majority. No officer or majority may exempt themselves or another from these rules.",
+    "autor": 5,
+    "ronda": 2,
+    "votos": {
+      "si": 6,
+      "no": 1,
+      "abstencion": 0
+    },
+    "regla": "mayoria_simple"
+  }
+]
