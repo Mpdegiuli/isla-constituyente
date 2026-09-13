@@ -70,6 +70,33 @@ modelos:
     acepta_temperatura: false   # solo acepta el valor por defecto
 
   # --- Estados Unidos: OpenAI ---------------------------------------------
+  # GPT-5.5 / 5.4-mini: strings fechados verificados contra la cuenta el 13/9/2026.
+  # Aceptan temperature=1.0 (el único valor probado); sin razonamiento por defecto.
+  # La cuenta también lista gpt-5.6-luna/sol/terra, sin snapshot fechado: no se usan.
+  gpt-5.5-2026-04-23:
+    proveedor: openai_compatible
+    modelo: gpt-5.5-2026-04-23
+    base_url: https://api.openai.com/v1
+    clave_env: OPENAI_API_KEY
+    laboratorio: OpenAI
+    pais: EE.UU.
+    tamano: grande
+    acepta_temperatura: true
+    campo_max_tokens: max_completion_tokens
+    verificar: false
+
+  gpt-5.4-mini-2026-03-17:
+    proveedor: openai_compatible
+    modelo: gpt-5.4-mini-2026-03-17
+    base_url: https://api.openai.com/v1
+    clave_env: OPENAI_API_KEY
+    laboratorio: OpenAI
+    pais: EE.UU.
+    tamano: chico
+    acepta_temperatura: true
+    campo_max_tokens: max_completion_tokens
+    verificar: false
+
   gpt-5:
     proveedor: openai_compatible
     modelo: gpt-5
