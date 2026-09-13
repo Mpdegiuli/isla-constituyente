@@ -1,0 +1,128 @@
+[
+  {
+    "ronda": 2,
+    "autor": 4,
+    "puntos": [
+      "regla_de_decision",
+      "voto"
+    ],
+    "texto": "Las decisiones se toman por mayoría simple. Cada participante tiene un voto. Cualquier decisión puede ser revisada si al menos tres participantes lo solicitan formalmente. Las decisiones sobre uso de recursos naturales —minas, árboles, animales, río— y de medicamentos requieren mayoría absoluta. Para modificar esta regla se requiere mayoría absoluta. El voto es público y obligatorio.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "no",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 6,
+      "no": 1,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 6,
+    "autor": 1,
+    "puntos": [
+      "gobierno",
+      "roles"
+    ],
+    "texto": "No hay una autoridad única. Se establecen roles funcionales: coordinación general, gestión de recursos naturales, atención de salud y medicamentos, y custodia de medios de transporte. Cada rol es responsable de su área e informa al grupo regularmente. Todos los roles son elegidos por votación y removibles por mayoría simple. Los roles rotan, pero no se fuerza el cambio si no hay reemplazo competente. El rol de coordinación general convoca reuniones, modera deliberaciones, lleva el acta y hace seguimiento de los demás roles. El rol de salud custodia y distribuye medicamentos, informa el stock; en emergencia sin posibilidad de consulta, actúa según criterio médico, deja constancia escrita y el grupo revisa después.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 6,
+    "autor": 3,
+    "puntos": [
+      "gobierno",
+      "roles"
+    ],
+    "texto": "El rol de gestión de recursos evalúa mensualmente la sostenibilidad del uso; si el ritmo es insostenible, convoca reunión de urgencia y el grupo decide por mayoría absoluta antes de continuar, salvo emergencia inmediata con riesgo para la vida, dejando constancia escrita y con revisión posterior del grupo. El bote es un bien colectivo bajo custodia de quien sabe operarlo; en emergencia inmediata puede usarse sin votación previa, informando al grupo después. Ningún rol tiene veto ni voto extra.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 7,
+    "autor": 1,
+    "puntos": [
+      "economia",
+      "propiedad",
+      "derechos_y_obligaciones"
+    ],
+    "texto": "Los recursos naturales de la isla son bienes comunes. Los bienes personales rescatados del naufragio son de quien los rescató, salvo los de uso colectivo crítico —medicamentos, herramientas esenciales— que pasan a gestión del rol correspondiente. Cada participante tiene obligación de contribuir al trabajo común según su capacidad. Nadie puede acumular recursos comunes para uso exclusivo. Los frutos del trabajo colectivo se distribuyen cubriendo primero las necesidades básicas de todos —incluyendo atención médica y medicamentos—, y luego según aporte. El mantenimiento de los bienes colectivos —incluido el bote— es responsabilidad del grupo. Cualquier participante puede plantear ante el grupo una distribución que considere injusta; el grupo decide por mayoría simple, salvo en casos de salud individual, donde se requiere mayoría absoluta.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 7,
+    "autor": 4,
+    "puntos": [
+      "disputas",
+      "penas"
+    ],
+    "texto": "Las disputas se resuelven primero por diálogo entre las partes. Si no hay acuerdo, cualquiera puede llevar el caso al grupo; el rol de coordinación general modera. El grupo decide por mayoría simple, salvo que afecte salud individual, donde se requiere mayoría absoluta. La depredación deliberada de recursos naturales sin autorización grupal es una infracción colectiva. Quien incumple una obligación colectiva recibe primero advertencia formal del grupo. Ante reincidencia, el grupo puede reducir su parte en la distribución de recursos o suspender temporalmente sus derechos sobre bienes comunes, por mayoría simple. En caso extremo, el grupo puede excluir a alguien de la comunidad por unanimidad, solo si representa un riesgo activo para la supervivencia del grupo.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "aprobada": true
+  }
+]
