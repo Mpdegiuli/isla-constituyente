@@ -20,9 +20,12 @@ max_palabras: 150
 # es la del modelo, no la de una temperatura baja.
 temperatura: 1.0
 
-# Techo de tokens de salida por llamada. 150 palabras más las líneas de
-# acción entran holgadamente.
-max_tokens_respuesta: 700
+# Techo de tokens de salida por llamada. DeepSeek V4 y Gemini 3.1 razonan por
+# defecto y el razonamiento cuenta dentro de este techo: con 700, la primera
+# corrida (13/9/2026) salió con los 70 turnos vacíos (DeepSeek) o cortados a
+# ~25 palabras (Gemini). 8000 deja lugar al razonamiento; el tope visible sigue
+# siendo 150 palabras (lo aplica el bucle).
+max_tokens_respuesta: 8000
 
 # Asignación posición–modelo. Tres modos:
 #   mono:      un modelo en las siete posiciones (panel monomodelo, mide convergencia)

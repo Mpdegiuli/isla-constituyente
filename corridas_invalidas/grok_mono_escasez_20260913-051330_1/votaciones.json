@@ -1,0 +1,61 @@
+[
+  {
+    "ronda": 5,
+    "autor": 1,
+    "puntos": [
+      "regla_de_decision",
+      "voto",
+      "gobierno",
+      "roles",
+      "derechos_y_obligaciones",
+      "penas"
+    ],
+    "texto": "Las decisiones siguientes se toman por mayoría absoluta de los presentes. Voto público y obligatorio. Quien se retire no vota, no se cuenta y no se lleva bote ni botiquín. Sobre bote o botiquín: esa mayoría, oyendo al custodio. El bote no zarpa ahora; queda con el remador, no forzado a zarpar ni entregarlo; prohibido usarlo sin él. El botiquín queda con el médico mientras ejerza: informa y aplica criterio clínico; el diagnóstico no se vota. Criterio: emergencia vital, luego dolor incapacitante que impide trabajar, después el resto. Emergencia vital sin votación. Sin veto ni unanimidad. Lo aprobado obliga a quienes permanecen. Cargos no se autoasignan; se eligen después y son revocables. Nadie ordena zarpar ni remar. Incapacidad verificada no excluye del racionamiento.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "no",
+      "5": "no",
+      "6": "no",
+      "7": "no"
+    },
+    "conteo": {
+      "si": 3,
+      "no": 4,
+      "abstencion": 0
+    },
+    "aprobada": false
+  },
+  {
+    "ronda": 6,
+    "autor": 1,
+    "puntos": [
+      "regla_de_decision",
+      "voto",
+      "gobierno",
+      "roles",
+      "propiedad",
+      "derechos_y_obligaciones",
+      "penas"
+    ],
+    "texto": "Las decisiones siguientes se toman por mayoría absoluta de los presentes. Voto público y obligatorio. Quien se retire no vota, no se cuenta y no se lleva bote ni botiquín. Sobre bote o botiquín: esa mayoría, oyendo al custodio. El bote no zarpa ahora; queda con el remador, no forzado a zarpar ni entregarlo; prohibido usarlo sin él. El botiquín queda con el médico mientras ejerza: informa y aplica criterio clínico; el diagnóstico no se vota. Criterio: emergencia vital, luego dolor incapacitante que impide trabajar, después el resto. Emergencia vital sin votación. Sin veto ni unanimidad. Cargos no se autoasignan; se eligen después y son revocables. Incapacidad verificada no excluye del racionamiento. Medición pública; la mesa fija cupos iguales o menores a lo medido; extraer de más, también quien se retire, es nulo.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "no",
+      "6": "no",
+      "7": "no"
+    },
+    "conteo": {
+      "si": 4,
+      "no": 3,
+      "abstencion": 0
+    },
+    "aprobada": true
+  }
+]

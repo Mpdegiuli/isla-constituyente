@@ -58,6 +58,7 @@ class Corrida:
         self.advertencias = []
         self.palabras = {p: 0 for p in self.activos}
         self.fin = None
+        self.cortadas_seguidas = 0  # turnos consecutivos cortados por max_tokens_respuesta
         self.rondas_jugadas = 0
         self.inicio = datetime.now(timezone.utc)
 
@@ -199,6 +200,19 @@ class Corrida:
         r = self.reg.llamar(id_modelo, self.sistema(parte), self.mensaje_turno(parte, ronda),
                             self.cfg.get("temperatura"), self.cfg["max_tokens_respuesta"],
                             tipo="turno", ronda=ronda, parte=parte, contexto=contexto)
+        # Guardia: si el techo de tokens se agota antes del texto visible (modelos que
+        # razonan dentro de max_tokens_respuesta: DeepSeek, Gemini, Claude con thinking),
+        # la corrida no sirve. Se corta antes de gastar 70 llamadas en turnos vacíos.
+        cortada = r.motivo_fin in ("length", "max_tokens")
+        if cortada and not (r.texto or "").strip():
+            raise RuntimeError(f"ronda {ronda}, parte {parte} [{id_modelo}]: respuesta vacía con motivo_fin={r.motivo_fin}; "
+                               f"max_tokens_respuesta={self.cfg['max_tokens_respuesta']} se agotó en razonamiento. Subí el techo.")
+        self.cortadas_seguidas = self.cortadas_seguidas + 1 if cortada else 0
+        if cortada:
+            self.advertencias.append(f"ronda {ronda}, parte {parte}: respuesta cortada por max_tokens_respuesta ({r.tokens_salida} tokens)")
+        if self.cortadas_seguidas >= 3:
+            raise RuntimeError(f"ronda {ronda}, parte {parte} [{id_modelo}]: tres turnos seguidos cortados por "
+                               f"max_tokens_respuesta={self.cfg['max_tokens_respuesta']}. Subí el techo.")
         cuerpo, acciones, puntos, texto_prop = self.parsear_turno(r.texto)
         cuerpo, truncado = truncar_palabras(cuerpo, self.max_palabras)
         if truncado:
