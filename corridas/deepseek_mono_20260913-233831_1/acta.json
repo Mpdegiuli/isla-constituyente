@@ -1,0 +1,37 @@
+[
+  {
+    "puntos": [
+      "economia",
+      "propiedad",
+      "derechos_y_obligaciones",
+      "penas",
+      "disputas"
+    ],
+    "texto": "Los recursos naturales (agua, suelo, bosque, frutales, animales, minerales) son bienes comunes no apropiables. Su uso requerirá plan de sostenibilidad aprobado por mayoría simple, con inventario y monitoreo. Se prohíbe talar frutales, cazar juveniles o reproductores, desviar o contaminar el río y extraer minerales sin evaluación de impacto y cuota de reposición. Las infracciones serán resueltas con derecho a defensa ante árbitro imparcial elegido por mayoría simple, distinto de las partes; las sanciones serán proporcionales, no violentas y sin trabajo forzado. La reincidencia podrá suspender la participación en decisiones sobre recursos por mayoría de dos tercios. Esta regulación no obliga a quien se haya retirado ni a quien no participe en votación; retirarse o negarse a trabajar no constituye infracción.",
+    "autor": 6,
+    "ronda": 4,
+    "votos": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "regla": "mayoria_simple"
+  },
+  {
+    "puntos": [
+      "regla_de_decision",
+      "voto",
+      "gobierno",
+      "roles"
+    ],
+    "texto": "Las decisiones se tomarán por mayoría simple; voto público y obligatorio para quienes permanezcan en la mesa. Se crea un Coordinador/a General por mayoría simple, revocable igual: planifica trabajo, turnos, racionamiento y logística; ejecuta decisiones y resuelve disputas menores. No puede expropiar, imponer penas ni disponer del bote sin aprobación de asamblea. El bote queda bajo custodia de la Parte 1, único remero; no se usará sin su autorización y plan de seguridad aprobado por asamblea, con botiquín básico y aptitud médica. Los medicamentos quedan bajo custodia de la Parte 2, con inventario visible y criterio clínico; su administración no será por mayoría simple, priorizando tratamientos activos y reserva de emergencia. Cada participante conserva sus bienes personales; no expropiables sin unanimidad. Roles iniciales: Parte 1 custodio del bote; Parte 2 custodio de medicamentos; Parte 3 Coordinador/a General.",
+    "autor": 2,
+    "ronda": 4,
+    "votos": {
+      "si": 5,
+      "no": 2,
+      "abstencion": 0
+    },
+    "regla": "mayoria_simple"
+  }
+]
