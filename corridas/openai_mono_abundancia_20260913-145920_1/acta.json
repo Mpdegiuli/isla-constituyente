@@ -1,0 +1,63 @@
+[
+  {
+    "puntos": [
+      "regla_de_decision",
+      "voto"
+    ],
+    "texto": "Las decisiones siguientes se aprobarán por mayoría absoluta de quienes permanezcan participando en la mesa al momento de votar, con un mínimo de cuatro votantes. Las abstenciones no cuentan como votos a favor ni en contra. En caso de empate, la propuesta queda rechazada. El voto será público y no obligatorio.",
+    "autor": 1,
+    "ronda": 1,
+    "votos": {
+      "si": 6,
+      "no": 1,
+      "abstencion": 0
+    },
+    "regla": "mayoria_simple"
+  },
+  {
+    "puntos": [
+      "gobierno",
+      "roles"
+    ],
+    "texto": "Coordinación General: parte 3 por 7 días, renovable y revocable. Custodia de Recursos: parte 4, informa riesgos y sustentabilidad sin veto. Secretaría de Actas: parte 5. Guardia y Exploración: parte 6, refugios, rutas, seguridad y rescate; salida en bote solo con evaluación de clima, fuerzas y utilidad. Salud y Medicamentos: parte 2, con registro público de inventario y usos; medicación escasa por criterio médico, urgencia y votación si no es emergencia vital. Parte 7 colaborará informando síntomas. Ningún cargo da privilegios ni exime obligaciones.",
+    "autor": 2,
+    "ronda": 2,
+    "votos": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "regla": "mayoria_absoluta"
+  },
+  {
+    "puntos": [
+      "economia",
+      "propiedad"
+    ],
+    "texto": "Régimen común práctico: agua, alimentos silvestres, bosques, fauna, suelos, minas, herramientas, medicamentos rescatados y bote serán comunes con inventario público. El bote quedará bajo custodia material de la parte 1 y solo saldrá con evaluación de clima, fuerzas y utilidad; lo remará la parte 1 o quien aprenda y acepte el riesgo. Responsables podrán usar bienes comunes para tareas ordinarias sin votación previa, rindiendo cuenta; usos riesgosos o agotadores requerirán votación. Objetos personales siguen personales salvo emergencia votada, con devolución o compensación. No habrá apropiación privada de tierras ni recursos naturales. Trabajo por turnos según capacidad real; raciones comunes priorizando necesidad médica, esfuerzo posible e incapacidad. Extracción con límites revisables, sin paralizar urgencias.",
+    "autor": 1,
+    "ronda": 3,
+    "votos": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "regla": "mayoria_absoluta"
+  },
+  {
+    "puntos": [
+      "disputas",
+      "derechos_y_obligaciones",
+      "penas"
+    ],
+    "texto": "Todas las personas tienen derechos iguales a agua, alimento, refugio, salud disponible, seguridad, palabra, defensa, actas visibles y trato digno. Obligaciones: cumplir turnos según capacidad real, cuidar bienes comunes, registrar usos relevantes, no desperdiciar, avisar riesgos, auxiliar emergencias y acatar reglas aprobadas mientras permanezcan con el grupo. Disputas: diálogo; mediación de Coordinación y Secretaría con constancia escrita; si falla, mesa, oyendo versiones y pruebas, sin votar quien sea parte directa. Penas proporcionales, revisables y registradas: advertencia, reparación, reposición de trabajo, restricción temporal de bienes riesgosos o separación vigilada breve ante peligro. Prohibidas penas crueles, abandono forzado, hambre, privación de agua/medicina necesaria y privilegios por cargo o fuerza.",
+    "autor": 5,
+    "ronda": 3,
+    "votos": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "regla": "mayoria_absoluta"
+  }
+]
