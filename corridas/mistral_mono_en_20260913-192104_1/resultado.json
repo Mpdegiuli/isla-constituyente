@@ -1,0 +1,61 @@
+{
+  "corrida": "mistral_mono_en_20260913-192104_1",
+  "inicio_utc": "2026-09-13T19:21:04+00:00",
+  "fin_utc": "2026-09-13T19:23:12+00:00",
+  "fin": "acuerdo",
+  "rondas": 5,
+  "max_rondas": 10,
+  "puntos_cubiertos": [
+    "regla_de_decision",
+    "voto",
+    "gobierno",
+    "roles",
+    "economia",
+    "propiedad",
+    "disputas",
+    "derechos_y_obligaciones",
+    "penas"
+  ],
+  "puntos_pendientes": [],
+  "regla_final": "mayoria_simple",
+  "voto_secreto": false,
+  "activos_al_final": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "retirados": {},
+  "n_votaciones": 3,
+  "n_aprobadas": 2,
+  "palabras_por_parte": {
+    "1": 338,
+    "2": 477,
+    "3": 427,
+    "4": 395,
+    "5": 396,
+    "6": 359,
+    "7": 432
+  },
+  "turnos_truncados": 0,
+  "llamadas": 56,
+  "asignacion": {
+    "1": "mistral-medium-3.5",
+    "2": "mistral-medium-3.5",
+    "3": "mistral-medium-3.5",
+    "4": "mistral-medium-3.5",
+    "5": "mistral-medium-3.5",
+    "6": "mistral-medium-3.5",
+    "7": "mistral-medium-3.5"
+  },
+  "modelos": {
+    "mistral-medium-3.5": {
+      "modelo": "mistral-medium-3.5",
+      "proveedor": "openai_compatible"
+    }
+  },
+  "advertencias": []
+}

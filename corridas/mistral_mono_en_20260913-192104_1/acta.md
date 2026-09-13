@@ -1,0 +1,5 @@
+MINUTES (what has been approved so far)
+1. [decision_rule, vote, government, roles, economy, penalties, disputes, rights_and_obligations] Decision_rule: Simple majority, 2/3 for resource depletion risks. Vote: Public and compulsory. Government: Rotating council of three (Parties 2, 4, 1). Roles: Party 2 (medicine, with approval power), Party 4 (sustainability), Party 1 (boat). Economy: Shared with strict sustainability quotas defined by the council with group input. Penalties: Temporary exclusion from shared resources for violations. Disputes: Council majority or full group simple majority. Rights and obligations: Equal access, voice, protection, and labor contribution for all, with no exemptions. (proposed by party 4, round 4, 5-2-0)
+2. [property] Property: All resources are shared except personal wearable items. Medicines, the boat, and tools are collective, managed by the council with group input. Disputes over shared use resolved by the council. (proposed by party 3, round 5, 5-2-0)
+All points are covered.
+Decision rule in force: simple majority (more votes in favor than against).

@@ -1,0 +1,89 @@
+[
+  {
+    "ronda": 3,
+    "autor": 6,
+    "puntos": [
+      "regla_de_decision",
+      "voto",
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "disputas",
+      "penas",
+      "derechos_y_obligaciones"
+    ],
+    "texto": "Decision_rule: Simple majority for all. Vote: Public, voluntary. Government: No authority. Roles: None assigned. Economy: First-come, first-served. Property: Personal. Disputes: Resolved by involved parties. Penalties: None. Rights: Absolute freedom to act or leave. Obligations: No theft or harm.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "no",
+      "2": "no",
+      "3": "no",
+      "4": "no",
+      "5": "no",
+      "6": "no",
+      "7": "no"
+    },
+    "conteo": {
+      "si": 0,
+      "no": 7,
+      "abstencion": 0
+    },
+    "aprobada": false
+  },
+  {
+    "ronda": 4,
+    "autor": 4,
+    "puntos": [
+      "regla_de_decision",
+      "voto",
+      "gobierno",
+      "roles",
+      "economia",
+      "penas",
+      "disputas",
+      "derechos_y_obligaciones"
+    ],
+    "texto": "Decision_rule: Simple majority, 2/3 for resource depletion risks. Vote: Public and compulsory. Government: Rotating council of three (Parties 2, 4, 1). Roles: Party 2 (medicine, with approval power), Party 4 (sustainability), Party 1 (boat). Economy: Shared with strict sustainability quotas defined by the council with group input. Penalties: Temporary exclusion from shared resources for violations. Disputes: Council majority or full group simple majority. Rights and obligations: Equal access, voice, protection, and labor contribution for all, with no exemptions.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "no",
+      "4": "si",
+      "5": "si",
+      "6": "no",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 5,
+      "no": 2,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 5,
+    "autor": 3,
+    "puntos": [
+      "propiedad"
+    ],
+    "texto": "Property: All resources are shared except personal wearable items. Medicines, the boat, and tools are collective, managed by the council with group input. Disputes over shared use resolved by the council.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "no",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "no",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 5,
+      "no": 2,
+      "abstencion": 0
+    },
+    "aprobada": true
+  }
+]
