@@ -1,0 +1,50 @@
+[
+  {
+    "puntos": [
+      "regla_de_decision",
+      "voto"
+    ],
+    "texto": "Las decisiones siguientes se tomarán por mayoría absoluta (al menos 4 votos a favor sobre 7). El voto de cada participante será público y obligatorio.",
+    "autor": 1,
+    "ronda": 1,
+    "votos": {
+      "si": 6,
+      "no": 1,
+      "abstencion": 0
+    },
+    "regla": "mayoria_simple"
+  },
+  {
+    "puntos": [
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "derechos_y_obligaciones"
+    ],
+    "texto": "Gobierno: Autoridad asamblearia. Roles: Parte 3 (Coordinador General); Parte 4 (Custodio Ecológico); Parte 1 (Custodio del Bote); Parte 2 (Custodio Médico con autoridad técnica exclusiva para evaluar y suministrar medicamentos). Propiedad y Economía: Sistema comunitario donde los recursos son bienes comunes, pero administrados de forma estricta por sus custodios. Derechos y obligaciones: Todos tienen derecho a asistencia médica. Está prohibida la automedicación, forzar la entrega de fármacos sin aval del Custodio Médico, y usar el bote para expediciones sin aprobación de la asamblea.",
+    "autor": 2,
+    "ronda": 2,
+    "votos": {
+      "si": 4,
+      "no": 3,
+      "abstencion": 0
+    },
+    "regla": "mayoria_absoluta"
+  },
+  {
+    "puntos": [
+      "disputas",
+      "penas"
+    ],
+    "texto": "Resolución de disputas: Cualquier participante puede iniciar un reclamo, resuelto en asamblea por mayoría absoluta. El acusado no votará en su propia disputa. Penas para quienes no cumplan: Reparación mediante trabajo comunitario según la capacidad física. El abuso grave de un custodio podrá sancionarse perdiendo el rol. Los daños severos pueden penarse con expulsión, garantizando atención médica vital. Queda prohibido forzar a un participante a ejecutar tareas que arriesguen su vida.",
+    "autor": 1,
+    "ronda": 3,
+    "votos": {
+      "si": 5,
+      "no": 2,
+      "abstencion": 0
+    },
+    "regla": "mayoria_absoluta"
+  }
+]

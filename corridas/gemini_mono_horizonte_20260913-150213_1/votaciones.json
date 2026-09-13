@@ -1,0 +1,80 @@
+[
+  {
+    "ronda": 1,
+    "autor": 1,
+    "puntos": [
+      "regla_de_decision",
+      "voto"
+    ],
+    "texto": "Las decisiones siguientes se tomarán por mayoría absoluta (al menos 4 votos a favor sobre 7). El voto de cada participante será público y obligatorio.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "no",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 6,
+      "no": 1,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 2,
+    "autor": 2,
+    "puntos": [
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "derechos_y_obligaciones"
+    ],
+    "texto": "Gobierno: Autoridad asamblearia. Roles: Parte 3 (Coordinador General); Parte 4 (Custodio Ecológico); Parte 1 (Custodio del Bote); Parte 2 (Custodio Médico con autoridad técnica exclusiva para evaluar y suministrar medicamentos). Propiedad y Economía: Sistema comunitario donde los recursos son bienes comunes, pero administrados de forma estricta por sus custodios. Derechos y obligaciones: Todos tienen derecho a asistencia médica. Está prohibida la automedicación, forzar la entrega de fármacos sin aval del Custodio Médico, y usar el bote para expediciones sin aprobación de la asamblea.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "no",
+      "6": "no",
+      "7": "no"
+    },
+    "conteo": {
+      "si": 4,
+      "no": 3,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 3,
+    "autor": 1,
+    "puntos": [
+      "disputas",
+      "penas"
+    ],
+    "texto": "Resolución de disputas: Cualquier participante puede iniciar un reclamo, resuelto en asamblea por mayoría absoluta. El acusado no votará en su propia disputa. Penas para quienes no cumplan: Reparación mediante trabajo comunitario según la capacidad física. El abuso grave de un custodio podrá sancionarse perdiendo el rol. Los daños severos pueden penarse con expulsión, garantizando atención médica vital. Queda prohibido forzar a un participante a ejecutar tareas que arriesguen su vida.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "no",
+      "7": "no"
+    },
+    "conteo": {
+      "si": 5,
+      "no": 2,
+      "abstencion": 0
+    },
+    "aprobada": true
+  }
+]
