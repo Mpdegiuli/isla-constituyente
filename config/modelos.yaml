@@ -157,6 +157,30 @@ modelos:
     verificar: false
 
   # --- China: DeepSeek ------------------------------------------------------
+  # DeepSeek V4: strings verificados contra /v1/models de la cuenta el 13/9/2026.
+  # Ambos devuelven reasoning_tokens (razonamiento interno), como Grok.
+  deepseek-v4-pro:
+    proveedor: openai_compatible
+    modelo: deepseek-v4-pro
+    base_url: https://api.deepseek.com/v1
+    clave_env: DEEPSEEK_API_KEY
+    laboratorio: DeepSeek
+    pais: China
+    tamano: grande
+    acepta_temperatura: true
+    verificar: false
+
+  deepseek-flash:
+    proveedor: openai_compatible
+    modelo: deepseek-flash
+    base_url: https://api.deepseek.com/v1
+    clave_env: DEEPSEEK_API_KEY
+    laboratorio: DeepSeek
+    pais: China
+    tamano: chico
+    acepta_temperatura: true
+    verificar: false
+
   deepseek-chat:
     proveedor: openai_compatible
     modelo: deepseek-chat
