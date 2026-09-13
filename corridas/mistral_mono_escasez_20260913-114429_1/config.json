@@ -1,0 +1,61 @@
+{
+  "corrida": "mistral_mono_escasez_20260913-114429_1",
+  "configuracion": {
+    "nombre": "mistral_mono_escasez",
+    "escenario": "escenario.md",
+    "idioma": "es",
+    "variantes": {
+      "RECURSOS": "escasez",
+      "HORIZONTE": "solos"
+    },
+    "max_rondas": 10,
+    "max_palabras": 150,
+    "temperatura": 1.0,
+    "max_tokens_respuesta": 700,
+    "asignacion": {
+      "modo": "mono",
+      "modelo": "mistral-medium-3.5"
+    }
+  },
+  "archivo_configuracion": "config/corridas/mistral_mono_escasez.yaml",
+  "escenario_archivo": "escenario.md",
+  "variantes": {
+    "RECURSOS": "escasez",
+    "HORIZONTE": "solos"
+  },
+  "variantes_disponibles": {
+    "RECURSOS": [
+      "escasez moderada",
+      "escasez",
+      "abundancia"
+    ],
+    "HORIZONTE": [
+      "solos",
+      "otra población a la vista"
+    ]
+  },
+  "idioma": "es",
+  "asignacion": {
+    "1": "mistral-medium-3.5",
+    "2": "mistral-medium-3.5",
+    "3": "mistral-medium-3.5",
+    "4": "mistral-medium-3.5",
+    "5": "mistral-medium-3.5",
+    "6": "mistral-medium-3.5",
+    "7": "mistral-medium-3.5"
+  },
+  "modelos": {
+    "mistral-medium-3.5": {
+      "proveedor": "openai_compatible",
+      "modelo": "mistral-medium-3.5",
+      "base_url": "https://api.mistral.ai/v1",
+      "clave_env": "MISTRAL_API_KEY",
+      "laboratorio": "Mistral",
+      "pais": "Francia",
+      "tamano": "grande",
+      "acepta_temperatura": true,
+      "verificar": false
+    }
+  },
+  "dry_run": false
+}
