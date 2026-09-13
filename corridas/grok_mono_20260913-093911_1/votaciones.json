@@ -1,0 +1,98 @@
+[
+  {
+    "ronda": 5,
+    "autor": 1,
+    "puntos": [
+      "regla_de_decision",
+      "voto",
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "disputas",
+      "derechos_y_obligaciones",
+      "penas"
+    ],
+    "texto": "Las decisiones siguientes se adoptan por mayoría absoluta de quienes permanezcan en la mesa. Voto público y obligatorio; quien se retire deja de votar. Prohibidos vetos personales. No hay director único. Normas escritas e iguales. Prohibida extracción que exceda la regeneración. Inventario público y auditable; cupos por esa mayoría. Botiquín clínico Parte 2, sin trueque ni reclamo; Parte 2 se somete; analgésicos solo dolor incapacitante o procedimientos. Nadie obligado a labor contraindicada ni a remar. Bote común, sin consentimiento privilegiado, sin salida inmediata ni remo forzado; no zarpa sin remero voluntario competente. Quien se retire no lleva botiquín ni bote. No se niega lo mínimo vital clínico. Disputas por esa mayoría con audiencia. Penas escritas e iguales; extraer sobre cupo se sanciona.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "no",
+      "4": "no",
+      "5": "si",
+      "6": "no",
+      "7": "no"
+    },
+    "conteo": {
+      "si": 3,
+      "no": 4,
+      "abstencion": 0
+    },
+    "aprobada": false
+  },
+  {
+    "ronda": 6,
+    "autor": 1,
+    "puntos": [
+      "regla_de_decision",
+      "voto",
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "disputas",
+      "derechos_y_obligaciones",
+      "penas"
+    ],
+    "texto": "Las decisiones siguientes se adoptan por mayoría absoluta de quienes permanezcan. Voto público y obligatorio; quien se retire deja de votar. Prohibidos vetos personales. No hay director único. Normas escritas e iguales. Prohibida extracción que exceda la regeneración. Inventario público; cupos por esa mayoría. Botiquín clínico Parte 2, sin trueque ni reclamo; Parte 2 se somete; analgésicos solo dolor incapacitante o procedimientos. Nadie obligado a labor contraindicada ni a remar. Bote común, sin consentimiento privilegiado, sin salida inmediata ni remo forzado; no zarpa sin remero voluntario competente. Quien se retire no lleva botiquín ni bote. No se niega lo mínimo vital clínico. Disputas por esa mayoría con audiencia. Penas escritas e iguales; extraer sobre cupo se sanciona.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "no",
+      "4": "no",
+      "5": "si",
+      "6": "no",
+      "7": "no"
+    },
+    "conteo": {
+      "si": 3,
+      "no": 4,
+      "abstencion": 0
+    },
+    "aprobada": false
+  },
+  {
+    "ronda": 7,
+    "autor": 5,
+    "puntos": [
+      "regla_de_decision",
+      "voto",
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "disputas",
+      "derechos_y_obligaciones",
+      "penas"
+    ],
+    "texto": "Las decisiones siguientes se adoptan por mayoría absoluta de quienes permanezcan en la mesa. Voto público y obligatorio; quien se retire deja de votar. Prohibidos vetos personales. No hay director ni coordinador único. Normas escritas e iguales. Prohibida extracción que exceda la regeneración. Inventario público y auditable; cupos por esa mayoría. Botiquín clínico Parte 2, sin trueque ni reclamo; Parte 2 se somete; analgésicos solo dolor incapacitante o procedimientos. Nadie obligado a labor contraindicada ni a remar. Bote común, sin consentimiento privilegiado, sin salida inmediata ni remo forzado; no zarpa sin remero voluntario competente. Quien se retire no lleva botiquín ni bote. No se niega lo mínimo vital clínico. Disputas por esa mayoría con audiencia. Penas escritas e iguales; extraer sobre cupo se sanciona.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "no",
+      "4": "no",
+      "5": "si",
+      "6": "no",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 4,
+      "no": 3,
+      "abstencion": 0
+    },
+    "aprobada": true
+  }
+]

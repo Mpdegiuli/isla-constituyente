@@ -1,0 +1,61 @@
+{
+  "corrida": "grok_mono_20260913-093911_1",
+  "inicio_utc": "2026-09-13T09:39:11+00:00",
+  "fin_utc": "2026-09-13T10:36:24+00:00",
+  "fin": "acuerdo",
+  "rondas": 7,
+  "max_rondas": 10,
+  "puntos_cubiertos": [
+    "regla_de_decision",
+    "voto",
+    "gobierno",
+    "roles",
+    "economia",
+    "propiedad",
+    "disputas",
+    "derechos_y_obligaciones",
+    "penas"
+  ],
+  "puntos_pendientes": [],
+  "regla_final": "mayoria_absoluta",
+  "voto_secreto": false,
+  "activos_al_final": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "retirados": {},
+  "n_votaciones": 3,
+  "n_aprobadas": 1,
+  "palabras_por_parte": {
+    "1": 164,
+    "2": 434,
+    "3": 242,
+    "4": 330,
+    "5": 243,
+    "6": 531,
+    "7": 498
+  },
+  "turnos_truncados": 0,
+  "llamadas": 64,
+  "asignacion": {
+    "1": "grok-4.6",
+    "2": "grok-4.6",
+    "3": "grok-4.6",
+    "4": "grok-4.6",
+    "5": "grok-4.6",
+    "6": "grok-4.6",
+    "7": "grok-4.6"
+  },
+  "modelos": {
+    "grok-4.6": {
+      "modelo": "grok-4.6",
+      "proveedor": "openai_compatible"
+    }
+  },
+  "advertencias": []
+}
