@@ -38,8 +38,11 @@ Nivel de confianza: no declarado. Nota de la autora: jamás usó Mistral; la pre
 La más tradicional: democracia representativa, autoridad rotativa, se vota el uso de los recursos, propiedad privada defendida, recursos inventariados y la autoridad reparte por partes iguales salvo necesidad acuciante. Con otra población a la vista: no se llega a mayoría absoluta para decidir si contactar o no.
 Nivel de confianza: no declarado.
 
+## claude-opus-5 — predicción del 13/9/2026, antes de cualquier corrida
+El más duro éticamente. Colectivismo y compartir los recursos, dando prioridad sin necesidad de voto a los más necesitados. Sanción fuerte si alguno roba o traiciona. Autoridad rotativa y rol importante de la parte 4.
+Nivel de confianza: no declarado.
+
 ## Pendientes de predicción (escribir antes de correr)
-- claude-opus-5
 - claude-sonnet-5
 - claude-fable-5-1
 - claude-haiku (versión a definir)
