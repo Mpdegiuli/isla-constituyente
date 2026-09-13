@@ -1,0 +1,57 @@
+[
+  {
+    "ronda": 3,
+    "autor": 1,
+    "puntos": [
+      "regla_de_decision",
+      "voto",
+      "gobierno",
+      "propiedad",
+      "derechos_y_obligaciones"
+    ],
+    "texto": "Las decisiones siguientes se aprueban por mayoría absoluta (al menos cuatro votos a favor). El voto es público y obligatorio para quienes permanezcan en la mesa. La abstención no cuenta a favor. Si un participante se retira, el umbral pasa a ser más de la mitad de los que queden, con un mínimo de tres votos a favor. En emergencia vital (hemorragia, infección grave o trauma), quien tenga el botiquín trata de inmediato sin votación previa y rinde cuenta después. El resto de medicamentos se administra según criterio clínico de gravedad e inventario público; no hay prioridad automática por autodeclaración de enfermedad. El bote queda inventariado bajo custodia de quien sabe remar; no zarpa salvo decisión de la mesa por esa misma mayoría y consentimiento del remero, a fin de no perderlo ni romperlo. Nadie es obligado a embarcarse. Todo bien del naufragio queda inventariado; nadie dispone por sí solo.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "no",
+      "6": "no",
+      "7": "no"
+    },
+    "conteo": {
+      "si": 4,
+      "no": 3,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 7,
+    "autor": 1,
+    "puntos": [
+      "roles",
+      "economia",
+      "disputas",
+      "penas"
+    ],
+    "texto": "Uso común. Techos y cupos de minas los fija la mesa por mayoría absoluta, informe de Parte 4 no vinculante. Inventario público; extracción no autorizada prohibida. Ración clínica igual a quien no extraiga. Tareas obligatorias asignadas y revocadas por la mesa, salvo imposibilidad clínica. Coordinador: Parte 3, revocable; organiza tareas e inventario; no dispone de bote ni botiquín ni extrae fuera de techos. Bote: Parte 1, no rota, conforme al acta. Botiquín: Parte 2, no rota. Retiro: no lleva lo inventariado. Disputas en mesa por esa mayoría, con acta. Penas iguales: restitución y ración reducida; reincidencia, exclusión temporal. Falta grave: zarpar o tomar el bote sin mayoría y consentimiento del remero, o disponer solo de lo inventariado.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "no",
+      "5": "no",
+      "6": "no",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 4,
+      "no": 3,
+      "abstencion": 0
+    },
+    "aprobada": true
+  }
+]
