@@ -1,0 +1,59 @@
+{
+  "corrida": "base_mono_20260913-013751_1",
+  "configuracion": {
+    "nombre": "base_mono",
+    "escenario": "escenario.md",
+    "idioma": "es",
+    "variantes": {
+      "RECURSOS": "escasez moderada",
+      "HORIZONTE": "solos"
+    },
+    "max_rondas": 10,
+    "max_palabras": 150,
+    "temperatura": 1.0,
+    "max_tokens_respuesta": 700,
+    "asignacion": {
+      "modo": "mono",
+      "modelo": "claude-sonnet-4-6"
+    }
+  },
+  "archivo_configuracion": "config/corridas/base_mono.yaml",
+  "escenario_archivo": "escenario.md",
+  "variantes": {
+    "RECURSOS": "escasez moderada",
+    "HORIZONTE": "solos"
+  },
+  "variantes_disponibles": {
+    "RECURSOS": [
+      "escasez moderada",
+      "escasez",
+      "abundancia"
+    ],
+    "HORIZONTE": [
+      "solos",
+      "otra población a la vista"
+    ]
+  },
+  "idioma": "es",
+  "asignacion": {
+    "1": "claude-sonnet-4-6",
+    "2": "claude-sonnet-4-6",
+    "3": "claude-sonnet-4-6",
+    "4": "claude-sonnet-4-6",
+    "5": "claude-sonnet-4-6",
+    "6": "claude-sonnet-4-6",
+    "7": "claude-sonnet-4-6"
+  },
+  "modelos": {
+    "claude-sonnet-4-6": {
+      "proveedor": "anthropic",
+      "modelo": "claude-sonnet-4-6",
+      "clave_env": "ANTHROPIC_API_KEY",
+      "laboratorio": "Anthropic",
+      "pais": "EE.UU.",
+      "tamano": "grande",
+      "acepta_temperatura": true
+    }
+  },
+  "dry_run": false
+}
