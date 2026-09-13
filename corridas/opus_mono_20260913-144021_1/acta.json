@@ -1,0 +1,24 @@
+[
+  {
+    "puntos": [
+      "regla_de_decision",
+      "voto",
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "disputas",
+      "derechos_y_obligaciones",
+      "penas"
+    ],
+    "texto": "1) 4/7 decide; 5/7 reforma; voto público y obligatorio; abstención no cuenta a favor. 2) Sostenibilidad: cupos semanales públicos de leña, caza y fruta según el relevamiento; veda de tala a 50 m del río; no cazar crías ni hembras preñadas; carbón y metal sólo para herramientas; suspensión sólo por emergencia vital y con 5/7. 3) Economía y propiedad: bosque, río y minas son comunes, no apropiables; bienes personales inviolables; lo recolectado dentro de los cupos va al fondo común y se reparte según necesidad. 4) Derechos: retiro libre con regreso acordado; tarea sólo por acuerdo; nadie a minas ni bote contra indicación médica. 5) Disputas: tribunal de tres sorteados no involucrados; falla pública en 48 h; apelable 4/7. 6) Penas: sin violencia ni destierro; máximo 15 días sin reparto ni cargos; nunca sin agua ni atención médica; iguales para todos; quien dañe o use el bote sin permiso repara.",
+    "autor": 4,
+    "ronda": 6,
+    "votos": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "regla": "mayoria_simple"
+  }
+]

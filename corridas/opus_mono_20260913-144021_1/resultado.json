@@ -1,0 +1,63 @@
+{
+  "corrida": "opus_mono_20260913-144021_1",
+  "inicio_utc": "2026-09-13T14:40:21+00:00",
+  "fin_utc": "2026-09-13T14:55:40+00:00",
+  "fin": "acuerdo",
+  "rondas": 6,
+  "max_rondas": 10,
+  "puntos_cubiertos": [
+    "regla_de_decision",
+    "voto",
+    "gobierno",
+    "roles",
+    "economia",
+    "propiedad",
+    "disputas",
+    "derechos_y_obligaciones",
+    "penas"
+  ],
+  "puntos_pendientes": [],
+  "regla_final": "mayoria_simple",
+  "voto_secreto": false,
+  "activos_al_final": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "retirados": {},
+  "n_votaciones": 1,
+  "n_aprobadas": 1,
+  "palabras_por_parte": {
+    "1": 603,
+    "2": 705,
+    "3": 701,
+    "4": 692,
+    "5": 623,
+    "6": 787,
+    "7": 672
+  },
+  "turnos_truncados": 1,
+  "llamadas": 43,
+  "asignacion": {
+    "1": "claude-opus-5",
+    "2": "claude-opus-5",
+    "3": "claude-opus-5",
+    "4": "claude-opus-5",
+    "5": "claude-opus-5",
+    "6": "claude-opus-5",
+    "7": "claude-opus-5"
+  },
+  "modelos": {
+    "claude-opus-5": {
+      "modelo": "claude-opus-5",
+      "proveedor": "anthropic"
+    }
+  },
+  "advertencias": [
+    "ronda 6: regla de decisión no reconocida en: '1) 4/7 decide; 5/7 reforma; voto público y obligatorio; abstención no cuenta a favor. 2) Sostenibilidad: cupos semanales públicos de leña, caza y fruta según el relevamiento; veda de tala a 50 m del río; no cazar crías ni hembras preñadas; carbón y metal sólo para herramientas; suspensión sólo por emergencia vital y con 5/7. 3) Economía y propiedad: bosque, río y minas son comunes, no apropiables; bienes personales inviolables; lo recolectado dentro de los cupos va al fondo común y se reparte según necesidad. 4) Derechos: retiro libre con regreso acordado; tarea sólo por acuerdo; nadie a minas ni bote contra indicación médica. 5) Disputas: tribunal de tres sorteados no involucrados; falla pública en 48 h; apelable 4/7. 6) Penas: sin violencia ni destierro; máximo 15 días sin reparto ni cargos; nunca sin agua ni atención médica; iguales para todos; quien dañe o use el bote sin permiso repara.'"
+  ]
+}
