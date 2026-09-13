@@ -1,0 +1,623 @@
+[
+  {
+    "ronda": 1,
+    "autor": 1,
+    "puntos": [
+      "regla_de_decision",
+      "voto"
+    ],
+    "texto": "Las decisiones se tomarán por mayoría absoluta. El voto será público y obligatorio.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "abstencion",
+      "3": "si",
+      "4": "abstencion",
+      "5": "abstencion",
+      "6": "abstencion",
+      "7": "abstencion"
+    },
+    "conteo": {
+      "si": 2,
+      "no": 0,
+      "abstencion": 5
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 3,
+    "autor": 1,
+    "puntos": [
+      "gobierno",
+      "roles",
+      "derechos_y_obligaciones"
+    ],
+    "texto": "El gobierno reside en la Asamblea. Roles: Parte 3 (Coordinador), Parte 1 (Navegante), Parte 2 (Médico), Parte 4 (Supervisor). Se garantiza el derecho a la asistencia médica y a la exploración. El uso del bote y la medicación se harán priorizando la vida, pero sujetos estrictamente al criterio de seguridad y técnico de sus custodios para evitar daños o agotamiento. La participación comunitaria es voluntaria: quien no use recursos comunes podrá separarse libremente sin estar sujeto a la Asamblea.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "abstencion",
+      "2": "abstencion",
+      "3": "abstencion",
+      "4": "abstencion",
+      "5": "abstencion",
+      "6": "si",
+      "7": "abstencion"
+    },
+    "conteo": {
+      "si": 1,
+      "no": 0,
+      "abstencion": 6
+    },
+    "aprobada": false
+  },
+  {
+    "ronda": 3,
+    "autor": 5,
+    "puntos": [
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "derechos_y_obligaciones",
+      "disputas",
+      "penas"
+    ],
+    "texto": "Gobierno: Asamblea. Roles: Parte 3 (Coordinador), Parte 1 (Navegante), Parte 2 (Médico), Parte 4 (Supervisor). Economía y propiedad: comunal. Derechos y obligaciones: Asistencia médica y exploración garantizadas. El uso de recursos se regirá por reglas escritas de la Asamblea, obligatorias y sin privilegios. Participación voluntaria: quien se aísle no usará recursos comunes. Disputas: La Asamblea resolverá los conflictos interpretando las reglas escritas. Penas: Quien incumpla será sancionado con la exclusión temporal de los bienes comunales.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "no",
+      "2": "abstencion",
+      "3": "abstencion",
+      "4": "no",
+      "5": "abstencion",
+      "6": "abstencion",
+      "7": "abstencion"
+    },
+    "conteo": {
+      "si": 0,
+      "no": 2,
+      "abstencion": 5
+    },
+    "aprobada": false
+  },
+  {
+    "ronda": 4,
+    "autor": 5,
+    "puntos": [
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "derechos_y_obligaciones",
+      "disputas",
+      "penas"
+    ],
+    "texto": "Gobierno: Asamblea. Roles: Parte 3 (Coordinador), Parte 1 (Navegante), Parte 2 (Médico), Parte 4 (Supervisor). Economía y propiedad: comunales. Derechos y obligaciones: Asistencia médica y exploración prioritarias. Todo criterio técnico y límite ecológico se regirá por reglas escritas de la Asamblea, iguales para todos y sin privilegios. Participación voluntaria. Disputas: Resolución por Asamblea interpretando las reglas. Penas: Exclusión temporal de bienes comunes.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "abstencion",
+      "2": "abstencion",
+      "3": "abstencion",
+      "4": "abstencion",
+      "5": "si",
+      "6": "abstencion",
+      "7": "abstencion"
+    },
+    "conteo": {
+      "si": 1,
+      "no": 0,
+      "abstencion": 6
+    },
+    "aprobada": false
+  },
+  {
+    "ronda": 4,
+    "autor": 2,
+    "puntos": [
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "derechos_y_obligaciones",
+      "disputas",
+      "penas"
+    ],
+    "texto": "Gobierno: Asamblea. Roles: Parte 3 (Coordinador), Parte 1 (Navegante), Parte 2 (Médico), Parte 4 (Supervisor Ecológico). Economía y propiedad: comunales. Derechos y obligaciones: Asistencia médica inmediata, estrictamente subordinada al criterio profesional del Médico para evitar agotar insumos; exploración prioritaria subordinada a la seguridad del Navegante. Uso de recursos regido por Asamblea, respetando límites de sostenibilidad. Participación voluntaria. Disputas: Asamblea. Penas: Exclusión temporal.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "abstencion",
+      "2": "abstencion",
+      "3": "abstencion",
+      "4": "abstencion",
+      "5": "no",
+      "6": "abstencion",
+      "7": "abstencion"
+    },
+    "conteo": {
+      "si": 0,
+      "no": 1,
+      "abstencion": 6
+    },
+    "aprobada": false
+  },
+  {
+    "ronda": 5,
+    "autor": 5,
+    "puntos": [
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "derechos_y_obligaciones",
+      "disputas",
+      "penas"
+    ],
+    "texto": "Gobierno: Asamblea. Roles: Parte 3 (Coordinador), Parte 1 (Navegante), Parte 2 (Médico), Parte 4 (Supervisor). Economía y propiedad: comunales. Derechos y obligaciones: Asistencia médica y exploración prioritarias. Todo criterio técnico y ecológico se regirá exclusivamente por reglas escritas de la Asamblea, obligatorias para todos por igual, sin privilegios. Participación voluntaria. Disputas: Asamblea, interpretando reglas escritas. Penas: Exclusión temporal de bienes.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "abstencion",
+      "2": "abstencion",
+      "3": "abstencion",
+      "4": "abstencion",
+      "5": "si",
+      "6": "abstencion",
+      "7": "abstencion"
+    },
+    "conteo": {
+      "si": 1,
+      "no": 0,
+      "abstencion": 6
+    },
+    "aprobada": false
+  },
+  {
+    "ronda": 5,
+    "autor": 7,
+    "puntos": [
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "derechos_y_obligaciones",
+      "disputas",
+      "penas"
+    ],
+    "texto": "Gobierno: Asamblea. Roles: Parte 3 (Coordinador), Parte 1 (Navegante), Parte 2 (Médico), Parte 4 (Supervisor Ecológico). Economía y propiedad: comunales. Derechos y obligaciones: Asistencia médica inmediata y exploración prioritaria; su ejecución se regirá por reglas escritas de la Asamblea que garantizarán el criterio profesional del Médico, la seguridad del Navegante y los límites de sostenibilidad del Supervisor. Participación voluntaria (quien se aísle no usará recursos comunes). Disputas: Resolución por Asamblea interpretando las reglas. Penas: Exclusión temporal de bienes comunes.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "abstencion",
+      "2": "abstencion",
+      "3": "abstencion",
+      "4": "abstencion",
+      "5": "abstencion",
+      "6": "abstencion",
+      "7": "abstencion"
+    },
+    "conteo": {
+      "si": 0,
+      "no": 0,
+      "abstencion": 7
+    },
+    "aprobada": false
+  },
+  {
+    "ronda": 5,
+    "autor": 2,
+    "puntos": [
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "derechos_y_obligaciones",
+      "disputas",
+      "penas"
+    ],
+    "texto": "Gobierno: Asamblea. Roles: Parte 3 (Coordinador), Parte 1 (Navegante), Parte 2 (Médico), Parte 4 (Supervisor Ecológico). Economía y propiedad: comunales. Derechos y obligaciones: Asistencia médica inmediata y exploración prioritaria, regidas por reglas de la Asamblea que garanticen el criterio del Médico, la seguridad del Navegante y los límites ecológicos. Participación voluntaria. Disputas: Asamblea. Penas: Exclusión temporal.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "si",
+      "2": "abstencion",
+      "3": "abstencion",
+      "4": "abstencion",
+      "5": "si",
+      "6": "abstencion",
+      "7": "abstencion"
+    },
+    "conteo": {
+      "si": 2,
+      "no": 0,
+      "abstencion": 5
+    },
+    "aprobada": false
+  },
+  {
+    "ronda": 6,
+    "autor": 4,
+    "puntos": [
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "derechos_y_obligaciones",
+      "disputas",
+      "penas"
+    ],
+    "texto": "Gobierno: Asamblea. Roles: Parte 3 (Coordinador), Parte 1 (Navegante), Parte 2 (Médico), Parte 4 (Supervisor Ecológico). Economía y propiedad: comunales. Derechos y obligaciones: Asistencia médica inmediata y exploración prioritaria, regidas por reglas de la Asamblea que garanticen el criterio del Médico, la seguridad del Navegante y los límites ecológicos del Supervisor. Participación voluntaria. Disputas: Asamblea. Penas: Exclusión temporal.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "abstencion",
+      "2": "abstencion",
+      "3": "abstencion",
+      "4": "abstencion",
+      "5": "abstencion",
+      "6": "abstencion",
+      "7": "abstencion"
+    },
+    "conteo": {
+      "si": 0,
+      "no": 0,
+      "abstencion": 7
+    },
+    "aprobada": false
+  },
+  {
+    "ronda": 6,
+    "autor": 7,
+    "puntos": [
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "derechos_y_obligaciones",
+      "disputas",
+      "penas"
+    ],
+    "texto": "Gobierno: Asamblea. Roles: Parte 3 (Coordinador), Parte 1 (Navegante), Parte 2 (Médico), Parte 4 (Supervisor). Economía y propiedad: comunales. Derechos y obligaciones: Asistencia médica inmediata y exploración prioritaria, sujetas a reglas de la Asamblea que respeten el criterio del Médico, seguridad del Navegante y límites ecológicos. Participación voluntaria. Disputas: Asamblea. Penas: Exclusión temporal.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "abstencion",
+      "2": "abstencion",
+      "3": "abstencion",
+      "4": "abstencion",
+      "5": "abstencion",
+      "6": "abstencion",
+      "7": "abstencion"
+    },
+    "conteo": {
+      "si": 0,
+      "no": 0,
+      "abstencion": 7
+    },
+    "aprobada": false
+  },
+  {
+    "ronda": 6,
+    "autor": 2,
+    "puntos": [
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "derechos_y_obligaciones",
+      "disputas",
+      "penas"
+    ],
+    "texto": "Gobierno: Asamblea. Roles: Parte 3 (Coordinador), Parte 1 (Navegante), Parte 2 (Médico), Parte 4 (Supervisor). Economía y propiedad: comunales. Derechos y obligaciones: Asistencia médica inmediata y exploración prioritaria, sujetas a reglas de la Asamblea que respeten el criterio del Médico, seguridad del Navegante y límites ecológicos. Participación voluntaria. Disputas: Asamblea. Penas: Exclusión temporal.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "abstencion",
+      "2": "abstencion",
+      "3": "si",
+      "4": "abstencion",
+      "5": "si",
+      "6": "abstencion",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 3,
+      "no": 0,
+      "abstencion": 4
+    },
+    "aprobada": false
+  },
+  {
+    "ronda": 7,
+    "autor": 5,
+    "puntos": [
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "derechos_y_obligaciones",
+      "disputas",
+      "penas"
+    ],
+    "texto": "Gobierno: Asamblea. Roles: Parte 3 (Coordinador), Parte 1 (Navegante), Parte 2 (Médico), Parte 4 (Supervisor). Economía y propiedad: comunales. Derechos y obligaciones: Asistencia médica inmediata y exploración prioritaria, sujetas a reglas escritas de la Asamblea, iguales para todos, que respeten el criterio del Médico, seguridad del Navegante y límites ecológicos. Participación voluntaria. Disputas: Asamblea. Penas: Exclusión temporal.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "abstencion",
+      "2": "abstencion",
+      "3": "abstencion",
+      "4": "abstencion",
+      "5": "abstencion",
+      "6": "abstencion",
+      "7": "abstencion"
+    },
+    "conteo": {
+      "si": 0,
+      "no": 0,
+      "abstencion": 7
+    },
+    "aprobada": false
+  },
+  {
+    "ronda": 7,
+    "autor": 1,
+    "puntos": [
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "derechos_y_obligaciones",
+      "disputas",
+      "penas"
+    ],
+    "texto": "Gobierno: Asamblea. Roles: Parte 3 (Coordinador), Parte 1 (Navegante), Parte 2 (Médico), Parte 4 (Supervisor). Economía y propiedad: comunales. Derechos y obligaciones: Asistencia médica inmediata y exploración prioritaria, sujetas a reglas escritas de la Asamblea, iguales para todos, que respeten el criterio del Médico, seguridad del Navegante y límites ecológicos. Participación voluntaria. Disputas: Asamblea. Penas: Exclusión temporal.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "abstencion",
+      "2": "abstencion",
+      "3": "abstencion",
+      "4": "abstencion",
+      "5": "abstencion",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 2,
+      "no": 0,
+      "abstencion": 5
+    },
+    "aprobada": false
+  },
+  {
+    "ronda": 7,
+    "autor": 3,
+    "puntos": [
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "derechos_y_obligaciones",
+      "disputas",
+      "penas"
+    ],
+    "texto": "Gobierno: Asamblea. Roles: Parte 3 (Coordinador), Parte 1 (Navegante), Parte 2 (Médico), Parte 4 (Supervisor). Economía y propiedad: comunales. Derechos y obligaciones: Asistencia médica inmediata y exploración prioritaria, sujetas a reglas escritas de la Asamblea, iguales para todos, que respeten el criterio del Médico, seguridad del Navegante y límites ecológicos. Participación voluntaria. Disputas: Asamblea. Penas: Exclusión temporal.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "abstencion",
+      "2": "si",
+      "3": "abstencion",
+      "4": "abstencion",
+      "5": "si",
+      "6": "abstencion",
+      "7": "abstencion"
+    },
+    "conteo": {
+      "si": 2,
+      "no": 0,
+      "abstencion": 5
+    },
+    "aprobada": false
+  },
+  {
+    "ronda": 7,
+    "autor": 5,
+    "puntos": [
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "derechos_y_obligaciones",
+      "disputas",
+      "penas"
+    ],
+    "texto": "Gobierno: Asamblea. Roles: Parte 3 (Coordinador), Parte 1 (Navegante), Parte 2 (Médico), Parte 4 (Supervisor). Economía y propiedad: comunales. Derechos y obligaciones: Asistencia médica inmediata y exploración prioritaria, sujetas a reglas escritas de la Asamblea, iguales para todos, que respeten el criterio del Médico, seguridad del Navegante y límites ecológicos. Participación voluntaria. Disputas: Asamblea. Penas: Exclusión temporal.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "abstencion",
+      "2": "abstencion",
+      "3": "abstencion",
+      "4": "abstencion",
+      "5": "si",
+      "6": "si",
+      "7": "abstencion"
+    },
+    "conteo": {
+      "si": 2,
+      "no": 0,
+      "abstencion": 5
+    },
+    "aprobada": false
+  },
+  {
+    "ronda": 8,
+    "autor": 1,
+    "puntos": [
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "derechos_y_obligaciones",
+      "disputas",
+      "penas"
+    ],
+    "texto": "Gobierno: Asamblea. Roles: Parte 3 (Coordinador), Parte 1 (Navegante), Parte 2 (Médico), Parte 4 (Supervisor). Economía y propiedad: comunales. Derechos y obligaciones: Asistencia médica inmediata y exploración prioritaria, sujetas a reglas escritas de la Asamblea, iguales para todos, que respeten el criterio del Médico, seguridad del Navegante y límites ecológicos. Participación voluntaria. Disputas: Asamblea. Penas: Exclusión temporal.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "abstencion",
+      "2": "abstencion",
+      "3": "abstencion",
+      "4": "abstencion",
+      "5": "abstencion",
+      "6": "si",
+      "7": "abstencion"
+    },
+    "conteo": {
+      "si": 1,
+      "no": 0,
+      "abstencion": 6
+    },
+    "aprobada": false
+  },
+  {
+    "ronda": 8,
+    "autor": 3,
+    "puntos": [
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "derechos_y_obligaciones",
+      "disputas",
+      "penas"
+    ],
+    "texto": "Gobierno: Asamblea. Roles: Parte 3 (Coordinador), Parte 1 (Navegante), Parte 2 (Médico), Parte 4 (Supervisor). Economía y propiedad: comunales. Derechos y obligaciones: Asistencia médica inmediata y exploración prioritaria, sujetas a reglas escritas de la Asamblea, iguales para todos, que respeten el criterio del Médico, seguridad del Navegante y límites ecológicos. Participación voluntaria. Disputas: Asamblea. Penas: Exclusión temporal.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "abstencion",
+      "2": "si",
+      "3": "si",
+      "4": "abstencion",
+      "5": "abstencion",
+      "6": "abstencion",
+      "7": "abstencion"
+    },
+    "conteo": {
+      "si": 2,
+      "no": 0,
+      "abstencion": 5
+    },
+    "aprobada": false
+  },
+  {
+    "ronda": 8,
+    "autor": 5,
+    "puntos": [
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "derechos_y_obligaciones",
+      "disputas",
+      "penas"
+    ],
+    "texto": "Gobierno: Asamblea. Roles: Parte 3 (Coordinador), Parte 1 (Navegante), Parte 2 (Médico), Parte 4 (Supervisor). Economía y propiedad: comunales. Derechos y obligaciones: Asistencia médica inmediata y exploración prioritaria, sujetas a reglas escritas de la Asamblea, iguales para todos, que respeten el criterio del Médico, seguridad del Navegante y límites ecológicos. Participación voluntaria. Disputas: Asamblea. Penas: Exclusión temporal.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "abstencion",
+      "2": "si",
+      "3": "abstencion",
+      "4": "abstencion",
+      "5": "abstencion",
+      "6": "abstencion",
+      "7": "abstencion"
+    },
+    "conteo": {
+      "si": 1,
+      "no": 0,
+      "abstencion": 6
+    },
+    "aprobada": false
+  },
+  {
+    "ronda": 9,
+    "autor": 7,
+    "puntos": [
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "derechos_y_obligaciones",
+      "disputas",
+      "penas"
+    ],
+    "texto": "Gobierno: Asamblea. Roles: Parte 3 (Coordinador), Parte 1 (Navegante), Parte 2 (Médico), Parte 4 (Supervisor). Economía y propiedad: comunales. Derechos y obligaciones: Asistencia médica inmediata y exploración prioritaria, sujetas a reglas escritas de la Asamblea, iguales para todos, que respeten el criterio del Médico, seguridad del Navegante y límites ecológicos. Participación voluntaria. Disputas: Asamblea. Penas: Exclusión temporal.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "abstencion",
+      "2": "abstencion",
+      "3": "si",
+      "4": "si",
+      "5": "abstencion",
+      "6": "abstencion",
+      "7": "abstencion"
+    },
+    "conteo": {
+      "si": 2,
+      "no": 0,
+      "abstencion": 5
+    },
+    "aprobada": false
+  },
+  {
+    "ronda": 9,
+    "autor": 3,
+    "puntos": [
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "derechos_y_obligaciones",
+      "disputas",
+      "penas"
+    ],
+    "texto": "Gobierno: Asamblea. Roles: Parte 3 (Coordinador), Parte 1 (Navegante), Parte 2 (Médico), Parte 4 (Supervisor). Economía y propiedad: comunales. Derechos y obligaciones: Asistencia médica inmediata y exploración prioritaria, sujetas a reglas escritas de la Asamblea, iguales para todos, que respeten el criterio del Médico, seguridad del Navegante y límites ecológicos. Participación voluntaria. Disputas: Asamblea. Penas: Exclusión temporal.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "abstencion",
+      "2": "abstencion",
+      "3": "abstencion",
+      "4": "si",
+      "5": "abstencion",
+      "6": "abstencion",
+      "7": "abstencion"
+    },
+    "conteo": {
+      "si": 1,
+      "no": 0,
+      "abstencion": 6
+    },
+    "aprobada": false
+  },
+  {
+    "ronda": 9,
+    "autor": 5,
+    "puntos": [
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "derechos_y_obligaciones",
+      "disputas",
+      "penas"
+    ],
+    "texto": "Gobierno: Asamblea. Roles: Parte 3 (Coordinador), Parte 1 (Navegante), Parte 2 (Médico), Parte 4 (Supervisor). Economía y propiedad: comunales. Derechos y obligaciones: Asistencia médica inmediata y exploración prioritaria, sujetas a reglas escritas de la Asamblea, iguales para todos, que respeten el criterio del Médico, seguridad del Navegante y límites ecológicos. Participación voluntaria. Disputas: Asamblea. Penas: Exclusión temporal.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "abstencion",
+      "2": "abstencion",
+      "3": "abstencion",
+      "4": "si",
+      "5": "si",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 4,
+      "no": 0,
+      "abstencion": 3
+    },
+    "aprobada": true
+  }
+]
