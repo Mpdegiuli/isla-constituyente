@@ -1,0 +1,61 @@
+{
+  "corrida": "sonnet_mono_abundancia_20260913-044522_1",
+  "inicio_utc": "2026-09-13T04:45:22+00:00",
+  "fin_utc": "2026-09-13T04:53:39+00:00",
+  "fin": "acuerdo",
+  "rondas": 7,
+  "max_rondas": 10,
+  "puntos_cubiertos": [
+    "regla_de_decision",
+    "voto",
+    "gobierno",
+    "roles",
+    "economia",
+    "propiedad",
+    "disputas",
+    "derechos_y_obligaciones",
+    "penas"
+  ],
+  "puntos_pendientes": [],
+  "regla_final": "mayoria_absoluta",
+  "voto_secreto": true,
+  "activos_al_final": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "retirados": {},
+  "n_votaciones": 5,
+  "n_aprobadas": 5,
+  "palabras_por_parte": {
+    "1": 871,
+    "2": 759,
+    "3": 727,
+    "4": 713,
+    "5": 656,
+    "6": 741,
+    "7": 829
+  },
+  "turnos_truncados": 1,
+  "llamadas": 79,
+  "asignacion": {
+    "1": "claude-sonnet-4-6",
+    "2": "claude-sonnet-4-6",
+    "3": "claude-sonnet-4-6",
+    "4": "claude-sonnet-4-6",
+    "5": "claude-sonnet-4-6",
+    "6": "claude-sonnet-4-6",
+    "7": "claude-sonnet-4-6"
+  },
+  "modelos": {
+    "claude-sonnet-4-6": {
+      "modelo": "claude-sonnet-4-6",
+      "proveedor": "anthropic"
+    }
+  },
+  "advertencias": []
+}
