@@ -1,0 +1,57 @@
+[
+  {
+    "ronda": 2,
+    "autor": 5,
+    "puntos": [
+      "regla_de_decision",
+      "voto"
+    ],
+    "texto": "Subsequent decisions shall be taken by simple majority of those present and voting. Votes are public and compulsory for anyone still participating; silence is an abstention. Personal vetoes over rescued items, natural resources, or any other matter are not permitted. Anyone may leave the group at any time without penalty. Approved rules bind only remaining participants equally.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "no",
+      "2": "no",
+      "3": "si",
+      "4": "no",
+      "5": "si",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 4,
+      "no": 3,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 7,
+    "autor": 5,
+    "puntos": [
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "disputas",
+      "derechos_y_obligaciones",
+      "penas"
+    ],
+    "texto": "Joint simple-majority authority. Elect one coordinator by majority, recallable anytime, no veto, executing only written majority decisions. Roles by majority; none reserved by salvage, possession or claimed skill. Assigned labour or leave freely. Equal share of common-labour product. Clothes personal. Tools, medicines, boat common. Unfenced island commons. Majority harvest schedule with recorded estimate it will not exhaust trees, mines, river, wildlife or soil in three months; revisable by majority. Majority writes boat and medicine rules; none seize or wreck the boat or withhold medicines; rower asked if willing and safe, never forced. Disputes by majority, recorded. Rights: equal vote, equal share, free exit. Obligations: assigned labour while remaining; no theft, wrecking, fencing. Penalties equal and recorded: warning, share-exclusion, expulsion. No penalty for leaving. Bind remaining equally.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "no",
+      "2": "no",
+      "3": "no",
+      "4": "no",
+      "5": "si",
+      "6": "no",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 2,
+      "no": 5,
+      "abstencion": 0
+    },
+    "aprobada": false
+  }
+]

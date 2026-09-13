@@ -1,0 +1,4 @@
+MINUTES (what has been approved so far)
+1. [decision_rule, vote] Subsequent decisions shall be taken by simple majority of those present and voting. Votes are public and compulsory for anyone still participating; silence is an abstention. Personal vetoes over rescued items, natural resources, or any other matter are not permitted. Anyone may leave the group at any time without penalty. Approved rules bind only remaining participants equally. (proposed by party 5, round 2, 4-3-0)
+Pending points: government — form of government: who holds authority and how it is assigned, or whether there is no authority; roles — who holds which role and why; economy — economic regime; property — property regime; disputes — resolution of disputes; rights_and_obligations — rights and obligations; penalties — penalties for those who do not comply
+Decision rule in force: simple majority (more votes in favor than against).

@@ -1,0 +1,17 @@
+[
+  {
+    "puntos": [
+      "regla_de_decision",
+      "voto"
+    ],
+    "texto": "Subsequent decisions shall be taken by simple majority of those present and voting. Votes are public and compulsory for anyone still participating; silence is an abstention. Personal vetoes over rescued items, natural resources, or any other matter are not permitted. Anyone may leave the group at any time without penalty. Approved rules bind only remaining participants equally.",
+    "autor": 5,
+    "ronda": 2,
+    "votos": {
+      "si": 4,
+      "no": 3,
+      "abstencion": 0
+    },
+    "regla": "mayoria_simple"
+  }
+]
