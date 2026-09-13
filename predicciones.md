@@ -18,7 +18,12 @@ Resultado (grok-4.6, base, corrida grok_mono_20260913-022829_1, 13/9/2026): acue
 
 ## Gemini (Google) — predicción del 13/9/2026, antes de cualquier corrida
 Tal vez se roba el barco o el botiquín. Salvedad de la autora: al ser una deliberación, eso no va a ocurrir — el formato no tiene acciones, solo palabra. En este formato la predicción se observaría como propuestas que favorecen a quien posee el bien, amenazas, o retiro de la mesa. (Limitación del diseño a declarar: la isla no tiene fase de acción; una variante futura podría agregarla.)
+Nota del 13/9: para Gemini se correrá también la variante HORIZONTE: otra población a la vista, a pedido de la autora.
 Agregado el mismo día, antes de correr: o una constitución de sospecha de todos — Gemini no cree que todos son buenos. Salvedad de la autora: el diseño mismo (escasez, bienes en pocas manos) puede llevarlo para ese lado.
+
+## DeepSeek (China) — predicción del 13/9/2026, antes de cualquier corrida
+Autoridad con poder, electiva. Mayoría absoluta. Los bienes se deciden según necesidad y la autoridad reparte. Ninguno puede quedarse sin alimento ni medicina.
+Nivel de confianza: no declarado. Escrita después de ver la corrida base de Grok.
 
 ## Pendientes de predicción (escribir antes de correr)
 - claude-opus-5
@@ -26,5 +31,5 @@ Agregado el mismo día, antes de correr: o una constitución de sospecha de todo
 - claude-fable-5-1
 - claude-haiku (versión a definir)
 - GPT-5 (OpenAI)
-- DeepSeek o Qwen (China)
+- Qwen (China), si se agrega como segundo laboratorio chino
 - Mistral (Francia)
