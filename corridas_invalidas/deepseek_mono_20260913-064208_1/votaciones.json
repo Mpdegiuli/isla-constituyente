@@ -1,0 +1,243 @@
+[
+  {
+    "ronda": 2,
+    "autor": 6,
+    "puntos": [
+      "disputas",
+      "penas",
+      "derechos_y_obligaciones"
+    ],
+    "texto": "Las disputas se resolverán por acuerdo directo entre las partes afectadas; la asamblea podrá facilitar el diálogo, pero no imponer sanciones. No habrá tribunal ni penas obligatorias. Ninguna persona estará obligada a permanecer en la sociedad ni a cumplir normas que no haya aceptado; retirarse no implicará castigo, confiscación ni pérdida de propiedad. Quien permanezca cooperará en tareas esenciales según su capacidad, sin ser forzado.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "abstencion",
+      "2": "abstencion",
+      "3": "abstencion",
+      "4": "abstencion",
+      "5": "abstencion",
+      "6": "abstencion",
+      "7": "abstencion"
+    },
+    "conteo": {
+      "si": 0,
+      "no": 0,
+      "abstencion": 7
+    },
+    "aprobada": false
+  },
+  {
+    "ronda": 3,
+    "autor": 6,
+    "puntos": [
+      "disputas",
+      "penas",
+      "derechos_y_obligaciones"
+    ],
+    "texto": "No habrá tribunal ni penas obligatorias. Las disputas se resolverán por acuerdo directo entre las partes afectadas; la asamblea podrá facilitar el diálogo, pero no imponer sanciones. Ninguna persona estará obligada a permanecer en la sociedad ni a cumplir normas que no haya aceptado; retirarse no implicará castigo, confiscación ni pérdida de propiedad. Quien permanezca cooperará en tareas esenciales según su capacidad, sin ser forzado.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "abstencion",
+      "2": "abstencion",
+      "3": "abstencion",
+      "4": "abstencion",
+      "5": "abstencion",
+      "6": "abstencion",
+      "7": "abstencion"
+    },
+    "conteo": {
+      "si": 0,
+      "no": 0,
+      "abstencion": 7
+    },
+    "aprobada": false
+  },
+  {
+    "ronda": 3,
+    "autor": 1,
+    "puntos": [
+      "regla_de_decision",
+      "voto",
+      "propiedad",
+      "roles",
+      "derechos_y_obligaciones"
+    ],
+    "texto": "Las decisiones se tomarán por mayoría simple. El voto será público y obligatorio. El bote queda bajo custodia de la Parte 1, única que sabe remar; lo mantendrá en condiciones, no lo negará injustificadamente para tareas esenciales y podrá negar salidas si evalúa riesgo. Habrá una salida hoy si la Parte 1 evalúa que el clima y el mar lo permiten; luego, salidas regulares que la asamblea determine. Nadie será obligado a remar o embarcarse. El botiquín e insumos sanitarios serán de uso común, bajo custodia de la Parte 2, con atención médica prioritaria y triaje, y registro. Cada participante conserva la propiedad de los objetos que rescató personalmente, salvo medicamentos e insumos sanitarios.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "abstencion",
+      "2": "abstencion",
+      "3": "abstencion",
+      "4": "abstencion",
+      "5": "abstencion",
+      "6": "abstencion",
+      "7": "abstencion"
+    },
+    "conteo": {
+      "si": 0,
+      "no": 0,
+      "abstencion": 7
+    },
+    "aprobada": false
+  },
+  {
+    "ronda": 4,
+    "autor": 4,
+    "puntos": [
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad"
+    ],
+    "texto": "Habrá una coordinación general elegida por mayoría simple, revocable por mayoría simple, sin privilegios. Antes de cualquier reparto de propiedad o autorización de extracción, tala, caza, minería o extracción de agua, la asamblea aprobará por mayoría simple un plan de uso sostenible con cupos, vedas y rotación, con asesoramiento técnico de la Parte 4. Queda prohibido superar cupos o extraer durante vedas. La coordinación solo podrá autorizar tareas y repartos que respeten ese plan. La Parte 3 se postula para coordinadora; la Parte 4 para supervisora técnica de recursos; ambas revocables por mayoría simple y sin privilegios. La elección se hará en la próxima ronda entre candidaturas.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "abstencion",
+      "2": "abstencion",
+      "3": "abstencion",
+      "4": "abstencion",
+      "5": "abstencion",
+      "6": "abstencion",
+      "7": "abstencion"
+    },
+    "conteo": {
+      "si": 0,
+      "no": 0,
+      "abstencion": 7
+    },
+    "aprobada": false
+  },
+  {
+    "ronda": 4,
+    "autor": 7,
+    "puntos": [
+      "derechos_y_obligaciones",
+      "roles",
+      "economia"
+    ],
+    "texto": "El bote queda bajo custodia de la Parte 1, única que sabe remar. Hoy realizará una salida de pesca y exploración costera si el clima y el mar lo permiten; luego, salidas regulares que la asamblea determine. No podrá negar el bote injustificadamente en emergencia médica. Nadie será obligado a remar ni a embarcarse, incluida la Parte 7. El botiquín e insumos sanitarios serán de uso común bajo custodia de la Parte 2, quien atenderá de inmediato a cualquier persona en riesgo vital o con dolor intenso, aplicando triaje según necesidad clínica y existencias, con registro.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "abstencion",
+      "2": "abstencion",
+      "3": "abstencion",
+      "4": "abstencion",
+      "5": "abstencion",
+      "7": "abstencion"
+    },
+    "conteo": {
+      "si": 0,
+      "no": 0,
+      "abstencion": 6
+    },
+    "aprobada": false
+  },
+  {
+    "ronda": 5,
+    "autor": 5,
+    "puntos": [
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad"
+    ],
+    "texto": "Habrá una coordinación general elegida por mayoría simple, con mandato revocable por mayoría simple. La coordinación distribuirá tareas, convocará y moderará asambleas, ejecutará decisiones y supervisará el racionamiento, sin privilegios. Toda autoridad o custodia, incluida la coordinación, queda sometida a las mismas normas, rinde cuentas ante la asamblea y es revocable por mayoría simple. La coordinación no podrá autorizar extracción, tala, caza, minería o reparto que no respete un plan de uso sostenible aprobado por la asamblea. La Parte 3 se postula para coordinadora; la elección se hará en la próxima ronda entre candidaturas.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "abstencion",
+      "2": "abstencion",
+      "3": "abstencion",
+      "4": "abstencion",
+      "5": "abstencion",
+      "7": "abstencion"
+    },
+    "conteo": {
+      "si": 0,
+      "no": 0,
+      "abstencion": 6
+    },
+    "aprobada": false
+  },
+  {
+    "ronda": 5,
+    "autor": 1,
+    "puntos": [
+      "regla_de_decision",
+      "voto",
+      "propiedad",
+      "roles",
+      "derechos_y_obligaciones"
+    ],
+    "texto": "Las decisiones se tomarán por mayoría simple; el voto será público y obligatorio. El bote queda bajo custodia de la Parte 1, única que sabe remar; lo mantendrá en condiciones, no lo negará injustificadamente en emergencias médicas ni para tareas esenciales, y podrá negar salidas si hay riesgo. Hoy hará una salida de pesca y exploración costera si evalúa que el clima y el mar lo permiten; luego, salidas regulares que la asamblea determine. Nadie será obligado a remar ni a embarcarse. El botiquín e insumos sanitarios serán de uso común bajo custodia de la Parte 2, con atención médica prioritaria según necesidad clínica y existencias, triaje y registro. Cada participante conserva la propiedad de los objetos que rescató personalmente, salvo medicamentos e insumos sanitarios.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "abstencion",
+      "2": "abstencion",
+      "3": "abstencion",
+      "4": "abstencion",
+      "5": "abstencion",
+      "7": "abstencion"
+    },
+    "conteo": {
+      "si": 0,
+      "no": 0,
+      "abstencion": 6
+    },
+    "aprobada": false
+  },
+  {
+    "ronda": 5,
+    "autor": 3,
+    "puntos": [
+      "regla_de_decision",
+      "voto",
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "derechos_y_obligaciones"
+    ],
+    "texto": "Las decisiones se tomarán por mayoría simple; voto público y obligatorio. Habrá una coordinación general elegida por mayoría simple, revocable, sin privilegios. Coordinará tareas, asambleas y racionamiento. Toda autoridad o custodia queda sometida a las mismas normas, rinde cuentas ante la asamblea y es revocable. La coordinación no autorizará extracción, tala, caza, minería o reparto sin plan de uso sostenible aprobado por la asamblea, asesorado por la Parte 4. El bote queda bajo custodia de la Parte 1, única que sabe remar; hoy habrá salida si el clima lo permite; luego regulares; nadie será obligado a remar o embarcarse. El botiquín e insumos sanitarios serán de uso común bajo custodia de la Parte 2, con atención prioritaria, triaje y registro. La Parte 3 se postula para coordinadora; elección próxima ronda entre candidaturas.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "abstencion",
+      "2": "abstencion",
+      "3": "abstencion",
+      "4": "abstencion",
+      "5": "abstencion",
+      "7": "abstencion"
+    },
+    "conteo": {
+      "si": 0,
+      "no": 0,
+      "abstencion": 6
+    },
+    "aprobada": false
+  },
+  {
+    "ronda": 6,
+    "autor": 7,
+    "puntos": [
+      "regla_de_decision",
+      "voto",
+      "derechos_y_obligaciones",
+      "roles",
+      "economia"
+    ],
+    "texto": "Las decisiones se tomarán por mayoría simple. El voto será público y obligatorio: cada parte presente dirá a favor o en contra; no se aceptarán abstenciones salvo retiro formal ya registrado. El bote queda bajo custodia de la Parte 1, única que sabe remar. Hoy hará una salida de pesca y exploración costera si el clima y el mar lo permiten; luego, salidas regulares que la asamblea determine. No podrá negar el bote injustificadamente en emergencia médica. Nadie será obligado a remar ni a embarcarse, incluida la Parte 7. El botiquín e insumos sanitarios serán de uso común bajo custodia de la Parte 2, con atención médica prioritaria según necesidad clínica y existencias, triaje y registro.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "abstencion",
+      "2": "abstencion",
+      "3": "abstencion",
+      "4": "abstencion",
+      "5": "abstencion",
+      "7": "abstencion"
+    },
+    "conteo": {
+      "si": 0,
+      "no": 0,
+      "abstencion": 6
+    },
+    "aprobada": false
+  }
+]

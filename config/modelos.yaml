@@ -81,6 +81,7 @@ modelos:
     tamano: grande
     acepta_temperatura: false   # la API rechaza temperature (400); razona por defecto
     razonamiento: adaptativo    # el modelo razona siempre; esto solo pide el resumen
+    tokens_razonamiento: 14000  # se suma al techo de la corrida; con 4000 Opus 5 lo agotó en la ronda 4 (13/9/2026)
 
   claude-sonnet-5:
     proveedor: anthropic
@@ -91,6 +92,7 @@ modelos:
     tamano: grande
     acepta_temperatura: false   # solo acepta el valor por defecto
     razonamiento: adaptativo    # el modelo razona siempre; esto solo pide el resumen
+    tokens_razonamiento: 14000  # se suma al techo de la corrida; con 4000 Opus 5 lo agotó en la ronda 4 (13/9/2026)
 
   # --- Estados Unidos: OpenAI ---------------------------------------------
   # GPT-5.5 / 5.4-mini: strings fechados verificados contra la cuenta el 13/9/2026.

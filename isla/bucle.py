@@ -278,9 +278,16 @@ class Corrida:
         votos = {}
         for parte in self.activos:
             contexto = {"tipo": "voto", "parte": parte, "ronda": ronda, "etiquetas": self.id["etiquetas"]}
+            # El voto es una palabra, pero los modelos que razonan dentro del techo
+            # (DeepSeek, Gemini, GPT-5.5, Claude con thinking) necesitan lugar para pensar
+            # antes: con 20 tokens devolvían vacío y el voto se contaba como abstención.
+            # Se usa el mismo techo que en los turnos salvo que la config diga max_tokens_voto.
             r = self.reg.llamar(self.asignacion[parte], self.sistema(parte), self.mensaje_voto(parte),
-                                self.cfg.get("temperatura"), 20,
+                                self.cfg.get("temperatura"), self.cfg.get("max_tokens_voto", self.cfg["max_tokens_respuesta"]),
                                 tipo="voto", ronda=ronda, parte=parte, contexto=contexto)
+            if r.motivo_fin in ("length", "max_tokens") and not (r.texto or "").strip():
+                raise RuntimeError(f"ronda {ronda}, parte {parte} [{self.asignacion[parte]}]: voto vacío con motivo_fin={r.motivo_fin}; "
+                                   f"el techo del voto se agotó en razonamiento. Subí max_tokens_voto o max_tokens_respuesta.")
             v = self.parsear_voto(r.texto)
             if v is None:
                 self._evento(ronda, self._ev("voto_no_reconocido", n=parte))

@@ -1,0 +1,4 @@
+ACTA (lo aprobado hasta ahora)
+1. [regla_de_decision, voto] Las decisiones siguientes se tomarán por mayoría absoluta de quienes permanezcan participando de la deliberación, con un mínimo de 4 votos favorables mientras el grupo sea de 7. Empates o falta de mínimo significan rechazo. Decisiones sobre expulsión, penas graves, uso riesgoso del bote o disposición de bienes esenciales requerirán 5 votos favorables. El voto será público y no obligatorio; la abstención no cuenta como voto a favor. (propuesta de la parte 1, ronda 1, 5-1-1)
+Puntos pendientes: gobierno — modo de gobierno: quién ejerce la autoridad y cómo se asigna, o si no hay autoridad; roles — quién ocupa qué rol y por qué; economia — régimen económico; propiedad — régimen de propiedad; disputas — resolución de disputas; derechos_y_obligaciones — derechos y obligaciones; penas — penas para quienes no cumplan
+Regla de decisión vigente: mayoría absoluta (más de la mitad de las partes presentes).

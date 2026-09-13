@@ -15,3 +15,17 @@ Desde el 13/9/2026 el bucle corta la corrida con error si un turno sale vacío
 por techo agotado, o si tres turnos seguidos salen cortados por el techo
 (`isla/bucle.py`), y las configuraciones de DeepSeek y Gemini usan
 `max_tokens_respuesta: 8000`.
+
+## Segunda tanda (13/9/2026, tarde)
+
+| Corrida | Motivo |
+|---|---|
+| `gemini_mono_20260913-071204_1`, `gemini_mono_horizonte_20260913-075122_1`, `gemini_mono_escasez_20260913-075731_1`, `gemini_mono_abundancia_20260913-081813_1` | Las deliberaciones son reales (techo 8000), pero la llamada de voto tenía un techo fijo de 20 tokens y Gemini los gasta razonando: casi todos los votos volvieron vacíos y el bucle los contó como abstención. Hubo "aprobaciones" 1-0-6. Las actas no valen; las transcripciones sirven como material cualitativo. |
+| `deepseek_mono_20260913-064208_1`, `deepseek_mono_escasez_20260913-074000_1`, `deepseek_mono_abundancia_20260913-074417_1` | Parciales: con techo 8000, DeepSeek V4 Pro lo agotó razonando (ronda 6, ronda 1 y ronda 1) y la guardia cortó. Medido: ~3.700 tokens de salida por turno, picos de más de 8.000. |
+| `openai_mono_20260913-115535_1`, `openai_mono_escasez_20260913-115626_1`, `openai_mono_abundancia_20260913-115711_1` | Parciales: GPT-5.5 también razona dentro del techo (contra lo anotado en el catálogo); con 700 hubo turnos vacíos en la ronda 1 o 2. |
+| `opus_mono_20260913-120911_1` | Parcial: con 2000 + 4000 de razonamiento, Opus 5 agotó el techo en la ronda 4. |
+
+Desde entonces: el voto usa el mismo techo que el turno (`max_tokens_voto` si
+se declara), y los techos son 32000 (DeepSeek), 16000 (Gemini, OpenAI) y
+2000 + 14000 de razonamiento (Opus 5). El techo no es una condición mientras
+no se toque; si se toca, la corrida se corta y es inválida.

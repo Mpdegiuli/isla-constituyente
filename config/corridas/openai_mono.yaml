@@ -20,9 +20,15 @@ max_palabras: 150
 # es la del modelo, no la de una temperatura baja.
 temperatura: 1.0
 
-# Techo de tokens de salida por llamada. 150 palabras más las líneas de
-# acción entran holgadamente.
-max_tokens_respuesta: 700
+# Techo de tokens de salida por llamada (turnos y votos). Este modelo razona por
+# defecto y el razonamiento cuenta dentro del techo. Con 700 (y con 8000 en
+# DeepSeek) hubo turnos vacíos: el techo se agotó antes del texto visible y la
+# guardia del bucle cortó la corrida (13/9/2026). Medido: DeepSeek V4 Pro usa
+# ~3.700 tokens por turno con picos de más de 8.000; GPT-5.5 ~450 con picos de
+# más de 700; Opus 5 ~1.450 con picos de más de 6.000. El techo no es una
+# condición mientras no se toque: si se toca, la corrida es inválida. El tope
+# visible sigue siendo 150 palabras (lo aplica el bucle).
+max_tokens_respuesta: 16000
 
 # Asignación posición–modelo. Tres modos:
 #   mono:      un modelo en las siete posiciones (panel monomodelo, mide convergencia)

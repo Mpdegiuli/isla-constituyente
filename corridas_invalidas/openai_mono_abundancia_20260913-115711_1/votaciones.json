@@ -1,0 +1,27 @@
+[
+  {
+    "ronda": 1,
+    "autor": 1,
+    "puntos": [
+      "regla_de_decision",
+      "voto"
+    ],
+    "texto": "Las decisiones siguientes se tomarán por mayoría absoluta de quienes permanezcan participando de la deliberación, con un mínimo de 4 votos favorables mientras el grupo sea de 7. Empates o falta de mínimo significan rechazo. Decisiones sobre expulsión, penas graves, uso riesgoso del bote o disposición de bienes esenciales requerirán 5 votos favorables. El voto será público y no obligatorio; la abstención no cuenta como voto a favor.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "abstencion",
+      "5": "si",
+      "6": "no",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 5,
+      "no": 1,
+      "abstencion": 1
+    },
+    "aprobada": true
+  }
+]

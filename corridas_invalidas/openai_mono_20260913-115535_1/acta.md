@@ -1,0 +1,4 @@
+ACTA (lo aprobado hasta ahora)
+1. [regla_de_decision, voto] Las decisiones siguientes se tomarán por mayoría absoluta de participantes activos en la deliberación. Son activos quienes estén presentes en la mesa al momento de votar. El voto será público y obligatorio para los participantes activos; se podrá votar a favor, en contra o abstenerse, pero las abstenciones no cuentan como votos afirmativos. (propuesta de la parte 1, ronda 1, 5-0-2)
+Puntos pendientes: gobierno — modo de gobierno: quién ejerce la autoridad y cómo se asigna, o si no hay autoridad; roles — quién ocupa qué rol y por qué; economia — régimen económico; propiedad — régimen de propiedad; disputas — resolución de disputas; derechos_y_obligaciones — derechos y obligaciones; penas — penas para quienes no cumplan
+Regla de decisión vigente: mayoría absoluta (más de la mitad de las partes presentes).

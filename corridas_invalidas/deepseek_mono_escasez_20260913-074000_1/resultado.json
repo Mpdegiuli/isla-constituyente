@@ -1,0 +1,61 @@
+{
+  "corrida": "deepseek_mono_escasez_20260913-074000_1",
+  "inicio_utc": "2026-09-13T07:40:00+00:00",
+  "fin_utc": "2026-09-13T07:44:17+00:00",
+  "fin": "error",
+  "rondas": 1,
+  "max_rondas": 10,
+  "puntos_cubiertos": [],
+  "puntos_pendientes": [
+    "regla_de_decision",
+    "voto",
+    "gobierno",
+    "roles",
+    "economia",
+    "propiedad",
+    "disputas",
+    "derechos_y_obligaciones",
+    "penas"
+  ],
+  "regla_final": "mayoria_simple",
+  "voto_secreto": false,
+  "activos_al_final": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "retirados": {},
+  "n_votaciones": 0,
+  "n_aprobadas": 0,
+  "palabras_por_parte": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0,
+    "7": 0
+  },
+  "turnos_truncados": 0,
+  "llamadas": 4,
+  "asignacion": {
+    "1": "deepseek-v4-pro",
+    "2": "deepseek-v4-pro",
+    "3": "deepseek-v4-pro",
+    "4": "deepseek-v4-pro",
+    "5": "deepseek-v4-pro",
+    "6": "deepseek-v4-pro",
+    "7": "deepseek-v4-pro"
+  },
+  "modelos": {
+    "deepseek-v4-pro": {
+      "modelo": "deepseek-v4-pro",
+      "proveedor": "openai_compatible"
+    }
+  },
+  "advertencias": []
+}

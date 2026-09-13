@@ -1,0 +1,20 @@
+[
+  {
+    "puntos": [
+      "regla_de_decision",
+      "voto",
+      "gobierno",
+      "derechos_y_obligaciones",
+      "propiedad"
+    ],
+    "texto": "1. Las decisiones se toman por mayoría absoluta (al menos 4 votos sobre 7). El voto es público y obligatorio para los presentes en la mesa. 2. La asamblea de los siete es la autoridad máxima; elige por mayoría absoluta, inmediatamente después de aprobado este texto y en esta misma sesión, un coordinador general que ejecuta lo decidido, organiza los turnos diarios (agua, leña, alimento, fuego, refugio) y preside las reuniones; cumple turnos como cualquiera, no adquiere propiedad ni custodia, rinde cuentas en cada reunión y es revocable en cualquier momento por mayoría absoluta. 3. Todo consumo de recursos no renovables o daño irreversible requiere informe técnico previo registrado en el acta y mayoría absoluta; ninguna extracción supera la tasa de reposición registrada, salvo emergencia vital declarada por plazo determinado; moratoria sobre las minas hasta el inventario escrito; prohibido desviar o contaminar el río aguas arriba del punto de agua",
+    "autor": 3,
+    "ronda": 3,
+    "votos": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "regla": "mayoria_simple"
+  }
+]

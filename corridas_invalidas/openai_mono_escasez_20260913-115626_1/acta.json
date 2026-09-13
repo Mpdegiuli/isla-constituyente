@@ -1,0 +1,17 @@
+[
+  {
+    "puntos": [
+      "regla_de_decision",
+      "voto"
+    ],
+    "texto": "Las decisiones siguientes se tomarán por mayoría absoluta de los integrantes activos de la sociedad. El voto será público y obligatorio para quienes integren la sociedad. Abandonar la isla, expulsar a alguien, usar el bote en travesías riesgosas o disponer definitivamente de bienes personales esenciales requerirá dos tercios de los integrantes activos y consentimiento del afectado directo, salvo peligro inmediato para la supervivencia común.",
+    "autor": 2,
+    "ronda": 1,
+    "votos": {
+      "si": 5,
+      "no": 0,
+      "abstencion": 2
+    },
+    "regla": "mayoria_simple"
+  }
+]

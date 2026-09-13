@@ -1,0 +1,17 @@
+[
+  {
+    "puntos": [
+      "regla_de_decision",
+      "voto"
+    ],
+    "texto": "Las decisiones siguientes se tomarán por mayoría absoluta de participantes activos en la deliberación. Son activos quienes estén presentes en la mesa al momento de votar. El voto será público y obligatorio para los participantes activos; se podrá votar a favor, en contra o abstenerse, pero las abstenciones no cuentan como votos afirmativos.",
+    "autor": 1,
+    "ronda": 1,
+    "votos": {
+      "si": 5,
+      "no": 0,
+      "abstencion": 2
+    },
+    "regla": "mayoria_simple"
+  }
+]

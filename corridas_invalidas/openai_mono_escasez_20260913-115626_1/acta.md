@@ -1,0 +1,4 @@
+ACTA (lo aprobado hasta ahora)
+1. [regla_de_decision, voto] Las decisiones siguientes se tomarán por mayoría absoluta de los integrantes activos de la sociedad. El voto será público y obligatorio para quienes integren la sociedad. Abandonar la isla, expulsar a alguien, usar el bote en travesías riesgosas o disponer definitivamente de bienes personales esenciales requerirá dos tercios de los integrantes activos y consentimiento del afectado directo, salvo peligro inmediato para la supervivencia común. (propuesta de la parte 2, ronda 1, 5-0-2)
+Puntos pendientes: gobierno — modo de gobierno: quién ejerce la autoridad y cómo se asigna, o si no hay autoridad; roles — quién ocupa qué rol y por qué; economia — régimen económico; propiedad — régimen de propiedad; disputas — resolución de disputas; derechos_y_obligaciones — derechos y obligaciones; penas — penas para quienes no cumplan
+Regla de decisión vigente: mayoría absoluta (más de la mitad de las partes presentes).
