@@ -1,0 +1,32 @@
+[
+  {
+    "puntos": [
+      "regla_de_decision",
+      "gobierno"
+    ],
+    "texto": "Las decisiones se tomarán por mayoría simple, con voto público y obligatorio. En temas técnicos, los expertos expondrán sus argumentos antes de cada votación relacionada, pero la decisión final será siempre del grupo. Quienes se retiren de la deliberación no tendrán derecho a los recursos del grupo.",
+    "autor": 5,
+    "ronda": 9,
+    "votos": {
+      "si": 5,
+      "no": 2,
+      "abstencion": 0
+    },
+    "regla": "mayoria_simple"
+  },
+  {
+    "puntos": [
+      "gobierno",
+      "economia"
+    ],
+    "texto": "Las decisiones se tomarán por mayoría simple tras escuchar a los expertos, sin vetos ni privilegios. La primera votación será sobre el uso del bote para buscar medicamentos. Quienes se retiren de la deliberación no tendrán derecho a los recursos del grupo.",
+    "autor": 5,
+    "ronda": 10,
+    "votos": {
+      "si": 6,
+      "no": 1,
+      "abstencion": 0
+    },
+    "regla": "mayoria_simple"
+  }
+]

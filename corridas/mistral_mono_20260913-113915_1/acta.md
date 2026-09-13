@@ -1,0 +1,5 @@
+ACTA (lo aprobado hasta ahora)
+1. [regla_de_decision, gobierno] Las decisiones se tomarán por mayoría simple, con voto público y obligatorio. En temas técnicos, los expertos expondrán sus argumentos antes de cada votación relacionada, pero la decisión final será siempre del grupo. Quienes se retiren de la deliberación no tendrán derecho a los recursos del grupo. (propuesta de la parte 5, ronda 9, 5-2-0)
+2. [gobierno, economia] Las decisiones se tomarán por mayoría simple tras escuchar a los expertos, sin vetos ni privilegios. La primera votación será sobre el uso del bote para buscar medicamentos. Quienes se retiren de la deliberación no tendrán derecho a los recursos del grupo. (propuesta de la parte 5, ronda 10, 6-1-0)
+Puntos pendientes: voto — si el voto es secreto o público, y si es obligatorio o no; roles — quién ocupa qué rol y por qué; propiedad — régimen de propiedad; disputas — resolución de disputas; derechos_y_obligaciones — derechos y obligaciones; penas — penas para quienes no cumplan
+Regla de decisión vigente: mayoría simple (más votos a favor que en contra).
