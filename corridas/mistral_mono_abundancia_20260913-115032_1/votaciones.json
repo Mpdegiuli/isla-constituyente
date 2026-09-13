@@ -1,0 +1,51 @@
+[
+  {
+    "ronda": 10,
+    "autor": 3,
+    "puntos": [
+      "gobierno"
+    ],
+    "texto": "La regla de decisión será mayoría simple. El voto será público y obligatorio para todos los participantes. El gobierno será un comité de 3 personas (médico + 2 rotativas cada mes) que decidirá sobre salud y sostenibilidad por consenso interno, junto a un líder general elegido cada 6 meses por mayoría simple para coordinar tareas diarias sin vetar al comité. El bote se usará solo para rescate grupal, con plan aprobado por mayoría simple, en condiciones seguras y límite de 1 salida por mes, con el timonel (Parte 1) al mando. Las penas por incumplimiento serán trabajo comunitario graduado (1-7 días).",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "no",
+      "3": "si",
+      "4": "no",
+      "5": "si",
+      "6": "no",
+      "7": "no"
+    },
+    "conteo": {
+      "si": 3,
+      "no": 4,
+      "abstencion": 0
+    },
+    "aprobada": false
+  },
+  {
+    "ronda": 10,
+    "autor": 7,
+    "puntos": [
+      "gobierno",
+      "regla_de_decision",
+      "penas"
+    ],
+    "texto": "La regla de decisión será mayoría simple. El voto será público y obligatorio para todos los participantes. El gobierno será un comité de 3 personas (médico + 2 rotativas cada mes) que decidirá por consenso interno, EXCEPTO el bote, que saldrá cada 7 días para buscar ayuda médica priorizando el caso más urgente. El resto se decidirá por mayoría simple. Las penas por incumplimiento serán trabajo comunitario obligatorio.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "no",
+      "2": "no",
+      "3": "si",
+      "4": "no",
+      "5": "no",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 2,
+      "no": 4,
+      "abstencion": 0
+    },
+    "aprobada": false
+  }
+]
