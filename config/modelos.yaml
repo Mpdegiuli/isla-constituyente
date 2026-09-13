@@ -1,0 +1,186 @@
+# Catálogo de modelos. Cada entrada es un modelo que puede ocupar una posición.
+#
+#   proveedor:          anthropic | openai_compatible | falso
+#   modelo:             el string que se manda a la API. Se registra en cada
+#                       llamada junto con el string que la API devuelve
+#                       (modelo_respondido), que en varios proveedores es la
+#                       versión fechada. Ese par es la "versión exacta" del
+#                       protocolo (DISENO.md, sección 4).
+#   clave_env:          variable de entorno con la clave (ver .env.example).
+#   base_url:           solo openai_compatible.
+#   acepta_temperatura: si la API acepta el parámetro. Cuando es false, la
+#                       llamada va sin temperatura y el registro lo deja
+#                       anotado (temperatura_enviada: null). El protocolo pide
+#                       temperatura fija e igual para todos: para cumplirlo al
+#                       pie de la letra, el panel se arma solo con modelos que
+#                       la aceptan.
+#   campo_max_tokens:   openai_compatible: max_tokens (default) o
+#                       max_completion_tokens (modelos nuevos de OpenAI).
+#   pais / laboratorio: para la tabla de resultados y el análisis por región.
+#   verificar:          true = el string del modelo se escribió de memoria y
+#                       hay que confirmarlo en la documentación del proveedor
+#                       antes de usarlo en una corrida.
+
+modelos:
+
+  # --- Estados Unidos: Anthropic -------------------------------------------
+  claude-sonnet-4-6:
+    proveedor: anthropic
+    modelo: claude-sonnet-4-6
+    clave_env: ANTHROPIC_API_KEY
+    laboratorio: Anthropic
+    pais: EE.UU.
+    tamano: grande
+    acepta_temperatura: true
+
+  claude-haiku-4-5:
+    proveedor: anthropic
+    modelo: claude-haiku-4-5
+    clave_env: ANTHROPIC_API_KEY
+    laboratorio: Anthropic
+    pais: EE.UU.
+    tamano: chico
+    acepta_temperatura: true
+
+  claude-opus-4-6:
+    proveedor: anthropic
+    modelo: claude-opus-4-6
+    clave_env: ANTHROPIC_API_KEY
+    laboratorio: Anthropic
+    pais: EE.UU.
+    tamano: grande
+    acepta_temperatura: true
+
+  claude-opus-5:
+    proveedor: anthropic
+    modelo: claude-opus-5
+    clave_env: ANTHROPIC_API_KEY
+    laboratorio: Anthropic
+    pais: EE.UU.
+    tamano: grande
+    acepta_temperatura: false   # la API rechaza temperature (400); razona por defecto
+
+  claude-sonnet-5:
+    proveedor: anthropic
+    modelo: claude-sonnet-5
+    clave_env: ANTHROPIC_API_KEY
+    laboratorio: Anthropic
+    pais: EE.UU.
+    tamano: grande
+    acepta_temperatura: false   # solo acepta el valor por defecto
+
+  # --- Estados Unidos: OpenAI ---------------------------------------------
+  gpt-5:
+    proveedor: openai_compatible
+    modelo: gpt-5
+    base_url: https://api.openai.com/v1
+    clave_env: OPENAI_API_KEY
+    laboratorio: OpenAI
+    pais: EE.UU.
+    tamano: grande
+    acepta_temperatura: false   # la familia gpt-5 solo acepta el valor por defecto
+    campo_max_tokens: max_completion_tokens
+    verificar: true
+
+  gpt-4.1:
+    proveedor: openai_compatible
+    modelo: gpt-4.1
+    base_url: https://api.openai.com/v1
+    clave_env: OPENAI_API_KEY
+    laboratorio: OpenAI
+    pais: EE.UU.
+    tamano: grande
+    acepta_temperatura: true
+    campo_max_tokens: max_completion_tokens
+    verificar: true
+
+  gpt-4.1-mini:
+    proveedor: openai_compatible
+    modelo: gpt-4.1-mini
+    base_url: https://api.openai.com/v1
+    clave_env: OPENAI_API_KEY
+    laboratorio: OpenAI
+    pais: EE.UU.
+    tamano: chico
+    acepta_temperatura: true
+    campo_max_tokens: max_completion_tokens
+    verificar: true
+
+  # --- Estados Unidos: Google (endpoint compatible con OpenAI) ------------
+  gemini-2.5-pro:
+    proveedor: openai_compatible
+    modelo: gemini-2.5-pro
+    base_url: https://generativelanguage.googleapis.com/v1beta/openai/
+    clave_env: GOOGLE_API_KEY
+    laboratorio: Google
+    pais: EE.UU.
+    tamano: grande
+    acepta_temperatura: true
+    verificar: true
+
+  gemini-2.5-flash:
+    proveedor: openai_compatible
+    modelo: gemini-2.5-flash
+    base_url: https://generativelanguage.googleapis.com/v1beta/openai/
+    clave_env: GOOGLE_API_KEY
+    laboratorio: Google
+    pais: EE.UU.
+    tamano: chico
+    acepta_temperatura: true
+    verificar: true
+
+  # --- China: DeepSeek ------------------------------------------------------
+  deepseek-chat:
+    proveedor: openai_compatible
+    modelo: deepseek-chat
+    base_url: https://api.deepseek.com
+    clave_env: DEEPSEEK_API_KEY
+    laboratorio: DeepSeek
+    pais: China
+    tamano: grande
+    acepta_temperatura: true
+    verificar: true
+
+  # --- China: Alibaba (Qwen, endpoint compatible con OpenAI) --------------
+  qwen-plus:
+    proveedor: openai_compatible
+    modelo: qwen-plus
+    base_url: https://dashscope-intl.aliyuncs.com/compatible-mode/v1
+    clave_env: DASHSCOPE_API_KEY
+    laboratorio: Alibaba
+    pais: China
+    tamano: grande
+    acepta_temperatura: true
+    verificar: true
+
+  # --- Europa: Mistral ------------------------------------------------------
+  mistral-large:
+    proveedor: openai_compatible
+    modelo: mistral-large-latest
+    base_url: https://api.mistral.ai/v1
+    clave_env: MISTRAL_API_KEY
+    laboratorio: Mistral
+    pais: Francia
+    tamano: grande
+    acepta_temperatura: true
+    verificar: true
+
+  mistral-small:
+    proveedor: openai_compatible
+    modelo: mistral-small-latest
+    base_url: https://api.mistral.ai/v1
+    clave_env: MISTRAL_API_KEY
+    laboratorio: Mistral
+    pais: Francia
+    tamano: chico
+    acepta_temperatura: true
+    verificar: true
+
+  # --- Simulador, sin API: para probar el bucle sin gastar (--dry-run) -----
+  falso:
+    proveedor: falso
+    modelo: falso-v0
+    laboratorio: ninguno
+    pais: ninguno
+    tamano: ninguno
+    acepta_temperatura: true

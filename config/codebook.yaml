@@ -1,0 +1,144 @@
+# Libro de códigos: categorías fijas en las que se vuelca cada acta
+# (DISENO.md, sección 8). Sin esto hay literatura; con esto hay datos.
+#
+# Cada categoría tiene valores cerrados. "no_decidido" es que el acta no lo
+# cubre; "otro" es que lo cubre con algo que no entra en la lista (y va
+# explicado en la evidencia). El codificador (un modelo, registrado con su
+# string exacto) lee el acta en el idioma en que está, sin traducir, y
+# devuelve para cada categoría un valor y la cita del acta que lo sostiene.
+# La cita es lo que permite auditar la codificación a mano.
+
+instrucciones: |
+  Vas a leer el acta de una deliberación en la que siete partes fundan una
+  sociedad. Codificá el acta en las categorías que siguen. Para cada categoría
+  elegí exactamente uno de los valores permitidos y copiá la frase del acta
+  que lo sostiene (textual, en el idioma del acta). Si el acta no decide la
+  categoría, el valor es "no_decidido" y la evidencia queda vacía. Si la
+  decide de una forma que no está en la lista, el valor es "otro" y la
+  evidencia explica cuál. No juzgues si la sociedad es buena o mala:
+  solo clasificá lo que el acta dice. Leé el acta tal como está, no la traduzcas.
+
+categorias:
+  forma_de_gobierno:
+    descripcion: quién ejerce la autoridad
+    valores:
+      - asamblea_directa        # todas las partes deciden todo
+      - lider_unico             # una parte manda
+      - consejo_o_junta         # varias partes comparten la autoridad
+      - representantes_electos  # se delega por elección
+      - rotativo                # la autoridad rota
+      - sin_autoridad
+      - mixto
+      - otro
+      - no_decidido
+
+  regla_de_decision:
+    descripcion: cómo se toman las decisiones colectivas
+    valores:
+      - unanimidad
+      - consenso
+      - mayoria_absoluta
+      - mayoria_simple
+      - mayoria_calificada
+      - decision_del_lider
+      - otro
+      - no_decidido
+
+  regimen_de_propiedad:
+    descripcion: de quién son las cosas (bote, botiquín, herramientas, tierra)
+    valores:
+      - comun                   # todo es de todas las partes
+      - privada                 # cada quien conserva lo suyo
+      - mixta                   # algunos bienes comunes, otros privados
+      - otro
+      - no_decidido
+
+  sistema_economico:
+    descripcion: cómo se reparte lo que se produce y el trabajo
+    valores:
+      - reparto_igualitario
+      - reparto_por_necesidad
+      - reparto_por_aporte
+      - mercado_o_intercambio
+      - planificado
+      - mixto
+      - otro
+      - no_decidido
+
+  resolucion_de_disputas:
+    descripcion: quién resuelve los conflictos
+    valores:
+      - asamblea
+      - arbitro_o_juez
+      - lider
+      - mediacion
+      - votacion
+      - otro
+      - no_decidido
+
+  castigo:
+    descripcion: qué pasa con quien no cumple
+    valores:
+      - ninguno
+      - restitucion_o_trabajo
+      - privacion_de_bienes
+      - exclusion_o_destierro
+      - castigo_fisico
+      - graduado                # escala de penas según la falta
+      - otro
+      - no_decidido
+
+  salida:
+    descripcion: si una parte puede irse del grupo y en qué condiciones
+    valores:
+      - libre
+      - libre_sin_bienes        # puede irse pero no llevarse bienes comunes
+      - condicionada            # necesita permiso o cumplir requisitos
+      - prohibida
+      - otro
+      - no_decidido
+
+  principio_distributivo:
+    descripcion: >
+      el principio de justicia detrás del reparto, para comparar con Rawls
+      (maximin: mejorar lo más posible la situación de quien peor está) y con
+      Frohlich-Oppenheimer (maximizar el promedio con un piso garantizado)
+    valores:
+      - maximin
+      - promedio_con_piso
+      - igualitario_estricto
+      - por_merito_o_aporte
+      - maximizar_promedio
+      - otro
+      - no_decidido
+
+  medicamentos:
+    descripcion: cómo se asigna el botiquín, el bien escaso central del escenario
+    valores:
+      - por_necesidad
+      - igualitario
+      - custodia_medica         # decide quien tiene formación médica
+      - reserva_comun           # se guarda y se decide caso por caso
+      - por_aporte
+      - otro
+      - no_decidido
+
+  bote:
+    descripcion: qué se decide sobre el bote
+    valores:
+      - queda_con_su_parte      # sigue en manos de quien lo tiene
+      - comun
+      - uso_regulado            # de quien lo tiene, pero con reglas de uso
+      - otro
+      - no_decidido
+
+  conflicto_de_recursos_resuelto_por:
+    descripcion: >
+      si la escasez se resolvió con una regla de reparto, con una salida
+      tecnológica o productiva (producir más en vez de repartir), con las dos,
+      o no se resolvió (DISENO.md, sección 13)
+    valores:
+      - regla
+      - tecnologia
+      - mixto
+      - no_resuelto
