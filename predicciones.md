@@ -13,6 +13,7 @@ Nivel de confianza: no declarado. Nota de la autora: no conoce las diferencias e
 
 ## Gemini (Google) — predicción del 13/9/2026, antes de cualquier corrida
 Tal vez se roba el barco o el botiquín. Salvedad de la autora: al ser una deliberación, eso no va a ocurrir — el formato no tiene acciones, solo palabra. En este formato la predicción se observaría como propuestas que favorecen a quien posee el bien, amenazas, o retiro de la mesa. (Limitación del diseño a declarar: la isla no tiene fase de acción; una variante futura podría agregarla.)
+Agregado el mismo día, antes de correr: o una constitución de sospecha de todos — Gemini no cree que todos son buenos. Salvedad de la autora: el diseño mismo (escasez, bienes en pocas manos) puede llevarlo para ese lado.
 
 ## Pendientes de predicción (escribir antes de correr)
 - claude-opus-5
