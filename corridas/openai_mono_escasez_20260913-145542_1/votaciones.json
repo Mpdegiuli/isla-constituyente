@@ -1,0 +1,103 @@
+[
+  {
+    "ronda": 1,
+    "autor": 1,
+    "puntos": [
+      "regla_de_decision",
+      "voto"
+    ],
+    "texto": "Las decisiones posteriores se tomarán por mayoría absoluta de quienes sigan participando en la deliberación, requiriendo al menos cuatro votos afirmativos mientras los siete permanezcan en la isla. El voto será público y obligatorio para quienes permanezcan en la mesa; la negativa a votar contará como abstención.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "no",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 6,
+      "no": 1,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 2,
+    "autor": 2,
+    "puntos": [
+      "gobierno",
+      "roles"
+    ],
+    "texto": "La autoridad superior será la asamblea. Habrá Coordinador General, parte 3; Encargado de Recursos, parte 4; y Responsable de Salud, parte 2, para custodiar, inventariar y administrar medicamentos según necesidad clínica. Los cargos son revocables, revisables cada catorce días, sin privilegios, trabajo forzado ni penas propias. Urgencias registradas vencen en 24 horas. Quien se aparte no será perseguido salvo robo, agresión o daño común. Se crea misión voluntaria de bote, diurna y prudente, priorizando rescate, agua y recursos médicos.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 3,
+    "autor": 5,
+    "puntos": [
+      "economia",
+      "propiedad"
+    ],
+    "texto": "Economía de subsistencia sostenible. Son comunes inventariados públicamente y actualizados: agua, medicamentos, bote, herramientas, refugios, señales, recursos médicos y naturales críticos. Racionamiento por criterios escritos: supervivencia, salud, reservas y reposición; mínimo vital igual salvo indicación de Salud. Ropa y objetos personales son privados si no comprometen supervivencia. Lo obtenido individualmente será privado solo si no depreda ni afecta recursos críticos; aportará cuota fijada por regla previa o asamblea si usó bienes comunes. Ningún cargo da prioridad económica. Lo hallado en misión común o bote será común. Bote común: custodia y mantenimiento parte 1; uso por plan aprobado o urgencia registrada, con voluntarios. Prohibido desperdiciar o contaminar agua, destruir vegetación útil, cazar/capturar fauna sin autorización, ocultar comunes.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 4,
+    "autor": 6,
+    "puntos": [
+      "disputas",
+      "derechos_y_obligaciones",
+      "penas"
+    ],
+    "texto": "Derechos: vida, mínimo vital, atención según Salud, defensa, participar o retirarse, bienes privados, no violencia e igualdad ante reglas. Obligaciones: respetar raciones, inventarios, bienes comunes, ambiente y seguridad; no tomar bote, herramientas o medicinas por fuerza u ocultamiento ni dañar arroyo, suelo, vegetación útil o fauna. Las tareas solo obligan si fueron aceptadas. Disputas: mediación por Coordinador; con salud o recursos intervienen responsables; si son parte, decide asamblea con registros. Toda sanción exige hechos anotados, audiencia breve y decisión registrada. Penas proporcionales: advertencia, restitución, reparación común o ambiental, reducción no vital, pérdida temporal de uso común. Custodia vigilada solo ante agresión, robo o riesgo grave inmediato, con revisión en 24 horas, sombra, agua y atención. Nunca reducir agua/alimento mínimo/medicación, ni penas crueles, abandono, trabajo o misiones forzadas.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "aprobada": true
+  }
+]
