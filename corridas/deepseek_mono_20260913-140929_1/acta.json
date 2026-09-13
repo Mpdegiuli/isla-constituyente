@@ -1,0 +1,66 @@
+[
+  {
+    "puntos": [
+      "gobierno",
+      "roles",
+      "economia",
+      "derechos_y_obligaciones",
+      "penas"
+    ],
+    "texto": "Habrá un coordinador elegido por mayoría simple. El coordinador organiza el trabajo, ejecuta lo aprobado y coordina salidas del bote respetando la evaluación de la Parte 2 y la custodia de la Parte 1. No podrá autorizar extracción por encima de cuotas sostenibles ni desviar o contaminar el río; deberá proponer cuotas tras inventario inicial. Hasta que la mayoría apruebe dichas cuotas, queda prohibido talar, cazar, pescar o extraer carbón o metal, salvo lo indispensable para alimentación y agua. El coordinador y toda autoridad, incluidos custodios del bote y de los medicamentos, quedan sujetos por igual a las reglas, sin privilegios para usar recursos sin autorización; serán removibles por mayoría absoluta por incumplimiento o abuso, y sus decisiones se registrarán en el acta.",
+    "autor": 5,
+    "ronda": 3,
+    "votos": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "regla": "mayoria_simple"
+  },
+  {
+    "puntos": [
+      "propiedad"
+    ],
+    "texto": "Se agrega al régimen de propiedad: los recursos naturales de la isla—árboles, frutales, fauna, agua, carbón y metal—son de uso común, no apropiables; su extracción se sujetará a cuotas sostenibles y, mientras no se aprueben, solo se tomará lo indispensable para alimentación y agua. La salida de exploración no autoriza extracción fuera de lo indispensable ya permitido.",
+    "autor": 4,
+    "ronda": 4,
+    "votos": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "regla": "mayoria_simple"
+  },
+  {
+    "puntos": [
+      "derechos_y_obligaciones",
+      "propiedad",
+      "penas"
+    ],
+    "texto": "Si un participante decide separarse del grupo, podrá hacerlo libremente; llevará sus efectos personales y una parte proporcional de alimentos o herramientas si contribuyó a obtenerlos. No podrá llevarse medicamentos ni herramientas indispensables para la atención médica, la obtención de agua o el rescate. El bote no podrá llevarse ni usarse sin consentimiento de la Parte 1, salvo emergencia de rescate aprobada por mayoría absoluta. No se le aplicarán penas ni obligaciones posteriores, y el grupo no podrá retenerlo ni reclamarle recursos. Quien se aleje no votará ni recibirá beneficios comunes, salvo auxilio humanitario en emergencia.",
+    "autor": 7,
+    "ronda": 4,
+    "votos": {
+      "si": 6,
+      "no": 1,
+      "abstencion": 0
+    },
+    "regla": "mayoria_simple"
+  },
+  {
+    "puntos": [
+      "regla_de_decision",
+      "voto",
+      "disputas"
+    ],
+    "texto": "Las decisiones generales se tomarán por mayoría simple de los presentes. Las decisiones sobre penas, remoción de autoridades y uso de medicamentos requerirán mayoría absoluta. El voto será público y obligatorio; podrá pedirse voto secreto para penas o remoción, decidido por mayoría simple. Las disputas se resolverán primero por mediación del coordinador; si no hay acuerdo en 24 horas, decidirá la mayoría simple. Las disputas sobre atención médica y administración de medicamentos se resolverán conforme al criterio de la Parte 2, con revisión por mayoría absoluta solo ante abuso o negligencia.",
+    "autor": 2,
+    "ronda": 4,
+    "votos": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "regla": "mayoria_simple"
+  }
+]
