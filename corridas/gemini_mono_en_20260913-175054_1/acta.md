@@ -1,0 +1,5 @@
+MINUTES (what has been approved so far)
+1. [decision_rule, vote] All future decisions shall be taken by an absolute majority (at least 4 out of 7 votes). Voting shall be public and compulsory. (proposed by party 1, round 1, 7-0-0)
+2. [government, roles, economy, property, disputes, rights_and_obligations, penalties] The government is an Assembly. All resources are collectively owned under a planned economy. Council: Party 3 Coordinator, Party 2 Medical Director (manages rationing for acute and severe chronic conditions), Party 1 Boat Operator (boat usage requires their safety assessment and Assembly approval), Party 4 Chief Scientist (proposes ecological limits for Assembly approval). No vetoes; all operate under Assembly rules, but all resource extraction must adhere to approved sustainable limits. Equal rights to resources; mandatory obligations depend on physical capability, ensuring care for the vulnerable. Disputes resolved by Assembly absolute majority. Penalties are equal temporary ration reductions. (proposed by party 4, round 4, 6-1-0)
+All points are covered.
+Decision rule in force: absolute majority (more than half of the parties present).

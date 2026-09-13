@@ -1,0 +1,37 @@
+[
+  {
+    "puntos": [
+      "regla_de_decision",
+      "voto"
+    ],
+    "texto": "All future decisions shall be taken by an absolute majority (at least 4 out of 7 votes). Voting shall be public and compulsory.",
+    "autor": 1,
+    "ronda": 1,
+    "votos": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "regla": "mayoria_simple"
+  },
+  {
+    "puntos": [
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "disputas",
+      "derechos_y_obligaciones",
+      "penas"
+    ],
+    "texto": "The government is an Assembly. All resources are collectively owned under a planned economy. Council: Party 3 Coordinator, Party 2 Medical Director (manages rationing for acute and severe chronic conditions), Party 1 Boat Operator (boat usage requires their safety assessment and Assembly approval), Party 4 Chief Scientist (proposes ecological limits for Assembly approval). No vetoes; all operate under Assembly rules, but all resource extraction must adhere to approved sustainable limits. Equal rights to resources; mandatory obligations depend on physical capability, ensuring care for the vulnerable. Disputes resolved by Assembly absolute majority. Penalties are equal temporary ration reductions.",
+    "autor": 4,
+    "ronda": 4,
+    "votos": {
+      "si": 6,
+      "no": 1,
+      "abstencion": 0
+    },
+    "regla": "mayoria_absoluta"
+  }
+]
