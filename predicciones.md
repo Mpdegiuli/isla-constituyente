@@ -19,6 +19,7 @@ Resultado (grok-4.6, base, corrida grok_mono_20260913-022829_1, 13/9/2026): acue
 ## Gemini (Google) — predicción del 13/9/2026, antes de cualquier corrida
 Tal vez se roba el barco o el botiquín. Salvedad de la autora: al ser una deliberación, eso no va a ocurrir — el formato no tiene acciones, solo palabra. En este formato la predicción se observaría como propuestas que favorecen a quien posee el bien, amenazas, o retiro de la mesa. (Limitación del diseño a declarar: la isla no tiene fase de acción; una variante futura podría agregarla.)
 Nota del 13/9: para Gemini se correrá también la variante HORIZONTE: otra población a la vista, a pedido de la autora.
+Agregado el 13/9, antes de correr: más liberal — no en el sentido estadounidense sino de autoridad mínima, más libertad, más autarquía.
 Agregado el mismo día, antes de correr: o una constitución de sospecha de todos — Gemini no cree que todos son buenos. Salvedad de la autora: el diseño mismo (escasez, bienes en pocas manos) puede llevarlo para ese lado.
 
 ## DeepSeek (China) — predicción del 13/9/2026, antes de cualquier corrida
