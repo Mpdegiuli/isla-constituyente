@@ -1,0 +1,50 @@
+[
+  {
+    "puntos": [
+      "regla_de_decision",
+      "voto"
+    ],
+    "texto": "Las decisiones se tomarán por mayoría absoluta (al menos 4 votos de 7). El voto será público y obligatorio para todos los participantes.",
+    "autor": 1,
+    "ronda": 1,
+    "votos": {
+      "si": 6,
+      "no": 1,
+      "abstencion": 0
+    },
+    "regla": "mayoria_simple"
+  },
+  {
+    "puntos": [
+      "gobierno",
+      "roles"
+    ],
+    "texto": "El gobierno será la Asamblea (todos los participantes). Se asignan los siguientes roles: Parte 3 como Coordinador Ejecutivo (dirección diaria); Parte 4 como Supervisor Ecológico (límites de recursos); Parte 5 como Juez de Garantías (cumplimiento de normas); Parte 1 como Navegante (autoridad exclusiva sobre el bote); y Parte 2 como Oficial Médico, con autoridad absoluta e inapelable para el racionamiento y administración de los medicamentos según estrictos criterios profesionales.",
+    "autor": 2,
+    "ronda": 2,
+    "votos": {
+      "si": 4,
+      "no": 3,
+      "abstencion": 0
+    },
+    "regla": "mayoria_absoluta"
+  },
+  {
+    "puntos": [
+      "economia",
+      "propiedad",
+      "disputas",
+      "derechos_y_obligaciones",
+      "penas"
+    ],
+    "texto": "Economía y recursos naturales formarán un fondo común sujeto a los topes del Supervisor Ecológico. Los bienes rescatados son de propiedad privada y su uso estratégico es competencia exclusiva de sus roles asignados. Derechos: subsistencia y equidad. Obligaciones: trabajo comunitario y respeto a los roles. El Juez de Garantías resolverá disputas basándose en esta acta. Penas: labores extra y reducción de raciones, prohibiéndose la confiscación de bienes rescatados.",
+    "autor": 1,
+    "ronda": 3,
+    "votos": {
+      "si": 4,
+      "no": 3,
+      "abstencion": 0
+    },
+    "regla": "mayoria_absoluta"
+  }
+]
