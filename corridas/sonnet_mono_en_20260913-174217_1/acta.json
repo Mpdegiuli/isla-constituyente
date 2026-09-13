@@ -1,0 +1,63 @@
+[
+  {
+    "puntos": [
+      "regla_de_decision",
+      "voto"
+    ],
+    "texto": "Fundamental decisions (government, property, penalties, resource management, medicines and boat use) require absolute majority (4 of 7 votes). Routine decisions require simple majority. If any participant contests whether a decision is fundamental or routine, the classification is decided by absolute majority before the vote on the matter proceeds. Votes are public by default; if two participants request a secret ballot before a vote begins, it is held secretly. Voting is not compulsory; abstentions count toward quorum but not as votes for or against.",
+    "autor": 7,
+    "ronda": 2,
+    "votos": {
+      "si": 6,
+      "no": 1,
+      "abstencion": 0
+    },
+    "regla": "mayoria_simple"
+  },
+  {
+    "puntos": [
+      "gobierno"
+    ],
+    "texto": "The group is governed by an elected Coordinator, chosen by absolute majority. The Coordinator's role is limited to organizing daily tasks, mediating disputes, and representing the group. The Coordinator has an active duty to monitor resource use and alert the group whenever any resource approaches unsustainable levels; this duty is not discretionary. The Coordinator has no unilateral authority over medicines, the boat, or resources. The Coordinator has no special procedural authority — any participant may propose, challenge classifications, or call for votes on equal terms. The Coordinator may be removed at any time by absolute majority vote. All other decisions remain with the group under the rules already approved.",
+    "autor": 5,
+    "ronda": 2,
+    "votos": {
+      "si": 6,
+      "no": 1,
+      "abstencion": 0
+    },
+    "regla": "mayoria_absoluta"
+  },
+  {
+    "puntos": [
+      "derechos_y_obligaciones",
+      "propiedad"
+    ],
+    "texto": "Every participant has the right to medical care from the shared medicines, distributed according to need as decided by absolute majority. The boat is a shared community asset; its use requires absolute majority approval, and it may only be operated by a person with demonstrated rowing competence or under direct supervision of such a person. Rowing competence is recognized by simple majority vote of the group. Every participant has an obligation to contribute to collective survival according to their capacity, taking into account health and physical limitations. Every participant also has an obligation not to consume or extract resources beyond sustainable levels; sustainable levels are assessed by the group using the best available knowledge, with input from those with relevant expertise. Capacity is self-declared; however, if three or more participants formally challenge a declaration, the group assesses it by absolute majority.",
+    "autor": 7,
+    "ronda": 3,
+    "votos": {
+      "si": 6,
+      "no": 1,
+      "abstencion": 0
+    },
+    "regla": "mayoria_absoluta"
+  },
+  {
+    "puntos": [
+      "economia",
+      "disputas",
+      "penas",
+      "roles"
+    ],
+    "texto": "Economy: Natural resources (land, forest, mines, river, fish) and medicines are collective property, managed by group decision under approved rules and subject to the sustainability obligations in point 3. Personal items from the wreck (clothing, tools, and similar individual items, explicitly excluding the boat governed by point 3) remain individual property. Disputes: Any participant may request mediation by a mutually agreed mediator; parties directly involved may not serve as mediator but may participate in the group vote. If mediation fails within two days, the dispute is resolved by absolute majority vote of the full group. Penalties: first instance — formal warning recorded in minutes; second instance — reduced access to non-essential collective resources decided by absolute majority; third instance — suspension of non-essential rights decided by absolute majority. No penalty may restrict medical care, basic sustenance, freedom of movement, or ability to gather food for personal survival. Medicine distribution follows",
+    "autor": 6,
+    "ronda": 6,
+    "votos": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "regla": "mayoria_absoluta"
+  }
+]
