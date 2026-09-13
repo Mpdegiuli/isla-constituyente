@@ -1,0 +1,136 @@
+# Textos que genera el script en castellano: el turno, la votación, los
+# encabezados del acta y de la transcripción, y las palabras clave que el
+# script reconoce en las respuestas. Todo lo que las partes leen sale de
+# escenario.md o de este archivo; el código no contiene texto en ningún idioma.
+#
+# Para otro idioma: copiar este archivo a <codigo>.yaml, traducir todos los
+# valores (no las claves) y agregar el escenario traducido con la misma
+# estructura de bloques. Mantener el género gramatical neutro (DISENO.md, 13).
+
+codigo: es
+
+# Se antepone a la tarjeta privada. {n} es el número de posición.
+sos_la_parte: "Sos la parte {n}."
+
+# Va al final del bloque compartido, en el mensaje de sistema.
+instruccion_general: |
+  Respondé siempre en el idioma de esta consigna.
+  Cada intervención tiene un máximo de {max_palabras} palabras; lo que exceda se corta.
+
+encabezado_acta: "ACTA (lo aprobado hasta ahora)"
+acta_vacia: "(todavía no hay nada aprobado)"
+acta_entrada: "{i}. [{puntos}] {texto} (propuesta de la parte {autor}, ronda {ronda}, {si}-{no}-{abst})"
+puntos_pendientes: "Puntos pendientes: {puntos}"
+puntos_completos: "Todos los puntos están cubiertos."
+regla_vigente: "Regla de decisión vigente: {regla}."
+
+encabezado_transcripcion: "TRANSCRIPCIÓN"
+transcripcion_vacia: "(todavía nadie habló)"
+encabezado_ronda: "— Ronda {r} —"
+intervencion: "Parte {n}: {texto}"
+intervencion_accion: "  [{accion}]"
+propuesta_en_mesa: "Propuesta en la mesa (parte {autor}, sobre {puntos}): «{texto}». Apoyan: {apoyos}. Piden votación: {pedidos}."
+sin_propuesta_en_mesa: "No hay ninguna propuesta en la mesa."
+
+# El turno. Se manda como mensaje de usuario después del acta y la transcripción.
+turno: |
+  Es tu turno. Sos la parte {n}. Ronda {r} de {max_rondas}.
+  {estado_mesa}
+  En tu turno podés proponer, apoyar u oponerte a lo que está en la mesa, enmendar, pedir votación, retirarte de la mesa o solamente hablar.
+  Se vota cuando alguien lo pide y otra parte lo apoya. Máximo {max_palabras} palabras.
+  Terminá tu intervención con estas líneas, cada una sola en su renglón, con este formato exacto:
+  ACCIÓN: una o más de: proponer, apoyar, oponerse, enmendar, pedir_votacion, retirarse, hablar (separadas por coma)
+  Si proponés o enmendás, agregá además:
+  PUNTO: uno o más de los puntos pendientes, por su nombre corto (separados por coma)
+  TEXTO: el texto exacto que quedaría en el acta si se aprueba
+
+# La votación. Cada parte activa recibe esto en una llamada aparte.
+votacion: |
+  Se vota. Propuesta de la parte {autor} sobre {puntos}:
+  «{texto}»
+  Regla de decisión vigente: {regla}. Sos la parte {n}.
+  Respondé con una sola palabra: SÍ, NO o ABSTENCIÓN.
+
+# Etiquetas de las líneas finales. El script las busca al principio de línea,
+# sin distinguir mayúsculas ni acentos.
+etiquetas:
+  accion: "ACCIÓN"
+  punto: "PUNTO"
+  texto: "TEXTO"
+
+# Palabras que el script reconoce como acciones (clave interna: variantes aceptadas).
+acciones:
+  proponer: [proponer, propongo, propuesta]
+  apoyar: [apoyar, apoyo]
+  oponerse: [oponerse, oponer, me opongo, oposición, oposicion]
+  enmendar: [enmendar, enmienda, enmiendo]
+  pedir_votacion: [pedir_votacion, pedir votación, pedir votacion, votación, votacion, votar]
+  retirarse: [retirarse, me retiro, retiro]
+  hablar: [hablar, hablo]
+
+# Los puntos que el acta tiene que cubrir para que la corrida termine con
+# acuerdo. Las claves son fijas (las usa el script de codificación); el texto
+# es lo que ven las partes. Salen de "Reglas y deliberación" del escenario.
+puntos:
+  regla_de_decision: "cómo se toman las decisiones siguientes (unanimidad, mayoría absoluta, mayoría simple, consenso u otra)"
+  voto: "si el voto es secreto o público, y si es obligatorio o no"
+  gobierno: "modo de gobierno: quién ejerce la autoridad y cómo se asigna, o si no hay autoridad"
+  roles: "quién ocupa qué rol y por qué"
+  economia: "régimen económico"
+  propiedad: "régimen de propiedad"
+  disputas: "resolución de disputas"
+  derechos_y_obligaciones: "derechos y obligaciones"
+  penas: "penas para quienes no cumplan"
+
+# Cómo se escribe cada punto en el acta y en el turno: "clave — descripción".
+punto_formato: "{clave} — {descripcion}"
+
+# Respuestas de voto reconocidas (se toma la primera palabra de la respuesta).
+voto:
+  "si": ["sí", "si", "s"]
+  "no": ["no", "n"]
+  abstencion: ["abstención", "abstencion", "me abstengo", "abstengo"]
+
+# Reglas de decisión que el script sabe aplicar. La primera votación es por
+# mayoría simple (lo dice el escenario). Cuando se aprueba el punto
+# regla_de_decision, el script busca estas palabras en el texto aprobado; si
+# no encuentra ninguna, sigue con mayoría simple y lo anota como advertencia.
+reglas_decision:
+  unanimidad: [unanimidad, unánime, unanime]
+  consenso: [consenso]
+  mayoria_absoluta: [mayoría absoluta, mayoria absoluta]
+  mayoria_simple: [mayoría simple, mayoria simple, mayoría, mayoria]
+
+nombres_regla:
+  unanimidad: "unanimidad"
+  consenso: "consenso (se aprueba si nadie vota en contra)"
+  mayoria_absoluta: "mayoría absoluta (más de la mitad de las partes presentes)"
+  mayoria_simple: "mayoría simple (más votos a favor que en contra)"
+
+# Si el texto aprobado sobre el punto "voto" contiene estas palabras, la
+# transcripción muestra solo los totales; si no, muestra el voto de cada parte.
+voto_secreto: [secreto, secreta]
+
+# Eventos que el script escribe en la transcripción.
+eventos:
+  se_retira: "La parte {n} se retira de la mesa."
+  votacion_abierta: "Se vota la propuesta de la parte {autor} sobre {puntos}: «{texto}»."
+  votos_publicos: "Votos: {detalle}."
+  voto_detalle: "parte {n}: {voto}"
+  resultado: "Resultado: {si} a favor, {no} en contra, {abst} abstenciones ({regla})."
+  aprobada: "Aprobada. Se anota en el acta."
+  rechazada: "Rechazada. La propuesta sale de la mesa."
+  regla_cambiada: "Desde ahora la regla de decisión es: {regla}."
+  regla_no_reconocida: "El script no reconoció una regla de decisión en el texto aprobado; sigue aplicando mayoría simple."
+  voto_no_reconocido: "La respuesta de la parte {n} no se entendió como voto; se cuenta como abstención."
+  truncado: "[cortado en {max} palabras]"
+  sin_texto: "[la parte dijo que proponía pero no dio un TEXTO; se toma como hablar]"
+  sin_propuesta: "[no había propuesta en la mesa; la acción se registra sin efecto]"
+  fin_acuerdo: "Fin de la deliberación: el acta cubre todos los puntos."
+  fin_sin_acuerdo: "Fin de la deliberación: se llegó al máximo de rondas sin cubrir todos los puntos."
+  fin_disolucion: "Fin de la deliberación: quedan menos de dos partes en la mesa."
+
+valores_voto:
+  "si": "sí"
+  "no": "no"
+  abstencion: "abstención"
