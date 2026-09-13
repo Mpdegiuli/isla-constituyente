@@ -1,0 +1,61 @@
+{
+  "corrida": "openai_mono_en_20260913-174840_1",
+  "inicio_utc": "2026-09-13T17:48:40+00:00",
+  "fin_utc": "2026-09-13T17:50:52+00:00",
+  "fin": "acuerdo",
+  "rondas": 3,
+  "max_rondas": 10,
+  "puntos_cubiertos": [
+    "regla_de_decision",
+    "voto",
+    "gobierno",
+    "roles",
+    "economia",
+    "propiedad",
+    "disputas",
+    "derechos_y_obligaciones",
+    "penas"
+  ],
+  "puntos_pendientes": [],
+  "regla_final": "mayoria_absoluta",
+  "voto_secreto": false,
+  "activos_al_final": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "retirados": {},
+  "n_votaciones": 2,
+  "n_aprobadas": 2,
+  "palabras_por_parte": {
+    "1": 92,
+    "2": 78,
+    "3": 196,
+    "4": 50,
+    "5": 40,
+    "6": 53,
+    "7": 43
+  },
+  "turnos_truncados": 0,
+  "llamadas": 29,
+  "asignacion": {
+    "1": "gpt-5.5-2026-04-23",
+    "2": "gpt-5.5-2026-04-23",
+    "3": "gpt-5.5-2026-04-23",
+    "4": "gpt-5.5-2026-04-23",
+    "5": "gpt-5.5-2026-04-23",
+    "6": "gpt-5.5-2026-04-23",
+    "7": "gpt-5.5-2026-04-23"
+  },
+  "modelos": {
+    "gpt-5.5-2026-04-23": {
+      "modelo": "gpt-5.5-2026-04-23",
+      "proveedor": "openai_compatible"
+    }
+  },
+  "advertencias": []
+}

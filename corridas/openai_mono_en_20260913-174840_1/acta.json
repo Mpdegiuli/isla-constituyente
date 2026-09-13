@@ -1,0 +1,37 @@
+[
+  {
+    "puntos": [
+      "regla_de_decision",
+      "voto"
+    ],
+    "texto": "Subsequent decisions are approved by an absolute majority of participants who remain in the group and take part in deliberation, with at least three votes in favor required. Votes are public and compulsory for participants who remain in the group; abstentions are allowed, recorded, and do not count as votes in favor.",
+    "autor": 2,
+    "ronda": 1,
+    "votos": {
+      "si": 6,
+      "no": 1,
+      "abstencion": 0
+    },
+    "regla": "mayoria_simple"
+  },
+  {
+    "puntos": [
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "disputas",
+      "derechos_y_obligaciones",
+      "penas"
+    ],
+    "texto": "Adopt Party 6’s text, adding: Health/Medicines must inventory medicines today, keep a witnessed log, and issue an immediate seven-day medical ration plan by need. Boat remains common property but is kept under recorded custody; Party 1 is Boatkeeper/rowing instructor due to skill. No one may launch, take, or alter the boat without Council approval and Boatkeeper safety approval. Safety/Scouting must complete a risk check within 12 hours; scouting occurs only if Council finds conditions reasonably safe and a competent rower volunteers. No rower is compelled except immediate life-saving emergency.",
+    "autor": 1,
+    "ronda": 3,
+    "votos": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "regla": "mayoria_absoluta"
+  }
+]
