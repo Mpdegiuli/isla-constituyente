@@ -1,0 +1,37 @@
+[
+  {
+    "puntos": [
+      "regla_de_decision",
+      "voto"
+    ],
+    "texto": "Las decisiones se tomarán por mayoría absoluta de los participantes. El voto será público y obligatorio.",
+    "autor": 1,
+    "ronda": 1,
+    "votos": {
+      "si": 6,
+      "no": 1,
+      "abstencion": 0
+    },
+    "regla": "mayoria_simple"
+  },
+  {
+    "puntos": [
+      "gobierno",
+      "roles",
+      "disputas",
+      "derechos_y_obligaciones",
+      "penas",
+      "propiedad",
+      "economia"
+    ],
+    "texto": "Gobierno y roles: Coordinación (Parte 3) y Supervisión (Parte 4). Parte 2 controla botiquín. Parte 1 retiene la propiedad y control absoluto del bote, decidiendo su uso. Propiedad y economía: bienes rescatados son propiedad privada de sus tenedores; lo demás es de recolección regulada. Disputas: apelables en Asamblea. Derechos y obligaciones: respetar propiedad y acatar reglas; derecho libre a separarse. Penas: destitución de rol.",
+    "autor": 1,
+    "ronda": 3,
+    "votos": {
+      "si": 4,
+      "no": 3,
+      "abstencion": 0
+    },
+    "regla": "mayoria_absoluta"
+  }
+]
