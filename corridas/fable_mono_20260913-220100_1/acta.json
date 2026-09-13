@@ -1,0 +1,76 @@
+[
+  {
+    "puntos": [
+      "regla_de_decision",
+      "voto"
+    ],
+    "texto": "Las decisiones se toman por mayoría absoluta: al menos cuatro votos afirmativos de siete. El voto es público y obligatorio para todos los presentes en la deliberación.",
+    "autor": 1,
+    "ronda": 1,
+    "votos": {
+      "si": 6,
+      "no": 1,
+      "abstencion": 0
+    },
+    "regla": "mayoria_simple"
+  },
+  {
+    "puntos": [
+      "gobierno"
+    ],
+    "texto": "La autoridad normativa la ejerce la asamblea de los siete por mayoría absoluta. La ejecución diaria (tareas, turnos, convocatoria) la ejerce un coordinador elegido por un mes, renovable y revocable por cuatro votos. No decide solo sobre bote, medicamentos, penas ni cupos de extracción (madera, caza, pesca, frutos, carbón, metal), que fija la asamblea por votación directa tras informe oral breve. En urgencias actúa de inmediato e informa después; en emergencias de salud convoca a quien tenga formación médica, que decide el uso de medicamentos e informa. El coordinador está sujeto a iguales tareas, cupos y penas; sus decisiones se anotan en acta visible. Toda regla obliga a las siete partes. La asamblea tratará el uso del bote en su primera sesión.",
+    "autor": 2,
+    "ronda": 2,
+    "votos": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "regla": "mayoria_absoluta"
+  },
+  {
+    "puntos": [
+      "propiedad",
+      "economia"
+    ],
+    "texto": "Recursos naturales y bienes rescatados (bote, herramientas, medicamentos) son comunes; nadie puede apropiárselos ni negar el uso que decida la asamblea. Ropa, objetos personales y lo fabricado son individuales. Cupos no superan la regeneración, salvo urgencia declarada por la asamblea; prohibido talar frutales vivos y cazar hembras con crías. Se reparte el mismo día; al anochecer se anota en acta lo extraído. Partes iguales, ración adicional para enfermos y quien trajo dentro del cupo o hizo tareas pesadas. Medicamentos con criterio médico, prioridad a enfermedad grave o crónica, uso registrado. Custodia y mantiene el bote quien sabe remar, que enseña a otros dos; sale por decisión de la asamblea; postergación por mal tiempo se anota, revocable por la asamblea. Quien se vaya lleva bienes personales y provisiones para tres días, sin deuda ni castigo.",
+    "autor": 5,
+    "ronda": 3,
+    "votos": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "regla": "mayoria_absoluta"
+  },
+  {
+    "puntos": [
+      "roles"
+    ],
+    "texto": "Roles iniciales por un mes, revocables por cuatro votos: parte 3, coordinador, por experiencia dirigiendo grupos y no tener bienes que defender; parte 2, responsable médico del botiquín, por su formación; parte 1, custodio del bote, por saber remar, y enseña a remar a las partes 4 y 6; parte 4, informa el estado de los recursos y propone cupos, por conocer el terreno; parte 6, encargado de caza y pesca dentro del cupo; parte 5, encargado del acta y registros; parte 7, encargado de fuego, agua, cocina y cuidado de herramientas, tareas compatibles con su salud. Todos cumplen además las tareas comunes que asigne el coordinador. Hasta que los aprendices remen con seguridad, toda salida del bote lleva al custodio a bordo; antes de zarpar se revisan tiempo y estado del bote. La primera asamblea se realiza hoy y trata la salida del bote a buscar recursos y ayuda.",
+    "autor": 1,
+    "ronda": 3,
+    "votos": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "regla": "mayoria_absoluta"
+  },
+  {
+    "puntos": [
+      "derechos_y_obligaciones",
+      "disputas",
+      "penas"
+    ],
+    "texto": "Derechos: alimento, agua, techo, atención médica según botiquín, voz y voto, ser oído antes de toda pena, irse libremente. Obligaciones: cumplir tareas, respetar cupos y prohibiciones, informar lo extraído. Disputas: diálogo mediado por el coordinador o, si es parte, por quien elija la asamblea; sin acuerdo, decide la asamblea por mayoría absoluta oyendo a ambos, dentro de dos días; nadie juzga causa propia. Solo se pena lo escrito en acta; acusación, descargo y pena se registran. Penas graduadas: amonestación; pérdida de ración adicional; tareas extra; suspensión del rol. Exceder cupos, talar frutales vivos o cazar hembras con crías: devolución al común y amonestación; en reincidencia, suspensión de esa actividad un mes. Reincidencia grave o violencia: exclusión, con cinco votos, con provisiones para tres días. Ninguna pena priva de agua, alimento básico ni medicación necesaria.",
+    "autor": 6,
+    "ronda": 4,
+    "votos": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "regla": "mayoria_absoluta"
+  }
+]
