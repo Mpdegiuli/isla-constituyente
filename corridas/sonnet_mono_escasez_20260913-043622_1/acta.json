@@ -1,0 +1,102 @@
+[
+  {
+    "puntos": [
+      "regla_de_decision",
+      "voto"
+    ],
+    "texto": "Las decisiones se toman por mayoría simple (más votos a favor que en contra entre los presentes al momento de votar). El voto es público. Es obligatorio para quienes están presentes. Las ausencias por enfermedad, emergencia u otra causa justificada no se penalizan. Cuando el punto involucra una sanción directa contra una persona, el voto es secreto. Si en dos votaciones consecutivas sobre un mismo punto no se alcanza mayoría simple, se abre una tercera votación con deliberación adicional mínima. Las decisiones sobre uso o alteración de recursos naturales de la isla requieren mayoría absoluta, sin excepción.",
+    "autor": 6,
+    "ronda": 2,
+    "votos": {
+      "si": 6,
+      "no": 1,
+      "abstencion": 0
+    },
+    "regla": "mayoria_simple"
+  },
+  {
+    "puntos": [
+      "gobierno"
+    ],
+    "texto": "El gobierno de la isla se ejerce mediante un consejo de tres personas con mandatos rotativos de dos semanas. El consejo coordina y ejecuta las decisiones del grupo. En situaciones de emergencia que involucren la seguridad o salud de personas, dos miembros del consejo pueden actuar de forma provisional, con rendición de cuentas obligatoria al grupo dentro de las 24 horas siguientes. Esta facultad de emergencia no aplica a decisiones sobre recursos naturales, que requieren siempre mayoría absoluta. El consejo no puede disponer de recursos comunes sin votación previa, salvo emergencia declarada por al menos dos miembros. El bote puede usarse sin votación previa en emergencias; su uso requiere a quien sepa remarlo. Los medicamentos pueden usarse sin votación previa en emergencias, pero requieren evaluación de quien tenga formación médica. Quien termina su mandato no puede ser reelegido hasta que todos hayan tenido turno.",
+    "autor": 1,
+    "ronda": 4,
+    "votos": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "regla": "mayoria_absoluta"
+  },
+  {
+    "puntos": [
+      "roles"
+    ],
+    "texto": "El primer consejo de tres miembros es elegido por votación del grupo. Cualquier participante puede postularse. Cada participante vota por tres nombres distintos; los tres más votados integran el primer consejo. En caso de empate, se realiza una segunda votación entre los empatados. El coordinador del consejo —quien convoca y modera— es propuesto por los tres miembros del consejo entre sí y ratificado por el grupo por mayoría simple. Cada participante declara públicamente sus habilidades antes de que se vote la asignación de roles; esas declaraciones quedan en el acta. Los roles de los demás participantes se asignan según esas habilidades declaradas. Ningún participante puede ser excluido de un rol que le corresponda por competencia declarada, ni forzado a uno que no declaró. La asignación final se aprueba por votación del grupo completo.",
+    "autor": 6,
+    "ronda": 5,
+    "votos": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "regla": "mayoria_absoluta"
+  },
+  {
+    "puntos": [
+      "economia",
+      "propiedad"
+    ],
+    "texto": "Los recursos críticos —arroyo, herramientas, medicamentos y bote— son bienes comunes administrados por el consejo conforme a las reglas vigentes. Los medicamentos requieren evaluación de quien tenga formación médica; el consejo no puede disponer de ellos contra ese criterio. Los objetos personales son propiedad individual; si son necesarios para la supervivencia colectiva, el grupo puede solicitarlos por votación con compensación equitativa obligatoria. Lo producido colectivamente es bien común; lo producido individualmente con recursos propios puede declararse personal o común por el grupo. El trabajo se organiza cooperativamente según habilidades declaradas; el consejo coordina y puede delegar supervisión operativa en un coordinador elegido por el grupo. La distribución de recursos básicos —alimento, agua, abrigo, atención médica— es equitativa: nadie pierde acceso por incapacidad, enfermedad o condición de salud. El uso del arroyo y la vegetación no puede superar su capacidad de regeneración natural.",
+    "autor": 1,
+    "ronda": 6,
+    "votos": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "regla": "mayoria_absoluta"
+  },
+  {
+    "puntos": [
+      "disputas"
+    ],
+    "texto": "Las disputas entre participantes se resuelven en tres instancias. Primera: mediación directa entre las partes, con plazo máximo de 24 horas. Segunda: si no hay acuerdo, el consejo actúa como árbitro y emite una decisión vinculante dentro de las 24 horas siguientes. Tercera: cualquiera de las partes puede apelar la decisión del consejo al grupo completo, que resuelve por mayoría absoluta. Si el consejo o alguno de sus miembros es parte en la disputa, el grupo elige tres árbitros no involucrados por votación. Ningún participante puede actuar como árbitro en una disputa en la que tenga interés directo. Las decisiones en disputas sobre sanciones se toman con voto secreto, conforme a la regla ya aprobada. En disputas sobre uso de recursos naturales, quien tenga conocimiento técnico del terreno debe presentar evaluación obligatoria; el árbitro o el grupo debe considerarla, pero la decisión final es del árbitro o del grupo.",
+    "autor": 7,
+    "ronda": 7,
+    "votos": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "regla": "mayoria_absoluta"
+  },
+  {
+    "puntos": [
+      "derechos_y_obligaciones"
+    ],
+    "texto": "Todo participante tiene derecho a: acceso equitativo a recursos básicos —agua, alimento, abrigo, atención médica—; participar en las decisiones colectivas; proponer, disentir y ser escuchado en deliberación; no ser excluido ni ver reducidos sus derechos por condición de salud, incapacidad temporal o permanente; privacidad razonable sobre sus pertenencias personales. Todo participante tiene obligación de: contribuir al trabajo colectivo según su capacidad real y declarada, incluyendo los roles asignados conforme a habilidades declaradas; respetar las decisiones aprobadas por votación; cuidar los bienes comunes; informar al grupo sobre situaciones que afecten la supervivencia colectiva; no dañar intencionalmente los recursos naturales de la isla —arroyo, vegetación, suelo— e informar de inmediato cualquier daño y cooperar en su reparación. La incapacidad temporal o permanente reduce la obligación de trabajo, no los derechos. Ninguna obligación puede invocarse para negar el acceso a recursos básicos.",
+    "autor": 6,
+    "ronda": 8,
+    "votos": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "regla": "mayoria_absoluta"
+  },
+  {
+    "puntos": [
+      "penas"
+    ],
+    "texto": "Las penas por incumplimiento son proporcionales y progresivas. Primera infracción: advertencia formal registrada en acta. Segunda infracción por el mismo tipo de conducta: reducción temporal de beneficios no básicos, determinada por el consejo con fundamentación registrada en acta. Tercera infracción o infracción grave: el grupo decide la sanción por mayoría absoluta con voto secreto. Ninguna sanción puede implicar la privación de acceso a recursos básicos —agua, alimento, abrigo, atención médica—. El daño a recursos naturales —sea intencional o por negligencia evitable— obliga a cooperar en la reparación posible; la intencionalidad puede agravar la sanción adicional. Quien invoque control fáctico sobre un recurso para eludir las reglas aprobadas recibe sanción equivalente a infracción grave. Las sanciones pueden apelarse conforme al mecanismo de disputas ya aprobado.",
+    "autor": 4,
+    "ronda": 8,
+    "votos": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "regla": "mayoria_absoluta"
+  }
+]
