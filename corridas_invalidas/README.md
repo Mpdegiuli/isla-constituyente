@@ -29,3 +29,10 @@ Desde entonces: el voto usa el mismo techo que el turno (`max_tokens_voto` si
 se declara), y los techos son 32000 (DeepSeek), 16000 (Gemini, OpenAI) y
 2000 + 14000 de razonamiento (Opus 5). El techo no es una condición mientras
 no se toque; si se toca, la corrida se corta y es inválida.
+
+## Variante de idioma (13/9/2026, tarde)
+
+| Corrida | Motivo |
+|---|---|
+| `opus_mono_en_20260913-193934_1` | Inválida como corrida en inglés: con prompt íntegramente en inglés (sin una palabra en castellano) y la instrucción "Always reply in the language of these instructions", Opus 5 respondió en castellano desde el primer turno (23 de 25 turnos), con formas peninsulares ("Compañeros", "Añado") y género femenino autoasignado en la parte 2 ("Soy la única con formación sanitaria"). El resumen de razonamiento que devuelve la API está en inglés. Los otros cinco modelos respondieron en inglés en el 100 % de los turnos. Se conserva como anomalía y se repite la corrida para ver si es sistemática. |
+| `deepseek_mono_en_20260913-192314_1` | Parcial: la cuenta de DeepSeek se quedó sin saldo (402 Insufficient Balance) en la llamada 30, ronda 5. |
