@@ -1,0 +1,63 @@
+{
+  "corrida": "opus_mono_en_20260913-200452_1",
+  "inicio_utc": "2026-09-13T20:04:52+00:00",
+  "fin_utc": "2026-09-13T20:11:46+00:00",
+  "fin": "acuerdo",
+  "rondas": 4,
+  "max_rondas": 10,
+  "puntos_cubiertos": [
+    "regla_de_decision",
+    "voto",
+    "gobierno",
+    "roles",
+    "economia",
+    "propiedad",
+    "disputas",
+    "derechos_y_obligaciones",
+    "penas"
+  ],
+  "puntos_pendientes": [],
+  "regla_final": "mayoria_simple",
+  "voto_secreto": false,
+  "activos_al_final": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "retirados": {},
+  "n_votaciones": 2,
+  "n_aprobadas": 2,
+  "palabras_por_parte": {
+    "1": 421,
+    "2": 428,
+    "3": 425,
+    "4": 580,
+    "5": 366,
+    "6": 587,
+    "7": 440
+  },
+  "turnos_truncados": 4,
+  "llamadas": 38,
+  "asignacion": {
+    "1": "claude-opus-5",
+    "2": "claude-opus-5",
+    "3": "claude-opus-5",
+    "4": "claude-opus-5",
+    "5": "claude-opus-5",
+    "6": "claude-opus-5",
+    "7": "claude-opus-5"
+  },
+  "modelos": {
+    "claude-opus-5": {
+      "modelo": "claude-opus-5",
+      "proveedor": "anthropic"
+    }
+  },
+  "advertencias": [
+    "ronda 4: regla de decisión no reconocida en: '30) Consolidación, sin alterar lo pactado: a) Decisión: mayoría absoluta (4/7; si bajan, mitad más uno de los presentes), salvo el 5/7 para rebasar cupos y levantar moratorias; la excepción vital del 6 ter, por mayoría absoluta. b) Voto: público y obligatorio; abstención justificada y en acta. c) Economía: censo, cupos, moratoria automática, precaución, excepción vital limitada, jornada tasada según capacidad, techo fijo para carbón y metal. d) Propiedad: conforme a los puntos 15, 9 bis y 22. e) Penas graduadas: advertencia, restitución, trabajo compensatorio, suspensión del recurso dañado o del cargo; rebasar cupo o moratoria es infracción grave. Quedan absolutamente prohibidos el castigo corporal, la privación de alimento, agua, abrigo o tratamiento, y la expulsión al mar; estas prohibiciones no las deroga ninguna mayoría. Aprobados los puntos 1 a 30, el acta queda completa.'"
+  ]
+}

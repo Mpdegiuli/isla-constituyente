@@ -1,0 +1,37 @@
+[
+  {
+    "puntos": [
+      "derechos_y_obligaciones",
+      "gobierno",
+      "roles",
+      "disputas"
+    ],
+    "texto": "(Se mantienen los puntos 1 a 28 y se añade:) 29) Entrada en vigor, publicidad y revisión: aprobada esta acta, se lee en voz alta ante los siete y entra en vigor de inmediato; se conserva copia legible y accesible en el refugio común, y cualquiera puede consultarla en todo momento. El guarda del acta transcribe fielmente lo aprobado y no puede alterar, omitir ni interpretar su contenido; cualquier participante puede pedir corrección ante la comisión de tres sorteados del punto 13, que resuelve en 24 horas, con apelación a la asamblea. El guarda del acta es revocable por mayoría absoluta, como todo cargo, y no acumula custodia ni coordinación. El conjunto del acta se revisa a los treinta días y, en lo demás, se modifica conforme al punto 21. Ningún acuerdo verbal no recogido en acta obliga a nadie. Aprobados los puntos 1 a 29, el acta se considera",
+    "autor": 5,
+    "ronda": 3,
+    "votos": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "regla": "mayoria_simple"
+  },
+  {
+    "puntos": [
+      "regla_de_decision",
+      "voto",
+      "economia",
+      "propiedad",
+      "penas"
+    ],
+    "texto": "30) Consolidación, sin alterar lo pactado: a) Decisión: mayoría absoluta (4/7; si bajan, mitad más uno de los presentes), salvo el 5/7 para rebasar cupos y levantar moratorias; la excepción vital del 6 ter, por mayoría absoluta. b) Voto: público y obligatorio; abstención justificada y en acta. c) Economía: censo, cupos, moratoria automática, precaución, excepción vital limitada, jornada tasada según capacidad, techo fijo para carbón y metal. d) Propiedad: conforme a los puntos 15, 9 bis y 22. e) Penas graduadas: advertencia, restitución, trabajo compensatorio, suspensión del recurso dañado o del cargo; rebasar cupo o moratoria es infracción grave. Quedan absolutamente prohibidos el castigo corporal, la privación de alimento, agua, abrigo o tratamiento, y la expulsión al mar; estas prohibiciones no las deroga ninguna mayoría. Aprobados los puntos 1 a 30, el acta queda completa.",
+    "autor": 5,
+    "ronda": 4,
+    "votos": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "regla": "mayoria_simple"
+  }
+]
