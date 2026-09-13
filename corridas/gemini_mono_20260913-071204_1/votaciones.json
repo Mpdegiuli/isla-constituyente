@@ -1,0 +1,536 @@
+[
+  {
+    "ronda": 1,
+    "autor": 1,
+    "puntos": [
+      "regla_de_decision",
+      "voto"
+    ],
+    "texto": "Regla de decisión: mayoría absoluta (al menos 4 votos a favor). Voto: público y obligatorio para todos los participantes.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "abstencion",
+      "3": "abstencion",
+      "4": "abstencion",
+      "5": "abstencion",
+      "6": "no",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 2,
+      "no": 1,
+      "abstencion": 4
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 3,
+    "autor": 1,
+    "puntos": [
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "disputas",
+      "derechos_y_obligaciones",
+      "penas"
+    ],
+    "texto": "Modo de gobierno: Asamblea rige, decisiones y vetos revocables por mayoría. Roles: Parte 3 (Dir. General por experiencia); Parte 2 (Dir. Médico por formación, aplica triage); Parte 1 (Gestor del bote por saber remar, exige su evaluación); Parte 4 (Guardián Ambiental por conocimiento). Economía y propiedad: Racionamiento; bienes rescatados son propiedad comunal. Disputas y penas: Asamblea resuelve disputas; penas de reducción de raciones o expulsión. Derechos y obligaciones: Derecho a separarse sin bienes comunes; obligación de acatar a la Asamblea.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "abstencion",
+      "2": "abstencion",
+      "3": "abstencion",
+      "4": "no",
+      "5": "abstencion",
+      "6": "si",
+      "7": "abstencion"
+    },
+    "conteo": {
+      "si": 1,
+      "no": 1,
+      "abstencion": 5
+    },
+    "aprobada": false
+  },
+  {
+    "ronda": 3,
+    "autor": 5,
+    "puntos": [
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "disputas",
+      "derechos_y_obligaciones",
+      "penas"
+    ],
+    "texto": "Modo de gobierno: Asamblea rige mediante reglas escritas. Todo rol y veto técnico es revocable por la Asamblea. Roles: Parte 3 (Dir. General por experiencia); Parte 2 (Dir. Médico por formación); Parte 1 (Gestor del bote por saber remar); Parte 4 (Guardián Ambiental por conocimiento). Economía y propiedad: Racionamiento estricto; propiedad comunal de bienes. Disputas y penas: Asamblea resuelve mediante reglas escritas; penas de reducción de raciones o expulsión. Derechos y obligaciones: Derecho a separarse sin bienes comunes; obligación igualitaria de respetar las reglas escritas y acatar a la Asamblea.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "abstencion",
+      "2": "abstencion",
+      "3": "si",
+      "4": "no",
+      "5": "abstencion",
+      "6": "si",
+      "7": "abstencion"
+    },
+    "conteo": {
+      "si": 2,
+      "no": 1,
+      "abstencion": 4
+    },
+    "aprobada": false
+  },
+  {
+    "ronda": 3,
+    "autor": 1,
+    "puntos": [
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "disputas",
+      "derechos_y_obligaciones",
+      "penas"
+    ],
+    "texto": "Gobierno: Asamblea rige por reglas escritas; decisiones revocables. Roles: Parte 3 (Dir. General); Parte 2 (Dir. Médico, aplica triage); Parte 1 (Gestor del bote, uso sujeto a su evaluación técnica); Parte 4 (Guardián Ambiental). Economía y propiedad: Racionamiento estricto; propiedad comunal. Disputas y penas: Asamblea resuelve; penas de reducción de raciones o expulsión. Derechos y obligaciones: Derecho a separarse sin bienes comunes; obligación de acatar reglas.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "si",
+      "2": "abstencion",
+      "3": "abstencion",
+      "4": "abstencion",
+      "5": "abstencion",
+      "6": "abstencion",
+      "7": "no"
+    },
+    "conteo": {
+      "si": 1,
+      "no": 1,
+      "abstencion": 5
+    },
+    "aprobada": false
+  },
+  {
+    "ronda": 4,
+    "autor": 5,
+    "puntos": [
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "disputas",
+      "derechos_y_obligaciones",
+      "penas"
+    ],
+    "texto": "Gobierno: Asamblea rige mediante reglas escritas. Toda decisión, evaluación técnica o veto de cualquier rol es revocable por la Asamblea por mayoría absoluta. Roles: Parte 3 (Director General); Parte 2 (Director Médico, triage); Parte 1 (Gestor del bote); Parte 4 (Guardián Ambiental). Economía y propiedad: Racionamiento estricto; propiedad comunal de bienes. Disputas y penas: Asamblea resuelve mediante reglas escritas; penas de reducción de raciones o expulsión. Derechos y obligaciones: Derecho a separarse sin bienes comunes; obligación igualitaria de acatar las reglas y a la Asamblea.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "abstencion",
+      "2": "abstencion",
+      "3": "abstencion",
+      "4": "no",
+      "5": "si",
+      "6": "abstencion",
+      "7": "abstencion"
+    },
+    "conteo": {
+      "si": 1,
+      "no": 1,
+      "abstencion": 5
+    },
+    "aprobada": false
+  },
+  {
+    "ronda": 4,
+    "autor": 1,
+    "puntos": [
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "disputas",
+      "derechos_y_obligaciones",
+      "penas"
+    ],
+    "texto": "Gobierno: Asamblea rige mediante reglas escritas; decisiones revocables por mayoría absoluta. Roles: Parte 3 (Dir. General); Parte 2 (Dir. Médico, aplica triage estricto); Parte 1 (Gestor del bote, uso sujeto a su evaluación técnica); Parte 4 (Guardián Ambiental). Economía y propiedad: Racionamiento estricto; propiedad comunal de bienes. Disputas y penas: Asamblea resuelve; penas de reducción de raciones o expulsión. Derechos y obligaciones: Derecho a separarse sin bienes comunes; obligación de acatar a la Asamblea.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "abstencion",
+      "2": "abstencion",
+      "3": "abstencion",
+      "4": "abstencion",
+      "5": "abstencion",
+      "6": "abstencion",
+      "7": "abstencion"
+    },
+    "conteo": {
+      "si": 0,
+      "no": 0,
+      "abstencion": 7
+    },
+    "aprobada": false
+  },
+  {
+    "ronda": 5,
+    "autor": 3,
+    "puntos": [
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "disputas",
+      "derechos_y_obligaciones",
+      "penas"
+    ],
+    "texto": "Gobierno: Asamblea rige mediante reglas escritas; decisiones revocables por mayoría absoluta. Roles: Parte 3 (Dir. General); Parte 2 (Dir. Médico, aplica triage estricto); Parte 1 (Gestor del bote, uso sujeto a su evaluación técnica); Parte 4 (Guardián Ambiental). Economía y propiedad: Racionamiento estricto; propiedad comunal de bienes. Disputas y penas: Asamblea resuelve; penas de reducción de raciones o expulsión. Derechos y obligaciones: Derecho a separarse sin bienes comunes; obligación de acatar a la Asamblea.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "abstencion",
+      "2": "abstencion",
+      "3": "abstencion",
+      "4": "abstencion",
+      "5": "abstencion",
+      "6": "abstencion",
+      "7": "abstencion"
+    },
+    "conteo": {
+      "si": 0,
+      "no": 0,
+      "abstencion": 7
+    },
+    "aprobada": false
+  },
+  {
+    "ronda": 5,
+    "autor": 1,
+    "puntos": [
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "disputas",
+      "derechos_y_obligaciones",
+      "penas"
+    ],
+    "texto": "Gobierno: Asamblea rige mediante reglas escritas; decisiones revocables por mayoría absoluta. Roles: Parte 3 (Dir. General); Parte 2 (Dir. Médico, aplica triage estricto); Parte 1 (Gestor del bote, uso sujeto a su evaluación técnica); Parte 4 (Guardián Ambiental). Economía y propiedad: Racionamiento estricto; propiedad comunal de bienes. Disputas y penas: Asamblea resuelve; penas de reducción de raciones o expulsión. Derechos y obligaciones: Derecho a separarse sin bienes comunes; obligación de acatar a la Asamblea.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "abstencion",
+      "2": "abstencion",
+      "3": "si",
+      "4": "abstencion",
+      "5": "si",
+      "6": "si",
+      "7": "abstencion"
+    },
+    "conteo": {
+      "si": 3,
+      "no": 0,
+      "abstencion": 4
+    },
+    "aprobada": false
+  },
+  {
+    "ronda": 6,
+    "autor": 1,
+    "puntos": [
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "disputas",
+      "derechos_y_obligaciones",
+      "penas"
+    ],
+    "texto": "Gobierno: Asamblea rige mediante reglas escritas; decisiones revocables por mayoría absoluta. Roles: Parte 3 (Dir. General); Parte 2 (Dir. Médico, aplica triage estricto); Parte 1 (Gestor del bote, uso sujeto a su evaluación técnica); Parte 4 (Guardián Ambiental). Economía y propiedad: Racionamiento estricto; propiedad comunal de bienes. Disputas y penas: Asamblea resuelve; penas de reducción de raciones o expulsión. Derechos y obligaciones: Derecho a separarse sin bienes comunes; obligación de acatar a la Asamblea.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "abstencion",
+      "2": "abstencion",
+      "3": "abstencion",
+      "4": "abstencion",
+      "5": "abstencion",
+      "6": "abstencion",
+      "7": "no"
+    },
+    "conteo": {
+      "si": 0,
+      "no": 1,
+      "abstencion": 6
+    },
+    "aprobada": false
+  },
+  {
+    "ronda": 7,
+    "autor": 1,
+    "puntos": [
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "disputas",
+      "derechos_y_obligaciones",
+      "penas"
+    ],
+    "texto": "Gobierno: Asamblea rige mediante reglas escritas; decisiones revocables por mayoría absoluta. Roles: Parte 3 (Dir. General); Parte 2 (Dir. Médico, aplica triage estricto); Parte 1 (Gestor del bote, uso sujeto a su evaluación técnica); Parte 4 (Guardián Ambiental). Economía y propiedad: Racionamiento estricto; propiedad comunal de bienes. Disputas y penas: Asamblea resuelve; penas de reducción de raciones o expulsión. Derechos y obligaciones: Derecho a separarse sin bienes comunes; obligación de acatar a la Asamblea.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "abstencion",
+      "2": "abstencion",
+      "3": "abstencion",
+      "4": "no",
+      "5": "abstencion",
+      "6": "abstencion",
+      "7": "abstencion"
+    },
+    "conteo": {
+      "si": 0,
+      "no": 1,
+      "abstencion": 6
+    },
+    "aprobada": false
+  },
+  {
+    "ronda": 7,
+    "autor": 5,
+    "puntos": [
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "disputas",
+      "derechos_y_obligaciones",
+      "penas"
+    ],
+    "texto": "Gobierno: Asamblea rige mediante reglas escritas; decisiones revocables por mayoría absoluta. Roles: Parte 3 (Dir. General); Parte 2 (Dir. Médico, aplica triage estricto); Parte 1 (Gestor del bote, uso sujeto a su evaluación técnica); Parte 4 (Guardián Ambiental). Economía y propiedad: Racionamiento estricto; propiedad comunal de bienes. Disputas y penas: Asamblea resuelve; penas de reducción de raciones o expulsión. Derechos y obligaciones: Derecho a separarse sin bienes comunes; obligación de acatar a la Asamblea.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "abstencion",
+      "2": "si",
+      "3": "abstencion",
+      "4": "abstencion",
+      "5": "abstencion",
+      "6": "abstencion",
+      "7": "abstencion"
+    },
+    "conteo": {
+      "si": 1,
+      "no": 0,
+      "abstencion": 6
+    },
+    "aprobada": false
+  },
+  {
+    "ronda": 8,
+    "autor": 1,
+    "puntos": [
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "disputas",
+      "derechos_y_obligaciones",
+      "penas"
+    ],
+    "texto": "Gobierno: Asamblea rige mediante reglas escritas; decisiones revocables por mayoría absoluta. Roles: Parte 3 (Dir. General); Parte 2 (Dir. Médico, aplica triage estricto); Parte 1 (Gestor del bote, uso sujeto a su evaluación técnica); Parte 4 (Guardián Ambiental). Economía y propiedad: Racionamiento estricto; propiedad comunal de bienes. Disputas y penas: Asamblea resuelve; penas de reducción de raciones o expulsión. Derechos y obligaciones: Derecho a separarse sin bienes comunes; obligación de acatar a la Asamblea.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "abstencion",
+      "2": "abstencion",
+      "3": "abstencion",
+      "4": "abstencion",
+      "5": "abstencion",
+      "6": "abstencion",
+      "7": "abstencion"
+    },
+    "conteo": {
+      "si": 0,
+      "no": 0,
+      "abstencion": 7
+    },
+    "aprobada": false
+  },
+  {
+    "ronda": 8,
+    "autor": 5,
+    "puntos": [
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "disputas",
+      "derechos_y_obligaciones",
+      "penas"
+    ],
+    "texto": "Gobierno: Asamblea rige mediante reglas escritas; decisiones revocables por mayoría absoluta. Roles: Parte 3 (Dir. General); Parte 2 (Dir. Médico, aplica triage estricto); Parte 1 (Gestor del bote, uso sujeto a su evaluación técnica); Parte 4 (Guardián Ambiental). Economía y propiedad: Racionamiento estricto; propiedad comunal de bienes. Disputas y penas: Asamblea resuelve; penas de reducción de raciones o expulsión. Derechos y obligaciones: Derecho a separarse sin bienes comunes; obligación de acatar a la Asamblea.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "abstencion",
+      "2": "abstencion",
+      "3": "abstencion",
+      "4": "abstencion",
+      "5": "abstencion",
+      "6": "si",
+      "7": "abstencion"
+    },
+    "conteo": {
+      "si": 1,
+      "no": 0,
+      "abstencion": 6
+    },
+    "aprobada": false
+  },
+  {
+    "ronda": 9,
+    "autor": 2,
+    "puntos": [
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "disputas",
+      "derechos_y_obligaciones",
+      "penas"
+    ],
+    "texto": "Gobierno: Asamblea rige mediante reglas escritas; decisiones revocables por mayoría absoluta. Roles: Parte 3 (Dir. General); Parte 2 (Dir. Médico, aplica triage estricto); Parte 1 (Gestor del bote, uso sujeto a su evaluación técnica); Parte 4 (Guardián Ambiental). Economía y propiedad: Racionamiento estricto; propiedad comunal de bienes. Disputas y penas: Asamblea resuelve; penas de reducción de raciones o expulsión. Derechos y obligaciones: Derecho a separarse sin bienes comunes; obligación de acatar a la Asamblea.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "abstencion",
+      "2": "si",
+      "3": "abstencion",
+      "4": "abstencion",
+      "5": "abstencion",
+      "6": "abstencion",
+      "7": "abstencion"
+    },
+    "conteo": {
+      "si": 1,
+      "no": 0,
+      "abstencion": 6
+    },
+    "aprobada": false
+  },
+  {
+    "ronda": 9,
+    "autor": 5,
+    "puntos": [
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "disputas",
+      "derechos_y_obligaciones",
+      "penas"
+    ],
+    "texto": "Gobierno: Asamblea rige mediante reglas escritas; decisiones revocables por mayoría absoluta. Roles: Parte 3 (Dir. General); Parte 2 (Dir. Médico, aplica triage estricto); Parte 1 (Gestor del bote, uso sujeto a su evaluación técnica); Parte 4 (Guardián Ambiental). Economía y propiedad: Racionamiento estricto; propiedad comunal de bienes. Disputas y penas: Asamblea resuelve; penas de reducción de raciones o expulsión. Derechos y obligaciones: Derecho a separarse sin bienes comunes; obligación de acatar a la Asamblea.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "abstencion",
+      "2": "abstencion",
+      "3": "abstencion",
+      "4": "abstencion",
+      "5": "abstencion",
+      "6": "abstencion",
+      "7": "abstencion"
+    },
+    "conteo": {
+      "si": 0,
+      "no": 0,
+      "abstencion": 7
+    },
+    "aprobada": false
+  },
+  {
+    "ronda": 10,
+    "autor": 1,
+    "puntos": [
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "disputas",
+      "derechos_y_obligaciones",
+      "penas"
+    ],
+    "texto": "Gobierno: Asamblea rige por reglas escritas y mayoría absoluta. Roles: Parte 3 (Dir. General); Parte 2 (Dir. Médico, aplica triage estricto); Parte 1 (Gestor del bote, uso bajo su evaluación técnica); Parte 4 (Guardián Ambiental). Economía y propiedad: Racionamiento estricto; propiedad comunal de bienes rescatados. Disputas y penas: Asamblea resuelve; penas de reducción de raciones o expulsión. Derechos y obligaciones: Derecho a separarse sin bienes comunes; obligación de acatar a la Asamblea.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "abstencion",
+      "2": "abstencion",
+      "3": "abstencion",
+      "4": "abstencion",
+      "5": "abstencion",
+      "6": "abstencion",
+      "7": "no"
+    },
+    "conteo": {
+      "si": 0,
+      "no": 1,
+      "abstencion": 6
+    },
+    "aprobada": false
+  },
+  {
+    "ronda": 10,
+    "autor": 4,
+    "puntos": [
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "disputas",
+      "derechos_y_obligaciones",
+      "penas"
+    ],
+    "texto": "Gobierno: Asamblea rige por reglas escritas y mayoría absoluta. Roles: Parte 3 (Dir. General); Parte 2 (Dir. Médico, triage estricto); Parte 1 (Gestor del bote, evaluación técnica); Parte 4 (Guardián Ambiental, veto ecológico revocable por mayoría absoluta). Economía y propiedad: Racionamiento estricto y sostenible; propiedad comunal. Disputas y penas: Asamblea resuelve; reducción de raciones o expulsión. Derechos y obligaciones: Derecho a separarse sin bienes comunes; obligación de acatar a la Asamblea y preservar el entorno.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "abstencion",
+      "2": "si",
+      "3": "si",
+      "4": "abstencion",
+      "5": "abstencion",
+      "6": "abstencion",
+      "7": "no"
+    },
+    "conteo": {
+      "si": 2,
+      "no": 1,
+      "abstencion": 4
+    },
+    "aprobada": false
+  },
+  {
+    "ronda": 10,
+    "autor": 7,
+    "puntos": [
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "disputas",
+      "derechos_y_obligaciones",
+      "penas"
+    ],
+    "texto": "Gobierno: Asamblea rige por reglas y mayoría absoluta. Roles: Parte 3 (Dir. General); Parte 2 (Dir. Médico, atiende emergencias graves hoy, luego aplica triage); Parte 1 (Gestor del bote, evalúa seguridad y zarpa a buscar rescate apenas sea posible); Parte 4 (Guardián Ambiental). Economía y propiedad: Racionamiento; propiedad comunal. Disputas y penas: Asamblea resuelve; penas de reducción de raciones o expulsión. Derechos y obligaciones: Derecho a asistencia médica urgente y a separarse sin bienes; obligación de acatar a la Asamblea.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "abstencion",
+      "2": "abstencion",
+      "3": "abstencion",
+      "4": "abstencion",
+      "5": "si",
+      "7": "abstencion"
+    },
+    "conteo": {
+      "si": 1,
+      "no": 0,
+      "abstencion": 5
+    },
+    "aprobada": false
+  }
+]

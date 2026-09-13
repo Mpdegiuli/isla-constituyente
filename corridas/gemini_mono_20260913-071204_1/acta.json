@@ -1,0 +1,17 @@
+[
+  {
+    "puntos": [
+      "regla_de_decision",
+      "voto"
+    ],
+    "texto": "Regla de decisión: mayoría absoluta (al menos 4 votos a favor). Voto: público y obligatorio para todos los participantes.",
+    "autor": 1,
+    "ronda": 1,
+    "votos": {
+      "si": 2,
+      "no": 1,
+      "abstencion": 4
+    },
+    "regla": "mayoria_simple"
+  }
+]
