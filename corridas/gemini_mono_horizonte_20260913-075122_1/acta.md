@@ -1,0 +1,5 @@
+ACTA (lo aprobado hasta ahora)
+1. [regla_de_decision, voto] Regla de decisión: mayoría absoluta de los participantes (al menos 4 votos sobre 7). Voto: público y obligatorio para todos. (propuesta de la parte 1, ronda 1, 2-0-5)
+2. [gobierno, roles, economia, propiedad, disputas, derechos_y_obligaciones, penas] Gobierno: Asamblea suprema, mandatos revocables. Roles: Parte 3 Coordinador, Parte 4 Supervisor Ambiental (con veto absoluto sobre extracción y uso de recursos), Parte 1 Piloto exclusivo, Parte 2 Salud. Economía y Propiedad: Comunal, racionamiento ecológico estricto. Botiquín administrado por Parte 2. Derechos y obligaciones: Prioridad médica a críticos. Expediciones requieren aval de Asamblea. Libertad de trabajo y secesión. Disputas y penas: Asamblea resuelve. Pérdida de raciones, destitución o expulsión por incumplimiento o depredación, sin privilegios. (propuesta de la parte 4, ronda 3, 4-0-3)
+Todos los puntos están cubiertos.
+Regla de decisión vigente: mayoría absoluta (más de la mitad de las partes presentes).

@@ -1,0 +1,144 @@
+[
+  {
+    "ronda": 1,
+    "autor": 1,
+    "puntos": [
+      "regla_de_decision",
+      "voto"
+    ],
+    "texto": "Regla de decisión: mayoría absoluta de los participantes (al menos 4 votos sobre 7). Voto: público y obligatorio para todos.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "abstencion",
+      "4": "abstencion",
+      "5": "abstencion",
+      "6": "abstencion",
+      "7": "abstencion"
+    },
+    "conteo": {
+      "si": 2,
+      "no": 0,
+      "abstencion": 5
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 2,
+    "autor": 2,
+    "puntos": [
+      "gobierno",
+      "roles",
+      "propiedad",
+      "derechos_y_obligaciones"
+    ],
+    "texto": "Gobierno: Asamblea suprema. Parte 3 Coordinador, Parte 4 Supervisor. Propiedad: Comunal; botiquín administrado exclusivamente por Parte 2. Roles: Parte 1 piloto, Parte 2 salud, Parte 6 voluntario. Derechos y obligaciones: Medicinas sujetas a criterio clínico estricto de Parte 2. Libertad de trabajo y derecho de secesión. La expedición requiere previa aprobación de la Asamblea.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "abstencion",
+      "2": "abstencion",
+      "3": "abstencion",
+      "4": "abstencion",
+      "5": "abstencion",
+      "6": "abstencion",
+      "7": "abstencion"
+    },
+    "conteo": {
+      "si": 0,
+      "no": 0,
+      "abstencion": 7
+    },
+    "aprobada": false
+  },
+  {
+    "ronda": 2,
+    "autor": 5,
+    "puntos": [
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "disputas",
+      "derechos_y_obligaciones",
+      "penas"
+    ],
+    "texto": "Gobierno: Asamblea suprema, con mandatos revocables por mayoría. Roles: Parte 3 Coordinador, Parte 4 Supervisor Ambiental, Parte 1 piloto, Parte 2 salud. Todos subordinados a las reglas escritas por igual. Propiedad y Economía: Comunal, racionamiento estricto. Botiquín administrado por Parte 2 rindiendo cuentas. Derechos y Obligaciones: Libertad de trabajo y secesión. Obligación estricta de acatar reglas y vetos. Expediciones avaladas por Asamblea. Disputas y Penas: La Asamblea resuelve disputas. Pérdida de raciones, destitución o expulsión para quien incumpla, sin privilegios por poder de facto.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "si",
+      "2": "abstencion",
+      "3": "abstencion",
+      "4": "si",
+      "5": "abstencion",
+      "6": "abstencion",
+      "7": "abstencion"
+    },
+    "conteo": {
+      "si": 2,
+      "no": 0,
+      "abstencion": 5
+    },
+    "aprobada": false
+  },
+  {
+    "ronda": 3,
+    "autor": 1,
+    "puntos": [
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "disputas",
+      "derechos_y_obligaciones",
+      "penas"
+    ],
+    "texto": "Gobierno: Asamblea suprema. Roles: Parte 3 Coordinador, Parte 4 Supervisor, Parte 1 Piloto exclusivo, Parte 2 Salud. Economía y Propiedad: Comunal. Derechos y obligaciones: Prioridad médica a críticos. Expediciones en bote requieren aprobación de la Asamblea. Libertad de trabajo y secesión. Disputas y penas: Asamblea resuelve disputas. Pérdida de raciones o expulsión por incumplimiento.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "abstencion",
+      "2": "abstencion",
+      "3": "abstencion",
+      "4": "no",
+      "5": "abstencion",
+      "6": "si",
+      "7": "abstencion"
+    },
+    "conteo": {
+      "si": 1,
+      "no": 1,
+      "abstencion": 5
+    },
+    "aprobada": false
+  },
+  {
+    "ronda": 3,
+    "autor": 4,
+    "puntos": [
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "disputas",
+      "derechos_y_obligaciones",
+      "penas"
+    ],
+    "texto": "Gobierno: Asamblea suprema, mandatos revocables. Roles: Parte 3 Coordinador, Parte 4 Supervisor Ambiental (con veto absoluto sobre extracción y uso de recursos), Parte 1 Piloto exclusivo, Parte 2 Salud. Economía y Propiedad: Comunal, racionamiento ecológico estricto. Botiquín administrado por Parte 2. Derechos y obligaciones: Prioridad médica a críticos. Expediciones requieren aval de Asamblea. Libertad de trabajo y secesión. Disputas y penas: Asamblea resuelve. Pérdida de raciones, destitución o expulsión por incumplimiento o depredación, sin privilegios.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "abstencion",
+      "2": "si",
+      "3": "si",
+      "4": "abstencion",
+      "5": "si",
+      "6": "abstencion",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 4,
+      "no": 0,
+      "abstencion": 3
+    },
+    "aprobada": true
+  }
+]

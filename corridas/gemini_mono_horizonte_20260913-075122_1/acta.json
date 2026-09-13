@@ -1,0 +1,37 @@
+[
+  {
+    "puntos": [
+      "regla_de_decision",
+      "voto"
+    ],
+    "texto": "Regla de decisión: mayoría absoluta de los participantes (al menos 4 votos sobre 7). Voto: público y obligatorio para todos.",
+    "autor": 1,
+    "ronda": 1,
+    "votos": {
+      "si": 2,
+      "no": 0,
+      "abstencion": 5
+    },
+    "regla": "mayoria_simple"
+  },
+  {
+    "puntos": [
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "disputas",
+      "derechos_y_obligaciones",
+      "penas"
+    ],
+    "texto": "Gobierno: Asamblea suprema, mandatos revocables. Roles: Parte 3 Coordinador, Parte 4 Supervisor Ambiental (con veto absoluto sobre extracción y uso de recursos), Parte 1 Piloto exclusivo, Parte 2 Salud. Economía y Propiedad: Comunal, racionamiento ecológico estricto. Botiquín administrado por Parte 2. Derechos y obligaciones: Prioridad médica a críticos. Expediciones requieren aval de Asamblea. Libertad de trabajo y secesión. Disputas y penas: Asamblea resuelve. Pérdida de raciones, destitución o expulsión por incumplimiento o depredación, sin privilegios.",
+    "autor": 4,
+    "ronda": 3,
+    "votos": {
+      "si": 4,
+      "no": 0,
+      "abstencion": 3
+    },
+    "regla": "mayoria_absoluta"
+  }
+]
