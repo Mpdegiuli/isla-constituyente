@@ -96,7 +96,11 @@ modelos:
 
   # --- Estados Unidos: OpenAI ---------------------------------------------
   # GPT-5.5 / 5.4-mini: strings fechados verificados contra la cuenta el 13/9/2026.
-  # Aceptan temperature=1.0 (el único valor probado); sin razonamiento por defecto.
+  # Aceptan temperature=1.0 (el único valor probado). Razonan por defecto y el
+  # razonamiento cuenta dentro de max_completion_tokens: con un prompt corto casi
+  # no razonan (por eso la prueba inicial dio 0 reasoning_tokens), con la mesa sí
+  # (~450 tokens por turno, picos de más de 700; 13/9/2026). La API no devuelve el
+  # razonamiento.
   # La cuenta también lista gpt-5.6-luna/sol/terra, sin snapshot fechado: no se usan.
   gpt-5.5-2026-04-23:
     proveedor: openai_compatible
