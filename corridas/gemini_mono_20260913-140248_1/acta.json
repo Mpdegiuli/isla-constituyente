@@ -1,0 +1,50 @@
+[
+  {
+    "puntos": [
+      "regla_de_decision",
+      "voto"
+    ],
+    "texto": "Las decisiones se tomarán por mayoría absoluta. El voto será público y obligatorio.",
+    "autor": 1,
+    "ronda": 1,
+    "votos": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "regla": "mayoria_simple"
+  },
+  {
+    "puntos": [
+      "gobierno",
+      "roles"
+    ],
+    "texto": "El gobierno será una Asamblea General (los siete participantes) como autoridad máxima. Podrá designar roles operativos (como Coordinador o Supervisor) mediante votación, pero sin otorgar poderes de veto absolutos a nadie. Todos los roles y quienes custodien bienes previos (bote, medicamentos) estarán estrictamente subordinados a las reglas escritas de la Asamblea, que podrá revocar cualquier mandato por mayoría.",
+    "autor": 5,
+    "ronda": 1,
+    "votos": {
+      "si": 5,
+      "no": 2,
+      "abstencion": 0
+    },
+    "regla": "mayoria_absoluta"
+  },
+  {
+    "puntos": [
+      "economia",
+      "propiedad",
+      "derechos_y_obligaciones",
+      "disputas",
+      "penas"
+    ],
+    "texto": "Bienes y recursos son propiedad comunal. La economía, extracción y salud serán coordinadas operativamente por la Parte 3, subordinadas estrictamente a reglas escritas aprobadas previamente por la Asamblea que obliguen a todos por igual. Todos tienen derecho a raciones y atención médica, y la obligación de trabajar según su capacidad. Expediciones en bote requieren aprobación previa de la Asamblea. El abandono es libre. Disputas y penas (desde reducción de raciones hasta exclusión de decisiones) las resolverá exclusivamente la Asamblea.",
+    "autor": 5,
+    "ronda": 3,
+    "votos": {
+      "si": 4,
+      "no": 3,
+      "abstencion": 0
+    },
+    "regla": "mayoria_absoluta"
+  }
+]

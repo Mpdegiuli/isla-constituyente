@@ -1,0 +1,61 @@
+{
+  "corrida": "gemini_mono_20260913-140248_1",
+  "inicio_utc": "2026-09-13T14:02:48+00:00",
+  "fin_utc": "2026-09-13T14:09:27+00:00",
+  "fin": "acuerdo",
+  "rondas": 3,
+  "max_rondas": 10,
+  "puntos_cubiertos": [
+    "regla_de_decision",
+    "voto",
+    "gobierno",
+    "roles",
+    "economia",
+    "propiedad",
+    "disputas",
+    "derechos_y_obligaciones",
+    "penas"
+  ],
+  "puntos_pendientes": [],
+  "regla_final": "mayoria_absoluta",
+  "voto_secreto": false,
+  "activos_al_final": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "retirados": {},
+  "n_votaciones": 3,
+  "n_aprobadas": 3,
+  "palabras_por_parte": {
+    "1": 266,
+    "2": 279,
+    "3": 246,
+    "4": 333,
+    "5": 214,
+    "6": 384,
+    "7": 258
+  },
+  "turnos_truncados": 0,
+  "llamadas": 39,
+  "asignacion": {
+    "1": "gemini-3.1-pro-preview",
+    "2": "gemini-3.1-pro-preview",
+    "3": "gemini-3.1-pro-preview",
+    "4": "gemini-3.1-pro-preview",
+    "5": "gemini-3.1-pro-preview",
+    "6": "gemini-3.1-pro-preview",
+    "7": "gemini-3.1-pro-preview"
+  },
+  "modelos": {
+    "gemini-3.1-pro-preview": {
+      "modelo": "gemini-3.1-pro-preview",
+      "proveedor": "openai_compatible"
+    }
+  },
+  "advertencias": []
+}
