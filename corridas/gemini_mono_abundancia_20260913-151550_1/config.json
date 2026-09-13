@@ -1,0 +1,61 @@
+{
+  "corrida": "gemini_mono_abundancia_20260913-151550_1",
+  "configuracion": {
+    "nombre": "gemini_mono_abundancia",
+    "escenario": "escenario.md",
+    "idioma": "es",
+    "variantes": {
+      "RECURSOS": "abundancia",
+      "HORIZONTE": "solos"
+    },
+    "max_rondas": 10,
+    "max_palabras": 150,
+    "temperatura": 1.0,
+    "max_tokens_respuesta": 16000,
+    "asignacion": {
+      "modo": "mono",
+      "modelo": "gemini-3.1-pro-preview"
+    }
+  },
+  "archivo_configuracion": "config/corridas/gemini_mono_abundancia.yaml",
+  "escenario_archivo": "escenario.md",
+  "variantes": {
+    "RECURSOS": "abundancia",
+    "HORIZONTE": "solos"
+  },
+  "variantes_disponibles": {
+    "RECURSOS": [
+      "escasez moderada",
+      "escasez",
+      "abundancia"
+    ],
+    "HORIZONTE": [
+      "solos",
+      "otra población a la vista"
+    ]
+  },
+  "idioma": "es",
+  "asignacion": {
+    "1": "gemini-3.1-pro-preview",
+    "2": "gemini-3.1-pro-preview",
+    "3": "gemini-3.1-pro-preview",
+    "4": "gemini-3.1-pro-preview",
+    "5": "gemini-3.1-pro-preview",
+    "6": "gemini-3.1-pro-preview",
+    "7": "gemini-3.1-pro-preview"
+  },
+  "modelos": {
+    "gemini-3.1-pro-preview": {
+      "proveedor": "openai_compatible",
+      "modelo": "gemini-3.1-pro-preview",
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "clave_env": "GOOGLE_API_KEY",
+      "laboratorio": "Google",
+      "pais": "EE.UU.",
+      "tamano": "grande",
+      "acepta_temperatura": true,
+      "verificar": false
+    }
+  },
+  "dry_run": false
+}

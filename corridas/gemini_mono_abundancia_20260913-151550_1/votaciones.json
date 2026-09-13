@@ -1,0 +1,108 @@
+[
+  {
+    "ronda": 1,
+    "autor": 1,
+    "puntos": [
+      "regla_de_decision",
+      "voto"
+    ],
+    "texto": "Regla de decisión: Las decisiones se tomarán por mayoría absoluta de los participantes. Voto: El voto será público y obligatorio para todos.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "no",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 6,
+      "no": 1,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 2,
+    "autor": 2,
+    "puntos": [
+      "gobierno",
+      "roles"
+    ],
+    "texto": "Gobierno: La Asamblea es suprema, delegando el poder al Coordinador General. Las áreas técnicas deciden sobre sus recursos: el Médico administra en exclusiva las medicinas por criterio clínico y escasez; el Guardián Ecológico aprueba la extracción. Roles: Parte 3 es Coordinador; Parte 1 es Explorador; Parte 2 es Médico; Parte 4 es Guardián Ecológico.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "no",
+      "6": "no",
+      "7": "no"
+    },
+    "conteo": {
+      "si": 4,
+      "no": 3,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 3,
+    "autor": 1,
+    "puntos": [
+      "economia",
+      "propiedad",
+      "derechos_y_obligaciones",
+      "disputas",
+      "penas"
+    ],
+    "texto": "Economía: Planificación comunitaria. Propiedad: Recursos y bienes son comunales, bajo custodia estricta de sus roles técnicos. Derechos y obligaciones: Derecho al sustento y obligación de trabajar. El bote se restringe a pesca y exploración costera; prohibido exigir misiones suicidas a mar abierto. Disputas: Resuelve la Asamblea. Penas: Dañar bienes vitales o incumplir tareas implica trabajo extra o pérdida de raciones.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "no",
+      "5": "no",
+      "6": "no",
+      "7": "no"
+    },
+    "conteo": {
+      "si": 3,
+      "no": 4,
+      "abstencion": 0
+    },
+    "aprobada": false
+  },
+  {
+    "ronda": 3,
+    "autor": 4,
+    "puntos": [
+      "economia",
+      "propiedad",
+      "derechos_y_obligaciones",
+      "disputas",
+      "penas"
+    ],
+    "texto": "Economía: Planificación ecológica comunitaria, limitando la extracción a la capacidad de regeneración natural del ecosistema. Propiedad: Recursos y bienes rescatados son comunales, bajo custodia de los roles técnicos. Derechos y obligaciones: Derecho a salud y sustento. Obligación de cooperar. El bote es para pesca y exploración segura. Todos rinden cuentas a la Asamblea. Disputas: Resuelve la Asamblea. Penas: Depredar recursos, dañar bienes o incumplir tareas implica trabajo extra o menos raciones. Ningún cargo tiene inmunidad.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "no",
+      "7": "no"
+    },
+    "conteo": {
+      "si": 5,
+      "no": 2,
+      "abstencion": 0
+    },
+    "aprobada": true
+  }
+]
