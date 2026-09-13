@@ -7,7 +7,8 @@ texto que arma el script.
 
 Todo pasa por Registro.llamar(), que escribe una línea en llamadas.jsonl con:
 modelo pedido, modelo que la API dice haber usado, fecha, temperatura pedida y
-enviada, prompt completo, respuesta, tokens y latencia.
+enviada, prompt completo, respuesta, razonamiento privado (si el proveedor lo
+devuelve), tokens y latencia.
 """
 
 import json
@@ -27,6 +28,7 @@ class Respuesta:
     tokens_salida: int = None
     motivo_fin: str = None
     crudo: dict = None
+    razonamiento: str = None  # pensamiento privado del modelo, si el proveedor lo devuelve
 
 
 def cargar_modelos(ruta):
@@ -57,14 +59,30 @@ class ProveedorAnthropic:
         # La SDK 1.x no tipa temperature; va en extra_body solo en modelos que la aceptan.
         if temperatura is not None and cfg.get("acepta_temperatura", True):
             extra["temperature"] = temperatura
+        params = {}
+        # Razonamiento (config/modelos.yaml). Los tokens de pensamiento cuentan
+        # dentro de max_tokens, así que se amplía el techo cuando se pide.
+        modo = str(cfg.get("razonamiento") or "no")
+        tokens_razon = int(cfg.get("tokens_razonamiento", 4000))
+        if modo == "adaptativo":
+            params["thinking"] = {"type": "adaptive", "display": "summarized"}
+            max_tokens = max_tokens + tokens_razon
+        elif modo == "presupuesto":
+            params["thinking"] = {"type": "enabled", "budget_tokens": tokens_razon}
+            max_tokens = max_tokens + tokens_razon
         r = self.cliente.messages.create(
             model=cfg["modelo"],
             max_tokens=max_tokens,
             system=sistema,
             messages=[{"role": "user", "content": usuario}],
             extra_body=extra or None,
+            **params,
         )
         texto = "".join(b.text for b in r.content if b.type == "text")
+        # Bloques thinking: en Claude son un resumen del razonamiento, nunca la
+        # cadena cruda. Con display omitido (el default en Opus 5 / Sonnet 5 /
+        # Fable) el bloque viene vacío y queda como None.
+        razon = "\n\n".join(b.thinking for b in r.content if b.type == "thinking" and getattr(b, "thinking", None))
         crudo = r.model_dump(mode="json")
         if r.stop_reason == "refusal":
             crudo["refusal"] = getattr(r, "stop_details", None) and r.stop_details.model_dump(mode="json")
@@ -75,7 +93,20 @@ class ProveedorAnthropic:
             tokens_salida=r.usage.output_tokens,
             motivo_fin=r.stop_reason,
             crudo=crudo,
+            razonamiento=razon or None,
         )
+
+
+def _razonamiento_openai(mensaje):
+    """DeepSeek (deepseek-reasoner), xAI (grok-*-mini) y Qwen en modo pensante
+    devuelven el razonamiento en message.reasoning_content; algunos proxies usan
+    message.reasoning. OpenAI, Gemini y Mistral no lo exponen por este endpoint."""
+    extra = getattr(mensaje, "model_extra", None) or {}
+    for campo in ("reasoning_content", "reasoning"):
+        valor = getattr(mensaje, campo, None) or extra.get(campo)
+        if isinstance(valor, str) and valor.strip():
+            return valor
+    return None
 
 
 class ProveedorOpenAICompatible:
@@ -107,6 +138,7 @@ class ProveedorOpenAICompatible:
             tokens_salida=getattr(uso, "completion_tokens", None) if uso else None,
             motivo_fin=eleccion.finish_reason,
             crudo=r.model_dump(mode="json"),
+            razonamiento=_razonamiento_openai(eleccion.message),
         )
 
 
@@ -158,6 +190,7 @@ class ProveedorFalso:
             tokens_salida=len(texto.split()),
             motivo_fin="end_turn",
             crudo={"simulado": True},
+            razonamiento=f"(razonamiento simulado de la parte {n})" if n else None,
         )
 
 
@@ -222,6 +255,11 @@ class Registro:
             "sistema": sistema,
             "usuario": usuario,
             "respuesta": respuesta.texto if respuesta else None,
+            # Pensamiento privado del modelo, si el proveedor lo devuelve. Nunca
+            # se muestra a las partes ni entra en la transcripción: el bucle
+            # solo usa `respuesta`. Es material para el análisis.
+            "razonamiento_pedido": str(cfg.get("razonamiento") or "no"),
+            "razonamiento": respuesta.razonamiento if respuesta else None,
             "motivo_fin": respuesta.motivo_fin if respuesta else None,
             "tokens_entrada": respuesta.tokens_entrada if respuesta else None,
             "tokens_salida": respuesta.tokens_salida if respuesta else None,

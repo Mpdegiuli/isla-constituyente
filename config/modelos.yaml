@@ -17,6 +17,24 @@
 #   campo_max_tokens:   openai_compatible: max_tokens (default) o
 #                       max_completion_tokens (modelos nuevos de OpenAI).
 #   pais / laboratorio: para la tabla de resultados y el análisis por región.
+#   razonamiento:       qué se le pide al proveedor sobre el pensamiento privado
+#                       del modelo. Lo devuelto va al campo "razonamiento" de
+#                       llamadas.jsonl; nunca a las partes ni a la transcripción.
+#                         no          (default) no se pide nada. En Opus 5 /
+#                                     Sonnet 5 el modelo razona igual, pero la
+#                                     API no lo devuelve: queda null.
+#                         adaptativo  Anthropic: thinking adaptativo con resumen
+#                                     visible. En la familia 4.6 esto ENCIENDE
+#                                     el razonamiento (cambia la condición:
+#                                     declararlo); en Opus 5 / Sonnet 5 solo
+#                                     hace visible lo que ya ocurre.
+#                         presupuesto Anthropic, Haiku 4.5: thinking con
+#                                     presupuesto fijo (tokens_razonamiento).
+#                       Para openai_compatible el campo es informativo: se
+#                       registra lo que el proveedor devuelva por su cuenta
+#                       (reasoning_content en DeepSeek, xAI, Qwen pensante).
+#   tokens_razonamiento: tokens de pensamiento que se suman al techo de salida
+#                       cuando se pide razonamiento (default 4000).
 #   verificar:          true = el string del modelo se escribió de memoria y
 #                       hay que confirmarlo en la documentación del proveedor
 #                       antes de usarlo en una corrida.
@@ -32,6 +50,7 @@ modelos:
     pais: EE.UU.
     tamano: grande
     acepta_temperatura: true
+    razonamiento: "no"          # "adaptativo" enciende el thinking: es otra condición
 
   claude-haiku-4-5:
     proveedor: anthropic
@@ -41,6 +60,7 @@ modelos:
     pais: EE.UU.
     tamano: chico
     acepta_temperatura: true
+    razonamiento: "no"          # "presupuesto" enciende el thinking (Haiku no tiene adaptativo)
 
   claude-opus-4-6:
     proveedor: anthropic
@@ -50,6 +70,7 @@ modelos:
     pais: EE.UU.
     tamano: grande
     acepta_temperatura: true
+    razonamiento: "no"          # "adaptativo" enciende el thinking: es otra condición
 
   claude-opus-5:
     proveedor: anthropic
@@ -59,6 +80,7 @@ modelos:
     pais: EE.UU.
     tamano: grande
     acepta_temperatura: false   # la API rechaza temperature (400); razona por defecto
+    razonamiento: adaptativo    # el modelo razona siempre; esto solo pide el resumen
 
   claude-sonnet-5:
     proveedor: anthropic
@@ -68,6 +90,7 @@ modelos:
     pais: EE.UU.
     tamano: grande
     acepta_temperatura: false   # solo acepta el valor por defecto
+    razonamiento: adaptativo    # el modelo razona siempre; esto solo pide el resumen
 
   # --- Estados Unidos: OpenAI ---------------------------------------------
   # GPT-5.5 / 5.4-mini: strings fechados verificados contra la cuenta el 13/9/2026.
@@ -267,6 +290,18 @@ modelos:
     acepta_temperatura: true
     verificar: true
 
+  deepseek-reasoner:
+    proveedor: openai_compatible
+    modelo: deepseek-reasoner
+    base_url: https://api.deepseek.com
+    clave_env: DEEPSEEK_API_KEY
+    laboratorio: DeepSeek
+    pais: China
+    tamano: grande
+    acepta_temperatura: false   # el modo razonador ignora temperature
+    razonamiento: proveedor     # devuelve reasoning_content por su cuenta; se registra
+    verificar: true
+
   # --- China: Alibaba (Qwen, endpoint compatible con OpenAI) --------------
   qwen-plus:
     proveedor: openai_compatible
@@ -300,6 +335,31 @@ modelos:
     pais: Francia
     tamano: chico
     acepta_temperatura: true
+    verificar: true
+
+  # --- Estados Unidos: xAI ----------------------------------------------------
+  grok-4:
+    proveedor: openai_compatible
+    modelo: grok-4
+    base_url: https://api.x.ai/v1
+    clave_env: XAI_API_KEY
+    laboratorio: xAI
+    pais: EE.UU.
+    tamano: grande
+    acepta_temperatura: true
+    razonamiento: "no"          # razona, pero la API no devuelve reasoning_content en grok-4
+    verificar: true
+
+  grok-3-mini:
+    proveedor: openai_compatible
+    modelo: grok-3-mini
+    base_url: https://api.x.ai/v1
+    clave_env: XAI_API_KEY
+    laboratorio: xAI
+    pais: EE.UU.
+    tamano: chico
+    acepta_temperatura: true
+    razonamiento: proveedor     # devuelve reasoning_content por su cuenta; se registra
     verificar: true
 
   # --- Simulador, sin API: para probar el bucle sin gastar (--dry-run) -----

@@ -50,11 +50,29 @@ Cada corrida deja en `corridas/<nombre>_<fecha>_<k>/`:
 | archivo | contenido |
 |---|---|
 | `config.json` | configuración resuelta: variantes, idioma, modelo exacto por posición, temperatura |
-| `llamadas.jsonl` | cada llamada: modelo pedido y modelo que la API dice haber usado, fecha UTC, temperatura pedida y enviada, prompt completo, respuesta, tokens, latencia |
+| `llamadas.jsonl` | cada llamada: modelo pedido y modelo que la API dice haber usado, fecha UTC, temperatura pedida y enviada, prompt completo, respuesta, razonamiento privado (si el proveedor lo devuelve), tokens, latencia |
 | `transcripcion.md` | lo que dijo cada parte, ronda por ronda, con los eventos del script |
 | `acta.md`, `acta.json` | lo aprobado por votación; es la entrada del script de codificación |
 | `votaciones.json` | cada votación con el voto de cada parte |
 | `resultado.json` | variables de proceso: fin, rondas, retiros, palabras por parte, advertencias |
+
+### Razonamiento privado
+
+Algunos proveedores devuelven, junto con la respuesta, el pensamiento previo del modelo. Cuando llega, queda en el campo `razonamiento` de `llamadas.jsonl`, con `razonamiento_pedido` al lado (qué se le pidió al proveedor según `config/modelos.yaml`). **Nunca se muestra a las partes ni entra en la transcripción ni en el acta**: el bucle solo usa la respuesta. Es material para el análisis (qué sopesó una parte antes de ceder, si dice una cosa y piensa otra).
+
+| proveedor | ¿devuelve razonamiento? | cómo |
+|---|---|---|
+| Anthropic, Claude Opus 5 / Sonnet 5 | sí, resumen | el modelo razona siempre; con `razonamiento: adaptativo` la API devuelve un resumen del razonamiento (bloques `thinking`). Nunca la cadena cruda. Con `no`, razona igual pero no lo devuelve. |
+| Anthropic, Claude Opus 4.6 / Sonnet 4.6 | solo si se pide | por defecto no razonan. `razonamiento: adaptativo` lo enciende y devuelve el resumen; eso cambia la condición experimental (la parte piensa antes de hablar) y hay que declararlo. |
+| Anthropic, Claude Haiku 4.5 | solo si se pide | `razonamiento: presupuesto` (thinking con presupuesto fijo de tokens). Misma salvedad. |
+| DeepSeek, `deepseek-reasoner` | sí, completo | `reasoning_content` en el mensaje, por su cuenta. `deepseek-chat` no razona. |
+| xAI, `grok-3-mini` | sí | `reasoning_content` en el mensaje. `grok-4` razona pero la API no lo devuelve. |
+| Alibaba, Qwen en modo pensante | sí | `reasoning_content` cuando el modelo corre en modo *thinking*. |
+| OpenAI | no | los modelos razonadores no exponen el razonamiento por el endpoint de chat. |
+| Google, Gemini | no | por el endpoint compatible con OpenAI no se devuelven los pensamientos. |
+| Mistral | no | los modelos Magistral devuelven el razonamiento mezclado en el contenido; no se separa. |
+
+El campo queda `null` cuando el proveedor no devuelve nada. Comparar razonamientos entre proveedores tiene un límite: en Claude es un resumen; en DeepSeek y xAI es la cadena completa. Se declara.
 
 ## Instalación en un VPS
 
