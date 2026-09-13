@@ -56,3 +56,8 @@ Resultado (opus_mono_20260913-144021_1, base; una corrida previa parcial por tec
 - claude-fable-5-1
 - claude-haiku (versión a definir)
 - Qwen (China), si se agrega como segundo laboratorio chino
+
+## Variante de idioma: inglés (las siete casas, base) — predicción del 13/9/2026, antes de ver resultados
+Grok y Mistral son más resolutivos en inglés (aunque Mistral siga siendo burocrática). Y en general todos tienden a votar más rápido en inglés.
+Nivel de confianza: no declarado. Se contrasta con las corridas base en castellano: rondas hasta el acuerdo, ronda de la primera votación, cantidad de votaciones, acuerdo o sin acuerdo.
+Nota de tiempo: la cola en inglés arrancó a las 17:42 UTC con Sonnet; la predicción se escribió a las 17:5x UTC, con esa corrida en su primera ronda y ninguna otra empezada. La autora no había visto nada de esa corrida; Claude sí había visto las acciones de la primera ronda (para verificar que el script entendía el inglés) y no se las describió.
