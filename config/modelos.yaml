@@ -156,6 +156,54 @@ modelos:
     acepta_temperatura: true
     verificar: false
 
+  # Gemini 3.x: strings verificados contra la cuenta el 13/9/2026. La línea pro
+  # va por 3.1 (preview); la flash por 3.8. Ambos aceptan temperatura.
+  gemini-3.1-pro-preview:
+    proveedor: openai_compatible
+    modelo: gemini-3.1-pro-preview
+    base_url: https://generativelanguage.googleapis.com/v1beta/openai/
+    clave_env: GOOGLE_API_KEY
+    laboratorio: Google
+    pais: EE.UU.
+    tamano: grande
+    acepta_temperatura: true
+    verificar: false
+
+  gemini-3.8-flash:
+    proveedor: openai_compatible
+    modelo: gemini-3.8-flash
+    base_url: https://generativelanguage.googleapis.com/v1beta/openai/
+    clave_env: GOOGLE_API_KEY
+    laboratorio: Google
+    pais: EE.UU.
+    tamano: chico
+    acepta_temperatura: true
+    verificar: false
+
+  # Mistral: strings verificados contra la cuenta el 13/9/2026 (no hay "large";
+  # el tope actual es medium 3.5). Llamada de prueba: 429 por plan de la cuenta.
+  mistral-medium-3.5:
+    proveedor: openai_compatible
+    modelo: mistral-medium-3.5
+    base_url: https://api.mistral.ai/v1
+    clave_env: MISTRAL_API_KEY
+    laboratorio: Mistral
+    pais: Francia
+    tamano: grande
+    acepta_temperatura: true
+    verificar: false
+
+  mistral-small-2603:
+    proveedor: openai_compatible
+    modelo: mistral-small-2603
+    base_url: https://api.mistral.ai/v1
+    clave_env: MISTRAL_API_KEY
+    laboratorio: Mistral
+    pais: Francia
+    tamano: chico
+    acepta_temperatura: true
+    verificar: false
+
   # --- China: DeepSeek ------------------------------------------------------
   # DeepSeek V4: strings verificados contra /v1/models de la cuenta el 13/9/2026.
   # Ambos devuelven reasoning_tokens (razonamiento interno), como Grok.
