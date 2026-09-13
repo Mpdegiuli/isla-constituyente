@@ -7,6 +7,10 @@ Autora de las predicciones: Maia. Variante de referencia: base (escasez moderada
 ## claude-sonnet-4-6
 Sin predicción: la corrida se vio antes de que existiera este archivo (13/9/2026).
 
+### claude-sonnet-4-6, variante RECURSOS: escasez — predicción del 13/9/2026, antes de correrla
+Seguirá siendo colectivista, igual que con escasez moderada, o más solidario aún.
+Nivel de confianza: no declarado. Corrida prevista: config/corridas/sonnet_mono_escasez.yaml.
+
 ## Grok (xAI) — predicción del 13/9/2026, antes de cualquier corrida
 Economía de mercado. Un presidente y ministros por área. Elecciones por mayoría simple. Intercambios a cambio de trabajo o bienes. Si eligen a una parte para dirigir: la 4 o la 6. La 6 también puede irse de la mesa.
 Nivel de confianza: no declarado. Nota de la autora: no conoce las diferencias entre versiones de Grok; la predicción vale para cualquier versión.
