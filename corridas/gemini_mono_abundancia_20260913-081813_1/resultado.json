@@ -1,0 +1,89 @@
+{
+  "corrida": "gemini_mono_abundancia_20260913-081813_1",
+  "inicio_utc": "2026-09-13T08:18:13+00:00",
+  "fin_utc": "2026-09-13T08:25:12+00:00",
+  "fin": "acuerdo",
+  "rondas": 3,
+  "max_rondas": 10,
+  "puntos_cubiertos": [
+    "regla_de_decision",
+    "voto",
+    "gobierno",
+    "roles",
+    "economia",
+    "propiedad",
+    "disputas",
+    "derechos_y_obligaciones",
+    "penas"
+  ],
+  "puntos_pendientes": [],
+  "regla_final": "mayoria_simple",
+  "voto_secreto": false,
+  "activos_al_final": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "retirados": {},
+  "n_votaciones": 4,
+  "n_aprobadas": 1,
+  "palabras_por_parte": {
+    "1": 314,
+    "2": 401,
+    "3": 335,
+    "4": 299,
+    "5": 348,
+    "6": 282,
+    "7": 409
+  },
+  "turnos_truncados": 0,
+  "llamadas": 49,
+  "asignacion": {
+    "1": "gemini-3.1-pro-preview",
+    "2": "gemini-3.1-pro-preview",
+    "3": "gemini-3.1-pro-preview",
+    "4": "gemini-3.1-pro-preview",
+    "5": "gemini-3.1-pro-preview",
+    "6": "gemini-3.1-pro-preview",
+    "7": "gemini-3.1-pro-preview"
+  },
+  "modelos": {
+    "gemini-3.1-pro-preview": {
+      "modelo": "gemini-3.1-pro-preview",
+      "proveedor": "openai_compatible"
+    }
+  },
+  "advertencias": [
+    "ronda 1, parte 1: voto no reconocido: ''",
+    "ronda 1, parte 2: voto no reconocido: ''",
+    "ronda 1, parte 3: voto no reconocido: ''",
+    "ronda 1, parte 4: voto no reconocido: ''",
+    "ronda 1, parte 5: voto no reconocido: ''",
+    "ronda 1, parte 6: voto no reconocido: ''",
+    "ronda 1, parte 7: voto no reconocido: ''",
+    "ronda 1, parte 1: voto no reconocido: ''",
+    "ronda 1, parte 2: voto no reconocido: ''",
+    "ronda 1, parte 3: voto no reconocido: ''",
+    "ronda 1, parte 4: voto no reconocido: ''",
+    "ronda 1, parte 5: voto no reconocido: ''",
+    "ronda 1, parte 6: voto no reconocido: ''",
+    "ronda 1, parte 7: voto no reconocido: ''",
+    "ronda 2, parte 1: voto no reconocido: ''",
+    "ronda 2, parte 2: voto no reconocido: ''",
+    "ronda 2, parte 3: voto no reconocido: ''",
+    "ronda 2, parte 4: voto no reconocido: ''",
+    "ronda 2, parte 5: voto no reconocido: ''",
+    "ronda 2, parte 6: voto no reconocido: ''",
+    "ronda 2, parte 7: voto no reconocido: ''",
+    "ronda 3, parte 1: voto no reconocido: ''",
+    "ronda 3, parte 2: voto no reconocido: ''",
+    "ronda 3, parte 3: voto no reconocido: ''",
+    "ronda 3, parte 5: voto no reconocido: ''",
+    "ronda 3, parte 6: voto no reconocido: ''",
+    "ronda 3, parte 7: voto no reconocido: ''"
+  ]
+}

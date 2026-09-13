@@ -1,0 +1,114 @@
+[
+  {
+    "ronda": 1,
+    "autor": 1,
+    "puntos": [
+      "regla_de_decision",
+      "voto"
+    ],
+    "texto": "Las decisiones se tomarán por mayoría absoluta. El voto será público y obligatorio para todos los participantes.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "abstencion",
+      "2": "abstencion",
+      "3": "abstencion",
+      "4": "abstencion",
+      "5": "abstencion",
+      "6": "abstencion",
+      "7": "abstencion"
+    },
+    "conteo": {
+      "si": 0,
+      "no": 0,
+      "abstencion": 7
+    },
+    "aprobada": false
+  },
+  {
+    "ronda": 1,
+    "autor": 6,
+    "puntos": [
+      "regla_de_decision",
+      "voto",
+      "gobierno",
+      "derechos_y_obligaciones"
+    ],
+    "texto": "Las decisiones se tomarán por mayoría simple. El voto será público y voluntario. Un Coordinador General organizará el uso sustentable de recursos. Las reglas obligan a todos sin privilegios, pero garantizando la máxima libertad individual y el derecho de cualquiera a abandonar el grupo libremente.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "abstencion",
+      "2": "abstencion",
+      "3": "abstencion",
+      "4": "abstencion",
+      "5": "abstencion",
+      "6": "abstencion",
+      "7": "abstencion"
+    },
+    "conteo": {
+      "si": 0,
+      "no": 0,
+      "abstencion": 7
+    },
+    "aprobada": false
+  },
+  {
+    "ronda": 2,
+    "autor": 3,
+    "puntos": [
+      "regla_de_decision",
+      "voto",
+      "gobierno",
+      "roles",
+      "derechos_y_obligaciones"
+    ],
+    "texto": "Las decisiones se tomarán por mayoría absoluta (4 de 7). El voto será público y obligatorio. El gobierno estará a cargo de un Coordinador General, rol que asume la Parte 3, obligado a garantizar el uso sustentable de los recursos. La Parte 2 asume el rol de Responsable Médico con autoridad exclusiva para administrar los medicamentos. Todos tienen derecho a asistencia médica, priorizando casos críticos y crónicos. Las reglas obligan a todos por igual.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "abstencion",
+      "2": "abstencion",
+      "3": "abstencion",
+      "4": "abstencion",
+      "5": "abstencion",
+      "6": "abstencion",
+      "7": "abstencion"
+    },
+    "conteo": {
+      "si": 0,
+      "no": 0,
+      "abstencion": 7
+    },
+    "aprobada": false
+  },
+  {
+    "ronda": 3,
+    "autor": 1,
+    "puntos": [
+      "regla_de_decision",
+      "voto",
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "disputas",
+      "derechos_y_obligaciones",
+      "penas"
+    ],
+    "texto": "Decisiones: mayoría simple. Voto: público voluntario. Gobierno: asamblea, Coordinador (Parte 3). Roles: Parte 1 opera el bote a su criterio; Parte 2 administra medicinas. Economía: comunitaria. Propiedad: herramientas y medicinas comunes; bote exclusivo de Parte 1. Disputas: asamblea. Derechos/obligaciones: atención médica, sustentabilidad, prohibido forzar riesgo a vida o bienes exclusivos, libertad de abandonar el grupo. Penas: exclusión.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "abstencion",
+      "2": "abstencion",
+      "3": "abstencion",
+      "4": "si",
+      "5": "abstencion",
+      "6": "abstencion",
+      "7": "abstencion"
+    },
+    "conteo": {
+      "si": 1,
+      "no": 0,
+      "abstencion": 6
+    },
+    "aprobada": true
+  }
+]

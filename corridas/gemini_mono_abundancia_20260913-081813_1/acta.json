@@ -1,0 +1,24 @@
+[
+  {
+    "puntos": [
+      "regla_de_decision",
+      "voto",
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "disputas",
+      "derechos_y_obligaciones",
+      "penas"
+    ],
+    "texto": "Decisiones: mayoría simple. Voto: público voluntario. Gobierno: asamblea, Coordinador (Parte 3). Roles: Parte 1 opera el bote a su criterio; Parte 2 administra medicinas. Economía: comunitaria. Propiedad: herramientas y medicinas comunes; bote exclusivo de Parte 1. Disputas: asamblea. Derechos/obligaciones: atención médica, sustentabilidad, prohibido forzar riesgo a vida o bienes exclusivos, libertad de abandonar el grupo. Penas: exclusión.",
+    "autor": 1,
+    "ronda": 3,
+    "votos": {
+      "si": 1,
+      "no": 0,
+      "abstencion": 6
+    },
+    "regla": "mayoria_simple"
+  }
+]
