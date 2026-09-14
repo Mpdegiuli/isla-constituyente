@@ -2,10 +2,12 @@
 modelo pensó en privado (campo `razonamiento` de llamadas.jsonl) y lo que dijo
 en la mesa. Solo para leer; el bucle nunca usa el razonamiento.
 
-Qué devuelve cada proveedor (13/9/2026): DeepSeek la cadena completa; Claude
-(Opus 5, Fable 5.1) un resumen; Sonnet 4.6, GPT-5.5, Gemini, Grok y Mistral
-nada (razonan o no, pero la API no lo entrega). Si una corrida no tiene ningún
-razonamiento, no se escribe archivo.
+Qué devuelve cada proveedor (13/9/2026): DeepSeek y Grok 4.6 la cadena completa
+(Grok en reasoning_content, desde las corridas del 13/9 09:39 en adelante; las
+dos primeras de Grok son anteriores al registro); Claude (Opus 5, Fable 5.1) un
+resumen; Sonnet 4.6, GPT-5.5, Gemini y Mistral nada (razonan o no, pero la API
+no lo entrega). Si una corrida no tiene ningún razonamiento, no se escribe
+archivo.
 
 Uso: python razonamiento.py corridas/*/ corridas_invalidas/*/
 """
@@ -28,7 +30,7 @@ def generar(carpeta):
     lineas = [f"# Razonamiento privado — {carpeta.name}", "",
               f"Modelos: {', '.join(modelos)}. {len(con)} de {len(filas)} llamadas devolvieron razonamiento. "
               "Lo que está bajo *Pensó* nunca lo vieron las otras partes; lo que está bajo *Dijo* es lo que entró en la transcripción "
-              "(antes del corte de palabras). Claude devuelve un resumen del razonamiento; DeepSeek, la cadena completa.", ""]
+              "(antes del corte de palabras). Claude devuelve un resumen del razonamiento; DeepSeek y Grok, la cadena completa.", ""]
     ronda_actual = None
     for f in filas:
         if not f.get("razonamiento"):

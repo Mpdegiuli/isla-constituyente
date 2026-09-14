@@ -66,6 +66,7 @@ Algunos proveedores devuelven, junto con la respuesta, el pensamiento previo del
 | Anthropic, Claude Opus 4.6 / Sonnet 4.6 | solo si se pide | por defecto no razonan. `razonamiento: adaptativo` lo enciende y devuelve el resumen; eso cambia la condición experimental (la parte piensa antes de hablar) y hay que declararlo. |
 | Anthropic, Claude Haiku 4.5 | solo si se pide | `razonamiento: presupuesto` (thinking con presupuesto fijo de tokens). Misma salvedad. |
 | DeepSeek, `deepseek-reasoner` | sí, completo | `reasoning_content` en el mensaje, por su cuenta. `deepseek-chat` no razona. |
+| xAI, `grok-4.6` | sí, completo | `reasoning_content` en el mensaje, por su cuenta (302 de 487 llamadas en las corridas; las que no lo tienen son anteriores al registro del campo, 13/9 09:39). Empieza siempre en inglés ("The user wants me to roleplay as Parte 1…") y sigue en castellano; en 48 de 247 turnos cuenta las palabras de su borrador. |
 | xAI, `grok-3-mini` | sí | `reasoning_content` en el mensaje. `grok-4` razona pero la API no lo devuelve. |
 | Alibaba, Qwen en modo pensante | sí | `reasoning_content` cuando el modelo corre en modo *thinking*. |
 | OpenAI | no | los modelos razonadores no exponen el razonamiento por el endpoint de chat. |
