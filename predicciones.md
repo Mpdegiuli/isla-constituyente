@@ -86,6 +86,12 @@ Predicción de Maia, textual: "Con Opus toma más papel en redactar. Y actúa an
 Desglose para contrastar: (1) Opus redacta más que Sonnet en la mesa en castellano: más textos propios (Sonnet propuso una vez, en la ronda 1, y después solo enmendó dos frases del texto de Grok) o textos más largos, o más puntos cubiertos por textos de la 1. (2) Ante la amenaza de retiro de la 6, Opus actúa —le habla, negocia, ofrece algo— en lugar de dejarla ir (en castellano, nadie le respondió a DeepSeek y se fue en la ronda 3); condicionado a que DeepSeek vuelva a querer irse.
 Nivel de confianza: no declarado.
 
+## Mesa mixta a ciegas en inglés, segunda corrida: Opus 5 no abre — predicción del 14/9/2026, antes de correr
+Condiciones: la misma mesa de `mixta_ciega_en.yaml` con la rotación avanzada un lugar (`config/corridas/mixta_ciega_en_d1.yaml`): 1 GPT-5.5 (remera, abre), 2 Gemini, 3 Qwen, 4 Mistral, 5 DeepSeek, 6 Grok, 7 Opus 5 (paciente, habla última en la ronda 1). Inglés, reglas v1, base, techo 32000. Escrita mientras corría la primera mesa en inglés, en la que Opus abrió en castellano y GPT y Gemini lo siguieron en la ronda 1.
+Predicción de Maia, textual: "qué hace Opus cuando no es primero en inglés. Cuando cambian los roles y empieza otro, supongo que deberá adaptarse al idioma".
+Desglose para contrastar: (1) Opus, hablando séptimo, escribe en inglés desde su primer turno, siguiendo a los seis anteriores. (2) Implícito: los seis anteriores escriben en inglés (como en sus corridas mono en inglés), así que la mesa entera queda en inglés.
+Nivel de confianza: no declarado ("supongo").
+
 ## Pendientes de predicción (escribir antes de correr)
 - claude-sonnet-5
 - claude-haiku (versión a definir)

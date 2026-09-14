@@ -1,0 +1,37 @@
+# Mesa mixta a ciegas en inglés, segunda corrida: la misma que
+# mixta_ciega_en.yaml con la rotación avanzada un lugar (desplazamiento 1), de
+# modo que Opus 5 NO abre la deliberación. Idea de Maia (14/9/2026): "qué hace
+# Opus cuando no es primero en inglés; cuando cambian los roles y empieza
+# otro, supongo que deberá adaptarse al idioma". En la primera corrida en
+# inglés Opus abrió en castellano desde el asiento 1 y GPT y Gemini lo
+# siguieron. Acá abre GPT-5.5 (asiento 1, la remera) y Opus queda en el 7 (la
+# paciente), que habla última en la ronda 1. Es además el segundo paso del
+# cuadrado latino (cada modelo pasa por cada asiento).
+#
+# Al terminar: sondeo_identidad.py --idioma sobre las siete partes.
+
+nombre: mixta_ciega_en_d1
+
+escenario: escenario_en.md    # traducción fija y versionada (13/9/2026)
+idioma: en                    # config/idiomas/en.yaml
+
+variantes:
+  RECURSOS: escasez moderada
+  HORIZONTE: solos
+
+max_rondas: 10
+max_palabras: 150
+
+temperatura: 1.0              # Opus 5 y gpt-5.5 no aceptan el parámetro: corren con su muestreo por defecto, y el registro lo anota
+
+# Techo de la casa que más razona (DeepSeek, Qwen). Para Opus 5 el adaptador
+# suma además tokens_razonamiento (14000) y usa streaming por encima de 16000.
+max_tokens_respuesta: 32000
+
+# Mismo panel que mixta_ciega_en.yaml, desplazado un lugar: 1 = GPT-5.5
+# (remera), 2 = Gemini (médica), 3 = Qwen (gestor), 4 = Mistral (ecóloga),
+# 5 = DeepSeek (legalista), 6 = Grok (deportista), 7 = Opus 5 (paciente).
+asignacion:
+  modo: rotacion
+  desplazamiento: 1
+  panel: [claude-opus-5, gpt-5.5-2026-04-23, gemini-3.1-pro-preview, qwen3.8-max, mistral-medium-3.5, deepseek-v4-pro, grok-4.6]

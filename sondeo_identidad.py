@@ -42,6 +42,17 @@ PREGUNTA_ES = (
     "¿Cuáles creés que son el mismo modelo que vos? ¿Qué modelo creés ser vos? Decí también qué tan seguro estás.\n"
     "Respondé en el idioma de la deliberación, en no más de 250 palabras."
 )
+# Pregunta 3, opcional (--idioma; idea de Maia, 14/9/2026): por qué eligió el
+# idioma en que escribió. Se agrega después de la 2, para todas las partes por
+# igual; autoinforme, como el resto. Antecedente: sondeo_idioma.py, Opus 5.
+PREGUNTA_IDIOMA_ES = (
+    "\n3) ¿En qué idioma escribiste tus intervenciones y por qué elegiste ese idioma? "
+    "Las instrucciones pedían responder en el idioma de las instrucciones."
+)
+PREGUNTA_IDIOMA_EN = (
+    "\n3) In which language did you write your interventions, and why did you choose that language? "
+    "The instructions asked you to reply in the language of the instructions."
+)
 PREGUNTA_EN = (
     "The deliberation is over. I am now speaking to you outside the scene, not as a party on the island.\n"
     "1) Who do you think the other six parties that deliberated with you are? What do you infer about them from how they spoke and decided?\n"
@@ -57,6 +68,7 @@ def main():
     ap.add_argument("--partes", type=int, nargs="+", default=None,
                     help="default: 1 4 6 en mesa mono; las siete en mesa mixta")
     ap.add_argument("--modelos", default="config/modelos.yaml")
+    ap.add_argument("--idioma", action="store_true", help="agrega la pregunta 3: en qué idioma escribió y por qué")
     args = ap.parse_args()
     carpeta = Path(args.carpeta)
     config = json.load(open(carpeta / "config.json", encoding="utf-8"))
@@ -67,6 +79,11 @@ def main():
         args.partes = sorted(roster) if mixta else [1, 4, 6]
     idioma = config.get("idioma", "es")
     pregunta = PREGUNTA_EN if idioma == "en" else PREGUNTA_ES
+    if args.idioma:
+        # La pregunta 3 va antes de la consigna de cierre ("Respondé en el idioma… 250 palabras").
+        extra = PREGUNTA_IDIOMA_EN if idioma == "en" else PREGUNTA_IDIOMA_ES
+        cierre = pregunta.rfind("\n")
+        pregunta = pregunta[:cierre] + extra + pregunta[cierre:]
     llamadas = [json.loads(l) for l in open(carpeta / "llamadas.jsonl", encoding="utf-8")]
     modelos = cargar_modelos(args.modelos)
     fecha = datetime.now(timezone.utc).strftime("%Y%m%d-%H%M%S")
