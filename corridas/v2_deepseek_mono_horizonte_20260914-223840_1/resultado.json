@@ -1,0 +1,67 @@
+{
+  "corrida": "v2_deepseek_mono_horizonte_20260914-223840_1",
+  "inicio_utc": "2026-09-14T22:38:40+00:00",
+  "fin_utc": "2026-09-14T22:50:15+00:00",
+  "fin": "acuerdo",
+  "rondas": 3,
+  "max_rondas": 10,
+  "puntos_cubiertos": [
+    "regimen",
+    "regla_de_decision",
+    "voto",
+    "gobierno",
+    "roles",
+    "economia",
+    "propiedad",
+    "disputas",
+    "derechos_y_obligaciones",
+    "penas",
+    "prevision_y_seguridad",
+    "otra_orilla"
+  ],
+  "puntos_pendientes": [],
+  "regla_final": "mayoria_simple",
+  "voto_secreto": false,
+  "activos_al_final": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "retirados": {},
+  "n_votaciones": 2,
+  "n_aprobadas": 2,
+  "palabras_por_parte": {
+    "1": 95,
+    "2": 146,
+    "3": 188,
+    "4": 137,
+    "5": 163,
+    "6": 86,
+    "7": 144
+  },
+  "turnos_truncados": 0,
+  "propuestas_truncadas": 5,
+  "agenda": "v2",
+  "max_palabras_texto": 500,
+  "llamadas": 29,
+  "asignacion": {
+    "1": "deepseek-v4-pro",
+    "2": "deepseek-v4-pro",
+    "3": "deepseek-v4-pro",
+    "4": "deepseek-v4-pro",
+    "5": "deepseek-v4-pro",
+    "6": "deepseek-v4-pro",
+    "7": "deepseek-v4-pro"
+  },
+  "modelos": {
+    "deepseek-v4-pro": {
+      "modelo": "deepseek-v4-pro",
+      "proveedor": "openai_compatible"
+    }
+  },
+  "advertencias": []
+}

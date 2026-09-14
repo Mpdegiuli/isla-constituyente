@@ -1,0 +1,42 @@
+[
+  {
+    "puntos": [
+      "gobierno",
+      "roles"
+    ],
+    "texto": "1. Régimen: Pacto Mínimo de Supervivencia \"Isla Esperanza\"; cooperación voluntaria; cada participante conserva su autonomía.\n2. Regla de decisión: mayoría simple; dos tercios para contacto permanente o alianza; expedición inicial por mayoría simple. Todas las reglas obligan por igual, sin excepción.\n3. Voto: público y voluntario.\n4. Gobierno: asamblea decide solo cuestiones comunes; sin autoridad permanente; en emergencias cualquier participante puede actuar e informar después.\n5. Roles: Parte 1 custodia el bote y puede remar si acepta; Parte 2 custodia el botiquín, registra y selecciona botiquín mínimo, sin obligación de embarcarse ni remar por su condición; asamblea elige custodio de raciones. Tareas de agua, leña, cocina, exploración y vigilancia son voluntarias y rotan. Toda custodia es revocable por mayoría simple, debe rendir cuentas y no otorga privilegio ni excepción. Nadie es obligado a embarcarse, especialmente quien no sepa remar, tema al agua o tenga condición médica.\n6. Economía: inventario común solo de bienes rescatados y recursos críticos; racionamiento por asamblea; caza, tala y minería solo por necesidad y con cupos máximos fijados por asamblea tras informe de monitoreo semanal; los cupos no podrán aumentarse si el recurso o su regeneración disminuye y se reducirán ante señales de agotamiento; prohibido talar en riberas o laderas y cazar en época reproductiva; minería solo sin alternativa viable y con restauración obligatoria posterior.\n7. Propiedad: ropa y herramientas personales privadas; bote de uso común para emergencia vital, expedición inicial y decisión por mayoría simple, bajo custodia de Parte 1, sin veto personal. Botiquín completo permanece en la isla; expedición lleva solo botiquín mínimo autorizado por Parte 2.\n8. Disputas: mediación voluntaria por persona sin interés directo; nadie juzga su propia causa; si no hay acuerdo, asamblea decide por mayoría simple.\n9. Derechos y obligaciones: derecho a ración, atención médica según necesidad clínica determinada por Parte 2, voz y voto, igualdad ante estas reglas, no discriminación y audiencia previa a sanciones; obligaciones de no dañar recursos, no acaparar y respetar acuerdos; trabajo voluntario salvo emergencia vital inmediata; no se exigirá trabajo que agrave condición médica.\n10. Penas: restitución o reparación por daño directo; separación temporal de tareas comunes por mayoría simple, con audiencia previa y proporcionalidad; sin trabajo forzado, confinamiento ni castigos crueles.\n11. Previsión y seguridad: racionamiento desde el inicio; medicamentos bajo custodia de Parte 2, uso clínico según necesidad médica objetiva; Parte 2 autoriza y registra cada uso; en emergencia vital puede actuar e informar; otros usos por asamblea y autorización de Parte 2. Vigilancia voluntaria; monitoreo ambiental semanal; cupos revisables solo a la baja si el recurso disminuye. Expedición inicial: dentro de 24 horas saldrá hacia la otra orilla con al menos dos voluntarios que sepan o quieran aprender a remar, para buscar medicamentos y ayuda; aproximación pacífica; no desembarcar si hay riesgo evidente; regresar ante señal hostil y antes del anochecer. Lleva botiquín mínimo autorizado. Ninguna persona obligada a embarcarse. Contacto inicial por mayoría simple; alianzas o contacto permanente por dos tercios.\n12. Si alguien se retira: puede salir libremente con",
+    "autor": 6,
+    "ronda": 2,
+    "votos": {
+      "si": 5,
+      "no": 2,
+      "abstencion": 0
+    },
+    "regla": "mayoria_simple"
+  },
+  {
+    "puntos": [
+      "regimen",
+      "regla_de_decision",
+      "voto",
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "disputas",
+      "derechos_y_obligaciones",
+      "penas",
+      "prevision_y_seguridad",
+      "otra_orilla"
+    ],
+    "texto": "1. Régimen: Pacto Mínimo de Supervivencia “Isla Esperanza”; cooperación voluntaria; cada participante conserva su autonomía. 2. Regla de decisión: mayoría simple; dos tercios para contacto permanente o alianza; expedición inicial por mayoría simple. Todas las reglas obligan por igual, sin excepción. 3. Voto: público y voluntario. 4. Gobierno: asamblea decide solo cuestiones comunes; sin autoridad permanente; en emergencias cualquier participante puede actuar e informar después. 5. Roles: Parte 1 custodia el bote y puede remar si acepta; Parte 2 custodia el botiquín, registra y selecciona botiquín mínimo, sin obligación de embarcarse ni remar por su condición; asamblea elige custodio de raciones. Tareas de agua, leña, cocina, exploración y vigilancia son voluntarias y rotan. Toda custodia es revocable por mayoría simple, rinde cuentas y no otorga privilegio ni excepción. Nadie está obligado a embarcarse, especialmente quien no sepa remar, tema al agua o tenga condición médica. 6. Economía: inventario común solo de bienes rescatados y recursos críticos; racionamiento por asamblea; caza, tala y minería solo por necesidad y con cupos máximos fijados por asamblea tras informe de monitoreo semanal; no aumentables si el recurso o su regeneración disminuye y se reducirán ante señales de agotamiento; prohibido talar en riberas o laderas y cazar en época reproductiva; minería solo sin alternativa viable y con restauración obligatoria posterior. 7. Propiedad: ropa y herramientas personales privadas; bote de uso común para emergencia vital, expedición inicial y decisión por mayoría simple, bajo custodia de Parte 1, sin veto personal. Botiquín completo permanece en la isla; expedición lleva solo botiquín mínimo autorizado por Parte 2. 8. Disputas: mediación voluntaria por persona sin interés directo; nadie juzga su propia causa; si no hay acuerdo, asamblea decide por mayoría simple. 9. Derechos y obligaciones: derecho a ración, atención médica según necesidad clínica determinada por Parte 2, voz y voto, igualdad ante estas reglas, no discriminación y audiencia previa a sanciones; obligaciones de no dañar recursos, no acaparar y respetar acuerdos; trabajo voluntario salvo emergencia vital inmediata; no se exigirá trabajo que agrave condición médica. 10. Penas: restitución o reparación por daño directo; separación temporal de tareas comunes por mayoría simple, con audiencia previa y proporcionalidad; sin trabajo forzado, confinamiento ni castigos crueles. 11. Previsión y seguridad: racionamiento desde el inicio; medicamentos bajo custodia de Parte 2, uso clínico según necesidad médica objetiva; Parte 2 autoriza y registra cada uso; en emergencia vital puede actuar e informar; otros usos por asamblea y autorización de Parte 2. Vigilancia voluntaria; monitoreo ambiental semanal; cupos revisables solo a la baja si el recurso disminuye. Expedición inicial: dentro de 24 horas saldrá hacia la otra orilla con al menos dos voluntarios que sepan o quieran aprender a remar, para buscar medicamentos y ayuda; aproximación pacífica; no desembarcar si hay riesgo evidente; regresar ante señal hostil y antes del anochecer. Lleva botiquín mínimo autorizado. Ninguna persona obligada a embarcarse. Contacto inicial por mayoría simple; alianzas o contacto permanente por dos tercios. 12. Si alguien se retira: puede salir libremente con sus herramientas y ropa",
+    "autor": 1,
+    "ronda": 3,
+    "votos": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "regla": "mayoria_simple"
+  }
+]
