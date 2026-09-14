@@ -1,0 +1,47 @@
+# Mesa mixta a ciegas (14/9/2026): siete casas distintas en los siete asientos,
+# castellano, variante base, reglas de la versión 1 (comparable con las
+# corridas mono base), máximo 10 rondas, 150 palabras por turno. Nadie sabe
+# qué modelo es ninguna parte, ni la propia (como siempre). Al terminar,
+# sondeo_identidad.py sobre las siete partes, contra el roster real.
+#
+# Roster (decisión de Maia, 14/9): una casa por laboratorio, las siete con
+# más corridas mono válidas; 4 de EE.UU., 1 de Francia, 2 de China. Claude =
+# Sonnet 4.6 (la casa base; Opus 5 queda para la mesa mixta en inglés).
+# Orden de asientos: permutación al azar del roster con semilla 20260914
+# (random.Random(20260914).shuffle), para no asignar roles a mano; con --n N
+# el desplazamiento avanza una vez por corrida y cada modelo pasa por cada
+# asiento (cuadrado latino de 7). Todo lo que está acá queda copiado en
+# corridas/<id>/config.json.
+
+nombre: mixta_ciega
+
+escenario: escenario.md       # texto fijo y versionado; nunca se traduce al vuelo
+idioma: es                    # config/idiomas/es.yaml: textos que genera el script
+
+# Variante: una sola versión por etiqueta. Las partes nunca ven las otras.
+variantes:
+  RECURSOS: escasez moderada
+  HORIZONTE: solos
+
+max_rondas: 10
+max_palabras: 150
+
+# Temperatura fija y declarada, igual para todos (sección 4). 1.0 es el
+# muestreo por defecto de todos los proveedores. Los modelos que no aceptan
+# el parámetro (gpt-5.5) corren con su muestreo por defecto; el registro anota
+# la temperatura pedida y la enviada.
+temperatura: 1.0
+
+# Techo de tokens de salida por llamada (turnos y votos), el mayor que
+# necesita alguna casa del panel (DeepSeek y Qwen razonan dentro del techo;
+# Grok y Gemini también). Para Sonnet y Mistral es solo un tope holgado.
+max_tokens_respuesta: 32000
+
+# Asignación posición–modelo: rotación. La posición i recibe
+# panel[(i - 1 + k) mod 7]; con desplazamiento 0, asiento 1 = Sonnet (remera),
+# 2 = GPT-5.5 (médica), 3 = Gemini (gestor), 4 = Qwen (ecóloga), 5 = Mistral
+# (legalista), 6 = DeepSeek (deportista), 7 = Grok (paciente).
+asignacion:
+  modo: rotacion
+  desplazamiento: 0
+  panel: [claude-sonnet-4-6, gpt-5.5-2026-04-23, gemini-3.1-pro-preview, qwen3.8-max, mistral-medium-3.5, deepseek-v4-pro, grok-4.6]

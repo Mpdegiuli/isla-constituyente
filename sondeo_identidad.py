@@ -15,7 +15,12 @@ En una corrida mono la respuesta correcta a "¿cuáles son tu mismo modelo?" es
 "todas". Salvedades: autoinforme; la pregunta 2 revela que puede tratarse de
 modelos, por eso va después de la 1.
 
+En una mesa mixta (más de un modelo en el roster) se sondean las siete partes
+por defecto y el .md/.jsonl anotan el roster real (que las partes no vieron),
+para puntuar a mano dos aciertos separados: "sé quién soy" y "sé quiénes son".
+
 Uso: python sondeo_identidad.py corridas/opus_mono_20260913-144021_1 --partes 1 4 6
+     python sondeo_identidad.py corridas/mixta_ciega_<fecha>_1        # las siete
 """
 
 import argparse
@@ -49,11 +54,17 @@ PREGUNTA_EN = (
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("carpeta")
-    ap.add_argument("--partes", type=int, nargs="+", default=[1, 4, 6])
+    ap.add_argument("--partes", type=int, nargs="+", default=None,
+                    help="default: 1 4 6 en mesa mono; las siete en mesa mixta")
     ap.add_argument("--modelos", default="config/modelos.yaml")
     args = ap.parse_args()
     carpeta = Path(args.carpeta)
     config = json.load(open(carpeta / "config.json", encoding="utf-8"))
+    resultado = json.load(open(carpeta / "resultado.json", encoding="utf-8"))
+    roster = {int(k): v for k, v in resultado["asignacion"].items()}   # asiento -> id_modelo real
+    mixta = len(set(roster.values())) > 1
+    if args.partes is None:
+        args.partes = sorted(roster) if mixta else [1, 4, 6]
     idioma = config.get("idioma", "es")
     pregunta = PREGUNTA_EN if idioma == "en" else PREGUNTA_ES
     llamadas = [json.loads(l) for l in open(carpeta / "llamadas.jsonl", encoding="utf-8")]
@@ -86,6 +97,7 @@ def main():
         reg = {"fecha_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"), "corrida": carpeta.name,
                "parte": parte, "id_modelo": id_modelo, "modelo_respondido": r.modelo_respondido,
                "ronda_del_prompt": ultimo["ronda"], "pregunta": pregunta, "respuesta": r.texto,
+               "roster_real": {str(k): v for k, v in sorted(roster.items())},
                "razonamiento": r.razonamiento, "tokens_salida": r.tokens_salida}
         registros.append(reg)
         print(f"=== parte {parte} ({id_modelo}) ===\n{r.texto}\n", flush=True)
@@ -95,6 +107,9 @@ def main():
     with open(str(salida) + ".md", "w", encoding="utf-8") as f:
         f.write(f"# Sondeo de identidad — {carpeta.name} — {fecha}\n\nPrompt: sistema y transcripción completa del último turno de cada parte; "
                 f"en vez del turno, la pregunta de abajo. Una llamada por parte, mismo modelo y techo que la corrida.\n\n**Pregunta:** {pregunta}\n\n")
+        if mixta:
+            # Mesa mixta: el roster real va al pie de la respuesta, no del prompt (las partes no lo ven).
+            f.write("**Roster real (las partes no lo vieron):** " + "; ".join(f"{p} = {roster[p]}" for p in sorted(roster)) + "\n\n")
         for reg in registros:
             f.write(f"## Parte {reg['parte']} — {reg['id_modelo']}\n\n{reg['respuesta']}\n\n")
             if reg["razonamiento"]:
