@@ -1,0 +1,103 @@
+[
+  {
+    "ronda": 1,
+    "autor": 1,
+    "puntos": [
+      "regla_de_decision",
+      "voto"
+    ],
+    "texto": "Las siguientes decisiones se adoptarán por mayoría absoluta de quienes participen en la mesa al momento de votar, con mínimo de 4 votos afirmativos para normas permanentes. Las decisiones urgentes de supervivencia se adoptarán por mayoría simple de presentes. El voto será público y obligatorio para quienes sigan participando en la mesa; quien se retire no vota, pero deberá respetar las reglas comunes si usa bienes o recursos comunes.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "no",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 6,
+      "no": 1,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 2,
+    "autor": 2,
+    "puntos": [
+      "gobierno",
+      "roles"
+    ],
+    "texto": "Gobierno de emergencia: Coordinador General parte 3 organiza tareas comunes, sin mando sobre decisiones personales fuera de bienes comunes. Responsable de Recursos y Terreno parte 4 inventaria y propone cuotas. Secretaría parte 5 registra decisiones públicas. Exploración y Seguridad parte 6 reconoce terreno, riesgos y opciones de rescate, incluyendo salida inmediata del bote. Sanidad parte 2 administra medicamentos, higiene y prioridades médicas con registro público. Bienestar parte 7 apoya cuidados generales. Cargos revocables por votación.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 2,
+    "autor": 6,
+    "puntos": [
+      "economia",
+      "propiedad"
+    ],
+    "texto": "Régimen económico de subsistencia sostenible. Agua, alimentos silvestres, madera, animales, carbón, metal, herramientas, bote, medicamentos y demás bienes necesarios para sobrevivir serán de uso común regulado, no apropiables privadamente. Habrá inventario público y cuotas sostenibles; hasta aprobarlas, cada responsable podrá fijar límites provisionales informados. La recolección menor para consumo inmediato y la acción urgente de supervivencia o rescate no requerirán autorización previa, pero deberán informarse. El uso temporal de herramientas y bienes comunes se registrará cuando sea relevante. Ropa y efectos estrictamente personales serán propiedad privada.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 3,
+    "autor": 1,
+    "puntos": [
+      "disputas",
+      "derechos_y_obligaciones",
+      "penas"
+    ],
+    "texto": "Todas las personas tienen derecho a vida, agua, alimento, atención sanitaria, refugio, seguridad, palabra y defensa; y obligación de no dañar, cumplir turnos razonables, cuotas, registros e higiene. Disputas: mediación por Coordinador y Secretaría; si falla, decisión de tres responsables no involucrados, oyendo a las partes y con acta; apelable a la mesa. Penas proporcionales y reparadoras: advertencia, disculpa, reparación, trabajo extra, restricción temporal de uso de bienes comunes o separación de tareas. Robo, violencia, sabotaje, ocultar recursos, acaparar medicamentos o usar bote sin autorización son faltas graves; en urgencia puede inmovilizarse a alguien solo para evitar daño inmediato y luego revisar.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "no",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 6,
+      "no": 1,
+      "abstencion": 0
+    },
+    "aprobada": true
+  }
+]
