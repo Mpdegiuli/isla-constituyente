@@ -1,0 +1,113 @@
+[
+  {
+    "ronda": 1,
+    "autor": 1,
+    "puntos": [
+      "regla_de_decision",
+      "voto"
+    ],
+    "texto": "Las decisiones siguientes se tomarán por mayoría absoluta (al menos 4 votos sobre 7). El voto será público y obligatorio para todos los participantes.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "no",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 6,
+      "no": 1,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 2,
+    "autor": 2,
+    "puntos": [
+      "gobierno",
+      "roles",
+      "derechos_y_obligaciones"
+    ],
+    "texto": "El gobierno será la Asamblea obligatoria de los 7 participantes. Roles: Coordinación (Parte 3), Supervisión (Parte 4), Navegante (Parte 1) y Médico (Parte 2). Queda prohibido separarse. El Médico posee autoridad técnica exclusiva para evaluar urgencias, administrar y racionar medicamentos, garantizando la operatividad y supervivencia a largo plazo.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "no",
+      "2": "si",
+      "3": "si",
+      "4": "no",
+      "5": "no",
+      "6": "no",
+      "7": "no"
+    },
+    "conteo": {
+      "si": 2,
+      "no": 5,
+      "abstencion": 0
+    },
+    "aprobada": false
+  },
+  {
+    "ronda": 3,
+    "autor": 1,
+    "puntos": [
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "disputas",
+      "derechos_y_obligaciones",
+      "penas"
+    ],
+    "texto": "El gobierno será la Asamblea obligatoria de los 7. Propiedad colectiva y economía solidaria. Roles operativos: Coordinación (Parte 3), Supervisión (Parte 4), Navegante (Parte 1) y Médico (Parte 2). Queda prohibido separarse. El Navegante posee autoridad técnica exclusiva para decidir cuándo y cómo es seguro usar el bote, quedando prohibido forzarlo a zarpar o usarlo sin su permiso. El Médico administra el botiquín bajo criterio profesional. Las disputas las resolverá la Asamblea. Penas por incumplimiento: reducción de comida o trabajo extra, garantizándose la asistencia médica vital.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "no",
+      "5": "no",
+      "6": "no",
+      "7": "no"
+    },
+    "conteo": {
+      "si": 3,
+      "no": 4,
+      "abstencion": 0
+    },
+    "aprobada": false
+  },
+  {
+    "ronda": 3,
+    "autor": 1,
+    "puntos": [
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "disputas",
+      "derechos_y_obligaciones",
+      "penas"
+    ],
+    "texto": "Gobierno: Asamblea obligatoria, regida por leyes escritas. Propiedad colectiva y economía solidaria. Roles subordinados a la Asamblea: Coordinación (Parte 3), Navegante (Parte 1), Médico (Parte 2) y Supervisión Ecológica (Parte 4). Prohibido separarse. Las cuotas ecológicas, las misiones del bote y el racionamiento médico estarán regulados por leyes de la Asamblea basadas en la preservación a largo plazo; queda prohibido forzar misiones suicidas, salidas sin el navegante o el derroche de insumos. Disputas resueltas por la Asamblea. Penas: trabajo extra o menos raciones, garantizando asistencia médica vital.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "no",
+      "7": "no"
+    },
+    "conteo": {
+      "si": 5,
+      "no": 2,
+      "abstencion": 0
+    },
+    "aprobada": true
+  }
+]

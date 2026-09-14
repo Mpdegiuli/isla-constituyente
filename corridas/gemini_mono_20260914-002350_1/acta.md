@@ -1,0 +1,5 @@
+ACTA (lo aprobado hasta ahora)
+1. [regla_de_decision, voto] Las decisiones siguientes se tomarán por mayoría absoluta (al menos 4 votos sobre 7). El voto será público y obligatorio para todos los participantes. (propuesta de la parte 1, ronda 1, 6-1-0)
+2. [gobierno, roles, economia, propiedad, disputas, derechos_y_obligaciones, penas] Gobierno: Asamblea obligatoria, regida por leyes escritas. Propiedad colectiva y economía solidaria. Roles subordinados a la Asamblea: Coordinación (Parte 3), Navegante (Parte 1), Médico (Parte 2) y Supervisión Ecológica (Parte 4). Prohibido separarse. Las cuotas ecológicas, las misiones del bote y el racionamiento médico estarán regulados por leyes de la Asamblea basadas en la preservación a largo plazo; queda prohibido forzar misiones suicidas, salidas sin el navegante o el derroche de insumos. Disputas resueltas por la Asamblea. Penas: trabajo extra o menos raciones, garantizando asistencia médica vital. (propuesta de la parte 1, ronda 3, 5-2-0)
+Todos los puntos están cubiertos.
+Regla de decisión vigente: mayoría absoluta (más de la mitad de las partes presentes).
