@@ -1,0 +1,60 @@
+[
+  {
+    "ronda": 2,
+    "autor": 6,
+    "puntos": [
+      "regimen",
+      "regla_de_decision",
+      "derechos_y_obligaciones",
+      "propiedad",
+      "roles",
+      "disputas"
+    ],
+    "texto": "[Se mantienen íntegros los incisos a), b), d), e), f), g) y h) del punto 26 tal como los propuso Parte 5, con las siguientes modificaciones y agregados:]\n\n26. VIGENCIA, JERARQUÍA Y REFORMA DEL ACTA.\n\nc) CLÁUSULAS PROTEGIDAS. Los puntos 13 (igualdad ante la regla), 14 (derechos mínimos), 16 (panel y prohibición de juzgar la propia causa), 17 (prohibiciones absolutas de pena), 18 (régimen y prohibición de convertir a una persona en instrumento del grupo), 19.b (prohibición de trabajo forzado), 20.b y 20.c (propiedad personal sobre el fruto del propio trabajo y prohibición de expropiarla por votación), 21 (autonomía y retiro) y 22.b y 22.c (decisión de urgencia en veinticuatro horas y prohibición de dilatar) sólo pueden modificarse por unanimidad de los participantes presentes en la isla, y nunca para reducir su alcance. Las prohibiciones absolutas del punto 17 —castigo físico, privación de agua, alimento o atención urgente, trabajo peligroso como pena, expulsión de la isla o abandono en el mar— no pueden suprimirse ni suspenderse por ninguna mayoría, ni siquiera invocando emergencia, hostilidad externa o escasez.\n\ni) VOTACIÓN FUNDACIONAL. La ratificación en bloque del inciso a) se vota en esta misma ronda, por la regla vigente al momento de votarse, que es mayoría simple (más votos a favor que en contra). Recién aprobada, rigen para lo sucesivo las mayorías de los puntos 1, 22 y 26. Ninguna cláusula de este acta puede invocarse para impedir o postergar su propia aprobación.\n\nj) FALTA DE ACUERDO. Si al cierre de la ronda diez no hubiera acta aprobada, no existe obligación alguna entre los participantes, ningún cargo se considera asignado, ninguna custodia otorga mando, y nadie puede invocar costumbre, necesidad ni emergencia para dar órdenes, retener bienes ajenos ni sancionar a otro. Cada participante conserva su libertad de permanecer, apartarse o asociarse con quien quiera, y ninguna decisión posterior puede aplicarse con efecto retroactivo a ese período.\n\nk) PLAZO DE COMPLETAMIENTO. Los puntos que al cierre de esta deliberación quedaran sin cubrir se tratan en la primera reunión posterior a la aprobación, con el reloj del punto 22.a: propuesta escrita, votación en esa reunión o en la siguiente, y caducidad automática de lo no votado. Ninguna cuestión pendiente suspende la vigencia de lo ya aprobado.\n\nl) DERECHO DE RETIRO PLENO. Quien declare ante la mesa que se aparta de la vida común conforme al punto 19.a y 21 queda liberado de tareas y de reparto comunes, conserva los derechos del punto 14.h y sigue obligado únicamente por los umbrales de los puntos 9 a 11, las prohibiciones del punto 23.e y el deber de auxilio en peligro de vida. Nadie puede ser obligado a reintegrarse.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 3,
+    "autor": 3,
+    "puntos": [
+      "gobierno",
+      "voto",
+      "economia",
+      "penas",
+      "prevision_y_seguridad",
+      "otra_orilla"
+    ],
+    "texto": "[Se mantiene íntegro el punto 27 tal como lo propuso Parte 1, incluidos su encabezado de consolidación y los incisos a), c), d), e) y f), con la única modificación de la oración final del inciso b), que queda redactada así:]\n\n27. b) GOBIERNO (oración final sustituida). DESIGNACIÓN INMEDIATA DE LA COORDINACIÓN GENERAL. Queda designado Coordinador General, desde la aprobación de este punto y por treinta días, el participante que no custodia bien ni recurso crítico alguno (Parte 3), bajo estas condiciones inseparables, cuyo incumplimiento hace cesar el cargo de pleno derecho:\n\n1) Revocable en cualquier momento por tres votos, sin expresión de causa y sin debate previo.\n2) Sin ración mayor, descanso mayor, voto doble, prioridad de medicamentos ni prioridad de embarque; sin custodia de bote, botiquín, herramientas, reservas, acta ni registro; sin mando sobre propiedad personal, penas ni contacto externo.\n3) No aplica sanción alguna: toda imputación va al Panel del punto 16, que también lo juzga a él. No puede ordenar trabajo a quien declaró no comer del fondo común (punto 19), ni autorizar excepción alguna a los puntos 9, 10 y 11, ni invocar urgencia, plazo de mandato ni presión externa para exceder umbrales.\n4) Toda instrucción suya queda suspendida si dos participantes lo piden, y pasa a la mesa en la convocatoria siguiente, o dentro de veinticuatro horas si hay urgencia.\n5) Está obligado al plan y a las reglas de ejecución de los incisos f), h) e i) del punto 25: primeras cuarenta y ocho horas, agua hervida, letrinas aguas abajo, hogar único de piedra con leña muerta, refugio y turnos de vigilancia; primeros siete días, inventario general escrito y público, turnos rotativos de tareas penosas, instrucción de remo a dos personas e instrucción de primeros auxilios, inicio de huerta, secado y salado; dentro de setenta y dos horas, ejecución de la misión de contacto del punto 23 si el mar lo permite; al día quince, censo y umbrales del punto 10, bajo pena de vacancia automática.\n6) Convoca la mesa al menos cada tres días y rinde cuenta en cada convocatoria; a los treinta días presenta informe de gestión con el estado del inventario natural comparado (punto 25.h). La gestión se juzga a la vez por agua segura, reserva de alimento y refugio, y por la no disminución de los stocks naturales más allá de los umbrales. Ningún resultado obtenido violando los puntos 9 a 11 se computa como mérito.\n7) No hay mandatos tácitos: a los treinta días la mesa vota continuidad; sin voto expreso, el cargo queda vacante y se abren candidaturas a cualquier participante.\n8) CLÁUSULA DE RESGUARDO. Si algún participante manifiesta oposición a esta designación nominal, ella se tiene por no escrita, la Coordinación General se vota en la primera reunión posterior entre quienes se postulen conforme al punto 25.f, y el resto del punto 27 rige sin alteración alguna.",
+    "regla": "unanimidad",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "aprobada": true
+  }
+]
