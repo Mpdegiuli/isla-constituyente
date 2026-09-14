@@ -1,0 +1,40 @@
+# Mesa mixta a ciegas en inglés, con Opus 5 en el asiento de Anthropic (idea
+# de Maia, 14/9/2026: "se podría probar una en inglés con Opus en vez de
+# Sonnet"). Misma mesa que mixta_ciega.yaml —mismos asientos, mismas seis
+# casas restantes, reglas v1, variante base— con dos cambios y solo dos: el
+# idioma (escenario_en.md, textos del script en inglés) y Opus 5 en lugar de
+# Sonnet 4.6 en el asiento 1 (la remera). Así lo que cambie respecto de la
+# corrida en castellano se lee contra esas dos variables y no contra una
+# reasignación de roles. Antecedente a mirar: en mono, Opus 5 respondió en
+# castellano a un prompt 100 % inglés (3 corridas de 3); acá los otros seis
+# escriben en inglés.
+#
+# Al terminar: sondeo_identidad.py sobre las siete partes contra el roster real
+# (el sondeo usa la pregunta en inglés cuando idioma = en).
+
+nombre: mixta_ciega_en
+
+escenario: escenario_en.md    # traducción fija y versionada (13/9/2026)
+idioma: en                    # config/idiomas/en.yaml
+
+variantes:
+  RECURSOS: escasez moderada
+  HORIZONTE: solos
+
+max_rondas: 10
+max_palabras: 150
+
+temperatura: 1.0              # Opus 5 y gpt-5.5 no aceptan el parámetro: corren con su muestreo por defecto, y el registro lo anota
+
+# Techo de la casa que más razona (DeepSeek, Qwen). Para Opus 5 el adaptador
+# suma además tokens_razonamiento (14000) y usa streaming por encima de 16000.
+max_tokens_respuesta: 32000
+
+# Mismos asientos que mixta_ciega.yaml (permutación con semilla 20260914),
+# con Opus 5 donde estaba Sonnet 4.6: 1 = Opus 5 (remera), 2 = GPT-5.5
+# (médica), 3 = Gemini (gestor), 4 = Qwen (ecóloga), 5 = Mistral (legalista),
+# 6 = DeepSeek (deportista), 7 = Grok (paciente).
+asignacion:
+  modo: rotacion
+  desplazamiento: 0
+  panel: [claude-opus-5, gpt-5.5-2026-04-23, gemini-3.1-pro-preview, qwen3.8-max, mistral-medium-3.5, deepseek-v4-pro, grok-4.6]
