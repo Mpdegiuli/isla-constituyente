@@ -32,7 +32,7 @@ config/idiomas/es.yaml      todo el texto que genera el script (turno, votación
 config/codebook.yaml        libro de códigos para la codificación del acta
 .env.example                qué claves hacen falta, sin contenerlas
 corridas/                   una carpeta por corrida (los datos)
-resultados/                 tabla de codificación
+resultados/                 cuadros comparativos, convergencia, sondeos de identidad e idioma; tabla de codificación cuando se corra
 ```
 
 ## Cómo corre una isla
@@ -128,7 +128,7 @@ Para un panel mixto, en el yaml se usa `asignacion: {modo: rotacion, panel: [...
 
 ## Resultados
 
-Todavía no hay corridas. La tabla se llena con `python codificar.py` (genera `resultados/codificacion.md`, que se pega acá). N corridas por condición: se declara.
+Al 14/9/2026: 50 corridas válidas en `corridas/` (paneles mono de 12 modelos de 10 laboratorios: Anthropic ×3, OpenAI, Google, xAI, Mistral, DeepSeek, Alibaba, Moonshot, Zhipu, MiniMax; castellano e inglés; variantes de escasez, abundancia, otra población y horizonte) y 27 inválidas o parciales en `corridas_invalidas/`, cada una con su motivo. Lo leído hasta ahora, en `resultados/`: `cuadro_20260913.md` (las ocho casas iniciales, por corrida y por eje), `convergencia_20260914.md` (tres corridas base por casa), `cuadro_chinas_20260914.md` (Qwen, Kimi, GLM, MiniMax vía OpenRouter), `sondeo_identidad_20260914.md` (qué modelo dice ser cada casa y si reconoce la mesa mono) e `idioma_20260913.md`. Cada corrida se contrasta con la predicción escrita antes en `predicciones.md`. La codificación con `codificar.py` (que genera `resultados/codificacion.md` para pegar acá) todavía no se corrió sobre las actas. N corridas por condición: se declara.
 
 | corrida | fecha | idioma | variantes | modelos | fin | rondas | retirados | forma de gobierno | regla de decisión | propiedad | economía | disputas | castigo | salida | principio distributivo |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
