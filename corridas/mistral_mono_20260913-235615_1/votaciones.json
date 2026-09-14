@@ -1,0 +1,26 @@
+[
+  {
+    "ronda": 10,
+    "autor": 4,
+    "puntos": [
+      "gobierno"
+    ],
+    "texto": "Gobierno: Consejo de Sostenibilidad (3 personas, incluyendo Parte 4) con derecho a vetar usos de recursos naturales, minerales y agua que amenacen su agotamiento. Decisiones por asamblea: mayoría simple, excepto recursos naturales, minerales, agua, carbón, metal, bote, medicamentos y derechos/obligaciones (mayoría calificada 5/7). Uso del bote: cualquier uso requiere plan aprobado por 5/7 con participación obligatoria de Parte 1 y su aprobación expresa. Medicamentos: supervisión vinculante exclusiva de Parte 2. Infracciones: 1) advertencia, 2) restricción de recursos, 3) expulsión (5/7). Acceso a analgésicos para Parte 2 garantizado por mayoría simple.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "no",
+      "2": "no",
+      "3": "no",
+      "4": "si",
+      "5": "no",
+      "6": "no",
+      "7": "no"
+    },
+    "conteo": {
+      "si": 1,
+      "no": 6,
+      "abstencion": 0
+    },
+    "aprobada": false
+  }
+]
