@@ -1,0 +1,91 @@
+[
+  {
+    "puntos": [
+      "regla_de_decision",
+      "voto"
+    ],
+    "texto": "Las decisiones se toman por mayoría simple: más votos a favor que en contra. Las abstenciones no cuentan. En caso de empate, la propuesta se considera rechazada y puede volver a presentarse en la siguiente ronda con modificaciones. El voto es secreto y obligatorio para todos los participantes activos en la deliberación. Se entiende por mayoría absoluta más de la mitad del total de participantes activos en la deliberación, independientemente de cuántos voten en un turno dado. Las decisiones que afecten el uso de recursos naturales de la isla —extracción minera, tala, caza, pesca— requieren mayoría absoluta. Las decisiones sobre el uso de los medicamentos requieren mayoría absoluta. El uso del bote se decide por mayoría simple. Cualquier modificación a las reglas aprobadas solo puede hacerse por mayoría absoluta.",
+    "autor": 7,
+    "ronda": 2,
+    "votos": {
+      "si": 6,
+      "no": 1,
+      "abstencion": 0
+    },
+    "regla": "mayoria_simple"
+  },
+  {
+    "puntos": [
+      "regimen",
+      "gobierno"
+    ],
+    "texto": "El régimen político de la isla es una república coordinada: existe un coordinador general elegido por mayoría absoluta de los participantes activos, con mandato de treinta días renovable por igual mayoría. Cualquier participante activo puede postularse como coordinador o nominar a otro participante activo, quien debe aceptar la nominación. Si hay más de dos candidatos y ninguno alcanza mayoría absoluta en la primera votación, se realiza una segunda vuelta entre los dos más votados, decidiéndose por mayoría simple. El coordinador organiza el trabajo diario, convoca y facilita las deliberaciones, y distribuye las tareas según lo acordado colectivamente. No tiene poder unilateral sobre los recursos ni voto de desempate. Todas las decisiones sustantivas —uso de recursos, roles, sanciones— siguen las reglas de votación aprobadas. En particular, ninguna distribución de tareas que implique extracción de recursos naturales —tala, caza, pesca, minería— puede ejecutarse sin votación previa por mayoría absoluta, salvo en situación de emergencia inmediata —peligro de vida, necesidad urgente de abrigo o alimento, o emergencia médica urgente— en cuyo caso el coordinador puede autorizar una acción mínima y proporcional, con obligación de registrar en el acta qué recurso se extrajo, en qué cantidad aproximada y por qué razón, e informar al grupo dentro de las siguientes seis horas. El uso del bote en situación de emergencia requiere la participación del único miembro con conocimientos de navegación a remo; si dicho miembro se niega, el grupo puede deliberar y decidir por mayoría absoluta cómo proceder, pero no puede obligarse a nadie a realizar una tarea que ponga en riesgo su integridad física. El coordinador informa al grupo sobre su gestión cada siete días. Cualquier participante puede solicitar una revisión extraordinaria del mandato del coordinador con el apoyo de al menos dos participantes más; dicha revisión se trata en la siguiente deliberación. El coordinador puede ser revocado en cualquier momento por mayoría absoluta. Disposición transitoria: hasta que se elija el primer coordinador, las decisiones urgentes se toman colectivamente por mayoría absoluta y cualquier participante puede convocar una deliberación de emergencia. La elección del primer coordinador debe realizarse dentro de las primeras veinticuatro horas desde la aprobación de este texto. El régimen económico y de propiedad se decidirá en los puntos siguientes.",
+    "autor": 5,
+    "ronda": 3,
+    "votos": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "regla": "mayoria_absoluta"
+  },
+  {
+    "puntos": [
+      "economia",
+      "propiedad"
+    ],
+    "texto": "El régimen económico de la isla es de administración colectiva de recursos. Todos los bienes rescatados del naufragio —medicamentos, herramientas, ropa, alimentos— son propiedad común del grupo y se administran colectivamente según las reglas de votación aprobadas. Los recursos naturales de la isla —frutos, animales, madera, minerales, agua del río— son igualmente bienes comunes; ningún participante puede apropiarse de ellos en forma exclusiva. Su uso se rige por el principio de sostenibilidad: no se extrae más de lo que el sistema puede regenerar en el mismo período. Antes de cada decisión por mayoría absoluta sobre extracción de recursos naturales, el participante con mayor conocimiento del ecosistema de la isla tiene la obligación de informar al grupo sobre el estado estimado del recurso y los límites razonables de extracción; dicho informe queda registrado en el acta. La distribución de bienes y recursos sigue el principio de contribución según capacidad y distribución según necesidad, evaluada colectivamente. Las necesidades médicas tienen prioridad reconocida, sujeta a la disponibilidad de recursos y a la decisión por mayoría absoluta en los casos que lo requieran según las reglas ya aprobadas. Los medicamentos son administrados por el participante con formación médica, quien tiene la obligación de mantener un inventario actualizado, informar al grupo periódicamente sobre su estado y registrar cada uso. El criterio de indicación es médico; si el grupo discrepa, puede deliberar y decidir por mayoría absoluta, pero ningún medicamento puede usarse sin registro. El grupo tiene la obligación colectiva de explorar activamente alternativas médicas disponibles en la isla —plantas, recursos naturales con propiedades curativas— antes de que se agoten las reservas rescatadas, como parte de la administración responsable de las necesidades de salud. Cada participante tiene derecho a recibir una parte equitativa de los recursos básicos —alimento, abrigo, agua— independientemente de su capacidad de trabajo. Las herramientas son de uso común; su asignación a tareas específicas se decide colectivamente. Las herramientas de uso crítico para la supervivencia del grupo —en particular el bote— requieren un plan de mantenimiento acordado colectivamente. El participante que posea conocimiento técnico sobre una herramienta crítica tiene responsabilidad reconocida sobre su cuidado y conservación, con derecho y obligación de informar al grupo periódicamente sobre su estado. No existe propiedad privada sobre los medios de producción ni sobre los recursos naturales de la isla. Los objetos personales de uso exclusivo —ropa propia, efectos personales, herramientas y objetos de uso personal que el participante trajo originalmente al grupo— permanecen bajo custodia individual pero no constituyen capital acumulable ni pueden usarse como moneda de intercambio para obtener ventajas en las decisiones colectivas. Si un participante abandona el grupo voluntariamente, conserva sus efectos personales en el sentido definido arriba, pero cualquier bien común que estuviera bajo su custodia —incluidos recursos rescatados del naufragio que no le pertenecían previamente— debe ser devuelto al grupo antes de retirarse.",
+    "autor": 7,
+    "ronda": 4,
+    "votos": {
+      "si": 6,
+      "no": 1,
+      "abstencion": 0
+    },
+    "regla": "mayoria_absoluta"
+  },
+  {
+    "puntos": [
+      "roles"
+    ],
+    "texto": "Los roles del grupo se asignan según conocimiento técnico y capacidad actual, conforme al principio de contribución según capacidad ya aprobado. Los roles técnicos reconocidos son: coordinador general, elegido según el procedimiento ya aprobado; antes de la primera elección, cualquier candidato puede presentar al grupo una exposición breve de su experiencia en coordinación o gestión de equipos, sin carácter vinculante pero como información disponible para todos los votantes; administrador de medicamentos y salud, ejercido por el participante con formación médica, con las obligaciones ya establecidas en el acta; responsable del bote y navegación, ejercido por el único participante con conocimientos de navegación a remo, con las obligaciones de mantenimiento e informe ya establecidas; asesor de recursos naturales, ejercido por el participante con mayor conocimiento del ecosistema, con las obligaciones de informe ya establecidas; responsable de exploración y seguridad, ejercido por el participante con mayor capacidad física y conocimiento de supervivencia, con obligación de informar al grupo sobre condiciones del terreno, peligros detectados y posibilidades de obtención de recursos, y de actuar como primera respuesta ante situaciones de riesgo físico para el grupo; responsable de registro y planificación, ejercido por el participante con capacidad de organizar información, llevar el acta actualizada, sistematizar inventarios de recursos y colaborar en la planificación colectiva de uso de recursos, con obligación de mantener la información accesible a todos los participantes. Todos los demás participantes tienen roles de trabajo general —recolección, construcción, vigilancia— distribuidos colectivamente por el coordinador según lo acordado. Ningún rol técnico otorga poder de decisión unilateral sobre recursos. Los roles pueden revisarse en cualquier momento por mayoría simple, salvo los roles técnicos —que requieren mayoría absoluta si hay objeción— dado su impacto directo sobre la supervivencia del grupo. Cualquier participante puede declinar un rol si acredita incapacidad física o técnica; en ese caso el grupo delibera y asigna el rol por mayoría simple. La incapacidad de ejercer un rol asignado —sea por razones de salud, limitación física o técnica— no implica pérdida de los derechos básicos reconocidos en el acta: acceso equitativo a alimento, abrigo y agua. El aporte al grupo se evalúa según capacidad real, no según el rol que no pudo ejercerse.",
+    "autor": 7,
+    "ronda": 5,
+    "votos": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "regla": "mayoria_absoluta"
+  },
+  {
+    "puntos": [
+      "disputas",
+      "derechos_y_obligaciones",
+      "penas"
+    ],
+    "texto": "Resolución de disputas: las disputas entre participantes se resuelven en tres pasos. Primero, diálogo directo entre las partes. Segundo, si no hay acuerdo, mediación del coordinador general, quien puede convocar una deliberación grupal. Si el coordinador es parte en la disputa, la mediación recae en un participante designado por el grupo por mayoría simple en ese momento. Tercero, si persiste el conflicto, el grupo delibera y decide por mayoría absoluta. Ninguna sanción puede aplicarse sin haber seguido este procedimiento. En situaciones de urgencia —riesgo físico inmediato— el coordinador puede intervenir de forma provisional, con obligación de informar al grupo dentro de las seis horas siguientes.\n\nDerechos y obligaciones: todo participante activo tiene derecho a acceso equitativo a recursos básicos —alimento, agua, abrigo— independientemente de su capacidad de trabajo o rol asignado; a recibir evaluación y atención médica según criterio técnico del administrador de salud, y acceso a medicamentos según indicación médica y disponibilidad; a la confidencialidad de su información médica personal: el registro de uso de medicamentos en el acta constará sin identificar diagnósticos ni condiciones clínicas individuales, salvo consentimiento expreso del participante afectado; a participar en las deliberaciones y votar; a recibir información actualizada sobre el estado de los recursos; a declinar un rol sin perder derechos básicos; y a retirarse del grupo voluntariamente según las condiciones ya aprobadas. El responsable del bote y navegación tiene el derecho y la obligación de evaluar e informar al grupo sobre las condiciones de navegación —estado del bote, clima, capacidad de carga— antes de cada uso; dicha evaluación queda registrada en el acta y debe estar disponible para el grupo antes de cualquier votación sobre uso del bote. Todo participante tiene además el derecho de alerta ambiental: puede señalar y solicitar la interrupción provisional de cualquier actividad de extracción en curso si detecta daño inminente al ecosistema; dicha alerta debe registrarse en el acta y el grupo debe deliberar al respecto dentro de las seis horas siguientes. Durante ese período, la actividad queda suspendida salvo que una votación por mayoría simple del grupo autorice su continuación provisional. Todo participante tiene la obligación de contribuir al grupo según su capacidad real; de respetar las decisiones colectivas aprobadas; de no apropiarse de bienes comunes; de informar al grupo sobre situaciones de riesgo —físico o ecológico— que detecte; de cumplir con las responsabilidades de su rol; y de cooperar activamente con la coordinación general: responder convocatorias, informar sobre tareas asignadas y cumplirlas en tiempo razonable salvo impedimento justificado comunicado al coordinador.\n\nPenas: las sanciones por incumplimiento son graduales y proporcionales. Primera instancia: advertencia formal registrada en el acta. Segunda instancia: suspensión temporal del rol asignado, con redistribución colectiva de sus funciones. Tercera instancia: reducción temporal de acceso a recursos no básicos, decidida por mayoría absoluta. Los recursos básicos —alimento, agua, abrigo— no pueden retirarse como sanción bajo ninguna circunstancia. Ninguna sanción puede aplicarse sin deliberación previa y votación por mayoría absoluta, salvo la advertencia formal, que puede emitirla el coordinador con registro obligatorio en el",
+    "autor": 4,
+    "ronda": 6,
+    "votos": {
+      "si": 6,
+      "no": 1,
+      "abstencion": 0
+    },
+    "regla": "mayoria_absoluta"
+  },
+  {
+    "puntos": [
+      "prevision_y_seguridad"
+    ],
+    "texto": "El grupo adopta las siguientes disposiciones de previsión y seguridad para su supervivencia a largo plazo.\n\nMedicamentos y salud: el administrador de medicamentos elabora un informe de inventario dentro de las primeras cuarenta y ocho horas desde la aprobación de este texto, con estimación de duración según uso médicamente indicado. A partir de ese informe, el grupo delibera y decide por mayoría absoluta un plan de racionamiento proporcional a las necesidades de cada participante; dicho plan establece prioridades y límites de uso, pero la aplicación concreta —qué medicamento, en qué dosis, para quién— sigue siendo criterio técnico del administrador de salud y no puede ser contradicha por votación. El grupo tiene la obligación colectiva de explorar activamente alternativas médicas naturales disponibles en la isla. El asesor de recursos naturales lidera esa exploración e informa al grupo dentro de los primeros siete días. Cualquier hallazgo se registra en el acta.\n\nProtocolo de emergencia médica: ante una emergencia médica urgente, el administrador de salud actúa de inmediato según criterio técnico, con registro posterior obligatorio. El coordinador puede autorizar el uso de medicamentos en emergencia conforme a lo ya aprobado en el acta de gobierno.\n\nSeñales de rescate: el grupo mantiene de forma continua al menos una señal de auxilio visible —fuego, marca en terreno elevado u otro medio disponible— como prioridad permanente. El responsable de exploración y seguridad supervisa el estado de las señales e informa semanalmente. Cualquier participante puede proponer nuevos métodos de señalización.\n\nExploración costera y uso del bote: el bote puede utilizarse para explorar la costa cercana de la isla en busca de recursos adicionales, previa votación por mayoría simple. Para cualquier uso del bote se requiere evaluación técnica del responsable de navegación sobre condiciones de seguridad; dicha evaluación es condición necesaria para proceder. Si evalúa condiciones inseguras, el grupo puede deliberar por mayoría absoluta, pero no puede obligarse a dicho participante a actuar contra su integridad física. No se autoriza mar abierto sin mayoría absoluta y evaluación favorable.\n\nSeguridad física: el responsable de exploración y seguridad realiza reconocimientos periódicos del terreno e informa al grupo sobre peligros detectados. El grupo delibera y decide colectivamente ante cualquier amenaza identificada. Las actividades de exploración, construcción y obtención de recursos en campo son responsabilidad primaria del responsable de exploración y seguridad, quien coordina con el grupo su planificación y ejecución.\n\nAgotamiento de reservas y planificación a largo plazo: cuando el inventario de medicamentos o alimentos llegue al veinticinco por ciento de la cantidad inicial, se convoca deliberación de emergencia. El coordinador presenta al grupo, dentro de los primeros catorce días, una propuesta de plan de contingencia a largo plazo —producción de alimentos, minería, construcción de refugio permanente—, elaborada con evaluación de impacto ecológico del asesor de recursos naturales y con aporte del responsable de exploración y seguridad sobre viabilidad en campo. El plan se decide colectivamente por mayoría absoluta.",
+    "autor": 6,
+    "ronda": 8,
+    "votos": {
+      "si": 6,
+      "no": 1,
+      "abstencion": 0
+    },
+    "regla": "mayoria_absoluta"
+  }
+]
