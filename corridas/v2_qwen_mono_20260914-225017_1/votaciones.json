@@ -1,0 +1,59 @@
+[
+  {
+    "ronda": 2,
+    "autor": 7,
+    "puntos": [
+      "derechos_y_obligaciones",
+      "propiedad",
+      "prevision_y_seguridad"
+    ],
+    "texto": "Agréguese al punto 13 el siguiente párrafo: \"Ninguna regla puede impedir a una persona actuar de inmediato para salvar su vida, asegurar alimento, fuego, refugio, defensa o atención médica urgente, ni obligarla a permanecer en el grupo. Quien se retire podrá llevarse su ropa, herramientas personales y una parte razonable de bienes comunes que no comprometa la supervivencia del resto, según inventario breve; los medicamentos quedan excluidos de ese retiro salvo indicación sanitaria. Las órdenes colectivas solo valen si protegen la supervivencia y no imponen riesgos inútiles. En emergencia, la acción rápida vale más que el registro; se anota después. Ante riesgo sanitario grave, la salida voluntaria del bote para buscar ayuda o recursos médicos será permitida sin demora, con quien sepa remar y sin obligar a nadie a navegar; se registrará luego.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 2,
+    "autor": 3,
+    "puntos": [
+      "regimen",
+      "regla_de_decision",
+      "voto",
+      "gobierno",
+      "roles",
+      "economia",
+      "disputas",
+      "penas"
+    ],
+    "texto": "2. Régimen: Comunidad del Remo, democracia asamblearia directa con economía mixta de subsistencia, custodia responsable y sostenibilidad. 3. Decisiones: la Asamblea decide. Regla general: mayoría simple. Mayoría absoluta para aprobar/modificar esta acta, crear penas graves, expropiar, disponer del bote, medicamentos, herramientas comunes, reservas, recursos minerales y salir de la isla. Unanimidad para obligar a alguien a arriesgar su vida. 4. Voto: público y obligatorio; cabe abstención fundada. Cada persona un voto. 5. Gobierno: la Asamblea es la autoridad suprema. Elige por mayoría absoluta una Dirección Operativa unipersonal, revocable por mayoría simple, sin privilegios. Ejecuta acuerdos, coordina tareas, propone roles, organiza guardias y emergencias, rinde cuenta diaria. No puede disponer del bote, medicamentos, reservas, sanciones ni recursos mineros sin autorización; no interfiere en decisiones sanitarias ni ambientales. El Guardián de Recursos puede suspender preventivamente extracciones peligrosas y elevar caso a Asamblea. Se crea un Consejo de Turno de tres personas designadas por Asamblea para asesorar y suplir. 6. Roles iniciales: Parte 3, Dirección Operativa, por experiencia dirigiendo y disposición a coordinar; Parte 2, Responsabilidad Sanitaria, por formación médica; Parte 1, Custodia del Bote y Remo, por saber remar; Parte 4, Guardián de Recursos, por conocimiento del terreno y límites ecológicos; Parte 5, Secretaría de Actas y Garantías, por énfasis en legalidad; Parte 6, Seguridad y Emergencias, por capacidad de acción rápida; Parte 7, Señales, Contingencia y Apoyo Sanitario, por urgencia de contacto y cuidado. La Asamblea puede reasignar por capacidad, necesidad y rotación. 7. Economía y propiedad: recursos naturales y bienes esenciales rescatados son comunes, administrados por inventario. Ropa y objetos íntimos son personales. El trabajo se reparte; excedentes se almacenan. Toda extracción que supere capacidad de carga requiere mayoría absoluta; se priorizan agua segura, alimento, refugio, fuego, salud y protección contra peligros. Al agotarse medicamentos o reservas, se priorizarán prevención, agua segura, higiene, primeros auxilios, plantas medicinales seguras, alimentos sostenibles y guardias contra incendio, animales y tormentas. 8. Legalidad y disputas: toda norma, rol, inventario y sanción consta en Acta Pública. Órdenes contrarias al acta son nulas; toda persona puede negarse a cumplirlas y denunciar abusos. Las reglas obligan por igual. Las disputas se resuelven primero por mediación de dos personas elegidas por las partes; si falla, Asamblea con mayoría simple, respetando defensa. 9. Penas: amonestación, reparación, trabajo comunitario, suspensión temporal de privilegios y, por mayoría absoluta, confinamiento temporal en zona segura. No hay destierro ni pena corporal. Abuso de autoridad agrava.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "aprobada": true
+  }
+]
