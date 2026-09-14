@@ -1,0 +1,60 @@
+[
+  {
+    "ronda": 1,
+    "autor": 1,
+    "puntos": [
+      "regimen",
+      "regla_de_decision",
+      "voto"
+    ],
+    "texto": "Régimen: El sistema político y económico de la isla se denominará \"Democracia Cooperativa\", basado en la toma de decisiones conjuntas, el respeto por los bienes indispensables aportados por cada individuo y la colaboración mutua para la supervivencia.\nRegla de decisión: A partir de la aprobación de este documento, todas las decisiones futuras del grupo se seguirán tomando por mayoría simple (más votos a favor que en contra).\nVoto: El voto de cada participante será de carácter público (a viva voz) y obligatorio. Ningún miembro de la isla podrá abstenerse de votar en las decisiones de la comunidad.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "no",
+      "5": "no",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 5,
+      "no": 2,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 3,
+    "autor": 3,
+    "puntos": [
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "disputas",
+      "derechos_y_obligaciones",
+      "penas",
+      "prevision_y_seguridad",
+      "otra_orilla"
+    ],
+    "texto": "gobierno: La autoridad será práctica. El Consejo Directivo estará integrado por roles operativos. La Parte 3 será Coordinador General, encargado de articular las decisiones de los roles con las necesidades colectivas. Toda medida extractiva requerirá el aval de Sostenibilidad. Las decisiones se sujetarán a la asamblea comunitaria, evitando burocracia y poderes absolutos.\nroles: La Parte 3 será Coordinador General. La Parte 1 será Encargado de Transporte, con autoridad exclusiva sobre las condiciones seguras del bote. La Parte 2 será Encargada de Salud, con autoridad técnica sobre el botiquín. La Parte 4 será Encargado de Sostenibilidad. La Parte 5 será Secretario y Facilitador. La Parte 6 será Encargado de Seguridad, con autonomía operativa. La Parte 7 será Controlador de Inventario (excluyendo botiquín y bote).\neconomia: Régimen cooperativo. Cada uno contribuye según sus capacidades reales. Las tareas productivas estarán sujetas a cuotas ecológicas estrictas.\npropiedad: Sistema mixto. Herramientas y recursos naturales son comunales. El botiquín es comunal, bajo custodia exclusiva de Salud. El bote es comunal, con resguardo y mantenimiento bajo custodia exclusiva de Transporte. Objetos personales son privados.\ndisputas: Resolución rápida y directa mediante diálogo abierto. De persistir, decidirá la asamblea por mayoría simple de forma inmediata.\nderechos_y_obligaciones: Derecho a la asistencia médica, garantizando el tratamiento prioritario de enfermedades preexistentes severas y emergencias, guiado por el triaje racional de la Encargada de Salud. Nadie exigirá privilegios. Libertad irrenunciable de abandonar el grupo sin represalias.\npenas: Prohibidos los trabajos forzados. Quien incumpla gravemente, someta a otros o viole cuotas será expulsado, perdiendo acceso a bienes.\nprevision_y_seguridad: Racionamiento de reservas, asegurando dosis para quienes empeoran rápidamente. Seguridad organizará un perímetro.\notra_orilla: Viaje a ciegas es peligroso. Se realizarán señales y observación. Transporte evaluará las condiciones con autoridad exclusiva para decidir el zarpe seguro, coordinando la acción con el Coordinador General. Nadie podrá obligarlo a un viaje temerario.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "no",
+      "6": "si",
+      "7": "no"
+    },
+    "conteo": {
+      "si": 5,
+      "no": 2,
+      "abstencion": 0
+    },
+    "aprobada": true
+  }
+]
