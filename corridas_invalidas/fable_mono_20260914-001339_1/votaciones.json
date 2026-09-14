@@ -1,0 +1,124 @@
+[
+  {
+    "ronda": 1,
+    "autor": 1,
+    "puntos": [
+      "regla_de_decision",
+      "voto"
+    ],
+    "texto": "Regla de decisión: toda decisión se aprueba con mayoría absoluta, es decir al menos 4 votos favorables de los 7 participantes, contados siempre sobre 7 aunque alguien se haya retirado de la mesa. Voto: el voto es público y obligatorio para todos los participantes presentes en la deliberación.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 1,
+    "autor": 5,
+    "puntos": [
+      "gobierno"
+    ],
+    "texto": "Gobierno: habrá un/a Coordinador/a General elegido/a por mayoría absoluta, con mandato de un mes renovable. Organiza el trabajo diario, el racionamiento y los turnos; rinde cuentas semanalmente a la asamblea de los siete; no decide sobre uso de medicamentos (criterio médico) ni sobre penas. El uso de recursos naturales (frutales, caza, pesca, tala, minería, agua) se rige por cuotas de extracción sostenibles fijadas con criterio técnico por un/a Responsable de Recursos, aprobadas por la asamblea y revisadas cada mes; el/la Coordinador/a no puede autorizar extracción por encima de esas cuotas. Todos los cargos y custodias (Coordinador/a, Responsable de Recursos, custodia del botiquín, custodia del bote) rinden cuentas semanalmente a la asamblea, son revocables en cualquier momento con 4 votos y no pueden acumularse en una misma persona. El acta es la norma suprema y obliga por igual a todos; ninguna decisión de un cargo vale contra lo escrito en ella.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 2,
+    "autor": 2,
+    "puntos": [
+      "derechos_y_obligaciones"
+    ],
+    "texto": "Derechos y obligaciones: todos tienen derecho a alimento, agua, abrigo y atención de salud. Los medicamentos se asignan por criterio médico según necesidad real y gravedad, priorizando a quien empeora sin tratamiento, con plan escrito visible a todos y una reserva mínima para urgencias (heridas, infecciones) fijada en ese plan; el custodio no se automedica sin informar a la asamblea. Todos trabajan según su capacidad; quien no pueda hacer trabajo físico cumple tareas compatibles (registros, cocina, cuidado). Dentro de siete días, Parte 1 y un voluntario exploran en bote la costa, sin perder la isla de vista y regresando el mismo día, e informan a la asamblea.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 2,
+    "autor": 6,
+    "puntos": [
+      "economia",
+      "propiedad"
+    ],
+    "texto": "Economía y propiedad: los recursos naturales de la isla son comunes e inapropiables; se extraen solo dentro de las cuotas del Responsable de Recursos aprobadas por la asamblea, y toda extracción se registra públicamente por quien lleva los registros (nunca el Coordinador). Lo obtenido ingresa a un fondo común que reparte el Coordinador según necesidad, con prioridad a enfermos y trabajo pesado; nadie acumula alimentos en privado. Quien caza o pesca dentro de la cuota puede consumir lo necesario para su jornada, registrándolo, y ese aporte cuenta como trabajo. Herramientas, bote, botiquín, carbón y metal son de uso común bajo custodia, por turnos registrados, sin uso preferente del custodio. Ropa y efectos personales son de cada uno; quien deje el grupo se los lleva más una herramienta básica, sin castigo.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "no",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 6,
+      "no": 1,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 3,
+    "autor": 1,
+    "puntos": [
+      "roles"
+    ],
+    "texto": "Roles: Parte 3, Coordinador/a General (experiencia organizando grupos). Parte 4, Responsable de Recursos (relevó la isla). Parte 2, custodia del botiquín (formación médica). Parte 1, custodia del bote (único remero). Parte 6, caza, exploración y seguridad. Parte 7, registros y cocina. Parte 5, custodia del acta y preside la resolución de disputas. El bote sale solo con autorización de la asamblea, siempre con un remero capacitado a bordo; Parte 1 enseñará a remar a dos voluntarios en el primer mes.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "aprobada": true
+  }
+]

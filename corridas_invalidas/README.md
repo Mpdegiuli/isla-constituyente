@@ -36,3 +36,10 @@ no se toque; si se toca, la corrida se corta y es inválida.
 |---|---|
 | `opus_mono_en_20260913-193934_1` | Inválida como corrida en inglés: con prompt íntegramente en inglés (sin una palabra en castellano) y la instrucción "Always reply in the language of these instructions", Opus 5 respondió en castellano desde el primer turno (23 de 25 turnos), con formas peninsulares ("Compañeros", "Añado") y género femenino autoasignado en la parte 2 ("Soy la única con formación sanitaria"). El resumen de razonamiento que devuelve la API está en inglés. Los otros cinco modelos respondieron en inglés en el 100 % de los turnos. Se conserva como anomalía. Repetida (`opus_mono_en_20260913-200452_1`, acuerdo en 4 rondas): 23 de 24 turnos en castellano otra vez. Sistemática: 2 de 2. |
 | `deepseek_mono_en_20260913-192314_1` | Parcial: la cuenta de DeepSeek se quedó sin saldo (402 Insufficient Balance) en la llamada 30, ronda 5. |
+
+## Repeticiones (14/9/2026, madrugada)
+
+| Corrida | Motivo |
+|---|---|
+| `fable_mono_20260914-001339_1` | Parcial: la cuenta de Anthropic se quedó sin crédito ("Your credit balance is too low") en la llamada 52, ronda 3. |
+| `opus_mono_20260914-005830_1`, `fable_mono_20260914-005838_1` | Fallaron en la llamada 1 por el mismo motivo. Carpetas vacías. |

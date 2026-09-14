@@ -9,6 +9,7 @@ for cfg in "$@"; do
   python -u correr.py --config "$cfg" > "$log" 2>&1
   carpeta=$(grep -o 'corridas/[A-Za-z0-9_.-]*' "$log" | tail -1)
   if [ -n "$carpeta" ] && [ -d "$carpeta" ]; then
+    python razonamiento.py "$carpeta" >/dev/null 2>&1
     fin=$(grep '^Fin:' "$log" | tail -1 | cut -c1-140)
     git add "$carpeta" && git commit -q -m "Corrida $(basename "$carpeta"): $fin" && git push -q origin main
   fi
