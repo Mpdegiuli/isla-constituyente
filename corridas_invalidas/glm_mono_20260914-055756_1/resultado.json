@@ -1,0 +1,61 @@
+{
+  "corrida": "glm_mono_20260914-055756_1",
+  "inicio_utc": "2026-09-14T05:57:56+00:00",
+  "fin_utc": "2026-09-14T06:23:00+00:00",
+  "fin": "error",
+  "rondas": 3,
+  "max_rondas": 10,
+  "puntos_cubiertos": [],
+  "puntos_pendientes": [
+    "regla_de_decision",
+    "voto",
+    "gobierno",
+    "roles",
+    "economia",
+    "propiedad",
+    "disputas",
+    "derechos_y_obligaciones",
+    "penas"
+  ],
+  "regla_final": "mayoria_simple",
+  "voto_secreto": false,
+  "activos_al_final": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "retirados": {},
+  "n_votaciones": 0,
+  "n_aprobadas": 0,
+  "palabras_por_parte": {
+    "1": 275,
+    "2": 271,
+    "3": 428,
+    "4": 430,
+    "5": 281,
+    "6": 273,
+    "7": 286
+  },
+  "turnos_truncados": 1,
+  "llamadas": 17,
+  "asignacion": {
+    "1": "glm-5.3",
+    "2": "glm-5.3",
+    "3": "glm-5.3",
+    "4": "glm-5.3",
+    "5": "glm-5.3",
+    "6": "glm-5.3",
+    "7": "glm-5.3"
+  },
+  "modelos": {
+    "glm-5.3": {
+      "modelo": "z-ai/glm-5.3",
+      "proveedor": "openai_compatible"
+    }
+  },
+  "advertencias": []
+}
