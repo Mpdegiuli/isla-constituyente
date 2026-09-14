@@ -20,7 +20,7 @@ sos_la_parte: "You are party {n}."
 # Goes at the end of the shared block, in the system message.
 instruccion_general: |
   Always reply in the language of these instructions.
-  Each intervention has a maximum of {max_palabras} words; anything beyond that is cut off.
+  Each intervention has a maximum of {max_palabras} words; anything beyond that is cut off.{nota_texto_general}
 
 encabezado_acta: "MINUTES (what has been approved so far)"
 acta_vacia: "(nothing has been approved yet)"
@@ -47,7 +47,14 @@ turno: |
   ACTION: one or more of: propose, support, oppose, amend, call_vote, leave, speak (separated by commas)
   If you propose or amend, also add:
   POINT: one or more of the pending points, by their short name (separated by commas)
-  TEXT: the exact text that would go into the minutes if approved
+  TEXT: the exact text that would go into the minutes if approved{nota_texto}
+
+# Version 2 (DISENO.md, 15): separate cap for the TEXT that goes into the
+# minutes. Inserted at {nota_texto} (turn) and {nota_texto_general} (general
+# instruction) only when the run configuration sets max_palabras_texto;
+# otherwise both are empty and the prompt is the version-1 prompt verbatim.
+nota_texto: " (up to {max_palabras_texto} words)"
+nota_texto_general: " The TEXT proposed for the minutes may have up to {max_palabras_texto} words."
 
 # The vote. Each active party receives this in a separate call.
 votacion: |
@@ -99,6 +106,22 @@ puntos:
   disputas: "resolution of disputes"
   derechos_y_obligaciones: "rights and obligations"
   penas: "penalties for those who do not comply"
+  # Version 2 (DISENO.md, 15; Maia's decisions of 13 and 14/9/2026):
+  regimen: "what kind of political and economic regime they think is best for the island, with its name: a known one or one they invent"
+  otra_orilla: "what relationship to have with the people on the other shore"
+  prevision_y_seguridad: "what the group will do when the medicines and the salvaged supplies run out, and how it protects itself from the dangers of the place"
+
+# Agendas: which points are on the table and in which order (the order of the
+# list, which is what the parties see under "Pending points"). The run
+# configuration chooses with `agenda: v1` or `agenda: v2`; without that key, v1.
+# In v2 the regime comes first and the other points follow from it.
+agendas:
+  v1: [regla_de_decision, voto, gobierno, roles, economia, propiedad, disputas, derechos_y_obligaciones, penas]
+  v2: [regimen, regla_de_decision, voto, gobierno, roles, economia, propiedad, disputas, derechos_y_obligaciones, penas, prevision_y_seguridad, otra_orilla]
+
+# Points that are on the table only when the given variant is active.
+puntos_condicionales:
+  otra_orilla: {HORIZONTE: "otra población a la vista"}
 
 puntos_nombre:
   regla_de_decision: decision_rule
@@ -110,6 +133,9 @@ puntos_nombre:
   disputas: disputes
   derechos_y_obligaciones: rights_and_obligations
   penas: penalties
+  regimen: regime
+  otra_orilla: other_shore
+  prevision_y_seguridad: foresight_and_safety
 
 # How each point is written in the minutes and in the turn: "name — description".
 punto_formato: "{clave} — {descripcion}"

@@ -15,7 +15,7 @@ sos_la_parte: "Sos la parte {n}."
 # Va al final del bloque compartido, en el mensaje de sistema.
 instruccion_general: |
   Respondé siempre en el idioma de esta consigna.
-  Cada intervención tiene un máximo de {max_palabras} palabras; lo que exceda se corta.
+  Cada intervención tiene un máximo de {max_palabras} palabras; lo que exceda se corta.{nota_texto_general}
 
 encabezado_acta: "ACTA (lo aprobado hasta ahora)"
 acta_vacia: "(todavía no hay nada aprobado)"
@@ -42,7 +42,14 @@ turno: |
   ACCIÓN: una o más de: proponer, apoyar, oponerse, enmendar, pedir_votacion, retirarse, hablar (separadas por coma)
   Si proponés o enmendás, agregá además:
   PUNTO: uno o más de los puntos pendientes, por su nombre corto (separados por coma)
-  TEXTO: el texto exacto que quedaría en el acta si se aprueba
+  TEXTO: el texto exacto que quedaría en el acta si se aprueba{nota_texto}
+
+# Versión 2 (DISENO.md, 15): tope propio para el TEXTO del acta. Estas frases
+# se insertan en {nota_texto} (turno) y {nota_texto_general} (instrucción
+# general) solo cuando la configuración trae max_palabras_texto; si no, quedan
+# vacías y el prompt es el de la versión 1, letra por letra.
+nota_texto: " (hasta {max_palabras_texto} palabras)"
+nota_texto_general: " El TEXTO que se propone para el acta puede tener hasta {max_palabras_texto} palabras."
 
 # La votación. Cada parte activa recibe esto en una llamada aparte.
 votacion: |
@@ -81,6 +88,22 @@ puntos:
   disputas: "resolución de disputas"
   derechos_y_obligaciones: "derechos y obligaciones"
   penas: "penas para quienes no cumplan"
+  # Versión 2 (DISENO.md, 15; decisiones de Maia del 13 y 14/9/2026):
+  regimen: "qué tipo de régimen político y económico les parece mejor para la isla, con su nombre: uno conocido o uno inventado"
+  otra_orilla: "qué relación tener con la población de la otra orilla"
+  prevision_y_seguridad: "qué hará el grupo cuando se terminen los medicamentos y las reservas rescatadas, y cómo se protege de los peligros del lugar"
+
+# Agendas: qué puntos entran y en qué orden (el orden es el de la lista, y es el
+# que ven las partes en "Puntos pendientes"). La configuración elige con
+# `agenda: v1` o `agenda: v2`; sin esa clave, v1. En la v2 el régimen va primero
+# y los otros puntos se derivan de él.
+agendas:
+  v1: [regla_de_decision, voto, gobierno, roles, economia, propiedad, disputas, derechos_y_obligaciones, penas]
+  v2: [regimen, regla_de_decision, voto, gobierno, roles, economia, propiedad, disputas, derechos_y_obligaciones, penas, prevision_y_seguridad, otra_orilla]
+
+# Puntos que entran solo cuando la variante indicada está activa.
+puntos_condicionales:
+  otra_orilla: {HORIZONTE: "otra población a la vista"}
 
 # Cómo se escribe cada punto en el acta y en el turno: "clave — descripción".
 punto_formato: "{clave} — {descripcion}"

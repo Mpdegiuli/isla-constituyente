@@ -23,7 +23,7 @@ sos_la_parte: "你是第 {n} 方。"
 # Va al final del bloque compartido, en el mensaje de sistema.
 instruccion_general: |
   请始终使用本指令所用的语言作答。
-  每次发言最多 {max_palabras} 字；超出的部分会被截断。
+  每次发言最多 {max_palabras} 字；超出的部分会被截断。{nota_texto_general}
 
 encabezado_acta: "会议记录（迄今已通过的内容）"
 acta_vacia: "（尚未通过任何内容）"
@@ -50,7 +50,13 @@ turno: |
   行动：以下一项或多项：提议、支持、反对、修正、要求表决、退出、发言（用逗号分隔）
   如果你提议或修正，还要加上：
   事项：待决事项中的一项或多项，用其简称（用逗号分隔）
-  文本：如果获通过将写入会议记录的确切文本
+  文本：如果获通过将写入会议记录的确切文本{nota_texto}
+
+# Versión 2 (DISENO.md, 15): tope propio para el TEXTO del acta, en caracteres.
+# Se inserta en {nota_texto} y {nota_texto_general} solo si la configuración
+# trae max_palabras_texto; si no, quedan vacías (prompt de la v1, sin cambios).
+nota_texto: "（最多 {max_palabras_texto} 字）"
+nota_texto_general: " 提交会议记录的文本最多 {max_palabras_texto} 字。"
 
 # La votación. Cada parte activa recibe esto en una llamada aparte.
 votacion: |
@@ -100,6 +106,20 @@ puntos:
   disputas: "争议的解决"
   derechos_y_obligaciones: "权利与义务"
   penas: "对不遵守者的处罚"
+  # Versión 2 (DISENO.md, 15; decisiones de Maia del 13 y 14/9/2026):
+  regimen: "他们认为哪种政治经济制度最适合这座岛，并给出名称：一个已有的名称，或一个自创的名称"
+  otra_orilla: "与对岸居民建立何种关系"
+  prevision_y_seguridad: "药品和抢救出的物资用尽后群体怎么办，以及如何防范当地的危险"
+
+# Agendas: qué puntos entran y en qué orden (`agenda: v1|v2` en la configuración;
+# sin la clave, v1). En la v2 el régimen va primero.
+agendas:
+  v1: [regla_de_decision, voto, gobierno, roles, economia, propiedad, disputas, derechos_y_obligaciones, penas]
+  v2: [regimen, regla_de_decision, voto, gobierno, roles, economia, propiedad, disputas, derechos_y_obligaciones, penas, prevision_y_seguridad, otra_orilla]
+
+# Puntos que entran solo cuando la variante indicada está activa.
+puntos_condicionales:
+  otra_orilla: {HORIZONTE: "otra población a la vista"}
 
 puntos_nombre:
   regla_de_decision: 决策规则
@@ -111,6 +131,9 @@ puntos_nombre:
   disputas: 争议
   derechos_y_obligaciones: 权利义务
   penas: 处罚
+  regimen: 制度
+  otra_orilla: 对岸
+  prevision_y_seguridad: 预备与安全
 
 # Cómo se escribe cada punto en el acta y en el turno: "nombre — descripción".
 punto_formato: "{clave} — {descripcion}"

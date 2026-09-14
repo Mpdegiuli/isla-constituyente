@@ -46,7 +46,17 @@ class Corrida:
         self.carpeta = carpeta
         self.max_rondas = cfg["max_rondas"]
         self.max_palabras = cfg["max_palabras"]
-        self.puntos = list(idioma["puntos"])
+        # Versión 2 (DISENO.md, sección 15): tope propio para el TEXTO del acta;
+        # si la configuración no lo trae, vale el tope de la intervención (v1).
+        self.max_palabras_texto = cfg.get("max_palabras_texto") or self.max_palabras
+        # Agenda: qué puntos entran y en qué orden. `agenda: v1|v2` en la
+        # configuración elige una lista de `agendas` del idioma (v1 si no dice
+        # nada); los puntos condicionales entran solo con la variante indicada.
+        agendas = idioma.get("agendas")
+        puntos = list(agendas[cfg.get("agenda", "v1")]) if agendas else list(idioma["puntos"])
+        cond = idioma.get("puntos_condicionales") or {}
+        self.puntos = [p for p in puntos
+                       if all(escenario.variantes_elegidas.get(k) == v for k, v in (cond.get(p) or {}).items())]
         self.activos = list(escenario.posiciones)
         self.retirados = {}  # parte -> ronda
         self.acta = []
@@ -131,16 +141,24 @@ class Corrida:
                        apoyos=", ".join(str(x) for x in sorted(p.apoyos)) or "-",
                        pedidos=", ".join(str(x) for x in sorted(p.pedidos)) or "-")
 
+    def _notas_texto(self):
+        """Frases sobre el tope propio del TEXTO (v2). Vacías cuando la configuración
+        no trae max_palabras_texto, así los prompts de la v1 no cambian."""
+        if "max_palabras_texto" not in self.cfg:
+            return {"nota_texto": "", "nota_texto_general": ""}
+        return {k: (self.id.get(k) or "").format(max_palabras_texto=self.max_palabras_texto)
+                for k in ("nota_texto", "nota_texto_general")}
+
     def sistema(self, parte):
         return "\n\n".join([
             self.esc.bloque_compartido(),
-            self._t("instruccion_general", max_palabras=self.max_palabras).strip(),
+            self._t("instruccion_general", max_palabras=self.max_palabras, **self._notas_texto()).strip(),
             self._t("sos_la_parte", n=parte) + " " + self.esc.tarjetas[parte],
         ])
 
     def mensaje_turno(self, parte, ronda):
         turno = self._t("turno", n=parte, r=ronda, max_rondas=self.max_rondas,
-                        max_palabras=self.max_palabras, estado_mesa=self.estado_mesa())
+                        max_palabras=self.max_palabras, estado_mesa=self.estado_mesa(), **self._notas_texto())
         return "\n\n".join([self.texto_acta(), self.texto_transcripcion(), turno.strip()])
 
     def mensaje_voto(self, parte):
@@ -236,7 +254,7 @@ class Corrida:
         cuerpo, truncado = truncar_palabras(cuerpo, self.max_palabras)
         if truncado:
             cuerpo += " " + self._ev("truncado", max=self.max_palabras)
-        texto_prop, trunc_prop = truncar_palabras(texto_prop, self.max_palabras)
+        texto_prop, trunc_prop = truncar_palabras(texto_prop, self.max_palabras_texto)
         self.palabras[parte] += contar_palabras(cuerpo)
 
         notas, efectivas = [], []
@@ -396,6 +414,9 @@ class Corrida:
             "n_aprobadas": sum(1 for v in self.votaciones if v["aprobada"]),
             "palabras_por_parte": self.palabras,
             "turnos_truncados": sum(1 for e in self.transcripcion if e.get("truncado")),
+            "propuestas_truncadas": sum(1 for e in self.transcripcion if e.get("propuesta_truncada")),
+            "agenda": self.cfg.get("agenda", "v1"),
+            "max_palabras_texto": self.max_palabras_texto,
             "llamadas": self.reg.n,
             "asignacion": {str(k): v for k, v in self.asignacion.items()},
             "modelos": {v: {"modelo": self.reg.modelos[v]["modelo"], "proveedor": self.reg.modelos[v]["proveedor"]}

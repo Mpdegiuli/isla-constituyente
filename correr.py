@@ -78,8 +78,8 @@ def main():
     escenario = esc_mod.cargar(cfg["escenario"], cfg.get("variantes") or {})
 
     reglas = escenario.reglas
-    for clave in ("max_rondas", "max_palabras"):
-        if str(cfg[clave]) not in reglas:
+    for clave in ("max_rondas", "max_palabras", "max_palabras_texto"):
+        if clave in cfg and str(cfg[clave]) not in reglas:
             print(f"AVISO: {clave}={cfg[clave]} en la configuración, pero ese número no aparece en las reglas "
                   f"del escenario. El texto y la configuración tienen que decir lo mismo.", file=sys.stderr)
 

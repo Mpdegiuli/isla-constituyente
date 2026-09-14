@@ -1,0 +1,26 @@
+# Versión 2 (DISENO.md, sección 15), mesa mono de Mistral Medium 3.5, variante horizonte.
+# Respecto de la v1: escenario_v2.md; agenda v2 (el régimen con nombre va
+# primero; previsión y seguridad al final; la otra orilla solo con HORIZONTE);
+# tope propio de 500 palabras para el TEXTO del acta. La intervención sigue
+# en 150. Techo de tokens subido para que entren 150 + 500 palabras.
+
+nombre: v2_mistral_mono_horizonte
+
+escenario: escenario_v2.md
+idioma: es
+agenda: v2
+
+variantes:
+  RECURSOS: escasez moderada
+  HORIZONTE: otra población a la vista
+
+max_rondas: 10
+max_palabras: 150
+max_palabras_texto: 500
+
+temperatura: 1.0
+max_tokens_respuesta: 2500
+
+asignacion:
+  modo: mono
+  modelo: mistral-medium-3.5
