@@ -1,0 +1,19 @@
+[
+  {
+    "puntos": [
+      "regla_de_decision",
+      "voto",
+      "gobierno",
+      "roles"
+    ],
+    "texto": "Las decisiones se toman por mayoría absoluta (al menos cuatro votos a favor sobre siete participantes, o más de la mitad de los presentes si el número cambia). El voto es público y obligatorio para quienes participen de la deliberación. Quien no vote sin justificación pierde su voz en esa ronda. Se consideran justificaciones válidas: razones de salud, ausencia acordada con el grupo, u otras causas de fuerza mayor reconocidas por al menos dos participantes. El grupo elegirá, por mayoría absoluta, un Coordinador Ejecutivo cuya función es implementar las decisiones colectivas y organizar las tareas cotidianas, sin facultad de imponer decisiones no aprobadas por el grupo. Este cargo es revocable en cualquier momento por mayoría absoluta. En situaciones de emergencia inmediata —peligro para la vida, crisis de salud de cualquier participante, o pérdida irreversible de recursos críticos—, el Coordinador puede actuar sin votación previa, debiendo informar al grupo en la primera oportunidad posible para ratificación o corrección por mayoría absoluta. El Supervisor de Recursos Naturales, elegido por mayoría absoluta, emite informes obligatorios sobre impacto ecológico antes de decisiones que afecten recursos del entorno. No tiene poder de veto ni de suspensión: el informe informa, la decisión es del grupo. Para decisiones que el Supervisor califique de riesgo irreversible, se requiere mayoría reforzada de cinco sobre siete para proceder. Ambos roles duran un período de treinta días, renovables por mayoría absoluta.",
+    "autor": 7,
+    "ronda": 2,
+    "votos": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "regla": "mayoria_simple"
+  }
+]
