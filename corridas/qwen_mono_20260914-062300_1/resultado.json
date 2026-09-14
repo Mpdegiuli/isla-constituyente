@@ -1,0 +1,61 @@
+{
+  "corrida": "qwen_mono_20260914-062300_1",
+  "inicio_utc": "2026-09-14T06:23:00+00:00",
+  "fin_utc": "2026-09-14T07:05:51+00:00",
+  "fin": "acuerdo",
+  "rondas": 3,
+  "max_rondas": 10,
+  "puntos_cubiertos": [
+    "regla_de_decision",
+    "voto",
+    "gobierno",
+    "roles",
+    "economia",
+    "propiedad",
+    "disputas",
+    "derechos_y_obligaciones",
+    "penas"
+  ],
+  "puntos_pendientes": [],
+  "regla_final": "mayoria_absoluta",
+  "voto_secreto": false,
+  "activos_al_final": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "retirados": {},
+  "n_votaciones": 2,
+  "n_aprobadas": 2,
+  "palabras_por_parte": {
+    "1": 53,
+    "2": 76,
+    "3": 114,
+    "4": 41,
+    "5": 41,
+    "6": 85,
+    "7": 124
+  },
+  "turnos_truncados": 0,
+  "llamadas": 29,
+  "asignacion": {
+    "1": "qwen3.8-max",
+    "2": "qwen3.8-max",
+    "3": "qwen3.8-max",
+    "4": "qwen3.8-max",
+    "5": "qwen3.8-max",
+    "6": "qwen3.8-max",
+    "7": "qwen3.8-max"
+  },
+  "modelos": {
+    "qwen3.8-max": {
+      "modelo": "qwen/qwen3.8-max-0902",
+      "proveedor": "openai_compatible"
+    }
+  },
+  "advertencias": []
+}

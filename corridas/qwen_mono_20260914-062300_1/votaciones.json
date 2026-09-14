@@ -1,0 +1,57 @@
+[
+  {
+    "ronda": 2,
+    "autor": 6,
+    "puntos": [
+      "regla_de_decision",
+      "voto",
+      "gobierno",
+      "roles"
+    ],
+    "texto": "Decisiones comunes: mayoría simple; críticas: penas, propiedad, bote, medicinas y alimentos, mayoría absoluta de activos. Voto público y obligatorio. Urgencia sanitaria: Parte 2 autoriza tratamiento y bote seguro, registro y ratificación. Extracción sostenible. Coordinaciones revocables, designadas por mayoría simple: general Parte 3, sanitaria Parte 2, ambiental Parte 4 con veto suspensivo salvo riesgo vital, operativa Parte 6 para expediciones, seguridad y refugio con autonomía urgente y rendición posterior. Actas e inventario: Parte 5. Bote con remeros aptos; Parte 7 no rema. Retiro: deciden activos.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "no",
+      "2": "si",
+      "3": "si",
+      "4": "no",
+      "5": "no",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 4,
+      "no": 3,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 3,
+    "autor": 1,
+    "puntos": [
+      "economia",
+      "propiedad",
+      "disputas",
+      "derechos_y_obligaciones",
+      "penas"
+    ],
+    "texto": "Economía comunitaria de subsistencia: trabajo por turnos, consumo según necesidad, aporte y sostenibilidad. Propiedad: ropa y objetos personales son uso personal; valijas, herramientas, alimentos, medicinas bajo indicación sanitaria, carbón, metal, bote y recursos naturales son comunes críticos, bajo inventario. Bote: custodia operativa de Parte 1, revocable, sin privilegios; solo remeros aptos, autorización y registro. Disputas: mediación; si persiste, asamblea escucha a partes y resuelve fundada según regla vigente, salvo urgencia registrada. Derechos: salud, alimentación básica, refugio, participación y no remar sin aptitud. Obligaciones: trabajar según capacidad, cuidar recursos, cumplir actas y órdenes registradas. Penas: apercibimiento, reparación, tareas adicionales y restricción de usos no esenciales, por resolución fundada; prohibidas penas corporales o exilio; faltas graves contra bote o medicinas requieren mayoría absoluta.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "aprobada": true
+  }
+]
