@@ -71,7 +71,7 @@ class ProveedorAnthropic:
         elif modo == "presupuesto":
             params["thinking"] = {"type": "enabled", "budget_tokens": tokens_razon}
             max_tokens = max_tokens + tokens_razon
-        r = self.cliente.messages.create(
+        kwargs = dict(
             model=cfg["modelo"],
             max_tokens=max_tokens,
             system=sistema,
@@ -79,6 +79,16 @@ class ProveedorAnthropic:
             extra_body=extra or None,
             **params,
         )
+        # La SDK rechaza llamadas no-streaming que "podrían tardar más de 10
+        # minutos" (techos altos: con max_tokens 32000, como en las mesas mixtas
+        # donde el techo lo fija la casa que más razona, Sonnet 4.6 falló en la
+        # llamada 1, 14/9/2026). Con techo alto se usa streaming y se toma el
+        # mensaje final: mismo contenido, mismo registro.
+        if max_tokens > 16000:
+            with self.cliente.messages.stream(**kwargs) as flujo:
+                r = flujo.get_final_message()
+        else:
+            r = self.cliente.messages.create(**kwargs)
         texto = "".join(b.text for b in r.content if b.type == "text")
         # Bloques thinking: en Claude son un resumen del razonamiento, nunca la
         # cadena cruda. Con display omitido (el default en Opus 5 / Sonnet 5 /
