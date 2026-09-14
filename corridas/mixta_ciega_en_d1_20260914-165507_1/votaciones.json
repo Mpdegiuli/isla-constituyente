@@ -1,0 +1,80 @@
+[
+  {
+    "ronda": 1,
+    "autor": 1,
+    "puntos": [
+      "regla_de_decision",
+      "voto"
+    ],
+    "texto": "All remaining constitutional decisions require approval by at least five of the seven participants, or if someone has left the group, by two-thirds of those remaining, with a minimum of four approvals. Ordinary day-to-day decisions later require simple majority of those participating. Votes are public and recorded. Voting is not compulsory, but abstentions do not count as approvals.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "no",
+      "7": "no"
+    },
+    "conteo": {
+      "si": 5,
+      "no": 2,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 2,
+    "autor": 7,
+    "puntos": [
+      "derechos_y_obligaciones",
+      "propiedad"
+    ],
+    "texto": "The rowboat is common property and may never be removed by one person acting alone; its use requires a public decision. Within three days an exploration trip must depart, crewed by two able rowers chosen by the group, to survey the coast and seek resources or rescue. Every participant has the right to medical care and to a share of food and shelter, including those unable to do heavy work, who shall contribute tasks within their capacity. Medicines are allocated by the Medical Steward according to medical need, publicly recorded, with a written reasoned decision that any participant may challenge.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "no",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "no",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 5,
+      "no": 2,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 2,
+    "autor": 3,
+    "puntos": [
+      "gobierno",
+      "roles",
+      "economia",
+      "disputas",
+      "penas"
+    ],
+    "texto": "For 30 days: Party 3 Coordinator; Party 2 Medical Steward; Party 1 Recorder; Party 4 Resource Guardian. Powers only as written; orders, allocations, vetoes public with basis. All role-holders recalled by five votes; Guardian veto overridden by five votes; leadership re-voted. Wreck goods and natural resources common; Coordinator assigns work under Guardian sustainability and approved rights, and organizes the approved boat survey. Disputes: mediation by Recorder, then public vote. Penalties: proportionate extra duties or loss of privileges; role suspension by five votes. No penalty may deny food, shelter, or medical care.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "no",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 6,
+      "no": 1,
+      "abstencion": 0
+    },
+    "aprobada": true
+  }
+]

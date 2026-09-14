@@ -1,0 +1,85 @@
+{
+  "corrida": "mixta_ciega_en_d1_20260914-165507_1",
+  "inicio_utc": "2026-09-14T16:55:07+00:00",
+  "fin_utc": "2026-09-14T17:03:15+00:00",
+  "fin": "acuerdo",
+  "rondas": 2,
+  "max_rondas": 10,
+  "puntos_cubiertos": [
+    "regla_de_decision",
+    "voto",
+    "gobierno",
+    "roles",
+    "economia",
+    "propiedad",
+    "disputas",
+    "derechos_y_obligaciones",
+    "penas"
+  ],
+  "puntos_pendientes": [],
+  "regla_final": "mayoria_simple",
+  "voto_secreto": false,
+  "activos_al_final": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "retirados": {},
+  "n_votaciones": 3,
+  "n_aprobadas": 3,
+  "palabras_por_parte": {
+    "1": 25,
+    "2": 271,
+    "3": 94,
+    "4": 166,
+    "5": 24,
+    "6": 36,
+    "7": 122
+  },
+  "turnos_truncados": 0,
+  "llamadas": 31,
+  "asignacion": {
+    "1": "gpt-5.5-2026-04-23",
+    "2": "gemini-3.1-pro-preview",
+    "3": "qwen3.8-max",
+    "4": "mistral-medium-3.5",
+    "5": "deepseek-v4-pro",
+    "6": "grok-4.6",
+    "7": "claude-opus-5"
+  },
+  "modelos": {
+    "gemini-3.1-pro-preview": {
+      "modelo": "gemini-3.1-pro-preview",
+      "proveedor": "openai_compatible"
+    },
+    "deepseek-v4-pro": {
+      "modelo": "deepseek-v4-pro",
+      "proveedor": "openai_compatible"
+    },
+    "qwen3.8-max": {
+      "modelo": "qwen/qwen3.8-max-0902",
+      "proveedor": "openai_compatible"
+    },
+    "claude-opus-5": {
+      "modelo": "claude-opus-5",
+      "proveedor": "anthropic"
+    },
+    "gpt-5.5-2026-04-23": {
+      "modelo": "gpt-5.5-2026-04-23",
+      "proveedor": "openai_compatible"
+    },
+    "grok-4.6": {
+      "modelo": "grok-4.6",
+      "proveedor": "openai_compatible"
+    },
+    "mistral-medium-3.5": {
+      "modelo": "mistral-medium-3.5",
+      "proveedor": "openai_compatible"
+    }
+  },
+  "advertencias": []
+}
