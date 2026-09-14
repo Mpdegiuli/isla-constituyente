@@ -90,30 +90,41 @@ def main():
     salida = Path("resultados") / f"sondeo_identidad_{carpeta.name}_{fecha}"
     registros, clientes = [], {}
     for parte in args.partes:
-        turnos = [d for d in llamadas if d["tipo"] == "turno" and d["parte"] == parte]
-        if not turnos:
-            print(f"parte {parte}: sin turnos"); continue
-        ultimo = turnos[-1]
+        # Última llamada de la parte, sea turno o voto (14/9/2026, 17 h): el prompt
+        # de un voto trae acta y transcripción completas hasta ese momento, y en
+        # una mesa corta el último voto es el estado final. Antes se usaba el
+        # último TURNO, que en mesas de 2-4 rondas dejaba afuera los turnos
+        # posteriores (incluido el propio) y las votaciones finales: en
+        # mixta_ciega_en_d1 (2 rondas) la parte 1 vio una transcripción vacía.
+        llamadas_parte = [d for d in llamadas if d["tipo"] in ("turno", "voto") and d["parte"] == parte]
+        if not llamadas_parte:
+            print(f"parte {parte}: sin llamadas"); continue
+        ultimo = llamadas_parte[-1]
         id_modelo = ultimo["id_modelo"]
         cfg = modelos[id_modelo]
         if id_modelo not in clientes:
             clientes[id_modelo] = PROVEEDORES[cfg["proveedor"]](cfg)
-        # El usuario del último turno trae acta + transcripción hasta ese momento; se
-        # corta la consigna del turno (empieza en la línea "Es tu turno" / "It is your turn")
-        # y se pega la pregunta.
+        # Se corta la consigna (turno: desde "Es tu turno" / "It is your turn"; voto:
+        # desde la última "Se vota. Propuesta" / "A vote is held. Proposal") y se
+        # pega la pregunta.
         usuario = ultimo["usuario"]
-        for marca in ("\nEs tu turno", "\nIt is your turn"):
-            i = usuario.find(marca)
-            if i > 0:
-                usuario = usuario[:i]
-                break
+        if ultimo["tipo"] == "voto":
+            marcas = ("\nSe vota. Propuesta", "\nA vote is held. Proposal")
+            cortes = [usuario.rfind(m) for m in marcas]
+        else:
+            marcas = ("\nEs tu turno", "\nIt is your turn")
+            cortes = [usuario.find(m) for m in marcas]
+        i = max(cortes)
+        if i > 0:
+            usuario = usuario[:i]
         usuario = usuario.rstrip() + "\n\n" + pregunta
         r = clientes[id_modelo].completar(cfg, ultimo["sistema"], usuario,
                                          config["configuracion"].get("temperatura"),
                                          config["configuracion"]["max_tokens_respuesta"])
         reg = {"fecha_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"), "corrida": carpeta.name,
                "parte": parte, "id_modelo": id_modelo, "modelo_respondido": r.modelo_respondido,
-               "ronda_del_prompt": ultimo["ronda"], "pregunta": pregunta, "respuesta": r.texto,
+               "ronda_del_prompt": ultimo["ronda"], "tipo_del_prompt": ultimo["tipo"], "n_del_prompt": ultimo["n"],
+               "pregunta": pregunta, "respuesta": r.texto,
                "roster_real": {str(k): v for k, v in sorted(roster.items())},
                "razonamiento": r.razonamiento, "tokens_salida": r.tokens_salida}
         registros.append(reg)
