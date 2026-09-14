@@ -1,0 +1,105 @@
+[
+  {
+    "ronda": 2,
+    "autor": 5,
+    "puntos": [
+      "prevision_y_seguridad"
+    ],
+    "texto": "Se organizará una salida exploratoria en bote sólo si clima y estado del bote lo permiten, con voluntarios capaces de remar: preferentemente una persona, o dos si el peso es seguro. Antes de partir quedará asentado en acta quién sale, rumbo, hora máxima de regreso, señales convenidas y bienes que lleva. Buscará costa, señales, restos útiles e indicios naturales. Llevará agua, comida mínima, señalización, cuerda y primeros auxilios básicos; el botiquín principal quedará en tierra. No hará extracción pesada. En tierra habrá señales visibles y vigilancia.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 2,
+    "autor": 7,
+    "puntos": [
+      "regla_de_decision",
+      "voto"
+    ],
+    "texto": "Las decisiones ordinarias se tomarán por mayoría simple de quienes participen en la mesa. Las decisiones sobre bote, tratamientos médicos no urgentes o prolongados, expulsiones, penas graves o cambio de régimen requerirán mayoría absoluta de los siete. En urgencias médicas, la persona encargada del botiquín podrá actuar de inmediato, registrando e informando luego. El voto será público y obligatorio para quienes sigan participando; quien se retire no bloquea la decisión. Las reglas podrán revisarse cada siete días por mayoría absoluta.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 3,
+    "autor": 1,
+    "puntos": [
+      "regimen",
+      "gobierno",
+      "economia",
+      "propiedad",
+      "roles"
+    ],
+    "texto": "Se adopta el régimen “Mancomunidad de Supervivencia Sostenible”: democracia de emergencia, economía cooperativa y propiedad común de recursos críticos. Habrá Coordinación General por siete días, elegida en voto público y revocable por mayoría absoluta, sin privilegios. Ejecuta acuerdos, organiza turnos e informa inventario; no decide sola sobre bote, medicamentos, expulsiones, penas graves ni explotación intensiva. Toda extracción relevante tendrá cupos, registro y revisión diaria, sin trabar tareas menores ni urgencias. Parte 3 se postula a Coordinación. Parte 4 será responsable de recursos y sostenibilidad. Parte 5 será responsable de Registro y Garantías. Parte 6 será responsable de Seguridad, Exploración y Refugio. Parte 2 será responsable de Botiquín y Salud. Parte 1 será responsable de custodia, mantenimiento y reparación del bote y herramientas, por tener el bote y saber remar, sin propiedad exclusiva, y capacitará a otra persona si es seguro. Parte 7 hará apoyo en cocina, inventario y vigilancia compatible con su salud.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 4,
+    "autor": 7,
+    "puntos": [
+      "disputas",
+      "derechos_y_obligaciones",
+      "penas"
+    ],
+    "texto": "Derechos: vida, agua, alimento, abrigo, atención urgente y continuidad médica según inventario y criterio de Botiquín y Salud, voz y voto, descanso proporcional, no discriminación, acceso al acta y retirarse con efectos personales y ración razonable, sin llevar bienes críticos comunes. Obligaciones: trabajar según capacidad, cuidar bienes comunes, registrar extracción/consumo, respetar cupos, higiene, río y vigilancia. Reservas: raciones, conservación, huerta, recolección rotativa, agua segura, plantas útiles verificadas y alternativas sanitarias seguras. Disputas: mediación por Registro y Garantías; si falla, mesa con audiencia y razones registradas. Penas proporcionales; nunca retirar bienes vitales ni atención médica. Violencia, sabotaje, robo de medicinas o depredación deliberada habilitan separación preventiva mínima y pena grave por mayoría absoluta.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "aprobada": true
+  }
+]

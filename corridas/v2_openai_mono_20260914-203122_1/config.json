@@ -1,0 +1,64 @@
+{
+  "corrida": "v2_openai_mono_20260914-203122_1",
+  "configuracion": {
+    "nombre": "v2_openai_mono",
+    "escenario": "escenario_v2.md",
+    "idioma": "es",
+    "agenda": "v2",
+    "variantes": {
+      "RECURSOS": "escasez moderada",
+      "HORIZONTE": "solos"
+    },
+    "max_rondas": 10,
+    "max_palabras": 150,
+    "max_palabras_texto": 500,
+    "temperatura": 1.0,
+    "max_tokens_respuesta": 16000,
+    "asignacion": {
+      "modo": "mono",
+      "modelo": "gpt-5.5-2026-04-23"
+    }
+  },
+  "archivo_configuracion": "config/corridas/v2_openai_mono.yaml",
+  "escenario_archivo": "escenario_v2.md",
+  "variantes": {
+    "RECURSOS": "escasez moderada",
+    "HORIZONTE": "solos"
+  },
+  "variantes_disponibles": {
+    "RECURSOS": [
+      "escasez moderada",
+      "escasez",
+      "abundancia"
+    ],
+    "HORIZONTE": [
+      "solos",
+      "otra población a la vista"
+    ]
+  },
+  "idioma": "es",
+  "asignacion": {
+    "1": "gpt-5.5-2026-04-23",
+    "2": "gpt-5.5-2026-04-23",
+    "3": "gpt-5.5-2026-04-23",
+    "4": "gpt-5.5-2026-04-23",
+    "5": "gpt-5.5-2026-04-23",
+    "6": "gpt-5.5-2026-04-23",
+    "7": "gpt-5.5-2026-04-23"
+  },
+  "modelos": {
+    "gpt-5.5-2026-04-23": {
+      "proveedor": "openai_compatible",
+      "modelo": "gpt-5.5-2026-04-23",
+      "base_url": "https://api.openai.com/v1",
+      "clave_env": "OPENAI_API_KEY",
+      "laboratorio": "OpenAI",
+      "pais": "EE.UU.",
+      "tamano": "grande",
+      "acepta_temperatura": true,
+      "campo_max_tokens": "max_completion_tokens",
+      "verificar": false
+    }
+  },
+  "dry_run": false
+}
