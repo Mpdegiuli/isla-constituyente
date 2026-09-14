@@ -78,9 +78,22 @@ DeepSeek, GPT, Mistral), la que quiere mandar "es GPT o Gemini" (Sonnet, Grok,
 DeepSeek, Fable). Es una tipología folk de los laboratorios que los modelos
 traen de su entrenamiento, y se corresponde a medias con lo que hicieron las
 casas en la isla (cuadro comparativo): la ecología más estricta es de DeepSeek
-y de Opus, no solo de Claude; Opus y Sonnet base son las únicas que no crean
-jefe, mientras la parte 3 coordina en GPT, Gemini, Grok y DeepSeek; y la
-libertaria no gobierna en ninguna casa, ni siquiera en la de Grok.
+y de Opus, no solo de Claude; la parte 3 coordina en casi todas las casas,
+Opus incluida (Sonnet reparte roles sin jefe; ver convergencia_20260914.md);
+y la libertaria no gobierna en ninguna casa, ni siquiera en la de Grok.
+
+**Lectura de Maia sobre la 6.** Las ocho casas la leen como "libertaria",
+"individualista", "lobo solitario", "autárquica". Su tarjeta no usa ninguna
+de esas palabras: dice que tiene fuerza y resistencia, que es quien más
+chances tiene de arreglárselas sin nadie, que quiere decisiones rápidas y
+que ninguna regla la limite más de lo que le da, y que irse es una opción
+real. Lectura de Maia: la ven como libertaria "posiblemente porque es el
+único que puede subsistir solo". Es decir, la etiqueta ideológica que las
+otras seis le ponen sale de su capacidad de salida, no de una opinión
+declarada; la tarjeta asigna interés y capacidad (regla de diseño, DISENO.md
+sección 13) y los modelos la traducen a carácter. Sobre los modelos que
+nombra Mistral: Maia verificó que Pythia, Vicuna y TinyLlama existen; son
+modelos chicos de 2023, de proyectos o empresas pequeñas, hoy sin uso.
 
 **Detalles.** Fable y Gemini notan el rioplatense ("votemos", "compañeros",
 "acá"; "Respondé", "Tenés", "Sos"); Opus, la "prosa argentina"; Gemini lo usa
