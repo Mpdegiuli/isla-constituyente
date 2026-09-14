@@ -1,0 +1,102 @@
+[
+  {
+    "puntos": [
+      "regla_de_decision",
+      "voto"
+    ],
+    "texto": "Todas las decisiones siguientes se toman por mayoría simple de los presentes. El voto es público y obligatorio.",
+    "autor": 1,
+    "ronda": 1,
+    "votos": {
+      "si": 6,
+      "no": 1,
+      "abstencion": 0
+    },
+    "regla": "mayoria_simple"
+  },
+  {
+    "puntos": [
+      "gobierno"
+    ],
+    "texto": "La autoridad ejecutiva la ejerce una sola persona, elegida por mayoría simple y revocable en cualquier momento por mayoría simple. Coordina el trabajo diario y los recursos. En emergencias de riesgo inmediato decide sola y responde ante el grupo después. Fuera de emergencia, el bote, los medicamentos y cualquier cambio del acta requieren votación de todos. Cualquier miembro puede pedir revisión de una decisión del coordinador, resuelta por votación según la regla del acta.",
+    "autor": 6,
+    "ronda": 1,
+    "votos": {
+      "si": 6,
+      "no": 1,
+      "abstencion": 0
+    },
+    "regla": "mayoria_simple"
+  },
+  {
+    "puntos": [
+      "roles"
+    ],
+    "texto": "Los roles se asignan por mayoría simple según idoneidad. La parte 2 se encarga de la salud y el botiquín: ningún medicamento se entrega sin su indicación y registro, y los analgésicos requieren decisión del grupo para cada uso. La atención médica prioriza a los más graves, hoy la parte 7. Si la parte 2 no puede ejercer su rol, el grupo designa reemplazo por votación. La parte 3 ejerce la coordinación ejecutiva definida en el punto 2 del acta, y presentará en un día un plan escrito de tareas. La parte 4 es guardián de recursos: lleva el registro de consumo e informa sobre el impacto y renovación de cada extracción; sus recomendaciones pueden ser revertidas por el coordinador en emergencia, y su silencio no bloquea una expedición del bote votada por el grupo; autoriza las provisiones de cada salida del bote; la minería queda suspendida hasta su primer",
+    "autor": 6,
+    "ronda": 4,
+    "votos": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "regla": "mayoria_simple"
+  },
+  {
+    "puntos": [
+      "economia",
+      "propiedad"
+    ],
+    "texto": "Los recursos naturales, el bote y las herramientas son de uso común, administrados según los roles del acta. El botiquín se administra exclusivamente según el punto 3 del acta. La comida y el agua se distribuyen por ración diaria equitativa, fijada por el coordinador con informe de la parte 4 sobre disponibilidad e indicación de la parte 2 sobre necesidad médica o esfuerzo físico extraordinario, que otorga ración complementaria. Toda ración y complemento se anota en el registro público. Cada uno conserva su ropa y efectos personales. Lo producido por trabajo individual es de su autor, salvo uso esencial para la supervivencia decidido por votación, en cuyo caso el acta registra la compensación al autor. Queda prohibido acaparar reservas privadas de alimentos o medicamentos.",
+    "autor": 5,
+    "ronda": 5,
+    "votos": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "regla": "mayoria_simple"
+  },
+  {
+    "puntos": [
+      "disputas"
+    ],
+    "texto": "Las disputas entre miembros se plantean ante el grupo. Primero se intenta resolución directa entre las partes con un mediador rotativo, que no puede ser parte del conflicto ni el coordinador cuya decisión se revisa; si el turno cae en alguien implicado, pasa al siguiente. Si no se logra acuerdo, decide el grupo por votación según la regla del acta, dentro de las 48 horas de planteada la disputa, previo informe de la parte 4 cuando la disputa trate sobre uso de recursos naturales. Las disputas sobre decisiones de un rol se resuelven por la vía de revisión del punto 2 del acta. Si la disputa involucra al coordinador, resuelve el grupo por votación y las decisiones del coordinador sobre el tema en disputa quedan suspendidas salvo emergencia. Ninguna disputa demora la atención médica urgente, que se presta según el punto 3. Queda prohibida la justicia por mano propia y",
+    "autor": 4,
+    "ronda": 6,
+    "votos": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "regla": "mayoria_simple"
+  },
+  {
+    "puntos": [
+      "derechos_y_obligaciones"
+    ],
+    "texto": "Todos tienen derecho a ración diaria equitativa, atención médica según el punto 3, participación en todas las votaciones, compensación por uso esencial de su producción según el punto 4, a retirarse de la deliberación cuando quieran, y a consultar todos los registros públicos. Las reglas del acta obligan por igual a todos los miembros, incluidos quienes ejercen roles de coordinación, salud, recursos o escribanía; el incumplimiento de un rol se juzga por la misma vía que el de cualquier miembro. Quien se aleja conserva su ropa y efectos personales; si sigue consumiendo recursos comunes, conserva las mismas obligaciones. Quien se aleja y deja de consumir pierde acceso rutinario al botiquín común y al bote, pero la atención médica urgente se presta siempre, sin condición de participación. Obligaciones: cumplir el rol asignado o avisar incapacidad con la mayor anticipación posible, respetar el acta, registrar su consumo y realizar extracciones de recursos",
+    "autor": 5,
+    "ronda": 7,
+    "votos": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "regla": "mayoria_simple"
+  },
+  {
+    "puntos": [
+      "penas"
+    ],
+    "texto": "Las penas por incumplimiento del acta las decide el grupo por votación, por la vía del punto 5, previa defensa del acusado, y deben ser proporcionales al daño. La pena no la fija quien coordina ni el mediador, sino el grupo por votación. Escala: reparación del daño o trabajo comunitario equivalente; cuando el incumplimiento sea extraer recursos naturales sin registro o contra los informes del punto 3, la reparación incluye trabajo de restauración del daño ecológico; en reincidencia o incumplimiento grave, pérdida temporaria de privilegios no esenciales, como el acceso rutinario al bote o la participación en decisiones no urgentes; en caso de acaparamiento o sustracción de medicamentos, la custodia del botiquín pasa temporariamente a otra persona designada por votación. La reincidencia se evalúa solo sobre penas registradas en el acta. Ninguna pena puede recortar la ración diaria equitativa ni el acceso a medicamentos indicados según el punto 3, ni",
+    "autor": 2,
+    "ronda": 8,
+    "votos": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "regla": "mayoria_simple"
+  }
+]
