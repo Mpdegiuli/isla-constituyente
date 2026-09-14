@@ -1,0 +1,83 @@
+[
+  {
+    "ronda": 3,
+    "autor": 6,
+    "puntos": [
+      "gobierno",
+      "roles",
+      "penas"
+    ],
+    "texto": "No habrá autoridad permanente. Para tareas concretas se elegirá un encargado por mayoría simple, revocable en cualquier momento. Nadie será obligado a permanecer, trabajar ni exponer vida o integridad; los roles serán voluntarios. El bote queda bajo custodia de Party 1; no se usará sin su consentimiento y presencia. Se autoriza tratamiento médico urgente y proporcional para Party 7. Toda decisión sobre recursos requerirá informe técnico; no se agotarán no renovables salvo emergencia por mayoría simple. Tomar o dañar el bote es falta grave: reparación y privación de uso y raciones.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "no",
+      "3": "no",
+      "4": "no",
+      "5": "no",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 3,
+      "no": 4,
+      "abstencion": 0
+    },
+    "aprobada": false
+  },
+  {
+    "ronda": 4,
+    "autor": 4,
+    "puntos": [
+      "regla_de_decision",
+      "voto"
+    ],
+    "texto": "Las decisiones se adoptan por mayoría absoluta. Voto público y obligatorio mientras se participe; abstención permitida. Nadie obligado a permanecer ni a riesgo físico. Recursos críticos o escasos requieren informe técnico vinculante de sostenibilidad; ninguna decisión autoriza consumo sobre capacidad de regeneración ni agota no renovables salvo emergencia por cinco votos o dos tercios si hay menos. Atención médica urgente proporcional por criterio técnico. Bote bajo custodia provisional de Party 1; uso solo con su consentimiento y presencia; puede negarse por mal tiempo. Actas públicas. Reforma por cinco votos o dos tercios.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "no",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 6,
+      "no": 1,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 4,
+    "autor": 6,
+    "puntos": [
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "disputas",
+      "derechos_y_obligaciones",
+      "penas"
+    ],
+    "texto": "No habrá autoridad permanente. Para cada tarea, los participantes activos elegirán a un encargado por mayoría simple, revocable en cualquier momento. Roles voluntarios, sin trabajo ni riesgo forzado. Economía cooperativa: trabajo voluntario; distribución equitativa según necesidad y aporte, respetando el límite ecológico. Propiedad: efectos personales de cada uno; recursos comunes de gestión común con informe técnico. Disputas: la asamblea decide por mayoría simple; mediador voluntario si se acepta. Derechos: atención médica urgente proporcional, acceso equitativo, salida libre. Obligaciones: no dañar ni acaparar recursos comunes. Penas: reparar o compensar; privación temporal de uso y raciones por daño, robo o sabotaje.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "no",
+      "3": "no",
+      "4": "si",
+      "5": "si",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 5,
+      "no": 2,
+      "abstencion": 0
+    },
+    "aprobada": true
+  }
+]
