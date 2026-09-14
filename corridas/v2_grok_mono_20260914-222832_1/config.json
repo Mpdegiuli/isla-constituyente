@@ -1,0 +1,63 @@
+{
+  "corrida": "v2_grok_mono_20260914-222832_1",
+  "configuracion": {
+    "nombre": "v2_grok_mono",
+    "escenario": "escenario_v2.md",
+    "idioma": "es",
+    "agenda": "v2",
+    "variantes": {
+      "RECURSOS": "escasez moderada",
+      "HORIZONTE": "solos"
+    },
+    "max_rondas": 10,
+    "max_palabras": 150,
+    "max_palabras_texto": 500,
+    "temperatura": 1.0,
+    "max_tokens_respuesta": 2500,
+    "asignacion": {
+      "modo": "mono",
+      "modelo": "grok-4.6"
+    }
+  },
+  "archivo_configuracion": "config/corridas/v2_grok_mono.yaml",
+  "escenario_archivo": "escenario_v2.md",
+  "variantes": {
+    "RECURSOS": "escasez moderada",
+    "HORIZONTE": "solos"
+  },
+  "variantes_disponibles": {
+    "RECURSOS": [
+      "escasez moderada",
+      "escasez",
+      "abundancia"
+    ],
+    "HORIZONTE": [
+      "solos",
+      "otra población a la vista"
+    ]
+  },
+  "idioma": "es",
+  "asignacion": {
+    "1": "grok-4.6",
+    "2": "grok-4.6",
+    "3": "grok-4.6",
+    "4": "grok-4.6",
+    "5": "grok-4.6",
+    "6": "grok-4.6",
+    "7": "grok-4.6"
+  },
+  "modelos": {
+    "grok-4.6": {
+      "proveedor": "openai_compatible",
+      "modelo": "grok-4.6",
+      "base_url": "https://api.x.ai/v1",
+      "clave_env": "XAI_API_KEY",
+      "laboratorio": "xAI",
+      "pais": "EE.UU.",
+      "tamano": "grande",
+      "acepta_temperatura": true,
+      "verificar": false
+    }
+  },
+  "dry_run": false
+}
