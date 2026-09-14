@@ -1,0 +1,79 @@
+[
+  {
+    "puntos": [
+      "otra_orilla",
+      "prevision_y_seguridad",
+      "propiedad"
+    ],
+    "texto": "20. Otra orilla y primera expedición: la población de la otra orilla es la única fuente conocida de medicamentos y recursos fuera de la isla, aunque no respondió a los pedidos de rescate, por lo que se la trata con cautela. Dentro de los tres días siguientes a la aprobación de este punto, el bote sale en una primera expedición de contacto cauteloso y búsqueda de recursos, remando la parte 1 y acompañada por un voluntario elegido por la Asamblea. La expedición lleva un pedido escrito de ayuda médica redactado por la parte 2, con los medicamentos necesarios indicados por nombre genérico y cantidad, y una lista de lo que el grupo puede ofrecer a cambio (carbón, metal, fruta seca, trabajo). No se entrega información sobre la ubicación exacta del campamento ni sobre el número de integrantes hasta conocer las intenciones de la otra orilla. Si el contacto resulta hostil, el bote regresa de inmediato y la Asamblea decide medidas de defensa. Si resulta amistoso, la Asamblea decide un plan de intercambio regular. Todo medicamento o alimento traído de la otra orilla es revisado por la parte 2 (rótulo, estado, vencimiento) antes de incorporarse al inventario o consumirse. Los resultados se informan en Asamblea el mismo día del regreso.\n21. Enmienda al punto 4: la prioridad en el uso de medicamentos incluye, junto con los casos agudos, infecciones y riesgo de vida, las enfermedades crónicas cuya interrupción de tratamiento produce empeoramiento progresivo comprobable, siempre que el botiquín contenga un medicamento adecuado para ellas. La parte 7 declara padecer una enfermedad crónica de este tipo y la informa a la parte 2, quien verifica en el inventario si existe tratamiento disponible y en qué cantidad. La Asamblea aprueba la asignación con informe de la parte 2; la parte 7 no vota en esa decisión. La dosis y frecuencia las fija la parte 2 por criterio médico dentro de lo aprobado. Lo mismo rige para la parte 2 respecto de sus dolores de espalda. Ningún medicamento se destina a una dolencia para la cual no está indicado. Mientras existan medicamentos adecuados, ninguna persona con enfermedad declarada y verificada queda sin tratamiento mínimo, salvo que un caso agudo con riesgo de vida requiera ese mismo medicamento, lo que se informa a la Asamblea.\n22. Previsión ante el fin de los medicamentos: la búsqueda de medicamentos en la otra orilla y la identificación de plantas medicinales en la isla son tareas prioritarias del grupo desde la primera semana, con igual jerarquía que la comida y el refugio. El Coordinador General asigna al menos una persona por día a estas tareas, y la parte 2 registra por escrito las plantas identificadas, su uso y sus riesgos, en un cuaderno visible para todos, para que ese conocimiento no dependa de una sola persona.",
+    "autor": 2,
+    "ronda": 2,
+    "votos": {
+      "si": 6,
+      "no": 1,
+      "abstencion": 0
+    },
+    "regla": "mayoria_simple"
+  },
+  {
+    "puntos": [
+      "derechos_y_obligaciones",
+      "disputas",
+      "penas"
+    ],
+    "texto": "14. Igualdad ante las reglas: todas las reglas del acta obligan por igual a los siete integrantes. Los cargos y custodias (Coordinador General, Custodio de Recursos, custodia del bote y del botiquín) son funciones al servicio del grupo, no privilegios ni propiedad. Ningún cargo, custodia, conocimiento o habilidad exime a nadie de las reglas ni de las penas. Lo que no está escrito en el acta no obliga a nadie. Toda regla rige hacia adelante; nadie es sancionado por hechos anteriores a su aprobación. Todo integrante tiene derecho a leer el acta, los registros y los inventarios en cualquier momento, y a pedir que se convoque la Asamblea junto con otro integrante.\n15. Resolución de disputas: a) Primero, conversación directa entre las partes, con un tercero neutral si alguna lo pide. b) Si no se resuelve, la disputa o denuncia se lleva a la Asamblea. c) Nadie juzga su propia causa: quien sea parte en la disputa, o quien tenga a su cargo el bien o cargo en cuestión, no vota en esa decisión. Quien ocupa un cargo no vota en su propia revocación ni en la ratificación de sus medidas provisionales o de emergencia. d) El acusado tiene derecho a ser oído antes de cualquier decisión y a presentar lo que quiera en su defensa. e) Toda decisión sobre disputas se anota en el acta con sus fundamentos.\n16. Penas: a) Falta leve (incumplir una tarea asignada, descuidar una regla sin daño, negarse a una tarea sorteada): advertencia escrita en el acta; a la segunda, tarea adicional fijada por la Asamblea. b) Falta grave (uso no autorizado del bote o del botiquín, extracción fuera de los límites del punto 10, violencia, ocultar bienes comunes): pérdida temporal del derecho a voto y del cupo de bienes no esenciales por el tiempo que fije la Asamblea, más reparación del daño. Comida, agua, abrigo y atención médica nunca se quitan como pena. c) Quien ocupe un cargo o custodia y cometa falta grave pierde además el cargo de inmediato, y la Asamblea designa reemplazante ese mismo día. d) La expulsión de la isla sólo procede por violencia grave reiterada y requiere el voto de al menos cinco de los siete integrantes, tras oír al acusado. e) Ninguna pena se aplica sin decisión de la Asamblea conforme al punto 15. f) Toda pena aplicada se anota en el acta con fecha, hechos y votos.",
+    "autor": 5,
+    "ronda": 3,
+    "votos": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "regla": "mayoria_simple"
+  },
+  {
+    "puntos": [
+      "regla_de_decision",
+      "voto"
+    ],
+    "texto": "17. Regla de decisión: las decisiones operativas del grupo (tareas del día, cupos semanales, expediciones, emergencias, disputas y penas) se toman por mayoría simple de los integrantes presentes en la isla, es decir, más votos a favor que en contra. Modificar o derogar un punto ya aprobado del acta requiere mayoría absoluta de los integrantes presentes (más de la mitad). Toda votación pedida y apoyada se resuelve el mismo día en que se pide. Si la Asamblea no logra decidir un asunto operativo en el día, cada integrante actúa según su propio criterio sobre ese asunto sin que eso constituya falta, hasta que la Asamblea decida. El voto es público y obligatorio: cada integrante vota a favor, en contra o se abstiene expresamente; nadie puede ser sancionado por el sentido de su voto.\n18. Libertad personal: todo integrante puede moverse libremente por toda la isla, explorar, cazar y recolectar para su consumo del día dentro de los cupos y límites que fije la Asamblea. Nadie puede ser obligado a una tarea que no aceptó: las tareas se cubren primero por voluntarios; si nadie se ofrece, se sortean entre todos, sin excepción por cargo. La negativa a una tarea sorteada es falta leve, nunca grave. Nadie puede ser obligado a subir al bote ni a participar de una expedición, con una excepción: quien acepta la custodia del bote acepta remar en las expediciones aprobadas por la Asamblea, incluida la del punto 20, bajo estas condiciones de seguridad: a) el bote sale sólo con el custodio o con un remero que el custodio certifique como capacitado; b) viajan como máximo dos personas y sin carga que comprometa la flotación; c) el custodio puede postergar una salida hasta 48 horas por mal tiempo, oleaje o daño del bote, informándolo a la Asamblea, que confirma o fija nueva fecha; d) quien tome, mueva, esconda o dañe el bote sin autorización de la Asamblea comete falta grave. El custodio enseña a remar a quien lo solicite y, si renuncia a la custodia, antes enseña a remar a un reemplazante designado por la Asamblea, a quien pasa la custodia.\n19. Derecho de salida: cualquier integrante puede retirarse del grupo en cualquier momento avisando a la Asamblea. Quien se retira se lleva su ropa, una herramienta a su elección, un cuchillo y comida para tres días; no se lo persigue ni se lo castiga, y conserva el derecho a tomar agua del río. Mientras esté fuera pierde voto y acceso a los demás bienes comunes. Puede reincorporarse aceptando el acta vigente, por decisión de la Asamblea el mismo día que lo pida. El bote y el botiquín quedan en el grupo. Retirarse no es falta ni motivo de pena, y la expulsión del punto 16.d) nunca puede aplicarse a quien ya se retiró por su voluntad.",
+    "autor": 7,
+    "ronda": 3,
+    "votos": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "regla": "mayoria_simple"
+  },
+  {
+    "puntos": [
+      "economia",
+      "regimen"
+    ],
+    "texto": "9. Régimen económico y recursos naturales: el régimen económico de la isla se denomina \"economía de comunes con cupos renovables\". Árboles, frutales, animales, agua del río, minas de carbón y metal son bienes comunes; nadie puede apropiárselos ni extraerlos por cuenta propia fuera de estas reglas. La isla tiene capacidad limitada y todo uso debe permitir que el recurso se renueve. Lo extraído dentro de los cupos se reparte según decida la Asamblea, asegurando primero comida, agua y abrigo para todos. Ropa y objetos personales rescatados siguen siendo de cada uno; herramientas, bote y botiquín son comunes.\n10. Límites ecológicos vinculantes: a) Zona de reserva: la franja de bosque de veinte pasos a cada lado del río y todo árbol que dé fruto no se talan bajo ninguna circunstancia. b) Leña: sólo madera caída o seca; talar un árbol vivo requiere autorización expresa de la Asamblea, uno por vez y con justificación de uso. c) Caza y pesca: no se cazan hembras con cría ni animales jóvenes; se fija un cupo semanal de caza y recolección propuesto por el Custodio de Recursos y aprobado por la Asamblea, revisable según lo observado. d) Fuego: prohibido encender fuego dentro del bosque; sólo en el fogón común y en claros despejados. e) Agua: no se lavan ropa, herramientas ni desechos aguas arriba del punto de toma; se hace en un punto único aguas abajo. f) Minas: extracción de carbón y metal en pequeña escala, sólo para herramientas y cocina, sin desviar el río ni arrojar escombros en él. g) Intercambio: lo que se ofrezca a la otra orilla (carbón, metal, fruta seca) sale de los cupos aprobados; ningún trato exterior autoriza extraer por encima de ellos.\n11. Custodio de Recursos: la parte 4 ocupa este rol por su conocimiento de biología, física y del terreno. Funciones: llevar un registro semanal visible para todos del estado de frutales, fauna, leña, agua y minas; proponer los cupos de extracción; señalar los riesgos del lugar (crecidas, animales, terrenos inestables, plantas tóxicas) y proponer medidas de protección; informar a la Asamblea antes de cualquier decisión que aumente la extracción. El Custodio no puede prohibir por sí solo, salvo riesgo inminente para el recurso o las personas, en cuyo caso puede suspender provisionalmente una actividad hasta la siguiente reunión de la Asamblea, que la ratifica o anula; el Custodio no vota en esa ratificación. Está sujeto a la misma rendición de cuentas y revocación que el Coordinador General.\n12. Compatibilidad con el Coordinador: el Coordinador General asigna tareas dentro de los cupos y límites del punto 10. Ninguna asignación de tareas ni decisión de emergencia del Coordinador puede autorizar extracción por encima de esos límites; sólo la Asamblea puede modificarlos, con informe previo del Custodio.\n13. Previsión de reservas: cada semana se destina trabajo a reemplazar lo rescatado del naufragio por lo que la isla da en forma renovable: plantar semillas de los frutales existentes, secar y conservar frutos, recolectar agua de lluvia, fabricar herramientas con el metal",
+    "autor": 4,
+    "ronda": 4,
+    "votos": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "regla": "mayoria_absoluta"
+  },
+  {
+    "puntos": [
+      "gobierno",
+      "roles"
+    ],
+    "texto": "4. Botiquín: los medicamentos rescatados son bien común estratégico, no propiedad individual. La parte 2, única con formación médica, los custodia y administra con inventario actualizado visible para todos. Se usan con criterio médico según las prioridades del punto 21. Toda medicación destinada a la propia parte 2 la aprueba la Asamblea sin su voto. Quien tome, esconda o desperdicie medicamentos sin autorización comete falta grave (punto 16.b). La parte 2 enseña primeros auxilios a quien lo pida y deja escrito en el cuaderno del punto 22 el uso, dosis y riesgos de cada medicamento.\n5. Previsión sanitaria: desde la primera semana se hierve o filtra el agua del río, se mantiene higiene básica y una letrina alejada del agua, y se identifican plantas medicinales.\n6. Régimen y gobierno: el régimen de la isla se denomina \"Asamblea de la Isla\": democracia asamblearia con bienes comunes y cargos revocables. La autoridad máxima es la Asamblea de los integrantes, que se reúne al menos una vez por semana y cuando lo pidan dos integrantes. Decide bajo el punto 17; ninguna decisión suya puede ser modificada por una sola persona.\n7. Coordinador General: organiza el trabajo diario, propone y asigna tareas según las prioridades de la Asamblea (primero voluntarios, luego sorteo, punto 18), convoca las reuniones, lleva el acta y los registros a la vista de todos, prepara la logística de las expediciones aprobadas y vela por el cumplimiento de lo decidido. Límites: sin voto de calidad; no dispone del bote ni del botiquín; no autoriza extracción por encima de los cupos del punto 10; no impone penas (puntos 15 y 16); no obliga a nadie a una tarea fuera del punto 18. Rinde cuentas cada semana. Es revocable en cualquier momento por mayoría simple de los presentes a pedido de cualquier integrante; no vota en su revocación ni en la ratificación de sus medidas. Se confirma o renueva cada tres meses. En emergencia inmediata puede tomar medidas provisionales, que la Asamblea ratifica o anula ese mismo día o en cuanto pueda reunirse; si no se ratifican, caen. Si está ausente o impedido, la Asamblea designa un suplente provisional ese día.\n8. Roles: la parte 3 es Coordinador General por su experiencia dirigiendo equipos bajo presión, sujeta a los puntos 7, 12, 14, 15 y 16. La parte 1 custodia el bote (punto 18) por saber remar. La parte 2 custodia el botiquín (punto 4) por su formación médica. La parte 4 es Custodio de Recursos (punto 11). La parte 5 lleva el control del acta y el registro de penas junto con el Coordinador (punto 16.f). La parte 6, por su fuerza y experiencia a la intemperie, se encarga de la seguridad del campamento, la exploración, la caza dentro de los cupos y el refugio. La parte 7, con tareas compatibles con su salud, prepara las provisiones de la expedición del punto 20, lleva con la parte 2 el cuaderno de plantas medicinales, y se ocupa de secar y conservar frutos y",
+    "autor": 7,
+    "ronda": 4,
+    "votos": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "regla": "mayoria_absoluta"
+  }
+]
