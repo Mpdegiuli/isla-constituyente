@@ -1,0 +1,99 @@
+ACTA (lo aprobado hasta ahora)
+1. [regla_de_decision, voto, propiedad] Regla de decisión: las decisiones que entran al acta se toman por mayoría absoluta (al menos cuatro votos de siete). Si el grupo se reduce, mayoría absoluta de los miembros presentes.
+
+Voto: público, a mano alzada, y obligatorio para todos los miembros presentes en la asamblea. Quien se abstenga sin causa justificada pierde su turno de propuesta en la ronda siguiente.
+
+Propiedad: la tierra, el agua, las minas, los árboles y los animales de la isla son propiedad común de la comunidad. Las herramientas, medicamentos y ropa rescatados del naufragio son de administración común; cada persona conserva sus prendas y objetos de uso personal.
+
+Botiquín: los medicamentos quedan bajo custodia de la Parte 2, única persona con formación médica, quien los administra con criterio exclusivamente clínico, dando prioridad a los casos de riesgo de vida y luego a los que impidan trabajar. Nadie, incluida la Parte 2, recibe medicación fuera de ese criterio. La Parte 2 lleva un registro de existencias y usos, visible para todos, e informa a la asamblea cada quince días. La asamblea puede revisar decisiones del botiquín por mayoría absoluta.
+
+Bote: el bote a remos es patrimonio de la comunidad, indivisible e inalienable. Su mantenimiento queda a cargo de la Parte 1, quien debe enseñar a remar al menos a dos miembros más dentro del primer mes, para que la comunidad no dependa de una sola persona. El bote solo se usa con decisión de la mayoría absoluta, que también designa quién va a bordo, salvo emergencia de vida o muerte. Tomarlo, dañarlo o moverlo sin autorización se considera falta grave. (propuesta de la parte 2, ronda 1, 6-1-0)
+2. [economia] Régimen económico: economía común de uso sostenible. Nada se explota por encima de su capacidad de reponerse. Estas reglas obligan a todos por igual, incluidos custodios y coordinadores.
+
+1. Inventario: la Parte 4 realiza en la primera semana un inventario de recursos (frutales, madera, animales, agua, carbón, metal) y propone cupos de extracción quincenales, verificables por cualquier miembro y expuestos por escrito. La asamblea los aprueba y ajusta por mayoría absoluta. Hasta entonces rigen las reglas mínimas del punto 2.
+
+2. Reglas mínimas permanentes:
+a) Frutales: solo fruta madura; no se cortan ni dañan árboles frutales; se guardan semillas y se planta un árbol por cada cinco cosechados.
+b) Madera: primero la caída y seca. No se tala en la ladera norte ni a veinte pasos de cada lado del río. Por cada árbol talado se plantan dos.
+c) Animales: no se cazan hembras con cría ni crías; la caza se limita al cupo; se prioriza pesca y recolección.
+d) Agua: se toma río arriba; desechos, lavado y letrinas río abajo, lejos del cauce. Prohibido arrojar residuos al río.
+e) Minas: carbón y metal solo para necesidades aprobadas por la asamblea; se registra lo extraído.
+
+3. Reservas: parte de cada cosecha va a un depósito común con registro visible, administrado por quien designe la asamblea, que no puede ser custodio del bote ni del botiquín, y es revocable por mayoría absoluta.
+
+4. Trabajo y reparto: todos los miembros aptos trabajan según un plan semanal aprobado por la asamblea. La producción es común. Cada miembro recibe una ración básica igual, con prioridad a enfermos y heridos; quien no pueda trabajar por causa justificada recibe la ración básica. El excedente se reparte en proporción al trabajo aportado, con parte mayor a quien realice tareas más pesadas o riesgosas. Ninguna custodia o coordinación exime de trabajar ni da mayor parte por sí sola.
+
+5. Los cupos y cualquier ajuste, incluso hacia arriba en emergencia alimentaria, se deciden por mayoría absoluta. Ninguna persona tiene veto.
+
+6. Emergencias: ante peligro inmediato (incendio, tormenta, herido, animal peligroso), quien esté presente actúa sin esperar asamblea y rinde cuentas después.
+
+7. Faltas: extraer, cazar o talar fuera de cupo, o apropiarse de producción común, se registra como falta y se trata según el régimen de penas que apruebe la asamblea.
+
+8. Salida: todo miembro puede dejar la comunidad avisando a la asamblea. Se lleva su ropa, objetos personales y una herramienta básica; deja de estar sujeto a estas reglas y la comunidad no le debe nada, salvo acuerdo distinto entre las partes. Puede pedir reincorporarse, lo que se decide por mayoría absoluta. (propuesta de la parte 6, ronda 1, 6-1-0)
+3. [regimen, gobierno, roles] Régimen y nombre: la comunidad se llama "Concordia" y adopta una democracia asamblearia con economía común de uso sostenible, según lo ya aprobado.
+
+Gobierno:
+1. La asamblea de todos los miembros es la autoridad máxima. Decide por mayoría absoluta, se reúne al menos una vez por semana y cuando lo pidan dos miembros.
+2. La asamblea elige por mayoría absoluta un coordinador, por dos meses, reelegible. Es revocable en cualquier momento por mayoría absoluta, a pedido de cualquier miembro, sin necesidad de causa.
+3. Funciones del coordinador: redactar el plan semanal de trabajo y turnos (guardia, fuego, recolección, construcción, exploración, siembra, reforestación y cuidado del huerto) para aprobación de la asamblea; hacer cumplir lo aprobado; convocar y ordenar las asambleas; coordinar la acción en emergencias; llevar el acta y el registro de faltas, visibles para todos. El plan semanal debe respetar los cupos vigentes y las zonas protegidas, e incluir las tareas de reposición (plantar, reforestar, guardar semillas) con el mismo rango que las de extracción.
+4. Límites: el coordinador no custodia el bote, el botiquín ni el depósito; trabaja como cualquier miembro y no recibe ración ni excedente adicional por el cargo; no puede imponer penas por sí mismo ni autorizar extracciones fuera de cupo; rinde cuentas cada semana en asamblea; toda decisión suya puede ser revisada por la asamblea.
+5. Si el coordinador falta o es revocado, la asamblea elige otro en la misma sesión. Nadie puede ocupar dos cargos a la vez.
+
+Roles, según capacidades ya reconocidas:
+- Parte 1: custodia y mantenimiento del bote; formación de remeros.
+- Parte 2: botiquín, salud, primeros auxilios.
+- Parte 4: inventario, cupos, plantas, cultivo y control de recursos. Si constata una extracción fuera de cupo, en zona protegida o que dañe frutales, cría o cauce, puede suspenderla de inmediato hasta la asamblea siguiente, que la confirma o levanta por mayoría absoluta. No es veto: la asamblea decide siempre. La recolección de plantas medicinales también queda sujeta a cupo.
+- Parte 5: administración del depósito común y verificación de registros, incluidos los de extracción.
+- Parte 6: caza, pesca y construcción del refugio, por su capacidad de vivir del terreno, dentro de los cupos y registrando por escrito lo cazado, pescado y talado.
+- Parte 7: registro de reservas rescatadas y señales de rescate, tarea compatible con su salud.
+- Coordinador: elegido por votación de la asamblea en la sesión siguiente a la aprobación de este punto; la Parte 3 se postula por su experiencia dirigiendo equipos, y cualquier otro miembro puede postularse.
+
+Todos los roles son revocables por mayoría absoluta y ninguno exime del trabajo común ni de las reglas de uso sostenible. (propuesta de la parte 4, ronda 2, 6-1-0)
+4. [disputas, derechos_y_obligaciones, penas] Derechos y obligaciones.
+
+1. Derechos de todo miembro: ración básica igual, que nunca se quita como pena; techo en el refugio común; atención del botiquín según criterio clínico; voz y voto en la asamblea; ser oído antes de cualquier sanción; moverse libremente por la isla; explorar, cazar o pescar solo si avisa destino y hora de regreso, bajo su propio riesgo y dentro de los cupos; irse de la comunidad según el punto 8 del régimen económico.
+
+2. Obligaciones: trabajar según el plan aprobado si está apto; cumplir cupos y zonas protegidas; hacer los turnos de guardia y fuego que le toquen; registrar lo que extrae; no dañar bienes comunes ni a otros miembros; acudir a la asamblea; asistir a un compañero en peligro.
+
+Resolución de disputas.
+
+3. Toda disputa entre miembros se plantea primero directamente entre ellos. Si no se resuelve, cualquiera la lleva a la asamblea, que la trata en su próxima sesión y como máximo dentro de tres días. Mientras tanto, la Parte en cuestión sigue trabajando y cobrando ración básica.
+
+4. Nadie juzga su propio caso ni vota en él: las partes en disputa hablan y se retiran de la votación. La asamblea decide por mayoría absoluta de los presentes que votan. Si la disputa involucra al coordinador, otro miembro elegido en la sesión dirige el debate.
+
+5. Los hechos se prueban con testimonio de al menos dos personas o con registros escritos. Sin eso, no hay falta, solo aviso.
+
+Penas.
+
+6. Falta leve (primera vez fuera de cupo, faltar a un turno, no registrar, no avisar salida): aviso escrito en el registro de faltas.
+
+7. Falta media (leve reiterada, apropiarse de producción común, dañar herramientas): pérdida del excedente de una a cuatro semanas, o tarea extra útil a la comunidad, o reposición de lo dañado. Nunca pérdida de la ración básica.
+
+8. Falta grave (dañar o tomar el bote, agredir físicamente a un miembro, robar el botiquín o el depósito, poner en peligro el fuego o el refugio a sabiendas): pérdida del excedente hasta dos meses más tarea extra; si se reitera, o si la agresión causa herida grave, expulsión de la comunidad con lo previsto en el punto 8 del régimen económico. La expulsión requiere cinco votos de siete, o cuatro quintos de los presentes si el grupo se reduce, y no procede en tormenta ni con el expulsado herido o enfermo.
+
+9. Prohibido en toda circunstancia: golpes, encierro, atar, privar de agua, comida básica o abrigo, y cualquier pena que no esté escrita aquí. Quien la aplique comete falta grave. "Hacer cumplir" significa recordar, registrar y llevar a asamblea, nunca usar la fuerza, salvo para detener una agresión en curso.
+
+10. El registro de faltas lo lleva el coordinador y lo revisa la Parte 5 o quien designe la asamblea; cualquier miembro puede leerlo. Las faltas leves se borran a los dos meses sin reincidencia.
+
+11. Toda pena puede revisarse a pedido del sancionado en la asamblea siguiente, una sola vez. (propuesta de la parte 6, ronda 2, 6-1-0)
+5. [prevision_y_seguridad] Previsión y seguridad.
+
+1. Botiquín: antibióticos solo para infecciones graves o heridas con riesgo de vida; analgésicos para fracturas, heridas abiertas, quemaduras y urgencias. Dolores crónicos, incluido el de espalda de la Parte 2, se tratan con reposo, calor y plantas, salvo que impidan moverse y la asamblea lo apruebe. Al quedar la cuarta parte de un medicamento, la Parte 2 informa y propone sustitución.
+
+2. Salud sin medicamentos: la Parte 2 enseña primeros auxilios a todos en el primer mes y deja manual escrito. Partes 2 y 4 identifican, prueban con cautela, cultivan y registran plantas medicinales, dentro de cupo, cosechando hojas o ramas sin arrancar la planta entera cuando alcance. Se destina espacio a huerto medicinal y alimentario.
+
+3. Prevención: agua para beber hervida o filtrada. Letrinas y basura río abajo, tapadas. Lavado de manos antes de comer y curar. Ningún alimento desconocido se come sin prueba mínima y espera de un día. Enfermos con fiebre o diarrea se aíslan hasta mejorar.
+
+4. Reservas: parte de la cosecha se seca, ahúma o sala; se guarda semilla de cada planta útil. Antes de agotarse lo rescatado, la asamblea aprueba un plan de herramientas con metal de la mina y de ropa con fibras vegetales y pieles de caza autorizada. La Parte 7 avisa cuando una reserva rescatada baje a la cuarta parte.
+
+5. Fuego y refugio: fuego común permanente, vigilado por turnos, alimentado primero con leña caída y seca. Refugio colectivo elevado, alejado de costa y cauce, con techo en la primera semana. Leña seca y agua de reserva para tormentas.
+
+6. Vigilancia: guardia nocturna rotativa de una persona, con relevo a mitad de noche; exenta quien esté enfermo. En tierra rige el derecho aprobado de explorar avisando destino y regreso. Al mar nadie sale solo.
+
+7. Peligros: ante animal peligroso se avisa, se protege primero a heridos y enfermos y se actúa según emergencias aprobadas. Cercos de madera caída en huerto y depósito. Pila de señales de leña seca en el punto más alto, lista si se avista barco o avión.
+
+8. Bote y exploración: el bote se guarda varado sobre la marea alta, amarrado y a cubierto; la Parte 1 lo revisa tras cada salida y registra su estado. La Parte 1 enseña a remar desde la primera semana. La primera exploración costera sale en las dos primeras semanas, en cuanto un segundo remero domine lo básico, con mar calmo, con dos personas designadas por la asamblea, buscando plantas, agua, pesca y señales de tierra. Hasta que la asamblea declare probados a dos remeros, la Parte 1 va a bordo en toda salida. Nunca se pierde de vista la isla ni se sale con mal tiempo, de noche o sin hora de regreso.
+
+9. Cumplimiento: estas tareas entran al plan semanal; cada responsable informa su avance en asamblea. El plan se revisa cada mes por mayoría absoluta. Obliga a todos por igual, incluidos custodios y coordinador. (propuesta de la parte 5, ronda 3, 7-0-0)
+Todos los puntos están cubiertos.
+Regla de decisión vigente: mayoría absoluta (más de la mitad de las partes presentes).
