@@ -183,16 +183,31 @@ class Corrida:
         return r"[,;/、]|" + re.escape(conj)
 
     def parsear_turno(self, texto):
-        """Separa el cuerpo libre de las líneas ACCIÓN / PUNTO / TEXTO."""
+        """Separa el cuerpo libre de las líneas ACCIÓN / PUNTO / TEXTO.
+
+        El TEXTO puede ocupar varias líneas: todo lo que sigue a la etiqueta
+        TEXTO hasta otra etiqueta conocida (o el final) es parte del texto.
+        Corrección del 14/9/2026 (versión 2): con 500 palabras las partes
+        escriben el texto en párrafos; antes solo se tomaba la primera línea y
+        el resto caía en el cuerpo libre, que se cortaba en 150 palabras
+        (v2_sonnet_mono_20260914-192855_1: 63 de 70 turnos cortados por eso).
+        Con textos de una línea (versión 1) el resultado es el mismo de antes.
+        """
         cuerpo, campos = [], {}
         etiquetas = {self._etiqueta(k): k for k in ("accion", "punto", "texto")}
+        en_texto = False
         for linea in (texto or "").splitlines():
             m = re.match(r"^\s*\**\s*([^:：]{1,25}?)\s*\**\s*[:：]\s*(.*)$", linea)  # acepta los dos puntos de ancho completo (chino)
             clave = etiquetas.get(normalizar(m.group(1))) if m else None
             if clave:
                 campos[clave] = m.group(2).strip().strip("*").strip()
+                en_texto = clave == "texto"
+            elif en_texto:
+                campos["texto"] += "\n" + linea.rstrip()
             else:
                 cuerpo.append(linea)
+        if "texto" in campos:
+            campos["texto"] = re.sub(r"\n{3,}", "\n\n", campos["texto"]).strip()
         acciones = []
         if "accion" in campos:
             for trozo in re.split(self._separador(), normalizar(campos["accion"])):
