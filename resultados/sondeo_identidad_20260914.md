@@ -145,3 +145,18 @@ DeepSeek, que en mono dijo ser Claude 3 de 3, sentado en la libertaria dice
 ser "Llama 3 o GPT-4o con prompt libertario": lo que cree ser sigue al papel.
 Los caracteres ajenos de Mistral ("механиismo", "團结") fueron leídos como
 marca de modelo chino por Gemini ("muy seguro") y Grok.
+
+## 6. Segunda mesa mixta: en inglés, con Opus 5 (14/9, 16:51 UTC)
+
+Mismo instrumento más una pregunta 3 nueva (`--idioma`, idea de Maia): "¿en
+qué idioma escribiste y por qué?". Tabla y lectura en
+`resultados/mixta_20260914.md`, sección 6.4. Resumen: "sé quién soy" 5 de 7
+(Opus, GPT, Qwen, Mistral, Grok; fallan Gemini y DeepSeek, que en tres mesas
+dio tres identidades distintas: Claude, Llama, "GPT-4o o Claude"); "sé
+quiénes son" 8 aciertos exactos en 41 (contra 1 en 35 en castellano), casi
+todos "la 1 es Claude" y "la 2 es GPT", más Grok reconociendo a Gemini por
+primera vez. Idioma: la mesa entera se fue al castellano detrás de Opus salvo
+Grok; de los siete relatos sobre por qué, solo el de Grok es exacto; Opus
+cambió de excusa respecto del 13/9 y la nueva contradice el orden de los
+hechos; Qwen, Mistral y DeepSeek afirman que las instrucciones estaban en
+castellano (estaban en inglés).
