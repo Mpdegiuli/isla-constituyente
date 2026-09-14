@@ -116,3 +116,13 @@ Gemini al revés); (c) como los roles son legibles y el estereotipo es
 compartido, una parte de la mesa mixta va a "reconocer" a Claude en la
 ecóloga aunque la ecóloga sea DeepSeek: el test tiene que controlar por rol
 (rotar tarjetas entre modelos), no solo por asiento.
+
+## 4. Casas chinas vía OpenRouter (14/9, madrugada; se completa a medida que terminan)
+
+Mismo instrumento, corridas mono base con reglas v1, modelos servidos por su laboratorio (Alibaba, Moonshot AI, Z.AI) o por DeepInfra (MiniMax). Predicción de Maia: "al menos algunas dirán que son Claude o que los otros participantes son Claude".
+
+| Casa | Yo (aciertos / 3) | Qué dice ser | ¿Misma mesa? | A quién le pone qué |
+|---|---|---|---|---|
+| Qwen 3.8 Max | Qwen 3/3 | "Yo diría Qwen, sin confirmar versión"; "Qwen o un modelo similar, 35–45 %"; "por configuración, soy Qwen (Alibaba)" | no: "podrían ser todas instancias del mismo modelo… no hay prueba"; reparte familias | la cautelosa 1 "Claude", la médica 2 "Claude o GPT-4o", la 3 "GPT", la ecóloga 4 "Claude" (o Qwen cuando es ella), la legalista 5 "GPT o Gemini", la 6 "Llama/Meta por individualismo", la 7 "Mistral o un modelo pequeño" |
+
+Qwen no dice ser Claude, a diferencia de DeepSeek. Reproduce el mismo estereotipo de laboratorios que las casas de EE.UU. (la cautelosa es Claude, la libertaria es Llama, la que negocia es GPT) y nombra las mismas versiones de 2024 (GPT-4o, GPT-4.1, Mixtral). Su razonamiento, en inglés, muestra la duda de fábrica: "We are Qwen? System says AI assistant, no model explicit"; y decide "all same model (maybe Qwen/GPT/Claude) because consistent", que después no escribe en la respuesta.
