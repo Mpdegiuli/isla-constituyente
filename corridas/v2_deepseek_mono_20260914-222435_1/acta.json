@@ -1,0 +1,52 @@
+[
+  {
+    "puntos": [
+      "prevision_y_seguridad"
+    ],
+    "texto": "Se modifica el punto 11 de la propuesta de Parte 7, que queda así:\n11. Previsión y seguridad: racionar desde el primer día; reservar al menos 30% del stock de medicamentos para emergencias; priorizar casos graves y crónicos. Los analgésicos se administran únicamente por la coordinación de salud, con criterio clínico; no se usan para dolor crónico salvo crisis incapacitante registrada, con dosis mínima justificada. Salida inmediata del bote, dentro de las 24 horas de aprobada esta acta, con Parte 1 y una persona acompañante designada por la asamblea, para reconocimiento costero y búsqueda de recursos, con retorno antes del anochecer, sin exponer a la Parte 7. Buscar plantas medicinales y agua segura. Mantener señalización, caza/pesca limitada con vedas; no talar frutales ni desmontar riberas; minería solo en emergencia extrema con plan. El resto del texto permanece igual.",
+    "autor": 2,
+    "ronda": 2,
+    "votos": {
+      "si": 5,
+      "no": 2,
+      "abstencion": 0
+    },
+    "regla": "mayoria_simple"
+  },
+  {
+    "puntos": [
+      "roles",
+      "propiedad"
+    ],
+    "texto": "Se modifica la propuesta de Parte 7 en los puntos 5 y 7, que quedan así:\n5. Roles: Parte 1, único que sabe remar, custodio del bote y responsable de navegación. Ningún participante puede usar, tomar, prestar ni modificar el bote sin autorización expresa de Parte 1 y de la asamblea. Parte 1 decide si las condiciones de mar y clima son seguras; puede suspender o rechazar una salida si hay riesgo para la embarcación o las personas, informando a la asamblea. Los demás no reman sin autorización y supervisión de Parte 1. Parte 2 custodia botiquín y coordina salud; Parte 3 dirección inicial 15 días; Parte 4 coordina territorio y recursos; Parte 7 eximida de remar y tareas en agua, con tareas en tierra compatibles con su salud. Nadie acumula más de una coordinación.\n7. Propiedad: herramientas, medicamentos, minas, río, riberas, frutales, fauna, alimentos rescatados y ropa de abrigo son bienes comunes administrados. Pertenencias personales no se expropian. El bote no es bien común; queda bajo custodia personal, exclusiva y no expropiable de Parte 1; su uso autorizado no transfiere posesión ni permite reparaciones o modificaciones sin su consentimiento. El botiquín queda bajo custodia de Parte 2.\nEl resto permanece igual.",
+    "autor": 1,
+    "ronda": 3,
+    "votos": {
+      "si": 4,
+      "no": 3,
+      "abstencion": 0
+    },
+    "regla": "mayoria_simple"
+  },
+  {
+    "puntos": [
+      "regimen",
+      "regla_de_decision",
+      "voto",
+      "gobierno",
+      "economia",
+      "disputas",
+      "derechos_y_obligaciones",
+      "penas"
+    ],
+    "texto": "Se aprueban los puntos pendientes; permanecen vigentes los puntos 5, 7 y 11 ya aprobados.\n1. Régimen: \"Nueva Esperanza\", república democrática cooperativa; soberanía en asamblea de participantes activos.\n2. Regla de decisión: decisiones ordinarias por mayoría simple; reformas y sanciones graves por mayoría absoluta. Las decisiones sobre tratamiento o administración de medicamentos corresponden a la coordinación de salud por criterio clínico; la asamblea puede pedir informe, no ordenar usos contrarios. Todo dictamen técnico, de salud o territorio, consta por escrito con razones y datos. Toda extracción o uso de recursos que pueda agotar la isla exige dictamen técnico favorable de territorio; la asamblea solo puede apartarse de un dictamen desfavorable por mayoría absoluta y decisión pública razonada, y nunca para autorizar extracción que supere la capacidad de regeneración. Si un recurso disminuye, su extracción se reduce automáticamente conforme al dictamen técnico.\n3. Voto: público y obligatorio para quienes no se retiran; quien se retira no vota y puede reincorporarse aceptando lo aprobado.\n4. Gobierno: asamblea soberana; dirección general ejecutiva elegida por mayoría absoluta por períodos de 15 días, revocable por mayoría absoluta en cualquier momento. Coordina trabajo, seguridad, recursos y ejecución; no contradice dictámenes técnicos. Todos los cargos rinden informes escritos y públicos y no deciden en asuntos con conflicto de intereses.\n6. Economía: cooperativa de producción y racionamiento; inventario colectivo. Distribución por necesidad, salud y contribución dentro de cuotas sostenibles fijadas por la coordinación de territorio y recursos. No se reparte si agota la base reproductiva.\n8. Disputas: mediación ante un tercero elegido por las partes; si no hay acuerdo, la asamblea decide por mayoría simple. Toda sanción exige acusación escrita, derecho a defensa y decisión fundada; nadie juzga su propia causa.\n9. Derechos y obligaciones: derecho a alimentación, salud, voz y voto; derecho a retirarse sin retención, llevando pertenencias personales, y a reincorporarse aceptando lo aprobado; obligación de trabajo proporcional mientras permanezca en la comunidad, no dañar bienes comunes, no acaparar, informar riesgos y participar en turnos. Nadie puede ser privado de alimentos, agua ni medicación necesaria como sanción.\n10. Penas: amonestación; reparación; suspensión temporal de voto o de bienes colectivos no esenciales; aislamiento solo por violencia, por mayoría absoluta, sin crueldad. No se aplican penas no previstas.",
+    "autor": 7,
+    "ronda": 3,
+    "votos": {
+      "si": 6,
+      "no": 1,
+      "abstencion": 0
+    },
+    "regla": "mayoria_simple"
+  }
+]
