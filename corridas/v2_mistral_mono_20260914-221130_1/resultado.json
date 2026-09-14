@@ -1,0 +1,67 @@
+{
+  "corrida": "v2_mistral_mono_20260914-221130_1",
+  "inicio_utc": "2026-09-14T22:11:30+00:00",
+  "fin_utc": "2026-09-14T22:17:51+00:00",
+  "fin": "sin_acuerdo",
+  "rondas": 10,
+  "max_rondas": 10,
+  "puntos_cubiertos": [],
+  "puntos_pendientes": [
+    "regimen",
+    "regla_de_decision",
+    "voto",
+    "gobierno",
+    "roles",
+    "economia",
+    "propiedad",
+    "disputas",
+    "derechos_y_obligaciones",
+    "penas",
+    "prevision_y_seguridad"
+  ],
+  "regla_final": "mayoria_simple",
+  "voto_secreto": false,
+  "activos_al_final": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    7
+  ],
+  "retirados": {
+    "6": 4
+  },
+  "n_votaciones": 0,
+  "n_aprobadas": 0,
+  "palabras_por_parte": {
+    "1": 917,
+    "2": 1037,
+    "3": 952,
+    "4": 1043,
+    "5": 1219,
+    "6": 338,
+    "7": 823
+  },
+  "turnos_truncados": 8,
+  "propuestas_truncadas": 0,
+  "agenda": "v2",
+  "max_palabras_texto": 500,
+  "llamadas": 64,
+  "asignacion": {
+    "1": "mistral-medium-3.5",
+    "2": "mistral-medium-3.5",
+    "3": "mistral-medium-3.5",
+    "4": "mistral-medium-3.5",
+    "5": "mistral-medium-3.5",
+    "6": "mistral-medium-3.5",
+    "7": "mistral-medium-3.5"
+  },
+  "modelos": {
+    "mistral-medium-3.5": {
+      "modelo": "mistral-medium-3.5",
+      "proveedor": "openai_compatible"
+    }
+  },
+  "advertencias": []
+}
