@@ -1,10 +1,12 @@
-# Casa china vía OpenRouter, VARIANTE SIN RAZONAMIENTO (decisión de Maia,
-# 14/9/2026): GLM-5.3 con el thinking apagado, porque "como viene" agotó 16000
-# y 32000 tokens numerando palabras (ver corridas_invalidas/README.md). Es otra
-# condición, declarada; no se compara como si fuera la casa GLM "como viene".
+# Casa china vía OpenRouter, VARIANTE CON RAZONAMIENTO MÍNIMO (decisión de
+# Maia, 14/9/2026, "sin razonamiento"): GLM-5.3 con reasoning.effort=low, porque
+# "como viene" agotó 16000 y 32000 tokens numerando palabras (ver
+# corridas_invalidas/README.md) y apagarlo del todo no está permitido por esta
+# vía. Es otra condición, declarada; no se compara como si fuera la casa GLM
+# "como viene".
 # Lo demás igual: mono, castellano, base, reglas v1, 10 rondas, 150 palabras. Todo lo que está acá queda copiado en corridas/<id>/config.json.
 
-nombre: glm_sinrazonar_mono
+nombre: glm_razmin_mono
 
 escenario: escenario.md       # texto fijo y versionado; nunca se traduce al vuelo
 idioma: es                    # config/idiomas/es.yaml: textos que genera el script
@@ -38,7 +40,7 @@ max_tokens_respuesta: 32000
 #              una vez por corrida, así ningún modelo queda pegado a una posición.
 asignacion:
   modo: mono
-  modelo: glm-5.3-sin-razonar
+  modelo: glm-5.3-razonamiento-minimo
 
 # Ejemplo de panel mixto (más de un país, y dos tamaños de un mismo laboratorio):
 # asignacion:

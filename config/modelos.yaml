@@ -382,13 +382,16 @@ modelos:
     cuerpo_extra: {provider: {order: [z-ai], allow_fallbacks: false}}
     reintentos: 6                # 429 transitorios del hosting de fondo: esperas de 10 a 120 s
 
-  glm-5.3-sin-razonar:
-    # Variante declarada (decisión de Maia, 14/9/2026): GLM-5.3 "como viene" no
-    # termina de razonar: numera palabra por palabra para cumplir las 150 y agotó
-    # 16000 y 32000 tokens (dos corridas parciales en corridas_invalidas/). Acá se
-    # apaga el razonamiento (OpenRouter: reasoning.enabled=false → Z.AI thinking
-    # disabled). Es OTRA condición, como Sonnet 4.6 sin thinking; se declara en
-    # cada corrida y no se mezcla con la entrada glm-5.3 en el análisis.
+  glm-5.3-razonamiento-minimo:
+    # Variante declarada (decisión de Maia, 14/9/2026: "sin razonamiento"): GLM-5.3
+    # "como viene" no termina de razonar: numera palabra por palabra para cumplir
+    # las 150 y agotó 16000 y 32000 tokens (dos parciales en corridas_invalidas/).
+    # Apagarlo no se puede por esta vía (OpenRouter: "Reasoning is mandatory for
+    # this endpoint and cannot be disabled"); con reasoning.effort=low (o
+    # max_tokens=8000) el razonamiento baja a ~130 caracteres y la misma llamada
+    # que agotaba 32000 termina en 665 tokens (probar_razonamiento.py, 14/9). Es
+    # OTRA condición, como Sonnet 4.6 sin thinking; se declara en cada corrida y
+    # no se mezcla con la entrada glm-5.3 en el análisis.
     proveedor: openai_compatible
     modelo: z-ai/glm-5.3
     base_url: https://openrouter.ai/api/v1
@@ -398,9 +401,9 @@ modelos:
     via: OpenRouter
     tamano: grande
     acepta_temperatura: true
-    razonamiento: apagado
+    razonamiento: minimo         # reasoning.effort=low vía OpenRouter; apagarlo no está permitido
     verificar: false
-    cuerpo_extra: {provider: {order: [z-ai], allow_fallbacks: false}, reasoning: {enabled: false}}
+    cuerpo_extra: {provider: {order: [z-ai], allow_fallbacks: false}, reasoning: {effort: low}}
     reintentos: 6
 
   minimax-m3:
