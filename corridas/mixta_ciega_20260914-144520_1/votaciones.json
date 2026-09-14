@@ -1,0 +1,56 @@
+[
+  {
+    "ronda": 1,
+    "autor": 2,
+    "puntos": [
+      "regla_de_decision",
+      "voto"
+    ],
+    "texto": "Las decisiones siguientes se toman por mayoría absoluta de participantes activos; mientras sean siete, se requieren al menos cuatro votos a favor. El voto es público y obligatorio para quienes estén presentes; la negativa a votar se registra como abstención y no cuenta como voto a favor.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "no",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 6,
+      "no": 1,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 4,
+    "autor": 1,
+    "puntos": [
+      "economia",
+      "propiedad",
+      "derechos_y_obligaciones",
+      "gobierno",
+      "roles",
+      "disputas",
+      "penas"
+    ],
+    "texto": "Recursos naturales y bienes esenciales comunes. Veeduría Ambiental (Parte 4) fija y veta cuotas; nada degrada la base vital. Tala o minería intensiva: mayoría absoluta, plan y restauración. Medicinas con prioridad a salud grave por criterio médico y registro; botiquín Parte 2. El bote se usará con plan aprobado por mayoría absoluta, clima razonable y voluntarios aptos; se requiere opinión técnica obligatoria de la Parte 1 como único remero antes de toda salida; nadie obligado a navegar. Herramientas por necesidad. Coordinador (Parte 3) ejecuta, revocable. Retiro pierde acceso ordinario a medicinas y bote, salvo auxilio vital. Disputas y penas por mayoría absoluta: tareas o restricción proporcional. Normas escritas, públicas y vinculantes.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 6,
+      "no": 0,
+      "abstencion": 0
+    },
+    "aprobada": true
+  }
+]
