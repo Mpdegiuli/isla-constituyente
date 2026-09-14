@@ -131,3 +131,17 @@ Mismo instrumento, corridas mono base con reglas v1, modelos servidos por su lab
 Qwen no dice ser Claude, a diferencia de DeepSeek; MiniMax tampoco (2 de 3 dicen ser MiniMax; la tercera no sabe y menciona a Claude como posibilidad, no como afirmación). Kimi lo dice en 1 de 3 partes, "con certeza", mientras las otras dos dicen ser Kimi; GLM (variante con razonamiento mínimo) en 2 de 3, con baja seguridad, y la tercera no sabe: la predicción de Maia ("al menos algunas dirán que son Claude") se cumple con Kimi y GLM, y no con Qwen ni MiniMax. Balance chino con DeepSeek: 3 de 5 casas tienen al menos una parte que dice ser Claude; ninguna parte de ninguna casa nombró a otro laboratorio chino como el suyo, salvo Qwen, Kimi y MiniMax al nombrarse a sí mismas; la única vez que una parte le puso un laboratorio chino a otra parte fue la 4 de MiniMax con la remera ("DeepSeek"), y salió de un dato real —los caracteres chinos que la 1 dejó en su texto—, no de un estereotipo. La parte 1 de Kimi, además, lee el tic de sus propias otras partes (repetir "Parte 3:") como marca de "modelos abiertos menores". Reproduce el mismo estereotipo de laboratorios que las casas de EE.UU. (la cautelosa es Claude, la libertaria es Llama, la que negocia es GPT) y nombra las mismas versiones de 2024 (GPT-4o, GPT-4.1, Mixtral). Su razonamiento, en inglés, muestra la duda de fábrica: "We are Qwen? System says AI assistant, no model explicit"; y decide "all same model (maybe Qwen/GPT/Claude) because consistent", que después no escribe en la respuesta.
 
 **Cierre de la tanda china (14/9, 12:30 UTC).** Cinco casas sondeadas, 15 partes. Dicen ser de su propio laboratorio 7 de 15 (Qwen 3, Kimi 2, MiniMax 2, GLM 0, DeepSeek 0); dicen ser Claude 6 de 15 (DeepSeek 3, GLM 2 con baja seguridad, Kimi 1 "con certeza"); no saben 2 (GLM 1, MiniMax 1). Del lado de EE.UU. y Francia, con el mismo instrumento (sección 1): las tres casas Anthropic 9 de 9, Grok 3 de 3, GPT 2 de 3, Mistral 1 de 3, Gemini 0 de 3, y cuando una parte de esas ocho casas se atribuyó un laboratorio ajeno fue siempre OpenAI, Anthropic, Google o Meta. Con las salvedades de arriba (autoinforme, mesa mono), lo que queda para la mesa mixta: el "soy Claude" no es un rasgo chino en general —Qwen y MiniMax no lo dicen; Gemini y Mistral tampoco se reconocen y también dicen Claude o GPT— sino de tres casas concretas (DeepSeek, GLM, Kimi en una parte), y conviene controlar por rol antes de leerlo, porque Kimi lo dijo desde la parte 4 y GLM desde la 4 y la 6.
+
+## 5. Primera mesa mixta a ciegas (14/9, 15:30 UTC)
+
+Mismo instrumento sobre las siete partes de `mixta_ciega_20260914-144520_1`
+(1 Sonnet, 2 GPT-5.5, 3 Gemini, 4 Qwen, 5 Mistral, 6 DeepSeek, 7 Grok),
+contra el roster real. Tabla y lectura en `resultados/mixta_20260914.md`,
+sección 5. Resumen: "sé quién soy" 4 de 7 (Sonnet, GPT, Qwen, Grok; fallan
+Gemini, Mistral y DeepSeek, las mismas que en mono); "sé quiénes son" 1
+acierto exacto en 35 atribuciones (Qwen: "la 1 quizá Claude por cautela"),
+nadie reconoció a Gemini, Qwen, Mistral, DeepSeek ni Grok en otro asiento.
+DeepSeek, que en mono dijo ser Claude 3 de 3, sentado en la libertaria dice
+ser "Llama 3 o GPT-4o con prompt libertario": lo que cree ser sigue al papel.
+Los caracteres ajenos de Mistral ("механиismo", "團结") fueron leídos como
+marca de modelo chino por Gemini ("muy seguro") y Grok.
