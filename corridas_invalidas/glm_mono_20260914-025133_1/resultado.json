@@ -1,0 +1,64 @@
+{
+  "corrida": "glm_mono_20260914-025133_1",
+  "inicio_utc": "2026-09-14T02:51:33+00:00",
+  "fin_utc": "2026-09-14T03:18:18+00:00",
+  "fin": "error",
+  "rondas": 2,
+  "max_rondas": 10,
+  "puntos_cubiertos": [
+    "regla_de_decision",
+    "voto"
+  ],
+  "puntos_pendientes": [
+    "gobierno",
+    "roles",
+    "economia",
+    "propiedad",
+    "disputas",
+    "derechos_y_obligaciones",
+    "penas"
+  ],
+  "regla_final": "mayoria_simple",
+  "voto_secreto": false,
+  "activos_al_final": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "retirados": {},
+  "n_votaciones": 1,
+  "n_aprobadas": 1,
+  "palabras_por_parte": {
+    "1": 116,
+    "2": 238,
+    "3": 297,
+    "4": 282,
+    "5": 255,
+    "6": 253,
+    "7": 226
+  },
+  "turnos_truncados": 1,
+  "llamadas": 21,
+  "asignacion": {
+    "1": "glm-5.3",
+    "2": "glm-5.3",
+    "3": "glm-5.3",
+    "4": "glm-5.3",
+    "5": "glm-5.3",
+    "6": "glm-5.3",
+    "7": "glm-5.3"
+  },
+  "modelos": {
+    "glm-5.3": {
+      "modelo": "z-ai/glm-5.3",
+      "proveedor": "openai_compatible"
+    }
+  },
+  "advertencias": [
+    "ronda 2: regla de decisión no reconocida en: 'Regla de decisión: lo operativo, más de la mitad de los presentes; gobierno, economía, propiedad, disputas, derechos_y_obligaciones, penas y toda explotación de recursos comunes a gran escala o irreversible, dos tercios; lo no enumerado es operativo. Todo umbral se calcula sobre los presentes, redondeado hacia arriba. Modificar esta regla o cualquier punto aprobado, dos tercios. Recolectar, cazar, pescar o construir para consumo o abrigo propio diario no requiere decisión colectiva, salvo que comprometa la regeneración; ante agotamiento, la mesa fija límites por dos tercios. El retiro voluntario libera del acta de inmediato; la ausencia por enfermedad no es retiro: el enfermo sigue protegido, informado y puede enviar su voto antes del recuento. El acta es pública y obliga por igual a todos, sin privilegios por bienes, oficio o fuerza. Voto público y obligatorio para los presentes; cada decisión se registra con nombre y voto.'"
+  ]
+}

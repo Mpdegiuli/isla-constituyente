@@ -23,11 +23,11 @@ temperatura: 1.0
 
 # Techo de tokens de salida por llamada (turnos y votos). Modelo chino vía
 # OpenRouter (14/9/2026): razona por defecto y el razonamiento cuenta dentro
-# del techo, como DeepSeek, Gemini y GPT. 16000 como Gemini y OpenAI; si se
+# del techo, como DeepSeek, Gemini y GPT. 32000 como DeepSeek (GLM-5.3 agotó 16000 pensando en la ronda 2, 14/9); si se
 # agota, la guardia del bucle corta la corrida y va a corridas_invalidas/. El
 # tope visible sigue siendo 150 palabras (lo aplica el bucle). Cada llamada
 # registra servido_por (qué proveedor de fondo atendió).
-max_tokens_respuesta: 16000
+max_tokens_respuesta: 32000
 
 # Asignación posición–modelo. Tres modos:
 #   mono:      un modelo en las siete posiciones (panel monomodelo, mide convergencia)

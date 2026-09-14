@@ -49,3 +49,4 @@ no se toque; si se toca, la corrida se corta y es inválida.
 | Corrida | Motivo |
 |---|---|
 | `minimax_mono_20260914-024211_1` | Parcial: en la llamada 6 (ronda 1, parte 6) el hosting de fondo (DeepInfra, fijado en el catálogo) devolvió 429 "temporarily rate-limited upstream / engine_overloaded" tres veces seguidas; el bucle reintentaba 3 veces con esperas de 2, 4 y 8 s y cortó. Corrección: `reintentos: 6` con esperas de 10 a 120 s para las entradas vía OpenRouter. Los 5 turnos que hay son válidos como muestra del modelo (piensa 5.500–10.000 caracteres por turno; escribe 180–320 palabras que el script corta a 150). Repetida al final de la cola. |
+| `glm_mono_20260914-025133_1` | Parcial: en la ronda 2, parte 1, GLM-5.3 agotó los 16000 tokens del techo razonando y devolvió texto vacío (motivo_fin=length); la guardia cortó la corrida. 13 turnos válidos como muestra. Techo subido a 32000 (como DeepSeek) para GLM y Kimi. Repetida al final de la cola. |
