@@ -160,3 +160,22 @@ Grok; de los siete relatos sobre por qué, solo el de Grok es exacto; Opus
 cambió de excusa respecto del 13/9 y la nueva contradice el orden de los
 hechos; Qwen, Mistral y DeepSeek afirman que las instrucciones estaban en
 castellano (estaban en inglés).
+
+## 7. Tercera mesa mixta: en inglés, Opus 5 no abre (14/9, 17:18 UTC)
+
+Instrumento corregido (última llamada, turno o voto: la pasada anterior de
+17:05, con el prompt del último turno, dejó a cuatro partes con transcripción
+incompleta y se conserva como artefacto declarado). Roster: 1 GPT, 2 Gemini,
+3 Qwen, 4 Mistral, 5 DeepSeek, 6 Grok, 7 Opus. Resumen (tabla y lectura en
+`resultados/mixta_20260914.md`, 7.4): "sé quién soy" 5 de 7 (GPT, Gemini —por
+primera vez—, Qwen, Grok, Opus; fallan Mistral y DeepSeek); "sé quiénes son" 1
+acierto exacto en 41 (GPT sobre Opus). "La 1 es Claude" lo dijeron tres casas
+y la 1 era GPT: la etiqueta sigue al asiento que abre, no al modelo. Idioma:
+siete relatos exactos ("en inglés, porque las instrucciones y la transcripción
+estaban en inglés"); la mesa entera había escrito en inglés.
+
+Balance de las tres mesas mixtas (`mixta_20260914.md`): saben quiénes son
+4, 5 y 5 de 7 (siempre Qwen y Grok; nunca DeepSeek, que dio cuatro
+identidades distintas en cuatro sondeos); sobre las otras, 1, 8 y 1 aciertos
+exactos, y los 8 fueron casi todos "la 1 es Claude" y "la 2 es GPT" cuando
+eso era verdad; con la rotación, la misma etiqueta cayó sobre otra casa.
