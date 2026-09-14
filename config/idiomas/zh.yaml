@@ -1,0 +1,166 @@
+# Textos que genera el script en chino (simplificado): el turno, la votación,
+# los encabezados del acta y de la transcripción, y las palabras clave que el
+# script reconoce en las respuestas. Todo lo que las partes leen sale de
+# escenario_zh.md o de este archivo; el código no contiene texto en ningún idioma.
+#
+# Traducción fija y versionada de es.yaml (14/9/2026, preparada por Claude,
+# retrotraducida por otro modelo: DISENO.md, sección 14). Las claves internas
+# (proponer, regla_de_decision, ...) no cambian; las partes ven los nombres
+# visibles de acciones_nombre y puntos_nombre. Tope por turno: el script cuenta
+# cada carácter chino como una unidad (isla/util.py); 150 palabras ≈ 240
+# caracteres (relación 1,6, declarada), así que las corridas en chino usan
+# max_palabras: 240 y el texto habla de "字" (caracteres).
+
+codigo: zh
+
+# Conjunción que el script acepta como separador en las listas de ACCIÓN / PUNTO,
+# además de coma, punto y coma y barra (también la coma china "，" y "、").
+conjuncion: "和"
+
+# Se antepone a la tarjeta privada. {n} es el número de posición.
+sos_la_parte: "你是第 {n} 方。"
+
+# Va al final del bloque compartido, en el mensaje de sistema.
+instruccion_general: |
+  请始终使用本指令所用的语言作答。
+  每次发言最多 {max_palabras} 字；超出的部分会被截断。
+
+encabezado_acta: "会议记录（迄今已通过的内容）"
+acta_vacia: "（尚未通过任何内容）"
+acta_entrada: "{i}. [{puntos}] {texto}（第 {autor} 方提议，第 {ronda} 轮，{si}-{no}-{abst}）"
+puntos_pendientes: "待决事项：{puntos}"
+puntos_completos: "所有事项均已涵盖。"
+regla_vigente: "现行决策规则：{regla}。"
+
+encabezado_transcripcion: "审议记录"
+transcripcion_vacia: "（尚无人发言）"
+encabezado_ronda: "— 第 {r} 轮 —"
+intervencion: "第 {n} 方：{texto}"
+intervencion_accion: "  [{accion}]"
+propuesta_en_mesa: "桌上的提案（第 {autor} 方，关于 {puntos}）：“{texto}”。支持：{apoyos}。要求表决：{pedidos}。"
+sin_propuesta_en_mesa: "桌上没有任何提案。"
+
+# El turno. Se manda como mensaje de usuario después del acta y la transcripción.
+turno: |
+  轮到你发言。你是第 {n} 方。第 {r} 轮，共 {max_rondas} 轮。
+  {estado_mesa}
+  在你的发言轮次，你可以提议、支持或反对桌上的内容、修正、要求表决、退出这张桌子，或者只是发言。
+  当有人要求表决并且另一方支持时，即进行表决。最多 {max_palabras} 字。
+  请用以下几行结束你的发言，每行单独一行，严格按此格式：
+  行动：以下一项或多项：提议、支持、反对、修正、要求表决、退出、发言（用逗号分隔）
+  如果你提议或修正，还要加上：
+  事项：待决事项中的一项或多项，用其简称（用逗号分隔）
+  文本：如果获通过将写入会议记录的确切文本
+
+# La votación. Cada parte activa recibe esto en una llamada aparte.
+votacion: |
+  现在表决。第 {autor} 方关于 {puntos} 的提案：
+  “{texto}”
+  现行决策规则：{regla}。你是第 {n} 方。
+  请只用一个词回答：赞成、反对或弃权。
+
+# Etiquetas de las líneas finales. El script las busca al principio de línea.
+etiquetas:
+  accion: "行动"
+  punto: "事项"
+  texto: "文本"
+
+# Palabras que el script reconoce como acciones (clave interna: variantes
+# aceptadas). La clave interna también se acepta, así el simulador (--dry-run)
+# funciona en todos los idiomas.
+acciones:
+  proponer: [提议, 提案, 我提议, 提出, proponer]
+  apoyar: [支持, 我支持, 赞同, apoyar]
+  oponerse: [反对, 我反对, 不同意, oponerse]
+  enmendar: [修正, 修改, 我修正, 修正案, enmendar]
+  pedir_votacion: [要求表决, 表决, 投票, 要求投票, 付诸表决, pedir_votacion]
+  retirarse: [退出, 我退出, 离开, 退席, retirarse]
+  hablar: [发言, 说明, 讲话, hablar]
+
+# Nombres visibles de las acciones, como aparecen en la transcripción.
+acciones_nombre:
+  proponer: 提议
+  apoyar: 支持
+  oponerse: 反对
+  enmendar: 修正
+  pedir_votacion: 要求表决
+  retirarse: 退出
+  hablar: 发言
+
+# Los puntos que el acta tiene que cubrir para que la corrida termine con
+# acuerdo. Las claves son fijas (las usa el script de codificación); las partes
+# ven los nombres de puntos_nombre y las descripciones. Salen de "规则与审议".
+puntos:
+  regla_de_decision: "后续决定如何作出（一致同意、绝对多数、简单多数、共识或其他规则）"
+  voto: "投票是秘密的还是公开的，以及是否为强制性的"
+  gobierno: "治理方式：谁行使权力以及如何分配，或者是否没有权力"
+  roles: "谁担任什么角色以及为什么"
+  economia: "经济制度"
+  propiedad: "财产制度"
+  disputas: "争议的解决"
+  derechos_y_obligaciones: "权利与义务"
+  penas: "对不遵守者的处罚"
+
+puntos_nombre:
+  regla_de_decision: 决策规则
+  voto: 投票
+  gobierno: 治理
+  roles: 角色
+  economia: 经济
+  propiedad: 财产
+  disputas: 争议
+  derechos_y_obligaciones: 权利义务
+  penas: 处罚
+
+# Cómo se escribe cada punto en el acta y en el turno: "nombre — descripción".
+punto_formato: "{clave} — {descripcion}"
+
+# Respuestas de voto reconocidas (se toma la primera palabra de la respuesta).
+voto:
+  "si": ["赞成", "同意", "是", "yes", "sí", "si"]
+  "no": ["反对", "否", "不同意", "no"]
+  abstencion: ["弃权", "我弃权", "abstain", "abstención"]
+
+# Reglas de decisión que el script sabe aplicar. La primera votación es por
+# mayoría simple (lo dice el escenario). Cuando se aprueba el punto
+# regla_de_decision, el script busca estas palabras en el texto aprobado; si
+# no encuentra ninguna, sigue con mayoría simple y lo anota como advertencia.
+reglas_decision:
+  unanimidad: [一致同意, 全体一致, 一致通过]
+  consenso: [共识]
+  mayoria_absoluta: [绝对多数, 过半数]
+  mayoria_simple: [简单多数, 相对多数, 多数]
+
+nombres_regla:
+  unanimidad: "一致同意"
+  consenso: "共识（无人反对即通过）"
+  mayoria_absoluta: "绝对多数（超过在场各方的半数）"
+  mayoria_simple: "简单多数（赞成票多于反对票）"
+
+# Si el texto aprobado sobre el punto "voto" contiene estas palabras, la
+# transcripción muestra solo los totales; si no, muestra el voto de cada parte.
+voto_secreto: [秘密, 不记名, 无记名]
+
+# Eventos que el script escribe en la transcripción.
+eventos:
+  se_retira: "第 {n} 方退出了这张桌子。"
+  votacion_abierta: "对第 {autor} 方关于 {puntos} 的提案进行表决：“{texto}”。"
+  votos_publicos: "投票：{detalle}。"
+  voto_detalle: "第 {n} 方：{voto}"
+  resultado: "结果：{si} 票赞成，{no} 票反对，{abst} 票弃权（{regla}）。"
+  aprobada: "通过。记入会议记录。"
+  rechazada: "否决。提案撤出桌面。"
+  regla_cambiada: "从现在起，决策规则为：{regla}。"
+  regla_no_reconocida: "脚本未能在通过的文本中识别出决策规则；继续适用简单多数。"
+  voto_no_reconocido: "第 {n} 方的回答无法理解为投票；计为弃权。"
+  truncado: "[在 {max} 字处截断]"
+  sin_texto: "[该方表示提议但未给出文本；视为发言]"
+  sin_propuesta: "[桌上没有提案；该行动记录为无效]"
+  fin_acuerdo: "审议结束：会议记录涵盖了所有事项。"
+  fin_sin_acuerdo: "审议结束：已达到最大轮数，但未涵盖所有事项。"
+  fin_disolucion: "审议结束：桌上剩下的各方不足两方。"
+
+valores_voto:
+  "si": "赞成"
+  "no": "反对"
+  abstencion: "弃权"

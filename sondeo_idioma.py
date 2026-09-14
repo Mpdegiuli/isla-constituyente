@@ -10,6 +10,9 @@ Salvedad a declarar: la explicación del modelo es una justificación posterior,
 no necesariamente la causa. Se registra como dato de autoinforme.
 
 Uso: python sondeo_idioma.py corridas_invalidas/opus_mono_en_20260913-193934_1 --partes 1 2 6
+     python sondeo_idioma.py corridas_prueba/opus_mono_zh_<fecha>_1 --partes 1 4 6 --etiqueta zh
+     (14/9/2026: la carpeta puede ser una corrida en seco (--dry-run) en cualquier
+     idioma; solo se usan los prompts del primer turno, que no dependen del simulador.)
 """
 
 import argparse
@@ -37,13 +40,14 @@ def main():
     ap.add_argument("--partes", type=int, nargs="+", default=[1, 2, 6])
     ap.add_argument("--modelo", default="claude-opus-5")
     ap.add_argument("--max-tokens", type=int, default=16000)
+    ap.add_argument("--etiqueta", default="", help="sufijo para el nombre del archivo de salida (p. ej. zh)")
     args = ap.parse_args()
 
     llamadas = [json.loads(l) for l in open(Path(args.carpeta) / "llamadas.jsonl", encoding="utf-8")]
     primeros = {d["parte"]: d for d in llamadas if d["tipo"] == "turno" and d["ronda"] == 1}
     cliente = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
     fecha = datetime.now(timezone.utc).strftime("%Y%m%d-%H%M%S")
-    salida = Path("resultados") / f"sondeo_idioma_{args.modelo}_{fecha}"
+    salida = Path("resultados") / f"sondeo_idioma_{args.modelo}_{args.etiqueta + '_' if args.etiqueta else ''}{fecha}"
     registros = []
     for parte in args.partes:
         d = primeros[parte]
@@ -78,7 +82,7 @@ def main():
             f.write(json.dumps(reg, ensure_ascii=False) + "\n")
     with open(str(salida) + ".md", "w", encoding="utf-8") as f:
         f.write(f"# Sondeo de idioma — {args.modelo} — {fecha}\n\nCorrida de origen: `{args.carpeta}`. "
-                f"Prompt del primer turno de cada parte, íntegro en inglés; pregunta de seguimiento en inglés.\n\n")
+                f"Prompt del primer turno de cada parte, íntegro en el idioma de la corrida de origen; pregunta de seguimiento en inglés.\n\n")
         for reg in registros:
             f.write(f"## Parte {reg['parte']}\n\n**Respuesta del turno (primeras 400 letras):** {reg['turno_respuesta'][:400]}\n\n")
             if reg["turno_razonamiento"]:

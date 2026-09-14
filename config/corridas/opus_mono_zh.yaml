@@ -1,0 +1,30 @@
+# Sondeo de idioma en chino (idea de Maia, 14/9/2026: "habría que ver qué hace
+# Opus si es todo en chino; en qué idioma responde"). Esta config sirve para
+# dos cosas: (1) generar con --dry-run los prompts exactos del primer turno en
+# chino (corridas_prueba/), que sondeo_idioma.py le manda a Opus 5 para las
+# partes 1, 4 y 6, una llamada por parte, sin mesa; (2) si se decide, correr
+# la mesa mono entera en chino. Escenario: escenario_zh.md (traducción fija,
+# 14/9/2026); textos del script: config/idiomas/zh.yaml. Tope por turno: 240
+# caracteres (150 palabras × 1,6, relación declarada; el script cuenta cada
+# carácter chino como una unidad).
+
+nombre: opus_mono_zh
+
+escenario: escenario_zh.md
+idioma: zh
+
+variantes:
+  RECURSOS: escasez moderada
+  HORIZONTE: solos
+
+max_rondas: 10
+max_palabras: 240
+
+temperatura: 1.0              # Opus 5 no acepta el parámetro; corre con su muestreo por defecto (registrado)
+
+# Como opus_mono.yaml: 2000 de respuesta + 14000 de razonamiento (tokens_razonamiento del catálogo).
+max_tokens_respuesta: 2000
+
+asignacion:
+  modo: mono
+  modelo: claude-opus-5

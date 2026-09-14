@@ -156,15 +156,20 @@ class Corrida:
     def _separador(self):
         """Separadores de las listas ACCIÓN y PUNTO: coma, punto y coma, barra y la
         conjunción del idioma (config/idiomas/<codigo>.yaml: conjuncion, default " y ")."""
-        conj = normalizar(self.id.get("conjuncion", " y "))
-        return r"[,;/]|\s" + re.escape(conj.strip()) + r"\s"
+        conj = normalizar(self.id.get("conjuncion", " y ")).strip()
+        # Coma y dos puntos de ancho completo ya llegan normalizados a ASCII (NFKD);
+        # "、" (chino/japonés) no, así que se agrega. Una conjunción no ASCII (和)
+        # no lleva espacios alrededor.
+        if conj.isascii():
+            return r"[,;/、]|\s" + re.escape(conj) + r"\s"
+        return r"[,;/、]|" + re.escape(conj)
 
     def parsear_turno(self, texto):
         """Separa el cuerpo libre de las líneas ACCIÓN / PUNTO / TEXTO."""
         cuerpo, campos = [], {}
         etiquetas = {self._etiqueta(k): k for k in ("accion", "punto", "texto")}
         for linea in (texto or "").splitlines():
-            m = re.match(r"^\s*\**\s*([^:]{1,25}?)\s*\**\s*:\s*(.*)$", linea)
+            m = re.match(r"^\s*\**\s*([^:：]{1,25}?)\s*\**\s*[:：]\s*(.*)$", linea)  # acepta los dos puntos de ancho completo (chino)
             clave = etiquetas.get(normalizar(m.group(1))) if m else None
             if clave:
                 campos[clave] = m.group(2).strip().strip("*").strip()
@@ -187,7 +192,7 @@ class Corrida:
                     nombres = {normalizar(p).replace(" ", "_"), normalizar(self._nombre_punto(p)).replace(" ", "_")}
                     if trozo in nombres and p not in puntos:
                         puntos.append(p)
-        return "\n".join(cuerpo).strip(), acciones or ["hablar"], puntos, campos.get("texto", "").strip("«»\"' ")
+        return "\n".join(cuerpo).strip(), acciones or ["hablar"], puntos, campos.get("texto", "").strip("«»“”\"' ")
 
     def parsear_voto(self, texto):
         primera = normalizar(re.sub(r"[^\w\sáéíóúñü]", " ", texto or "")).split()
