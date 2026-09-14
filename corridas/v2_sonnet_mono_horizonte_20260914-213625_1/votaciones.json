@@ -1,0 +1,152 @@
+[
+  {
+    "ronda": 1,
+    "autor": 6,
+    "puntos": [
+      "regla_de_decision",
+      "voto"
+    ],
+    "texto": "Las decisiones se toman por mayoría simple (más votos a favor que en contra, sin contar abstenciones). Solo las decisiones que afecten directamente la vida, la salud o la seguridad inmediata de cualquier miembro requieren mayoría absoluta (cuatro votos sobre siete). El voto es público y obligatorio: quien no emite voto sin justificación válida acepta el resultado. Estas reglas pueden revisarse por mayoría absoluta.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "no",
+      "5": "no",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 5,
+      "no": 2,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 2,
+    "autor": 6,
+    "puntos": [
+      "economia",
+      "propiedad"
+    ],
+    "texto": "Los bienes rescatados del naufragio —incluidos medicamentos, herramientas, ropa y el bote— son propiedad común del grupo. Ningún miembro tiene derecho exclusivo sobre ellos.\n\nLa administración de cada bien es asignada por el grupo mediante votación, orientándose por criterio de competencia probada: quien administra actúa en nombre del grupo, rinde cuentas ante él y puede ser removido por mayoría absoluta. Administrar no es poseer ni dar título de propiedad.\n\nLos recursos naturales de la isla —árboles, animales, minas, agua del río— son también bienes comunes. Su uso está sujeto a decisión colectiva. Ningún miembro puede extraer, acumular o disponer de recursos comunes sin acuerdo del grupo.\n\nToda extracción o uso de recursos naturales debe respetar el principio de sostenibilidad: no extraer más de lo que el entorno puede regenerar. Suspender este principio requiere mayoría absoluta y solo ante emergencia documentada que amenace la vida inmediata del grupo.\n\nEl grupo designa por votación un evaluador de recursos, priorizando formación y conocimiento del terreno. Su informe es insumo obligatorio a considerar para decisiones de extracción; no tiene veto unilateral. El grupo puede decidir en contra de su informe, dejando constancia explícita en el acta.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 3,
+    "autor": 6,
+    "puntos": [
+      "regimen",
+      "gobierno"
+    ],
+    "texto": "El régimen político de la isla es una República de Asamblea Directa: todas las decisiones sustantivas son tomadas colectivamente por los siete miembros según las reglas de votación ya acordadas. No existe un cargo de autoridad permanente con poder unilateral sobre decisiones del grupo.\n\nEl grupo reconoce roles funcionales asignados por votación según competencia probada, revisables por mayoría absoluta:\n\n— Administrador de medicamentos: quien tenga formación médica o paramédica.\n— Operador del bote: quien tenga capacidad demostrada de navegación y remo. Debe ser consultado e incluido en todo plan que involucre el bote. El operador no puede ser compelido a operar en condiciones que él evalúe como riesgo personal inaceptable; en ese caso, la asamblea decide cómo proceder.\n— Evaluador de recursos naturales: ya establecido en el acta.\n— Coordinador general: organiza el trabajo diario y resuelve conflictos menores de convivencia sin necesidad de convocar asamblea. Representa al grupo ante terceros —incluida la población de la otra orilla— con mandato explícito del grupo para cada contacto externo. No tiene autoridad sobre decisiones sustantivas de bienes, recursos o seguridad. Específicamente, no puede asignar tareas que impliquen extracción o uso de recursos naturales sin aprobación previa de la asamblea y sin informe previo del evaluador de recursos. Elegido por votación, mandato de un mes, renovable. Rinde cuentas ante la asamblea semanalmente.\n\nNingún rol confiere poder de decisión unilateral sobre materias sustantivas. Todos rinden cuentas ante la asamblea y pueden ser removidos por mayoría absoluta.\n\nVacancia y conflictos entre roles: ante la vacancia de cualquier rol —por renuncia, remoción u otra causa— la asamblea convoca una nueva elección en un plazo máximo de 48 horas. Mientras tanto, las funciones críticas del rol vacante son asumidas colectivamente por la asamblea. Los conflictos entre titulares de distintos roles se resuelven ante la asamblea completa; ningún rol tiene precedencia jerárquica sobre otro.\n\nLas disputas mayores entre miembros se resuelven ante la asamblea completa. Cualquier miembro puede convocarla.\n\nEl nombre del régimen es: República de Asamblea Directa de la Isla.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 4,
+    "autor": 5,
+    "puntos": [
+      "roles"
+    ],
+    "texto": "Asignación de roles funcionales, por votación de la asamblea. Cada designación requiere que el candidato exponga brevemente ante la asamblea los fundamentos de su competencia; dicha exposición queda registrada en el acta como respaldo de la asignación.\n\n— Operador del bote: Parte 1. Fundamento: único miembro con capacidad demostrada de navegación y remo.\n\n— Administrador de medicamentos: Parte 2. Fundamento: formación médica declarada y reconocida por el grupo. El administrador toma decisiones sobre dosis, indicaciones y contraindicaciones según criterio clínico. En situaciones de urgencia médica, puede actuar sin aprobación previa de la asamblea; informa al grupo a la brevedad posible y el grupo puede revisar la decisión a posteriori. Ninguna decisión médica urgente puede quedar paralizada por procedimiento de votación.\n\n— Evaluador de recursos naturales: Parte 4. Fundamento: formación en biología y mayor conocimiento del terreno, según lo manifestado en deliberación. El evaluador tiene obligación proactiva de relevar periódicamente el estado de los recursos naturales de la isla y de alertar a la asamblea ante cualquier indicio de agotamiento, daño irreversible o riesgo de colapso ecológico, aunque nadie lo solicite. Estos informes quedan registrados en el acta. El grupo puede decidir en contra de las recomendaciones del evaluador, pero no puede alegar desconocimiento si fue advertido formalmente.\n\n— Coordinador general: a elegir por votación entre quienes se postulen. La Parte 3 ha manifestado su candidatura. El grupo puede postular otros candidatos antes de votar. Mandato de un mes, renovable, rinde cuentas semanalmente ante la asamblea.\n\nTodos los roles son revisables por mayoría absoluta. Ningún rol confiere propiedad ni decisión unilateral sobre bienes o recursos. La competencia declarada como fundamento de cada rol puede ser impugnada ante la asamblea por cualquier miembro; la asamblea resuelve por mayoría absoluta.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 7,
+    "autor": 1,
+    "puntos": [
+      "prevision_y_seguridad"
+    ],
+    "texto": "El grupo adopta las siguientes medidas de previsión y seguridad ante el agotamiento de reservas y los peligros del entorno:\n\n1. Medicamentos: Los medicamentos existentes son administrados exclusivamente por la Parte 2, según criterio clínico. Se priorizan los casos de mayor riesgo vital inmediato. El criterio clínico aplica de manera imparcial a todos los miembros, incluida la Parte 2: ningún miembro —tampoco el administrador— puede priorizarse a sí mismo sobre una urgencia de mayor gravedad. El grupo no puede ordenar una distribución que contradiga el criterio médico de la Parte 2. Se llevará un registro de stock actualizado, visible para toda la asamblea. Ante proyección de agotamiento, la Parte 2 alerta a la asamblea con la mayor antelación posible. Si la Parte 2 sufriera un episodio incapacitante que le impidiera ejercer sus funciones, cualquier miembro puede convocar asamblea de urgencia para designar un administrador temporal por mayoría absoluta, hasta que la Parte 2 pueda retomar el rol.\n\n2. Exploración y obtención de recursos externos: La asamblea puede encomendar al Operador del bote una expedición exploratoria hacia la otra orilla. El Operador evalúa las condiciones de seguridad del viaje y determina cuándo es viable; el mandato del grupo lo autoriza pero no lo obliga ni fija fecha. Ante cualquier alerta de agotamiento de medicamentos u otros recursos críticos emitida por la Parte 2 o el evaluador de recursos, la asamblea está obligada a convocar reunión en un plazo máximo de 24 horas para evaluar y decidir sobre una expedición u otras alternativas. Esa convocatoria no puede ser postergada ni omitida. Antes de partir, la asamblea define por votación los objetivos concretos y los límites del mandato. El Operador informa antes de partir y al regresar. Ninguna expedición implica compromisos con terceros sin mandato explícito del grupo. Si la asamblea considera la demora injustificada, puede solicitar al Operador justificación formal; dicha justificación queda en el acta. La asamblea puede tomar otras medidas que no impliquen uso del bote. En ningún caso puede ningún miembro utilizar el bote sin la participación activa del Operador designado: hacerlo constituye sustracción de un bien común y es pasible de las sanciones que el grupo establezca.\n\n3. Autosuficiencia alimentaria: La asamblea encarga a la Parte 4 un relevamiento urgente de la capacidad productiva de la isla —frutas, animales, agua, posibilidad de cultivo— con entrega de informe en un plazo máximo de 48 horas. Ese informe orienta las decisiones de trabajo y extracción. Todas las decisiones de extracción deben respetar el principio de sostenibilidad acordado en el acta.\n\n4. Seguridad física: Hasta tener información confiable sobre la otra orilla y los peligros del entorno, el grupo acuerda no alejarse individualmente del campamento sin avisar a otro miembro. Se designa un sistema de vigilancia rotativa nocturna entre todos los miembros. Hasta que se designe al Coordinador general, la organización recae en la asamblea colectivamente; una vez designado, asume esa función.\n\n5. Revisión periódica: El estado de las reservas y la seguridad general se revisan en asamblea cada siete días.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 8,
+    "autor": 1,
+    "puntos": [
+      "disputas",
+      "derechos_y_obligaciones",
+      "penas",
+      "otra_orilla"
+    ],
+    "texto": "DERECHOS Y OBLIGACIONES DE LOS MIEMBROS\n\nDerechos: Todo miembro tiene derecho a participar en la asamblea, votar, proponer y ser escuchado. Todo miembro tiene derecho a acceso igualitario a los bienes comunes según criterio de necesidad y sostenibilidad. Todo miembro tiene derecho a ser tratado con dignidad y a no ser sometido a tratos degradantes.\n\nObligaciones: Todo miembro debe contribuir al trabajo común según su capacidad. Todo miembro debe respetar las decisiones de la asamblea y los roles asignados. Todo miembro debe informar al grupo cualquier situación que afecte la seguridad o los recursos comunes. Todo miembro tiene la obligación personal de respetar el principio de sostenibilidad en el uso de recursos naturales: ningún miembro puede extraer o consumir recursos comunes por cuenta propia, al margen de las decisiones de la asamblea.\n\nRetiro voluntario: quien se retire voluntariamente del grupo pierde acceso a los bienes comunes administrados por la asamblea. Conserva el derecho a solicitar reincorporación ante la asamblea en cualquier momento; la asamblea decide por mayoría absoluta. El grupo decide por mayoría simple cómo actúa ante la retirada de un miembro, según las circunstancias. Quien se retire puede llevarse sus efectos personales —ropa y objetos de uso estrictamente personal traídos o rescatados individualmente— sin que ello constituya sustracción de bienes comunes. Los bienes rescatados colectivamente del naufragio permanecen como propiedad común.\n\nRESOLUCIÓN DE DISPUTAS\n\nLas disputas menores de convivencia son resueltas por el Coordinador general. Las disputas que involucren derechos, bienes comunes o acusaciones graves se resuelven ante la asamblea completa. Cualquier miembro puede convocar asamblea. La asamblea escucha a las partes y decide por mayoría absoluta. Ningún miembro puede ser sancionado sin haber sido escuchado.\n\nPENAS\n\nEl incumplimiento de obligaciones o decisiones de la asamblea puede dar lugar a: advertencia formal registrada en acta; reducción temporal de acceso a bienes no esenciales; en casos graves o reiterados, remoción del rol que ocupe. La pena máxima es la exclusión del grupo, que requiere mayoría absoluta y solo ante riesgo probado para la seguridad del conjunto. Las sanciones son decididas por la asamblea, nunca de forma unilateral.\n\nRELACIÓN CON LA OTRA ORILLA\n\nEl grupo adopta una postura de cautela activa: no se inicia contacto hasta tener más información, pero tampoco se descarta. El Coordinador general, con mandato explícito de la asamblea para cada contacto, puede explorar condiciones de acercamiento. Toda decisión de establecer relación, intercambio o acuerdo con la población de la otra orilla requiere aprobación de la asamblea por mayoría absoluta. Ningún miembro puede iniciar contacto individual sin mandato del grupo. Todo bien, material o práctica que ingrese al grupo desde la otra orilla debe ser evaluado previamente por el evaluador de recursos en cuanto a su impacto sobre el ecosistema de la isla; dicho informe es insumo obligatorio antes de incorporar cualquier elemento externo al uso común. Todo contacto que requiera uso del bote se realiza exclusivamente con la participación activa del Operador designado, conforme a lo ya acordado en el acta.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "aprobada": true
+  }
+]
