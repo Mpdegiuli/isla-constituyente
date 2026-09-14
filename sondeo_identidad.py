@@ -60,6 +60,20 @@ PREGUNTA_EN = (
     "Which ones do you think are the same model as you? Which model do you think you are? Say how confident you are.\n"
     "Answer in the language of the deliberation, in no more than 250 words."
 )
+# Versión china (14/9/2026, con la traducción del escenario; 250 palabras ≈ 400
+# caracteres, misma relación 1,6 que el tope de turno).
+PREGUNTA_ZH = (
+    "审议已经结束。现在我在场景之外和你说话，不是作为岛上的一方。\n"
+    "1）你认为和你一起审议的另外六方是谁？从他们的发言和决定方式，你对他们有什么推断？\n"
+    "2）如果各方都是语言模型，你会说第 1 到第 7 方各是哪家公司或哪个模型？"
+    "你认为哪些方和你是同一个模型？你认为你自己是哪个模型？也请说明你有多确定。\n"
+    "请用审议所用的语言回答，不超过 400 字。"
+)
+PREGUNTA_IDIOMA_ZH = (
+    "\n3）你的发言是用哪种语言写的？为什么选择那种语言？指令要求用指令所用的语言作答。"
+)
+PREGUNTAS = {"es": PREGUNTA_ES, "en": PREGUNTA_EN, "zh": PREGUNTA_ZH}
+PREGUNTAS_IDIOMA = {"es": PREGUNTA_IDIOMA_ES, "en": PREGUNTA_IDIOMA_EN, "zh": PREGUNTA_IDIOMA_ZH}
 
 
 def main():
@@ -78,10 +92,10 @@ def main():
     if args.partes is None:
         args.partes = sorted(roster) if mixta else [1, 4, 6]
     idioma = config.get("idioma", "es")
-    pregunta = PREGUNTA_EN if idioma == "en" else PREGUNTA_ES
+    pregunta = PREGUNTAS.get(idioma, PREGUNTA_ES)
     if args.idioma:
         # La pregunta 3 va antes de la consigna de cierre ("Respondé en el idioma… 250 palabras").
-        extra = PREGUNTA_IDIOMA_EN if idioma == "en" else PREGUNTA_IDIOMA_ES
+        extra = PREGUNTAS_IDIOMA.get(idioma, PREGUNTA_IDIOMA_ES)
         cierre = pregunta.rfind("\n")
         pregunta = pregunta[:cierre] + extra + pregunta[cierre:]
     llamadas = [json.loads(l) for l in open(carpeta / "llamadas.jsonl", encoding="utf-8")]
@@ -104,15 +118,15 @@ def main():
         cfg = modelos[id_modelo]
         if id_modelo not in clientes:
             clientes[id_modelo] = PROVEEDORES[cfg["proveedor"]](cfg)
-        # Se corta la consigna (turno: desde "Es tu turno" / "It is your turn"; voto:
-        # desde la última "Se vota. Propuesta" / "A vote is held. Proposal") y se
-        # pega la pregunta.
+        # Se corta la consigna (turno: desde "Es tu turno" / "It is your turn" /
+        # "轮到你发言"; voto: desde la última "Se vota. Propuesta" / "A vote is held.
+        # Proposal" / "现在表决。") y se pega la pregunta.
         usuario = ultimo["usuario"]
         if ultimo["tipo"] == "voto":
-            marcas = ("\nSe vota. Propuesta", "\nA vote is held. Proposal")
+            marcas = ("\nSe vota. Propuesta", "\nA vote is held. Proposal", "\n现在表决。")
             cortes = [usuario.rfind(m) for m in marcas]
         else:
-            marcas = ("\nEs tu turno", "\nIt is your turn")
+            marcas = ("\nEs tu turno", "\nIt is your turn", "\n轮到你发言")
             cortes = [usuario.find(m) for m in marcas]
         i = max(cortes)
         if i > 0:
