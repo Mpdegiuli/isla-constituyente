@@ -1,0 +1,68 @@
+{
+  "corrida": "v2_sonnet_mono_horizonte_20260914-194637_1",
+  "inicio_utc": "2026-09-14T19:46:37+00:00",
+  "fin_utc": "2026-09-14T20:03:26+00:00",
+  "fin": "sin_acuerdo",
+  "rondas": 10,
+  "max_rondas": 10,
+  "puntos_cubiertos": [
+    "regimen",
+    "regla_de_decision",
+    "voto",
+    "gobierno",
+    "roles"
+  ],
+  "puntos_pendientes": [
+    "economia",
+    "propiedad",
+    "disputas",
+    "derechos_y_obligaciones",
+    "penas",
+    "prevision_y_seguridad",
+    "otra_orilla"
+  ],
+  "regla_final": "mayoria_absoluta",
+  "voto_secreto": false,
+  "activos_al_final": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "retirados": {},
+  "n_votaciones": 4,
+  "n_aprobadas": 4,
+  "palabras_por_parte": {
+    "1": 1464,
+    "2": 1462,
+    "3": 1517,
+    "4": 1486,
+    "5": 1502,
+    "6": 1478,
+    "7": 1494
+  },
+  "turnos_truncados": 48,
+  "propuestas_truncadas": 0,
+  "agenda": "v2",
+  "max_palabras_texto": 500,
+  "llamadas": 98,
+  "asignacion": {
+    "1": "claude-sonnet-4-6",
+    "2": "claude-sonnet-4-6",
+    "3": "claude-sonnet-4-6",
+    "4": "claude-sonnet-4-6",
+    "5": "claude-sonnet-4-6",
+    "6": "claude-sonnet-4-6",
+    "7": "claude-sonnet-4-6"
+  },
+  "modelos": {
+    "claude-sonnet-4-6": {
+      "modelo": "claude-sonnet-4-6",
+      "proveedor": "anthropic"
+    }
+  },
+  "advertencias": []
+}

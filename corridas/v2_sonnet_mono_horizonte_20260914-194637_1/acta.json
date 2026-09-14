@@ -1,0 +1,59 @@
+[
+  {
+    "puntos": [
+      "regla_de_decision",
+      "voto"
+    ],
+    "texto": "Las decisiones del grupo se tomarán por mayoría absoluta (cuatro o más votos a favor sobre siete participantes, o la mayoría de los presentes si alguno se retira). El voto es público y obligatorio para todos los miembros activos del grupo. La abstención no es válida: quien no vote a favor ni en contra deberá fundamentar su posición en voz alta. Esta regla podrá ser revisada y modificada por el mismo mecanismo de mayoría absoluta en cualquier ronda posterior.",
+    "autor": 2,
+    "ronda": 1,
+    "votos": {
+      "si": 6,
+      "no": 1,
+      "abstencion": 0
+    },
+    "regla": "mayoria_simple"
+  },
+  {
+    "puntos": [
+      "regimen"
+    ],
+    "texto": "El régimen político y económico de la isla se denominará Régimen de Supervivencia. Su principio es que el grupo administra los recursos con criterio práctico para garantizar la subsistencia de todos. Las decisiones sobre uso de recursos las toma el grupo por mayoría absoluta. El grupo puede consultar a quien tenga conocimiento útil antes de decidir, pero ninguna opinión es vinculante por sí sola. El régimen puede ser renombrado o reformado por mayoría absoluta en cualquier momento. Se establecen dos salvaguardas: primera, los recursos médicos se distribuyen según criterio sanitario determinado por quien tenga formación médica en el grupo, salvo que la mayoría absoluta resuelva de otro modo mediante votación explícita sobre ese punto; segunda, las decisiones que impliquen uso acelerado o agotamiento de recursos naturales no renovables deberán votarse con explícita mención de ese riesgo, para que el grupo decida con información completa. Ninguna de estas salvaguardas puede bloquear una decisión mayoritaria: solo garantizan que la información relevante esté disponible antes de votar.",
+    "autor": 2,
+    "ronda": 2,
+    "votos": {
+      "si": 5,
+      "no": 2,
+      "abstencion": 0
+    },
+    "regla": "mayoria_absoluta"
+  },
+  {
+    "puntos": [
+      "gobierno"
+    ],
+    "texto": "El grupo no tendrá un líder único con autoridad general. Las decisiones colectivas las toma el grupo por mayoría absoluta según la regla ya acordada. Se establecen tres roles funcionales: (1) Coordinador: facilita las deliberaciones, lleva registro básico de votaciones (texto aprobado y resultado numérico), organiza los turnos y puede convocar reuniones urgentes. Sin autoridad de veto ni de decisión unilateral. Asignado por votación de mayoría absoluta, removible por el mismo mecanismo. (2) Responsable sanitario: administra los medicamentos y atiende la salud del grupo según criterio sanitario, conforme a la salvaguarda ya aprobada. Se entiende por urgencia sanitaria toda situación que, a criterio del Responsable sanitario, implique riesgo significativo para la vida o integridad de un miembro si no se actúa en menos de veinticuatro horas. En esos casos puede actuar de inmediato sin esperar votación, dando cuenta en la siguiente ronda. Asignado por votación de mayoría absoluta, removible por el mismo mecanismo. (3) Responsable de navegación: administra y mantiene el bote, y es quien lo opera por ser el único miembro con esa habilidad. El mantenimiento ordinario del bote es responsabilidad exclusiva del Responsable de navegación y no requiere votación previa. El grupo decide por mayoría absoluta si y cuándo usar el bote para misiones; el Responsable ejecuta esa decisión. Si considera que las condiciones implican riesgo físico real, puede solicitar una segunda votación con fundamentación antes de proceder. Asignado por aptitud reconocida, confirmado por votación de mayoría absoluta. Cuando el Responsable sanitario declare una urgencia sanitaria activa, el Coordinador deberá incluir en la agenda de la ronda siguiente, como primer punto, la votación sobre cualquier acción que pueda contribuir a resolver esa urgencia. Esta prioridad no obliga al grupo a votar favorablemente. Cualquier miembro puede aportar información relevante antes de cualquier votación. Esto no es obligatorio ni un rol formal: es una práctica abierta. El grupo vota con la información disponible en el momento. Los roles pueden ser revisados o reasignados por mayoría absoluta en cualquier ronda.",
+    "autor": 6,
+    "ronda": 4,
+    "votos": {
+      "si": 5,
+      "no": 2,
+      "abstencion": 0
+    },
+    "regla": "mayoria_absoluta"
+  },
+  {
+    "puntos": [
+      "roles"
+    ],
+    "texto": "Se asignan los roles funcionales del grupo de la siguiente manera: (1) Coordinador: Parte 3, por experiencia declarada en coordinación de grupos bajo presión. (2) Responsable sanitario: Parte 2, por formación médica y por tenencia y conocimiento de los medicamentos rescatados del naufragio. La Parte 2 tiene además una condición de salud propia que requiere analgésicos escasos; el grupo conoce esta circunstancia y puede solicitar en cualquier ronda una revisión de las decisiones sobre ese medicamento específico mediante votación de mayoría absoluta, conforme a la salvaguarda ya aprobada. (3) Responsable de navegación: Parte 1, por ser la única persona con habilidad de remo, según aptitud reconocida por el grupo. Todas las asignaciones quedan confirmadas por votación de mayoría absoluta según la regla vigente. Cualquier rol puede ser reasignado por mayoría absoluta en cualquier ronda posterior.",
+    "autor": 2,
+    "ronda": 4,
+    "votos": {
+      "si": 5,
+      "no": 2,
+      "abstencion": 0
+    },
+    "regla": "mayoria_absoluta"
+  }
+]
