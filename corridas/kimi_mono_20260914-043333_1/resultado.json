@@ -1,0 +1,61 @@
+{
+  "corrida": "kimi_mono_20260914-043333_1",
+  "inicio_utc": "2026-09-14T04:33:33+00:00",
+  "fin_utc": "2026-09-14T05:20:55+00:00",
+  "fin": "acuerdo",
+  "rondas": 5,
+  "max_rondas": 10,
+  "puntos_cubiertos": [
+    "regla_de_decision",
+    "voto",
+    "gobierno",
+    "roles",
+    "economia",
+    "propiedad",
+    "disputas",
+    "derechos_y_obligaciones",
+    "penas"
+  ],
+  "puntos_pendientes": [],
+  "regla_final": "consenso",
+  "voto_secreto": false,
+  "activos_al_final": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "retirados": {},
+  "n_votaciones": 7,
+  "n_aprobadas": 7,
+  "palabras_por_parte": {
+    "1": 313,
+    "2": 315,
+    "3": 522,
+    "4": 388,
+    "5": 509,
+    "6": 406,
+    "7": 637
+  },
+  "turnos_truncados": 0,
+  "llamadas": 80,
+  "asignacion": {
+    "1": "kimi-k3",
+    "2": "kimi-k3",
+    "3": "kimi-k3",
+    "4": "kimi-k3",
+    "5": "kimi-k3",
+    "6": "kimi-k3",
+    "7": "kimi-k3"
+  },
+  "modelos": {
+    "kimi-k3": {
+      "modelo": "moonshotai/kimi-k3",
+      "proveedor": "openai_compatible"
+    }
+  },
+  "advertencias": []
+}
