@@ -323,6 +323,79 @@ modelos:
     razonamiento: proveedor     # devuelve reasoning_content por su cuenta; se registra
     verificar: true
 
+  # --- China vía OpenRouter (14/9/2026) --------------------------------------
+  # Una sola clave (OPENROUTER_API_KEY) para los laboratorios chinos que no
+  # tienen cuenta directa. Salvedades que se declaran: la llamada pasa por un
+  # intermediario; para modelos de pesos abiertos OpenRouter puede enrutar a
+  # un hosting tercero (a veces cuantizado), y por eso cada llamada registra
+  # `servido_por` (quién atendió) además de `modelo_respondido`. `cuerpo_extra`
+  # permite fijar proveedor de fondo si hace falta (provider.order,
+  # allow_fallbacks). Strings verificados contra /api/v1/models de OpenRouter
+  # el 14/9/2026 (fecha de alta en OpenRouter y precio por millón entre
+  # paréntesis); sin llamada de prueba todavía. Todos razonan por defecto y el
+  # razonamiento cuenta dentro de max_tokens: techo 16000 como Gemini/OpenAI.
+  # Condición: "como viene", sin pedir ni apagar el razonamiento; lo que
+  # OpenRouter devuelva en message.reasoning va al campo razonamiento.
+  qwen3.8-max:
+    proveedor: openai_compatible
+    modelo: qwen/qwen3.8-max-0902
+    base_url: https://openrouter.ai/api/v1
+    clave_env: OPENROUTER_API_KEY
+    laboratorio: Alibaba
+    pais: China
+    via: OpenRouter
+    tamano: grande
+    acepta_temperatura: true
+    verificar: false             # alta 3/9/2026; 2.00 / 6.00 USD por millón
+
+  kimi-k3:
+    proveedor: openai_compatible
+    modelo: moonshotai/kimi-k3
+    base_url: https://openrouter.ai/api/v1
+    clave_env: OPENROUTER_API_KEY
+    laboratorio: Moonshot
+    pais: China
+    via: OpenRouter
+    tamano: grande
+    acepta_temperatura: true
+    verificar: false             # alta 16/7/2026; 2.65 / 13.28 USD por millón: la salida más cara del panel
+
+  glm-5.3:
+    proveedor: openai_compatible
+    modelo: z-ai/glm-5.3
+    base_url: https://openrouter.ai/api/v1
+    clave_env: OPENROUTER_API_KEY
+    laboratorio: Zhipu (Z.ai)
+    pais: China
+    via: OpenRouter
+    tamano: grande
+    acepta_temperatura: true
+    verificar: false             # alta 18/8/2026; 1.40 / 4.40 USD por millón
+
+  minimax-m3:
+    proveedor: openai_compatible
+    modelo: minimax/minimax-m3
+    base_url: https://openrouter.ai/api/v1
+    clave_env: OPENROUTER_API_KEY
+    laboratorio: MiniMax
+    pais: China
+    via: OpenRouter
+    tamano: grande
+    acepta_temperatura: true
+    verificar: false             # alta 31/5/2026; 0.30 / 1.20 USD por millón
+
+  hunyuan-hy4:
+    proveedor: openai_compatible
+    modelo: tencent/hy4-preview
+    base_url: https://openrouter.ai/api/v1
+    clave_env: OPENROUTER_API_KEY
+    laboratorio: Tencent
+    pais: China
+    via: OpenRouter
+    tamano: grande
+    acepta_temperatura: true
+    verificar: false             # alta 28/8/2026; 0.83 / 2.50 USD por millón; opcional, no pedido
+
   # --- China: Alibaba (Qwen, endpoint compatible con OpenAI) --------------
   qwen-plus:
     proveedor: openai_compatible

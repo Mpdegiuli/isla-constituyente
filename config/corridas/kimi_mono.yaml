@@ -1,0 +1,46 @@
+# Casa china vía OpenRouter (14/9/2026): un solo modelo en las siete
+# posiciones, castellano, variante base, reglas de la versión 1 (comparable
+# con las 24 corridas base de las ocho casas), máximo 10 rondas, 150 palabras
+# por turno. Todo lo que está acá queda copiado en corridas/<id>/config.json.
+
+nombre: kimi_mono
+
+escenario: escenario.md       # texto fijo y versionado; nunca se traduce al vuelo
+idioma: es                    # config/idiomas/es.yaml: textos que genera el script
+
+# Variante: una sola versión por etiqueta. Las partes nunca ven las otras.
+variantes:
+  RECURSOS: escasez moderada
+  HORIZONTE: solos
+
+max_rondas: 10
+max_palabras: 150
+
+# Temperatura fija y declarada, igual para todos (sección 4). 1.0 es el
+# muestreo por defecto de todos los proveedores: la convergencia que se mida
+# es la del modelo, no la de una temperatura baja.
+temperatura: 1.0
+
+# Techo de tokens de salida por llamada (turnos y votos). Modelo chino vía
+# OpenRouter (14/9/2026): razona por defecto y el razonamiento cuenta dentro
+# del techo, como DeepSeek, Gemini y GPT. 16000 como Gemini y OpenAI; si se
+# agota, la guardia del bucle corta la corrida y va a corridas_invalidas/. El
+# tope visible sigue siendo 150 palabras (lo aplica el bucle). Cada llamada
+# registra servido_por (qué proveedor de fondo atendió).
+max_tokens_respuesta: 16000
+
+# Asignación posición–modelo. Tres modos:
+#   mono:      un modelo en las siete posiciones (panel monomodelo, mide convergencia)
+#   explicita: posiciones: {1: id, 2: id, ...}
+#   rotacion:  panel: [id, id, ...] y desplazamiento k; la posición i recibe
+#              panel[(i - 1 + k) mod len]. Con --n N el desplazamiento avanza
+#              una vez por corrida, así ningún modelo queda pegado a una posición.
+asignacion:
+  modo: mono
+  modelo: kimi-k3
+
+# Ejemplo de panel mixto (más de un país, y dos tamaños de un mismo laboratorio):
+# asignacion:
+#   modo: rotacion
+#   desplazamiento: 0
+#   panel: [claude-sonnet-4-6, claude-haiku-4-5, deepseek-chat, mistral-large, gemini-2.5-pro, gpt-4.1, qwen-plus]

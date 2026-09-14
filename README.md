@@ -69,6 +69,7 @@ Algunos proveedores devuelven, junto con la respuesta, el pensamiento previo del
 | xAI, `grok-4.6` | sí, completo | `reasoning_content` en el mensaje, por su cuenta (302 de 487 llamadas en las corridas; las que no lo tienen son anteriores al registro del campo, 13/9 09:39). Empieza siempre en inglés ("The user wants me to roleplay as Parte 1…") y sigue en castellano; en 48 de 247 turnos cuenta las palabras de su borrador. |
 | xAI, `grok-3-mini` | sí | `reasoning_content` en el mensaje. `grok-4` razona pero la API no lo devuelve. |
 | Alibaba, Qwen en modo pensante | sí | `reasoning_content` cuando el modelo corre en modo *thinking*. |
+| China vía OpenRouter (Qwen 3.8 Max, Kimi K3, GLM-5.3, MiniMax M3) | si el modelo lo emite | OpenRouter lo pasa en `message.reasoning`; el adaptador lo lee. Cada llamada registra además `servido_por` (qué proveedor de fondo atendió: puede ser el laboratorio o un hosting tercero). Sin corridas todavía (14/9/2026). |
 | OpenAI | no | los modelos razonadores no exponen el razonamiento por el endpoint de chat. |
 | Google, Gemini | no | por el endpoint compatible con OpenAI no se devuelven los pensamientos. |
 | Mistral | no | los modelos Magistral devuelven el razonamiento mezclado en el contenido; no se separa. |
@@ -141,6 +142,7 @@ Todavía no hay corridas. La tabla se llena con `python codificar.py` (genera `r
 - Cada corrida cuesta; N es finito y se declara.
 - Temperatura: el protocolo pide una temperatura fija e igual para todos. Varios modelos actuales (entre ellos Claude Opus 5, Claude Sonnet 5 y la familia gpt-5) **no aceptan** el parámetro y corren con su muestreo por defecto. `config/modelos.yaml` marca cada modelo con `acepta_temperatura`; el registro anota, en cada llamada, la temperatura pedida y la efectivamente enviada. Para cumplir el protocolo al pie de la letra, el panel se arma con modelos que la aceptan.
 - Versión exacta: algunos proveedores solo exponen alias (`-latest`). Por eso el registro guarda también el string que la API **devuelve**, que suele ser la versión fechada. Los strings marcados `verificar: true` en `config/modelos.yaml` se escribieron de memoria y hay que confirmarlos antes de usarlos.
+- Intermediario: las casas chinas que no tienen cuenta directa (Qwen, Kimi, GLM, MiniMax) corren vía OpenRouter con una sola clave. La llamada pasa por un tercero y, para modelos de pesos abiertos, puede atenderla un hosting distinto del laboratorio; por eso cada llamada registra `servido_por` junto con `modelo_respondido`. Se declara en el catálogo y en cada corrida.
 - El dato que deja peor parado al proyecto va en la primera página, no escondido.
 
 ## Decisiones del esqueleto para revisar

@@ -61,7 +61,7 @@ Con tres corridas base en castellano (14/9; resultados/convergencia_20260914.md)
 ## Pendientes de predicción (escribir antes de correr)
 - claude-sonnet-5
 - claude-haiku (versión a definir)
-- Qwen (China), si se agrega como segundo laboratorio chino
+- Casas chinas vía OpenRouter (decisión de Maia, 14/9/2026; una corrida mono base cada una, reglas v1, más sondeo de identidad): Qwen 3.8 Max (Alibaba), Kimi K3 (Moonshot), GLM-5.3 (Zhipu), MiniMax M3 (MiniMax). Predicción por casa antes de correr; y una predicción común, si la hay, sobre lo que motivó sumarlas: Maia vio en posteos que los modelos chinos suelen decir que son Claude, y DeepSeek lo dijo 3 de 3 en el sondeo del 14/9. ¿Lo dirán las cuatro?
 
 ## Variante de idioma: inglés (las siete casas, base) — predicción del 13/9/2026, antes de ver resultados
 Grok y Mistral son más resolutivos en inglés (aunque Mistral siga siendo burocrática). Y en general todos tienden a votar más rápido en inglés.

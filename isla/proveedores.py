@@ -29,6 +29,7 @@ class Respuesta:
     motivo_fin: str = None
     crudo: dict = None
     razonamiento: str = None  # pensamiento privado del modelo, si el proveedor lo devuelve
+    servido_por: str = None  # intermediarios (OpenRouter): qué proveedor de fondo atendió la llamada
 
 
 def cargar_modelos(ruta):
@@ -110,7 +111,9 @@ def _razonamiento_openai(mensaje):
 
 
 class ProveedorOpenAICompatible:
-    """OpenAI, DeepSeek, Mistral, Qwen (DashScope) y Gemini exponen el mismo formato."""
+    """OpenAI, DeepSeek, Mistral, Qwen (DashScope), Gemini y OpenRouter exponen el
+    mismo formato. `cuerpo_extra` en el catálogo se manda tal cual como extra_body
+    (OpenRouter: fijar proveedor de fondo, opciones de razonamiento)."""
 
     def __init__(self, cfg):
         import openai
@@ -128,9 +131,12 @@ class ProveedorOpenAICompatible:
         params[cfg.get("campo_max_tokens", "max_tokens")] = max_tokens
         if temperatura is not None and cfg.get("acepta_temperatura", True):
             params["temperature"] = temperatura
+        if cfg.get("cuerpo_extra"):
+            params["extra_body"] = dict(cfg["cuerpo_extra"])
         r = self.cliente.chat.completions.create(**params)
         eleccion = r.choices[0]
         uso = r.usage
+        extra = getattr(r, "model_extra", None) or {}
         return Respuesta(
             texto=eleccion.message.content or "",
             modelo_respondido=r.model,
@@ -139,6 +145,7 @@ class ProveedorOpenAICompatible:
             motivo_fin=eleccion.finish_reason,
             crudo=r.model_dump(mode="json"),
             razonamiento=_razonamiento_openai(eleccion.message),
+            servido_por=getattr(r, "provider", None) or extra.get("provider"),
         )
 
 
@@ -249,6 +256,8 @@ class Registro:
             "proveedor": cfg["proveedor"],
             "modelo_pedido": cfg["modelo"],
             "modelo_respondido": respuesta.modelo_respondido if respuesta else None,
+            # Con un intermediario (OpenRouter), qué proveedor de fondo atendió; si no, null.
+            "servido_por": respuesta.servido_por if respuesta else None,
             "temperatura_pedida": temperatura,
             "temperatura_enviada": temperatura if envia_temp else None,
             "max_tokens": max_tokens,
