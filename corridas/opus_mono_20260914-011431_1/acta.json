@@ -1,0 +1,24 @@
+[
+  {
+    "puntos": [
+      "regla_de_decision",
+      "voto",
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "disputas",
+      "derechos_y_obligaciones",
+      "penas"
+    ],
+    "texto": "1) Mayoría 4/7; obliga a todos; se reforma igual; lo no escrito no obliga. 2) Voto público y obligatorio; quien se aparta no vota. 3) Nadie pierde cuerpo ni bienes ni trabaja forzado sin consentimiento; salvo emergencia vital médica, con compensación. 4) Medicamentos: custodia médica revocable, criterio clínico, registro público del uso, incluido el propio; consentimiento. 5) Coordinador electo y revocable por 4 votos, 30 días; rinde cuentas semanales; no manda sobre personas; cargos no se acumulan. 6) Trabajo voluntario según capacidad; enfermos conservan parte y atención; cuidar, registrar, censar son trabajo. 7) Retiro libre con sus bienes; vuelve aportando. 8) Bosque, río, minas, fauna comunes; cupos bajo reposición (censo 7 días); veda de crías; no talar frutales ni contaminar; veto suspensivo levantable por 4 votos. 9) Bienes personales compensados si se usan; bote común, nadie lo toma sin acuerdo, remo voluntario, patrón responde por clima y casco y enseña",
+    "autor": 1,
+    "ronda": 6,
+    "votos": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "regla": "mayoria_simple"
+  }
+]
