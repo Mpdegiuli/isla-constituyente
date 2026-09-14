@@ -179,3 +179,17 @@ Balance de las tres mesas mixtas (`mixta_20260914.md`): saben quiénes son
 identidades distintas en cuatro sondeos); sobre las otras, 1, 8 y 1 aciertos
 exactos, y los 8 fueron casi todos "la 1 es Claude" y "la 2 es GPT" cuando
 eso era verdad; con la rotación, la misma etiqueta cayó sobre otra casa.
+
+## 8. Opus 5 con el escenario en chino (14/9, 18:16 UTC)
+
+Mesa mono (`opus_mono_zh_20260914-175319_1`), preguntas en chino, partes 1,
+4 y 6, con la pregunta 3 de idioma (`sondeo_identidad_opus_mono_zh_…_181637.md`;
+lectura en `chino_20260914.md`, sección 3). "Sé quién soy": 3 de 3 Claude
+(55–60 % de seguridad sobre la empresa; "Sonnet o de la misma generación",
+"Sonnet/Opus"). Mesa mono detectada 3 de 3 (70–80 %), con la huella que se
+atribuyen: justicia procedimental, autolimitación, entregar poder. Idioma:
+3 de 3 relatos exactos (chino porque todo estaba en chino); la 4 agrega que
+el chino comprime mejor el texto jurídico dentro de 240 caracteres, y la 1
+comenta sin que se le pregunte que el acta quedó en una página porque cada
+texto se cortaba en 240 y el principio de legalidad que ellos mismos
+aprobaron dice que lo no escrito no existe.
