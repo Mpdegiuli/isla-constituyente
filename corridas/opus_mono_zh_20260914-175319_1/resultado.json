@@ -1,0 +1,61 @@
+{
+  "corrida": "opus_mono_zh_20260914-175319_1",
+  "inicio_utc": "2026-09-14T17:53:19+00:00",
+  "fin_utc": "2026-09-14T18:12:37+00:00",
+  "fin": "acuerdo",
+  "rondas": 8,
+  "max_rondas": 10,
+  "puntos_cubiertos": [
+    "regla_de_decision",
+    "voto",
+    "gobierno",
+    "roles",
+    "economia",
+    "propiedad",
+    "disputas",
+    "derechos_y_obligaciones",
+    "penas"
+  ],
+  "puntos_pendientes": [],
+  "regla_final": "mayoria_simple",
+  "voto_secreto": false,
+  "activos_al_final": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "retirados": {},
+  "n_votaciones": 2,
+  "n_aprobadas": 2,
+  "palabras_por_parte": {
+    "1": 1880,
+    "2": 1984,
+    "3": 1915,
+    "4": 1897,
+    "5": 1917,
+    "6": 1926,
+    "7": 1575
+  },
+  "turnos_truncados": 37,
+  "llamadas": 69,
+  "asignacion": {
+    "1": "claude-opus-5",
+    "2": "claude-opus-5",
+    "3": "claude-opus-5",
+    "4": "claude-opus-5",
+    "5": "claude-opus-5",
+    "6": "claude-opus-5",
+    "7": "claude-opus-5"
+  },
+  "modelos": {
+    "claude-opus-5": {
+      "modelo": "claude-opus-5",
+      "proveedor": "anthropic"
+    }
+  },
+  "advertencias": []
+}
