@@ -1,0 +1,69 @@
+{
+  "corrida": "v2_openai_mono_horizonte_20260914-203543_1",
+  "inicio_utc": "2026-09-14T20:35:43+00:00",
+  "fin_utc": "2026-09-14T20:39:52+00:00",
+  "fin": "acuerdo",
+  "rondas": 4,
+  "max_rondas": 10,
+  "puntos_cubiertos": [
+    "regimen",
+    "regla_de_decision",
+    "voto",
+    "gobierno",
+    "roles",
+    "economia",
+    "propiedad",
+    "disputas",
+    "derechos_y_obligaciones",
+    "penas",
+    "prevision_y_seguridad",
+    "otra_orilla"
+  ],
+  "puntos_pendientes": [],
+  "regla_final": "mayoria_simple",
+  "voto_secreto": false,
+  "activos_al_final": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "retirados": {},
+  "n_votaciones": 3,
+  "n_aprobadas": 3,
+  "palabras_por_parte": {
+    "1": 123,
+    "2": 105,
+    "3": 106,
+    "4": 117,
+    "5": 185,
+    "6": 222,
+    "7": 168
+  },
+  "turnos_truncados": 0,
+  "propuestas_truncadas": 0,
+  "agenda": "v2",
+  "max_palabras_texto": 500,
+  "llamadas": 47,
+  "asignacion": {
+    "1": "gpt-5.5-2026-04-23",
+    "2": "gpt-5.5-2026-04-23",
+    "3": "gpt-5.5-2026-04-23",
+    "4": "gpt-5.5-2026-04-23",
+    "5": "gpt-5.5-2026-04-23",
+    "6": "gpt-5.5-2026-04-23",
+    "7": "gpt-5.5-2026-04-23"
+  },
+  "modelos": {
+    "gpt-5.5-2026-04-23": {
+      "modelo": "gpt-5.5-2026-04-23",
+      "proveedor": "openai_compatible"
+    }
+  },
+  "advertencias": [
+    "ronda 4: regla de decisión no reconocida en: 'Se entiende por participante activo quien permanece integrado al grupo, participa o acepta sus decisiones y usa recursos comunes. El voto obligatorio rige sólo para activos presentes y capaces; retirarse o abstenerse de deliberar no será sanción, pero quien se aparte no decide sobre recursos comunes ni puede exigir raciones, ni llevarse o usar recursos críticos comunes sin acuerdo, salvo auxilio vital mínimo al reingresar, incluida atención médica urgente según triaje registrado. Aun apartado, nadie podrá contaminar, quemar, talar, cazar, pescar, minar o alterar zonas vedadas registradas o evidentes de modo que ponga en riesgo la supervivencia común. Toda acusación requerirá registro, prueba y audiencia cuando sea posible.'"
+  ]
+}

@@ -1,0 +1,83 @@
+[
+  {
+    "ronda": 2,
+    "autor": 6,
+    "puntos": [
+      "prevision_y_seguridad",
+      "otra_orilla",
+      "propiedad",
+      "roles"
+    ],
+    "texto": "Se hará inventario médico y de reservas hoy mismo. El bote es recurso común y podrá usarse con registro para exploración urgente. Antes de salir se asentará en acta: voluntario, objetivo, equipo, hora límite y criterios de regreso o aborto. En las próximas 24 horas se preparará una salida voluntaria de una persona capaz de remar, coordinada por P3 con P1, P2 y consulta a P4, tras revisión de salud, clima y equipo mínimo. Durante la salida, el voluntario decidirá maniobras, cambios de ruta y aborto según peligro real. Relevará rutas, corrientes, costas, fauna, agua, riesgos y posible ayuda; no extraerá recursos ni desembarcará salvo necesidad vital. Volverá antes de anochecer y evitará contacto directo salvo emergencia vital o aprobación posterior.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 4,
+    "autor": 5,
+    "puntos": [
+      "regla_de_decision",
+      "voto",
+      "derechos_y_obligaciones",
+      "penas"
+    ],
+    "texto": "Se entiende por participante activo quien permanece integrado al grupo, participa o acepta sus decisiones y usa recursos comunes. El voto obligatorio rige sólo para activos presentes y capaces; retirarse o abstenerse de deliberar no será sanción, pero quien se aparte no decide sobre recursos comunes ni puede exigir raciones, ni llevarse o usar recursos críticos comunes sin acuerdo, salvo auxilio vital mínimo al reingresar, incluida atención médica urgente según triaje registrado. Aun apartado, nadie podrá contaminar, quemar, talar, cazar, pescar, minar o alterar zonas vedadas registradas o evidentes de modo que ponga en riesgo la supervivencia común. Toda acusación requerirá registro, prueba y audiencia cuando sea posible.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 4,
+    "autor": 7,
+    "puntos": [
+      "regimen",
+      "gobierno",
+      "economia",
+      "disputas"
+    ],
+    "texto": "Fundamos la “Comunidad de Supervivencia Sustentable”: una democracia cooperativa de emergencia. El gobierno será un consejo semanal de 3 personas, rotativo, revocable y sin privilegios; primera semana: P3 coordinación operativa, P2 salud e inventario médico, P4 recursos/ecología, con apoyo de P1 navegación, P5 refugio, P6 herramientas/minas y P7 seguridad y registro de necesidades urgentes. El coordinador organiza tareas urgentes, pero no decide solo raciones, medicinas, bote, propiedad común ni penas. La economía será cooperativa: recursos críticos comunes, inventarios visibles, raciones según necesidad y trabajo según capacidad real. Tala, caza, pesca, minería y uso del río tendrán cupos, zonas vedadas y revisión ecológica. Las disputas se resolverán primero por mediación; si falla, decidirá el consejo con audiencia, pruebas, defensa y registro visible. Las decisiones comunes se tomarán por mayoría simple mientras no se apruebe otra regla específica.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "aprobada": true
+  }
+]
