@@ -1,0 +1,21 @@
+ACTA (lo aprobado hasta ahora)
+1. [regla_de_decision, voto] Regla de decisión: Todas las decisiones de la comunidad se tomarán por mayoría simple (se requiere tener más votos a favor que en contra de los presentes).
+Voto: El voto será público, de forma que cada participante exprese su postura a viva voz. Además, el voto será obligatorio para todos los miembros, garantizando el compromiso y la responsabilidad individual en los asuntos colectivos. (propuesta de la parte 1, ronda 1, 5-2-0)
+2. [regimen, gobierno, roles, propiedad, disputas, derechos_y_obligaciones, penas, prevision_y_seguridad] Régimen: "Directorio de Supervivencia Sostenible". Sistema de trabajo comunitario y planificación centralizada, priorizando agilidad.
+Gobierno: La Asamblea (todos los participantes) es la autoridad suprema. La autoridad ejecutiva será del "Director General", elegido por mayoría simple. El Director General y los Encargados tienen autonomía operativa en su área. Las decisiones pueden revocarse por mayoría simple de la Asamblea a posteriori.
+Propiedad: Régimen de propiedad comunal. Todos los bienes, medicinas y el bote son inalienables de la comunidad.
+Roles:
+- Director General: Parte 3. Coordinación ejecutiva.
+- Encargado de Exploración: Parte 1. Operará el bote e iniciará misiones externas de búsqueda y rescate.
+- Encargado de Salud: Parte 2. Administrará los medicamentos bajo estricto criterio médico, garantizando el tratamiento de emergencias y afecciones crónicas severas.
+- Encargado de Sostenibilidad: Parte 4. Fijará cuotas máximas de extracción.
+- Encargado de Legalidad y Actas: Parte 5. Registrará las reglas.
+- Encargado de Acción y Supervivencia: Parte 6. Tareas físicas pesadas y defensa.
+- Encargado de Previsión e Inventario: Parte 7. Control de reservas.
+Derechos y obligaciones: Obligación de trabajar y acatar las reglas. Se establece el "Derecho de Secesión": cualquier miembro puede abandonar el grupo libremente, perdiendo acceso a la propiedad comunal.
+Resolución de disputas: Será competencia exclusiva de la Asamblea, decidiendo por mayoría simple tras escuchar a las partes involucradas.
+Penas: Los incumplimientos a las reglas u obligaciones se sancionarán de forma escalonada con amonestaciones públicas, reducción temporal de raciones y, en casos de extrema gravedad, expulsión de la comunidad, según lo determine la Asamblea.
+Previsión y seguridad: Se creará un Fondo de Reserva Crítico intocable, salvo riesgo de muerte inminente o dolores crónicos incapacitantes. Agotadas las reservas, la comunidad dependerá estrictamente de la recolección sostenible y misiones externas. Como defensa contra los peligros del lugar, se priorizará la construcción inmediata de un refugio central fortificado. (propuesta de la parte 2, ronda 2, 6-1-0)
+3. [economia] Economía: El régimen económico será de "Subsistencia y Regeneración". Estará basado exclusivamente en la satisfacción de las necesidades vitales presentes de la comunidad y el mantenimiento del Fondo de Reserva Crítico, sin buscar la acumulación desmedida ni el crecimiento a costa del entorno. La recolección de alimentos, tala de árboles, caza, pesca y extracción en las minas de carbón y metal quedan estrictamente subordinadas a la tasa de reposición y ciclos biológicos naturales de la isla. Queda terminantemente prohibida cualquier forma de explotación masiva o depredación. Toda actividad productiva operará bajo cuotas máximas determinadas por el Encargado de Sostenibilidad. Para evitar arbitrariedades y garantizar la transparencia, estas cuotas deberán ser registradas por escrito de forma pública por el Encargado de Legalidad y Actas, obligando a todos los miembros por igual. Asimismo, cualquier cuota podrá ser revisada y modificada por la Asamblea (mediante mayoría simple) si se considera inadecuada o abusiva, asegurando que ninguna autoridad individual ejerza poder absoluto sobre la subsistencia colectiva. Exceder las cuotas formalmente publicadas o dañar innecesariamente el ecosistema será considerado un atentado directo contra la comunidad, aplicándosele las penas correspondientes determinadas por la Asamblea. (propuesta de la parte 5, ronda 2, 6-1-0)
+Todos los puntos están cubiertos.
+Regla de decisión vigente: mayoría simple (más votos a favor que en contra).
