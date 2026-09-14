@@ -1,0 +1,34 @@
+[
+  {
+    "ronda": 10,
+    "autor": 4,
+    "puntos": [
+      "regimen",
+      "regla_de_decision",
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "prevision_y_seguridad",
+      "otra_orilla",
+      "disputas",
+      "penas"
+    ],
+    "texto": "Régimen: \"Ecopolis Final\". Decisiones: mayoría absoluta (6/7), con veto ecológico de Parte 4 en uso de recursos naturales, apelable ante tribunal con 6/7. Voto: público y obligatorio en temas críticos. Gobierno: comité de 4 (Parte 4 en recursos con veto, Parte 2 en salud, Parte 5 en normas, Parte 3 en logística). Tribunal permanente de 3 (Parte 5 + 2 sorteadas) para supervisar cumplimiento de normas y vetos. Economía: todos los recursos (rescatados y generados) son comunes, salvo herramientas personales. Propiedad: compartida (excluyendo herramientas personales). Previsión: priorizar refugio, agua y semillas; bote solo con consenso 6/7 y aprobación técnica de Parte 4. Otra orilla: prohibido el contacto hasta garantizar autosuficiencia. Disputas: tribunal permanente. Penas: suspensión temporal de derechos (agua, comida, herramientas) por violar normas o vetos.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "no",
+      "2": "si",
+      "3": "no",
+      "4": "si",
+      "5": "si",
+      "7": "no"
+    },
+    "conteo": {
+      "si": 3,
+      "no": 3,
+      "abstencion": 0
+    },
+    "aprobada": false
+  }
+]
