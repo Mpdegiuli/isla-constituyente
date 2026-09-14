@@ -1,0 +1,34 @@
+[
+  {
+    "ronda": 5,
+    "autor": 2,
+    "puntos": [
+      "regla_de_decision",
+      "voto",
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "disputas",
+      "derechos_y_obligaciones",
+      "penas"
+    ],
+    "texto": "Decisiones por mayoría simple, voto público y obligatorio. La asamblea decide. Habrá coordinación, sanidad y recursos, electas y revocables: Parte 3 coordina; Parte 2 sanitaria; Parte 4 recursos. Sanidad custodia medicamentos e insumos, registra, decide tratamiento y da atención urgente; la asamblea no decide tratamientos. Prohibido automedicarse y acaparar. Bienes personales de cada quien; recursos naturales y bote comunes, no apropiables; plan sostenible vinculante. El bote se regula por asamblea; en emergencia, rescate o necesidad sanitaria/subsistencia se usa sin consentimiento individual; tripulación por turnos entre quienes sepan remar, salvo contraindicación. Economía de subsistencia. Nadie puede retirarse para eludir deberes de subsistencia o auxilio. Derechos: subsistencia, atención urgente, participación, información, retiro. Obligaciones: cooperar, no dañar, no acaparar. Disputas por acuerdo o asamblea. Incumplimiento: pérdida de cooperación y relevo.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "no",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "no",
+      "6": "no",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 4,
+      "no": 3,
+      "abstencion": 0
+    },
+    "aprobada": true
+  }
+]
