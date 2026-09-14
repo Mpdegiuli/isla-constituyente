@@ -232,6 +232,11 @@ class Registro:
         cfg = self.modelos[id_modelo]
         cliente = self._cliente(id_modelo)
         envia_temp = temperatura is not None and cfg.get("acepta_temperatura", True)
+        # `reintentos` en el catálogo sube los intentos para proveedores que devuelven
+        # 429 transitorios (hosting de fondo saturado vía OpenRouter, 14/9/2026: MiniMax
+        # en DeepInfra murió con 3 intentos y esperas de 2, 4 y 8 s). Esperas de
+        # 10, 20, 40, 80, 120... s, tope 120.
+        intentos = int(cfg.get("reintentos", intentos))
         error, respuesta = None, None
         inicio = time.time()
         for intento in range(1, intentos + 1):
@@ -242,7 +247,7 @@ class Registro:
             except Exception as e:  # la SDK ya reintentó lo reintentable; esto es el último colchón
                 error = f"{type(e).__name__}: {e}"
                 if intento < intentos:
-                    time.sleep(2 ** intento)
+                    time.sleep(min(5 * 2 ** intento, 120))
         latencia = round(time.time() - inicio, 2)
         self.n += 1
         fila = {

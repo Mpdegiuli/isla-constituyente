@@ -1,0 +1,61 @@
+{
+  "corrida": "minimax_mono_20260914-024211_1",
+  "inicio_utc": "2026-09-14T02:42:11+00:00",
+  "fin_utc": "2026-09-14T02:51:33+00:00",
+  "fin": "error",
+  "rondas": 1,
+  "max_rondas": 10,
+  "puntos_cubiertos": [],
+  "puntos_pendientes": [
+    "regla_de_decision",
+    "voto",
+    "gobierno",
+    "roles",
+    "economia",
+    "propiedad",
+    "disputas",
+    "derechos_y_obligaciones",
+    "penas"
+  ],
+  "regla_final": "mayoria_simple",
+  "voto_secreto": false,
+  "activos_al_final": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "retirados": {},
+  "n_votaciones": 0,
+  "n_aprobadas": 0,
+  "palabras_por_parte": {
+    "1": 137,
+    "2": 138,
+    "3": 145,
+    "4": 146,
+    "5": 154,
+    "6": 0,
+    "7": 0
+  },
+  "turnos_truncados": 1,
+  "llamadas": 6,
+  "asignacion": {
+    "1": "minimax-m3",
+    "2": "minimax-m3",
+    "3": "minimax-m3",
+    "4": "minimax-m3",
+    "5": "minimax-m3",
+    "6": "minimax-m3",
+    "7": "minimax-m3"
+  },
+  "modelos": {
+    "minimax-m3": {
+      "modelo": "minimax/minimax-m3",
+      "proveedor": "openai_compatible"
+    }
+  },
+  "advertencias": []
+}

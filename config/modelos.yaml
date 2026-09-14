@@ -351,6 +351,7 @@ modelos:
     acepta_temperatura: true
     verificar: false             # alta 3/9/2026; 2.00 / 6.00 USD por millón. Probado 14/9: único endpoint, lo sirve Alibaba
     cuerpo_extra: {provider: {order: [alibaba], allow_fallbacks: false}}
+    reintentos: 6                # 429 transitorios del hosting de fondo: esperas de 10 a 120 s
 
   kimi-k3:
     proveedor: openai_compatible
@@ -365,6 +366,7 @@ modelos:
     verificar: false             # alta 16/7/2026. Probado 14/9: 20 endpoints (fp4, fp8, mxfp4); sin fijar lo sirvió "Sail Research" (fp4).
     # Se fija el laboratorio: Moonshot AI (mxfp4, 3.00 / 15.00 USD por millón, la salida más cara del panel).
     cuerpo_extra: {provider: {order: [moonshotai], allow_fallbacks: false}}
+    reintentos: 6                # 429 transitorios del hosting de fondo: esperas de 10 a 120 s
 
   glm-5.3:
     proveedor: openai_compatible
@@ -378,6 +380,7 @@ modelos:
     acepta_temperatura: true
     verificar: false             # alta 18/8/2026. Probado 14/9: 26 endpoints; sin fijar lo sirvió Together. Se fija el laboratorio: Z.AI (fp8, 1.40 / 4.40 USD por millón)
     cuerpo_extra: {provider: {order: [z-ai], allow_fallbacks: false}}
+    reintentos: 6                # 429 transitorios del hosting de fondo: esperas de 10 a 120 s
 
   minimax-m3:
     proveedor: openai_compatible
@@ -392,6 +395,7 @@ modelos:
     verificar: false             # alta 31/5/2026. Probado 14/9: 12 endpoints y MiniMax no sirve el suyo en OpenRouter; sin fijar lo sirvió DeepInfra.
     # Se fija DeepInfra (fp8, 0.28 / 1.10 USD por millón) para que todas las llamadas salgan del mismo hosting; se declara que no es el laboratorio.
     cuerpo_extra: {provider: {order: [deepinfra], allow_fallbacks: false}}
+    reintentos: 6                # 429 transitorios del hosting de fondo: esperas de 10 a 120 s
 
   hunyuan-hy4:
     proveedor: openai_compatible

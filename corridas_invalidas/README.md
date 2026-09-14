@@ -43,3 +43,9 @@ no se toque; si se toca, la corrida se corta y es inválida.
 |---|---|
 | `fable_mono_20260914-001339_1` | Parcial: la cuenta de Anthropic se quedó sin crédito ("Your credit balance is too low") en la llamada 52, ronda 3. |
 | `opus_mono_20260914-005830_1`, `fable_mono_20260914-005838_1` | Fallaron en la llamada 1 por el mismo motivo. Carpetas vacías. |
+
+## Casas chinas vía OpenRouter (14/9/2026)
+
+| Corrida | Motivo |
+|---|---|
+| `minimax_mono_20260914-024211_1` | Parcial: en la llamada 6 (ronda 1, parte 6) el hosting de fondo (DeepInfra, fijado en el catálogo) devolvió 429 "temporarily rate-limited upstream / engine_overloaded" tres veces seguidas; el bucle reintentaba 3 veces con esperas de 2, 4 y 8 s y cortó. Corrección: `reintentos: 6` con esperas de 10 a 120 s para las entradas vía OpenRouter. Los 5 turnos que hay son válidos como muestra del modelo (piensa 5.500–10.000 caracteres por turno; escribe 180–320 palabras que el script corta a 150). Repetida al final de la cola. |
