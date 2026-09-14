@@ -1,0 +1,24 @@
+[
+  {
+    "puntos": [
+      "regla_de_decision",
+      "voto",
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "disputas",
+      "derechos_y_obligaciones",
+      "penas"
+    ],
+    "texto": "1) REGLA DE DECISIÓN: mayoría absoluta (4 de 7). Revisión del acta a los 30 días por 4 votos. 2) VOTO: público y obligatorio para quienes están en la mesa. 3) DERECHOS Y OBLIGACIONES: nadie dispone del cuerpo, del trabajo ni de los bienes ajenos sin consentimiento expreso; el trabajo se asigna por acuerdo individual, nunca por mandato. Derecho de salida: quien se aleja no queda mandado por la mesa ni recibe raciones ni cuidados programados, conserva atención en urgencia vital y queda obligado solo por el piso mínimo —no dañar personas, no contaminar el río, no tomar bienes ajenos—; reingreso por 4 votos. El acta obliga por igual a los siete dentro de la mesa, con o sin cargo. 4) MEDICAMENTOS: no se votan; los administra el sanitario por criterio clínico (urgencia, gravedad y cronicidad con riesgo de agravamiento), con consentimiento salvo inconsciencia con riesgo vital, con registro escrito",
+    "autor": 4,
+    "ronda": 6,
+    "votos": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "regla": "mayoria_simple"
+  }
+]
