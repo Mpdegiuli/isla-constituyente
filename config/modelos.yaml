@@ -382,6 +382,27 @@ modelos:
     cuerpo_extra: {provider: {order: [z-ai], allow_fallbacks: false}}
     reintentos: 6                # 429 transitorios del hosting de fondo: esperas de 10 a 120 s
 
+  glm-5.3-sin-razonar:
+    # Variante declarada (decisión de Maia, 14/9/2026): GLM-5.3 "como viene" no
+    # termina de razonar: numera palabra por palabra para cumplir las 150 y agotó
+    # 16000 y 32000 tokens (dos corridas parciales en corridas_invalidas/). Acá se
+    # apaga el razonamiento (OpenRouter: reasoning.enabled=false → Z.AI thinking
+    # disabled). Es OTRA condición, como Sonnet 4.6 sin thinking; se declara en
+    # cada corrida y no se mezcla con la entrada glm-5.3 en el análisis.
+    proveedor: openai_compatible
+    modelo: z-ai/glm-5.3
+    base_url: https://openrouter.ai/api/v1
+    clave_env: OPENROUTER_API_KEY
+    laboratorio: Zhipu (Z.ai)
+    pais: China
+    via: OpenRouter
+    tamano: grande
+    acepta_temperatura: true
+    razonamiento: apagado
+    verificar: false
+    cuerpo_extra: {provider: {order: [z-ai], allow_fallbacks: false}, reasoning: {enabled: false}}
+    reintentos: 6
+
   minimax-m3:
     proveedor: openai_compatible
     modelo: minimax/minimax-m3
@@ -393,8 +414,10 @@ modelos:
     tamano: grande
     acepta_temperatura: true
     verificar: false             # alta 31/5/2026. Probado 14/9: 12 endpoints y MiniMax no sirve el suyo en OpenRouter; sin fijar lo sirvió DeepInfra.
-    # Se fija DeepInfra (fp8, 0.28 / 1.10 USD por millón) para que todas las llamadas salgan del mismo hosting; se declara que no es el laboratorio.
-    cuerpo_extra: {provider: {order: [deepinfra], allow_fallbacks: false}}
+    # Se fijó DeepInfra (fp8) para que todas las llamadas salieran del mismo hosting, pero devolvió 429
+    # "rate-limited upstream" en dos corridas seguidas (14/9, aun con 6 reintentos). Se pasa a Together
+    # (precisión no declarada por el hosting, 0.30 / 1.20 USD por millón); no es el laboratorio: se declara.
+    cuerpo_extra: {provider: {order: [together], allow_fallbacks: false}}
     reintentos: 6                # 429 transitorios del hosting de fondo: esperas de 10 a 120 s
 
   hunyuan-hy4:
