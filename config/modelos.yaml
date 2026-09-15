@@ -77,7 +77,7 @@ modelos:
     tope_salida: 4096
     verificar: false             # catálogo 15/9/2026: creado 2024-04-08; contexto 128k
 
-  gemini-2.5-pro:
+  gemini-2.5-pro-openrouter:   # clave distinta de la entrada gemini-2.5-pro (API directa) que ya estaba en el catalogo: con la misma clave YAML se pisaban y la corrida uso la directa (15/9, llamada 3)
     proveedor: openai_compatible
     modelo: google/gemini-2.5-pro
     base_url: https://openrouter.ai/api/v1

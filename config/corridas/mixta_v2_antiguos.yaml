@@ -43,4 +43,4 @@ max_tokens_respuesta: 32000
 asignacion:
   modo: rotacion
   desplazamiento: 0
-  panel: [claude-3-haiku, gpt-4-turbo-2024-04-09, gemini-2.5-pro, qwen-2.5-72b-instruct, mistral-large-2407, deepseek-v3, grok-4.20]
+  panel: [claude-3-haiku, gpt-4-turbo-2024-04-09, gemini-2.5-pro-openrouter, qwen-2.5-72b-instruct, mistral-large-2407, deepseek-v3, grok-4.20]
