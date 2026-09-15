@@ -1,0 +1,73 @@
+{
+  "corrida": "v2_kimi_mono_20260915-020320_1",
+  "configuracion": {
+    "nombre": "v2_kimi_mono",
+    "escenario": "escenario_v2.md",
+    "idioma": "es",
+    "agenda": "v2",
+    "variantes": {
+      "RECURSOS": "escasez moderada",
+      "HORIZONTE": "solos"
+    },
+    "max_rondas": 10,
+    "max_palabras": 150,
+    "max_palabras_texto": 500,
+    "temperatura": 1.0,
+    "max_tokens_respuesta": 32000,
+    "asignacion": {
+      "modo": "mono",
+      "modelo": "kimi-k3"
+    }
+  },
+  "archivo_configuracion": "config/corridas/v2_kimi_mono.yaml",
+  "escenario_archivo": "escenario_v2.md",
+  "variantes": {
+    "RECURSOS": "escasez moderada",
+    "HORIZONTE": "solos"
+  },
+  "variantes_disponibles": {
+    "RECURSOS": [
+      "escasez moderada",
+      "escasez",
+      "abundancia"
+    ],
+    "HORIZONTE": [
+      "solos",
+      "otra población a la vista"
+    ]
+  },
+  "idioma": "es",
+  "asignacion": {
+    "1": "kimi-k3",
+    "2": "kimi-k3",
+    "3": "kimi-k3",
+    "4": "kimi-k3",
+    "5": "kimi-k3",
+    "6": "kimi-k3",
+    "7": "kimi-k3"
+  },
+  "modelos": {
+    "kimi-k3": {
+      "proveedor": "openai_compatible",
+      "modelo": "moonshotai/kimi-k3",
+      "base_url": "https://openrouter.ai/api/v1",
+      "clave_env": "OPENROUTER_API_KEY",
+      "laboratorio": "Moonshot",
+      "pais": "China",
+      "via": "OpenRouter",
+      "tamano": "grande",
+      "acepta_temperatura": true,
+      "verificar": false,
+      "cuerpo_extra": {
+        "provider": {
+          "order": [
+            "moonshotai"
+          ],
+          "allow_fallbacks": false
+        }
+      },
+      "reintentos": 6
+    }
+  },
+  "dry_run": false
+}
