@@ -38,8 +38,109 @@
 #   verificar:          true = el string del modelo se escribió de memoria y
 #                       hay que confirmarlo en la documentación del proveedor
 #                       antes de usarlo en una corrida.
+#   tope_salida:        máximo de tokens de salida que admite el modelo; el
+#                       techo de la corrida (max_tokens_respuesta) se recorta a
+#                       ese valor (modelos viejos: GPT-4 Turbo, Claude 3 Haiku).
 
 modelos:
+
+  # --- "Los más antiguos" (idea de Maia, 15/9/2026): la versión más vieja que
+  # cada casa todavía sirve, según resultados/catalogo_versiones_20260915-114348.md.
+  # Anthropic, Qwen, Mistral y DeepSeek viejos solo se sirven vía OpenRouter
+  # (la API directa de cada laboratorio ya no los ofrece); se pide el hosting
+  # del laboratorio cuando existe y, si no, se deja el que OpenRouter elija,
+  # registrado en servido_por. Los topes de salida se recortan con tope_salida.
+  claude-3-haiku:
+    proveedor: openai_compatible
+    modelo: anthropic/claude-3-haiku
+    base_url: https://openrouter.ai/api/v1
+    clave_env: OPENROUTER_API_KEY
+    laboratorio: Anthropic
+    pais: EE.UU.
+    via: OpenRouter
+    tamano: chico
+    acepta_temperatura: true
+    tope_salida: 4096
+    verificar: false             # catálogo 15/9/2026: creado 2024-03-13; 0.25 / 1.25 USD por millón
+    cuerpo_extra: {provider: {order: [anthropic], allow_fallbacks: false}}
+    reintentos: 6
+
+  gpt-4-turbo-2024-04-09:
+    proveedor: openai_compatible
+    modelo: gpt-4-turbo-2024-04-09
+    base_url: https://api.openai.com/v1
+    clave_env: OPENAI_API_KEY
+    laboratorio: OpenAI
+    pais: EE.UU.
+    tamano: grande
+    acepta_temperatura: true
+    tope_salida: 4096
+    verificar: false             # catálogo 15/9/2026: creado 2024-04-08; contexto 128k
+
+  gemini-2.5-pro:
+    proveedor: openai_compatible
+    modelo: gemini-2.5-pro
+    base_url: https://generativelanguage.googleapis.com/v1beta/openai/
+    clave_env: GOOGLE_API_KEY
+    laboratorio: Google
+    pais: EE.UU.
+    tamano: grande
+    acepta_temperatura: true
+    verificar: false             # catálogo 15/9/2026: "Stable release (June 17th, 2025)"; razona dentro del techo
+
+  qwen-2.5-72b-instruct:
+    proveedor: openai_compatible
+    modelo: qwen/qwen-2.5-72b-instruct
+    base_url: https://openrouter.ai/api/v1
+    clave_env: OPENROUTER_API_KEY
+    laboratorio: Alibaba
+    pais: China
+    via: OpenRouter
+    tamano: grande
+    acepta_temperatura: true
+    tope_salida: 4096
+    verificar: false             # catálogo 15/9/2026: creado 2024-09-19; 0.36 / 0.40 USD por millón; hosting a elección de OpenRouter
+    reintentos: 6
+
+  mistral-large-2407:
+    proveedor: openai_compatible
+    modelo: mistralai/mistral-large-2407
+    base_url: https://openrouter.ai/api/v1
+    clave_env: OPENROUTER_API_KEY
+    laboratorio: Mistral
+    pais: Francia
+    via: OpenRouter
+    tamano: grande
+    acepta_temperatura: true
+    tope_salida: 4096
+    verificar: false             # catálogo 15/9/2026: Mistral Large 2 (jul 2024), la versión fechada más vieja del flagship; 2.00 / 6.00 USD por millón
+    cuerpo_extra: {provider: {order: [mistral], allow_fallbacks: true}}
+    reintentos: 6
+
+  deepseek-v3:
+    proveedor: openai_compatible
+    modelo: deepseek/deepseek-chat
+    base_url: https://openrouter.ai/api/v1
+    clave_env: OPENROUTER_API_KEY
+    laboratorio: DeepSeek
+    pais: China
+    via: OpenRouter
+    tamano: grande
+    acepta_temperatura: true
+    tope_salida: 4096
+    verificar: false             # catálogo 15/9/2026: "DeepSeek V3", creado 2024-12-26; 0.26 / 1.03 USD por millón; hosting a elección de OpenRouter
+    reintentos: 6
+
+  grok-4.20:
+    proveedor: openai_compatible
+    modelo: grok-4.20
+    base_url: https://api.x.ai/v1
+    clave_env: XAI_API_KEY
+    laboratorio: xAI
+    pais: EE.UU.
+    tamano: grande
+    acepta_temperatura: true
+    verificar: false             # catálogo 15/9/2026: alias de grok-4.20-0309-reasoning (mar 2026), lo más viejo que sirve xAI
 
   # --- Estados Unidos: Anthropic -------------------------------------------
   claude-sonnet-4-6:

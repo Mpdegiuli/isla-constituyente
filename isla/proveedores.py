@@ -247,6 +247,11 @@ class Registro:
         # en DeepInfra murió con 3 intentos y esperas de 2, 4 y 8 s). Esperas de
         # 10, 20, 40, 80, 120... s, tope 120.
         intentos = int(cfg.get("reintentos", intentos))
+        # `tope_salida` en el catálogo: máximo de tokens de salida que admite el modelo
+        # (GPT-4 Turbo y Claude 3 Haiku, 4096). El techo de la corrida se recorta a ese
+        # valor para que la API no rechace la llamada; queda registrado en max_tokens.
+        if cfg.get("tope_salida"):
+            max_tokens = min(max_tokens, int(cfg["tope_salida"]))
         error, respuesta = None, None
         inicio = time.time()
         for intento in range(1, intentos + 1):

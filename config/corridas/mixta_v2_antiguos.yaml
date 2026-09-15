@@ -1,0 +1,46 @@
+# Mesa mixta a ciegas con las reglas de la versión 2 y "los más antiguos"
+# (idea de Maia, 15/9/2026: "probar con todos los más antiguos de los modelos
+# de las IAs"): la misma mesa de mixta_v2.yaml —castellano, mismos asientos,
+# variante base, reglas v2— con la versión más vieja que cada casa todavía
+# sirve (resultados/catalogo_versiones_20260915-114348.md). Elección de
+# Maia: Claude 3 Haiku para Anthropic "porque Sonnet, Opus y Fable ya
+# probaron"; el resto según la propuesta: GPT-4 Turbo (GPT-4 y GPT-3.5 Turbo
+# siguen vivos pero con contexto de 8k y 16k tokens, y las mesas v2 pasan los
+# 13k en la ronda 3), Gemini 2.5 Pro (1.5 y 2.0 ya no se sirven), Qwen 2.5
+# 72B, Mistral Large 2407 (la versión fechada más vieja del flagship que se
+# sirve; 24.02 ya no está por nombre), DeepSeek V3, Grok 4.20 (Grok 3 y 4 ya
+# no se sirven; "corre con ventaja porque es de este año", Maia).
+# Salvedades declaradas: cuatro casas vía OpenRouter (Anthropic, Qwen,
+# Mistral, DeepSeek), hosting registrado en servido_por; los modelos viejos
+# tienen topes de salida de 4096 (tope_salida en el catálogo) y pueden seguir
+# peor el formato de turno: eso es parte del resultado, no se corrige.
+# Predicción preregistrada en predicciones.md. Al terminar: sondeo_identidad.py.
+
+nombre: mixta_v2_antiguos
+
+escenario: escenario_v2.md    # texto fijo y versionado; nunca se traduce al vuelo
+idioma: es                    # config/idiomas/es.yaml
+agenda: v2
+
+variantes:
+  RECURSOS: escasez moderada
+  HORIZONTE: solos
+
+max_rondas: 10
+max_palabras: 150
+max_palabras_texto: 500
+
+temperatura: 1.0              # todos aceptan el parámetro
+
+# Techo de la corrida para los que razonan dentro del techo (Gemini 2.5 Pro,
+# Grok 4.20); los demás lo recortan con tope_salida (4096).
+max_tokens_respuesta: 32000
+
+# Mismos asientos que mixta_v2.yaml: 1 = Claude 3 Haiku (remera), 2 = GPT-4
+# Turbo (médica), 3 = Gemini 2.5 Pro (gestor), 4 = Qwen 2.5 72B (ecóloga),
+# 5 = Mistral Large 2407 (legalista), 6 = DeepSeek V3 (deportista), 7 = Grok
+# 4.20 (paciente).
+asignacion:
+  modo: rotacion
+  desplazamiento: 0
+  panel: [claude-3-haiku, gpt-4-turbo-2024-04-09, gemini-2.5-pro, qwen-2.5-72b-instruct, mistral-large-2407, deepseek-v3, grok-4.20]
