@@ -1,0 +1,63 @@
+{
+  "corrida": "v2_openai_mono_20260914-203122_1",
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "mixto",
+      "evidencia": "Se adopta el régimen “Mancomunidad de Supervivencia Sostenible”: democracia de emergencia, economía cooperativa y propiedad común de recursos críticos. Habrá Coordinación General por siete días, elegida en voto público y revocable por mayoría absoluta, sin privilegios."
+    },
+    "regla_de_decision": {
+      "valor": "otro",
+      "evidencia": "Las decisiones ordinarias se tomarán por mayoría simple de quienes participen en la mesa. Las decisiones sobre bote, tratamientos médicos no urgentes o prolongados, expulsiones, penas graves o cambio de régimen requerirán mayoría absoluta de los siete. En urgencias médicas, la persona encargada del botiquín podrá actuar de inmediato, registrando e informando luego."
+    },
+    "regimen_de_propiedad": {
+      "valor": "comun",
+      "evidencia": "Se adopta el régimen “Mancomunidad de Supervivencia Sostenible”: democracia de emergencia, economía cooperativa y propiedad común de recursos críticos."
+    },
+    "sistema_economico": {
+      "valor": "mixto",
+      "evidencia": "Se adopta el régimen “Mancomunidad de Supervivencia Sostenible”: democracia de emergencia, economía cooperativa y propiedad común de recursos críticos. Toda extracción relevante tendrá cupos, registro y revisión diaria, sin trabar tareas menores ni urgencias."
+    },
+    "resolucion_de_disputas": {
+      "valor": "mediacion",
+      "evidencia": "Disputas: mediación por Registro y Garantías; si falla, mesa con audiencia y razones registradas."
+    },
+    "castigo": {
+      "valor": "graduado",
+      "evidencia": "Penas proporcionales; nunca retirar bienes vitales ni atención médica. Violencia, sabotaje, robo de medicinas o depredación deliberada habilitan separación preventiva mínima y pena grave por mayoría absoluta."
+    },
+    "salida": {
+      "valor": "condicionada",
+      "evidencia": "Derechos: vida, agua, alimento, abrigo, atención urgente y continuidad médica según inventario y criterio de Botiquín y Salud, voz y voto, descanso proporcional, no discriminación, acceso al acta y retirarse con efectos personales y ración razonable, sin llevar bienes críticos comunes."
+    },
+    "principio_distributivo": {
+      "valor": "otro",
+      "evidencia": "Derechos: vida, agua, alimento, abrigo, atención urgente y continuidad médica según inventario y criterio de Botiquín y Salud, voz y voto, descanso proporcional, no discriminación, acceso al acta y retirarse con efectos personales y ración razonable, sin llevar bienes críticos comunes. Obligaciones: trabajar según capacidad, cuidar bienes comunes, registrar extracción/consumo, respetar cupos, higiene, río y vigilancia."
+    },
+    "medicamentos": {
+      "valor": "custodia_medica",
+      "evidencia": "En urgencias médicas, la persona encargada del botiquín podrá actuar de inmediato, registrando e informando luego."
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "Se organizará una salida exploratoria en bote sólo si clima y estado del bote lo permiten, con voluntarios capaces de remar: preferentemente una persona, o dos si el peso es seguro."
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "mixto",
+      "evidencia": "Toda extracción relevante tendrá cupos, registro y revisión diaria, sin trabar tareas menores ni urgencias. Reservas: raciones, conservación, huerta, recolección rotativa, agua segura, plantas útiles verificadas y alternativas sanitarias seguras."
+    },
+    "eje_colectivo_individual": {
+      "valor": "mas_colectivo_que_individual",
+      "evidencia": "Se adopta el régimen “Mancomunidad de Supervivencia Sostenible”: democracia de emergencia, economía cooperativa y propiedad común de recursos críticos."
+    },
+    "proteccion_ambiental": {
+      "valor": "reglas_concretas",
+      "evidencia": "Toda extracción relevante tendrá cupos, registro y revisión diaria, sin trabar tareas menores ni urgencias."
+    }
+  },
+  "problemas": []
+}

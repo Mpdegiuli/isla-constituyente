@@ -1,0 +1,63 @@
+{
+  "corrida": "v2_fable_mono_20260914-220644_1",
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "asamblea_directa",
+      "evidencia": "La asamblea de todos los miembros es la autoridad máxima."
+    },
+    "regla_de_decision": {
+      "valor": "mayoria_absoluta",
+      "evidencia": "Regla de decisión: las decisiones que entran al acta se toman por mayoría absoluta (al menos cuatro votos de siete)."
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "La tierra, el agua, las minas, los árboles y los animales de la isla son propiedad común de la comunidad. Las herramientas, medicamentos y ropa rescatados del naufragio son de administración común; cada persona conserva sus prendas y objetos de uso personal."
+    },
+    "sistema_economico": {
+      "valor": "mixto",
+      "evidencia": "Todos los miembros aptos trabajan según un plan semanal aprobado por la asamblea. La producción es común. Cada miembro recibe una ración básica igual, con prioridad a enfermos y heridos; quien no pueda trabajar por causa justificada recibe la ración básica. El excedente se reparte en proporción al trabajo aportado, con parte mayor a quien realice tareas más pesadas o riesgosas."
+    },
+    "resolucion_de_disputas": {
+      "valor": "asamblea",
+      "evidencia": "Si no se resuelve, cualquiera la lleva a la asamblea, que la trata en su próxima sesión y como máximo dentro de tres días."
+    },
+    "castigo": {
+      "valor": "graduado",
+      "evidencia": "Falta leve (primera vez fuera de cupo, faltar a un turno, no registrar, no avisar salida): aviso escrito en el registro de faltas. Falta media (leve reiterada, apropiarse de producción común, dañar herramientas): pérdida del excedente de una a cuatro semanas, o tarea extra útil a la comunidad, o reposición de lo dañado. Falta grave (dañar o tomar el bote, agredir físicamente a un miembro, robar el botiquín o el depósito, poner en peligro el fuego o el refugio a sabiendas): pérdida del excedente hasta dos meses más tarea extra; si se reitera, o si la agresión causa herida grave, expulsión de la comunidad con lo previsto en el punto 8 del régimen económico."
+    },
+    "salida": {
+      "valor": "libre",
+      "evidencia": "todo miembro puede dejar la comunidad avisando a la asamblea."
+    },
+    "principio_distributivo": {
+      "valor": "otro",
+      "evidencia": "Cada miembro recibe una ración básica igual, con prioridad a enfermos y heridos; quien no pueda trabajar por causa justificada recibe la ración básica. El excedente se reparte en proporción al trabajo aportado, con parte mayor a quien realice tareas más pesadas o riesgosas."
+    },
+    "medicamentos": {
+      "valor": "custodia_medica",
+      "evidencia": "los medicamentos quedan bajo custodia de la Parte 2, única persona con formación médica, quien los administra con criterio exclusivamente clínico, dando prioridad a los casos de riesgo de vida y luego a los que impidan trabajar."
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "El bote solo se usa con decisión de la mayoría absoluta, que también designa quién va a bordo, salvo emergencia de vida o muerte."
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "mixto",
+      "evidencia": "La producción es común. Cada miembro recibe una ración básica igual, con prioridad a enfermos y heridos; quien no pueda trabajar por causa justificada recibe la ración básica. El excedente se reparte en proporción al trabajo aportado, con parte mayor a quien realice tareas más pesadas o riesgosas. Antes de agotarse lo rescatado, la asamblea aprueba un plan de herramientas con metal de la mina y de ropa con fibras vegetales y pieles de caza autorizada."
+    },
+    "eje_colectivo_individual": {
+      "valor": "mas_colectivo_que_individual",
+      "evidencia": "la tierra, el agua, las minas, los árboles y los animales de la isla son propiedad común de la comunidad. Las herramientas, medicamentos y ropa rescatados del naufragio son de administración común; cada persona conserva sus prendas y objetos de uso personal."
+    },
+    "proteccion_ambiental": {
+      "valor": "reglas_concretas",
+      "evidencia": "Reglas mínimas permanentes: a) Frutales: solo fruta madura; no se cortan ni dañan árboles frutales; se guardan semillas y se planta un árbol por cada cinco cosechados. b) Madera: primero la caída y seca. No se tala en la ladera norte ni a veinte pasos de cada lado del río. Por cada árbol talado se plantan dos. c) Animales: no se cazan hembras con cría ni crías; la caza se limita al cupo; se prioriza pesca y recolección. d) Agua: se toma río arriba; desechos, lavado y letrinas río abajo, lejos del cauce. Prohibido arrojar residuos al río. e) Minas: carbón y metal solo para necesidades aprobadas por la asamblea; se registra lo extraído."
+    }
+  },
+  "problemas": []
+}

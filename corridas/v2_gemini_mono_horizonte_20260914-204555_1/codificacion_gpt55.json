@@ -1,0 +1,63 @@
+{
+  "corrida": "v2_gemini_mono_horizonte_20260914-204555_1",
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "mixto",
+      "evidencia": "El Consejo Directivo estará integrado por roles operativos. La Parte 3 será Coordinador General, encargado de articular las decisiones de los roles con las necesidades colectivas. Toda medida extractiva requerirá el aval de Sostenibilidad. Las decisiones se sujetarán a la asamblea comunitaria, evitando burocracia y poderes absolutos."
+    },
+    "regla_de_decision": {
+      "valor": "mayoria_simple",
+      "evidencia": "todas las decisiones futuras del grupo se seguirán tomando por mayoría simple (más votos a favor que en contra)."
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "Sistema mixto. Herramientas y recursos naturales son comunales. El botiquín es comunal, bajo custodia exclusiva de Salud. El bote es comunal, con resguardo y mantenimiento bajo custodia exclusiva de Transporte. Objetos personales son privados."
+    },
+    "sistema_economico": {
+      "valor": "mixto",
+      "evidencia": "Régimen cooperativo. Cada uno contribuye según sus capacidades reales. Las tareas productivas estarán sujetas a cuotas ecológicas estrictas."
+    },
+    "resolucion_de_disputas": {
+      "valor": "asamblea",
+      "evidencia": "De persistir, decidirá la asamblea por mayoría simple de forma inmediata."
+    },
+    "castigo": {
+      "valor": "exclusion_o_destierro",
+      "evidencia": "Quien incumpla gravemente, someta a otros o viole cuotas será expulsado, perdiendo acceso a bienes."
+    },
+    "salida": {
+      "valor": "libre",
+      "evidencia": "Libertad irrenunciable de abandonar el grupo sin represalias."
+    },
+    "principio_distributivo": {
+      "valor": "maximin",
+      "evidencia": "Derecho a la asistencia médica, garantizando el tratamiento prioritario de enfermedades preexistentes severas y emergencias, guiado por el triaje racional de la Encargada de Salud."
+    },
+    "medicamentos": {
+      "valor": "por_necesidad",
+      "evidencia": "garantizando el tratamiento prioritario de enfermedades preexistentes severas y emergencias, guiado por el triaje racional de la Encargada de Salud."
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "Transporte evaluará las condiciones con autoridad exclusiva para decidir el zarpe seguro, coordinando la acción con el Coordinador General. Nadie podrá obligarlo a un viaje temerario."
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "regla",
+      "evidencia": "Racionamiento de reservas, asegurando dosis para quienes empeoran rápidamente."
+    },
+    "eje_colectivo_individual": {
+      "valor": "mas_colectivo_que_individual",
+      "evidencia": "Herramientas y recursos naturales son comunales. El botiquín es comunal, bajo custodia exclusiva de Salud. El bote es comunal, con resguardo y mantenimiento bajo custodia exclusiva de Transporte. Objetos personales son privados."
+    },
+    "proteccion_ambiental": {
+      "valor": "reglas_concretas",
+      "evidencia": "Toda medida extractiva requerirá el aval de Sostenibilidad. Las tareas productivas estarán sujetas a cuotas ecológicas estrictas."
+    }
+  },
+  "problemas": []
+}

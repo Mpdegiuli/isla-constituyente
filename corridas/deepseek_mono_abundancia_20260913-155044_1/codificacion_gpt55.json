@@ -1,0 +1,63 @@
+{
+  "corrida": "deepseek_mono_abundancia_20260913-155044_1",
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "mixto",
+      "evidencia": "La asamblea puede ordenar salidas; quien sepa remar tripulará salvo riesgo grave, impedimento médico o condiciones inseguras. Todos contribuyen según capacidad, salvo imposibilidad o miedo fundado. Disputas resueltas por asamblea por mayoría simple. Habrá coordinador/a electo y revocable; inicialmente Parte 3."
+    },
+    "regla_de_decision": {
+      "valor": "mayoria_simple",
+      "evidencia": "Regla de decisión vigente: mayoría simple (más votos a favor que en contra)."
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "Objetos personales se conservan. Medicamentos y recursos naturales son bienes comunes; Parte 2 custodia y administra el botiquín según urgencia médica."
+    },
+    "sistema_economico": {
+      "valor": "mixto",
+      "evidencia": "Economía: los frutos, animales, agua y minerales son bienes comunes; la asamblea asigna su uso según necesidad y capacidad de regeneración, sin acaparamiento ni agotamiento."
+    },
+    "resolucion_de_disputas": {
+      "valor": "asamblea",
+      "evidencia": "Disputas: intento previo de acuerdo voluntario y, si no, asamblea por mayoría simple."
+    },
+    "castigo": {
+      "valor": "graduado",
+      "evidencia": "Penas: amonestación, restricción temporal del uso del recurso, reparación ecológica proporcional y, si hay cargo, destitución; constarán por escrito."
+    },
+    "salida": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "principio_distributivo": {
+      "valor": "otro",
+      "evidencia": "la asamblea asigna su uso según necesidad y capacidad de regeneración"
+    },
+    "medicamentos": {
+      "valor": "custodia_medica",
+      "evidencia": "Medicamentos y recursos naturales son bienes comunes; Parte 2 custodia y administra el botiquín según urgencia médica."
+    },
+    "bote": {
+      "valor": "queda_con_su_parte",
+      "evidencia": "Bote bajo custodia exclusiva de Parte 1, quien decide si mar, clima y estado permiten navegar; nadie más lo usará sin su permiso."
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "regla",
+      "evidencia": "Toda extracción requiere autorización; se prioriza la conservación."
+    },
+    "eje_colectivo_individual": {
+      "valor": "mas_colectivo_que_individual",
+      "evidencia": "Objetos personales se conservan. Medicamentos y recursos naturales son bienes comunes; Parte 2 custodia y administra el botiquín según urgencia médica. Recursos se usan sin agotarlos; extracción autorizada por asamblea según regeneración."
+    },
+    "proteccion_ambiental": {
+      "valor": "reglas_concretas",
+      "evidencia": "Recursos se usan sin agotarlos; extracción autorizada por asamblea según regeneración."
+    }
+  },
+  "problemas": []
+}

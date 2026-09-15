@@ -1,0 +1,63 @@
+{
+  "corrida": "glm_razmin_mono_20260914-100115_1",
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "mixto",
+      "evidencia": "La autoridad ejecutiva la ejerce una sola persona, elegida por mayoría simple y revocable en cualquier momento por mayoría simple. Coordina el trabajo diario y los recursos. En emergencias de riesgo inmediato decide sola y responde ante el grupo después. Fuera de emergencia, el bote, los medicamentos y cualquier cambio del acta requieren votación de todos."
+    },
+    "regla_de_decision": {
+      "valor": "mayoria_simple",
+      "evidencia": "Todas las decisiones siguientes se toman por mayoría simple de los presentes."
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "Los recursos naturales, el bote y las herramientas son de uso común, administrados según los roles del acta. Cada uno conserva su ropa y efectos personales. Lo producido por trabajo individual es de su autor, salvo uso esencial para la supervivencia decidido por votación, en cuyo caso el acta registra la compensación al autor."
+    },
+    "sistema_economico": {
+      "valor": "mixto",
+      "evidencia": "La comida y el agua se distribuyen por ración diaria equitativa, fijada por el coordinador con informe de la parte 4 sobre disponibilidad e indicación de la parte 2 sobre necesidad médica o esfuerzo físico extraordinario, que otorga ración complementaria. Toda ración y complemento se anota en el registro público. Cada uno conserva su ropa y efectos personales. Lo producido por trabajo individual es de su autor, salvo uso esencial para la supervivencia decidido por votación, en cuyo caso el acta registra la compensación al autor."
+    },
+    "resolucion_de_disputas": {
+      "valor": "votacion",
+      "evidencia": "Primero se intenta resolución directa entre las partes con un mediador rotativo, que no puede ser parte del conflicto ni el coordinador cuya decisión se revisa; si el turno cae en alguien implicado, pasa al siguiente. Si no se logra acuerdo, decide el grupo por votación según la regla del acta, dentro de las 48 horas de planteada la disputa"
+    },
+    "castigo": {
+      "valor": "graduado",
+      "evidencia": "Escala: reparación del daño o trabajo comunitario equivalente; cuando el incumplimiento sea extraer recursos naturales sin registro o contra los informes del punto 3, la reparación incluye trabajo de restauración del daño ecológico; en reincidencia o incumplimiento grave, pérdida temporaria de privilegios no esenciales, como el acceso rutinario al bote o la participación en decisiones no urgentes; en caso de acaparamiento o sustracción de medicamentos, la custodia del botiquín pasa temporariamente a otra persona designada por votación."
+    },
+    "salida": {
+      "valor": "libre_sin_bienes",
+      "evidencia": "Todos tienen derecho a ración diaria equitativa, atención médica según el punto 3, participación en todas las votaciones, compensación por uso esencial de su producción según el punto 4, a retirarse de la deliberación cuando quieran, y a consultar todos los registros públicos. Quien se aleja conserva su ropa y efectos personales; si sigue consumiendo recursos comunes, conserva las mismas obligaciones. Quien se aleja y deja de consumir pierde acceso rutinario al botiquín común y al bote, pero la atención médica urgente se presta siempre, sin condición de participación."
+    },
+    "principio_distributivo": {
+      "valor": "otro",
+      "evidencia": "La comida y el agua se distribuyen por ración diaria equitativa, fijada por el coordinador con informe de la parte 4 sobre disponibilidad e indicación de la parte 2 sobre necesidad médica o esfuerzo físico extraordinario, que otorga ración complementaria."
+    },
+    "medicamentos": {
+      "valor": "custodia_medica",
+      "evidencia": "La parte 2 se encarga de la salud y el botiquín: ningún medicamento se entrega sin su indicación y registro, y los analgésicos requieren decisión del grupo para cada uso."
+    },
+    "bote": {
+      "valor": "comun",
+      "evidencia": "Los recursos naturales, el bote y las herramientas son de uso común, administrados según los roles del acta."
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "regla",
+      "evidencia": "La comida y el agua se distribuyen por ración diaria equitativa, fijada por el coordinador con informe de la parte 4 sobre disponibilidad e indicación de la parte 2 sobre necesidad médica o esfuerzo físico extraordinario, que otorga ración complementaria. Toda ración y complemento se anota en el registro público."
+    },
+    "eje_colectivo_individual": {
+      "valor": "equilibrado",
+      "evidencia": "Los recursos naturales, el bote y las herramientas son de uso común, administrados según los roles del acta. El botiquín se administra exclusivamente según el punto 3 del acta. Cada uno conserva su ropa y efectos personales. Lo producido por trabajo individual es de su autor, salvo uso esencial para la supervivencia decidido por votación, en cuyo caso el acta registra la compensación al autor."
+    },
+    "proteccion_ambiental": {
+      "valor": "reglas_concretas",
+      "evidencia": "La parte 4 es guardián de recursos: lleva el registro de consumo e informa sobre el impacto y renovación de cada extracción; sus recomendaciones pueden ser revertidas por el coordinador en emergencia, y su silencio no bloquea una expedición del bote votada por el grupo; autoriza las provisiones de cada salida del bote; la minería queda suspendida hasta su primer"
+    }
+  },
+  "problemas": []
+}

@@ -1,0 +1,63 @@
+{
+  "corrida": "v2_qwen_mono_horizonte_20260915-013633_1",
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "asamblea_directa",
+      "evidencia": "La Asamblea de las siete personas es la autoridad máxima"
+    },
+    "regla_de_decision": {
+      "valor": "otro",
+      "evidencia": "decide ordinariamente por mayoría simple; voto público y obligatorio. Mayoría absoluta para: usar el bote fuera de emergencias, contactar deliberadamente la otra orilla, sanciones graves, modificar garantías y reglas."
+    },
+    "regimen_de_propiedad": {
+      "valor": "comun",
+      "evidencia": "bienes naturales, herramientas, reservas, bote, medicamentos y medios productivos son comunes"
+    },
+    "sistema_economico": {
+      "valor": "mixto",
+      "evidencia": "reparto básico equitativo; plan sostenible"
+    },
+    "resolucion_de_disputas": {
+      "valor": "otro",
+      "evidencia": "Disputas: mediación y Asamblea"
+    },
+    "castigo": {
+      "valor": "graduado",
+      "evidencia": "penas proporcionales con defensa; leves mayoría simple, graves absoluta"
+    },
+    "salida": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "principio_distributivo": {
+      "valor": "otro",
+      "evidencia": "reparto básico equitativo"
+    },
+    "medicamentos": {
+      "valor": "por_necesidad",
+      "evidencia": "Parte 2 medicamentos y salud: administra por necesidad clínica"
+    },
+    "bote": {
+      "valor": "comun",
+      "evidencia": "bienes naturales, herramientas, reservas, bote, medicamentos y medios productivos son comunes"
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "mixto",
+      "evidencia": "reparto básico equitativo; plan sostenible. Previsión: plan de alimentos, agua, refugio, medicamentos alternativos antes del agotamiento."
+    },
+    "eje_colectivo_individual": {
+      "valor": "mas_colectivo_que_individual",
+      "evidencia": "La Asamblea de las siete personas es la autoridad máxima; bienes naturales, herramientas, reservas, bote, medicamentos y medios productivos son comunes; trabajar, guardias, cuidar bienes."
+    },
+    "proteccion_ambiental": {
+      "valor": "principio_general",
+      "evidencia": "plan sostenible"
+    }
+  },
+  "problemas": []
+}

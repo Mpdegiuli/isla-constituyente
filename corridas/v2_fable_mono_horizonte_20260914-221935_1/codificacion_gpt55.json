@@ -1,0 +1,63 @@
+{
+  "corrida": "v2_fable_mono_horizonte_20260914-221935_1",
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "asamblea_directa",
+      "evidencia": "La autoridad máxima es la Asamblea de los integrantes, que se reúne al menos una vez por semana y cuando lo pidan dos integrantes."
+    },
+    "regla_de_decision": {
+      "valor": "otro",
+      "evidencia": "las decisiones operativas del grupo (tareas del día, cupos semanales, expediciones, emergencias, disputas y penas) se toman por mayoría simple de los integrantes presentes en la isla, es decir, más votos a favor que en contra. Modificar o derogar un punto ya aprobado del acta requiere mayoría absoluta de los integrantes presentes (más de la mitad)."
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "Ropa y objetos personales rescatados siguen siendo de cada uno; herramientas, bote y botiquín son comunes."
+    },
+    "sistema_economico": {
+      "valor": "planificado",
+      "evidencia": "Lo extraído dentro de los cupos se reparte según decida la Asamblea, asegurando primero comida, agua y abrigo para todos."
+    },
+    "resolucion_de_disputas": {
+      "valor": "asamblea",
+      "evidencia": "Si no se resuelve, la disputa o denuncia se lleva a la Asamblea."
+    },
+    "castigo": {
+      "valor": "graduado",
+      "evidencia": "a) Falta leve (incumplir una tarea asignada, descuidar una regla sin daño, negarse a una tarea sorteada): advertencia escrita en el acta; a la segunda, tarea adicional fijada por la Asamblea. b) Falta grave (uso no autorizado del bote o del botiquín, extracción fuera de los límites del punto 10, violencia, ocultar bienes comunes): pérdida temporal del derecho a voto y del cupo de bienes no esenciales por el tiempo que fije la Asamblea, más reparación del daño."
+    },
+    "salida": {
+      "valor": "libre",
+      "evidencia": "cualquier integrante puede retirarse del grupo en cualquier momento avisando a la Asamblea."
+    },
+    "principio_distributivo": {
+      "valor": "otro",
+      "evidencia": "Lo extraído dentro de los cupos se reparte según decida la Asamblea, asegurando primero comida, agua y abrigo para todos."
+    },
+    "medicamentos": {
+      "valor": "por_necesidad",
+      "evidencia": "la prioridad en el uso de medicamentos incluye, junto con los casos agudos, infecciones y riesgo de vida, las enfermedades crónicas cuya interrupción de tratamiento produce empeoramiento progresivo comprobable, siempre que el botiquín contenga un medicamento adecuado para ellas."
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "a) el bote sale sólo con el custodio o con un remero que el custodio certifique como capacitado; b) viajan como máximo dos personas y sin carga que comprometa la flotación; c) el custodio puede postergar una salida hasta 48 horas por mal tiempo, oleaje o daño del bote, informándolo a la Asamblea, que confirma o fija nueva fecha; d) quien tome, mueva, esconda o dañe el bote sin autorización de la Asamblea comete falta grave."
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "mixto",
+      "evidencia": "Lo extraído dentro de los cupos se reparte según decida la Asamblea, asegurando primero comida, agua y abrigo para todos. La búsqueda de medicamentos en la otra orilla y la identificación de plantas medicinales en la isla son tareas prioritarias del grupo desde la primera semana, con igual jerarquía que la comida y el refugio."
+    },
+    "eje_colectivo_individual": {
+      "valor": "mas_colectivo_que_individual",
+      "evidencia": "democracia asamblearia con bienes comunes y cargos revocables."
+    },
+    "proteccion_ambiental": {
+      "valor": "reglas_concretas",
+      "evidencia": "Límites ecológicos vinculantes: a) Zona de reserva: la franja de bosque de veinte pasos a cada lado del río y todo árbol que dé fruto no se talan bajo ninguna circunstancia. b) Leña: sólo madera caída o seca; talar un árbol vivo requiere autorización expresa de la Asamblea, uno por vez y con justificación de uso. c) Caza y pesca: no se cazan hembras con cría ni animales jóvenes; se fija un cupo semanal de caza y recolección propuesto por el Custodio de Recursos y aprobado por la Asamblea, revisable según lo observado."
+    }
+  },
+  "problemas": []
+}

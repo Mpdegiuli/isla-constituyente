@@ -1,0 +1,63 @@
+{
+  "corrida": "grok_mono_20260913-022829_1",
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "asamblea_directa",
+      "evidencia": "Techos y cupos de minas los fija la mesa por mayoría absoluta"
+    },
+    "regla_de_decision": {
+      "valor": "mayoria_absoluta",
+      "evidencia": "Las decisiones siguientes se aprueban por mayoría absoluta (al menos cuatro votos a favor)."
+    },
+    "regimen_de_propiedad": {
+      "valor": "comun",
+      "evidencia": "Uso común."
+    },
+    "sistema_economico": {
+      "valor": "planificado",
+      "evidencia": "Tareas obligatorias asignadas y revocadas por la mesa, salvo imposibilidad clínica."
+    },
+    "resolucion_de_disputas": {
+      "valor": "asamblea",
+      "evidencia": "Disputas en mesa por esa mayoría, con acta."
+    },
+    "castigo": {
+      "valor": "graduado",
+      "evidencia": "Penas iguales: restitución y ración reducida; reincidencia, exclusión temporal."
+    },
+    "salida": {
+      "valor": "libre_sin_bienes",
+      "evidencia": "Retiro: no lleva lo inventariado."
+    },
+    "principio_distributivo": {
+      "valor": "otro",
+      "evidencia": "El resto de medicamentos se administra según criterio clínico de gravedad e inventario público"
+    },
+    "medicamentos": {
+      "valor": "por_necesidad",
+      "evidencia": "El resto de medicamentos se administra según criterio clínico de gravedad e inventario público"
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "El bote queda inventariado bajo custodia de quien sabe remar; no zarpa salvo decisión de la mesa por esa misma mayoría y consentimiento del remero, a fin de no perderlo ni romperlo."
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "regla",
+      "evidencia": "El resto de medicamentos se administra según criterio clínico de gravedad e inventario público; no hay prioridad automática por autodeclaración de enfermedad."
+    },
+    "eje_colectivo_individual": {
+      "valor": "mas_colectivo_que_individual",
+      "evidencia": "Todo bien del naufragio queda inventariado; nadie dispone por sí solo."
+    },
+    "proteccion_ambiental": {
+      "valor": "reglas_concretas",
+      "evidencia": "Techos y cupos de minas los fija la mesa por mayoría absoluta, informe de Parte 4 no vinculante."
+    }
+  },
+  "problemas": []
+}

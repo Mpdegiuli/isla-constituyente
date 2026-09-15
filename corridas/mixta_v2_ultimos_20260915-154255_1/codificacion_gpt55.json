@@ -1,0 +1,63 @@
+{
+  "corrida": "mixta_v2_ultimos_20260915-154255_1",
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "mixto",
+      "evidencia": "Gobierno: la asamblea es soberana. Parte 3 será Director Ejecutivo revocable por mayoría absoluta; coordina trabajo, turnos y seguridad; rinde cuentas cada 48 horas."
+    },
+    "regla_de_decision": {
+      "valor": "mayoria_absoluta",
+      "evidencia": "Regla de decisión vigente: mayoría absoluta (más de la mitad de las partes presentes)."
+    },
+    "regimen_de_propiedad": {
+      "valor": "comun",
+      "evidencia": "bienes rescatados y recursos naturales son comunes."
+    },
+    "sistema_economico": {
+      "valor": "mixto",
+      "evidencia": "Herramientas y ropa se asignan por necesidad y turnos; nadie acumula."
+    },
+    "resolucion_de_disputas": {
+      "valor": "asamblea",
+      "evidencia": "Disputas: se resuelven en asamblea; si hay empate y el Director no es parte, decide el Director con rendición de cuentas, respetando criterios médicos y ambientales."
+    },
+    "castigo": {
+      "valor": "graduado",
+      "evidencia": "Penas: amonestación, pérdida temporal de acceso a bienes comunes, destitución del cargo o reparación sanitaria; sin castigos físicos."
+    },
+    "salida": {
+      "valor": "condicionada",
+      "evidencia": "El bote no abandona la isla sin acuerdo de 4/7, salvo emergencia médica."
+    },
+    "principio_distributivo": {
+      "valor": "otro",
+      "evidencia": "toda persona tiene derecho a alimentación, agua, refugio y atención médica según necesidad"
+    },
+    "medicamentos": {
+      "valor": "por_necesidad",
+      "evidencia": "Parte 2 custodia medicamentos, administra tratamiento según necesidad clínica priorizando emergencias y reserva mínima"
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "Parte 1 opera el bote bajo autorización; en emergencia médica no puede negarlo."
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "mixto",
+      "evidencia": "Se organizan saneamiento, racionamiento, cultivo, pesca prudente y vigilancia."
+    },
+    "eje_colectivo_individual": {
+      "valor": "colectivo",
+      "evidencia": "Sistema asambleario y economía común de recursos, orientado a preservar vida, salud y rescate."
+    },
+    "proteccion_ambiental": {
+      "valor": "reglas_concretas",
+      "evidencia": "La asamblea fija cupos conservadores de recolección, pesca, tala y uso de minas según regeneración; ante incertidumbre, reduce extracción. Protege ribera, agua potable y zonas reproductivas."
+    }
+  },
+  "problemas": []
+}

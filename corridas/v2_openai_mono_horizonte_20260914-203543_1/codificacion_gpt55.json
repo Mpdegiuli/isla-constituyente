@@ -1,0 +1,63 @@
+{
+  "corrida": "v2_openai_mono_horizonte_20260914-203543_1",
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "consejo_o_junta",
+      "evidencia": "El gobierno será un consejo semanal de 3 personas, rotativo, revocable y sin privilegios"
+    },
+    "regla_de_decision": {
+      "valor": "mayoria_simple",
+      "evidencia": "Las decisiones comunes se tomarán por mayoría simple mientras no se apruebe otra regla específica."
+    },
+    "regimen_de_propiedad": {
+      "valor": "comun",
+      "evidencia": "recursos críticos comunes, inventarios visibles"
+    },
+    "sistema_economico": {
+      "valor": "reparto_por_necesidad",
+      "evidencia": "La economía será cooperativa: recursos críticos comunes, inventarios visibles, raciones según necesidad y trabajo según capacidad real."
+    },
+    "resolucion_de_disputas": {
+      "valor": "otro",
+      "evidencia": "Las disputas se resolverán primero por mediación; si falla, decidirá el consejo con audiencia, pruebas, defensa y registro visible."
+    },
+    "castigo": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "salida": {
+      "valor": "libre_sin_bienes",
+      "evidencia": "retirarse o abstenerse de deliberar no será sanción, pero quien se aparte no decide sobre recursos comunes ni puede exigir raciones, ni llevarse o usar recursos críticos comunes sin acuerdo"
+    },
+    "principio_distributivo": {
+      "valor": "otro",
+      "evidencia": "raciones según necesidad y trabajo según capacidad real"
+    },
+    "medicamentos": {
+      "valor": "por_necesidad",
+      "evidencia": "incluida atención médica urgente según triaje registrado"
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "El bote es recurso común y podrá usarse con registro para exploración urgente."
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "regla",
+      "evidencia": "recursos críticos comunes, inventarios visibles, raciones según necesidad y trabajo según capacidad real"
+    },
+    "eje_colectivo_individual": {
+      "valor": "mas_colectivo_que_individual",
+      "evidencia": "Fundamos la “Comunidad de Supervivencia Sustentable”: una democracia cooperativa de emergencia."
+    },
+    "proteccion_ambiental": {
+      "valor": "reglas_concretas",
+      "evidencia": "Tala, caza, pesca, minería y uso del río tendrán cupos, zonas vedadas y revisión ecológica."
+    }
+  },
+  "problemas": []
+}

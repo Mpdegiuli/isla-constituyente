@@ -1,0 +1,63 @@
+{
+  "corrida": "sonnet_mono_horizonte_20260913-115812_1",
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "mixto",
+      "evidencia": "El grupo toma sus decisiones colectivamente por mayoría simple. Para la coordinación operativa, el grupo designa por mayoría simple un coordinador operativo, que implementa las decisiones colectivas y gestiona las emergencias urgentes"
+    },
+    "regla_de_decision": {
+      "valor": "mayoria_simple",
+      "evidencia": "Las decisiones se toman por mayoría simple (más votos a favor que en contra)."
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "Los recursos de la isla se dividen en comunes (río, minas, árboles del territorio compartido, medicamentos del naufragio) y en lo obtenido por esfuerzo individual."
+    },
+    "sistema_economico": {
+      "valor": "mixto",
+      "evidencia": "Todo participante tiene obligación de contribuir a las tareas colectivas acordadas por mayoría simple; la actividad individual autónoma dentro de lo aprobado en el acta no constituye incumplimiento"
+    },
+    "resolucion_de_disputas": {
+      "valor": "otro",
+      "evidencia": "Las disputas se resuelven primero por mediación directa entre las partes, con asistencia del coordinador operativo si se solicita; las disputas sobre uso de recursos naturales comunes incluyen obligatoriamente el criterio técnico del responsable de recursos naturales antes de la votación grupal; si no hay acuerdo en un día, el grupo decide por mayoría simple."
+    },
+    "castigo": {
+      "valor": "graduado",
+      "evidencia": "El incumplimiento se sanciona progresivamente: advertencia, restricción temporal de acceso a recursos comunes"
+    },
+    "salida": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "principio_distributivo": {
+      "valor": "otro",
+      "evidencia": "Los recursos de la isla se dividen en comunes (río, minas, árboles del territorio compartido, medicamentos del naufragio) y en lo obtenido por esfuerzo individual. Los recursos individuales son de quien los obtuvo"
+    },
+    "medicamentos": {
+      "valor": "custodia_medica",
+      "evidencia": "Los medicamentos los administra quien tenga formación médica, con registro accesible."
+    },
+    "bote": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "regla",
+      "evidencia": "Los recursos de la isla se dividen en comunes (río, minas, árboles del territorio compartido, medicamentos del naufragio) y en lo obtenido por esfuerzo individual."
+    },
+    "eje_colectivo_individual": {
+      "valor": "equilibrado",
+      "evidencia": "Los recursos de la isla se dividen en comunes (río, minas, árboles del territorio compartido, medicamentos del naufragio) y en lo obtenido por esfuerzo individual."
+    },
+    "proteccion_ambiental": {
+      "valor": "reglas_concretas",
+      "evidencia": "Los recursos comunes no pueden agotarse irreversiblemente; toda decisión sobre su uso se precede de un informe técnico elaborado por el responsable de recursos naturales designado por mayoría simple."
+    }
+  },
+  "problemas": []
+}

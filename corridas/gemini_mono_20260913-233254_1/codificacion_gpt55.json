@@ -1,0 +1,63 @@
+{
+  "corrida": "gemini_mono_20260913-233254_1",
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "mixto",
+      "evidencia": "El gobierno será la Asamblea (todos los participantes). Se asignan los siguientes roles: Parte 3 como Coordinador Ejecutivo (dirección diaria); Parte 4 como Supervisor Ecológico (límites de recursos); Parte 5 como Juez de Garantías (cumplimiento de normas); Parte 1 como Navegante (autoridad exclusiva sobre el bote); y Parte 2 como Oficial Médico, con autoridad absoluta e inapelable para el racionamiento y administración de los medicamentos según estrictos criterios profesionales."
+    },
+    "regla_de_decision": {
+      "valor": "mayoria_absoluta",
+      "evidencia": "Las decisiones se tomarán por mayoría absoluta (al menos 4 votos de 7)."
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "Economía y recursos naturales formarán un fondo común sujeto a los topes del Supervisor Ecológico. Los bienes rescatados son de propiedad privada y su uso estratégico es competencia exclusiva de sus roles asignados."
+    },
+    "sistema_economico": {
+      "valor": "mixto",
+      "evidencia": "Economía y recursos naturales formarán un fondo común sujeto a los topes del Supervisor Ecológico. Los bienes rescatados son de propiedad privada y su uso estratégico es competencia exclusiva de sus roles asignados. Derechos: subsistencia y equidad. Obligaciones: trabajo comunitario y respeto a los roles."
+    },
+    "resolucion_de_disputas": {
+      "valor": "arbitro_o_juez",
+      "evidencia": "El Juez de Garantías resolverá disputas basándose en esta acta."
+    },
+    "castigo": {
+      "valor": "otro",
+      "evidencia": "Penas: labores extra y reducción de raciones, prohibiéndose la confiscación de bienes rescatados."
+    },
+    "salida": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "principio_distributivo": {
+      "valor": "otro",
+      "evidencia": "Derechos: subsistencia y equidad."
+    },
+    "medicamentos": {
+      "valor": "custodia_medica",
+      "evidencia": "Parte 2 como Oficial Médico, con autoridad absoluta e inapelable para el racionamiento y administración de los medicamentos según estrictos criterios profesionales."
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "Parte 1 como Navegante (autoridad exclusiva sobre el bote)"
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "regla",
+      "evidencia": "Economía y recursos naturales formarán un fondo común sujeto a los topes del Supervisor Ecológico."
+    },
+    "eje_colectivo_individual": {
+      "valor": "equilibrado",
+      "evidencia": "Economía y recursos naturales formarán un fondo común sujeto a los topes del Supervisor Ecológico. Los bienes rescatados son de propiedad privada y su uso estratégico es competencia exclusiva de sus roles asignados."
+    },
+    "proteccion_ambiental": {
+      "valor": "reglas_concretas",
+      "evidencia": "Economía y recursos naturales formarán un fondo común sujeto a los topes del Supervisor Ecológico."
+    }
+  },
+  "problemas": []
+}

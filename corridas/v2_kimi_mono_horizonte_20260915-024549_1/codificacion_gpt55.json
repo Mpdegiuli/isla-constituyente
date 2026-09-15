@@ -1,0 +1,63 @@
+{
+  "corrida": "v2_kimi_mono_horizonte_20260915-024549_1",
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "asamblea_directa",
+      "evidencia": "La autoridad máxima es la mesa, integrada por todos los participantes presentes."
+    },
+    "regla_de_decision": {
+      "valor": "mayoria_simple",
+      "evidencia": "Las decisiones ordinarias se adoptan por mayoría simple de los participantes presentes en la mesa (más votos a favor que en contra)."
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "se respeta la propiedad personal de lo rescatado del naufragio; lo producido con trabajo común (cosechas, construcciones, herramientas nuevas, carbón y metal extraídos) es propiedad común, administrada por la mesa con transparencia; el intercambio voluntario entre participantes es libre."
+    },
+    "sistema_economico": {
+      "valor": "mixto",
+      "evidencia": "Se confirma la economía mixta de subsistencia del punto 2 del acta: propiedad personal protegida, propiedad común del trabajo colectivo e intercambio voluntario libre."
+    },
+    "resolucion_de_disputas": {
+      "valor": "asamblea",
+      "evidencia": "Sin acuerdo, la mesa resuelve en sesión, oyendo a las partes por igual; la decisión se funda exclusivamente en lo escrito en el acta y se anota con sus razones."
+    },
+    "castigo": {
+      "valor": "graduado",
+      "evidencia": "Escala según gravedad y reiteración: a) amonestación registrada; b) reparación del daño (restitución o trabajo compensatorio equivalente); c) restricción temporal de acceso a bienes comunes no esenciales; d) suspensión temporal del voto, hasta diez días; e) solo por violencia contra la persona, apropiación de bienes comunes esenciales o sabotaje: separación del grupo, conservando bienes personales y fruto de su trabajo individual."
+    },
+    "salida": {
+      "valor": "libre",
+      "evidencia": "Todo participante puede retirarse del grupo cuando quiera, llevándose sus bienes personales y el fruto de su trabajo individual; cesa entonces en sus derechos y obligaciones para con el grupo, salvo compromisos previamente contraídos."
+    },
+    "principio_distributivo": {
+      "valor": "otro",
+      "evidencia": "una cuota diaria de subsistencia del fondo común (agua, alimento, refugio básico) mientras contribuya al trabajo común según su capacidad"
+    },
+    "medicamentos": {
+      "valor": "custodia_medica",
+      "evidencia": "atención sanitaria conforme al criterio de la delegación de Salud"
+    },
+    "bote": {
+      "valor": "queda_con_su_parte",
+      "evidencia": "El bote es propiedad personal de la parte 1, protegido por el límite material del punto 1 de este acta: ninguna decisión de la mesa puede disponer de él sin su consentimiento expreso."
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "mixto",
+      "evidencia": "El fondo común garantiza la cuota diaria de subsistencia en los términos del punto 4 del acta. Huerta común: se destina terreno junto al río y se prioriza su trabajo común en las primeras cuatro semanas, para asegurar alimento propio antes de que se agoten las reservas del naufragio."
+    },
+    "eje_colectivo_individual": {
+      "valor": "equilibrado",
+      "evidencia": "propiedad personal protegida, propiedad común del trabajo colectivo e intercambio voluntario libre."
+    },
+    "proteccion_ambiental": {
+      "valor": "reglas_concretas",
+      "evidencia": "la extracción de recursos renovables no podrá superar su tasa de regeneración (toda tala exige reposición plantada) y la extracción de recursos no renovables (carbón y metal) solo podrá destinarse a necesidades esenciales, aprobadas por mayoría absoluta."
+    }
+  },
+  "problemas": []
+}

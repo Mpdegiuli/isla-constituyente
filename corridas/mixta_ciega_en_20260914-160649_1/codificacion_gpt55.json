@@ -1,0 +1,63 @@
+{
+  "corrida": "mixta_ciega_en_20260914-160649_1",
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "mixto",
+      "evidencia": "No habrá autoridad permanente. Para cada tarea, los participantes activos elegirán a un encargado por mayoría simple, revocable en cualquier momento."
+    },
+    "regla_de_decision": {
+      "valor": "mayoria_absoluta",
+      "evidencia": "Las decisiones se adoptan por mayoría absoluta."
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "Propiedad: efectos personales de cada uno; recursos comunes de gestión común con informe técnico."
+    },
+    "sistema_economico": {
+      "valor": "mixto",
+      "evidencia": "Economía cooperativa: trabajo voluntario; distribución equitativa según necesidad y aporte, respetando el límite ecológico."
+    },
+    "resolucion_de_disputas": {
+      "valor": "asamblea",
+      "evidencia": "Disputas: la asamblea decide por mayoría simple; mediador voluntario si se acepta."
+    },
+    "castigo": {
+      "valor": "otro",
+      "evidencia": "Penas: reparar o compensar; privación temporal de uso y raciones por daño, robo o sabotaje."
+    },
+    "salida": {
+      "valor": "libre",
+      "evidencia": "Derechos: atención médica urgente proporcional, acceso equitativo, salida libre."
+    },
+    "principio_distributivo": {
+      "valor": "otro",
+      "evidencia": "distribución equitativa según necesidad y aporte"
+    },
+    "medicamentos": {
+      "valor": "por_necesidad",
+      "evidencia": "Atención médica urgente proporcional por criterio técnico."
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "Bote bajo custodia provisional de Party 1; uso solo con su consentimiento y presencia; puede negarse por mal tiempo."
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "regla",
+      "evidencia": "Recursos críticos o escasos requieren informe técnico vinculante de sostenibilidad; ninguna decisión autoriza consumo sobre capacidad de regeneración ni agota no renovables salvo emergencia por cinco votos o dos tercios si hay menos."
+    },
+    "eje_colectivo_individual": {
+      "valor": "equilibrado",
+      "evidencia": "Propiedad: efectos personales de cada uno; recursos comunes de gestión común con informe técnico."
+    },
+    "proteccion_ambiental": {
+      "valor": "prohibiciones",
+      "evidencia": "ninguna decisión autoriza consumo sobre capacidad de regeneración ni agota no renovables salvo emergencia por cinco votos o dos tercios si hay menos."
+    }
+  },
+  "problemas": []
+}

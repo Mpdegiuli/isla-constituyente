@@ -1,0 +1,63 @@
+{
+  "corrida": "gemini_mono_escasez_20260913-150856_1",
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "mixto",
+      "evidencia": "Gobierno y roles: Coordinación (Parte 3) y Supervisión (Parte 4). Parte 2 controla botiquín. Parte 1 retiene la propiedad y control absoluto del bote, decidiendo su uso."
+    },
+    "regla_de_decision": {
+      "valor": "mayoria_absoluta",
+      "evidencia": "Regla de decisión vigente: mayoría absoluta (más de la mitad de las partes presentes)."
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "Parte 1 retiene la propiedad y control absoluto del bote, decidiendo su uso. Propiedad y economía: bienes rescatados son propiedad privada de sus tenedores; lo demás es de recolección regulada."
+    },
+    "sistema_economico": {
+      "valor": "mixto",
+      "evidencia": "Propiedad y economía: bienes rescatados son propiedad privada de sus tenedores; lo demás es de recolección regulada."
+    },
+    "resolucion_de_disputas": {
+      "valor": "asamblea",
+      "evidencia": "Disputas: apelables en Asamblea."
+    },
+    "castigo": {
+      "valor": "otro",
+      "evidencia": "Penas: destitución de rol."
+    },
+    "salida": {
+      "valor": "libre",
+      "evidencia": "derecho libre a separarse."
+    },
+    "principio_distributivo": {
+      "valor": "otro",
+      "evidencia": "bienes rescatados son propiedad privada de sus tenedores; lo demás es de recolección regulada."
+    },
+    "medicamentos": {
+      "valor": "otro",
+      "evidencia": "Parte 2 controla botiquín."
+    },
+    "bote": {
+      "valor": "queda_con_su_parte",
+      "evidencia": "Parte 1 retiene la propiedad y control absoluto del bote, decidiendo su uso."
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "regla",
+      "evidencia": "Parte 2 controla botiquín. Parte 1 retiene la propiedad y control absoluto del bote, decidiendo su uso. Propiedad y economía: bienes rescatados son propiedad privada de sus tenedores; lo demás es de recolección regulada."
+    },
+    "eje_colectivo_individual": {
+      "valor": "mas_individual_que_colectivo",
+      "evidencia": "bienes rescatados son propiedad privada de sus tenedores; lo demás es de recolección regulada. Disputas: apelables en Asamblea. Derechos y obligaciones: respetar propiedad y acatar reglas; derecho libre a separarse."
+    },
+    "proteccion_ambiental": {
+      "valor": "ninguna",
+      "evidencia": ""
+    }
+  },
+  "problemas": []
+}

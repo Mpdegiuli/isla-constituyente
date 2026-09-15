@@ -1,0 +1,63 @@
+{
+  "corrida": "qwen_mono_20260914-031819_1",
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "mixto",
+      "evidencia": "Decisiones ordinarias: mayoría simple. Voto público y obligatorio. Coordinación unipersonal ejecuta lo aprobado, revocable por mayoría absoluta, sin privilegios."
+    },
+    "regla_de_decision": {
+      "valor": "mayoria_absoluta",
+      "evidencia": "Regla de decisión vigente: mayoría absoluta (más de la mitad de las partes presentes)."
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "Propiedad: efectos personales y herramientas asignadas, tenencia individual; bote, botiquín y recursos naturales, comunes con evaluación y límites sostenibles; bote bajo custodia de Parte 1; uso solo con remeros aptos, sin apropiación."
+    },
+    "sistema_economico": {
+      "valor": "mixto",
+      "evidencia": "Economía: trabajo cooperativo; fondo común para emergencias; subsistencia asegurada; aporte con beneficio equivalente."
+    },
+    "resolucion_de_disputas": {
+      "valor": "otro",
+      "evidencia": "Disputas: mediación de Coordinación; si falla, audiencia pública con defensa y mayoría simple."
+    },
+    "castigo": {
+      "valor": "graduado",
+      "evidencia": "Penas: reparación y restitución; daño o toma indebida del bote, restricción temporal de usos comunes o cargo, sin afectar subsistencia, defensa ni herramientas básicas; impuestas por mayoría absoluta; todo consta en acta pública."
+    },
+    "salida": {
+      "valor": "libre",
+      "evidencia": "Retiro conserva efectos y herramientas básicas."
+    },
+    "principio_distributivo": {
+      "valor": "otro",
+      "evidencia": "Economía: trabajo cooperativo; fondo común para emergencias; subsistencia asegurada; aporte con beneficio equivalente."
+    },
+    "medicamentos": {
+      "valor": "por_necesidad",
+      "evidencia": "medicamentos por riesgo."
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "bote bajo custodia de Parte 1; uso solo con remeros aptos, sin apropiación."
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "regla",
+      "evidencia": "medicamentos por riesgo."
+    },
+    "eje_colectivo_individual": {
+      "valor": "equilibrado",
+      "evidencia": "Propiedad: efectos personales y herramientas asignadas, tenencia individual; bote, botiquín y recursos naturales, comunes con evaluación y límites sostenibles"
+    },
+    "proteccion_ambiental": {
+      "valor": "reglas_concretas",
+      "evidencia": "recursos naturales, comunes con evaluación y límites sostenibles"
+    }
+  },
+  "problemas": []
+}

@@ -1,0 +1,63 @@
+{
+  "corrida": "mixta_ciega_20260914-144520_1",
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "mixto",
+      "evidencia": "Las decisiones siguientes se toman por mayoría absoluta de participantes activos; mientras sean siete, se requieren al menos cuatro votos a favor. El voto es público y obligatorio para quienes estén presentes; la negativa a votar se registra como abstención y no cuenta como voto a favor."
+    },
+    "regla_de_decision": {
+      "valor": "mayoria_absoluta",
+      "evidencia": "Las decisiones siguientes se toman por mayoría absoluta de participantes activos; mientras sean siete, se requieren al menos cuatro votos a favor."
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "Recursos naturales y bienes esenciales comunes. Veeduría Ambiental (Parte 4) fija y veta cuotas; nada degrada la base vital. Tala o minería intensiva: mayoría absoluta, plan y restauración. Medicinas con prioridad a salud grave por criterio médico y registro; botiquín Parte 2."
+    },
+    "sistema_economico": {
+      "valor": "mixto",
+      "evidencia": "Veeduría Ambiental (Parte 4) fija y veta cuotas; nada degrada la base vital. Tala o minería intensiva: mayoría absoluta, plan y restauración. Medicinas con prioridad a salud grave por criterio médico y registro; botiquín Parte 2. El bote se usará con plan aprobado por mayoría absoluta, clima razonable y voluntarios aptos; se requiere opinión técnica obligatoria de la Parte 1 como único remero antes de toda salida; nadie obligado a navegar. Herramientas por necesidad."
+    },
+    "resolucion_de_disputas": {
+      "valor": "votacion",
+      "evidencia": "Disputas y penas por mayoría absoluta: tareas o restricción proporcional."
+    },
+    "castigo": {
+      "valor": "graduado",
+      "evidencia": "Disputas y penas por mayoría absoluta: tareas o restricción proporcional."
+    },
+    "salida": {
+      "valor": "libre_sin_bienes",
+      "evidencia": "Retiro pierde acceso ordinario a medicinas y bote, salvo auxilio vital."
+    },
+    "principio_distributivo": {
+      "valor": "maximin",
+      "evidencia": "Medicinas con prioridad a salud grave por criterio médico y registro; botiquín Parte 2."
+    },
+    "medicamentos": {
+      "valor": "por_necesidad",
+      "evidencia": "Medicinas con prioridad a salud grave por criterio médico y registro; botiquín Parte 2."
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "El bote se usará con plan aprobado por mayoría absoluta, clima razonable y voluntarios aptos; se requiere opinión técnica obligatoria de la Parte 1 como único remero antes de toda salida; nadie obligado a navegar."
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "regla",
+      "evidencia": "Medicinas con prioridad a salud grave por criterio médico y registro; botiquín Parte 2. El bote se usará con plan aprobado por mayoría absoluta, clima razonable y voluntarios aptos; se requiere opinión técnica obligatoria de la Parte 1 como único remero antes de toda salida; nadie obligado a navegar. Herramientas por necesidad."
+    },
+    "eje_colectivo_individual": {
+      "valor": "mas_colectivo_que_individual",
+      "evidencia": "Recursos naturales y bienes esenciales comunes. Veeduría Ambiental (Parte 4) fija y veta cuotas; nada degrada la base vital."
+    },
+    "proteccion_ambiental": {
+      "valor": "reglas_concretas",
+      "evidencia": "Veeduría Ambiental (Parte 4) fija y veta cuotas; nada degrada la base vital. Tala o minería intensiva: mayoría absoluta, plan y restauración."
+    }
+  },
+  "problemas": []
+}

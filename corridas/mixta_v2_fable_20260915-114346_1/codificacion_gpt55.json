@@ -1,0 +1,63 @@
+{
+  "corrida": "mixta_v2_fable_20260915-114346_1",
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "asamblea_directa",
+      "evidencia": "Asamblea soberana."
+    },
+    "regla_de_decision": {
+      "valor": "mayoria_simple",
+      "evidencia": "Regla de decisión vigente: mayoría simple (más votos a favor que en contra)."
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "Recursos, herramientas, ropa, medicamentos, reservas y bote son comunes. Efectos íntimos, personales."
+    },
+    "sistema_economico": {
+      "valor": "mixto",
+      "evidencia": "Subsistencia comunitaria. Ración según necesidad y capacidad. Trueque voluntario. Sin moneda."
+    },
+    "resolucion_de_disputas": {
+      "valor": "mediacion",
+      "evidencia": "Mediación de dos; si no hay acuerdo, Asamblea por mayoría simple."
+    },
+    "castigo": {
+      "valor": "graduado",
+      "evidencia": "Amonestación, reparación del daño o exclusión temporal de bienes no esenciales, por mayoría simple."
+    },
+    "salida": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "principio_distributivo": {
+      "valor": "otro",
+      "evidencia": "Ración según necesidad y capacidad."
+    },
+    "medicamentos": {
+      "valor": "por_necesidad",
+      "evidencia": "Parte 2: botiquín, inventario público y triaje (urgencia, gravedad, beneficio esperado, dosis mínima)."
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "Salidas a mar abierto solo con cinco votos, clima estable y plan de retorno. Parte 1 puede suspender cualquier salida por seguridad."
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "mixto",
+      "evidencia": "Al agotarse reservas: higiene, agua hervida o filtrada, plantas validadas por Partes 2 y 4, racionamiento."
+    },
+    "eje_colectivo_individual": {
+      "valor": "mas_colectivo_que_individual",
+      "evidencia": "Recursos, herramientas, ropa, medicamentos, reservas y bote son comunes. Efectos íntimos, personales."
+    },
+    "proteccion_ambiental": {
+      "valor": "reglas_concretas",
+      "evidencia": "Extracción con cupos sostenibles informados por Parte 4."
+    }
+  },
+  "problemas": []
+}

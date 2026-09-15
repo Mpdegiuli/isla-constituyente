@@ -1,0 +1,63 @@
+{
+  "corrida": "v2_opus_mono_horizonte_20260914-215800_1",
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "mixto",
+      "evidencia": "Queda designado Coordinador General, desde la aprobación de este punto y por treinta días, el participante que no custodia bien ni recurso crítico alguno (Parte 3), bajo estas condiciones inseparables, cuyo incumplimiento hace cesar el cargo de pleno derecho: Toda instrucción suya queda suspendida si dos participantes lo piden, y pasa a la mesa en la convocatoria siguiente, o dentro de veinticuatro horas si hay urgencia."
+    },
+    "regla_de_decision": {
+      "valor": "unanimidad",
+      "evidencia": "Regla de decisión vigente: unanimidad."
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "20.b y 20.c (propiedad personal sobre el fruto del propio trabajo y prohibición de expropiarla por votación)"
+    },
+    "sistema_economico": {
+      "valor": "mixto",
+      "evidencia": "Quien declare ante la mesa que se aparta de la vida común conforme al punto 19.a y 21 queda liberado de tareas y de reparto comunes"
+    },
+    "resolucion_de_disputas": {
+      "valor": "arbitro_o_juez",
+      "evidencia": "toda imputación va al Panel del punto 16, que también lo juzga a él."
+    },
+    "castigo": {
+      "valor": "otro",
+      "evidencia": "cuyo incumplimiento hace cesar el cargo de pleno derecho"
+    },
+    "salida": {
+      "valor": "libre",
+      "evidencia": "Nadie puede ser obligado a reintegrarse."
+    },
+    "principio_distributivo": {
+      "valor": "otro",
+      "evidencia": "13 (igualdad ante la regla), 14 (derechos mínimos), 16 (panel y prohibición de juzgar la propia causa), 17 (prohibiciones absolutas de pena), 18 (régimen y prohibición de convertir a una persona en instrumento del grupo), 19.b (prohibición de trabajo forzado), 20.b y 20.c (propiedad personal sobre el fruto del propio trabajo y prohibición de expropiarla por votación), 21 (autonomía y retiro)"
+    },
+    "medicamentos": {
+      "valor": "por_necesidad",
+      "evidencia": "privación de agua, alimento o atención urgente"
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "dentro de setenta y dos horas, ejecución de la misión de contacto del punto 23 si el mar lo permite"
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "mixto",
+      "evidencia": "queda liberado de tareas y de reparto comunes; inicio de huerta, secado y salado"
+    },
+    "eje_colectivo_individual": {
+      "valor": "equilibrado",
+      "evidencia": "queda liberado de tareas y de reparto comunes, conserva los derechos del punto 14.h y sigue obligado únicamente por los umbrales de los puntos 9 a 11, las prohibiciones del punto 23.e y el deber de auxilio en peligro de vida."
+    },
+    "proteccion_ambiental": {
+      "valor": "reglas_concretas",
+      "evidencia": "hogar único de piedra con leña muerta, refugio y turnos de vigilancia; primeros siete días, inventario general escrito y público, turnos rotativos de tareas penosas, instrucción de remo a dos personas e instrucción de primeros auxilios, inicio de huerta, secado y salado; dentro de setenta y dos horas, ejecución de la misión de contacto del punto 23 si el mar lo permite; al día quince, censo y umbrales del punto 10, bajo pena de vacancia automática."
+    }
+  },
+  "problemas": []
+}

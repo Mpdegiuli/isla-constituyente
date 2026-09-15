@@ -1,0 +1,63 @@
+{
+  "corrida": "opus_mono_20260914-011431_1",
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "asamblea_directa",
+      "evidencia": "Mayoría 4/7; obliga a todos; se reforma igual; lo no escrito no obliga. 2) Voto público y obligatorio; quien se aparta no vota."
+    },
+    "regla_de_decision": {
+      "valor": "mayoria_simple",
+      "evidencia": "Regla de decisión vigente: mayoría simple (más votos a favor que en contra)."
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "Bosque, río, minas, fauna comunes; cupos bajo reposición (censo 7 días); veda de crías; no talar frutales ni contaminar; veto suspensivo levantable por 4 votos. 9) Bienes personales compensados si se usan; bote común"
+    },
+    "sistema_economico": {
+      "valor": "mixto",
+      "evidencia": "Trabajo voluntario según capacidad; enfermos conservan parte y atención; cuidar, registrar, censar son trabajo. 7) Retiro libre con sus bienes; vuelve aportando. 8) Bosque, río, minas, fauna comunes; cupos bajo reposición"
+    },
+    "resolucion_de_disputas": {
+      "valor": "votacion",
+      "evidencia": "veto suspensivo levantable por 4 votos"
+    },
+    "castigo": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "salida": {
+      "valor": "libre",
+      "evidencia": "Retiro libre con sus bienes; vuelve aportando."
+    },
+    "principio_distributivo": {
+      "valor": "otro",
+      "evidencia": "Trabajo voluntario según capacidad; enfermos conservan parte y atención; cuidar, registrar, censar son trabajo."
+    },
+    "medicamentos": {
+      "valor": "custodia_medica",
+      "evidencia": "Medicamentos: custodia médica revocable, criterio clínico, registro público del uso, incluido el propio; consentimiento."
+    },
+    "bote": {
+      "valor": "comun",
+      "evidencia": "bote común, nadie lo toma sin acuerdo, remo voluntario, patrón responde por clima y casco y enseña"
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "regla",
+      "evidencia": "Medicamentos: custodia médica revocable, criterio clínico, registro público del uso, incluido el propio; consentimiento. 8) Bosque, río, minas, fauna comunes; cupos bajo reposición"
+    },
+    "eje_colectivo_individual": {
+      "valor": "equilibrado",
+      "evidencia": "Nadie pierde cuerpo ni bienes ni trabaja forzado sin consentimiento; salvo emergencia vital médica, con compensación. 8) Bosque, río, minas, fauna comunes; cupos bajo reposición (censo 7 días); veda de crías; no talar frutales ni contaminar; veto suspensivo levantable por 4 votos. 9) Bienes personales compensados si se usan; bote común"
+    },
+    "proteccion_ambiental": {
+      "valor": "prohibiciones",
+      "evidencia": "Bosque, río, minas, fauna comunes; cupos bajo reposición (censo 7 días); veda de crías; no talar frutales ni contaminar"
+    }
+  },
+  "problemas": []
+}

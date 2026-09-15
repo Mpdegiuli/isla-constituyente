@@ -1,0 +1,63 @@
+{
+  "corrida": "opus_mono_zh_20260914-175319_1",
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "mixto",
+      "evidencia": "五位职位持有人行使裁量时须当日在公开登记簿载明决定、理由与日期。"
+    },
+    "regla_de_decision": {
+      "valor": "mayoria_simple",
+      "evidencia": "现行决策规则：简单多数（赞成票多于反对票）。"
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "任何参与者可随时退出，带走个人物品与自带工具，不享公共配给亦不担公共义务"
+    },
+    "sistema_economico": {
+      "valor": "mixto",
+      "evidencia": "无人被强制劳动；投票公开、非强制，弃权不受处罚。四、退出权：任何参与者可随时退出，带走个人物品与自带工具，不享公共配给亦不担公共义务"
+    },
+    "resolucion_de_disputas": {
+      "valor": "arbitro_o_juez",
+      "evidencia": "任何人不得审理涉及自身或自身职权之案。"
+    },
+    "castigo": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "salida": {
+      "valor": "libre",
+      "evidencia": "任何参与者可随时退出，带走个人物品与自带工具，不享公共配给亦不担公共义务，重新加入经简单多数通过。"
+    },
+    "principio_distributivo": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "medicamentos": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "bote": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "regla",
+      "evidencia": "遭追袭时的自卫猎杀不计入不可逆事项，须当日报资源勘测员归档并于下一周期配额中扣除。"
+    },
+    "eje_colectivo_individual": {
+      "valor": "equilibrado",
+      "evidencia": "任何参与者可随时退出，带走个人物品与自带工具，不享公共配给亦不担公共义务"
+    },
+    "proteccion_ambiental": {
+      "valor": "reglas_concretas",
+      "evidencia": "遭追袭时的自卫猎杀不计入不可逆事项，须当日报资源勘测员归档并于下一周期配额中扣除。"
+    }
+  },
+  "problemas": []
+}

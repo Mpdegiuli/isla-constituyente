@@ -1,0 +1,63 @@
+{
+  "corrida": "openai_mono_20260913-232943_1",
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "mixto",
+      "evidencia": "Se establece una coordinación ejecutiva por 7 días, revocable por mayoría absoluta. La ocupa la parte 3. Coordina urgencias, reuniones y guardias, sin disponer sola de recursos ni imponer penas."
+    },
+    "regla_de_decision": {
+      "valor": "mayoria_absoluta",
+      "evidencia": "Las decisiones siguientes se tomarán por mayoría absoluta de los participantes presentes en la mesa al momento de votar."
+    },
+    "regimen_de_propiedad": {
+      "valor": "comun",
+      "evidencia": "Los recursos críticos, herramientas rescatadas, bote, medicamentos y reservas quedan en custodia comunitaria: nadie puede apropiarlos, ocultarlos, destruirlos ni acapararlos."
+    },
+    "sistema_economico": {
+      "valor": "mixto",
+      "evidencia": "La economía será de subsistencia sustentable, con inventario público y prioridad a agua, alimento, refugio, salud, señales y conservación."
+    },
+    "resolucion_de_disputas": {
+      "valor": "otro",
+      "evidencia": "Las disputas se resolverán primero por diálogo directo; si falla, mediación de la parte 5 con acta; si sigue, decisión de la mesa por mayoría absoluta, oyendo a las partes y testigos."
+    },
+    "castigo": {
+      "valor": "graduado",
+      "evidencia": "Las penas serán proporcionales y revisables: advertencia, reparación o reposición, trabajo comunitario adicional según capacidad, restricción temporal de uso de recursos críticos o de participar en salidas riesgosas, y separación preventiva breve."
+    },
+    "salida": {
+      "valor": "condicionada",
+      "evidencia": "Quien se retire conserva derechos básicos y puede usar recursos menores para supervivencia inmediata, sin apropiarse de recursos críticos, acaparar ni dañar."
+    },
+    "principio_distributivo": {
+      "valor": "otro",
+      "evidencia": "Toda persona tiene igual dignidad y derecho a agua segura, alimento básico, refugio, atención según necesidad, información del inventario, trato digno y participación mientras permanezca en la mesa. Ningún cargo, fuerza, conocimiento o posesión crea privilegios. Quien participe del reparto común debe trabajar según su capacidad."
+    },
+    "medicamentos": {
+      "valor": "por_necesidad",
+      "evidencia": "La parte 2 queda a cargo del botiquín, inventario médico y registro público de uso de medicamentos según necesidad y urgencia."
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "El bote sólo se usará con plan seguro, remero voluntario capacitado, obligación de cuidado y devolución."
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "regla",
+      "evidencia": "Habrá cupos para carbón, metal, tala grande y caza intensiva. La recolección y uso menor para supervivencia inmediata es libre, sin acaparar ni dañar."
+    },
+    "eje_colectivo_individual": {
+      "valor": "mas_colectivo_que_individual",
+      "evidencia": "Los recursos críticos, herramientas rescatadas, bote, medicamentos y reservas quedan en custodia comunitaria: nadie puede apropiarlos, ocultarlos, destruirlos ni acapararlos."
+    },
+    "proteccion_ambiental": {
+      "valor": "reglas_concretas",
+      "evidencia": "Habrá cupos para carbón, metal, tala grande y caza intensiva. La recolección y uso menor para supervivencia inmediata es libre, sin acaparar ni dañar."
+    }
+  },
+  "problemas": []
+}

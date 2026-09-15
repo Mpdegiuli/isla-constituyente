@@ -1,0 +1,63 @@
+{
+  "corrida": "mistral_mono_20260913-113915_1",
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "asamblea_directa",
+      "evidencia": "la decisión final será siempre del grupo"
+    },
+    "regla_de_decision": {
+      "valor": "mayoria_simple",
+      "evidencia": "Las decisiones se tomarán por mayoría simple"
+    },
+    "regimen_de_propiedad": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "sistema_economico": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "resolucion_de_disputas": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "castigo": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "salida": {
+      "valor": "libre_sin_bienes",
+      "evidencia": "Quienes se retiren de la deliberación no tendrán derecho a los recursos del grupo."
+    },
+    "principio_distributivo": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "medicamentos": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "bote": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "no_resuelto",
+      "evidencia": "La primera votación será sobre el uso del bote para buscar medicamentos."
+    },
+    "eje_colectivo_individual": {
+      "valor": "mas_colectivo_que_individual",
+      "evidencia": "la decisión final será siempre del grupo. Quienes se retiren de la deliberación no tendrán derecho a los recursos del grupo."
+    },
+    "proteccion_ambiental": {
+      "valor": "ninguna",
+      "evidencia": ""
+    }
+  },
+  "problemas": []
+}
