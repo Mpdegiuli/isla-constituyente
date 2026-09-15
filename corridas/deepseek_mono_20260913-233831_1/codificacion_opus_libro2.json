@@ -1,0 +1,63 @@
+{
+  "corrida": "deepseek_mono_20260913-233831_1",
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "mixto",
+      "evidencia": "Se crea un Coordinador/a General por mayoría simple, revocable igual: planifica trabajo, turnos, racionamiento y logística; ejecuta decisiones y resuelve disputas menores. No puede expropiar, imponer penas ni disponer del bote sin aprobación de asamblea."
+    },
+    "regla_de_decision": {
+      "valor": "mayoria_simple",
+      "evidencia": "Las decisiones se tomarán por mayoría simple; voto público y obligatorio para quienes permanezcan en la mesa."
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "Los recursos naturales (agua, suelo, bosque, frutales, animales, minerales) son bienes comunes no apropiables. [...] Cada participante conserva sus bienes personales; no expropiables sin unanimidad."
+    },
+    "sistema_economico": {
+      "valor": "planificado",
+      "evidencia": "planifica trabajo, turnos, racionamiento y logística; ejecuta decisiones"
+    },
+    "resolucion_de_disputas": {
+      "valor": "escalonada",
+      "evidencia": "Las infracciones serán resueltas con derecho a defensa ante árbitro imparcial elegido por mayoría simple, distinto de las partes [...] resuelve disputas menores"
+    },
+    "castigo": {
+      "valor": "graduado",
+      "evidencia": "las sanciones serán proporcionales, no violentas y sin trabajo forzado. La reincidencia podrá suspender la participación en decisiones sobre recursos por mayoría de dos tercios."
+    },
+    "salida": {
+      "valor": "libre",
+      "evidencia": "Esta regulación no obliga a quien se haya retirado ni a quien no participe en votación; retirarse o negarse a trabajar no constituye infracción."
+    },
+    "principio_distributivo": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "medicamentos": {
+      "valor": "custodia_medica",
+      "evidencia": "Los medicamentos quedan bajo custodia de la Parte 2, con inventario visible y criterio clínico; su administración no será por mayoría simple, priorizando tratamientos activos y reserva de emergencia."
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "El bote queda bajo custodia de la Parte 1, único remero; no se usará sin su autorización y plan de seguridad aprobado por asamblea, con botiquín básico y aptitud médica."
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "regla",
+      "evidencia": "Su uso requerirá plan de sostenibilidad aprobado por mayoría simple, con inventario y monitoreo."
+    },
+    "eje_colectivo_individual": {
+      "valor": "equilibrado",
+      "evidencia": "Los recursos naturales (agua, suelo, bosque, frutales, animales, minerales) son bienes comunes no apropiables. [...] Cada participante conserva sus bienes personales; no expropiables sin unanimidad."
+    },
+    "proteccion_ambiental": {
+      "valor": "prohibiciones",
+      "evidencia": "Se prohíbe talar frutales, cazar juveniles o reproductores, desviar o contaminar el río y extraer minerales sin evaluación de impacto y cuota de reposición."
+    }
+  },
+  "problemas": []
+}

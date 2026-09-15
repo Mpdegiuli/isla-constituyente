@@ -1,0 +1,63 @@
+{
+  "corrida": "v2_gemini_mono_20260914-203954_1",
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "mixto",
+      "evidencia": "La Asamblea (todos los participantes) es la autoridad suprema. La autoridad ejecutiva será del \"Director General\", elegido por mayoría simple. El Director General y los Encargados tienen autonomía operativa en su área."
+    },
+    "regla_de_decision": {
+      "valor": "mayoria_simple",
+      "evidencia": "Todas las decisiones de la comunidad se tomarán por mayoría simple (se requiere tener más votos a favor que en contra de los presentes)."
+    },
+    "regimen_de_propiedad": {
+      "valor": "comun",
+      "evidencia": "Régimen de propiedad comunal. Todos los bienes, medicinas y el bote son inalienables de la comunidad."
+    },
+    "sistema_economico": {
+      "valor": "planificado",
+      "evidencia": "Sistema de trabajo comunitario y planificación centralizada, priorizando agilidad."
+    },
+    "resolucion_de_disputas": {
+      "valor": "asamblea",
+      "evidencia": "Será competencia exclusiva de la Asamblea, decidiendo por mayoría simple tras escuchar a las partes involucradas."
+    },
+    "castigo": {
+      "valor": "graduado",
+      "evidencia": "Los incumplimientos a las reglas u obligaciones se sancionarán de forma escalonada con amonestaciones públicas, reducción temporal de raciones y, en casos de extrema gravedad, expulsión de la comunidad"
+    },
+    "salida": {
+      "valor": "libre_sin_bienes",
+      "evidencia": "Se establece el \"Derecho de Secesión\": cualquier miembro puede abandonar el grupo libremente, perdiendo acceso a la propiedad comunal."
+    },
+    "principio_distributivo": {
+      "valor": "otro",
+      "evidencia": "Estará basado exclusivamente en la satisfacción de las necesidades vitales presentes de la comunidad y el mantenimiento del Fondo de Reserva Crítico, sin buscar la acumulación desmedida — reparto orientado a necesidades vitales con obligación de trabajar, sin fórmula explícita de capacidad/necesidad ni maximin"
+    },
+    "medicamentos": {
+      "valor": "custodia_medica",
+      "evidencia": "Encargado de Salud: Parte 2. Administrará los medicamentos bajo estricto criterio médico, garantizando el tratamiento de emergencias y afecciones crónicas severas."
+    },
+    "bote": {
+      "valor": "comun",
+      "evidencia": "Todos los bienes, medicinas y el bote son inalienables de la comunidad."
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "regla",
+      "evidencia": "Toda actividad productiva operará bajo cuotas máximas determinadas por el Encargado de Sostenibilidad."
+    },
+    "eje_colectivo_individual": {
+      "valor": "colectivo",
+      "evidencia": "Régimen de propiedad comunal. Todos los bienes, medicinas y el bote son inalienables de la comunidad. [...] Obligación de trabajar y acatar las reglas."
+    },
+    "proteccion_ambiental": {
+      "valor": "prohibiciones",
+      "evidencia": "Queda terminantemente prohibida cualquier forma de explotación masiva o depredación."
+    }
+  },
+  "problemas": []
+}

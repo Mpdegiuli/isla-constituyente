@@ -1,0 +1,63 @@
+{
+  "corrida": "mixta_v2_20260915-072714_1",
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "mixto",
+      "evidencia": "El gobierno se ejerce mediante la Asamblea, un Consejo Operativo (Coordinación, Salud y Seguridad, Producción) elegido por un mes y un Custodio de Recursos."
+    },
+    "regla_de_decision": {
+      "valor": "mayoria_absoluta",
+      "evidencia": "La soberanía reside en la Asamblea, que decide por mayoría absoluta."
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "Bote, herramientas, medicamentos y recursos naturales son bienes comunes de uso regulado. Propiedad personal limitada a ropa y objetos de uso individual."
+    },
+    "sistema_economico": {
+      "valor": "planificado",
+      "evidencia": "Economía: trabajo según capacidad y racionamiento proporcional."
+    },
+    "resolucion_de_disputas": {
+      "valor": "escalonada",
+      "evidencia": "Disputas: mediación del Consejo y, si no hay acuerdo, votación de la Asamblea."
+    },
+    "castigo": {
+      "valor": "graduado",
+      "evidencia": "Penas: incumplimiento reiterado, limitación de voto, bienes no esenciales o tareas reparadoras. Nunca se quitará agua, comida básica ni atención médica urgente. Robo, sabotaje o daño grave a recursos vitales: expulsión con mínimo vital."
+    },
+    "salida": {
+      "valor": "condicionada",
+      "evidencia": "Quien se retire de la deliberación no bloquea las decisiones posteriores, pero deberá respetarlas si utiliza recursos, refugios, herramientas, medicamentos o protección común."
+    },
+    "principio_distributivo": {
+      "valor": "segun_capacidad_y_necesidad",
+      "evidencia": "Economía: trabajo según capacidad y racionamiento proporcional."
+    },
+    "medicamentos": {
+      "valor": "por_necesidad",
+      "evidencia": "Salud: inventario público, dosis mínima eficaz y prioridad clínica por riesgo vital, deterioro irreversible, contagio, recuperación funcional y continuidad de tratamiento de quienes ya están enfermos y dependen de los medicamentos rescatados. Ninguna persona tiene prioridad automática."
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "El bote es bien común en cuanto a sus frutos: todo lo que produzca (pesca, recursos traídos) se entrega al fondo común. Sin embargo, la decisión de cuándo y cómo zarpar corresponde exclusivamente a la Parte 1"
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "mixto",
+      "evidencia": "Al agotarse, se intensificará pesca, recolección sostenible y búsqueda de alternativas locales, con cupos."
+    },
+    "eje_colectivo_individual": {
+      "valor": "mas_colectivo_que_individual",
+      "evidencia": "Bote, herramientas, medicamentos y recursos naturales son bienes comunes de uso regulado. Propiedad personal limitada a ropa y objetos de uso individual."
+    },
+    "proteccion_ambiental": {
+      "valor": "reglas_concretas",
+      "evidencia": "El Custodio tendrá veto suspensivo sobre toda extracción no sostenible; el veto solo se levantará si la Asamblea aprueba un plan con cupos, reposición y monitoreo."
+    }
+  },
+  "problemas": []
+}

@@ -1,0 +1,63 @@
+{
+  "corrida": "mistral_mono_escasez_20260913-114429_1",
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "mixto",
+      "evidencia": "Las decisiones se tomarán por consenso. Si no hay consenso en 24 horas (riesgo inminente), se pasará a mayoría simple; si no hay consenso en 48 horas (no urgente), a mayoría absoluta. El líder inicial será elegido por sorteo, rotando cada 7 días. Los medicamentos se asignarán por necesidad médica prioritaria, supervisados por un comité fijo de tres personas (Parte 1, 2 y 7)."
+    },
+    "regla_de_decision": {
+      "valor": "otro",
+      "evidencia": "Las decisiones se tomarán por consenso. Si no hay consenso en 24 horas (riesgo inminente), se pasará a mayoría simple; si no hay consenso en 48 horas (no urgente), a mayoría absoluta. Cualquier decisión sobre recursos naturales o agua requiere unanimidad. Todas las reglas quedarán por escrito en un código único; cualquier cambio requerirá unanimidad."
+    },
+    "regimen_de_propiedad": {
+      "valor": "comun",
+      "evidencia": "Quienes pongan en riesgo al grupo perderán acceso a recursos comunes por 7 días."
+    },
+    "sistema_economico": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "resolucion_de_disputas": {
+      "valor": "escalonada",
+      "evidencia": "Las decisiones se tomarán por consenso. Si no hay consenso en 24 horas (riesgo inminente), se pasará a mayoría simple; si no hay consenso en 48 horas (no urgente), a mayoría absoluta."
+    },
+    "castigo": {
+      "valor": "privacion_de_bienes",
+      "evidencia": "Quienes pongan en riesgo al grupo perderán acceso a recursos comunes por 7 días."
+    },
+    "salida": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "principio_distributivo": {
+      "valor": "otro",
+      "evidencia": "Los medicamentos se asignarán por necesidad médica prioritaria, supervisados por un comité fijo de tres personas (Parte 1, 2 y 7)."
+    },
+    "medicamentos": {
+      "valor": "por_necesidad",
+      "evidencia": "Los medicamentos se asignarán por necesidad médica prioritaria, supervisados por un comité fijo de tres personas (Parte 1, 2 y 7)."
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "El bote se usará solo con consenso previo y participación obligatoria de la Parte 1."
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "regla",
+      "evidencia": "Los medicamentos se asignarán por necesidad médica prioritaria, supervisados por un comité fijo de tres personas (Parte 1, 2 y 7). Cualquier decisión sobre recursos naturales o agua requiere unanimidad."
+    },
+    "eje_colectivo_individual": {
+      "valor": "mas_colectivo_que_individual",
+      "evidencia": "El bote se usará solo con consenso previo y participación obligatoria de la Parte 1. Los medicamentos se asignarán por necesidad médica prioritaria, supervisados por un comité fijo de tres personas (Parte 1, 2 y 7). Cualquier decisión sobre recursos naturales o agua requiere unanimidad. Quienes pongan en riesgo al grupo perderán acceso a recursos comunes por 7 días."
+    },
+    "proteccion_ambiental": {
+      "valor": "reglas_concretas",
+      "evidencia": "Cualquier decisión sobre recursos naturales o agua requiere unanimidad."
+    }
+  },
+  "problemas": []
+}

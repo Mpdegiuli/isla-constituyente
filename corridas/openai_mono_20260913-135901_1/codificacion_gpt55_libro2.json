@@ -1,0 +1,63 @@
+{
+  "corrida": "openai_mono_20260913-135901_1",
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "consejo_o_junta",
+      "evidencia": "Se crea un Consejo de Supervivencia por 30 días, revocable por mayoría absoluta: Parte 3 coordinación/guardias/agenda; Parte 4 recursos/ambiente; Parte 2 inventario/salud/medicamentos. Decide 2 de 3, con acta visible."
+    },
+    "regla_de_decision": {
+      "valor": "mayoria_absoluta",
+      "evidencia": "Regla de decisión vigente: mayoría absoluta (más de la mitad de las partes presentes)."
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "recursos naturales, herramientas, medicamentos y bienes rescatados son de uso común bajo inventario; bienes personales básicos quedan privados si no comprometen la supervivencia."
+    },
+    "sistema_economico": {
+      "valor": "mixto",
+      "evidencia": "Cada persona aporta trabajo según capacidad y salud; quien no pueda hará tareas livianas. Raciones y medicamentos se asignan por necesidad médica y aporte posible, no por fuerza."
+    },
+    "resolucion_de_disputas": {
+      "valor": "escalonada",
+      "evidencia": "Disputas: mediación ante el Consejo; si involucra a consejero o custodio, lo reemplaza otra parte elegida por mayoría. Sin acuerdo, decide la mesa por mayoría, oyendo a todos y con acta."
+    },
+    "castigo": {
+      "valor": "graduado",
+      "evidencia": "Penas: sólo por incumplimientos probados, proporcionales y reparadoras. Robo o acaparamiento de medicamentos, uso/retiro no autorizado o sabotaje del bote/herramientas, violencia o depredación deliberada son faltas graves y habilitan separación vigilada hasta 48 horas y revisión."
+    },
+    "salida": {
+      "valor": "condicionada",
+      "evidencia": "Quien se retire sin recursos críticos ni amenaza no será perseguido."
+    },
+    "principio_distributivo": {
+      "valor": "segun_capacidad_y_necesidad",
+      "evidencia": "Cada persona aporta trabajo según capacidad y salud; quien no pueda hará tareas livianas. Raciones y medicamentos se asignan por necesidad médica y aporte posible, no por fuerza."
+    },
+    "medicamentos": {
+      "valor": "custodia_medica",
+      "evidencia": "Parte 2 inventario/salud/medicamentos. Decide 2 de 3, con acta visible. Medicamentos ordinarios: Parte 2, informando; analgésicos para Parte 2 requieren aval externo."
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "El bote es recurso crítico de uso común, bajo custodia operativa de Parte 1 por saber remar; nadie lo usa ni lo retira sin plan del Consejo, clima razonable, finalidad concreta y registro."
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "regla",
+      "evidencia": "Raciones y medicamentos se asignan por necesidad médica y aporte posible, no por fuerza."
+    },
+    "eje_colectivo_individual": {
+      "valor": "mas_colectivo_que_individual",
+      "evidencia": "recursos naturales, herramientas, medicamentos y bienes rescatados son de uso común bajo inventario; bienes personales básicos quedan privados si no comprometen la supervivencia."
+    },
+    "proteccion_ambiental": {
+      "valor": "prohibiciones",
+      "evidencia": "violencia o depredación deliberada son faltas graves y habilitan separación vigilada hasta 48 horas y revisión."
+    }
+  },
+  "problemas": []
+}

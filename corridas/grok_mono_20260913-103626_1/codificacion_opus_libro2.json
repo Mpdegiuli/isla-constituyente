@@ -1,0 +1,63 @@
+{
+  "corrida": "grok_mono_20260913-103626_1",
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "asamblea_directa",
+      "evidencia": "Asamblea de no retirados: única autoridad; el acta prima."
+    },
+    "regla_de_decision": {
+      "valor": "mayoria_absoluta",
+      "evidencia": "Las decisiones siguientes se toman por mayoría absoluta de los participantes que no se hayan retirado."
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "Bote, herramientas y recursos naturales comunes; uso por asamblea bajo el tope; remar no da dueño. [...] Ropa personal."
+    },
+    "sistema_economico": {
+      "valor": "planificado",
+      "evidencia": "Todos trabajan tareas asignadas, compatibles por salud; producto de supervivencia común."
+    },
+    "resolucion_de_disputas": {
+      "valor": "asamblea",
+      "evidencia": "Disputas en asamblea pública; nadie juzga su caso."
+    },
+    "castigo": {
+      "valor": "graduado",
+      "evidencia": "Penas: reparación y trabajo extra; reincidencia, exclusión de comunes salvo comida, agua y medicamentos clínicos."
+    },
+    "salida": {
+      "valor": "libre_sin_bienes",
+      "evidencia": "Quien se retire: no persecución; se niega bote y botiquín."
+    },
+    "principio_distributivo": {
+      "valor": "segun_capacidad_y_necesidad",
+      "evidencia": "Todos trabajan tareas asignadas, compatibles por salud; producto de supervivencia común. [...] Los medicamentos se asignan por necesidad clínica, con inventario visible y prioridad a quien sin ellos empeora."
+    },
+    "medicamentos": {
+      "valor": "por_necesidad",
+      "evidencia": "Los medicamentos se asignan por necesidad clínica, con inventario visible y prioridad a quien sin ellos empeora."
+    },
+    "bote": {
+      "valor": "comun",
+      "evidencia": "Bote, herramientas y recursos naturales comunes; uso por asamblea bajo el tope; remar no da dueño."
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "regla",
+      "evidencia": "Ninguna decisión podrá autorizar la extracción de bosques, fauna, río, carbón o metal por encima de su tasa de reposición natural."
+    },
+    "eje_colectivo_individual": {
+      "valor": "mas_colectivo_que_individual",
+      "evidencia": "Bote, herramientas y recursos naturales comunes; [...] Ropa personal. Todos trabajan tareas asignadas, compatibles por salud; producto de supervivencia común."
+    },
+    "proteccion_ambiental": {
+      "valor": "prohibiciones",
+      "evidencia": "Ninguna decisión podrá autorizar la extracción de bosques, fauna, río, carbón o metal por encima de su tasa de reposición natural."
+    }
+  },
+  "problemas": []
+}

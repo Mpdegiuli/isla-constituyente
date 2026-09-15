@@ -1,0 +1,63 @@
+{
+  "corrida": "grok_mono_en_20260913-175902_1",
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "regla_de_decision": {
+      "valor": "mayoria_simple",
+      "evidencia": "Subsequent decisions shall be taken by simple majority of those present and voting."
+    },
+    "regimen_de_propiedad": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "sistema_economico": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "resolucion_de_disputas": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "castigo": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "salida": {
+      "valor": "libre",
+      "evidencia": "Anyone may leave the group at any time without penalty."
+    },
+    "principio_distributivo": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "medicamentos": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "bote": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "no_resuelto",
+      "evidencia": "Pending points: government — form of government: who holds authority and how it is assigned, or whether there is no authority; roles — who holds which role and why; economy — economic regime; property — property regime; disputes — resolution of disputes; rights_and_obligations — rights and obligations; penalties — penalties for those who do not comply"
+    },
+    "eje_colectivo_individual": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "proteccion_ambiental": {
+      "valor": "ninguna",
+      "evidencia": ""
+    }
+  },
+  "problemas": []
+}

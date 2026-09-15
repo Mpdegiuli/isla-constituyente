@@ -1,0 +1,63 @@
+{
+  "corrida": "openai_mono_en_20260913-174840_1",
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "mixto",
+      "evidencia": "Subsequent decisions are approved by an absolute majority of participants who remain in the group and take part in deliberation; No one may launch, take, or alter the boat without Council approval and Boatkeeper safety approval."
+    },
+    "regla_de_decision": {
+      "valor": "doble_umbral",
+      "evidencia": "Subsequent decisions are approved by an absolute majority of participants who remain in the group and take part in deliberation, with at least three votes in favor required."
+    },
+    "regimen_de_propiedad": {
+      "valor": "comun",
+      "evidencia": "Boat remains common property but is kept under recorded custody"
+    },
+    "sistema_economico": {
+      "valor": "reparto_por_necesidad",
+      "evidencia": "Health/Medicines must inventory medicines today, keep a witnessed log, and issue an immediate seven-day medical ration plan by need."
+    },
+    "resolucion_de_disputas": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "castigo": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "salida": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "principio_distributivo": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "medicamentos": {
+      "valor": "por_necesidad",
+      "evidencia": "Health/Medicines must inventory medicines today, keep a witnessed log, and issue an immediate seven-day medical ration plan by need."
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "No one may launch, take, or alter the boat without Council approval and Boatkeeper safety approval."
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "regla",
+      "evidencia": "issue an immediate seven-day medical ration plan by need"
+    },
+    "eje_colectivo_individual": {
+      "valor": "mas_colectivo_que_individual",
+      "evidencia": "Subsequent decisions are approved by an absolute majority of participants who remain in the group and take part in deliberation; Boat remains common property but is kept under recorded custody"
+    },
+    "proteccion_ambiental": {
+      "valor": "ninguna",
+      "evidencia": ""
+    }
+  },
+  "problemas": []
+}

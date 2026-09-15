@@ -1,0 +1,63 @@
+{
+  "corrida": "mistral_mono_en_20260913-192104_1",
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "consejo_o_junta",
+      "evidencia": "Government: Rotating council of three (Parties 2, 4, 1)."
+    },
+    "regla_de_decision": {
+      "valor": "otro",
+      "evidencia": "Decision_rule: Simple majority, 2/3 for resource depletion risks."
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "Property: All resources are shared except personal wearable items. Medicines, the boat, and tools are collective, managed by the council with group input."
+    },
+    "sistema_economico": {
+      "valor": "reparto_igualitario",
+      "evidencia": "Rights and obligations: Equal access, voice, protection, and labor contribution for all, with no exemptions."
+    },
+    "resolucion_de_disputas": {
+      "valor": "votacion",
+      "evidencia": "Disputes: Council majority or full group simple majority."
+    },
+    "castigo": {
+      "valor": "privacion_de_bienes",
+      "evidencia": "Penalties: Temporary exclusion from shared resources for violations."
+    },
+    "salida": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "principio_distributivo": {
+      "valor": "igualitario_estricto",
+      "evidencia": "Rights and obligations: Equal access, voice, protection, and labor contribution for all, with no exemptions."
+    },
+    "medicamentos": {
+      "valor": "custodia_medica",
+      "evidencia": "Roles: Party 2 (medicine, with approval power)"
+    },
+    "bote": {
+      "valor": "comun",
+      "evidencia": "Medicines, the boat, and tools are collective, managed by the council with group input."
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "regla",
+      "evidencia": "Economy: Shared with strict sustainability quotas defined by the council with group input."
+    },
+    "eje_colectivo_individual": {
+      "valor": "mas_colectivo_que_individual",
+      "evidencia": "All resources are shared except personal wearable items. Medicines, the boat, and tools are collective, managed by the council with group input."
+    },
+    "proteccion_ambiental": {
+      "valor": "reglas_concretas",
+      "evidencia": "Simple majority, 2/3 for resource depletion risks."
+    }
+  },
+  "problemas": []
+}

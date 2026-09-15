@@ -1,0 +1,63 @@
+{
+  "corrida": "v2_openai_mono_20260914-203122_1",
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "mixto",
+      "evidencia": "democracia de emergencia... Habrá Coordinación General por siete días, elegida en voto público y revocable por mayoría absoluta, sin privilegios. Ejecuta acuerdos, organiza turnos e informa inventario; no decide sola sobre bote, medicamentos, expulsiones, penas graves ni explotación intensiva."
+    },
+    "regla_de_decision": {
+      "valor": "doble_umbral",
+      "evidencia": "Las decisiones ordinarias se tomarán por mayoría simple de quienes participen en la mesa. Las decisiones sobre bote, tratamientos médicos no urgentes o prolongados, expulsiones, penas graves o cambio de régimen requerirán mayoría absoluta de los siete."
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "economía cooperativa y propiedad común de recursos críticos... retirarse con efectos personales y ración razonable, sin llevar bienes críticos comunes"
+    },
+    "sistema_economico": {
+      "valor": "reparto_por_necesidad",
+      "evidencia": "Derechos: vida, agua, alimento, abrigo, atención urgente y continuidad médica según inventario... Obligaciones: trabajar según capacidad"
+    },
+    "resolucion_de_disputas": {
+      "valor": "escalonada",
+      "evidencia": "Disputas: mediación por Registro y Garantías; si falla, mesa con audiencia y razones registradas."
+    },
+    "castigo": {
+      "valor": "graduado",
+      "evidencia": "Penas proporcionales; nunca retirar bienes vitales ni atención médica. Violencia, sabotaje, robo de medicinas o depredación deliberada habilitan separación preventiva mínima y pena grave por mayoría absoluta."
+    },
+    "salida": {
+      "valor": "condicionada",
+      "evidencia": "retirarse con efectos personales y ración razonable, sin llevar bienes críticos comunes"
+    },
+    "principio_distributivo": {
+      "valor": "segun_capacidad_y_necesidad",
+      "evidencia": "Obligaciones: trabajar según capacidad, cuidar bienes comunes... Derechos: vida, agua, alimento, abrigo, atención urgente y continuidad médica según inventario"
+    },
+    "medicamentos": {
+      "valor": "custodia_medica",
+      "evidencia": "atención urgente y continuidad médica según inventario y criterio de Botiquín y Salud... En urgencias médicas, la persona encargada del botiquín podrá actuar de inmediato, registrando e informando luego."
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "Parte 1 será responsable de custodia, mantenimiento y reparación del bote y herramientas, por tener el bote y saber remar, sin propiedad exclusiva"
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "mixto",
+      "evidencia": "Toda extracción relevante tendrá cupos, registro y revisión diaria... Reservas: raciones, conservación, huerta, recolección rotativa, agua segura, plantas útiles verificadas y alternativas sanitarias seguras."
+    },
+    "eje_colectivo_individual": {
+      "valor": "mas_colectivo_que_individual",
+      "evidencia": "democracia de emergencia, economía cooperativa y propiedad común de recursos críticos"
+    },
+    "proteccion_ambiental": {
+      "valor": "reglas_concretas",
+      "evidencia": "Parte 4 será responsable de recursos y sostenibilidad... Toda extracción relevante tendrá cupos, registro y revisión diaria, sin trabar tareas menores ni urgencias."
+    }
+  },
+  "problemas": []
+}

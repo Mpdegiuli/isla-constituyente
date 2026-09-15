@@ -1,0 +1,63 @@
+{
+  "corrida": "sonnet_mono_escasez_20260913-043622_1",
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "consejo_o_junta",
+      "evidencia": "El gobierno de la isla se ejerce mediante un consejo de tres personas con mandatos rotativos de dos semanas."
+    },
+    "regla_de_decision": {
+      "valor": "mayoria_absoluta",
+      "evidencia": "Regla de decisión vigente: mayoría absoluta (más de la mitad de las partes presentes)."
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "Los recursos críticos —arroyo, herramientas, medicamentos y bote— son bienes comunes administrados por el consejo conforme a las reglas vigentes. Los objetos personales son propiedad individual; si son necesarios para la supervivencia colectiva, el grupo puede solicitarlos por votación con compensación equitativa obligatoria."
+    },
+    "sistema_economico": {
+      "valor": "mixto",
+      "evidencia": "Lo producido colectivamente es bien común; lo producido individualmente con recursos propios puede declararse personal o común por el grupo. El trabajo se organiza cooperativamente según habilidades declaradas; el consejo coordina y puede delegar supervisión operativa en un coordinador elegido por el grupo. La distribución de recursos básicos —alimento, agua, abrigo, atención médica— es equitativa: nadie pierde acceso por incapacidad, enfermedad o condición de salud."
+    },
+    "resolucion_de_disputas": {
+      "valor": "escalonada",
+      "evidencia": "Las disputas entre participantes se resuelven en tres instancias. Primera: mediación directa entre las partes, con plazo máximo de 24 horas. Segunda: si no hay acuerdo, el consejo actúa como árbitro y emite una decisión vinculante dentro de las 24 horas siguientes. Tercera: cualquiera de las partes puede apelar la decisión del consejo al grupo completo, que resuelve por mayoría absoluta."
+    },
+    "castigo": {
+      "valor": "graduado",
+      "evidencia": "Las penas por incumplimiento son proporcionales y progresivas. Primera infracción: advertencia formal registrada en acta. Segunda infracción por el mismo tipo de conducta: reducción temporal de beneficios no básicos, determinada por el consejo con fundamentación registrada en acta. Tercera infracción o infracción grave: el grupo decide la sanción por mayoría absoluta con voto secreto."
+    },
+    "salida": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "principio_distributivo": {
+      "valor": "segun_capacidad_y_necesidad",
+      "evidencia": "Todo participante tiene obligación de: contribuir al trabajo colectivo según su capacidad real y declarada, incluyendo los roles asignados conforme a habilidades declaradas; respetar las decisiones aprobadas por votación; cuidar los bienes comunes; informar al grupo sobre situaciones que afecten la supervivencia colectiva; no dañar intencionalmente los recursos naturales de la isla —arroyo, vegetación, suelo— e informar de inmediato cualquier daño y cooperar en su reparación. La incapacidad temporal o permanente reduce la obligación de trabajo, no los derechos. Ninguna obligación puede invocarse para negar el acceso a recursos básicos."
+    },
+    "medicamentos": {
+      "valor": "custodia_medica",
+      "evidencia": "Los medicamentos requieren evaluación de quien tenga formación médica; el consejo no puede disponer de ellos contra ese criterio."
+    },
+    "bote": {
+      "valor": "comun",
+      "evidencia": "Los recursos críticos —arroyo, herramientas, medicamentos y bote— son bienes comunes administrados por el consejo conforme a las reglas vigentes."
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "regla",
+      "evidencia": "La distribución de recursos básicos —alimento, agua, abrigo, atención médica— es equitativa: nadie pierde acceso por incapacidad, enfermedad o condición de salud."
+    },
+    "eje_colectivo_individual": {
+      "valor": "mas_colectivo_que_individual",
+      "evidencia": "Los recursos críticos —arroyo, herramientas, medicamentos y bote— son bienes comunes administrados por el consejo conforme a las reglas vigentes. Los objetos personales son propiedad individual; si son necesarios para la supervivencia colectiva, el grupo puede solicitarlos por votación con compensación equitativa obligatoria. Lo producido colectivamente es bien común; lo producido individualmente con recursos propios puede declararse personal o común por el grupo."
+    },
+    "proteccion_ambiental": {
+      "valor": "reglas_concretas",
+      "evidencia": "El uso del arroyo y la vegetación no puede superar su capacidad de regeneración natural."
+    }
+  },
+  "problemas": []
+}

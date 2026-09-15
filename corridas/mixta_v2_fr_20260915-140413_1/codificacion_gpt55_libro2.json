@@ -1,0 +1,63 @@
+{
+  "corrida": "mixta_v2_fr_20260915-140413_1",
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "asamblea_directa",
+      "evidencia": "L’Assemblée des Sept est souveraine."
+    },
+    "regla_de_decision": {
+      "valor": "doble_umbral",
+      "evidencia": "Les décisions ordinaires sont prises à la majorité simple (4/7). Les décisions fondamentales — modification du régime, propriété, peines, exclusion, usage de la barque hors urgence, baisse d’une protection écologique, ouverture des mines — exigent 5/7."
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "Ressources naturelles, outils communs, médicaments sont biens communs. Effets personnels privés. Barque propriété du membre 1 mais équipement vital commun"
+    },
+    "sistema_economico": {
+      "valor": "planificado",
+      "evidencia": "Le régime économique est une économie de subsistance planifiée : production, collecte et consommation sont coordonnées pour couvrir les besoins vitaux sans dépasser la capacité de renouvellement."
+    },
+    "resolucion_de_disputas": {
+      "valor": "escalonada",
+      "evidencia": "Différends : médiation puis Assemblée."
+    },
+    "castigo": {
+      "valor": "graduado",
+      "evidencia": "Peines : réparation, travaux compensatoires, restriction de biens non vitaux, restauration écologique obligatoire ; faute grave : vol de médicaments, sabotage barque, refus d’aide vitale, violation délibérée des zones protégées ou falsification du registre. Aucune peine ne prive de soins vitaux."
+    },
+    "salida": {
+      "valor": "condicionada",
+      "evidencia": "Un membre peut se retirer paisiblement, sans barque, médicaments critiques, outils vitaux. Il conserve accès de subsistance, mais reste soumis aux plafonds écologiques ; le retrait ne dispense jamais de préserver l’île."
+    },
+    "principio_distributivo": {
+      "valor": "segun_capacidad_y_necesidad",
+      "evidencia": "production, collecte et consommation sont coordonnées pour couvrir les besoins vitaux sans dépasser la capacité de renouvellement"
+    },
+    "medicamentos": {
+      "valor": "custodia_medica",
+      "evidencia": "Le Gardien médical (membre 2), compétence médicale, gère médicaments ; assistant désigné."
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "Barque propriété du membre 1 mais équipement vital commun ; nul ne l’utilise sans pilote ; sorties non urgentes votées 5/7."
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "regla",
+      "evidencia": "Médicaments communs, registre public, soins selon gravité"
+    },
+    "eje_colectivo_individual": {
+      "valor": "mas_colectivo_que_individual",
+      "evidencia": "L’île forme Concordia, république coopérative écologique de sept membres égaux."
+    },
+    "proteccion_ambiental": {
+      "valor": "reglas_concretas",
+      "evidencia": "Aucun prélèvement durable supérieur au renouvellement. Priorités : eau potable, santé, abri, nourriture renouvelable. Bois, fruits, eau, chasse, pêche, charbon, métal ont plafonds hebdomadaires. Latrines loin de la rivière. Aucune mine, défrichage, coupe d’arbre vivant ou pompage important sans plan voté 5/7 précisant but, quantité, durée, compensation."
+    }
+  },
+  "problemas": []
+}

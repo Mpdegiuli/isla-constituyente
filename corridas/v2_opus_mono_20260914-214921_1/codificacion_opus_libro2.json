@@ -1,0 +1,63 @@
+{
+  "corrida": "v2_opus_mono_20260914-214921_1",
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "mixto",
+      "evidencia": "Ante vacío o duda, la asamblea resuelve por la regla del artículo 1 [...] se procede sin interrupción a la elección de cargos del artículo 50"
+    },
+    "regla_de_decision": {
+      "valor": "mayoria_simple",
+      "evidencia": "Regla de decisión vigente: mayoría simple (más votos a favor que en contra)."
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "conserva el derecho de proveerse por sí mismo alimento, agua, leña y abrigo mediante caza, pesca y recolección para su sola subsistencia [...] No podrá tomar bienes comunes, reservas ni medicamentos fuera del caso del artículo 42."
+    },
+    "sistema_economico": {
+      "valor": "mixto",
+      "evidencia": "Quien se retira de la vida común y por ello no recibe ración del fondo común conserva el derecho de proveerse por sí mismo alimento, agua, leña y abrigo"
+    },
+    "resolucion_de_disputas": {
+      "valor": "asamblea",
+      "evidencia": "Ante vacío o duda, la asamblea resuelve por la regla del artículo 1 e interpreta conforme al artículo 21"
+    },
+    "castigo": {
+      "valor": "graduado",
+      "evidencia": "Destruir, ocultar o alterar el acta o sus registros es falta gravísima."
+    },
+    "salida": {
+      "valor": "condicionada",
+      "evidencia": "Quien se retira de la vida común conforme al artículo 24 queda igualmente obligado por los artículos 12, 13, 54 y 55 (límites y prohibiciones ambientales) y por la prohibición de agredir, y conserva los derechos del artículo 25."
+    },
+    "principio_distributivo": {
+      "valor": "promedio_con_piso",
+      "evidencia": "Ninguna norma, pena ni mayoría puede privarlo de esta posibilidad de proveerse el sustento."
+    },
+    "medicamentos": {
+      "valor": "reserva_comun",
+      "evidencia": "No podrá tomar bienes comunes, reservas ni medicamentos fuera del caso del artículo 42."
+    },
+    "bote": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "regla",
+      "evidencia": "dentro de los cupos de los artículos 13, 54 y 55 y respetando las prohibiciones del artículo 12. Esa extracción se computa en el censo del Guardián de Recursos."
+    },
+    "eje_colectivo_individual": {
+      "valor": "mas_colectivo_que_individual",
+      "evidencia": "El acta obliga por igual a los siete, ejerzan o no cargo, estén o no presentes en la asamblea."
+    },
+    "proteccion_ambiental": {
+      "valor": "reglas_concretas",
+      "evidencia": "dentro de los cupos de los artículos 13, 54 y 55 y respetando las prohibiciones del artículo 12"
+    }
+  },
+  "problemas": []
+}

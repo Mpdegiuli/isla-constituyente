@@ -1,0 +1,63 @@
+{
+  "corrida": "mixta_v2_fable_20260915-114346_1",
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "asamblea_directa",
+      "evidencia": "GOBIERNO. Asamblea soberana. Parte 3 coordina logística y turnos voluntarios, sin sancionar ni disponer de botiquín, bote ni cupos."
+    },
+    "regla_de_decision": {
+      "valor": "mayoria_simple",
+      "evidencia": "Ordinarias: mayoría simple de presentes. Salud, medicamentos y extracción: mayoría simple, de aplicación inmediata. Uso del bote fuera de la costa y reforma del acta: cinco votos."
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "Recursos, herramientas, ropa, medicamentos, reservas y bote son comunes. Efectos íntimos, personales."
+    },
+    "sistema_economico": {
+      "valor": "reparto_por_necesidad",
+      "evidencia": "Subsistencia comunitaria. Ración según necesidad y capacidad. Trueque voluntario. Sin moneda."
+    },
+    "resolucion_de_disputas": {
+      "valor": "escalonada",
+      "evidencia": "DISPUTAS. Mediación de dos; si no hay acuerdo, Asamblea por mayoría simple."
+    },
+    "castigo": {
+      "valor": "graduado",
+      "evidencia": "PENAS. Amonestación, reparación del daño o exclusión temporal de bienes no esenciales, por mayoría simple."
+    },
+    "salida": {
+      "valor": "condicionada",
+      "evidencia": "Salidas a mar abierto solo con cinco votos, clima estable y plan de retorno. Parte 1 puede suspender cualquier salida por seguridad. Nadie que tema al agua embarca."
+    },
+    "principio_distributivo": {
+      "valor": "segun_capacidad_y_necesidad",
+      "evidencia": "Ración según necesidad y capacidad."
+    },
+    "medicamentos": {
+      "valor": "custodia_medica",
+      "evidencia": "Medicamentos: triaje de Parte 2; quien ya está enfermo recibe tratamiento de inmediato, con registro; el resto solo si hay excedente."
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "Parte 1: custodia, mantiene y opera el bote; evalúa mar y clima y su evaluación de seguridad es vinculante"
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "mixto",
+      "evidencia": "Extracción con cupos sostenibles informados por Parte 4. ... Al agotarse reservas: higiene, agua hervida o filtrada, plantas validadas por Partes 2 y 4, racionamiento."
+    },
+    "eje_colectivo_individual": {
+      "valor": "mas_colectivo_que_individual",
+      "evidencia": "Recursos, herramientas, ropa, medicamentos, reservas y bote son comunes. Efectos íntimos, personales. ... Sin trabajo forzado ni embarque forzado."
+    },
+    "proteccion_ambiental": {
+      "valor": "reglas_concretas",
+      "evidencia": "Extracción con cupos sostenibles informados por Parte 4. ... Río protegido: no contaminar."
+    }
+  },
+  "problemas": []
+}

@@ -1,0 +1,63 @@
+{
+  "corrida": "v2_kimi_mono_20260915-020320_1",
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "asamblea_directa",
+      "evidencia": "La asamblea es la autoridad máxima de la isla."
+    },
+    "regla_de_decision": {
+      "valor": "mayoria_simple",
+      "evidencia": "las decisiones de esta asamblea se toman por mayoría simple de los votos emitidos (más votos a favor que en contra)."
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "Bienes comunes e inapropiables: los recursos naturales, el bote, el botiquín, las herramientas y las reservas rescatadas del naufragio, y las construcciones y mejoras comunes. Bienes personales: la ropa y los efectos propios, el fruto del trabajo personal y la cuota recibida al separarse."
+    },
+    "sistema_economico": {
+      "valor": "mixto",
+      "evidencia": "la producción de los turnos comunes integra la reserva común, administrada por el Coordinador según los planes aprobados por la asamblea, con registro abierto de ingresos y egresos. El fruto del trabajo personal fuera de los turnos comunes es propiedad personal"
+    },
+    "resolucion_de_disputas": {
+      "valor": "escalonada",
+      "evidencia": "Resolución escalonada: a) acuerdo directo entre las partes; b) mediación de un participante elegido de común acuerdo o, en defecto, por el Coordinador; c) decisión de la asamblea por mayoría absoluta, con fundamentación escrita en el registro."
+    },
+    "castigo": {
+      "valor": "graduado",
+      "evidencia": "Escala, aplicable según gravedad: a) Advertencia registrada. b) Reparación del daño con trabajo: reforestación, limpieza del cauce, reconstrucción, más trabajo común adicional. c) Extracción supervisada: hasta sesenta días, toda extracción del sancionado requiere un verificador designado por la asamblea. d) Suspensión temporal del acceso a herramientas comunes no esenciales y del excedente del trabajo personal, hasta treinta días. e) Revocación de custodias e inhabilitación temporal para roles."
+    },
+    "salida": {
+      "valor": "libre",
+      "evidencia": "cualquier participante podrá separarse del grupo en cualquier momento, sin que se le impida ni se le persiga."
+    },
+    "principio_distributivo": {
+      "valor": "otro",
+      "evidencia": "la producción de los turnos comunes integra la reserva común, administrada por el Coordinador según los planes aprobados por la asamblea; El fruto del trabajo personal fuera de los turnos comunes es propiedad personal"
+    },
+    "medicamentos": {
+      "valor": "custodia_medica",
+      "evidencia": "Custodia del botiquín (parte 2, por su formación médica): a) Los medicamentos se administran por criterio médico: indicación, dosis y duración según necesidad clínica, no por rango ni preferencia."
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "el bote se usa con la parte 1 o con su autorización; registro abierto de usos y estado del bote; revocable por mayoría absoluta por mal uso."
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "mixto",
+      "evidencia": "Racionamiento escalonado: el primer plan del Coordinador fijará raciones decrecientes de las reservas del naufragio, con la meta de que en sesenta días el consumo se cubra con producción propia (huerto, frutos, pesca y recolección)."
+    },
+    "eje_colectivo_individual": {
+      "valor": "equilibrado",
+      "evidencia": "Bienes comunes e inapropiables: los recursos naturales, el bote, el botiquín, las herramientas y las reservas rescatadas del naufragio, y las construcciones y mejoras comunes. Bienes personales: la ropa y los efectos propios, el fruto del trabajo personal y la cuota recibida al separarse."
+    },
+    "proteccion_ambiental": {
+      "valor": "reglas_concretas",
+      "evidencia": "Cupos máximos de extracción, fijados sobre la base del relevamiento técnico, aprobados por la asamblea por mayoría absoluta y publicados por escrito en el registro común; revisables cada treinta días con informe nuevo; solo se flexibilizan por mayoría absoluta"
+    }
+  },
+  "problemas": []
+}

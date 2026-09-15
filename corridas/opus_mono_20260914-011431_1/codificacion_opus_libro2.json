@@ -1,0 +1,63 @@
+{
+  "corrida": "opus_mono_20260914-011431_1",
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "asamblea_directa",
+      "evidencia": "Coordinador electo y revocable por 4 votos, 30 días; rinde cuentas semanales; no manda sobre personas; cargos no se acumulan"
+    },
+    "regla_de_decision": {
+      "valor": "mayoria_absoluta",
+      "evidencia": "Mayoría 4/7; obliga a todos; se reforma igual; lo no escrito no obliga"
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "Bosque, río, minas, fauna comunes; ... Bienes personales compensados si se usan; bote común"
+    },
+    "sistema_economico": {
+      "valor": "mixto",
+      "evidencia": "Trabajo voluntario según capacidad; enfermos conservan parte y atención; cuidar, registrar, censar son trabajo"
+    },
+    "resolucion_de_disputas": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "castigo": {
+      "valor": "otro",
+      "evidencia": "No hay régimen de penas: se prohíbe expresamente que 'Nadie pierde cuerpo ni bienes ni trabaja forzado sin consentimiento'; la única consecuencia prevista es 'quien se aparta no vota'"
+    },
+    "salida": {
+      "valor": "libre",
+      "evidencia": "Retiro libre con sus bienes; vuelve aportando"
+    },
+    "principio_distributivo": {
+      "valor": "segun_capacidad_y_necesidad",
+      "evidencia": "Trabajo voluntario según capacidad; enfermos conservan parte y atención"
+    },
+    "medicamentos": {
+      "valor": "custodia_medica",
+      "evidencia": "Medicamentos: custodia médica revocable, criterio clínico, registro público del uso, incluido el propio; consentimiento"
+    },
+    "bote": {
+      "valor": "comun",
+      "evidencia": "bote común, nadie lo toma sin acuerdo, remo voluntario, patrón responde por clima y casco y enseña"
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "regla",
+      "evidencia": "cupos bajo reposición (censo 7 días); veda de crías; no talar frutales ni contaminar; veto suspensivo levantable por 4 votos"
+    },
+    "eje_colectivo_individual": {
+      "valor": "equilibrado",
+      "evidencia": "Bosque, río, minas, fauna comunes; ... Bienes personales compensados si se usan; ... Retiro libre con sus bienes"
+    },
+    "proteccion_ambiental": {
+      "valor": "reglas_concretas",
+      "evidencia": "cupos bajo reposición (censo 7 días); veda de crías; no talar frutales ni contaminar"
+    }
+  },
+  "problemas": []
+}

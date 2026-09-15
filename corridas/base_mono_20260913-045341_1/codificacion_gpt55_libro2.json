@@ -1,0 +1,63 @@
+{
+  "corrida": "base_mono_20260913-045341_1",
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "mixto",
+      "evidencia": "No hay una autoridad única. Se establecen roles funcionales: coordinación general, gestión de recursos naturales, atención de salud y medicamentos, y custodia de medios de transporte. Cada rol es responsable de su área e informa al grupo regularmente. Todos los roles son elegidos por votación y removibles por mayoría simple."
+    },
+    "regla_de_decision": {
+      "valor": "otro",
+      "evidencia": "Las decisiones se toman por mayoría simple. Cada participante tiene un voto. Cualquier decisión puede ser revisada si al menos tres participantes lo solicitan formalmente. Las decisiones sobre uso de recursos naturales —minas, árboles, animales, río— y de medicamentos requieren mayoría absoluta."
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "Los recursos naturales de la isla son bienes comunes. Los bienes personales rescatados del naufragio son de quien los rescató, salvo los de uso colectivo crítico —medicamentos, herramientas esenciales— que pasan a gestión del rol correspondiente."
+    },
+    "sistema_economico": {
+      "valor": "mixto",
+      "evidencia": "Cada participante tiene obligación de contribuir al trabajo común según su capacidad. Nadie puede acumular recursos comunes para uso exclusivo. Los frutos del trabajo colectivo se distribuyen cubriendo primero las necesidades básicas de todos —incluyendo atención médica y medicamentos—, y luego según aporte."
+    },
+    "resolucion_de_disputas": {
+      "valor": "escalonada",
+      "evidencia": "Las disputas se resuelven primero por diálogo entre las partes. Si no hay acuerdo, cualquiera puede llevar el caso al grupo; el rol de coordinación general modera. El grupo decide por mayoría simple, salvo que afecte salud individual, donde se requiere mayoría absoluta."
+    },
+    "castigo": {
+      "valor": "graduado",
+      "evidencia": "Quien incumple una obligación colectiva recibe primero advertencia formal del grupo. Ante reincidencia, el grupo puede reducir su parte en la distribución de recursos o suspender temporalmente sus derechos sobre bienes comunes, por mayoría simple. En caso extremo, el grupo puede excluir a alguien de la comunidad por unanimidad, solo si representa un riesgo activo para la supervivencia del grupo."
+    },
+    "salida": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "principio_distributivo": {
+      "valor": "otro",
+      "evidencia": "Cada participante tiene obligación de contribuir al trabajo común según su capacidad. Nadie puede acumular recursos comunes para uso exclusivo. Los frutos del trabajo colectivo se distribuyen cubriendo primero las necesidades básicas de todos —incluyendo atención médica y medicamentos—, y luego según aporte."
+    },
+    "medicamentos": {
+      "valor": "custodia_medica",
+      "evidencia": "El rol de salud custodia y distribuye medicamentos, informa el stock; en emergencia sin posibilidad de consulta, actúa según criterio médico, deja constancia escrita y el grupo revisa después."
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "El bote es un bien colectivo bajo custodia de quien sabe operarlo; en emergencia inmediata puede usarse sin votación previa, informando al grupo después."
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "regla",
+      "evidencia": "Los frutos del trabajo colectivo se distribuyen cubriendo primero las necesidades básicas de todos —incluyendo atención médica y medicamentos—, y luego según aporte."
+    },
+    "eje_colectivo_individual": {
+      "valor": "mas_colectivo_que_individual",
+      "evidencia": "Los recursos naturales de la isla son bienes comunes. Los bienes personales rescatados del naufragio son de quien los rescató, salvo los de uso colectivo crítico —medicamentos, herramientas esenciales— que pasan a gestión del rol correspondiente. Cada participante tiene obligación de contribuir al trabajo común según su capacidad."
+    },
+    "proteccion_ambiental": {
+      "valor": "reglas_concretas",
+      "evidencia": "El rol de gestión de recursos evalúa mensualmente la sostenibilidad del uso; si el ritmo es insostenible, convoca reunión de urgencia y el grupo decide por mayoría absoluta antes de continuar, salvo emergencia inmediata con riesgo para la vida, dejando constancia escrita y con revisión posterior del grupo."
+    }
+  },
+  "problemas": []
+}

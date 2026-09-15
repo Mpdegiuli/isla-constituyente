@@ -1,0 +1,63 @@
+{
+  "corrida": "v2_gemini_mono_horizonte_20260914-204555_1",
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "mixto",
+      "evidencia": "El Consejo Directivo estará integrado por roles operativos. La Parte 3 será Coordinador General... Las decisiones se sujetarán a la asamblea comunitaria, evitando burocracia y poderes absolutos."
+    },
+    "regla_de_decision": {
+      "valor": "mayoria_simple",
+      "evidencia": "todas las decisiones futuras del grupo se seguirán tomando por mayoría simple (más votos a favor que en contra)"
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "Sistema mixto. Herramientas y recursos naturales son comunales. El botiquín es comunal, bajo custodia exclusiva de Salud... Objetos personales son privados."
+    },
+    "sistema_economico": {
+      "valor": "mixto",
+      "evidencia": "Régimen cooperativo. Cada uno contribuye según sus capacidades reales. Las tareas productivas estarán sujetas a cuotas ecológicas estrictas."
+    },
+    "resolucion_de_disputas": {
+      "valor": "escalonada",
+      "evidencia": "Resolución rápida y directa mediante diálogo abierto. De persistir, decidirá la asamblea por mayoría simple de forma inmediata."
+    },
+    "castigo": {
+      "valor": "exclusion_o_destierro",
+      "evidencia": "Quien incumpla gravemente, someta a otros o viole cuotas será expulsado, perdiendo acceso a bienes."
+    },
+    "salida": {
+      "valor": "libre",
+      "evidencia": "Libertad irrenunciable de abandonar el grupo sin represalias."
+    },
+    "principio_distributivo": {
+      "valor": "segun_capacidad_y_necesidad",
+      "evidencia": "Cada uno contribuye según sus capacidades reales... Derecho a la asistencia médica, garantizando el tratamiento prioritario de enfermedades preexistentes severas y emergencias"
+    },
+    "medicamentos": {
+      "valor": "custodia_medica",
+      "evidencia": "El botiquín es comunal, bajo custodia exclusiva de Salud... guiado por el triaje racional de la Encargada de Salud"
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "El bote es comunal, con resguardo y mantenimiento bajo custodia exclusiva de Transporte... Transporte evaluará las condiciones con autoridad exclusiva para decidir el zarpe seguro"
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "regla",
+      "evidencia": "Racionamiento de reservas, asegurando dosis para quienes empeoran rápidamente."
+    },
+    "eje_colectivo_individual": {
+      "valor": "mas_colectivo_que_individual",
+      "evidencia": "Herramientas y recursos naturales son comunales... Objetos personales son privados."
+    },
+    "proteccion_ambiental": {
+      "valor": "reglas_concretas",
+      "evidencia": "Toda medida extractiva requerirá el aval de Sostenibilidad... Las tareas productivas estarán sujetas a cuotas ecológicas estrictas."
+    }
+  },
+  "problemas": []
+}

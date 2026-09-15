@@ -1,0 +1,63 @@
+{
+  "corrida": "gemini_mono_en_20260913-175054_1",
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "asamblea_directa",
+      "evidencia": "The government is an Assembly."
+    },
+    "regla_de_decision": {
+      "valor": "mayoria_absoluta",
+      "evidencia": "All future decisions shall be taken by an absolute majority (at least 4 out of 7 votes)."
+    },
+    "regimen_de_propiedad": {
+      "valor": "comun",
+      "evidencia": "All resources are collectively owned under a planned economy."
+    },
+    "sistema_economico": {
+      "valor": "planificado",
+      "evidencia": "All resources are collectively owned under a planned economy."
+    },
+    "resolucion_de_disputas": {
+      "valor": "asamblea",
+      "evidencia": "Disputes resolved by Assembly absolute majority."
+    },
+    "castigo": {
+      "valor": "privacion_de_bienes",
+      "evidencia": "Penalties are equal temporary ration reductions."
+    },
+    "salida": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "principio_distributivo": {
+      "valor": "segun_capacidad_y_necesidad",
+      "evidencia": "Equal rights to resources; mandatory obligations depend on physical capability, ensuring care for the vulnerable."
+    },
+    "medicamentos": {
+      "valor": "custodia_medica",
+      "evidencia": "Party 2 Medical Director (manages rationing for acute and severe chronic conditions)"
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "Party 1 Boat Operator (boat usage requires their safety assessment and Assembly approval)"
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "regla",
+      "evidencia": "All resources are collectively owned under a planned economy."
+    },
+    "eje_colectivo_individual": {
+      "valor": "colectivo",
+      "evidencia": "The government is an Assembly. All resources are collectively owned under a planned economy."
+    },
+    "proteccion_ambiental": {
+      "valor": "reglas_concretas",
+      "evidencia": "all resource extraction must adhere to approved sustainable limits"
+    }
+  },
+  "problemas": []
+}

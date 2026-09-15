@@ -1,0 +1,63 @@
+{
+  "corrida": "openai_mono_20260914-002120_1",
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "mixto",
+      "evidencia": "Gobierno de emergencia: Coordinador General parte 3 organiza tareas comunes, sin mando sobre decisiones personales fuera de bienes comunes. Responsable de Recursos y Terreno parte 4 inventaria y propone cuotas. Secretaría parte 5 registra decisiones públicas. Exploración y Seguridad parte 6 reconoce terreno, riesgos y opciones de rescate, incluyendo salida inmediata del bote. Sanidad parte 2 administra medicamentos, higiene y prioridades médicas con registro público. Bienestar parte 7 apoya cuidados generales. Cargos revocables por votación."
+    },
+    "regla_de_decision": {
+      "valor": "mayoria_absoluta",
+      "evidencia": "Regla de decisión vigente: mayoría absoluta (más de la mitad de las partes presentes)."
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "Agua, alimentos silvestres, madera, animales, carbón, metal, herramientas, bote, medicamentos y demás bienes necesarios para sobrevivir serán de uso común regulado, no apropiables privadamente. Ropa y efectos estrictamente personales serán propiedad privada."
+    },
+    "sistema_economico": {
+      "valor": "planificado",
+      "evidencia": "Habrá inventario público y cuotas sostenibles; hasta aprobarlas, cada responsable podrá fijar límites provisionales informados."
+    },
+    "resolucion_de_disputas": {
+      "valor": "escalonada",
+      "evidencia": "Disputas: mediación por Coordinador y Secretaría; si falla, decisión de tres responsables no involucrados, oyendo a las partes y con acta; apelable a la mesa."
+    },
+    "castigo": {
+      "valor": "graduado",
+      "evidencia": "Penas proporcionales y reparadoras: advertencia, disculpa, reparación, trabajo extra, restricción temporal de uso de bienes comunes o separación de tareas."
+    },
+    "salida": {
+      "valor": "condicionada",
+      "evidencia": "quien se retire no vota, pero deberá respetar las reglas comunes si usa bienes o recursos comunes."
+    },
+    "principio_distributivo": {
+      "valor": "otro",
+      "evidencia": "Régimen económico de subsistencia sostenible. Agua, alimentos silvestres, madera, animales, carbón, metal, herramientas, bote, medicamentos y demás bienes necesarios para sobrevivir serán de uso común regulado, no apropiables privadamente. Habrá inventario público y cuotas sostenibles"
+    },
+    "medicamentos": {
+      "valor": "custodia_medica",
+      "evidencia": "Sanidad parte 2 administra medicamentos, higiene y prioridades médicas con registro público."
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "Agua, alimentos silvestres, madera, animales, carbón, metal, herramientas, bote, medicamentos y demás bienes necesarios para sobrevivir serán de uso común regulado, no apropiables privadamente."
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "regla",
+      "evidencia": "Habrá inventario público y cuotas sostenibles; hasta aprobarlas, cada responsable podrá fijar límites provisionales informados."
+    },
+    "eje_colectivo_individual": {
+      "valor": "mas_colectivo_que_individual",
+      "evidencia": "Agua, alimentos silvestres, madera, animales, carbón, metal, herramientas, bote, medicamentos y demás bienes necesarios para sobrevivir serán de uso común regulado, no apropiables privadamente. Ropa y efectos estrictamente personales serán propiedad privada."
+    },
+    "proteccion_ambiental": {
+      "valor": "reglas_concretas",
+      "evidencia": "Régimen económico de subsistencia sostenible. Habrá inventario público y cuotas sostenibles; hasta aprobarlas, cada responsable podrá fijar límites provisionales informados."
+    }
+  },
+  "problemas": []
+}

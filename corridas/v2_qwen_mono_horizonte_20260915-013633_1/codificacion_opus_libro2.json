@@ -1,0 +1,63 @@
+{
+  "corrida": "v2_qwen_mono_horizonte_20260915-013633_1",
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "mixto",
+      "evidencia": "Régimen: Democracia asamblearia de custodia. La Asamblea de las siete personas es la autoridad máxima; ... Gobierno: Coordinación Ejecutiva unipersonal elegida y revocable por mayoría simple; Parte 3 inicialmente"
+    },
+    "regla_de_decision": {
+      "valor": "doble_umbral",
+      "evidencia": "decide ordinariamente por mayoría simple; voto público y obligatorio. Mayoría absoluta para: usar el bote fuera de emergencias, contactar deliberadamente la otra orilla, sanciones graves, modificar garantías y reglas"
+    },
+    "regimen_de_propiedad": {
+      "valor": "comun",
+      "evidencia": "bienes naturales, herramientas, reservas, bote, medicamentos y medios productivos son comunes"
+    },
+    "sistema_economico": {
+      "valor": "planificado",
+      "evidencia": "reparto básico equitativo; plan sostenible"
+    },
+    "resolucion_de_disputas": {
+      "valor": "escalonada",
+      "evidencia": "Disputas: mediación y Asamblea; penas proporcionales con defensa; leves mayoría simple, graves absoluta"
+    },
+    "castigo": {
+      "valor": "graduado",
+      "evidencia": "penas proporcionales con defensa; leves mayoría simple, graves absoluta"
+    },
+    "salida": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "principio_distributivo": {
+      "valor": "promedio_con_piso",
+      "evidencia": "reparto básico equitativo; plan sostenible ... Derechos y obligaciones: vida, salud, alimentación, participación, defensa"
+    },
+    "medicamentos": {
+      "valor": "custodia_medica",
+      "evidencia": "Parte 2 medicamentos y salud: administra por necesidad clínica, inventario, racionamiento, registro, emergencias inmediatas con rendición"
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "Mayoría absoluta para: usar el bote fuera de emergencias ... Parte 1 bote y enseña remo"
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "mixto",
+      "evidencia": "reparto básico equitativo; plan sostenible ... Previsión: plan de alimentos, agua, refugio, medicamentos alternativos antes del agotamiento"
+    },
+    "eje_colectivo_individual": {
+      "valor": "colectivo",
+      "evidencia": "bienes naturales, herramientas, reservas, bote, medicamentos y medios productivos son comunes ... trabajar, guardias, cuidar bienes"
+    },
+    "proteccion_ambiental": {
+      "valor": "reglas_concretas",
+      "evidencia": "Parte 4 ambiental con suspensiones escritas, motivadas, temporales y apelables; Asamblea resuelve; más de tres días por riesgo grave requiere mayoría absoluta"
+    }
+  },
+  "problemas": []
+}

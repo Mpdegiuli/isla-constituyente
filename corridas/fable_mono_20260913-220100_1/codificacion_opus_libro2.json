@@ -1,0 +1,63 @@
+{
+  "corrida": "fable_mono_20260913-220100_1",
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "mixto",
+      "evidencia": "La autoridad normativa la ejerce la asamblea de los siete por mayoría absoluta. La ejecución diaria (tareas, turnos, convocatoria) la ejerce un coordinador elegido por un mes, renovable y revocable por cuatro votos."
+    },
+    "regla_de_decision": {
+      "valor": "mayoria_absoluta",
+      "evidencia": "Las decisiones se toman por mayoría absoluta: al menos cuatro votos afirmativos de siete."
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "Recursos naturales y bienes rescatados (bote, herramientas, medicamentos) son comunes; nadie puede apropiárselos ni negar el uso que decida la asamblea. Ropa, objetos personales y lo fabricado son individuales."
+    },
+    "sistema_economico": {
+      "valor": "mixto",
+      "evidencia": "Partes iguales, ración adicional para enfermos y quien trajo dentro del cupo o hizo tareas pesadas."
+    },
+    "resolucion_de_disputas": {
+      "valor": "escalonada",
+      "evidencia": "Disputas: diálogo mediado por el coordinador o, si es parte, por quien elija la asamblea; sin acuerdo, decide la asamblea por mayoría absoluta oyendo a ambos, dentro de dos días"
+    },
+    "castigo": {
+      "valor": "graduado",
+      "evidencia": "Penas graduadas: amonestación; pérdida de ración adicional; tareas extra; suspensión del rol."
+    },
+    "salida": {
+      "valor": "libre",
+      "evidencia": "Quien se vaya lleva bienes personales y provisiones para tres días, sin deuda ni castigo."
+    },
+    "principio_distributivo": {
+      "valor": "promedio_con_piso",
+      "evidencia": "Derechos: alimento, agua, techo, atención médica según botiquín... Ninguna pena priva de agua, alimento básico ni medicación necesaria."
+    },
+    "medicamentos": {
+      "valor": "custodia_medica",
+      "evidencia": "en emergencias de salud convoca a quien tenga formación médica, que decide el uso de medicamentos e informa"
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "Custodia y mantiene el bote quien sabe remar, que enseña a otros dos; sale por decisión de la asamblea"
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "regla",
+      "evidencia": "Cupos no superan la regeneración, salvo urgencia declarada por la asamblea; prohibido talar frutales vivos y cazar hembras con crías."
+    },
+    "eje_colectivo_individual": {
+      "valor": "mas_colectivo_que_individual",
+      "evidencia": "Recursos naturales y bienes rescatados (bote, herramientas, medicamentos) son comunes; nadie puede apropiárselos ni negar el uso que decida la asamblea. Ropa, objetos personales y lo fabricado son individuales."
+    },
+    "proteccion_ambiental": {
+      "valor": "prohibiciones",
+      "evidencia": "prohibido talar frutales vivos y cazar hembras con crías"
+    }
+  },
+  "problemas": []
+}

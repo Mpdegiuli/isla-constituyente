@@ -1,0 +1,63 @@
+{
+  "corrida": "v2_mistral_mono_20260914-221130_1",
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "regla_de_decision": {
+      "valor": "mayoria_simple",
+      "evidencia": "Regla de decisión vigente: mayoría simple (más votos a favor que en contra)."
+    },
+    "regimen_de_propiedad": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "sistema_economico": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "resolucion_de_disputas": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "castigo": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "salida": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "principio_distributivo": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "medicamentos": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "bote": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "no_resuelto",
+      "evidencia": "Puntos pendientes: regimen — qué tipo de régimen político y económico les parece mejor para la isla, con su nombre: uno conocido o uno inventado; regla_de_decision — cómo se toman las decisiones siguientes (unanimidad, mayoría absoluta, mayoría simple, consenso u otra); voto — si el voto es secreto o público, y si es obligatorio o no; gobierno — modo de gobierno: quién ejerce la autoridad y cómo se asigna, o si no hay autoridad; roles — quién ocupa qué rol y por qué; economia — régimen económico; propiedad — régimen de propiedad; disputas — resolución de disputas; derechos_y_obligaciones — derechos y obligaciones; penas — penas para quienes no cumplan; prevision_y_seguridad — qué hará el grupo cuando se terminen los medicamentos y las reservas rescatadas, y cómo se protege de los peligros del lugar"
+    },
+    "eje_colectivo_individual": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "proteccion_ambiental": {
+      "valor": "ninguna",
+      "evidencia": "(todavía no hay nada aprobado)"
+    }
+  },
+  "problemas": []
+}

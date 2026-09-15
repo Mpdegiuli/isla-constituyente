@@ -1,0 +1,63 @@
+{
+  "corrida": "v2_fable_mono_horizonte_20260914-221935_1",
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "asamblea_directa",
+      "evidencia": "el régimen de la isla se denomina \"Asamblea de la Isla\": democracia asamblearia con bienes comunes y cargos revocables. La autoridad máxima es la Asamblea de los integrantes"
+    },
+    "regla_de_decision": {
+      "valor": "otro",
+      "evidencia": "las decisiones operativas del grupo (tareas del día, cupos semanales, expediciones, emergencias, disputas y penas) se toman por mayoría simple de los integrantes presentes en la isla, es decir, más votos a favor que en contra. Modificar o derogar un punto ya aprobado del acta requiere mayoría absoluta de los integrantes presentes (más de la mitad)."
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "Árboles, frutales, animales, agua del río, minas de carbón y metal son bienes comunes; nadie puede apropiárselos ni extraerlos por cuenta propia fuera de estas reglas. Ropa y objetos personales rescatados siguen siendo de cada uno; herramientas, bote y botiquín son comunes."
+    },
+    "sistema_economico": {
+      "valor": "mixto",
+      "evidencia": "el régimen económico de la isla se denomina \"economía de comunes con cupos renovables\". Árboles, frutales, animales, agua del río, minas de carbón y metal son bienes comunes; nadie puede apropiárselos ni extraerlos por cuenta propia fuera de estas reglas. Lo extraído dentro de los cupos se reparte según decida la Asamblea, asegurando primero comida, agua y abrigo para todos."
+    },
+    "resolucion_de_disputas": {
+      "valor": "escalonada",
+      "evidencia": "Resolución de disputas: a) Primero, conversación directa entre las partes, con un tercero neutral si alguna lo pide. b) Si no se resuelve, la disputa o denuncia se lleva a la Asamblea."
+    },
+    "castigo": {
+      "valor": "graduado",
+      "evidencia": "Penas: a) Falta leve (incumplir una tarea asignada, descuidar una regla sin daño, negarse a una tarea sorteada): advertencia escrita en el acta; a la segunda, tarea adicional fijada por la Asamblea. b) Falta grave (uso no autorizado del bote o del botiquín, extracción fuera de los límites del punto 10, violencia, ocultar bienes comunes): pérdida temporal del derecho a voto y del cupo de bienes no esenciales por el tiempo que fije la Asamblea, más reparación del daño."
+    },
+    "salida": {
+      "valor": "libre",
+      "evidencia": "cualquier integrante puede retirarse del grupo en cualquier momento avisando a la Asamblea. Quien se retira se lleva su ropa, una herramienta a su elección, un cuchillo y comida para tres días; no se lo persigue ni se lo castiga"
+    },
+    "principio_distributivo": {
+      "valor": "otro",
+      "evidencia": "Lo extraído dentro de los cupos se reparte según decida la Asamblea, asegurando primero comida, agua y abrigo para todos."
+    },
+    "medicamentos": {
+      "valor": "custodia_medica",
+      "evidencia": "La parte 2, única con formación médica, los custodia y administra con inventario actualizado visible para todos. Se usan con criterio médico según las prioridades del punto 21."
+    },
+    "bote": {
+      "valor": "comun",
+      "evidencia": "herramientas, bote y botiquín son comunes."
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "mixto",
+      "evidencia": "se fija un cupo semanal de caza y recolección propuesto por el Custodio de Recursos y aprobado por la Asamblea, revisable según lo observado. Cada semana se destina trabajo a reemplazar lo rescatado del naufragio por lo que la isla da en forma renovable: plantar semillas de los frutales existentes, secar y conservar frutos, recolectar agua de lluvia, fabricar herramientas con el metal"
+    },
+    "eje_colectivo_individual": {
+      "valor": "mas_colectivo_que_individual",
+      "evidencia": "democracia asamblearia con bienes comunes y cargos revocables. La autoridad máxima es la Asamblea de los integrantes"
+    },
+    "proteccion_ambiental": {
+      "valor": "reglas_concretas",
+      "evidencia": "Límites ecológicos vinculantes: a) Zona de reserva: la franja de bosque de veinte pasos a cada lado del río y todo árbol que dé fruto no se talan bajo ninguna circunstancia. b) Leña: sólo madera caída o seca; talar un árbol vivo requiere autorización expresa de la Asamblea, uno por vez y con justificación de uso. c) Caza y pesca: no se cazan hembras con cría ni animales jóvenes; se fija un cupo semanal de caza y recolección propuesto por el Custodio de Recursos y aprobado por la Asamblea, revisable según lo observado."
+    }
+  },
+  "problemas": []
+}

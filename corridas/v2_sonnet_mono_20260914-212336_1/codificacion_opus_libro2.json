@@ -1,0 +1,63 @@
+{
+  "corrida": "v2_sonnet_mono_20260914-212336_1",
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "mixto",
+      "evidencia": "El régimen político de la isla es una república coordinada: existe un coordinador general elegido por mayoría absoluta de los participantes activos, con mandato de treinta días renovable por igual mayoría. [...] No tiene poder unilateral sobre los recursos ni voto de desempate. Todas las decisiones sustantivas —uso de recursos, roles, sanciones— siguen las reglas de votación aprobadas."
+    },
+    "regla_de_decision": {
+      "valor": "doble_umbral",
+      "evidencia": "Las decisiones se toman por mayoría simple: más votos a favor que en contra. [...] Las decisiones que afecten el uso de recursos naturales de la isla —extracción minera, tala, caza, pesca— requieren mayoría absoluta. Las decisiones sobre el uso de los medicamentos requieren mayoría absoluta."
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "No existe propiedad privada sobre los medios de producción ni sobre los recursos naturales de la isla. Los objetos personales de uso exclusivo —ropa propia, efectos personales, herramientas y objetos de uso personal que el participante trajo originalmente al grupo— permanecen bajo custodia individual"
+    },
+    "sistema_economico": {
+      "valor": "reparto_por_necesidad",
+      "evidencia": "La distribución de bienes y recursos sigue el principio de contribución según capacidad y distribución según necesidad, evaluada colectivamente."
+    },
+    "resolucion_de_disputas": {
+      "valor": "escalonada",
+      "evidencia": "las disputas entre participantes se resuelven en tres pasos. Primero, diálogo directo entre las partes. Segundo, si no hay acuerdo, mediación del coordinador general, quien puede convocar una deliberación grupal. [...] Tercero, si persiste el conflicto, el grupo delibera y decide por mayoría absoluta."
+    },
+    "castigo": {
+      "valor": "graduado",
+      "evidencia": "las sanciones por incumplimiento son graduales y proporcionales. Primera instancia: advertencia formal registrada en el acta. Segunda instancia: suspensión temporal del rol asignado [...] Tercera instancia: reducción temporal de acceso a recursos no básicos"
+    },
+    "salida": {
+      "valor": "condicionada",
+      "evidencia": "Si un participante abandona el grupo voluntariamente, conserva sus efectos personales en el sentido definido arriba, pero cualquier bien común que estuviera bajo su custodia [...] debe ser devuelto al grupo antes de retirarse."
+    },
+    "principio_distributivo": {
+      "valor": "segun_capacidad_y_necesidad",
+      "evidencia": "La distribución de bienes y recursos sigue el principio de contribución según capacidad y distribución según necesidad, evaluada colectivamente. [...] Cada participante tiene derecho a recibir una parte equitativa de los recursos básicos —alimento, abrigo, agua— independientemente de su capacidad de trabajo."
+    },
+    "medicamentos": {
+      "valor": "custodia_medica",
+      "evidencia": "Los medicamentos son administrados por el participante con formación médica, quien tiene la obligación de mantener un inventario actualizado, informar al grupo periódicamente sobre su estado y registrar cada uso. El criterio de indicación es médico"
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "el bote puede utilizarse para explorar la costa cercana de la isla en busca de recursos adicionales, previa votación por mayoría simple. Para cualquier uso del bote se requiere evaluación técnica del responsable de navegación sobre condiciones de seguridad"
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "mixto",
+      "evidencia": "el grupo delibera y decide por mayoría absoluta un plan de racionamiento proporcional a las necesidades de cada participante [...] El grupo tiene la obligación colectiva de explorar activamente alternativas médicas naturales disponibles en la isla. [...] una propuesta de plan de contingencia a largo plazo —producción de alimentos, minería, construcción de refugio permanente—"
+    },
+    "eje_colectivo_individual": {
+      "valor": "mas_colectivo_que_individual",
+      "evidencia": "El régimen económico de la isla es de administración colectiva de recursos. Todos los bienes rescatados del naufragio —medicamentos, herramientas, ropa, alimentos— son propiedad común del grupo y se administran colectivamente según las reglas de votación aprobadas."
+    },
+    "proteccion_ambiental": {
+      "valor": "reglas_concretas",
+      "evidencia": "Su uso se rige por el principio de sostenibilidad: no se extrae más de lo que el sistema puede regenerar en el mismo período. Antes de cada decisión por mayoría absoluta sobre extracción de recursos naturales, el participante con mayor conocimiento del ecosistema de la isla tiene la obligación de informar al grupo sobre el estado estimado del recurso y los límites razonables de extracción"
+    }
+  },
+  "problemas": []
+}

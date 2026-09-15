@@ -1,0 +1,63 @@
+{
+  "corrida": "v2_opus_mono_horizonte_20260914-215800_1",
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "mixto",
+      "evidencia": "Queda designado Coordinador General, desde la aprobación de este punto y por treinta días... Toda instrucción suya queda suspendida si dos participantes lo piden, y pasa a la mesa en la convocatoria siguiente"
+    },
+    "regla_de_decision": {
+      "valor": "unanimidad",
+      "evidencia": "Regla de decisión vigente: unanimidad."
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "propiedad personal sobre el fruto del propio trabajo y prohibición de expropiarla por votación"
+    },
+    "sistema_economico": {
+      "valor": "mixto",
+      "evidencia": "queda liberado de tareas y de reparto comunes"
+    },
+    "resolucion_de_disputas": {
+      "valor": "arbitro_o_juez",
+      "evidencia": "toda imputación va al Panel del punto 16, que también lo juzga a él"
+    },
+    "castigo": {
+      "valor": "otro",
+      "evidencia": "cese o vacancia automática del cargo: \"cuyo incumplimiento hace cesar el cargo de pleno derecho\"; \"bajo pena de vacancia automática\""
+    },
+    "salida": {
+      "valor": "libre",
+      "evidencia": "Quien declare ante la mesa que se aparta de la vida común conforme al punto 19.a y 21 queda liberado de tareas y de reparto comunes"
+    },
+    "principio_distributivo": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "medicamentos": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "bote": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "mixto",
+      "evidencia": "tareas y de reparto comunes; inicio de huerta, secado y salado"
+    },
+    "eje_colectivo_individual": {
+      "valor": "equilibrado",
+      "evidencia": "propiedad personal sobre el fruto del propio trabajo; Quien declare ante la mesa que se aparta de la vida común... queda liberado de tareas y de reparto comunes"
+    },
+    "proteccion_ambiental": {
+      "valor": "reglas_concretas",
+      "evidencia": "inventario natural comparado (punto 25.h). La gestión se juzga a la vez por agua segura, reserva de alimento y refugio, y por la no disminución de los stocks naturales más allá de los umbrales"
+    }
+  },
+  "problemas": []
+}

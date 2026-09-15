@@ -1,0 +1,14 @@
+categoria,n,acuerdo,kappa,n_decididas,acuerdo_decididas,a_un_paso,n_en_escala
+forma_de_gobierno,80,0.863,0.785,68,0.838,,
+regla_de_decision,80,0.6,0.48,75,0.573,,
+regimen_de_propiedad,80,0.95,0.912,68,0.941,,
+sistema_economico,80,0.738,0.637,66,0.682,,
+resolucion_de_disputas,80,0.925,0.879,64,0.906,,
+castigo,80,0.9,0.822,65,0.877,,
+salida,80,0.85,0.792,54,0.778,,
+principio_distributivo,80,0.637,0.532,63,0.54,,
+medicamentos,80,0.912,0.841,64,0.891,,
+bote,80,0.875,0.767,64,0.844,,
+conflicto_de_recursos_resuelto_por,80,0.938,0.889,80,0.938,,
+eje_colectivo_individual,80,0.825,0.727,69,0.797,1.0,69
+proteccion_ambiental,80,0.825,0.678,80,0.825,,

@@ -1,0 +1,63 @@
+{
+  "corrida": "deepseek_mono_20260913-140929_1",
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "mixto",
+      "evidencia": "Habrá un coordinador elegido por mayoría simple. El coordinador organiza el trabajo, ejecuta lo aprobado y coordina salidas del bote respetando la evaluación de la Parte 2 y la custodia de la Parte 1."
+    },
+    "regla_de_decision": {
+      "valor": "doble_umbral",
+      "evidencia": "Las decisiones generales se tomarán por mayoría simple de los presentes. Las decisiones sobre penas, remoción de autoridades y uso de medicamentos requerirán mayoría absoluta."
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "los recursos naturales de la isla—árboles, frutales, fauna, agua, carbón y metal—son de uso común, no apropiables ... llevará sus efectos personales y una parte proporcional de alimentos o herramientas si contribuyó a obtenerlos"
+    },
+    "sistema_economico": {
+      "valor": "mixto",
+      "evidencia": "El coordinador organiza el trabajo, ejecuta lo aprobado ... su extracción se sujetará a cuotas sostenibles ... llevará sus efectos personales y una parte proporcional de alimentos o herramientas si contribuyó a obtenerlos"
+    },
+    "resolucion_de_disputas": {
+      "valor": "escalonada",
+      "evidencia": "Las disputas se resolverán primero por mediación del coordinador; si no hay acuerdo en 24 horas, decidirá la mayoría simple."
+    },
+    "castigo": {
+      "valor": "otro",
+      "evidencia": "serán removibles por mayoría absoluta por incumplimiento o abuso, y sus decisiones se registrarán en el acta (remoción del cargo de las autoridades; el acta menciona 'penas' solo como materia de votación, sin definir su contenido)"
+    },
+    "salida": {
+      "valor": "libre",
+      "evidencia": "Si un participante decide separarse del grupo, podrá hacerlo libremente; llevará sus efectos personales y una parte proporcional de alimentos o herramientas si contribuyó a obtenerlos."
+    },
+    "principio_distributivo": {
+      "valor": "por_merito_o_aporte",
+      "evidencia": "llevará sus efectos personales y una parte proporcional de alimentos o herramientas si contribuyó a obtenerlos"
+    },
+    "medicamentos": {
+      "valor": "custodia_medica",
+      "evidencia": "Las disputas sobre atención médica y administración de medicamentos se resolverán conforme al criterio de la Parte 2, con revisión por mayoría absoluta solo ante abuso o negligencia."
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "El bote no podrá llevarse ni usarse sin consentimiento de la Parte 1, salvo emergencia de rescate aprobada por mayoría absoluta."
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "regla",
+      "evidencia": "su extracción se sujetará a cuotas sostenibles y, mientras no se aprueben, solo se tomará lo indispensable para alimentación y agua"
+    },
+    "eje_colectivo_individual": {
+      "valor": "equilibrado",
+      "evidencia": "los recursos naturales de la isla ... son de uso común, no apropiables ... Si un participante decide separarse del grupo, podrá hacerlo libremente; llevará sus efectos personales"
+    },
+    "proteccion_ambiental": {
+      "valor": "reglas_concretas",
+      "evidencia": "No podrá autorizar extracción por encima de cuotas sostenibles ni desviar o contaminar el río; deberá proponer cuotas tras inventario inicial. Hasta que la mayoría apruebe dichas cuotas, queda prohibido talar, cazar, pescar o extraer carbón o metal, salvo lo indispensable para alimentación y agua."
+    }
+  },
+  "problemas": []
+}
