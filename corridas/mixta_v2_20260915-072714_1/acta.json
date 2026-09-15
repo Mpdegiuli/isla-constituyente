@@ -1,0 +1,39 @@
+[
+  {
+    "puntos": [
+      "regla_de_decision",
+      "voto"
+    ],
+    "texto": "Las decisiones sobre los puntos pendientes se tomarán por mayoría absoluta de los participantes que sigan integrando la comunidad. El voto será público y obligatorio, salvo incapacidad médica o situación de peligro inmediato. Quien se niegue a votar quedará registrado como abstención y no contará ni a favor ni en contra. Quien se retire de la deliberación no bloquea las decisiones posteriores, pero deberá respetarlas si utiliza recursos, refugios, herramientas, medicamentos o protección común.",
+    "autor": 2,
+    "ronda": 1,
+    "votos": {
+      "si": 6,
+      "no": 1,
+      "abstencion": 0
+    },
+    "regla": "mayoria_simple"
+  },
+  {
+    "puntos": [
+      "regimen",
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "disputas",
+      "derechos_y_obligaciones",
+      "penas",
+      "prevision_y_seguridad"
+    ],
+    "texto": "La comunidad adopta el régimen denominado Pacto Vital Insular: democracia asamblearia de supervivencia con prioridad sanitaria, uso sostenible y uso regulado del bote. La soberanía reside en la Asamblea, que decide por mayoría absoluta. El gobierno se ejerce mediante la Asamblea, un Consejo Operativo (Coordinación, Salud y Seguridad, Producción) elegido por un mes y un Custodio de Recursos. El Custodio tendrá veto suspensivo sobre toda extracción no sostenible; el veto solo se levantará si la Asamblea aprueba un plan con cupos, reposición y monitoreo. En emergencia vital inmediata no hay veto, pero se informará después y se reparará el daño evitable.\n\nRoles del primer mes: Parte 3, Coordinación; Parte 2, Salud y botiquín; Parte 4, Custodio de Recursos; Parte 1, operación exclusiva del bote por ser el único con conocimiento náutico. El bote es bien común en cuanto a sus frutos: todo lo que produzca (pesca, recursos traídos) se entrega al fondo común. Sin embargo, la decisión de cuándo y cómo zarpar corresponde exclusivamente a la Parte 1, quien evaluará las condiciones de seguridad náutica y rendirá cuentas al Consejo. Nadie podrá obligar a la Parte 1 a zarpar en condiciones que juzgue peligrosas, ni operar el bote sin su consentimiento. El Consejo podrá solicitar salidas y la Parte 1 deberá justificar ante la Asamblea si se niega reiteradamente sin razón de seguridad. La Parte 7, por problemas de salud, hace tareas acordes a su capacidad y no embarca. Producción queda vacante hasta próxima elección.\n\nEconomía: trabajo según capacidad y racionamiento proporcional. Bote, herramientas, medicamentos y recursos naturales son bienes comunes de uso regulado. Propiedad personal limitada a ropa y objetos de uso individual.\n\nSalud: inventario público, dosis mínima eficaz y prioridad clínica por riesgo vital, deterioro irreversible, contagio, recuperación funcional y continuidad de tratamiento de quienes ya están enfermos y dependen de los medicamentos rescatados. Ninguna persona tiene prioridad automática.\n\nDerechos: ración básica, agua, atención médica urgente, protección, voto y trabajo acorde a la salud. Obligaciones: cooperar, cuidar recursos y acatar Asamblea y Consejo.\n\nDisputas: mediación del Consejo y, si no hay acuerdo, votación de la Asamblea.\n\nPenas: incumplimiento reiterado, limitación de voto, bienes no esenciales o tareas reparadoras. Nunca se quitará agua, comida básica ni atención médica urgente. Robo, sabotaje o daño grave a recursos vitales: expulsión con mínimo vital.\n\nPrevisión y seguridad: medicamentos y reservas dosificados al máximo. Al agotarse, se intensificará pesca, recolección sostenible y búsqueda de alternativas locales, con cupos. Se establecen vigilancia rotativa, refugio común e inventario de recursos con informe semanal del Consejo y balance mensual del Custodio. Principio precautorio: ante duda sobre sostenibilidad, se prefiere la restricción. Quien se retire respeta los bienes comunes si los usa.",
+    "autor": 1,
+    "ronda": 3,
+    "votos": {
+      "si": 6,
+      "no": 1,
+      "abstencion": 0
+    },
+    "regla": "mayoria_absoluta"
+  }
+]
