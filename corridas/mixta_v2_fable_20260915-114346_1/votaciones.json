@@ -1,0 +1,36 @@
+[
+  {
+    "ronda": 3,
+    "autor": 1,
+    "puntos": [
+      "regimen",
+      "regla_de_decision",
+      "voto",
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "disputas",
+      "derechos_y_obligaciones",
+      "penas",
+      "prevision_y_seguridad"
+    ],
+    "texto": "1. RÉGIMEN. Comunidad de supervivencia “Isla Franca”: asamblea soberana, economía comunitaria y protocolos de emergencia para salud y rescate.\n2. REGLA DE DECISIÓN. Ordinarias: mayoría simple de presentes. Salud, medicamentos y extracción: mayoría simple, de aplicación inmediata. Uso del bote fuera de la costa y reforma del acta: cinco votos. En urgencia sanitaria, Parte 2 aplica triaje sin esperar asamblea.\n3. VOTO. Público. Obligatorio para presentes en salud, medicamentos y bote; voluntario en lo demás. La ausencia no bloquea.\n4. GOBIERNO. Asamblea soberana. Parte 3 coordina logística y turnos voluntarios, sin sancionar ni disponer de botiquín, bote ni cupos. Revocable por mayoría simple. Sin autoridad personal absoluta.\n5. ROLES. Parte 1: custodia, mantiene y opera el bote; evalúa mar y clima y su evaluación de seguridad es vinculante; enseña remo en tierra y aguas calmas a dos voluntarios. Parte 2: botiquín, inventario público y triaje (urgencia, gravedad, beneficio esperado, dosis mínima). Parte 3: logística. Parte 4: terreno, riesgos y capacidad de carga. Parte 7: enferma; exenta de trabajo pesado y del mar. El resto, según capacidad. Roles revocables por mayoría simple, salvo custodia del bote, que requiere cinco votos.\n6. ECONOMÍA. Subsistencia comunitaria. Ración según necesidad y capacidad. Trueque voluntario. Sin moneda. Extracción con cupos sostenibles informados por Parte 4.\n7. PROPIEDAD. Recursos, herramientas, ropa, medicamentos, reservas y bote son comunes. Efectos íntimos, personales. Nadie toma botiquín ni bote sin autorización. Río protegido: no contaminar.\n8. DISPUTAS. Mediación de dos; si no hay acuerdo, Asamblea por mayoría simple.\n9. DERECHOS Y OBLIGACIONES. Agua segura, alimento básico, refugio, atención sanitaria según triaje, voz y voto. No sabotear, no robar, devolver herramientas, aportar según capacidad. Sin trabajo forzado ni embarque forzado.\n10. PENAS. Amonestación, reparación del daño o exclusión temporal de bienes no esenciales, por mayoría simple. Prohibidos confinamiento, penas físicas y trabajo forzado como pena. Tomar bote o botiquín sin autorización, dañarlos o negar atención urgente es falta grave: exclusión de bienes no esenciales, reparación y, si el culpable tiene custodia, suspensión de ese rol.\n11. PREVISIÓN Y SEGURIDAD. Medicamentos: triaje de Parte 2; quien ya está enfermo recibe tratamiento de inmediato, con registro; el resto solo si hay excedente. Bote: Parte 1 evalúa condiciones en 48 horas e informa; la primera salida será un reconocimiento costero de medio día bordeando la isla sin perder la costa de vista, con agua, señales y hora de regreso fijada. Salidas a mar abierto solo con cinco votos, clima estable y plan de retorno. Parte 1 puede suspender cualquier salida por seguridad. Nadie que tema al agua embarca. Al agotarse reservas: higiene, agua hervida o filtrada, plantas validadas por Partes 2 y 4, racionamiento. Vigilancia por parejas, refugio, almacén elevado, cortafuegos y señales permanentes en la costa.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "no",
+      "5": "si",
+      "6": "no",
+      "7": "no"
+    },
+    "conteo": {
+      "si": 4,
+      "no": 3,
+      "abstencion": 0
+    },
+    "aprobada": true
+  }
+]

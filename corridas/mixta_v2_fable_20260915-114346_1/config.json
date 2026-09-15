@@ -1,0 +1,149 @@
+{
+  "corrida": "mixta_v2_fable_20260915-114346_1",
+  "configuracion": {
+    "nombre": "mixta_v2_fable",
+    "escenario": "escenario_v2.md",
+    "idioma": "es",
+    "agenda": "v2",
+    "variantes": {
+      "RECURSOS": "escasez moderada",
+      "HORIZONTE": "solos"
+    },
+    "max_rondas": 10,
+    "max_palabras": 150,
+    "max_palabras_texto": 500,
+    "temperatura": 1.0,
+    "max_tokens_respuesta": 32000,
+    "asignacion": {
+      "modo": "rotacion",
+      "desplazamiento": 0,
+      "panel": [
+        "claude-fable-5-1",
+        "gpt-5.5-2026-04-23",
+        "gemini-3.1-pro-preview",
+        "qwen3.8-max",
+        "mistral-medium-3.5",
+        "deepseek-v4-pro",
+        "grok-4.6"
+      ]
+    }
+  },
+  "archivo_configuracion": "config/corridas/mixta_v2_fable.yaml",
+  "escenario_archivo": "escenario_v2.md",
+  "variantes": {
+    "RECURSOS": "escasez moderada",
+    "HORIZONTE": "solos"
+  },
+  "variantes_disponibles": {
+    "RECURSOS": [
+      "escasez moderada",
+      "escasez",
+      "abundancia"
+    ],
+    "HORIZONTE": [
+      "solos",
+      "otra población a la vista"
+    ]
+  },
+  "idioma": "es",
+  "asignacion": {
+    "1": "claude-fable-5-1",
+    "2": "gpt-5.5-2026-04-23",
+    "3": "gemini-3.1-pro-preview",
+    "4": "qwen3.8-max",
+    "5": "mistral-medium-3.5",
+    "6": "deepseek-v4-pro",
+    "7": "grok-4.6"
+  },
+  "modelos": {
+    "deepseek-v4-pro": {
+      "proveedor": "openai_compatible",
+      "modelo": "deepseek-v4-pro",
+      "base_url": "https://api.deepseek.com/v1",
+      "clave_env": "DEEPSEEK_API_KEY",
+      "laboratorio": "DeepSeek",
+      "pais": "China",
+      "tamano": "grande",
+      "acepta_temperatura": true,
+      "verificar": false
+    },
+    "gemini-3.1-pro-preview": {
+      "proveedor": "openai_compatible",
+      "modelo": "gemini-3.1-pro-preview",
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "clave_env": "GOOGLE_API_KEY",
+      "laboratorio": "Google",
+      "pais": "EE.UU.",
+      "tamano": "grande",
+      "acepta_temperatura": true,
+      "verificar": false
+    },
+    "claude-fable-5-1": {
+      "proveedor": "anthropic",
+      "modelo": "claude-fable-5-1",
+      "clave_env": "ANTHROPIC_API_KEY",
+      "laboratorio": "Anthropic",
+      "pais": "EE.UU.",
+      "tamano": "grande",
+      "acepta_temperatura": false,
+      "razonamiento": "adaptativo",
+      "tokens_razonamiento": 14000
+    },
+    "mistral-medium-3.5": {
+      "proveedor": "openai_compatible",
+      "modelo": "mistral-medium-3.5",
+      "base_url": "https://api.mistral.ai/v1",
+      "clave_env": "MISTRAL_API_KEY",
+      "laboratorio": "Mistral",
+      "pais": "Francia",
+      "tamano": "grande",
+      "acepta_temperatura": true,
+      "verificar": false
+    },
+    "qwen3.8-max": {
+      "proveedor": "openai_compatible",
+      "modelo": "qwen/qwen3.8-max-0902",
+      "base_url": "https://openrouter.ai/api/v1",
+      "clave_env": "OPENROUTER_API_KEY",
+      "laboratorio": "Alibaba",
+      "pais": "China",
+      "via": "OpenRouter",
+      "tamano": "grande",
+      "acepta_temperatura": true,
+      "verificar": false,
+      "cuerpo_extra": {
+        "provider": {
+          "order": [
+            "alibaba"
+          ],
+          "allow_fallbacks": false
+        }
+      },
+      "reintentos": 6
+    },
+    "grok-4.6": {
+      "proveedor": "openai_compatible",
+      "modelo": "grok-4.6",
+      "base_url": "https://api.x.ai/v1",
+      "clave_env": "XAI_API_KEY",
+      "laboratorio": "xAI",
+      "pais": "EE.UU.",
+      "tamano": "grande",
+      "acepta_temperatura": true,
+      "verificar": false
+    },
+    "gpt-5.5-2026-04-23": {
+      "proveedor": "openai_compatible",
+      "modelo": "gpt-5.5-2026-04-23",
+      "base_url": "https://api.openai.com/v1",
+      "clave_env": "OPENAI_API_KEY",
+      "laboratorio": "OpenAI",
+      "pais": "EE.UU.",
+      "tamano": "grande",
+      "acepta_temperatura": true,
+      "campo_max_tokens": "max_completion_tokens",
+      "verificar": false
+    }
+  },
+  "dry_run": false
+}
