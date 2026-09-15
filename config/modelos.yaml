@@ -62,7 +62,7 @@ modelos:
     acepta_temperatura: true
     tope_salida: 4096
     verificar: false             # catálogo 15/9/2026: creado 2024-03-13; 0.25 / 1.25 USD por millón
-    cuerpo_extra: {provider: {order: [anthropic], allow_fallbacks: false}}
+    cuerpo_extra: {provider: {order: [anthropic], allow_fallbacks: true}}  # 15/9: con allow_fallbacks false OpenRouter devolvio 404 No endpoints found (el unico endpoint no es de Anthropic)
     reintentos: 6
 
   gpt-4-turbo-2024-04-09:
@@ -79,14 +79,17 @@ modelos:
 
   gemini-2.5-pro:
     proveedor: openai_compatible
-    modelo: gemini-2.5-pro
-    base_url: https://generativelanguage.googleapis.com/v1beta/openai/
-    clave_env: GOOGLE_API_KEY
+    modelo: google/gemini-2.5-pro
+    base_url: https://openrouter.ai/api/v1
+    clave_env: OPENROUTER_API_KEY
     laboratorio: Google
     pais: EE.UU.
+    via: OpenRouter
     tamano: grande
     acepta_temperatura: true
-    verificar: false             # catálogo 15/9/2026: "Stable release (June 17th, 2025)"; razona dentro del techo
+    verificar: false             # catálogo 15/9/2026: "Stable release (June 17th, 2025)"; razona dentro del techo. La API directa de Google lo lista pero responde 404 "no longer available to new users" (probado 15/9); vía OpenRouter lo sirve Google
+    cuerpo_extra: {provider: {order: [google-vertex, google-ai-studio], allow_fallbacks: true}}
+    reintentos: 6
 
   qwen-2.5-72b-instruct:
     proveedor: openai_compatible
