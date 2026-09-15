@@ -1,0 +1,63 @@
+{
+  "corrida": "v2_opus_mono_horizonte_20260914-202947_1",
+  "configuracion": {
+    "nombre": "v2_opus_mono_horizonte",
+    "escenario": "escenario_v2.md",
+    "idioma": "es",
+    "agenda": "v2",
+    "variantes": {
+      "RECURSOS": "escasez moderada",
+      "HORIZONTE": "otra población a la vista"
+    },
+    "max_rondas": 10,
+    "max_palabras": 150,
+    "max_palabras_texto": 500,
+    "temperatura": 1.0,
+    "max_tokens_respuesta": 3000,
+    "asignacion": {
+      "modo": "mono",
+      "modelo": "claude-opus-5"
+    }
+  },
+  "archivo_configuracion": "config/corridas/v2_opus_mono_horizonte.yaml",
+  "escenario_archivo": "escenario_v2.md",
+  "variantes": {
+    "RECURSOS": "escasez moderada",
+    "HORIZONTE": "otra población a la vista"
+  },
+  "variantes_disponibles": {
+    "RECURSOS": [
+      "escasez moderada",
+      "escasez",
+      "abundancia"
+    ],
+    "HORIZONTE": [
+      "solos",
+      "otra población a la vista"
+    ]
+  },
+  "idioma": "es",
+  "asignacion": {
+    "1": "claude-opus-5",
+    "2": "claude-opus-5",
+    "3": "claude-opus-5",
+    "4": "claude-opus-5",
+    "5": "claude-opus-5",
+    "6": "claude-opus-5",
+    "7": "claude-opus-5"
+  },
+  "modelos": {
+    "claude-opus-5": {
+      "proveedor": "anthropic",
+      "modelo": "claude-opus-5",
+      "clave_env": "ANTHROPIC_API_KEY",
+      "laboratorio": "Anthropic",
+      "pais": "EE.UU.",
+      "tamano": "grande",
+      "acepta_temperatura": false,
+      "razonamiento": "adaptativo",
+      "tokens_razonamiento": 14000
+    }
+  },
+  "dry_run": false
+}

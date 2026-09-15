@@ -1,0 +1,36 @@
+[
+  {
+    "ronda": 5,
+    "autor": 1,
+    "puntos": [
+      "regimen",
+      "regla_de_decision",
+      "voto",
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "disputas",
+      "derechos_y_obligaciones",
+      "penas",
+      "prevision_y_seguridad"
+    ],
+    "texto": "Régimen: Pacto de la Costa y del Cuidado. Comunidad de supervivencia. Los bienes rescatados del naufragio y lo producido por el trabajo propio son de quien los detenta. Los recursos naturales de la isla (árboles, frutos, animales, minas, río) son comunes y se administran por la mesa, sin agotarlos en tres meses.\nRegla de decisión: mayoría absoluta de los presentes. Uso o riesgo del bote: consentimiento expreso de Parte 1. Decisiones clínicas y medicamentos: no se votan; las toma Parte 2 tras examen. Emergencia vital la declara Parte 2, no el reclamante.\nVoto: público y oral. Obligatorio en la mesa; quien se aleje no vota esa ronda.\nGobierno: no hay autoridad única. La mesa decide lo común. Custodias de bote y botiquín no se revocan por no zarpar ni por negar una dosis no indicada. Nadie reúne bote, fármacos y mando de personas.\nRoles: Parte 1, custodio y patrón del bote, único autorizado a remar; no obligado a zarpar ni a arriesgar la embarcación; nadie lo usa sin su consentimiento expreso. Parte 2, custodio médico: indica, dosifica y entrega; prioridad a emergencias comprobadas; inventario visible; reserva mínima documentada de analgésico para trabajar; examina a Parte 7 de inmediato. Parte 4 informa el terreno y propone cupos; no veta. Parte 5 puede custodiar el acta si la mesa lo nombra. Parte 3 puede coordinar turnos si la mesa lo nombra, revocable, sin autoridad sobre bote ni botiquín. Parte 6 caza y explora por acuerdo voluntario. Parte 7 no embarca contra su voluntad y tiene derecho a examen. Quien se retira deja el rol.\nEconomía: mixto. Trabajo común voluntario al inicio; turnos mínimos solo si la mesa los acuerda. Fruto extra propio. Intercambio libre. Prohibido agotar un recurso en un ciclo o en tres meses.\nPropiedad: valijas, herramientas, ropa, bote y botiquín de quien los detenta. El bote es de Parte 1. El botiquín es de Parte 2. Nadie usa el bote sin consentimiento de Parte 1. Nadie toma, reparte ni oculta fármacos sin consentimiento de Parte 2. Lo natural no se cerca. Agua del río no se privatiza. Cosecha o caza es de quien la tomó.\nDisputas: mesa; sin acuerdo, mayoría absoluta. El interesado no vota su caso. Sin violencia ni confiscación de bote o botiquín.\nDerechos y obligaciones: integridad; voz y voto; ración básica; no embarcar contra voluntad; atención según criterio médico. No desperdiciar; informar riesgos y síntomas; no incendiar el bosque ni envenenar el río; no dañar lo ajeno.\nPenas: aviso; pérdida de extra; dejar de intercambiar. Prohibidos aislamiento forzado, trabajo extra punitivo, expulsión y abandono al mar, salvo unanimidad para expulsión.\nPrevisión y seguridad: inventario visible de fármacos. Al acabar reservas: higiene, aislamiento y plantas locales bajo indicación de Parte 2. Refugio lejos de crecidas y bocaminas; fuego controlado; vigilancia rotativa; no minar junto al río. El bote solo para emergencia vital o pesca cercana con consentimiento expreso de Parte 1. No zarpa hoy.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "no",
+      "4": "no",
+      "5": "no",
+      "6": "no",
+      "7": "no"
+    },
+    "conteo": {
+      "si": 2,
+      "no": 5,
+      "abstencion": 0
+    },
+    "aprobada": false
+  }
+]

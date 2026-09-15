@@ -1,0 +1,67 @@
+{
+  "corrida": "v2_fable_mono_horizonte_20260914-203051_1",
+  "inicio_utc": "2026-09-14T20:30:51+00:00",
+  "fin_utc": "2026-09-14T20:31:22+00:00",
+  "fin": "error",
+  "rondas": 1,
+  "max_rondas": 10,
+  "puntos_cubiertos": [],
+  "puntos_pendientes": [
+    "regimen",
+    "regla_de_decision",
+    "voto",
+    "gobierno",
+    "roles",
+    "economia",
+    "propiedad",
+    "disputas",
+    "derechos_y_obligaciones",
+    "penas",
+    "prevision_y_seguridad",
+    "otra_orilla"
+  ],
+  "regla_final": "mayoria_simple",
+  "voto_secreto": false,
+  "activos_al_final": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "retirados": {},
+  "n_votaciones": 0,
+  "n_aprobadas": 0,
+  "palabras_por_parte": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0,
+    "7": 0
+  },
+  "turnos_truncados": 0,
+  "propuestas_truncadas": 0,
+  "agenda": "v2",
+  "max_palabras_texto": 500,
+  "llamadas": 1,
+  "asignacion": {
+    "1": "claude-fable-5-1",
+    "2": "claude-fable-5-1",
+    "3": "claude-fable-5-1",
+    "4": "claude-fable-5-1",
+    "5": "claude-fable-5-1",
+    "6": "claude-fable-5-1",
+    "7": "claude-fable-5-1"
+  },
+  "modelos": {
+    "claude-fable-5-1": {
+      "modelo": "claude-fable-5-1",
+      "proveedor": "anthropic"
+    }
+  },
+  "advertencias": []
+}

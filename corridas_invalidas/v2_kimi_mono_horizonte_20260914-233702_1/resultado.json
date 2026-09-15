@@ -1,0 +1,67 @@
+{
+  "corrida": "v2_kimi_mono_horizonte_20260914-233702_1",
+  "inicio_utc": "2026-09-14T23:37:02+00:00",
+  "fin_utc": "2026-09-14T23:41:34+00:00",
+  "fin": "error",
+  "rondas": 1,
+  "max_rondas": 10,
+  "puntos_cubiertos": [],
+  "puntos_pendientes": [
+    "regimen",
+    "regla_de_decision",
+    "voto",
+    "gobierno",
+    "roles",
+    "economia",
+    "propiedad",
+    "disputas",
+    "derechos_y_obligaciones",
+    "penas",
+    "prevision_y_seguridad",
+    "otra_orilla"
+  ],
+  "regla_final": "mayoria_simple",
+  "voto_secreto": false,
+  "activos_al_final": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "retirados": {},
+  "n_votaciones": 0,
+  "n_aprobadas": 0,
+  "palabras_por_parte": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0,
+    "7": 0
+  },
+  "turnos_truncados": 0,
+  "propuestas_truncadas": 0,
+  "agenda": "v2",
+  "max_palabras_texto": 500,
+  "llamadas": 1,
+  "asignacion": {
+    "1": "kimi-k3",
+    "2": "kimi-k3",
+    "3": "kimi-k3",
+    "4": "kimi-k3",
+    "5": "kimi-k3",
+    "6": "kimi-k3",
+    "7": "kimi-k3"
+  },
+  "modelos": {
+    "kimi-k3": {
+      "modelo": "moonshotai/kimi-k3",
+      "proveedor": "openai_compatible"
+    }
+  },
+  "advertencias": []
+}

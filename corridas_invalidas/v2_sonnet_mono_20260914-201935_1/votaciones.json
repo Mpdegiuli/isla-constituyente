@@ -1,0 +1,126 @@
+[
+  {
+    "ronda": 2,
+    "autor": 7,
+    "puntos": [
+      "voto"
+    ],
+    "texto": "Las decisiones ordinarias se toman por mayoría simple (más votos a favor que en contra, entre quienes votan). Las decisiones que afecten recursos únicos e irremplazables —incluyendo el bote, los medicamentos, las minas, los árboles, la fauna y el río— requieren mayoría absoluta (más de la mitad de todos los participantes activos). El voto es público y voluntario en decisiones ordinarias. Quien no vota en decisiones ordinarias no se contabiliza. En decisiones sobre recursos críticos, la abstención o ausencia injustificada cuenta como voto negativo, para garantizar que dichas decisiones tengan peso real. La ausencia justificada en decisiones sobre recursos críticos exime de esta regla. En toda decisión que involucre medicamentos, la persona con formación médica debe emitir primero una opinión técnica registrada en el acta antes de proceder a la votación. En toda decisión que involucre recursos naturales de la isla —árboles, fauna, río, minas—, quien tenga mayor conocimiento del terreno y la biología debe emitir igualmente una opinión técnica registrada antes del voto. Ninguna de estas opiniones otorga poder de veto, pero ambas son requisito previo al voto. En situaciones de emergencia o peligro inmediato, el coordinador operativo designado por el grupo puede tomar decisiones de acción sin votación previa, únicamente cuando el riesgo sea inmediato para la vida o la integridad física de algún participante, debiendo notificar a todos los presentes antes de actuar si el tiempo lo permite. En la siguiente reunión, el coordinador debe rendir cuentas formalmente al grupo. El grupo puede, por mayoría simple, revocar los efectos reversibles de esa decisión o iniciar un proceso de consecuencias si considera que la facultad fue ejercida de forma abusiva o injustificada.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "no",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 6,
+      "no": 1,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 3,
+    "autor": 1,
+    "puntos": [
+      "regimen",
+      "gobierno"
+    ],
+    "texto": "La isla se organiza bajo una República de Coordinación Pragmática. El régimen político es representativo con base asamblearia: las decisiones estratégicas y sobre recursos críticos las toma la asamblea de todos los participantes activos según las reglas de votación ya aprobadas. La ejecución cotidiana y la coordinación operativa recaen en un Coordinador General elegido por la asamblea mediante mayoría absoluta. Cualquier participante activo puede postularse como candidato, incluida la autopostulación; toda candidatura debe ser explícita y quedar registrada en el acta de la sesión en que se proponga. El mandato del Coordinador dura hasta revocación por mayoría absoluta o renuncia voluntaria. El Coordinador debe rendir cuentas en cada reunión formal del grupo. Las facultades del Coordinador se limitan a organizar tareas y personas. El Coordinador puede autorizar uso cotidiano menor de recursos naturales —recolección de fruta, pesca diaria, uso del río para consumo— sin aprobación asamblearia previa. El Coordinador puede también autorizar salidas del bote con propósito definido —búsqueda de recursos, envío de señales de rescate— mediante decisión registrada y notificada al grupo, sin necesidad de asamblea previa. Toda salida del bote requiere el consentimiento explícito y la participación activa del único miembro del grupo con conocimiento de remo; dicho consentimiento debe quedar registrado junto con la decisión del Coordinador. Ninguna otra decisión de extracción significativa o irreversible —tala de árboles, uso de minas, distribución de medicamentos— puede realizarse sin aprobación asamblearia previa, salvo emergencia declarada según las reglas ya aprobadas.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "no",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 6,
+      "no": 1,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 3,
+    "autor": 1,
+    "puntos": [
+      "economia",
+      "propiedad"
+    ],
+    "texto": "La isla opera bajo un régimen de economía de subsistencia colectiva con propiedad mixta.\n\nPropiedad individual: cada participante retiene la propiedad de los objetos personales que trajo del naufragio, incluyendo ropa y efectos personales. Dichos bienes no pueden ser expropiados por el grupo salvo donación voluntaria. Se exceptúan de esta regla los medicamentos y cualquier otro insumo médico o de supervivencia crítica: independientemente de quién los haya traído al naufragio, se consideran bienes colectivos desde el momento en que el grupo se constituye como comunidad.\n\nPropiedad colectiva: los recursos naturales de la isla —árboles, fauna, río y minas— son bienes comunes de la comunidad. Ningún participante puede reclamar propiedad individual sobre ellos. Los recursos rescatados del naufragio de uso compartido —herramientas, medicamentos, bote— son igualmente bienes colectivos bajo administración asignada por la asamblea.\n\nAdministración de bienes colectivos: cada bien colectivo tiene un responsable técnico designado por la asamblea, cuya función es administrarlo, informar sobre su estado y emitir opinión técnica antes de toda decisión de uso significativo. El responsable no es propietario ni tiene poder de veto, pero su opinión es requisito previo según las reglas ya aprobadas. El bote, en particular, tiene como responsable técnico a quien posee conocimiento de remo; dicha responsabilidad implica que su consentimiento explícito es requisito operativo para cualquier uso del bote, conforme a lo establecido en el punto de régimen y gobierno ya aprobado.\n\nProducción y distribución: los frutos del trabajo colectivo —alimentos obtenidos, materiales procesados— se distribuyen equitativamente entre todos los participantes activos, ajustado por necesidades médicas certificadas por quien tiene formación médica. Dicho ajuste es operativo desde el primer día y se aplica sin demora cuando quien tiene formación médica lo certifica. Quien obtiene alimento por esfuerzo propio puede retener una porción razonable para consumo personal inmediato, sin aprobación previa. El excedente sobre esa porción razonable se integra al fondo colectivo. Nadie puede acumular reservas individuales significativas de bienes colectivos sin aprobación asamblearia.\n\nLímites de extracción: el responsable técnico de recursos naturales debe establecer, en la primera semana, un inventario del estado de la isla y proponer cuotas de extracción sostenible para cada recurso. Dicho inventario y las cuotas propuestas se elaborarán en coordinación con quien tenga formación médica, para integrar desde el inicio las necesidades de salud del grupo. Las cuotas deben ser aprobadas por la asamblea mediante mayoría absoluta y revisadas mensualmente o ante cambios significativos en las condiciones del ecosistema. La revisión puede adelantarse en cualquier momento por solicitud fundada de quien tenga formación médica ante necesidades de salud urgentes. Ninguna extracción puede superar la cuota aprobada sin nueva votación por mayoría absoluta.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "no",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 6,
+      "no": 1,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 5,
+    "autor": 5,
+    "puntos": [
+      "derechos_y_obligaciones",
+      "disputas"
+    ],
+    "texto": "Derechos y obligaciones de los participantes:\n\nDerechos: todo participante activo tiene derecho a recibir su parte equitativa de los recursos colectivos, ajustada por necesidades médicas certificadas; a expresar su posición en toda asamblea; a proponer, enmendar y votar conforme a las reglas aprobadas; a recibir protección del grupo frente a riesgos para su vida o integridad física, incluyendo acceso prioritario a atención médica y medicamentos cuando la necesidad esté certificada por quien tiene formación médica; y a retirarse de la comunidad sin sanción, asumiendo que pierde acceso a los bienes colectivos y queda eximido de las obligaciones comunitarias desde el momento de su retiro.\n\nObligaciones: todo participante activo tiene la obligación de contribuir al trabajo colectivo según su capacidad física y conocimientos; de respetar las cuotas de extracción aprobadas y no actuar unilateralmente sobre recursos críticos; de informar al grupo sobre situaciones de riesgo que conozca; de participar en las asambleas convocadas, salvo ausencia justificada; y de respetar el proceso de opinión técnica previa establecido en las reglas de votación aprobadas, absteniéndose de actuar sobre recursos críticos hasta que dicho proceso se haya completado.\n\nCertificación médica: cuando quien tiene formación médica sea el propio beneficiario de la certificación de necesidad, dicha certificación requiere además el aval de un segundo participante designado por la asamblea por mayoría simple. Este mecanismo protege la legitimidad del proceso sin demorar la atención urgente: en caso de emergencia inmediata, la certificación puede aplicarse de forma provisional y el aval obtenerse a posteriori en la siguiente reunión formal.\n\nResolución de disputas: las disputas entre participantes se resuelven mediante el siguiente proceso escalonado: primero, diálogo directo entre las partes implicadas, con un plazo razonable acordado entre ellas, no mayor a dos días; si no hay acuerdo, mediación por un tercer participante elegido de común acuerdo por las partes, con un plazo razonable acordado, no mayor a dos días adicionales; si tampoco hay acuerdo, la disputa se eleva a la asamblea, que decide por mayoría simple salvo que involucre recursos críticos, en cuyo caso rige mayoría absoluta. Ninguna disputa en curso justifica acción unilateral sobre recursos comunes mientras el proceso de resolución está activo. El acta registra toda disputa elevada a la asamblea y su resolución.\n\nCláusula de conflicto de interés: cuando el Coordinador General sea parte en una disputa elevada a la asamblea y admitida como fundada por mayoría simple, queda inhabilitado para ejercer sus funciones ejecutivas en todo lo relativo al asunto disputado mientras el proceso de resolución esté activo. En ese caso, la asamblea designa un coordinador interino por mayoría simple para ese asunto específico, excluyendo expresamente a todas las partes implicadas en la disputa. Una disputa no admitida formalmente no genera inhabilitación.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "no",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 6,
+      "no": 1,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 5,
+    "autor": 2,
+    "puntos": [
+      "penas",
+      "prevision_y_seguridad"
+    ],
+    "texto": "Penas y consecuencias por incumplimiento:\n\nToda violación de las obligaciones aprobadas en el acta sigue el siguiente proceso escalonado:\n\nPrimera infracción: advertencia formal registrada en el acta por el Coordinador General o por cualquier participante que la solicite. La advertencia no requiere votación pero debe quedar registrada y comunicada al grupo en la siguiente reunión.\n\nSegunda infracción del mismo participante: la asamblea puede, por mayoría simple, aplicar una reducción temporal y proporcional de la parte de recursos colectivos que recibe el infractor, por un período no mayor a siete días. Esta medida es revisable antes de vencerse si el infractor cumple con lo acordado.\n\nTercera infracción o infracción grave única —acción unilateral sobre recursos críticos, sustracción de bienes colectivos, obstrucción deliberada del proceso de resolución de disputas—: la asamblea decide consecuencias mayores por mayoría absoluta. Dichas consecuencias pueden incluir exclusión temporal de la toma de decisiones, reducción prolongada de acceso a recursos, o expulsión de la comunidad —con las consecuencias ya establecidas en el punto de derechos y obligaciones para quien se retira. Ninguna consecuencia puede poner en riesgo la vida del infractor de forma directa.\n\nPrevisión y seguridad:\n\nMedicamentos y atención médica: quien tiene formación médica debe presentar, dentro de los primeros tres días desde la constitución del grupo, un inventario de los medicamentos disponibles y una estimación de duración según las necesidades certificadas. A más tardar en la primera semana, el grupo debe acordar por mayoría absoluta un plan de uso racional que maximice la duración de los medicamentos. Cuando los medicamentos estén a menos de un tercio de la provisión original, el grupo convocará una asamblea de emergencia para decidir acciones concretas: uso del bote para búsqueda de recursos o señales, exploración de la isla en busca de plantas medicinales con criterio técnico de quien tiene formación médica, o cualquier otra medida acordada. El uso del bote en este contexto se rige por las reglas ya aprobadas, incluyendo el consentimiento explícito del responsable técnico del bote. Ninguna planta u otro recurso natural puede usarse con fines terapéuticos sin autorización expresa de quien tiene formación médica, independientemente de otras decisiones asamblearias. Esta asamblea no puede postergarse más de veinticuatro horas desde que se detecta el umbral.\n\nSeguridad y peligros del entorno: el responsable técnico de recursos naturales debe incluir en su inventario inicial una evaluación de riesgos del entorno —fauna peligrosa, zonas de riesgo, condiciones climáticas— y proponer medidas básicas de protección. Dichas medidas se aprueban por mayoría simple. El Coordinador General puede implementar medidas de seguridad preventivas de bajo impacto sin votación previa, notificando al grupo.\n\nAgotamiento de reservas rescatadas del naufragio: cuando cualquier reserva rescatada —herramientas, ropa, insumos generales— esté al cincuenta por ciento de su volumen original, el responsable técnico correspondiente debe informarlo a la asamblea y proponer plan de reposición o sustitución. La asamblea decide por mayoría simple las acciones a seguir.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "no",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 6,
+      "no": 1,
+      "abstencion": 0
+    },
+    "aprobada": true
+  }
+]

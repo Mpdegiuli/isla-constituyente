@@ -1,0 +1,67 @@
+{
+  "corrida": "v2_qwen_mono_horizonte_20260914-231626_1",
+  "inicio_utc": "2026-09-14T23:16:26+00:00",
+  "fin_utc": "2026-09-14T23:32:30+00:00",
+  "fin": "error",
+  "rondas": 1,
+  "max_rondas": 10,
+  "puntos_cubiertos": [],
+  "puntos_pendientes": [
+    "regimen",
+    "regla_de_decision",
+    "voto",
+    "gobierno",
+    "roles",
+    "economia",
+    "propiedad",
+    "disputas",
+    "derechos_y_obligaciones",
+    "penas",
+    "prevision_y_seguridad",
+    "otra_orilla"
+  ],
+  "regla_final": "mayoria_simple",
+  "voto_secreto": false,
+  "activos_al_final": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "retirados": {},
+  "n_votaciones": 0,
+  "n_aprobadas": 0,
+  "palabras_por_parte": {
+    "1": 101,
+    "2": 130,
+    "3": 78,
+    "4": 66,
+    "5": 85,
+    "6": 0,
+    "7": 0
+  },
+  "turnos_truncados": 0,
+  "propuestas_truncadas": 0,
+  "agenda": "v2",
+  "max_palabras_texto": 500,
+  "llamadas": 6,
+  "asignacion": {
+    "1": "qwen3.8-max",
+    "2": "qwen3.8-max",
+    "3": "qwen3.8-max",
+    "4": "qwen3.8-max",
+    "5": "qwen3.8-max",
+    "6": "qwen3.8-max",
+    "7": "qwen3.8-max"
+  },
+  "modelos": {
+    "qwen3.8-max": {
+      "modelo": "qwen/qwen3.8-max-0902",
+      "proveedor": "openai_compatible"
+    }
+  },
+  "advertencias": []
+}
