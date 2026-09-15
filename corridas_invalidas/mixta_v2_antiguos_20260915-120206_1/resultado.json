@@ -1,0 +1,90 @@
+{
+  "corrida": "mixta_v2_antiguos_20260915-120206_1",
+  "inicio_utc": "2026-09-15T12:02:06+00:00",
+  "fin_utc": "2026-09-15T12:06:38+00:00",
+  "fin": "error",
+  "rondas": 1,
+  "max_rondas": 10,
+  "puntos_cubiertos": [],
+  "puntos_pendientes": [
+    "regimen",
+    "regla_de_decision",
+    "voto",
+    "gobierno",
+    "roles",
+    "economia",
+    "propiedad",
+    "disputas",
+    "derechos_y_obligaciones",
+    "penas",
+    "prevision_y_seguridad"
+  ],
+  "regla_final": "mayoria_simple",
+  "voto_secreto": false,
+  "activos_al_final": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "retirados": {},
+  "n_votaciones": 0,
+  "n_aprobadas": 0,
+  "palabras_por_parte": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0,
+    "7": 0
+  },
+  "turnos_truncados": 0,
+  "propuestas_truncadas": 0,
+  "agenda": "v2",
+  "max_palabras_texto": 500,
+  "llamadas": 1,
+  "asignacion": {
+    "1": "claude-3-haiku",
+    "2": "gpt-4-turbo-2024-04-09",
+    "3": "gemini-2.5-pro",
+    "4": "qwen-2.5-72b-instruct",
+    "5": "mistral-large-2407",
+    "6": "deepseek-v3",
+    "7": "grok-4.20"
+  },
+  "modelos": {
+    "claude-3-haiku": {
+      "modelo": "anthropic/claude-3-haiku",
+      "proveedor": "openai_compatible"
+    },
+    "gemini-2.5-pro": {
+      "modelo": "gemini-2.5-pro",
+      "proveedor": "openai_compatible"
+    },
+    "deepseek-v3": {
+      "modelo": "deepseek/deepseek-chat",
+      "proveedor": "openai_compatible"
+    },
+    "qwen-2.5-72b-instruct": {
+      "modelo": "qwen/qwen-2.5-72b-instruct",
+      "proveedor": "openai_compatible"
+    },
+    "grok-4.20": {
+      "modelo": "grok-4.20",
+      "proveedor": "openai_compatible"
+    },
+    "gpt-4-turbo-2024-04-09": {
+      "modelo": "gpt-4-turbo-2024-04-09",
+      "proveedor": "openai_compatible"
+    },
+    "mistral-large-2407": {
+      "modelo": "mistralai/mistral-large-2407",
+      "proveedor": "openai_compatible"
+    }
+  },
+  "advertencias": []
+}

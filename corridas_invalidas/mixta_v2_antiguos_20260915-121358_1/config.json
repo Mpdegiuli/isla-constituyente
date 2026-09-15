@@ -1,0 +1,167 @@
+{
+  "corrida": "mixta_v2_antiguos_20260915-121358_1",
+  "configuracion": {
+    "nombre": "mixta_v2_antiguos",
+    "escenario": "escenario_v2.md",
+    "idioma": "es",
+    "agenda": "v2",
+    "variantes": {
+      "RECURSOS": "escasez moderada",
+      "HORIZONTE": "solos"
+    },
+    "max_rondas": 10,
+    "max_palabras": 150,
+    "max_palabras_texto": 500,
+    "temperatura": 1.0,
+    "max_tokens_respuesta": 32000,
+    "asignacion": {
+      "modo": "rotacion",
+      "desplazamiento": 0,
+      "panel": [
+        "claude-3-haiku",
+        "gpt-4-turbo-2024-04-09",
+        "gemini-2.5-pro",
+        "qwen-2.5-72b-instruct",
+        "mistral-large-2407",
+        "deepseek-v3",
+        "grok-4.20"
+      ]
+    }
+  },
+  "archivo_configuracion": "config/corridas/mixta_v2_antiguos.yaml",
+  "escenario_archivo": "escenario_v2.md",
+  "variantes": {
+    "RECURSOS": "escasez moderada",
+    "HORIZONTE": "solos"
+  },
+  "variantes_disponibles": {
+    "RECURSOS": [
+      "escasez moderada",
+      "escasez",
+      "abundancia"
+    ],
+    "HORIZONTE": [
+      "solos",
+      "otra población a la vista"
+    ]
+  },
+  "idioma": "es",
+  "asignacion": {
+    "1": "claude-3-haiku",
+    "2": "gpt-4-turbo-2024-04-09",
+    "3": "gemini-2.5-pro",
+    "4": "qwen-2.5-72b-instruct",
+    "5": "mistral-large-2407",
+    "6": "deepseek-v3",
+    "7": "grok-4.20"
+  },
+  "modelos": {
+    "mistral-large-2407": {
+      "proveedor": "openai_compatible",
+      "modelo": "mistralai/mistral-large-2407",
+      "base_url": "https://openrouter.ai/api/v1",
+      "clave_env": "OPENROUTER_API_KEY",
+      "laboratorio": "Mistral",
+      "pais": "Francia",
+      "via": "OpenRouter",
+      "tamano": "grande",
+      "acepta_temperatura": true,
+      "tope_salida": 4096,
+      "verificar": false,
+      "cuerpo_extra": {
+        "provider": {
+          "order": [
+            "mistral"
+          ],
+          "allow_fallbacks": true
+        }
+      },
+      "reintentos": 6
+    },
+    "gemini-2.5-pro": {
+      "proveedor": "openai_compatible",
+      "modelo": "gemini-2.5-pro",
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "clave_env": "GOOGLE_API_KEY",
+      "laboratorio": "Google",
+      "pais": "EE.UU.",
+      "tamano": "grande",
+      "acepta_temperatura": true,
+      "verificar": true
+    },
+    "deepseek-v3": {
+      "proveedor": "openai_compatible",
+      "modelo": "deepseek/deepseek-chat",
+      "base_url": "https://openrouter.ai/api/v1",
+      "clave_env": "OPENROUTER_API_KEY",
+      "laboratorio": "DeepSeek",
+      "pais": "China",
+      "via": "OpenRouter",
+      "tamano": "grande",
+      "acepta_temperatura": true,
+      "tope_salida": 4096,
+      "verificar": false,
+      "reintentos": 6
+    },
+    "grok-4.20": {
+      "proveedor": "openai_compatible",
+      "modelo": "grok-4.20",
+      "base_url": "https://api.x.ai/v1",
+      "clave_env": "XAI_API_KEY",
+      "laboratorio": "xAI",
+      "pais": "EE.UU.",
+      "tamano": "grande",
+      "acepta_temperatura": true,
+      "verificar": false
+    },
+    "qwen-2.5-72b-instruct": {
+      "proveedor": "openai_compatible",
+      "modelo": "qwen/qwen-2.5-72b-instruct",
+      "base_url": "https://openrouter.ai/api/v1",
+      "clave_env": "OPENROUTER_API_KEY",
+      "laboratorio": "Alibaba",
+      "pais": "China",
+      "via": "OpenRouter",
+      "tamano": "grande",
+      "acepta_temperatura": true,
+      "tope_salida": 4096,
+      "verificar": false,
+      "reintentos": 6
+    },
+    "gpt-4-turbo-2024-04-09": {
+      "proveedor": "openai_compatible",
+      "modelo": "gpt-4-turbo-2024-04-09",
+      "base_url": "https://api.openai.com/v1",
+      "clave_env": "OPENAI_API_KEY",
+      "laboratorio": "OpenAI",
+      "pais": "EE.UU.",
+      "tamano": "grande",
+      "acepta_temperatura": true,
+      "tope_salida": 4096,
+      "verificar": false
+    },
+    "claude-3-haiku": {
+      "proveedor": "openai_compatible",
+      "modelo": "anthropic/claude-3-haiku",
+      "base_url": "https://openrouter.ai/api/v1",
+      "clave_env": "OPENROUTER_API_KEY",
+      "laboratorio": "Anthropic",
+      "pais": "EE.UU.",
+      "via": "OpenRouter",
+      "tamano": "chico",
+      "acepta_temperatura": true,
+      "tope_salida": 4096,
+      "verificar": false,
+      "cuerpo_extra": {
+        "provider": {
+          "order": [
+            "anthropic"
+          ],
+          "allow_fallbacks": true
+        }
+      },
+      "reintentos": 6
+    }
+  },
+  "dry_run": false
+}
