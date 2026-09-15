@@ -22,7 +22,8 @@ El protocolo completo está en [DISENO.md](DISENO.md). Toda sesión de trabajo, 
 DISENO.md                   protocolo del proyecto (memoria: leer primero)
 escenario.md                el estímulo: mundo, tarjetas, reglas; variantes marcadas con etiquetas
 correr.py                   el bucle: rota turnos entre modelos y registra cada llamada
-codificar.py                lee el acta de cada corrida y la vuelca a categorías fijas
+codificar.py                lee el acta de cada corrida y la vuelca a categorías fijas (--etiqueta para un segundo codificador)
+comparar_codificaciones.py  concordancia entre dos codificadores: acuerdo y kappa por categoría, desacuerdos con las dos citas
 isla/escenario.py           arma el texto por bloques y elige una versión por etiqueta
 isla/proveedores.py         adaptadores de API (Anthropic; OpenAI-compatible para el resto) y registro
 isla/bucle.py               rondas, propuestas, votaciones, acta, fin

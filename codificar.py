@@ -5,6 +5,9 @@
   python codificar.py corridas/base_mono_2026*         # algunas
   python codificar.py --codificador claude-opus-5      # otro modelo como codificador
   python codificar.py --rehacer                        # recodifica aunque ya exista codificacion.json
+  python codificar.py --codificador gpt-5.5-2026-04-23 --etiqueta gpt55 --max-tokens 8000
+                                                       # segundo codificador: escribe codificacion_gpt55.json y
+                                                       # resultados/codificacion_gpt55.csv/.md sin pisar lo del primero
 
 Salida:
   corridas/<id>/codificacion.json   valor y evidencia por categoría, con el modelo codificador exacto
@@ -95,16 +98,16 @@ def validar(datos, codebook):
     return limpio, problemas
 
 
-def codificar_corrida(carpeta, codebook, registro, id_modelo):
+def codificar_corrida(carpeta, codebook, registro, id_modelo, archivo="codificacion.json", max_tokens=4000):
     acta = (carpeta / "acta.md").read_text(encoding="utf-8")
     resultado = json.loads((carpeta / "resultado.json").read_text(encoding="utf-8"))
     sistema = "Sos un instrumento de codificación de contenido. Devolvés solo JSON válido."
     r = registro.llamar(id_modelo, sistema, prompt_codificacion(codebook, acta, resultado),
-                        temperatura=0.0, max_tokens=4000, tipo="codificacion", ronda=None, parte=None)
+                        temperatura=0.0, max_tokens=max_tokens, tipo="codificacion", ronda=None, parte=None)
     try:
         datos = extraer_json(r.texto)
     except json.JSONDecodeError as e:
-        raise RuntimeError(f"{carpeta.name}: el codificador no devolvió JSON: {e}\n{r.texto[:500]}")
+        raise RuntimeError(f"{carpeta.name}: el codificador no devolvió JSON ({r.motivo_fin}): {e}\n{r.texto[:500]}")
     limpio, problemas = validar(datos, codebook)
     salida = {
         "corrida": carpeta.name,
@@ -113,7 +116,7 @@ def codificar_corrida(carpeta, codebook, registro, id_modelo):
         "categorias": limpio,
         "problemas": problemas,
     }
-    (carpeta / "codificacion.json").write_text(json.dumps(salida, ensure_ascii=False, indent=2), encoding="utf-8")
+    (carpeta / archivo).write_text(json.dumps(salida, ensure_ascii=False, indent=2), encoding="utf-8")
     return salida
 
 
@@ -156,14 +159,14 @@ def fila(carpeta, codificacion, codebook):
     return f
 
 
-def escribir_tablas(filas, codebook, carpeta_salida):
+def escribir_tablas(filas, codebook, carpeta_salida, sufijo=""):
     columnas = COLUMNAS_PROCESO + list(codebook["categorias"]) + ["indice_colectivo", "codificador"]
     carpeta_salida.mkdir(parents=True, exist_ok=True)
-    with open(carpeta_salida / "codificacion.csv", "w", encoding="utf-8", newline="") as f:
+    with open(carpeta_salida / f"codificacion{sufijo}.csv", "w", encoding="utf-8", newline="") as f:
         w = csv.DictWriter(f, fieldnames=columnas)
         w.writeheader()
         w.writerows(filas)
-    with open(carpeta_salida / "codificacion.md", "w", encoding="utf-8") as f:
+    with open(carpeta_salida / f"codificacion{sufijo}.md", "w", encoding="utf-8") as f:
         f.write("| " + " | ".join(columnas) + " |\n")
         f.write("|" + "---|" * len(columnas) + "\n")
         for r in filas:
@@ -179,7 +182,11 @@ def main():
     ap.add_argument("--rehacer", action="store_true")
     ap.add_argument("--solo-tabla", action="store_true", help="no llama a ningún modelo; arma la tabla con lo ya codificado")
     ap.add_argument("--salida", default="resultados")
+    ap.add_argument("--etiqueta", default="", help="segundo codificador: sufijo de los archivos (codificacion_<etiqueta>.json, .csv, .md, llamadas) para no pisar la primera pasada")
+    ap.add_argument("--max-tokens", type=int, default=4000, help="techo de salida por llamada (los modelos que razonan dentro del techo, como GPT-5.5, necesitan más)")
     args = ap.parse_args()
+    sufijo = f"_{args.etiqueta}" if args.etiqueta else ""
+    archivo = f"codificacion{sufijo}.json"
 
     load_dotenv(RAIZ / ".env")
     codebook = leer_yaml(args.codebook)
@@ -192,23 +199,30 @@ def main():
 
     salida = Path(args.salida)
     salida.mkdir(parents=True, exist_ok=True)
-    registro = Registro(salida / "llamadas_codificacion.jsonl", modelos, "codificacion")
+    registro = Registro(salida / f"llamadas_codificacion{sufijo}.jsonl", modelos, "codificacion")
 
-    filas = []
+    filas, fallidas = [], []
     for c in carpetas:
-        existente = c / "codificacion.json"
+        existente = c / archivo
         if existente.exists() and not args.rehacer:
             cod = json.loads(existente.read_text(encoding="utf-8"))
         elif args.solo_tabla:
             cod = None
         else:
-            print(f"Codificando {c.name} con {args.codificador}...")
-            cod = codificar_corrida(c, codebook, registro, args.codificador)
-            for p in cod["problemas"]:
-                print(f"  aviso: {p}")
+            print(f"Codificando {c.name} con {args.codificador}...", flush=True)
+            try:
+                cod = codificar_corrida(c, codebook, registro, args.codificador, archivo, args.max_tokens)
+            except Exception as e:  # una corrida fallida no tira las demás; se relanza sola con el mismo comando
+                print(f"  FALLÓ {c.name}: {str(e)[:300]}", flush=True)
+                fallidas.append(c.name)
+                cod = None
+            for p in (cod["problemas"] if cod else []):
+                print(f"  aviso: {p}", flush=True)
         filas.append(fila(c, cod, codebook))
-    escribir_tablas(filas, codebook, salida)
-    print(f"{len(filas)} corridas -> {salida / 'codificacion.csv'} y {salida / 'codificacion.md'}")
+    escribir_tablas(filas, codebook, salida, sufijo)
+    print(f"{len(filas)} corridas -> {salida / f'codificacion{sufijo}.csv'} y {salida / f'codificacion{sufijo}.md'}")
+    if fallidas:
+        print(f"{len(fallidas)} fallidas (volver a correr el mismo comando; solo se rehacen las que no tienen {archivo}): {', '.join(fallidas)}")
 
 
 if __name__ == "__main__":
