@@ -1,0 +1,44 @@
+# Mesa mixta a ciegas con las reglas de la versión 2 y "los últimos": la versión
+# más nueva de Anthropic (Fable 5.1) y de OpenAI (GPT-6 Astra, 27/8/2026, que
+# nunca había participado; el asiento de OpenAI corrió siempre con gpt-5.5) más
+# las otras cinco casas del panel mixto (Gemini 3.1, Qwen 3.8 Max, Mistral
+# Medium 3.5, DeepSeek V4, Grok 4.6). Decisión de Maia, 15/9/2026: "última ronda
+# con Astra en una de las partes y Fable, así son los últimos de las dos
+# compañías. Y los otros. Pero que sea por azar el orden, así no es siempre
+# Claude abriendo."
+#
+# Orden de asientos: permutación al azar del roster con semilla declarada
+# (random.Random(20260915).shuffle sobre [claude-fable-5-1, gpt-6-astra,
+# gemini-3.1-pro-preview, qwen3.8-max, mistral-medium-3.5, deepseek-v4-pro,
+# grok-4.6]), como en mixta_ciega.yaml. Resultado del sorteo: 1 remera = Gemini
+# 3.1 (abre; nunca había abierto), 2 médica = Qwen 3.8 Max, 3 gestor = Grok
+# 4.6, 4 ecóloga = GPT-6 Astra, 5 legalista = Fable 5.1, 6 deportista = Mistral
+# Medium 3.5, 7 paciente = DeepSeek V4 (nunca había estado en la paciente).
+# Castellano, reglas v2, variante base, techo 32000: comparable con A, la de
+# Fable y la de los antiguos. Predicción preregistrada en predicciones.md.
+# Al terminar: sondeo_identidad.py sobre las siete partes.
+
+nombre: mixta_v2_ultimos
+
+escenario: escenario_v2.md    # texto fijo y versionado; nunca se traduce al vuelo
+idioma: es                    # config/idiomas/es.yaml
+agenda: v2
+
+variantes:
+  RECURSOS: escasez moderada
+  HORIZONTE: solos
+
+max_rondas: 10
+max_palabras: 150
+max_palabras_texto: 500
+
+temperatura: 1.0              # Fable 5.1 no acepta el parámetro: corre con su muestreo por defecto, y el registro lo anota
+
+# Techo de la casa que más razona (DeepSeek, Qwen). Para Fable el adaptador
+# suma además tokens_razonamiento (14000) y usa streaming por encima de 16000.
+max_tokens_respuesta: 32000
+
+asignacion:
+  modo: rotacion
+  desplazamiento: 0
+  panel: [gemini-3.1-pro-preview, qwen3.8-max, grok-4.6, gpt-6-astra, claude-fable-5-1, mistral-medium-3.5, deepseek-v4-pro]
