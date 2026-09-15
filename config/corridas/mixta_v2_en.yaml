@@ -7,10 +7,10 @@
 #
 # Antecedente que pesa: en la mixta v1 en inglés, Opus abrió en castellano y
 # cinco casas lo siguieron; con GPT abriendo (desplazamiento 1) la mesa quedó
-# en inglés siete de siete. El desplazamiento de esta corrida lo fija Maia
-# antes de correr: 0 = Opus abre (mismos asientos que mixta_v2, riesgo de que
-# la mesa se vuelva castellana); 1 = GPT abre y Opus habla séptimo desde la
-# paciente (mesa en inglés, asientos como en mixta_ciega_en_d1).
+# en inglés siete de siete. Decisión de Maia (15/9, después de ver la mesa en
+# castellano): desplazamiento 1, GPT abre y Opus habla séptimo desde la
+# paciente, como en mixta_ciega_en_d1 (la alternativa era 0: Opus abre, mismos
+# asientos que mixta_v2, con riesgo de que la mesa se vuelva castellana).
 #
 # Traducción: escenario_v2_en.md (párrafos nuevos de la v2 sobre la traducción
 # revisada escenario_en.md) y las claves v2 de config/idiomas/en.yaml,
@@ -44,5 +44,5 @@ max_tokens_respuesta: 32000
 # 5 = DeepSeek, 6 = Grok, 7 = Opus 5.
 asignacion:
   modo: rotacion
-  desplazamiento: 0
+  desplazamiento: 1
   panel: [claude-opus-5, gpt-5.5-2026-04-23, gemini-3.1-pro-preview, qwen3.8-max, mistral-medium-3.5, deepseek-v4-pro, grok-4.6]
