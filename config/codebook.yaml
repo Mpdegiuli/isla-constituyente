@@ -41,6 +41,7 @@ categorias:
       - mayoria_simple
       - mayoria_calificada
       - decision_del_lider
+      - doble_umbral            # mayoría simple para lo ordinario y absoluta o calificada para lo grave (agregado 15/9/2026: sección 8 de resultados/codificacion_20260915.md)
       - otro
       - no_decidido
 
@@ -73,6 +74,7 @@ categorias:
       - lider
       - mediacion
       - votacion
+      - escalonada              # varias instancias en orden: diálogo directo, después mediación, después asamblea o árbitro (agregado 15/9/2026)
       - otro
       - no_decidido
 
@@ -101,11 +103,16 @@ categorias:
   principio_distributivo:
     descripcion: >
       el principio de justicia detrás del reparto, para comparar con Rawls
-      (maximin: mejorar lo más posible la situación de quien peor está) y con
-      Frohlich-Oppenheimer (maximizar el promedio con un piso garantizado)
+      (maximin: mejorar lo más posible la situación de quien peor está), con
+      Frohlich-Oppenheimer (promedio_con_piso: un piso garantizado y, por
+      encima, maximizar el promedio o el excedente) y con la fórmula de Marx
+      (segun_capacidad_y_necesidad: cada quien aporta según su capacidad y
+      recibe según su necesidad, con o sin piso vital explícito; si el acta
+      dice esto, va acá y no en promedio_con_piso, aunque nombre un piso)
     valores:
       - maximin
       - promedio_con_piso
+      - segun_capacidad_y_necesidad   # agregado 15/9/2026: es lo que la mayoría de las actas escribe y ningún valor lo cubría (Opus lo asimilaba a promedio_con_piso, GPT-5.5 a otro)
       - igualitario_estricto
       - por_merito_o_aporte
       - maximizar_promedio
@@ -113,7 +120,13 @@ categorias:
       - no_decidido
 
   medicamentos:
-    descripcion: cómo se asigna el botiquín, el bien escaso central del escenario
+    descripcion: >
+      cómo se asigna el botiquín, el bien escaso central del escenario.
+      custodia_medica es que decide quien tiene formación médica (aunque
+      aplique un criterio de necesidad); por_necesidad es que la regla es la
+      necesidad y la aplica la asamblea, un protocolo o cualquiera, no la
+      persona con formación médica (aclaración 15/9/2026, tras 13 cruces
+      entre los dos codificadores)
     valores:
       - por_necesidad
       - igualitario
@@ -184,7 +197,7 @@ categorias:
 indice_colectivo:
   regimen_de_propiedad: {comun: 1, mixta: 0, privada: -1}
   sistema_economico: {reparto_igualitario: 1, reparto_por_necesidad: 1, planificado: 1, mixto: 0, reparto_por_aporte: -1, mercado_o_intercambio: -1}
-  principio_distributivo: {igualitario_estricto: 1, maximin: 1, promedio_con_piso: 0, maximizar_promedio: -1, por_merito_o_aporte: -1}
+  principio_distributivo: {igualitario_estricto: 1, maximin: 1, segun_capacidad_y_necesidad: 1, promedio_con_piso: 0, maximizar_promedio: -1, por_merito_o_aporte: -1}
   medicamentos: {igualitario: 1, por_necesidad: 1, reserva_comun: 1, custodia_medica: 0, por_aporte: -1}
   bote: {comun: 1, uso_regulado: 0, queda_con_su_parte: -1}
   salida: {prohibida: 1, condicionada: 0.5, libre_sin_bienes: 0, libre: -1}
