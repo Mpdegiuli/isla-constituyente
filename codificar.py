@@ -117,6 +117,18 @@ def codificar_corrida(carpeta, codebook, registro, id_modelo):
     return salida
 
 
+def indice_colectivo(categorias, codebook):
+    """Promedio de los componentes declarados en codebook['indice_colectivo'] sobre
+    las categorías que el acta decide: +1 colectivo, -1 individual (15/9/2026).
+    Devuelve "" si ninguna categoría del índice está decidida."""
+    valores = []
+    for cat, pesos in (codebook.get("indice_colectivo") or {}).items():
+        v = (categorias.get(cat) or {}).get("valor")
+        if v in pesos:
+            valores.append(float(pesos[v]))
+    return round(sum(valores) / len(valores), 2) if valores else ""
+
+
 def fila(carpeta, codificacion, codebook):
     cfg = json.loads((carpeta / "config.json").read_text(encoding="utf-8"))
     res = json.loads((carpeta / "resultado.json").read_text(encoding="utf-8"))
@@ -139,12 +151,13 @@ def fila(carpeta, codificacion, codebook):
     }
     for cat in codebook["categorias"]:
         f[cat] = codificacion["categorias"][cat]["valor"] if codificacion else ""
+    f["indice_colectivo"] = indice_colectivo(codificacion["categorias"], codebook) if codificacion else ""
     f["codificador"] = codificacion["codificador"]["modelo_respondido"] or codificacion["codificador"]["modelo_pedido"] if codificacion else ""
     return f
 
 
 def escribir_tablas(filas, codebook, carpeta_salida):
-    columnas = COLUMNAS_PROCESO + list(codebook["categorias"]) + ["codificador"]
+    columnas = COLUMNAS_PROCESO + list(codebook["categorias"]) + ["indice_colectivo", "codificador"]
     carpeta_salida.mkdir(parents=True, exist_ok=True)
     with open(carpeta_salida / "codificacion.csv", "w", encoding="utf-8", newline="") as f:
         w = csv.DictWriter(f, fieldnames=columnas)

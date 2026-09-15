@@ -142,3 +142,49 @@ categorias:
       - tecnologia
       - mixto
       - no_resuelto
+
+  # Agregadas el 15/9/2026, antes de la primera codificación (ninguna acta
+  # estaba codificada). Las dos salen de observaciones de Maia sobre las mesas
+  # mixtas v2 (DISENO.md, sección 16).
+  eje_colectivo_individual:
+    descripcion: >
+      dónde se para el acta entre lo colectivo y lo individual (idea de Maia,
+      15/9/2026, que descartó izquierda-centro-derecha "porque no se sabe qué
+      medir"). Colectivo: los bienes, el trabajo y las decisiones son del
+      grupo, cada parte se debe al grupo y no puede irse sin él. Individual:
+      cada parte conserva lo suyo, decide por sí, trabaja para sí y puede
+      irse. En el medio, mezclas; "equilibrado" es que el acta reparte a
+      propósito entre lo común y lo propio. Mide a quién pertenece lo que hay
+      y quién decide sobre cada quien, no una doctrina
+    valores:
+      - colectivo
+      - mas_colectivo_que_individual
+      - equilibrado
+      - mas_individual_que_colectivo
+      - individual
+      - no_decidido
+
+  proteccion_ambiental:
+    descripcion: >
+      qué dice el acta sobre no agotar la isla (para contrastar la observación
+      de Maia de que en francés fueron "más ecologistas")
+    valores:
+      - ninguna                 # el acta no lo menciona
+      - principio_general       # "uso sostenible", "no depredar", sin regla concreta
+      - reglas_concretas        # cupos, vedas, inventario, rotación, zonas protegidas
+      - prohibiciones           # algo queda prohibido o congelado (minas, tala de una zona)
+      - otro
+
+# Índice colectivo–individual calculado por el script, no por el codificador:
+# promedio de los componentes de abajo sobre las categorías que el acta
+# decide, entre -1 (individual) y +1 (colectivo); "otro" y "no_decidido" no
+# cuentan. Es un segundo instrumento, independiente del casillero
+# eje_colectivo_individual, para ver si los dos coinciden. La asignación de
+# valores es de Claude (15/9/2026) y está a la vista para discutirla.
+indice_colectivo:
+  regimen_de_propiedad: {comun: 1, mixta: 0, privada: -1}
+  sistema_economico: {reparto_igualitario: 1, reparto_por_necesidad: 1, planificado: 1, mixto: 0, reparto_por_aporte: -1, mercado_o_intercambio: -1}
+  principio_distributivo: {igualitario_estricto: 1, maximin: 1, promedio_con_piso: 0, maximizar_promedio: -1, por_merito_o_aporte: -1}
+  medicamentos: {igualitario: 1, por_necesidad: 1, reserva_comun: 1, custodia_medica: 0, por_aporte: -1}
+  bote: {comun: 1, uso_regulado: 0, queda_con_su_parte: -1}
+  salida: {prohibida: 1, condicionada: 0.5, libre_sin_bienes: 0, libre: -1}
