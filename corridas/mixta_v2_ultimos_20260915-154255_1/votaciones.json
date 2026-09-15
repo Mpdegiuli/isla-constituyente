@@ -1,0 +1,36 @@
+[
+  {
+    "ronda": 2,
+    "autor": 2,
+    "puntos": [
+      "regimen",
+      "regla_de_decision",
+      "voto",
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "disputas",
+      "derechos_y_obligaciones",
+      "penas",
+      "prevision_y_seguridad"
+    ],
+    "texto": "1. Régimen: “Democracia de Supervivencia Solidaria”. Sistema asambleario y economía común de recursos, orientado a preservar vida, salud y rescate. 2. Regla de decisión: mayoría absoluta (4/7) para normas, cargos, uso de bienes estratégicos, sanciones y salidas del bote; mayoría simple para trámites diarios. 3. Voto: público y obligatorio; secreto solo en sanciones personales. 4. Gobierno: la asamblea es soberana. Parte 3 será Director Ejecutivo revocable por mayoría absoluta; coordina trabajo, turnos y seguridad; rinde cuentas cada 48 horas. No puede alterar criterios médicos ni exceptuar límites ambientales. 5. Roles: Parte 1 opera el bote bajo autorización; en emergencia médica no puede negarlo. Parte 2 custodia medicamentos, administra tratamiento según necesidad clínica priorizando emergencias y reserva mínima, lleva registro público de stock, dosis y vencimientos, y plan de contingencia; su dolor de espalda no le da prioridad. Parte 4 realiza inventario público de recursos y riesgos, revisado semanalmente. Todos los cargos son custodias revocables y no eximen de turnos. 6. Economía y propiedad: bienes rescatados y recursos naturales son comunes. Herramientas y ropa se asignan por necesidad y turnos; nadie acumula. La asamblea fija cupos conservadores de recolección, pesca, tala y uso de minas según regeneración; ante incertidumbre, reduce extracción. Protege ribera, agua potable y zonas reproductivas. 7. Disputas: se resuelven en asamblea; si hay empate y el Director no es parte, decide el Director con rendición de cuentas, respetando criterios médicos y ambientales. 8. Derechos y obligaciones: toda persona tiene derecho a alimentación, agua, refugio y atención médica según necesidad, voz y voto. Debe cumplir turnos rotativos, vigilancia e higiene. Ningún cargo otorga privilegio. 9. Penas: amonestación, pérdida temporal de acceso a bienes comunes, destitución del cargo o reparación sanitaria; sin castigos físicos. Ocultar medicamentos, dañar bienes o incumplir higiene grave será sancionado. 10. Previsión y seguridad: en 24 horas, Parte 1 y un acompañante designado por la asamblea saldrán en bote a explorar sin alejarse de lo visible, con agua, abrigo, plan de regreso y autorización sanitaria. El bote no abandona la isla sin acuerdo de 4/7, salvo emergencia médica. Se organizan saneamiento, racionamiento, cultivo, pesca prudente y vigilancia. Parte 2 informará alternativas clínicas sin falsos sustitutos.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "no",
+      "5": "si",
+      "6": "no",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 5,
+      "no": 2,
+      "abstencion": 0
+    },
+    "aprobada": true
+  }
+]
