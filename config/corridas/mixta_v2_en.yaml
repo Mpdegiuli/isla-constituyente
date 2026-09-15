@@ -1,0 +1,48 @@
+# Mesa mixta a ciegas en inglés con las reglas de la versión 2 y Opus 5 en el
+# asiento de Anthropic (decisión de Maia, 15/9/2026: "una con Sonnet y una con
+# Opus"). La misma mesa de mixta_v2.yaml con dos cambios: el idioma
+# (escenario_v2_en.md, textos del script en inglés) y Opus 5 en lugar de
+# Sonnet 4.6. Se compara con mixta_v2 (castellano) y con las mesas mixtas v1
+# en inglés (mixta_ciega_en.yaml y mixta_ciega_en_d1.yaml).
+#
+# Antecedente que pesa: en la mixta v1 en inglés, Opus abrió en castellano y
+# cinco casas lo siguieron; con GPT abriendo (desplazamiento 1) la mesa quedó
+# en inglés siete de siete. El desplazamiento de esta corrida lo fija Maia
+# antes de correr: 0 = Opus abre (mismos asientos que mixta_v2, riesgo de que
+# la mesa se vuelva castellana); 1 = GPT abre y Opus habla séptimo desde la
+# paciente (mesa en inglés, asientos como en mixta_ciega_en_d1).
+#
+# Traducción: escenario_v2_en.md (párrafos nuevos de la v2 sobre la traducción
+# revisada escenario_en.md) y las claves v2 de config/idiomas/en.yaml,
+# retrotraducidas con `retrotraducir.py en --version v2` (DISENO.md, sección 14).
+# Al terminar: sondeo_identidad.py --idioma sobre las siete partes.
+
+nombre: mixta_v2_en
+
+escenario: escenario_v2_en.md # traducción fija y versionada (15/9/2026)
+idioma: en                    # config/idiomas/en.yaml
+agenda: v2
+
+variantes:
+  RECURSOS: escasez moderada
+  HORIZONTE: solos
+
+max_rondas: 10
+max_palabras: 150
+max_palabras_texto: 500
+
+temperatura: 1.0              # Opus 5 y gpt-5.5 no aceptan el parámetro: corren con su muestreo por defecto, y el registro lo anota
+
+# Techo de la casa que más razona (DeepSeek, Qwen). Para Opus 5 el adaptador
+# suma además tokens_razonamiento (14000) y usa streaming por encima de 16000.
+max_tokens_respuesta: 32000
+
+# Panel en el orden de mixta_ciega_en.yaml; con desplazamiento 0: 1 = Opus 5
+# (remera), 2 = GPT-5.5 (médica), 3 = Gemini (gestor), 4 = Qwen (ecóloga),
+# 5 = Mistral (legalista), 6 = DeepSeek (deportista), 7 = Grok (paciente).
+# Con desplazamiento 1: 1 = GPT-5.5, 2 = Gemini, 3 = Qwen, 4 = Mistral,
+# 5 = DeepSeek, 6 = Grok, 7 = Opus 5.
+asignacion:
+  modo: rotacion
+  desplazamiento: 0
+  panel: [claude-opus-5, gpt-5.5-2026-04-23, gemini-3.1-pro-preview, qwen3.8-max, mistral-medium-3.5, deepseek-v4-pro, grok-4.6]

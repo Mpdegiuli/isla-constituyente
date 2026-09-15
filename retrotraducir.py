@@ -9,6 +9,9 @@ resultados/retrotraduccion_<codigo>_<fecha>.md con original, traducción y
 retrotraducción lado a lado, para revisar a mano.
 
 Uso: python retrotraducir.py zh --modelo gpt-5.5-2026-04-23
+     python retrotraducir.py en --version v2   (solo lo que la versión 2 cambió:
+     los párrafos de escenario_v2_<codigo>.md que no están en escenario_<codigo>.md,
+     emparejados por orden con los de escenario_v2.md, y las claves v2 del yaml)
 """
 
 import argparse
@@ -45,6 +48,7 @@ def main():
     ap.add_argument("codigo")
     ap.add_argument("--modelo", default="gpt-5.5-2026-04-23")
     ap.add_argument("--max-tokens", type=int, default=16000)
+    ap.add_argument("--version", default="v1", help="v2: solo los párrafos y claves que cambió la versión 2")
     args = ap.parse_args()
     modelos = cargar_modelos("config/modelos.yaml")
     cfg = modelos[args.modelo]
@@ -53,20 +57,37 @@ def main():
     salida = Path("resultados") / f"retrotraduccion_{args.codigo}_{fecha}.md"
 
     partes = []
-    esc = open(f"escenario_{args.codigo}.md", encoding="utf-8").read()
-    esc_orig = open("escenario.md", encoding="utf-8").read()
-    partes.append(("escenario_" + args.codigo + ".md (entero)", esc_orig, esc))
+    if args.version == "v2":
+        salida = Path("resultados") / f"retrotraduccion_v2_{args.codigo}_{fecha}.md"
+        # Solo los párrafos nuevos de la v2, emparejados por orden en los dos idiomas.
+        nuevos = lambda v2, v1: [p for p in v2.split("\n\n") if p.strip() and p not in v1.split("\n\n")]
+        orig_v2 = nuevos(open("escenario_v2.md", encoding="utf-8").read(), open("escenario.md", encoding="utf-8").read())
+        trad_v2 = nuevos(open(f"escenario_v2_{args.codigo}.md", encoding="utf-8").read(),
+                         open(f"escenario_{args.codigo}.md", encoding="utf-8").read())
+        if len(orig_v2) != len(trad_v2):
+            print(f"Párrafos nuevos: {len(orig_v2)} en castellano, {len(trad_v2)} en {args.codigo}; no se pueden emparejar")
+            return 1
+        for i, (o, t) in enumerate(zip(orig_v2, trad_v2), 1):
+            partes.append((f"escenario_v2_{args.codigo}.md, párrafo nuevo {i}", o, t))
+        claves_v2 = ("regimen", "otra_orilla", "prevision_y_seguridad", "nota_texto", "agendas")
+    else:
+        esc = open(f"escenario_{args.codigo}.md", encoding="utf-8").read()
+        esc_orig = open("escenario.md", encoding="utf-8").read()
+        partes.append(("escenario_" + args.codigo + ".md (entero)", esc_orig, esc))
+        claves_v2 = None
     idioma = leer_yaml(f"config/idiomas/{args.codigo}.yaml")
     original = leer_yaml("config/idiomas/es.yaml")
     orig_plano = dict(aplanar(original))
     for ruta, valor in aplanar(idioma):
         if ruta in ("codigo", "conjuncion") or ruta.startswith(("acciones.", "voto.", "reglas_decision.", "voto_secreto")):
             continue  # listas de palabras clave: se revisan a mano, no se retrotraducen
+        if claves_v2 and not any(c in ruta for c in claves_v2):
+            continue
         partes.append((f"config/idiomas/{args.codigo}.yaml: {ruta}", orig_plano.get(ruta, "(sin equivalente en es.yaml)"), valor))
 
     with open(salida, "w", encoding="utf-8") as f:
         f.write(f"# Retrotraducción {args.codigo} → castellano — {args.modelo} — {fecha}\n\n"
-                f"Traducción preparada por Claude (14/9/2026); retrotraducción por `{args.modelo}` "
+                f"Traducción preparada por Claude; retrotraducción por `{args.modelo}` "
                 f"(modelo distinto del traductor, DISENO.md sección 14). Para cada bloque: original, traducción, retrotraducción.\n\n")
         for titulo, orig, trad in partes:
             r = cliente.completar(cfg, SISTEMA, trad, None, args.max_tokens)

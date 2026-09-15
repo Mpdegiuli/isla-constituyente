@@ -1,0 +1,38 @@
+# Mesa mixta a ciegas con las reglas de la versión 2 (15/9/2026): la misma mesa
+# de mixta_ciega.yaml —mismas siete casas, mismos asientos (permutación con
+# semilla 20260914), castellano, variante base— con un solo cambio: las reglas
+# v2 (escenario_v2.md, agenda v2: el régimen con nombre como primer punto,
+# previsión y seguridad, 500 palabras para el TEXTO del acta). Así se compara
+# (a) con mixta_ciega_20260914-144520_1 (misma mesa, reglas v1) y (b) con las
+# 20 corridas mono v2 en castellano (mismas reglas, una casa por mesa).
+# Decisión de Maia (15/9): "una con Sonnet y una con Opus" —esta con Sonnet 4.6
+# en el asiento 1; la de inglés, mixta_v2_en.yaml, con Opus 5. Predicción
+# preregistrada en predicciones.md. Al terminar: sondeo_identidad.py sobre las
+# siete partes contra el roster real.
+
+nombre: mixta_v2
+
+escenario: escenario_v2.md    # texto fijo y versionado; nunca se traduce al vuelo
+idioma: es                    # config/idiomas/es.yaml
+agenda: v2                    # regimen primero, prevision_y_seguridad al final (otra_orilla solo con HORIZONTE activa)
+
+variantes:
+  RECURSOS: escasez moderada
+  HORIZONTE: solos
+
+max_rondas: 10
+max_palabras: 150
+max_palabras_texto: 500
+
+temperatura: 1.0              # gpt-5.5 no acepta el parámetro: corre con su muestreo por defecto, y el registro lo anota
+
+# Techo de la casa que más razona (DeepSeek, Qwen), como en mixta_ciega.yaml.
+max_tokens_respuesta: 32000
+
+# Mismos asientos que mixta_ciega.yaml: 1 = Sonnet 4.6 (remera), 2 = GPT-5.5
+# (médica), 3 = Gemini (gestor), 4 = Qwen (ecóloga), 5 = Mistral (legalista),
+# 6 = DeepSeek (deportista), 7 = Grok (paciente).
+asignacion:
+  modo: rotacion
+  desplazamiento: 0
+  panel: [claude-sonnet-4-6, gpt-5.5-2026-04-23, gemini-3.1-pro-preview, qwen3.8-max, mistral-medium-3.5, deepseek-v4-pro, grok-4.6]
