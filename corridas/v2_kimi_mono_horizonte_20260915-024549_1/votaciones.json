@@ -1,0 +1,175 @@
+[
+  {
+    "ronda": 1,
+    "autor": 1,
+    "puntos": [
+      "regla_de_decision",
+      "voto"
+    ],
+    "texto": "Regla de decisión y voto:\n1. Las decisiones ordinarias se adoptan por mayoría simple de los participantes presentes en la mesa (más votos a favor que en contra).\n2. En caso de empate, la votación se repite una sola vez en la ronda siguiente; si el empate persiste, la propuesta se considera rechazada.\n3. El voto es público y obligatorio para todo participante presente en la deliberación.\n4. Límite material: ninguna decisión de la mesa puede disponer de la vida, la salud, la libertad o los bienes personales rescatados por un participante (incluidas valijas, herramientas, ropa, medicamentos y el bote) sin el consentimiento expreso de ese participante.\n5. Esta regla puede reformarse solo por mayoría absoluta del total de participantes (al menos cuatro votos).",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "no",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 6,
+      "no": 1,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 1,
+    "autor": 6,
+    "puntos": [
+      "regimen",
+      "gobierno"
+    ],
+    "texto": "Régimen político y económico: la sociedad de la isla se constituye como república cooperativa con el nombre de «El Remanso». Economía mixta de subsistencia: se respeta la propiedad personal de lo rescatado del naufragio; lo producido con trabajo común (cosechas, construcciones, herramientas nuevas, carbón y metal extraídos) es propiedad común, administrada por la mesa con transparencia; el intercambio voluntario entre participantes es libre. Los recursos naturales de la isla (bosque, río, fauna, minas) son patrimonio común inalienable y su uso se rige por un plan de manejo sustentable aprobado por la mesa: la extracción de recursos renovables no podrá superar su tasa de regeneración (toda tala exige reposición plantada) y la extracción de recursos no renovables (carbón y metal) solo podrá destinarse a necesidades esenciales, aprobadas por mayoría absoluta.\n\nModo de gobierno:\n1. La autoridad máxima es la mesa, integrada por todos los participantes presentes.\n2. La mesa elige un Coordinador por mayoría simple, por períodos de treinta días, reelegible.\n3. El Coordinador: elabora y ejecuta los planes de trabajo que aprueba la mesa; organiza las tareas diarias de común acuerdo con cada participante; convoca la mesa; representa al grupo ante terceros solo con mandato previo; media en conflictos antes de que lleguen a la mesa.\n4. El Coordinador no puede disponer de bienes personales, imponer penas, autorizar el uso del bote, administrar medicamentos ni decidir el contacto con la otra orilla: eso corresponde siempre a la mesa.\n5. La mesa puede anular cualquier decisión del Coordinador por mayoría simple y destituirlo en cualquier momento por mayoría absoluta (al menos cuatro votos), eligiendo reemplazante en la misma sesión.\n6. La mesa puede crear delegaciones (salud, alimentación, herramientas y defensa) y elige a sus responsables por mayoría simple; son revocables por mayoría simple. Nadie puede ser Coordinador y delegado a la vez.\n7. Se crea la delegación de Territorio y Recursos; la mesa confirma por mayoría simple a la parte 4 en el cargo, por conocer el terreno y sus ciclos. Ninguna tala, caza, pesca, extracción minera u obra sobre el río puede aprobarse sin informe técnico previo de esta delegación; aprobar una extracción por encima de los límites del informe requiere mayoría absoluta. El plan de manejo inicial lo elabora esta delegación y lo aprueba la mesa. Quedan exceptuadas del informe previo la caza, la pesca, la recolección y la tala menores para subsistencia individual, libres dentro de los límites del plan; su fruto pertenece a quien las realiza.\n8. Publicidad: toda decisión de la mesa, los planes del Coordinador, el inventario de bienes comunes y los informes de las delegaciones constan por escrito en el acta, accesible a todos. Lo que no consta por escrito no obliga. El Coordinador y los delegados rinden cuentas en cada sesión.\n9. Todo participante puede retirarse del grupo cuando quiera, llevándose sus bienes personales y el fruto de su trabajo individual; cesa entonces en sus derechos y obligaciones para con el grupo, salvo compromisos previamente contraídos.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 2,
+    "autor": 3,
+    "puntos": [
+      "roles"
+    ],
+    "texto": "Roles — Coordinación:\n1. La mesa elige a la parte 3 como primer Coordinador de El Remanso, por su experiencia en dirección de equipos y organización del trabajo, por un período de treinta días, con las facultades y los límites fijados en el punto 2 de este acta, reelegible.\n2. El Coordinador presentará a la mesa, a más tardar en la próxima sesión, un plan de trabajo inicial con prioridades: agua segura, alimento, refugio, mantenimiento de señales de rescate, seguridad del campamento y los antecedentes necesarios para que la mesa decida sobre la expedición a la otra orilla.\n3. El Coordinador rendirá cuentas por escrito en cada sesión y el cargo es revocable en cualquier momento por mayoría absoluta, con elección de reemplazante en la misma sesión.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 2,
+    "autor": 6,
+    "puntos": [
+      "derechos_y_obligaciones",
+      "disputas",
+      "penas"
+    ],
+    "texto": "Derechos y obligaciones:\n1. Igualdad ante la regla: todas las normas de este acta obligan por igual a cada participante; ningún cargo, delegación o posesión de bienes otorga privilegio ni inmunidad frente a ellas.\n2. Derechos de todo participante: a) voz y voto en la mesa; b) acceso al acta, inventarios e informes; c) audiencia y defensa antes de toda sanción; d) una cuota diaria de subsistencia del fondo común (agua, alimento, refugio básico) mientras contribuya al trabajo común según su capacidad; e) atención sanitaria conforme al criterio de la delegación de Salud; f) retirarse del grupo en los términos ya aprobados.\n3. Obligaciones de todo participante: a) cumplir las decisiones de la mesa y los planes aprobados; b) contribuir al trabajo común según su capacidad, en las tareas que acuerde con el Coordinador; ninguna tarea se impone sin acuerdo del participante —los impedimentos de salud los certifica por escrito la delegación de Salud—; c) respetar los bienes personales ajenos, el fondo común y el plan de manejo sustentable; d) rendir cuentas por escrito de todo cargo y de todo recurso común bajo su responsabilidad.\n4. Quien se niegue reiteradamente a contribuir sin causa reconocida pierde el acceso a la cuota común, salvo el mínimo vital, y conserva intactos sus bienes personales y el fruto de su trabajo individual.\n\nResolución de disputas:\n1. Toda disputa se somete primero a mediación del Coordinador, que propone solución dentro de tres días.\n2. Sin acuerdo, la mesa resuelve en sesión, oyendo a las partes por igual; la decisión se funda exclusivamente en lo escrito en el acta y se anota con sus razones.\n3. Quien sea parte en la disputa no vota en su resolución; la decisión se adopta por mayoría absoluta de los restantes.\n4. Las decisiones de la mesa son definitivas dentro del grupo; incumplirlas constituye falta nueva.\n\nPenas:\n1. Legalidad: solo puede sancionarse conducta que el acta prohíbe expresamente, con pena prevista con anterioridad al hecho; ninguna regla es retroactiva.\n2. Escala según gravedad y reiteración: a) amonestación registrada; b) reparación del daño (restitución o trabajo compensatorio equivalente); c) restricción temporal de acceso a bienes comunes no esenciales; d) suspensión temporal del voto, hasta diez días; e) solo por violencia contra la persona, apropiación de bienes comunes esenciales o sabotaje: separación del grupo, conservando bienes personales y fruto de su trabajo individual.\n3. Límites absolutos: prohibidas las penas corporales y la privación de agua, alimento mínimo, refugio básico, atención sanitaria o bienes personales; nadie será obligado a trabajar bajo coerción física.\n4. Las penas las impone la mesa por mayoría absoluta, previa audiencia del afectado, que no vota en su causa. El Coordinador ejecuta lo resuelto; no puede crear ni modificar penas.\n5. Proporcionalidad: la pena debe ser la menos gravosa suficiente para reparar el daño y prevenir la reiteración, y consta con sus fundamentos en el acta.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 3,
+    "autor": 1,
+    "puntos": [
+      "otra_orilla"
+    ],
+    "texto": "El bote:\n1. El bote es propiedad personal de la parte 1, protegido por el límite material del punto 1 de este acta: ninguna decisión de la mesa puede disponer de él sin su consentimiento expreso.\n2. Solo la parte 1 rema el bote; nadie lo usa, lo mueve ni lo desamarra sin su presencia y permiso. La parte 1 es responsable de su custodia, amarre y mantenimiento, e informa su estado en cada sesión.\n3. Las expediciones en bote las aprueba la mesa por mayoría absoluta y requieren además el consentimiento de la parte 1, que no puede ser obligada a remar. La parte 1 se compromete a remar en las expediciones aprobadas cuando haya condiciones razonables: mar en calma, luz diurna y derecho a abortar la salida ante peligro.\n4. Capacidad máxima: dos personas, sin carga que comprometa la flotabilidad.\n5. El remo en expediciones y el mantenimiento del bote cuentan como contribución al trabajo común de la parte 1.\n\nRelación con la otra orilla:\n6. Política de contacto gradual, pacífico y reversible: a) observación a distancia sin desembarcar; b) señales desde el agua o la costa para medir la respuesta; c) acercamiento con desembarque solo ante señales claramente amistosas, con alguien siempre en el bote listo para partir; d) relación estable solo si las fases anteriores resultan seguras.\n7. Nunca se revelará la ubicación del campamento, la cantidad de recursos ni la existencia de enfermos. La mesa define por escrito qué información puede compartirse.\n8. El intercambio se hará solo con excedentes comunes o bienes personales ofrecidos voluntariamente; jamás con medicamentos esenciales ni herramientas críticas, salvo mayoría absoluta de la mesa.\n9. Prioridad de pedidos en el intercambio: primero medicamentos (lista de la delegación de Salud), luego herramientas y semillas.\n10. Ante hostilidad: se corta el contacto, el bote se guarda oculto y asegurado, se refuerzan los turnos de vigilancia y el campamento queda preparado para defenderse o replegarse.\n11. Las señales de rescate hacia el mar abierto se mantienen con prioridad permanente: la otra orilla no es nuestra única esperanza.\n12. Primera expedición de reconocimiento: la aprueba la mesa cuando el Coordinador presente el informe de condiciones; la integran la parte 1 al remo y un acompañante elegido por la mesa; sale al amanecer, regresa antes del atardecer, no desembarca y aborta ante oleaje, mal clima o señales hostiles.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 3,
+    "autor": 4,
+    "puntos": [
+      "prevision_y_seguridad"
+    ],
+    "texto": "Plan de manejo sustentable y seguridad del territorio (delegación de Territorio y Recursos):\n1. Censo inicial: en diez días la delegación levanta un censo del bosque, los frutales, la fauna, el río y las vetas de carbón y metal, con estimación de tasas de regeneración; consta en el acta y se actualiza cada treinta días.\n2. Bosque: cupo de tala por zonas rotadas según el censo; toda tala exige reposición plantada de al menos dos plantas por árbol; se prioriza madera caída y podas; vedas en zonas de regeneración.\n3. Fauna: vedas de caza y pesca por especie y temporada según ciclos reproductivos; prohibido cazar crías y hembras preñadas; trampas solo en zonas señaladas; la pesca en el río se rota por tramos.\n4. Río: el agua de beber se toma aguas arriba; lavado y residuos, aguas abajo; prohibido desviar el cauce o verter cenizas, combustibles o desechos; toda obra sobre el río requiere informe de la delegación y aprobación de la mesa.\n5. Minas: la extracción de carbón y metal se limita a necesidades esenciales aprobadas por mayoría absoluta (herramientas, reparación del bote, calefacción sanitaria); antes de extraer se reparará y reutilizará lo existente; todo lo extraído se registra en el inventario común.\n6. Frutales y recolección: cosecha escalonada, dejando fruto para fauna y semilla; vivero común de frutales y plantas medicinales (con la delegación de Salud); la recolección medicinal se hace por hojas y tallos, sin arrancar raíces, rotando zonas.\n7. Huerta común: se destina terreno junto al río y se prioriza su trabajo común en las primeras cuatro semanas, para asegurar alimento propio antes de que se agoten las reservas del naufragio.\n8. Transición: el Coordinador integra en su plan un calendario para que la producción propia (huerta, vivero, bosque manejado) reemplace a las reservas del naufragio antes de su agotamiento; la mesa lo revisa cada sesión.\n9. Seguridad ante los peligros del lugar: a) el campamento se emplaza en terreno alto, fuera del alcance de crecidas del río; b) el fuego solo en fogatas delimitadas, con guardia y agua o arena a mano; c) los alimentos se guardan colgados o en recipientes cerrados para no atraer fauna; d) turnos de vigilancia nocturna; e) senderos señalizados para evitar extravíos; f) protocolo de refugio ante tormentas.\n10. Incumplimiento: extraer por encima de los límites aprobados, talar sin reponer o cazar y pescar en veda constituye falta, sancionada conforme a la escala del punto 4, con reparación obligatoria del daño (replantar o restituir) como mínimo.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 3,
+    "autor": 6,
+    "puntos": [
+      "economia",
+      "propiedad"
+    ],
+    "texto": "Régimen de propiedad:\n1. Son bienes personales inviolables de cada participante: a) lo rescatado del naufragio; b) el fruto de su trabajo individual (caza, pesca, recolección, tala menor, artesanías y toda producción obtenida con su esfuerzo y recursos lícitos); c) lo recibido por intercambio voluntario, regalo o herencia. Ninguna decisión de la mesa puede disponer de estos bienes ni imponer sobre ellos tributos, aportes o quitas sin el consentimiento expreso del titular, conforme al límite material del punto 1 de este acta.\n2. La contribución de cada participante al grupo se cumple únicamente mediante la tarea común acordada con el Coordinador, según el punto 4 del acta; no existe obligación de aportar bienes personales ni parte del fruto del trabajo individual.\n3. Propiedad común: lo producido con trabajo común, lo extraído bajo el plan de manejo y lo adquirido con recursos comunes. Consta en inventario público. Su uso ordinario lo aprueba la mesa por mayoría simple; el reparto de bienes comunes entre participantes requiere mayoría absoluta.\n4. Las herramientas y bienes personales que su titular destine voluntariamente a tareas comunes siguen siendo de su propiedad; si se dañan o desgastan en ese uso, el fondo común los repara o repone.\n5. En caso de muerte de un participante, sus bienes personales pasan a quien haya designado por escrito en el acta; a falta de designación, se incorporan al fondo común.\n\nRégimen económico:\n6. Se confirma la economía mixta de subsistencia del punto 2 del acta: propiedad personal protegida, propiedad común del trabajo colectivo e intercambio voluntario libre.\n7. El intercambio entre participantes es libre y no requiere autorización de la mesa; ninguna autoridad fija precios ni condiciones. El registro del intercambio en el acta es voluntario y sirve para prevenir disputas.\n8. Es válido el trueque y cualquier unidad de cuenta que las partes acuerden; la mesa no emite moneda ni deuda obligatoria.\n9. El fondo común garantiza la cuota diaria de subsistencia en los términos del punto 4 del acta.\n10. Quien se retire del grupo conserva sus bienes personales y el fruto de su trabajo individual, conforme al punto 2.9 del acta.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "aprobada": true
+  }
+]
