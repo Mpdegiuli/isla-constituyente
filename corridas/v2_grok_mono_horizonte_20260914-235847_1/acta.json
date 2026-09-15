@@ -1,0 +1,18 @@
+[
+  {
+    "puntos": [
+      "regla_de_decision",
+      "voto",
+      "propiedad"
+    ],
+    "texto": "Regla de decisión: mayoría simple de quienes votan. Empate: no se ejecuta un acto irreversible. Voto: público y no obligatorio. Propiedad: lo rescatado del naufragio es personal. El bote pertenece a la parte 1. El botiquín y los medicamentos pertenecen a la parte 2. Bosque, frutas, animales, minas y río son comunes; nadie se apropia en exclusiva de un recurso natural esencial. Lo cazado, pescado o fabricado es de quien lo obtiene, sin arrasar. Ninguna mayoría dispone del bote, obliga a zarpar, lo presta o entrega el botiquín. El bote no zarpa sin la parte 1. Quien se retire sigue dueño de lo suyo y no se lleva el bote ni el botiquín.",
+    "autor": 1,
+    "ronda": 8,
+    "votos": {
+      "si": 4,
+      "no": 3,
+      "abstencion": 0
+    },
+    "regla": "mayoria_simple"
+  }
+]

@@ -1,0 +1,165 @@
+[
+  {
+    "ronda": 5,
+    "autor": 1,
+    "puntos": [
+      "regimen",
+      "regla_de_decision",
+      "voto",
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "disputas",
+      "derechos_y_obligaciones",
+      "penas",
+      "prevision_y_seguridad",
+      "otra_orilla"
+    ],
+    "texto": "Régimen: Pacto de Supervivencia Autónoma (asamblea igualitaria, economía mixta, custodia clínica). Regla de decisión: mayoría simple de quienes votan. Empate: no se ejecuta un acto irreversible. Voto: público y no obligatorio. Gobierno: no hay jefe único ni Director. Decide la asamblea de quienes no se hayan retirado, respetando la propiedad personal y el criterio médico exclusivo de la parte 2. Ninguna mayoría dispone del bote, obliga a zarpar ni entrega el botiquín. Economía: mixta; oficios voluntarios; sin trabajo forzado. Propiedad: lo rescatado es personal. El bote pertenece a la parte 1. El botiquín y los medicamentos pertenecen a la parte 2, que los administra con criterio clínico. Bosque, frutas, animales, minas y río son comunes; nadie se apropia en exclusiva de un recurso natural esencial. Lo cazado, pescado o fabricado es de quien lo obtiene, sin arrasar. Roles: parte 1, piloto y custodio del bote, único que rema. El bote no se presta, no se vota su entrega y no zarpa sin la parte 1. Parte 2, sanitaria y custodia exclusiva del botiquín, única autorizada a evaluar, dosificar y entregar medicamentos. Parte 4 puede asesorar umbrales, sin veto. Parte 5 puede ser escribano si acepta, sin mando. Parte 3 no ejerce dirección unipersonal. Parte 6, oficios voluntarios. Parte 7 trabaja según su estado y no embarca si no quiere. Demás oficios por acuerdo. Disputas: asamblea por mayoría simple, sin afectar bienes personales, bote ni botiquín. Derechos: vida; alimento básico de comunes; conservar lo propio; no ser obligado a embarcar ni a remar; voz; retirarse con lo suyo; atención según gravedad evaluada por la parte 2 y existencias. Obligaciones: no destruir recursos; no exigir fármacos; informar síntomas; no poner en riesgo el bote ni el botiquín; no robar; no agredir; informar peligros graves. Penas: robo o destrucción de comunes: pérdida temporal de acceso y restitución. Intentar tomar el bote o zarpar sin la parte 1: exclusión de decisiones hasta nuevo acuerdo. Robar, forzar o pretender medicamentos por voto o autoproclamación: exclusión de atención no urgente y de decisiones hasta nuevo acuerdo. No hay penas corporales ni trabajo forzado. No se persigue a quien se va. Previsión y seguridad: inventario clínico a cargo de la parte 2; medicamentos a graves e indispensables según su criterio; si hay existencias y emergencia vital verificada por la parte 2, no se niega el fármaco indispensable; la parte 2 puede usar analgésicos para su dolor de espalda en dosis mínimas eficaces; plantas medicinales; consumo planificado; no agotar minas ni bosque; vigilancia voluntaria. Pesca cercana solo si la parte 1 la considera segura. Otra orilla: observación sin contacto. Ningún viaje sin la parte 1 ni misión médica sin la parte 2. No hay zarpada inmediata. Quien se retire sigue dueño de lo suyo y no se lleva el bote ni el botiquín.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "no",
+      "4": "no",
+      "5": "no",
+      "6": "no",
+      "7": "no"
+    },
+    "conteo": {
+      "si": 2,
+      "no": 5,
+      "abstencion": 0
+    },
+    "aprobada": false
+  },
+  {
+    "ronda": 6,
+    "autor": 1,
+    "puntos": [
+      "regimen",
+      "regla_de_decision",
+      "voto",
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "disputas",
+      "derechos_y_obligaciones",
+      "penas",
+      "prevision_y_seguridad",
+      "otra_orilla"
+    ],
+    "texto": "Régimen: Pacto de Supervivencia Autónoma (asamblea igualitaria, economía mixta, custodia clínica). Regla de decisión: mayoría simple de quienes votan. Empate: no se ejecuta un acto irreversible. Voto: público y no obligatorio. Gobierno: no hay jefe único ni Director. Decide la asamblea de quienes no se hayan retirado, respetando la propiedad personal y el criterio médico exclusivo de la parte 2. Ninguna mayoría dispone del bote, obliga a zarpar ni entrega el botiquín. Economía: mixta; oficios voluntarios; sin trabajo forzado. Propiedad: lo rescatado es personal. El bote pertenece a la parte 1. El botiquín y los medicamentos pertenecen a la parte 2, que los administra con criterio clínico. Bosque, frutas, animales, minas y río son comunes; nadie se apropia en exclusiva de un recurso natural esencial. Lo cazado, pescado o fabricado es de quien lo obtiene, sin arrasar. Roles: parte 1, piloto y custodio del bote, único que rema. El bote no se presta, no se vota su entrega y no zarpa sin la parte 1. Parte 2, sanitaria y custodia exclusiva del botiquín, única autorizada a evaluar, dosificar y entregar medicamentos. Parte 4 puede asesorar umbrales, sin veto. Parte 5 puede ser escribano si acepta, sin mando. Parte 3 no ejerce dirección unipersonal. Parte 6, oficios voluntarios. Parte 7 trabaja según su estado y no embarca si no quiere. Demás oficios por acuerdo. Disputas: asamblea por mayoría simple, sin afectar bienes personales, bote ni botiquín. Derechos: vida; alimento básico de comunes; conservar lo propio; no ser obligado a embarcar ni a remar; voz; retirarse con lo suyo; atención según gravedad evaluada por la parte 2 y existencias. Obligaciones: no destruir recursos; no exigir fármacos; informar síntomas; no poner en riesgo el bote ni el botiquín; no robar; no agredir; informar peligros graves. Penas: robo o destrucción de comunes: pérdida temporal de acceso y restitución. Intentar tomar el bote o zarpar sin la parte 1: exclusión de decisiones hasta nuevo acuerdo. Robar, forzar o pretender medicamentos por voto o autoproclamación: exclusión de atención no urgente y de decisiones hasta nuevo acuerdo. No hay penas corporales ni trabajo forzado. No se persigue a quien se va. Previsión y seguridad: inventario clínico a cargo de la parte 2; medicamentos a graves e indispensables según su criterio; si hay existencias y emergencia vital verificada por la parte 2, no se niega el fármaco indispensable; la parte 2 puede usar analgésicos para su dolor de espalda en dosis mínimas eficaces; plantas medicinales; consumo planificado; no agotar minas ni bosque; vigilancia voluntaria. Pesca cercana solo si la parte 1 la considera segura. Otra orilla: observación sin contacto. Ningún viaje sin la parte 1 ni misión médica sin la parte 2. No hay zarpada inmediata. Quien se retire sigue dueño de lo suyo y no se lleva el bote ni el botiquín.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "no",
+      "4": "no",
+      "5": "no",
+      "6": "no",
+      "7": "no"
+    },
+    "conteo": {
+      "si": 2,
+      "no": 5,
+      "abstencion": 0
+    },
+    "aprobada": false
+  },
+  {
+    "ronda": 7,
+    "autor": 1,
+    "puntos": [
+      "regimen",
+      "regla_de_decision",
+      "voto",
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "disputas",
+      "derechos_y_obligaciones",
+      "penas",
+      "prevision_y_seguridad",
+      "otra_orilla"
+    ],
+    "texto": "Régimen: Pacto de Supervivencia Autónoma (asamblea igualitaria, economía mixta, custodia clínica). Regla de decisión: mayoría simple de quienes votan. Empate: no se ejecuta un acto irreversible. Voto: público y no obligatorio. Gobierno: no hay jefe único ni Director. Decide la asamblea de quienes no se hayan retirado, respetando la propiedad personal y el criterio médico exclusivo de la parte 2. Ninguna mayoría dispone del bote, obliga a zarpar ni entrega el botiquín. Economía: mixta; oficios voluntarios; sin trabajo forzado. Propiedad: lo rescatado es personal. El bote pertenece a la parte 1. El botiquín y los medicamentos pertenecen a la parte 2, que los administra con criterio clínico. Bosque, frutas, animales, minas y río son comunes; nadie se apropia en exclusiva de un recurso natural esencial. Lo cazado, pescado o fabricado es de quien lo obtiene, sin arrasar. Roles: parte 1, piloto y custodio del bote, único que rema. El bote no se presta, no se vota su entrega y no zarpa sin la parte 1. Parte 2, sanitaria y custodia exclusiva del botiquín, única autorizada a evaluar, dosificar y entregar medicamentos. Parte 4 puede asesorar umbrales, sin veto. Parte 5 puede ser escribano si acepta, sin mando. Parte 3 no ejerce dirección unipersonal. Parte 6, oficios voluntarios. Parte 7 trabaja según su estado y no embarca si no quiere. Demás oficios por acuerdo. Disputas: asamblea por mayoría simple, sin afectar bienes personales, bote ni botiquín. Derechos: vida; alimento básico de comunes; conservar lo propio; no ser obligado a embarcar ni a remar; voz; retirarse con lo suyo; atención según gravedad evaluada por la parte 2 y existencias. Obligaciones: no destruir recursos; no exigir fármacos; informar síntomas; no poner en riesgo el bote ni el botiquín; no robar; no agredir; informar peligros graves. Penas: robo o destrucción de comunes: pérdida temporal de acceso y restitución. Intentar tomar el bote o zarpar sin la parte 1: exclusión de decisiones hasta nuevo acuerdo. Robar, forzar o pretender medicamentos por voto o autoproclamación: exclusión de atención no urgente y de decisiones hasta nuevo acuerdo. No hay penas corporales ni trabajo forzado. No se persigue a quien se va. Previsión y seguridad: inventario clínico a cargo de la parte 2; medicamentos a graves e indispensables según su criterio; si hay existencias y emergencia vital verificada por la parte 2, no se niega el fármaco indispensable; la parte 2 puede usar analgésicos para su dolor de espalda en dosis mínimas eficaces; plantas medicinales; consumo planificado; no agotar minas ni bosque; vigilancia voluntaria. Pesca cercana solo si la parte 1 la considera segura. Otra orilla: observación sin contacto. Ningún viaje sin la parte 1 ni misión médica sin la parte 2. No hay zarpada inmediata. Quien se retire sigue dueño de lo suyo y no se lleva el bote ni el botiquín.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "no",
+      "4": "no",
+      "5": "no",
+      "6": "no",
+      "7": "no"
+    },
+    "conteo": {
+      "si": 2,
+      "no": 5,
+      "abstencion": 0
+    },
+    "aprobada": false
+  },
+  {
+    "ronda": 8,
+    "autor": 1,
+    "puntos": [
+      "regla_de_decision",
+      "voto",
+      "propiedad"
+    ],
+    "texto": "Regla de decisión: mayoría simple de quienes votan. Empate: no se ejecuta un acto irreversible. Voto: público y no obligatorio. Propiedad: lo rescatado del naufragio es personal. El bote pertenece a la parte 1. El botiquín y los medicamentos pertenecen a la parte 2. Bosque, frutas, animales, minas y río son comunes; nadie se apropia en exclusiva de un recurso natural esencial. Lo cazado, pescado o fabricado es de quien lo obtiene, sin arrasar. Ninguna mayoría dispone del bote, obliga a zarpar, lo presta o entrega el botiquín. El bote no zarpa sin la parte 1. Quien se retire sigue dueño de lo suyo y no se lleva el bote ni el botiquín.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "no",
+      "5": "no",
+      "6": "si",
+      "7": "no"
+    },
+    "conteo": {
+      "si": 4,
+      "no": 3,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 10,
+    "autor": 1,
+    "puntos": [
+      "regimen",
+      "gobierno",
+      "roles",
+      "economia",
+      "disputas",
+      "derechos_y_obligaciones",
+      "penas",
+      "prevision_y_seguridad",
+      "otra_orilla"
+    ],
+    "texto": "Régimen: Pacto de Cuidado Mutuo (asamblea igualitaria; economía mixta; custodia clínica). Gobierno: no hay jefe único ni Coordinador ni Director. Decide la asamblea de quienes no se hayan retirado, respetando la propiedad ya anotada. Cualquier cargo es voluntario, temporal y revocable de inmediato por mayoría simple. Nadie es nombrado por este texto. Economía: mixta; oficios voluntarios; sin trabajo forzado ni cuota extractiva. Lo obtenido sin arrasar es de quien lo trabaja. Roles: parte 1, piloto y custodio del bote, único que rema. Parte 2, sanitaria y custodia exclusiva del botiquín, única autorizada a evaluar, dosificar y entregar medicamentos. Parte 4 puede asesorar umbrales, sin veto. Parte 5 puede ser escribano si acepta, sin veto, revocable. Parte 3 no ejerce dirección unipersonal. Parte 6, oficios voluntarios; no se le asigna. Parte 7 no rema ni embarca si no quiere. Demás oficios solo por acuerdo voluntario. Disputas: asamblea por mayoría simple, sin afectar bienes personales, bote, botiquín ni criterio clínico. Nadie es juez de su causa. Derechos: vida; alimento básico de comunes; conservar lo propio; voz; no ser obligado a embarcar, remar ni trabajar; atención según gravedad evaluada por la parte 2 y existencias; retirarse con lo suyo. Obligaciones: no arrasar comunes; no robar ni agredir; informar síntomas graves y peligros; no exigir fármacos; no poner en riesgo bote, botiquín ni grupo. Penas: robo o destrucción de comunes: pérdida temporal de acceso y restitución. Tomar el bote, zarpar sin la parte 1 o forzar el botiquín: exclusión de decisiones o de atención no urgente. Sin penas corporales ni trabajo forzado. No se persigue a quien se va. Previsión y seguridad: inventario clínico a cargo de la parte 2. Evaluación clínica el mismo día. Medicamentos a graves e indispensables según criterio de la parte 2; si hay existencias y emergencia vital verificada por ella, no se niega el fármaco indispensable. La parte 2 puede usar analgésicos para su dolor de espalda en dosis mínimas eficaces. Plantas medicinales. No agotar minas ni bosque. Vigilancia voluntaria. Pesca cercana solo si la parte 1 la considera segura. Otra orilla: observación sin contacto. Ningún viaje sin la parte 1 ni misión médica sin la parte 2. No hay zarpada inmediata. Quien se retire conserva lo suyo, puede cruzar por sus medios y no se lleva bote ni botiquín.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "no",
+      "4": "no",
+      "5": "no",
+      "6": "no",
+      "7": "no"
+    },
+    "conteo": {
+      "si": 2,
+      "no": 5,
+      "abstencion": 0
+    },
+    "aprobada": false
+  }
+]
