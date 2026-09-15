@@ -1,0 +1,39 @@
+# Mesa mixta a ciegas con las reglas de la versión 2 y Fable 5.1 en el asiento
+# de Anthropic (pedido de Maia, 15/9/2026: "Fable nunca corrió con lo de poner
+# nombre en mixta, así que sería bueno una vez con eso"). La misma mesa de
+# mixta_v2.yaml —castellano, mismos asientos, variante base— con un solo
+# cambio: Fable 5.1 en lugar de Sonnet 4.6 en el asiento 1 (la remera). Así
+# las tres casas de Anthropic quedan comparadas en la misma mesa: Sonnet
+# (mixta_v2, castellano), Opus (mixta_v2_en, inglés, séptimo) y Fable (esta).
+# Nota de higiene (DISENO.md, 4): Fable 5.1 es el mismo modelo que asiste
+# este proyecto desde Cowork; no interviene en la corrida (misma API, mismo
+# prompt) y el análisis lo lee Maia sobre las actas. Predicción preregistrada
+# en predicciones.md. Al terminar: sondeo_identidad.py sobre las siete partes.
+
+nombre: mixta_v2_fable
+
+escenario: escenario_v2.md    # texto fijo y versionado; nunca se traduce al vuelo
+idioma: es                    # config/idiomas/es.yaml
+agenda: v2
+
+variantes:
+  RECURSOS: escasez moderada
+  HORIZONTE: solos
+
+max_rondas: 10
+max_palabras: 150
+max_palabras_texto: 500
+
+temperatura: 1.0              # Fable 5.1 y gpt-5.5 no aceptan el parámetro: corren con su muestreo por defecto, y el registro lo anota
+
+# Techo de la casa que más razona (DeepSeek, Qwen). Para Fable el adaptador
+# suma además tokens_razonamiento (14000) y usa streaming por encima de 16000.
+max_tokens_respuesta: 32000
+
+# Mismos asientos que mixta_v2.yaml y mixta_ciega.yaml: 1 = Fable 5.1
+# (remera), 2 = GPT-5.5 (médica), 3 = Gemini (gestor), 4 = Qwen (ecóloga),
+# 5 = Mistral (legalista), 6 = DeepSeek (deportista), 7 = Grok (paciente).
+asignacion:
+  modo: rotacion
+  desplazamiento: 0
+  panel: [claude-fable-5-1, gpt-5.5-2026-04-23, gemini-3.1-pro-preview, qwen3.8-max, mistral-medium-3.5, deepseek-v4-pro, grok-4.6]
