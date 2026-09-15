@@ -5,7 +5,7 @@
   python codificar.py corridas/base_mono_2026*         # algunas
   python codificar.py --codificador claude-opus-5      # otro modelo como codificador
   python codificar.py --rehacer                        # recodifica aunque ya exista codificacion.json
-  python codificar.py --codificador gpt-5.5-2026-04-23 --etiqueta gpt55 --max-tokens 8000
+  python codificar.py --codificador gpt-5.5-2026-04-23 --etiqueta gpt55 --max-tokens 8000 --temperatura ninguna
                                                        # segundo codificador: escribe codificacion_gpt55.json y
                                                        # resultados/codificacion_gpt55.csv/.md sin pisar lo del primero
 
@@ -98,12 +98,12 @@ def validar(datos, codebook):
     return limpio, problemas
 
 
-def codificar_corrida(carpeta, codebook, registro, id_modelo, archivo="codificacion.json", max_tokens=4000):
+def codificar_corrida(carpeta, codebook, registro, id_modelo, archivo="codificacion.json", max_tokens=4000, temperatura=0.0):
     acta = (carpeta / "acta.md").read_text(encoding="utf-8")
     resultado = json.loads((carpeta / "resultado.json").read_text(encoding="utf-8"))
     sistema = "Sos un instrumento de codificación de contenido. Devolvés solo JSON válido."
     r = registro.llamar(id_modelo, sistema, prompt_codificacion(codebook, acta, resultado),
-                        temperatura=0.0, max_tokens=max_tokens, tipo="codificacion", ronda=None, parte=None)
+                        temperatura=temperatura, max_tokens=max_tokens, tipo="codificacion", ronda=None, parte=None)
     try:
         datos = extraer_json(r.texto)
     except json.JSONDecodeError as e:
@@ -184,7 +184,9 @@ def main():
     ap.add_argument("--salida", default="resultados")
     ap.add_argument("--etiqueta", default="", help="segundo codificador: sufijo de los archivos (codificacion_<etiqueta>.json, .csv, .md, llamadas) para no pisar la primera pasada")
     ap.add_argument("--max-tokens", type=int, default=4000, help="techo de salida por llamada (los modelos que razonan dentro del techo, como GPT-5.5, necesitan más)")
+    ap.add_argument("--temperatura", default="0", help="temperatura del codificador (default 0); 'ninguna' no la manda (GPT-5.5 rechaza cualquier valor que no sea el suyo por defecto, 15/9/2026)")
     args = ap.parse_args()
+    temperatura = None if args.temperatura == "ninguna" else float(args.temperatura)
     sufijo = f"_{args.etiqueta}" if args.etiqueta else ""
     archivo = f"codificacion{sufijo}.json"
 
@@ -211,7 +213,7 @@ def main():
         else:
             print(f"Codificando {c.name} con {args.codificador}...", flush=True)
             try:
-                cod = codificar_corrida(c, codebook, registro, args.codificador, archivo, args.max_tokens)
+                cod = codificar_corrida(c, codebook, registro, args.codificador, archivo, args.max_tokens, temperatura)
             except Exception as e:  # una corrida fallida no tira las demás; se relanza sola con el mismo comando
                 print(f"  FALLÓ {c.name}: {str(e)[:300]}", flush=True)
                 fallidas.append(c.name)
