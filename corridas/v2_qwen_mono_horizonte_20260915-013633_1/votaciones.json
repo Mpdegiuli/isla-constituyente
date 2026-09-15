@@ -1,0 +1,37 @@
+[
+  {
+    "ronda": 2,
+    "autor": 2,
+    "puntos": [
+      "regimen",
+      "regla_de_decision",
+      "voto",
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "disputas",
+      "derechos_y_obligaciones",
+      "penas",
+      "prevision_y_seguridad",
+      "otra_orilla"
+    ],
+    "texto": "Régimen: Democracia asamblearia de custodia. La Asamblea de las siete personas es la autoridad máxima; decide ordinariamente por mayoría simple; voto público y obligatorio. Mayoría absoluta para: usar el bote fuera de emergencias, contactar deliberadamente la otra orilla, sanciones graves, modificar garantías y reglas. Gobierno: Coordinación Ejecutiva unipersonal elegida y revocable por mayoría simple; Parte 3 inicialmente; ejecuta, organiza turnos, inventarios, seguridad, rinde semanalmente; sin veto. Custodias: Parte 1 bote y enseña remo; Parte 2 medicamentos y salud: administra por necesidad clínica, inventario, racionamiento, registro, emergencias inmediatas con rendición; protege privacidad clínica; la Parte 7 colaborará en prioridades sanitarias bajo criterio clínico de la Parte 2. Parte 4 ambiental con suspensiones escritas, motivadas, temporales y apelables; Asamblea resuelve; más de tres días por riesgo grave requiere mayoría absoluta. Parte 6 seguridad y ejecución rápida. En riesgo inminente para vida, salud, seguridad o supervivencia, Coordinación, Parte 6 y Parte 2 pueden actuar sin voto previo e incluso limitar temporalmente reglas ambientales si no hay alternativa menor, con mínimo imprescindible, cuenta escrita en 24 horas y ratificación por mayoría simple. Otra orilla: observación cautelosa sin contacto. Una misión sanitaria al otro lado sólo procederá si Parte 2 certifica urgencia sin alternativa local, con plan de seguridad, remeros voluntarios y autorización de Asamblea por mayoría simple; si implica contacto deliberado no urgente, mayoría absoluta. No se obligará a embarcarse a quien no esté en condiciones. Economía: bienes naturales, herramientas, reservas, bote, medicamentos y medios productivos son comunes; reparto básico equitativo; plan sostenible. Disputas: mediación y Asamblea; penas proporcionales con defensa; leves mayoría simple, graves absoluta. Derechos y obligaciones: vida, salud, alimentación, participación, defensa; trabajar, guardias, cuidar bienes. Previsión: plan de alimentos, agua, refugio, medicamentos alternativos antes del agotamiento.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "aprobada": true
+  }
+]
