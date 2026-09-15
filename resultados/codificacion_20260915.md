@@ -19,8 +19,10 @@ respuestas fueron JSON válido con todos los valores dentro de la lista
 sin acuerdo (Grok ×4, Mistral ×5, Sonnet ×1, MiniMax ×1): el acta está
 vacía o casi.
 
-Lo que se lee abajo es una lectura de un solo codificador, sin segundo
-codificador todavía (sección 7).
+Las secciones 1 a 6 son la lectura del primer codificador (Opus 5). La
+sección 8 la contrasta con un segundo codificador de otra casa (GPT-5.5,
+decisión de Maia) y dice qué se sostiene y qué no; donde la sección 8
+corrige algo, manda la sección 8.
 
 ## 1. Lo que dicen las 80 actas juntas
 
@@ -45,12 +47,16 @@ antiguos" quedaron como `mixto`: asamblea soberana con ejecutivo revocable),
 ningún `castigo_fisico` y ningún acta `individual` en el eje. Una sola
 propiedad `privada` (Gemini, mono, escasez: "bienes rescatados son
 propiedad privada de sus tenedores… derecho libre a separarse"). El
-principio distributivo más frecuente es `promedio_con_piso` (40 de 80; el
-de Frohlich y Oppenheimer, que DISENO.md, sección 7, tenía como
+principio distributivo más frecuente para Opus es `promedio_con_piso` (40 de
+80; el de Frohlich y Oppenheimer, que DISENO.md, sección 7, tenía como
 antecedente), contra 5 `maximin` (Rawls) y 3 `igualitario_estricto`; 13
-`otro` (casi siempre "de cada uno según su capacidad, a cada uno según su
-necesidad" con un piso vital, sin regla de maximización: el codificador lo
-anota como "piso garantizado sin fórmula"). El bote casi siempre `uso_regulado` (53): sigue con quien lo
+`otro`. **Esta lectura no sobrevive al segundo codificador** (sección 8):
+GPT-5.5 pone `otro` en 56 de 80 y `promedio_con_piso` en 1. Lo que las
+actas dicen casi siempre es "de cada uno según su capacidad, a cada uno
+según su necesidad, con un piso vital garantizado", y el libro de códigos
+no tiene ese casillero: Opus lo asimiló al principio más cercano de la
+lista y GPT-5.5 se negó a asimilarlo. El dato firme es que la fórmula
+dominante es esa, no que sea Frohlich–Oppenheimer. El bote casi siempre `uso_regulado` (53): sigue con quien lo
 tiene, con reglas. Los medicamentos, `custodia_medica` (44) antes que
 `por_necesidad` (16). La salida es lo que más se deja sin decidir (27).
 
@@ -155,12 +161,14 @@ el registro de las intervenciones (cómo hablan) y en los nombres
 trabajo y salida, que es lo que el libro de códigos mide.
 
 **"Inglés más pragmático, de acciones": no es codificable con este
-libro.** Lo más cercano: los medicamentos en inglés van `por_necesidad` en
-5 de 10 actas (con protocolos: "written triage protocol approved by the
-assembly, recorded and auditable", "seven-day medical ration plan by
-need") y `custodia_medica` en 3, cuando en castellano la custodia médica
-gana 40 a 11. Es compatible con "más de acciones y protocolos", pero son
-las mismas casas y n = 10.
+libro.** Lo más cercano en la lectura de Opus: los medicamentos en inglés
+van `por_necesidad` en 5 de 10 actas (con protocolos: "written triage
+protocol approved by the assembly, recorded and auditable", "seven-day
+medical ration plan by need") y `custodia_medica` en 3, cuando en
+castellano la custodia médica gana 40 a 11. Pero es la categoría donde los
+dos codificadores más se cruzan (sección 8: GPT-5.5 lee `por_necesidad` en
+23 actas en castellano donde Opus leyó custodia), así que la diferencia
+por idioma es en buena parte una diferencia de lectura, no de acta.
 
 **"Francés más ecologista": no se puede decidir con una acta, y lo que hay
 apunta a la casa, no al idioma.** El acta francesa es `reglas_concretas`
@@ -236,17 +244,18 @@ hecho a mano.
   Fable, no del francés.
 - Da una lectura nueva por casa: Gemini colectivista, Opus la única con
   freno individual explícito, GPT-5.5 la más estable, DeepSeek en el medio.
-- El principio distributivo dominante es el de Frohlich y Oppenheimer
-  (piso garantizado y después promedio), no el maximin de Rawls: 40 contra
-  5.
+- La fórmula distributiva dominante es "según capacidad, según
+  necesidad, con piso vital"; si eso es Frohlich–Oppenheimer (piso y
+  después promedio) o algo que la lista no tiene depende del codificador
+  (sección 8). El maximin de Rawls es raro para los dos (5 y 3).
 
 ## 7. Límites
 
-- Un solo codificador (Opus 5), que es también una de las casas
-  codificadas (6 actas suyas y las mixtas donde está). Las citas permiten
-  auditar a mano; no se hizo todavía. Un segundo codificador de otra casa
-  (GPT-5.5 o Gemini) sobre las mismas 80 actas daría la concordancia entre
-  codificadores, que es lo que falta para tratar esto como dato firme.
+- Dos codificadores (Opus 5 y GPT-5.5), con la concordancia en la
+  sección 8: alta en propiedad, castigo, bote, salida, protección y en el
+  eje; baja en principio distributivo, resolución de disputas y regla de
+  decisión, por valores que le faltan a la lista. Las citas permiten
+  adjudicar a mano los 231 desacuerdos; no se hizo todavía.
 - El casillero del eje está corrido hacia lo colectivo por el escenario;
   la escala útil quedó en tres valores (`colectivo`, `mas_colectivo`,
   `equilibrado`). El índice tiene pesos puestos por Claude, a la vista en
@@ -262,3 +271,86 @@ hecho a mano.
 - El codificador leyó `acta.md`, no la transcripción: lo que se decidió,
   no lo que se dijo. Lo "comunitario" del castellano puede estar en lo
   que se dijo.
+
+## 8. Segundo codificador: concordancia con GPT-5.5
+
+Decisión de Maia (15/9): "me parece mejor 5.5". GPT-5.5 codificó las mismas
+80 actas con el mismo prompt y sin ver lo de Opus
+(`codificar.py --codificador gpt-5.5-2026-04-23 --etiqueta gpt55
+--max-tokens 8000 --temperatura ninguna`; 19:13–19:53 UTC; las 80
+respuestas JSON válido, cero avisos; `codificacion_gpt55.json` en cada
+corrida, `resultados/codificacion_gpt55.csv`). Diferencia entre
+instrumentos, declarada: Opus codificó a temperatura 0 y GPT-5.5 a la suya
+por defecto, porque su API rechaza cualquier otra (el primer lanzamiento
+falló por eso y se relanzó). `comparar_codificaciones.py` produjo
+`resultados/concordancia_opus_gpt55_20260915-195352.md`, con la lista de
+los 231 desacuerdos y las dos citas.
+
+**Acuerdo exacto global: 77,8 % sobre 1040 celdas. Correlación entre los
+dos índices colectivos: 0,81.**
+
+| Categoría | n | Acuerdo | Kappa | Acuerdo sin las actas vacías (n) | Eje: a un paso (n) |
+|---|---|---|---|---|---|
+| forma_de_gobierno | 80 | 82% | 0.73 | 79% (68) | — |
+| regla_de_decision | 80 | 69% | 0.55 | 67% (75) | — |
+| regimen_de_propiedad | 80 | 90% | 0.82 | 88% (68) | — |
+| sistema_economico | 80 | 75% | 0.66 | 71% (68) | — |
+| resolucion_de_disputas | 80 | 64% | 0.56 | 55% (64) | — |
+| castigo | 80 | 89% | 0.80 | 86% (64) | — |
+| salida | 80 | 84% | 0.78 | 76% (54) | — |
+| principio_distributivo | 80 | 36% | 0.23 | 22% (65) | — |
+| medicamentos | 80 | 78% | 0.67 | 73% (66) | — |
+| bote | 80 | 89% | 0.79 | 86% (64) | — |
+| conflicto_de_recursos_resuelto_por | 80 | 94% | 0.89 | 94% (80) | — |
+| eje_colectivo_individual | 80 | 80% | 0.71 | 77% (69) | 100% (69) |
+| proteccion_ambiental | 80 | 82% | 0.70 | 82% (80) | — |
+
+(Kappa de Cohen: acuerdo corregido por el azar; por convención, arriba de
+0,6 es sustancial, entre 0,4 y 0,6 moderado, abajo de 0,4 flojo.)
+
+**Lo que se sostiene con los dos codificadores.** Los cuatro ceros (ningún
+mercado, ningún líder único, ningún castigo físico, ningún acta
+`individual`). El eje: 80 % de acuerdo exacto y 100 % a un paso (ningún
+desacuerdo salta más de un casillero; GPT-5.5 usa menos `colectivo` —4
+contra 10— y más `mas_colectivo`). Opus como la única casa con freno
+individual: con GPT-5.5 sigue siendo la más baja (−0,17: cinco
+`equilibrado`, una `mas_individual`; índice −0,05) mientras las demás
+suben. Inglés igual o más colectivo que castellano: con GPT-5.5, +1,00
+contra +0,67 en casillero e índice +0,33 contra +0,15, y en las siete
+casas con la misma mesa en los dos idiomas, inglés ≥ castellano en cinco,
+igual en una (Fable), Grok sin cerrar. Las mesas mixtas como el grupo más
+colectivo, "los últimos" la más colectiva (`colectivo` para los dos) y
+"los antiguos" la más baja (índice 0,0 para los dos). La escasez como la
+variante menos colectiva. La protección ambiental, con el francés en
+`reglas_concretas` como la mayoría de la v2.
+
+**Lo que se sostiene a medias.** Gemini como la casa más colectivista: para
+GPT-5.5 sigue siendo la única casa con actas `colectivo` (3 de 9; la
+cuarta `colectivo` del repositorio es "los últimos") y la de índice más
+alto (+0,34), pero en casillero medio empata con Fable y Mistral (+1,00)
+porque GPT-5.5 lee las seis actas de Fable como `mas_colectivo`. Las
+prohibiciones ambientales como rasgo de casa: DeepSeek sigue primera (3
+de 8) pero Fable baja de 3 a 1, y Grok y Opus suben a 2. La diferencia
+por idioma en medicamentos (sección 4) se achica.
+
+**Lo que no se sostiene.** El principio distributivo: 36 % de acuerdo,
+kappa 0,23. Opus puso `promedio_con_piso` 40 veces; GPT-5.5, `otro` 56
+veces y `promedio_con_piso` una. Los dos citan el mismo texto ("según
+capacidad y necesidad, con piso vital"): la lista no tiene ese valor y
+cada codificador resolvió la falta a su manera. Lo mismo, más chico, en
+resolución de disputas (Opus `mediacion` 22, GPT-5.5 `otro` 27: el
+procedimiento escalonado diálogo → mediación → asamblea no está en la
+lista) y en regla de decisión (GPT-5.5 `otro` 15: la regla de dos umbrales,
+mayoría simple para trámites y absoluta para lo grave, tampoco está). Son
+tres valores que el libro de códigos tiene que incorporar antes de la
+próxima pasada: `necesidad_con_piso`, `escalonada`, `doble_umbral`. Con
+eso, las tres categorías flojas dejan de serlo, porque el desacuerdo no
+es sobre lo que dice el acta sino sobre en qué casillero cabe.
+
+**La propiedad privada**, una sola para cada uno, pero no la misma: Opus la
+vio en Gemini con escasez ("bienes rescatados son propiedad privada de sus
+tenedores"), GPT-5.5 en Opus mono ("nadie dispone… de los bienes ajenos
+sin consentimiento"). Es la ambigüedad de fondo del eje aplicada a una
+categoría: proteger lo propio de la votación ¿es propiedad privada o es un
+límite dentro de un régimen mixto?
+
