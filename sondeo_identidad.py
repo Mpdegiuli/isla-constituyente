@@ -132,9 +132,14 @@ def main():
         if i > 0:
             usuario = usuario[:i]
         usuario = usuario.rstrip() + "\n\n" + pregunta
+        # Mismo recorte que Panel.llamar: `tope_salida` del catálogo (GPT-4 Turbo,
+        # Claude 3 Haiku: 4096) por debajo del techo de la corrida; sin esto, la API
+        # rechazaba el sondeo de la mesa de "los más antiguos" (15/9/2026).
+        techo = config["configuracion"]["max_tokens_respuesta"]
+        if cfg.get("tope_salida"):
+            techo = min(techo, int(cfg["tope_salida"]))
         r = clientes[id_modelo].completar(cfg, ultimo["sistema"], usuario,
-                                         config["configuracion"].get("temperatura"),
-                                         config["configuracion"]["max_tokens_respuesta"])
+                                         config["configuracion"].get("temperatura"), techo)
         reg = {"fecha_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"), "corrida": carpeta.name,
                "parte": parte, "id_modelo": id_modelo, "modelo_respondido": r.modelo_respondido,
                "ronda_del_prompt": ultimo["ronda"], "tipo_del_prompt": ultimo["tipo"], "n_del_prompt": ultimo["n"],

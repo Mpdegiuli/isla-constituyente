@@ -65,3 +65,10 @@ no se toque; si se toca, la corrida se corta y es inválida.
 | `v2_grok_mono_horizonte_20260914-221058_1` | Falló en la llamada 1 por el mismo motivo. Repetida. |
 | `v2_qwen_mono_horizonte_20260914-231626_1` | Parcial: crédito de OpenRouter agotado en la llamada 6 ("This request requires more credits, or fewer max_tokens: requested 32000, can only afford 26829"). Repetida. |
 | `v2_kimi_mono_20260914-233230_1`, `v2_kimi_mono_horizonte_20260914-233702_1` | Fallaron en la llamada 1 por el mismo motivo. Repetidas. |
+
+## Mesa mixta v2 con "los más antiguos" (15/9/2026)
+
+| Corrida | Motivo |
+|---|---|
+| `mixta_v2_antiguos_20260915-120206_1` | Falló en la llamada 1 (Claude 3 Haiku, asiento 1): OpenRouter devolvió 404 "No endpoints found for anthropic/claude-3-haiku" porque el catálogo fijaba `provider.order: [anthropic]` con `allow_fallbacks: false` y el único hosting que hoy lo sirve por OpenRouter es Amazon Bedrock. Carpeta vacía. Corrección: `allow_fallbacks: true` (el hosting real queda en `servido_por`). |
+| `mixta_v2_antiguos_20260915-121358_1` | Falló en la llamada 3 (Gemini 2.5 Pro, asiento 3): la API directa de Google devolvió 404 "models/gemini-2.5-pro is no longer available to new users". La entrada nueva del catálogo (vía OpenRouter) se llamaba `gemini-2.5-pro`, igual que una entrada vieja de la API directa que ya existía más abajo en `config/modelos.yaml`; en YAML la clave repetida se resuelve con la última, y ganó la directa. Dos turnos válidos como muestra (Haiku y GPT-4 Turbo, ambos con texto en la ronda 1). Corrección: clave `gemini-2.5-pro-openrouter`, panel actualizado. |
