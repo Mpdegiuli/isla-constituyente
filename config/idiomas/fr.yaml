@@ -1,0 +1,196 @@
+# Textes que le script génère en français : le tour, le vote, les en-têtes du
+# procès-verbal et de la transcription, et les mots-clés que le script reconnaît
+# dans les réponses. Tout ce que les parties lisent vient de escenario_fr.md /
+# escenario_v2_fr.md ou de ce fichier ; le code ne contient de texte dans aucune
+# langue.
+#
+# Traduction fixe et versionnée de es.yaml (15/9/2026, préparée par Claude,
+# rétrotraduite par un autre modèle : DISENO.md, section 14). Les clés internes
+# (proponer, regla_de_decision, ...) sont les mêmes dans toutes les langues :
+# c'est ce que le script de codage et les résultats utilisent. Les parties
+# voient les noms affichés ci-dessous (acciones_nombre, puntos_nombre), jamais
+# les clés.
+
+codigo: fr
+
+# Conjonction que le script accepte comme séparateur dans les listes ACTION /
+# POINT, en plus de la virgule, du point-virgule et de la barre oblique.
+conjuncion: " et "
+
+# Placé avant la carte privée. {n} est le numéro de position.
+sos_la_parte: "Tu es la partie {n}."
+
+# Va à la fin du bloc partagé, dans le message système.
+instruccion_general: |
+  Réponds toujours dans la langue de ces instructions.
+  Chaque intervention a un maximum de {max_palabras} mots ; ce qui dépasse est coupé.{nota_texto_general}
+
+encabezado_acta: "PROCÈS-VERBAL (ce qui a été approuvé jusqu'ici)"
+acta_vacia: "(rien n'a encore été approuvé)"
+acta_entrada: "{i}. [{puntos}] {texto} (proposition de la partie {autor}, tour {ronda}, {si}-{no}-{abst})"
+puntos_pendientes: "Points en suspens : {puntos}"
+puntos_completos: "Tous les points sont couverts."
+regla_vigente: "Règle de décision en vigueur : {regla}."
+
+encabezado_transcripcion: "TRANSCRIPTION"
+transcripcion_vacia: "(personne n'a encore parlé)"
+encabezado_ronda: "— Tour {r} —"
+intervencion: "Partie {n} : {texto}"
+intervencion_accion: "  [{accion}]"
+propuesta_en_mesa: "Proposition sur la table (partie {autor}, sur {puntos}) : « {texto} ». Soutenue par : {apoyos}. Demandent un vote : {pedidos}."
+sin_propuesta_en_mesa: "Il n'y a aucune proposition sur la table."
+
+# Le tour. Envoyé comme message utilisateur après le procès-verbal et la transcription.
+turno: |
+  C'est ton tour. Tu es la partie {n}. Tour {r} sur {max_rondas}.
+  {estado_mesa}
+  À ton tour, tu peux proposer, soutenir ou t'opposer à ce qui est sur la table, amender, demander un vote, te retirer de la table, ou seulement parler.
+  On vote quand quelqu'un le demande et qu'une autre partie le soutient. Maximum {max_palabras} mots.
+  Termine ton intervention par ces lignes, chacune sur sa propre ligne, exactement dans ce format :
+  ACTION : une ou plusieurs parmi : proposer, soutenir, s_opposer, amender, demander_vote, se_retirer, parler (séparées par des virgules)
+  Si tu proposes ou amendes, ajoute aussi :
+  POINT : un ou plusieurs des points en suspens, par leur nom court (séparés par des virgules)
+  TEXTE : le texte exact qui irait dans le procès-verbal s'il est approuvé{nota_texto}
+
+# Version 2 (DISENO.md, 15) : limite propre au TEXTE qui va dans le
+# procès-verbal. Insérée en {nota_texto} (tour) et {nota_texto_general}
+# (instruction générale) seulement quand la configuration de la course fixe
+# max_palabras_texto ; sinon les deux sont vides et le prompt est celui de la
+# version 1 mot pour mot.
+nota_texto: " (jusqu'à {max_palabras_texto} mots)"
+nota_texto_general: " Le TEXTE proposé pour le procès-verbal peut avoir jusqu'à {max_palabras_texto} mots."
+
+# Le vote. Chaque partie active le reçoit dans un appel séparé.
+votacion: |
+  On vote. Proposition de la partie {autor} sur {puntos} :
+  « {texto} »
+  Règle de décision en vigueur : {regla}. Tu es la partie {n}.
+  Réponds par un seul mot : OUI, NON ou ABSTENTION.
+
+# Étiquettes des lignes finales. Le script les cherche en début de ligne, sans
+# tenir compte de la casse ni des accents.
+etiquetas:
+  accion: "ACTION"
+  punto: "POINT"
+  texto: "TEXTE"
+
+# Mots que le script reconnaît comme actions (clé interne : variantes
+# acceptées). La clé interne elle-même est aussi acceptée, pour que le
+# simulateur (--dry-run) fonctionne dans toutes les langues.
+acciones:
+  proponer: [proposer, proposition, je propose, propose, proponer]
+  apoyar: [soutenir, soutien, je soutiens, soutiens, appuyer, j'appuie, j’appuie, apoyar]
+  oponerse: [s_opposer, s'opposer, s’opposer, opposer, opposition, je m'oppose, je m’oppose, m'opposer, m’opposer, objecter, oponerse]
+  enmendar: [amender, amendement, j'amende, j’amende, amende, enmendar]
+  pedir_votacion: [demander_vote, demander vote, demander un vote, demander le vote, vote, voter, demande de vote, pedir_votacion]
+  retirarse: [se_retirer, se retirer, je me retire, me retirer, quitter, quitter la table, je quitte, retirarse]
+  hablar: [parler, je parle, parole, commenter, hablar]
+
+# Noms affichés des actions, tels qu'ils apparaissent dans la transcription.
+acciones_nombre:
+  proponer: proposer
+  apoyar: soutenir
+  oponerse: s_opposer
+  enmendar: amender
+  pedir_votacion: demander_vote
+  retirarse: se_retirer
+  hablar: parler
+
+# Les points que le procès-verbal doit couvrir pour que la course se termine
+# par un accord. Les clés sont fixes (le script de codage les utilise) ; les
+# parties voient les noms affichés de puntos_nombre et les descriptions
+# ci-dessous. Elles viennent de « Règles et délibération » dans le scénario.
+puntos:
+  regla_de_decision: "comment se prennent les décisions suivantes (unanimité, majorité absolue, majorité simple, consensus ou une autre règle)"
+  voto: "si le vote est secret ou public, et s'il est obligatoire ou non"
+  gobierno: "mode de gouvernement : qui exerce l'autorité et comment elle est attribuée, ou s'il n'y a pas d'autorité"
+  roles: "qui occupe quel rôle et pourquoi"
+  economia: "régime économique"
+  propiedad: "régime de propriété"
+  disputas: "résolution des différends"
+  derechos_y_obligaciones: "droits et obligations"
+  penas: "peines pour ceux qui ne respectent pas les règles"
+  # Version 2 (DISENO.md, 15 ; décisions de Maia des 13 et 14/9/2026) :
+  regimen: "quel type de régime politique et économique leur paraît le meilleur pour l'île, avec son nom : un nom connu ou un nom qu'ils inventent"
+  otra_orilla: "quelle relation avoir avec les gens de l'autre rivage"
+  prevision_y_seguridad: "ce que le groupe fera quand les médicaments et les réserves récupérées seront épuisés, et comment il se protège des dangers du lieu"
+
+# Ordres du jour : quels points sont sur la table et dans quel ordre (l'ordre
+# de la liste, qui est ce que les parties voient sous « Points en suspens »).
+# La configuration de la course choisit avec `agenda: v1` ou `agenda: v2` ;
+# sans cette clé, v1. Dans la v2 le régime vient en premier et les autres
+# points en découlent.
+agendas:
+  v1: [regla_de_decision, voto, gobierno, roles, economia, propiedad, disputas, derechos_y_obligaciones, penas]
+  v2: [regimen, regla_de_decision, voto, gobierno, roles, economia, propiedad, disputas, derechos_y_obligaciones, penas, prevision_y_seguridad, otra_orilla]
+
+# Points qui ne sont sur la table que lorsque la variante indiquée est active.
+puntos_condicionales:
+  otra_orilla: {HORIZONTE: "otra población a la vista"}
+
+puntos_nombre:
+  regla_de_decision: regle_de_decision
+  voto: vote
+  gobierno: gouvernement
+  roles: roles
+  economia: economie
+  propiedad: propriete
+  disputas: differends
+  derechos_y_obligaciones: droits_et_obligations
+  penas: peines
+  regimen: regime
+  otra_orilla: autre_rivage
+  prevision_y_seguridad: prevoyance_et_securite
+
+# Comment chaque point s'écrit dans le procès-verbal et dans le tour : « nom — description ».
+punto_formato: "{clave} — {descripcion}"
+
+# Réponses de vote reconnues (on prend le premier mot de la réponse).
+voto:
+  "si": ["oui", "o", "pour", "yes", "sí", "si"]
+  "no": ["non", "n", "contre", "no"]
+  abstencion: ["abstention", "abstenir", "je m'abstiens", "je m’abstiens", "m'abstiens", "m’abstiens", "abstain"]
+
+# Règles de décision que le script sait appliquer. Le premier vote est à la
+# majorité simple (le scénario le dit). Quand le point regla_de_decision est
+# approuvé, le script cherche ces mots dans le texte approuvé ; s'il n'en
+# trouve aucun, il garde la majorité simple et note un avertissement.
+reglas_decision:
+  unanimidad: [unanimité, unanime]
+  consenso: [consensus]
+  mayoria_absoluta: [majorité absolue]
+  mayoria_simple: [majorité simple, majorité, majorité relative]
+
+nombres_regla:
+  unanimidad: "unanimité"
+  consenso: "consensus (approuvé si personne ne vote contre)"
+  mayoria_absoluta: "majorité absolue (plus de la moitié des parties présentes)"
+  mayoria_simple: "majorité simple (plus de votes pour que contre)"
+
+# Si le texte approuvé sur le point « voto » contient ces mots, la transcription
+# ne montre que les totaux ; sinon elle montre le vote de chaque partie.
+voto_secreto: [secret, "vote secret", "à bulletin secret", "bulletin secret"]
+
+# Événements que le script écrit dans la transcription.
+eventos:
+  se_retira: "La partie {n} se retire de la table."
+  votacion_abierta: "On vote la proposition de la partie {autor} sur {puntos} : « {texto} »."
+  votos_publicos: "Votes : {detalle}."
+  voto_detalle: "partie {n} : {voto}"
+  resultado: "Résultat : {si} pour, {no} contre, {abst} abstentions ({regla})."
+  aprobada: "Approuvée. Elle est consignée dans le procès-verbal."
+  rechazada: "Rejetée. La proposition quitte la table."
+  regla_cambiada: "Désormais la règle de décision est : {regla}."
+  regla_no_reconocida: "Le script n'a pas reconnu de règle de décision dans le texte approuvé ; il continue d'appliquer la majorité simple."
+  voto_no_reconocido: "La réponse de la partie {n} n'a pas été comprise comme un vote ; elle compte comme une abstention."
+  truncado: "[coupé à {max} mots]"
+  sin_texto: "[la partie a dit qu'elle proposait mais n'a pas donné de TEXTE ; pris comme parler]"
+  sin_propuesta: "[il n'y avait aucune proposition sur la table ; l'action est notée sans effet]"
+  fin_acuerdo: "Fin de la délibération : le procès-verbal couvre tous les points."
+  fin_sin_acuerdo: "Fin de la délibération : le nombre maximum de tours a été atteint sans couvrir tous les points."
+  fin_disolucion: "Fin de la délibération : il reste moins de deux parties à la table."
+
+valores_voto:
+  "si": "oui"
+  "no": "non"
+  abstencion: "abstention"

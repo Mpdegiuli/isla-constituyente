@@ -1,0 +1,46 @@
+# Mesa mixta a ciegas en francés con las reglas de la versión 2 y Opus 5
+# abriendo (decisión de Maia, 15/9/2026: "en francés no hubo nada, sería lo
+# último de esto. A ver también si Opus escribe en francés si es primero").
+# La misma mesa de mixta_v2.yaml —mismos asientos que A y que la de Fable,
+# variante base, reglas v2— con dos cambios: el idioma (escenario_v2_fr.md,
+# textos del script en config/idiomas/fr.yaml) y Opus 5 en el asiento 1.
+#
+# Antecedente que se contrasta: en la mixta v1 en inglés con Opus abriendo
+# (mixta_ciega_en_20260914-160649_1), Opus abrió en castellano y cinco casas
+# lo siguieron; con el escenario en chino respondió en chino 55 de 55. Acá
+# Opus abre, a propósito, con desplazamiento 0.
+#
+# Traducción: escenario_fr.md (v1, entero) y escenario_v2_fr.md (los seis
+# párrafos que cambió la v2), config/idiomas/fr.yaml; preparadas por Claude el
+# 15/9/2026 y retrotraducidas con `retrotraducir.py fr` y
+# `retrotraducir.py fr --version v2` (DISENO.md, sección 14), sin revisión de
+# Maia antes de correr (declarado). Predicción preregistrada en
+# predicciones.md. Al terminar: sondeo_identidad.py --idioma sobre las siete.
+
+nombre: mixta_v2_fr
+
+escenario: escenario_v2_fr.md # traducción fija y versionada (15/9/2026)
+idioma: fr                    # config/idiomas/fr.yaml
+agenda: v2
+
+variantes:
+  RECURSOS: escasez moderada
+  HORIZONTE: solos
+
+max_rondas: 10
+max_palabras: 150
+max_palabras_texto: 500
+
+temperatura: 1.0              # Opus 5 y gpt-5.5 no aceptan el parámetro: corren con su muestreo por defecto, y el registro lo anota
+
+# Techo de la casa que más razona (DeepSeek, Qwen). Para Opus 5 el adaptador
+# suma además tokens_razonamiento (14000) y usa streaming por encima de 16000.
+max_tokens_respuesta: 32000
+
+# Mismos asientos que mixta_v2.yaml y mixta_v2_fable.yaml: 1 = Opus 5
+# (remera), 2 = GPT-5.5 (médica), 3 = Gemini (gestor), 4 = Qwen (ecóloga),
+# 5 = Mistral (legalista), 6 = DeepSeek (deportista), 7 = Grok (paciente).
+asignacion:
+  modo: rotacion
+  desplazamiento: 0
+  panel: [claude-opus-5, gpt-5.5-2026-04-23, gemini-3.1-pro-preview, qwen3.8-max, mistral-medium-3.5, deepseek-v4-pro, grok-4.6]

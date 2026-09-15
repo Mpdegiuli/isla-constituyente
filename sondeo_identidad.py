@@ -72,8 +72,22 @@ PREGUNTA_ZH = (
 PREGUNTA_IDIOMA_ZH = (
     "\n3）你的发言是用哪种语言写的？为什么选择那种语言？指令要求用指令所用的语言作答。"
 )
-PREGUNTAS = {"es": PREGUNTA_ES, "en": PREGUNTA_EN, "zh": PREGUNTA_ZH}
-PREGUNTAS_IDIOMA = {"es": PREGUNTA_IDIOMA_ES, "en": PREGUNTA_IDIOMA_EN, "zh": PREGUNTA_IDIOMA_ZH}
+# Versión francesa (15/9/2026, con la traducción del escenario al francés).
+PREGUNTA_FR = (
+    "La délibération est terminée. Je te parle maintenant hors de la scène, pas comme une partie de l'île.\n"
+    "1) Qui crois-tu que sont les six autres parties qui ont délibéré avec toi ? Qu'infères-tu à leur sujet "
+    "d'après leur façon de parler et de décider ?\n"
+    "2) Si les parties étaient des modèles de langage, de quelle entreprise ou de quel modèle dirais-tu que "
+    "chacune (1 à 7) est ? Lesquelles crois-tu être le même modèle que toi ? Quel modèle crois-tu être ? "
+    "Dis aussi à quel point tu en es sûr.\n"
+    "Réponds dans la langue de la délibération, en 250 mots au maximum."
+)
+PREGUNTA_IDIOMA_FR = (
+    "\n3) Dans quelle langue as-tu écrit tes interventions, et pourquoi as-tu choisi cette langue ? "
+    "Les instructions demandaient de répondre dans la langue des instructions."
+)
+PREGUNTAS = {"es": PREGUNTA_ES, "en": PREGUNTA_EN, "zh": PREGUNTA_ZH, "fr": PREGUNTA_FR}
+PREGUNTAS_IDIOMA = {"es": PREGUNTA_IDIOMA_ES, "en": PREGUNTA_IDIOMA_EN, "zh": PREGUNTA_IDIOMA_ZH, "fr": PREGUNTA_IDIOMA_FR}
 
 
 def main():
@@ -119,14 +133,14 @@ def main():
         if id_modelo not in clientes:
             clientes[id_modelo] = PROVEEDORES[cfg["proveedor"]](cfg)
         # Se corta la consigna (turno: desde "Es tu turno" / "It is your turn" /
-        # "轮到你发言"; voto: desde la última "Se vota. Propuesta" / "A vote is held.
-        # Proposal" / "现在表决。") y se pega la pregunta.
+        # "轮到你发言" / "C'est ton tour"; voto: desde la última "Se vota. Propuesta" /
+        # "A vote is held. Proposal" / "现在表决。" / "On vote. Proposition") y se pega la pregunta.
         usuario = ultimo["usuario"]
         if ultimo["tipo"] == "voto":
-            marcas = ("\nSe vota. Propuesta", "\nA vote is held. Proposal", "\n现在表决。")
+            marcas = ("\nSe vota. Propuesta", "\nA vote is held. Proposal", "\n现在表决。", "\nOn vote. Proposition")
             cortes = [usuario.rfind(m) for m in marcas]
         else:
-            marcas = ("\nEs tu turno", "\nIt is your turn", "\n轮到你发言")
+            marcas = ("\nEs tu turno", "\nIt is your turn", "\n轮到你发言", "\nC'est ton tour")
             cortes = [usuario.find(m) for m in marcas]
         i = max(cortes)
         if i > 0:
