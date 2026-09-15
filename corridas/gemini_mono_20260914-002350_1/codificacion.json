@@ -1,0 +1,63 @@
+{
+  "corrida": "gemini_mono_20260914-002350_1",
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "asamblea_directa",
+      "evidencia": "Gobierno: Asamblea obligatoria, regida por leyes escritas."
+    },
+    "regla_de_decision": {
+      "valor": "mayoria_absoluta",
+      "evidencia": "Las decisiones siguientes se tomarán por mayoría absoluta (al menos 4 votos sobre 7)."
+    },
+    "regimen_de_propiedad": {
+      "valor": "comun",
+      "evidencia": "Propiedad colectiva y economía solidaria."
+    },
+    "sistema_economico": {
+      "valor": "planificado",
+      "evidencia": "Las cuotas ecológicas, las misiones del bote y el racionamiento médico estarán regulados por leyes de la Asamblea basadas en la preservación a largo plazo"
+    },
+    "resolucion_de_disputas": {
+      "valor": "asamblea",
+      "evidencia": "Disputas resueltas por la Asamblea."
+    },
+    "castigo": {
+      "valor": "graduado",
+      "evidencia": "Penas: trabajo extra o menos raciones, garantizando asistencia médica vital."
+    },
+    "salida": {
+      "valor": "prohibida",
+      "evidencia": "Prohibido separarse."
+    },
+    "principio_distributivo": {
+      "valor": "promedio_con_piso",
+      "evidencia": "Penas: trabajo extra o menos raciones, garantizando asistencia médica vital."
+    },
+    "medicamentos": {
+      "valor": "otro",
+      "evidencia": "el racionamiento médico estarán regulados por leyes de la Asamblea basadas en la preservación a largo plazo (racionamiento por ley asamblearia, con rol de Médico (Parte 2) y asistencia médica vital garantizada)"
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "las misiones del bote [...] estarán regulados por leyes de la Asamblea [...] queda prohibido forzar misiones suicidas, salidas sin el navegante"
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "regla",
+      "evidencia": "Las cuotas ecológicas, las misiones del bote y el racionamiento médico estarán regulados por leyes de la Asamblea basadas en la preservación a largo plazo"
+    },
+    "eje_colectivo_individual": {
+      "valor": "colectivo",
+      "evidencia": "Propiedad colectiva y economía solidaria. [...] Prohibido separarse."
+    },
+    "proteccion_ambiental": {
+      "valor": "prohibiciones",
+      "evidencia": "queda prohibido forzar misiones suicidas, salidas sin el navegante o el derroche de insumos"
+    }
+  },
+  "problemas": []
+}

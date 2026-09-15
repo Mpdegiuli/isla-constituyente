@@ -1,0 +1,63 @@
+{
+  "corrida": "mixta_v2_antiguos_20260915-125244_1",
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "mixto",
+      "evidencia": "Un Coordinador General elegido por la Asamblea por un mandato de 6 meses (reelegible una vez). El Coordinador tiene autoridad para tomar decisiones ejecutivas urgentes, pero las decisiones estratégicas a largo plazo requieren aprobación en la Asamblea General mensual."
+    },
+    "regla_de_decision": {
+      "valor": "mayoria_simple",
+      "evidencia": "Mayoría simple para decisiones generales. Mayoría absoluta (4 de 7) para cambios constitucionales, destitución del Coordinador o aplicación de penas graves."
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "Sistema mixto. Las pertenencias personales son propiedad privada. Los recursos naturales, herramientas y reservas rescatadas son propiedad comunitaria"
+    },
+    "sistema_economico": {
+      "valor": "mixto",
+      "evidencia": "Economía y propiedad: Sistema mixto. ... Obligación de contribuir con 4 horas diarias de trabajo comunitario y respetar las normas."
+    },
+    "resolucion_de_disputas": {
+      "valor": "mediacion",
+      "evidencia": "Se resuelven mediante mediación en la Asamblea. Si la disputa persiste, se somete a una votación vinculante."
+    },
+    "castigo": {
+      "valor": "graduado",
+      "evidencia": "Leve: amonestación. Reincidencia: trabajo comunitario adicional. Grave (apropiación de recursos, sabotaje): expulsión del grupo, decidida por mayoría absoluta."
+    },
+    "salida": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "principio_distributivo": {
+      "valor": "otro",
+      "evidencia": "Régimen: Meritocracia coordinada con controles democráticos. ... Derecho a atención médica, acceso a la información y al voto. Obligación de contribuir con 4 horas diarias de trabajo comunitario (mérito coordinado con un piso de derechos garantizados, sin principio explícito de reparto)"
+    },
+    "medicamentos": {
+      "valor": "custodia_medica",
+      "evidencia": "Comité de Salud: Dirigido por la Parte 2. Su función es la gestión exclusiva de los medicamentos, los cuales serán catalogados y su uso monitorizado. Se priorizarán las urgencias (como las de la Parte 7), garantizando un acceso equitativo."
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "Responsable de Bote y Exploración: Parte 1. ... Se enviará el bote de inmediato (Parte 1 + 1 voluntario) a buscar ayuda."
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "mixto",
+      "evidencia": "El Comité de Recursos elaborará un plan de contingencia para el agotamiento de reservas (exploración de flora local, agricultura sostenible, construcción de refugios). ... gestión exclusiva de los medicamentos, los cuales serán catalogados y su uso monitorizado. Se priorizarán las urgencias"
+    },
+    "eje_colectivo_individual": {
+      "valor": "mas_colectivo_que_individual",
+      "evidencia": "Las pertenencias personales son propiedad privada. Los recursos naturales, herramientas y reservas rescatadas son propiedad comunitaria, gestionados por el Coordinador y los comités pertinentes. ... Obligación de contribuir con 4 horas diarias de trabajo comunitario"
+    },
+    "proteccion_ambiental": {
+      "valor": "reglas_concretas",
+      "evidencia": "presentar informes trimestrales a la Asamblea General sobre el estado de los recursos y las medidas adoptadas para su conservación. Estos informes deben incluir recomendaciones para la rotación de cultivos, la reforestación y la gestión del agua."
+    }
+  },
+  "problemas": []
+}

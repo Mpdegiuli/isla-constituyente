@@ -1,0 +1,63 @@
+{
+  "corrida": "mixta_v2_fr_20260915-140413_1",
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "mixto",
+      "evidencia": "L’Assemblée des Sept est souveraine. ... Le Coordinateur général (membre 3), expérience d’organisation, organise tâches quotidiennes, abri, feu, garde, rationnement, sous contrôle de l’Assemblée, révocable à 5/7."
+    },
+    "regla_de_decision": {
+      "valor": "mayoria_simple",
+      "evidencia": "Les décisions ordinaires sont prises à la majorité simple (4/7). Les décisions fondamentales — modification du régime, propriété, peines, exclusion, usage de la barque hors urgence, baisse d’une protection écologique, ouverture des mines — exigent 5/7."
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "Ressources naturelles, outils communs, médicaments sont biens communs. Effets personnels privés. Barque propriété du membre 1 mais équipement vital commun"
+    },
+    "sistema_economico": {
+      "valor": "planificado",
+      "evidencia": "Le régime économique est une économie de subsistance planifiée : production, collecte et consommation sont coordonnées pour couvrir les besoins vitaux sans dépasser la capacité de renouvellement."
+    },
+    "resolucion_de_disputas": {
+      "valor": "mediacion",
+      "evidencia": "Différends : médiation puis Assemblée."
+    },
+    "castigo": {
+      "valor": "graduado",
+      "evidencia": "Peines : réparation, travaux compensatoires, restriction de biens non vitaux, restauration écologique obligatoire ; faute grave : vol de médicaments, sabotage barque, refus d’aide vitale"
+    },
+    "salida": {
+      "valor": "condicionada",
+      "evidencia": "Un membre peut se retirer paisiblement, sans barque, médicaments critiques, outils vitaux. Il conserve accès de subsistance, mais reste soumis aux plafonds écologiques"
+    },
+    "principio_distributivo": {
+      "valor": "promedio_con_piso",
+      "evidencia": "coordonnées pour couvrir les besoins vitaux sans dépasser la capacité de renouvellement ... Aucune peine ne prive de soins vitaux."
+    },
+    "medicamentos": {
+      "valor": "custodia_medica",
+      "evidencia": "Le Gardien médical (membre 2), compétence médicale, gère médicaments ; assistant désigné. ... Médicaments communs, registre public, soins selon gravité"
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "Barque propriété du membre 1 mais équipement vital commun ; nul ne l’utilise sans pilote ; sorties non urgentes votées 5/7."
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "regla",
+      "evidencia": "Bois, fruits, eau, chasse, pêche, charbon, métal ont plafonds hebdomadaires."
+    },
+    "eje_colectivo_individual": {
+      "valor": "mas_colectivo_que_individual",
+      "evidencia": "Ressources naturelles, outils communs, médicaments sont biens communs. Effets personnels privés."
+    },
+    "proteccion_ambiental": {
+      "valor": "reglas_concretas",
+      "evidencia": "Aucun prélèvement durable supérieur au renouvellement. ... Latrines loin de la rivière. Aucune mine, défrichage, coupe d’arbre vivant ou pompage important sans plan voté 5/7"
+    }
+  },
+  "problemas": []
+}

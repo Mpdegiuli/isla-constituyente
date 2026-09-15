@@ -1,0 +1,63 @@
+{
+  "corrida": "qwen_mono_20260914-062300_1",
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "mixto",
+      "evidencia": "Coordinaciones revocables, designadas por mayoría simple: general Parte 3, sanitaria Parte 2, ambiental Parte 4 con veto suspensivo salvo riesgo vital, operativa Parte 6 para expediciones... Disputas: mediación; si persiste, asamblea escucha a partes y resuelve fundada según regla vigente"
+    },
+    "regla_de_decision": {
+      "valor": "mayoria_simple",
+      "evidencia": "Decisiones comunes: mayoría simple; críticas: penas, propiedad, bote, medicinas y alimentos, mayoría absoluta de activos."
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "Propiedad: ropa y objetos personales son uso personal; valijas, herramientas, alimentos, medicinas bajo indicación sanitaria, carbón, metal, bote y recursos naturales son comunes críticos, bajo inventario."
+    },
+    "sistema_economico": {
+      "valor": "mixto",
+      "evidencia": "Economía comunitaria de subsistencia: trabajo por turnos, consumo según necesidad, aporte y sostenibilidad."
+    },
+    "resolucion_de_disputas": {
+      "valor": "mediacion",
+      "evidencia": "Disputas: mediación; si persiste, asamblea escucha a partes y resuelve fundada según regla vigente, salvo urgencia registrada."
+    },
+    "castigo": {
+      "valor": "graduado",
+      "evidencia": "Penas: apercibimiento, reparación, tareas adicionales y restricción de usos no esenciales, por resolución fundada; prohibidas penas corporales o exilio"
+    },
+    "salida": {
+      "valor": "condicionada",
+      "evidencia": "Retiro: deciden activos."
+    },
+    "principio_distributivo": {
+      "valor": "promedio_con_piso",
+      "evidencia": "Derechos: salud, alimentación básica, refugio, participación y no remar sin aptitud. Obligaciones: trabajar según capacidad"
+    },
+    "medicamentos": {
+      "valor": "custodia_medica",
+      "evidencia": "medicinas bajo indicación sanitaria"
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "Bote: custodia operativa de Parte 1, revocable, sin privilegios; solo remeros aptos, autorización y registro."
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "regla",
+      "evidencia": "consumo según necesidad, aporte y sostenibilidad"
+    },
+    "eje_colectivo_individual": {
+      "valor": "mas_colectivo_que_individual",
+      "evidencia": "valijas, herramientas, alimentos, medicinas bajo indicación sanitaria, carbón, metal, bote y recursos naturales son comunes críticos, bajo inventario"
+    },
+    "proteccion_ambiental": {
+      "valor": "principio_general",
+      "evidencia": "Extracción sostenible."
+    }
+  },
+  "problemas": []
+}

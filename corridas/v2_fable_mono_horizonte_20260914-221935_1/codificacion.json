@@ -1,0 +1,63 @@
+{
+  "corrida": "v2_fable_mono_horizonte_20260914-221935_1",
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "mixto",
+      "evidencia": "el régimen de la isla se denomina \"Asamblea de la Isla\": democracia asamblearia con bienes comunes y cargos revocables. La autoridad máxima es la Asamblea de los integrantes"
+    },
+    "regla_de_decision": {
+      "valor": "mayoria_simple",
+      "evidencia": "las decisiones operativas del grupo (tareas del día, cupos semanales, expediciones, emergencias, disputas y penas) se toman por mayoría simple de los integrantes presentes en la isla"
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "Ropa y objetos personales rescatados siguen siendo de cada uno; herramientas, bote y botiquín son comunes."
+    },
+    "sistema_economico": {
+      "valor": "planificado",
+      "evidencia": "el régimen económico de la isla se denomina \"economía de comunes con cupos renovables\"... Lo extraído dentro de los cupos se reparte según decida la Asamblea, asegurando primero comida, agua y abrigo para todos."
+    },
+    "resolucion_de_disputas": {
+      "valor": "asamblea",
+      "evidencia": "b) Si no se resuelve, la disputa o denuncia se lleva a la Asamblea."
+    },
+    "castigo": {
+      "valor": "graduado",
+      "evidencia": "a) Falta leve ... advertencia escrita en el acta; a la segunda, tarea adicional fijada por la Asamblea. b) Falta grave ... pérdida temporal del derecho a voto y del cupo de bienes no esenciales ... d) La expulsión de la isla sólo procede por violencia grave reiterada"
+    },
+    "salida": {
+      "valor": "libre_sin_bienes",
+      "evidencia": "Quien se retira se lleva su ropa, una herramienta a su elección, un cuchillo y comida para tres días ... Mientras esté fuera pierde voto y acceso a los demás bienes comunes. ... El bote y el botiquín quedan en el grupo."
+    },
+    "principio_distributivo": {
+      "valor": "promedio_con_piso",
+      "evidencia": "Lo extraído dentro de los cupos se reparte según decida la Asamblea, asegurando primero comida, agua y abrigo para todos. ... Comida, agua, abrigo y atención médica nunca se quitan como pena."
+    },
+    "medicamentos": {
+      "valor": "custodia_medica",
+      "evidencia": "La parte 2, única con formación médica, los custodia y administra con inventario actualizado visible para todos. Se usan con criterio médico según las prioridades del punto 21."
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "quien acepta la custodia del bote acepta remar en las expediciones aprobadas por la Asamblea ... a) el bote sale sólo con el custodio o con un remero que el custodio certifique como capacitado; b) viajan como máximo dos personas"
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "mixto",
+      "evidencia": "la búsqueda de medicamentos en la otra orilla y la identificación de plantas medicinales en la isla son tareas prioritarias del grupo desde la primera semana ... se fija un cupo semanal de caza y recolección propuesto por el Custodio de Recursos y aprobado por la Asamblea"
+    },
+    "eje_colectivo_individual": {
+      "valor": "equilibrado",
+      "evidencia": "Ropa y objetos personales rescatados siguen siendo de cada uno; herramientas, bote y botiquín son comunes. ... Nadie puede ser obligado a una tarea que no aceptó"
+    },
+    "proteccion_ambiental": {
+      "valor": "prohibiciones",
+      "evidencia": "a) Zona de reserva: la franja de bosque de veinte pasos a cada lado del río y todo árbol que dé fruto no se talan bajo ninguna circunstancia. ... d) Fuego: prohibido encender fuego dentro del bosque"
+    }
+  },
+  "problemas": []
+}

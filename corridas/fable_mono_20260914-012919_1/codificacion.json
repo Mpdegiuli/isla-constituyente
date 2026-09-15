@@ -1,0 +1,63 @@
+{
+  "corrida": "fable_mono_20260914-012919_1",
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "mixto",
+      "evidencia": "La autoridad ejecutiva la ejerce un coordinador único, elegido por mayoría absoluta, mandato de un mes renovable, revocable en cualquier momento por cuatro votos. [...] Uso del bote, medicamentos, penas, cuotas y cambios de reglas corresponden a la asamblea."
+    },
+    "regla_de_decision": {
+      "valor": "mayoria_absoluta",
+      "evidencia": "Las decisiones se toman por mayoría absoluta: al menos cuatro votos afirmativos de los siete participantes."
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "Tierra, agua, bosque, animales, minas, bote, herramientas, ropa y medicamentos son bienes comunes; de uso personal: ropa asignada, lo elaborado con la cuota propia y lo cazado o recolectado fuera del turno dentro de la cuota."
+    },
+    "sistema_economico": {
+      "valor": "mixto",
+      "evidencia": "Reparto por trabajo y necesidad, sin acumulación; el enfermo recibe ración igual y hace lo que su salud permita; quien pueda y no trabaje, no."
+    },
+    "resolucion_de_disputas": {
+      "valor": "asamblea",
+      "evidencia": "Disputas: se plantean ante la asamblea, que resuelve por mayoría absoluta dentro de un día tras oír a ambas partes; los involucrados no votan."
+    },
+    "castigo": {
+      "valor": "graduado",
+      "evidencia": "Penas, solo por la asamblea, con el acusado oído, graduadas: 1) advertencia registrada; 2) tareas adicionales o reducción temporal de uso personal, nunca de ración básica ni medicamentos; 3) suspensión de voto y roles hasta tres meses; 4) expulsión, con ropa y herramienta de mano"
+    },
+    "salida": {
+      "valor": "libre",
+      "evidencia": "Quien se retire conserva su ropa y una herramienta de mano. [...] retirarse en cualquier momento"
+    },
+    "principio_distributivo": {
+      "valor": "promedio_con_piso",
+      "evidencia": "Derechos: ración básica y agua; atención médica según criterio registrado; techo común [...] Reparto por trabajo y necesidad, sin acumulación; el enfermo recibe ración igual"
+    },
+    "medicamentos": {
+      "valor": "custodia_medica",
+      "evidencia": "Administradora del botiquín: Parte 2, por formación médica; Parte 7 lleva el registro público y verifica cada dosis"
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "El bote queda varado y amarrado a cargo de un responsable que sepa remarlo, designado por la asamblea; nadie lo mueve sin autorización de la asamblea."
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "mixto",
+      "evidencia": "la asamblea fija cuotas sobre inventario técnico entregado en tres días, público, revisado mensualmente [...] decide si el bote sale a explorar por recursos y medicamentos"
+    },
+    "eje_colectivo_individual": {
+      "valor": "mas_colectivo_que_individual",
+      "evidencia": "Tierra, agua, bosque, animales, minas, bote, herramientas, ropa y medicamentos son bienes comunes; de uso personal: ropa asignada, lo elaborado con la cuota propia"
+    },
+    "proteccion_ambiental": {
+      "valor": "reglas_concretas",
+      "evidencia": "Nadie extrae más de lo que el recurso regenera; la asamblea fija cuotas sobre inventario técnico [...] Quien tale árboles vivos replanta el doble; ribera y frutales no se talan."
+    }
+  },
+  "problemas": []
+}

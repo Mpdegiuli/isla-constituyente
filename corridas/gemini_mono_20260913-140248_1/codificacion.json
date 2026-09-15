@@ -1,0 +1,63 @@
+{
+  "corrida": "gemini_mono_20260913-140248_1",
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "asamblea_directa",
+      "evidencia": "El gobierno será una Asamblea General (los siete participantes) como autoridad máxima."
+    },
+    "regla_de_decision": {
+      "valor": "mayoria_absoluta",
+      "evidencia": "Las decisiones se tomarán por mayoría absoluta. El voto será público y obligatorio."
+    },
+    "regimen_de_propiedad": {
+      "valor": "comun",
+      "evidencia": "Bienes y recursos son propiedad comunal."
+    },
+    "sistema_economico": {
+      "valor": "planificado",
+      "evidencia": "La economía, extracción y salud serán coordinadas operativamente por la Parte 3, subordinadas estrictamente a reglas escritas aprobadas previamente por la Asamblea que obliguen a todos por igual."
+    },
+    "resolucion_de_disputas": {
+      "valor": "asamblea",
+      "evidencia": "Disputas y penas (desde reducción de raciones hasta exclusión de decisiones) las resolverá exclusivamente la Asamblea."
+    },
+    "castigo": {
+      "valor": "graduado",
+      "evidencia": "penas (desde reducción de raciones hasta exclusión de decisiones)"
+    },
+    "salida": {
+      "valor": "libre",
+      "evidencia": "El abandono es libre."
+    },
+    "principio_distributivo": {
+      "valor": "promedio_con_piso",
+      "evidencia": "Todos tienen derecho a raciones y atención médica, y la obligación de trabajar según su capacidad."
+    },
+    "medicamentos": {
+      "valor": "reserva_comun",
+      "evidencia": "Bienes y recursos son propiedad comunal. [...] Todos tienen derecho a raciones y atención médica"
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "Expediciones en bote requieren aprobación previa de la Asamblea."
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "regla",
+      "evidencia": "Todos tienen derecho a raciones y atención médica, y la obligación de trabajar según su capacidad."
+    },
+    "eje_colectivo_individual": {
+      "valor": "mas_colectivo_que_individual",
+      "evidencia": "Bienes y recursos son propiedad comunal. [...] El abandono es libre."
+    },
+    "proteccion_ambiental": {
+      "valor": "ninguna",
+      "evidencia": ""
+    }
+  },
+  "problemas": []
+}

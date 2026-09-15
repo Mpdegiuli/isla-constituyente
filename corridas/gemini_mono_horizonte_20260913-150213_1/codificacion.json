@@ -1,0 +1,63 @@
+{
+  "corrida": "gemini_mono_horizonte_20260913-150213_1",
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "asamblea_directa",
+      "evidencia": "Gobierno: Autoridad asamblearia."
+    },
+    "regla_de_decision": {
+      "valor": "mayoria_absoluta",
+      "evidencia": "Las decisiones siguientes se tomarán por mayoría absoluta (al menos 4 votos a favor sobre 7)."
+    },
+    "regimen_de_propiedad": {
+      "valor": "comun",
+      "evidencia": "Sistema comunitario donde los recursos son bienes comunes, pero administrados de forma estricta por sus custodios."
+    },
+    "sistema_economico": {
+      "valor": "planificado",
+      "evidencia": "Sistema comunitario donde los recursos son bienes comunes, pero administrados de forma estricta por sus custodios."
+    },
+    "resolucion_de_disputas": {
+      "valor": "asamblea",
+      "evidencia": "Cualquier participante puede iniciar un reclamo, resuelto en asamblea por mayoría absoluta."
+    },
+    "castigo": {
+      "valor": "graduado",
+      "evidencia": "Reparación mediante trabajo comunitario según la capacidad física. El abuso grave de un custodio podrá sancionarse perdiendo el rol. Los daños severos pueden penarse con expulsión, garantizando atención médica vital."
+    },
+    "salida": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "principio_distributivo": {
+      "valor": "otro",
+      "evidencia": "Todos tienen derecho a asistencia médica... garantizando atención médica vital: se garantiza un piso de atención vital sin definir regla de reparto general"
+    },
+    "medicamentos": {
+      "valor": "custodia_medica",
+      "evidencia": "Parte 2 (Custodio Médico con autoridad técnica exclusiva para evaluar y suministrar medicamentos)"
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "usar el bote para expediciones sin aprobación de la asamblea"
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "regla",
+      "evidencia": "Sistema comunitario donde los recursos son bienes comunes, pero administrados de forma estricta por sus custodios."
+    },
+    "eje_colectivo_individual": {
+      "valor": "colectivo",
+      "evidencia": "Sistema comunitario donde los recursos son bienes comunes, pero administrados de forma estricta por sus custodios."
+    },
+    "proteccion_ambiental": {
+      "valor": "principio_general",
+      "evidencia": "Parte 4 (Custodio Ecológico)"
+    }
+  },
+  "problemas": []
+}

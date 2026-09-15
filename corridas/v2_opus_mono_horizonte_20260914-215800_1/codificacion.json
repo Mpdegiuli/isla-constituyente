@@ -1,0 +1,63 @@
+{
+  "corrida": "v2_opus_mono_horizonte_20260914-215800_1",
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "mixto",
+      "evidencia": "DESIGNACIÓN INMEDIATA DE LA COORDINACIÓN GENERAL. Queda designado Coordinador General, desde la aprobación de este punto y por treinta días... Revocable en cualquier momento por tres votos... Toda instrucción suya queda suspendida si dos participantes lo piden, y pasa a la mesa en la convocatoria siguiente"
+    },
+    "regla_de_decision": {
+      "valor": "otro",
+      "evidencia": "sólo pueden modificarse por unanimidad de los participantes presentes en la isla... se vota en esta misma ronda, por la regla vigente al momento de votarse, que es mayoría simple... Recién aprobada, rigen para lo sucesivo las mayorías de los puntos 1, 22 y 26. (mayorías escalonadas según materia: simple, calificada y unanimidad para cláusulas protegidas)"
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "20.b y 20.c (propiedad personal sobre el fruto del propio trabajo y prohibición de expropiarla por votación)"
+    },
+    "sistema_economico": {
+      "valor": "mixto",
+      "evidencia": "Quien declare ante la mesa que se aparta de la vida común conforme al punto 19.a y 21 queda liberado de tareas y de reparto comunes"
+    },
+    "resolucion_de_disputas": {
+      "valor": "arbitro_o_juez",
+      "evidencia": "No aplica sanción alguna: toda imputación va al Panel del punto 16, que también lo juzga a él."
+    },
+    "castigo": {
+      "valor": "otro",
+      "evidencia": "Las prohibiciones absolutas del punto 17 —castigo físico, privación de agua, alimento o atención urgente, trabajo peligroso como pena, expulsión de la isla o abandono en el mar— no pueden suprimirse ni suspenderse por ninguna mayoría (el acta fija límites a la pena sin especificar el tipo de sanción aplicable)"
+    },
+    "salida": {
+      "valor": "libre",
+      "evidencia": "DERECHO DE RETIRO PLENO. Quien declare ante la mesa que se aparta de la vida común conforme al punto 19.a y 21 queda liberado de tareas y de reparto comunes... Nadie puede ser obligado a reintegrarse."
+    },
+    "principio_distributivo": {
+      "valor": "promedio_con_piso",
+      "evidencia": "sigue obligado únicamente por los umbrales de los puntos 9 a 11... La gestión se juzga a la vez por agua segura, reserva de alimento y refugio, y por la no disminución de los stocks naturales más allá de los umbrales."
+    },
+    "medicamentos": {
+      "valor": "otro",
+      "evidencia": "Sin ración mayor, descanso mayor, voto doble, prioridad de medicamentos ni prioridad de embarque; sin custodia de bote, botiquín (sólo se prohíbe la prioridad y la custodia por el Coordinador, sin fijarse el criterio de asignación)"
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "sin custodia de bote, botiquín, herramientas, reservas, acta ni registro... instrucción de remo a dos personas... dentro de setenta y dos horas, ejecución de la misión de contacto del punto 23 si el mar lo permite"
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "mixto",
+      "evidencia": "primeros siete días, inventario general escrito y público, turnos rotativos de tareas penosas... inicio de huerta, secado y salado; ... al día quince, censo y umbrales del punto 10"
+    },
+    "eje_colectivo_individual": {
+      "valor": "equilibrado",
+      "evidencia": "prohibición de convertir a una persona en instrumento del grupo... propiedad personal sobre el fruto del propio trabajo y prohibición de expropiarla por votación... 21 (autonomía y retiro)"
+    },
+    "proteccion_ambiental": {
+      "valor": "reglas_concretas",
+      "evidencia": "agua hervida, letrinas aguas abajo, hogar único de piedra con leña muerta... presenta informe de gestión con el estado del inventario natural comparado (punto 25.h)... la no disminución de los stocks naturales más allá de los umbrales"
+    }
+  },
+  "problemas": []
+}

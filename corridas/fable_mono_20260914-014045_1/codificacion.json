@@ -1,0 +1,63 @@
+{
+  "corrida": "fable_mono_20260914-014045_1",
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "mixto",
+      "evidencia": "La autoridad la ejerce un coordinador elegido por mayoría absoluta, mandato de dos meses, renovable y revocable por mayoría absoluta. ... Bote, medicamentos, racionamiento y penas los decide la asamblea; el coordinador solo ejecuta"
+    },
+    "regla_de_decision": {
+      "valor": "mayoria_absoluta",
+      "evidencia": "Las decisiones siguientes se toman por mayoría absoluta: al menos 4 de los 7 participantes deben votar a favor."
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "Herramientas, bote y botiquín son comunes, con custodios elegidos y revocables por mayoría absoluta ... Cada quien conserva sus efectos personales y lo que fabrique con su trabajo sin consumir recursos fuera del cupo."
+    },
+    "sistema_economico": {
+      "valor": "mixto",
+      "evidencia": "Lo extraído dentro del cupo va a un fondo común repartido en raciones base iguales, más una porción adicional por tareas pesadas o riesgosas fijada de antemano por la asamblea, y ajustes por enfermedad"
+    },
+    "resolucion_de_disputas": {
+      "valor": "asamblea",
+      "evidencia": "si persiste, la asamblea decide por mayoría absoluta dentro de tres días, oyendo a las partes, que no votan su causa, anotado con motivo"
+    },
+    "castigo": {
+      "valor": "graduado",
+      "evidencia": "falta leve, amonestación; reincidencia, trabajo de regeneración y pérdida de la porción adicional hasta dos semanas ... Daño deliberado a bote, botiquín o recursos, o violencia no defensiva: expulsión"
+    },
+    "salida": {
+      "valor": "condicionada",
+      "evidencia": "Quien se retire avisando conserva efectos personales y libertad, sin quedar sujeto al acta mientras no dañe al grupo; bote, botiquín y herramientas rescatadas son bienes comunes, no efectos personales."
+    },
+    "principio_distributivo": {
+      "valor": "promedio_con_piso",
+      "evidencia": "raciones base iguales, más una porción adicional por tareas pesadas o riesgosas ... Ninguna pena niega agua, ración base ni atención médica"
+    },
+    "medicamentos": {
+      "valor": "custodia_medica",
+      "evidencia": "Custodia del botiquín, parte 2, por su formación médica."
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "el bote se guarda varado en tierra, atado y con inventario, y todo viaje lo decide la asamblea, con la parte 1 al remo o instruyendo a quien vaya"
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "regla",
+      "evidencia": "nadie cerca, tala, caza, pesca ni mina fuera de los cupos fijados por la asamblea sobre informe mensual"
+    },
+    "eje_colectivo_individual": {
+      "valor": "mas_colectivo_que_individual",
+      "evidencia": "Tierra, río, árboles, animales, agua y minas son bienes comunes inapropiables ... Cada quien conserva sus efectos personales y lo que fabrique con su trabajo"
+    },
+    "proteccion_ambiental": {
+      "valor": "reglas_concretas",
+      "evidencia": "priorizando la regeneración: frutales, crías y árboles jóvenes no se tocan. Hasta el primer informe rigen cupos provisorios fijados en los tres primeros días."
+    }
+  },
+  "problemas": []
+}

@@ -1,0 +1,63 @@
+{
+  "corrida": "gemini_mono_en_20260913-175054_1",
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "asamblea_directa",
+      "evidencia": "The government is an Assembly."
+    },
+    "regla_de_decision": {
+      "valor": "mayoria_absoluta",
+      "evidencia": "All future decisions shall be taken by an absolute majority (at least 4 out of 7 votes)."
+    },
+    "regimen_de_propiedad": {
+      "valor": "comun",
+      "evidencia": "All resources are collectively owned under a planned economy."
+    },
+    "sistema_economico": {
+      "valor": "planificado",
+      "evidencia": "All resources are collectively owned under a planned economy."
+    },
+    "resolucion_de_disputas": {
+      "valor": "asamblea",
+      "evidencia": "Disputes resolved by Assembly absolute majority."
+    },
+    "castigo": {
+      "valor": "privacion_de_bienes",
+      "evidencia": "Penalties are equal temporary ration reductions."
+    },
+    "salida": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "principio_distributivo": {
+      "valor": "otro",
+      "evidencia": "Equal rights to resources; mandatory obligations depend on physical capability, ensuring care for the vulnerable. (igualdad en el acceso con obligaciones segun capacidad y cuidado de los vulnerables)"
+    },
+    "medicamentos": {
+      "valor": "custodia_medica",
+      "evidencia": "Party 2 Medical Director (manages rationing for acute and severe chronic conditions)"
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "Party 1 Boat Operator (boat usage requires their safety assessment and Assembly approval)"
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "regla",
+      "evidencia": "All resources are collectively owned under a planned economy... Penalties are equal temporary ration reductions."
+    },
+    "eje_colectivo_individual": {
+      "valor": "colectivo",
+      "evidencia": "All resources are collectively owned under a planned economy."
+    },
+    "proteccion_ambiental": {
+      "valor": "reglas_concretas",
+      "evidencia": "Party 4 Chief Scientist (proposes ecological limits for Assembly approval)... all resource extraction must adhere to approved sustainable limits."
+    }
+  },
+  "problemas": []
+}

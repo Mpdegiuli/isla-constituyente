@@ -1,0 +1,63 @@
+{
+  "corrida": "glm_razmin_mono_20260914-100115_1",
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "mixto",
+      "evidencia": "La autoridad ejecutiva la ejerce una sola persona, elegida por mayoría simple y revocable en cualquier momento por mayoría simple. [...] Fuera de emergencia, el bote, los medicamentos y cualquier cambio del acta requieren votación de todos."
+    },
+    "regla_de_decision": {
+      "valor": "mayoria_simple",
+      "evidencia": "Todas las decisiones siguientes se toman por mayoría simple de los presentes. El voto es público y obligatorio."
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "Los recursos naturales, el bote y las herramientas son de uso común, administrados según los roles del acta. [...] Cada uno conserva su ropa y efectos personales. Lo producido por trabajo individual es de su autor"
+    },
+    "sistema_economico": {
+      "valor": "mixto",
+      "evidencia": "La comida y el agua se distribuyen por ración diaria equitativa, fijada por el coordinador [...] indicación de la parte 2 sobre necesidad médica o esfuerzo físico extraordinario, que otorga ración complementaria. [...] Lo producido por trabajo individual es de su autor"
+    },
+    "resolucion_de_disputas": {
+      "valor": "mediacion",
+      "evidencia": "Primero se intenta resolución directa entre las partes con un mediador rotativo, que no puede ser parte del conflicto ni el coordinador cuya decisión se revisa; [...] Si no se logra acuerdo, decide el grupo por votación"
+    },
+    "castigo": {
+      "valor": "graduado",
+      "evidencia": "Escala: reparación del daño o trabajo comunitario equivalente; [...] en reincidencia o incumplimiento grave, pérdida temporaria de privilegios no esenciales"
+    },
+    "salida": {
+      "valor": "condicionada",
+      "evidencia": "Quien se aleja conserva su ropa y efectos personales; si sigue consumiendo recursos comunes, conserva las mismas obligaciones. Quien se aleja y deja de consumir pierde acceso rutinario al botiquín común y al bote, pero la atención médica urgente se presta siempre"
+    },
+    "principio_distributivo": {
+      "valor": "promedio_con_piso",
+      "evidencia": "Todos tienen derecho a ración diaria equitativa, atención médica según el punto 3 [...] Ninguna pena puede recortar la ración diaria equitativa ni el acceso a medicamentos indicados según el punto 3"
+    },
+    "medicamentos": {
+      "valor": "custodia_medica",
+      "evidencia": "La parte 2 se encarga de la salud y el botiquín: ningún medicamento se entrega sin su indicación y registro, y los analgésicos requieren decisión del grupo para cada uso. La atención médica prioriza a los más graves"
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "Los recursos naturales, el bote y las herramientas son de uso común, administrados según los roles del acta. [...] autoriza las provisiones de cada salida del bote"
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "regla",
+      "evidencia": "La comida y el agua se distribuyen por ración diaria equitativa, fijada por el coordinador con informe de la parte 4 sobre disponibilidad [...] Queda prohibido acaparar reservas privadas de alimentos o medicamentos."
+    },
+    "eje_colectivo_individual": {
+      "valor": "equilibrado",
+      "evidencia": "Los recursos naturales, el bote y las herramientas son de uso común [...] Cada uno conserva su ropa y efectos personales. Lo producido por trabajo individual es de su autor, salvo uso esencial para la supervivencia decidido por votación, en cuyo caso el acta registra la compensación al autor."
+    },
+    "proteccion_ambiental": {
+      "valor": "reglas_concretas",
+      "evidencia": "La parte 4 es guardián de recursos: lleva el registro de consumo e informa sobre el impacto y renovación de cada extracción [...] la minería queda suspendida hasta su primer"
+    }
+  },
+  "problemas": []
+}

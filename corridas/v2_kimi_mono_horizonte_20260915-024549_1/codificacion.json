@@ -1,0 +1,63 @@
+{
+  "corrida": "v2_kimi_mono_horizonte_20260915-024549_1",
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "mixto",
+      "evidencia": "La autoridad máxima es la mesa, integrada por todos los participantes presentes. 2. La mesa elige un Coordinador por mayoría simple, por períodos de treinta días, reelegible."
+    },
+    "regla_de_decision": {
+      "valor": "mayoria_simple",
+      "evidencia": "Las decisiones ordinarias se adoptan por mayoría simple de los participantes presentes en la mesa (más votos a favor que en contra)."
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "se respeta la propiedad personal de lo rescatado del naufragio; lo producido con trabajo común (cosechas, construcciones, herramientas nuevas, carbón y metal extraídos) es propiedad común"
+    },
+    "sistema_economico": {
+      "valor": "mixto",
+      "evidencia": "Economía mixta de subsistencia: propiedad personal protegida, propiedad común del trabajo colectivo e intercambio voluntario libre."
+    },
+    "resolucion_de_disputas": {
+      "valor": "asamblea",
+      "evidencia": "Sin acuerdo, la mesa resuelve en sesión, oyendo a las partes por igual; la decisión se funda exclusivamente en lo escrito en el acta"
+    },
+    "castigo": {
+      "valor": "graduado",
+      "evidencia": "Escala según gravedad y reiteración: a) amonestación registrada; b) reparación del daño (restitución o trabajo compensatorio equivalente); c) restricción temporal de acceso a bienes comunes no esenciales; d) suspensión temporal del voto, hasta diez días; e) ... separación del grupo"
+    },
+    "salida": {
+      "valor": "libre",
+      "evidencia": "Todo participante puede retirarse del grupo cuando quiera, llevándose sus bienes personales y el fruto de su trabajo individual"
+    },
+    "principio_distributivo": {
+      "valor": "promedio_con_piso",
+      "evidencia": "una cuota diaria de subsistencia del fondo común (agua, alimento, refugio básico) mientras contribuya al trabajo común según su capacidad"
+    },
+    "medicamentos": {
+      "valor": "custodia_medica",
+      "evidencia": "atención sanitaria conforme al criterio de la delegación de Salud"
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "El bote es propiedad personal de la parte 1 ... Solo la parte 1 rema el bote; nadie lo usa, lo mueve ni lo desamarra sin su presencia y permiso. Las expediciones en bote las aprueba la mesa por mayoría absoluta"
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "mixto",
+      "evidencia": "Huerta común: se destina terreno junto al río y se prioriza su trabajo común en las primeras cuatro semanas, para asegurar alimento propio antes de que se agoten las reservas del naufragio."
+    },
+    "eje_colectivo_individual": {
+      "valor": "equilibrado",
+      "evidencia": "Se confirma la economía mixta de subsistencia del punto 2 del acta: propiedad personal protegida, propiedad común del trabajo colectivo e intercambio voluntario libre."
+    },
+    "proteccion_ambiental": {
+      "valor": "reglas_concretas",
+      "evidencia": "Bosque: cupo de tala por zonas rotadas según el censo; toda tala exige reposición plantada de al menos dos plantas por árbol; ... Fauna: vedas de caza y pesca por especie y temporada según ciclos reproductivos"
+    }
+  },
+  "problemas": []
+}

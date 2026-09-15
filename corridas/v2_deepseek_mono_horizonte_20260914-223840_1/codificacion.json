@@ -1,0 +1,63 @@
+{
+  "corrida": "v2_deepseek_mono_horizonte_20260914-223840_1",
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "asamblea_directa",
+      "evidencia": "Gobierno: asamblea decide solo cuestiones comunes; sin autoridad permanente; en emergencias cualquier participante puede actuar e informar después."
+    },
+    "regla_de_decision": {
+      "valor": "mayoria_simple",
+      "evidencia": "Regla de decisión: mayoría simple; dos tercios para contacto permanente o alianza; expedición inicial por mayoría simple."
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "Propiedad: ropa y herramientas personales privadas; bote de uso común para emergencia vital, expedición inicial y decisión por mayoría simple, bajo custodia de Parte 1, sin veto personal."
+    },
+    "sistema_economico": {
+      "valor": "mixto",
+      "evidencia": "Economía: inventario común solo de bienes rescatados y recursos críticos; racionamiento por asamblea; ... trabajo voluntario salvo emergencia vital inmediata"
+    },
+    "resolucion_de_disputas": {
+      "valor": "mediacion",
+      "evidencia": "Disputas: mediación voluntaria por persona sin interés directo; nadie juzga su propia causa; si no hay acuerdo, asamblea decide por mayoría simple."
+    },
+    "castigo": {
+      "valor": "graduado",
+      "evidencia": "Penas: restitución o reparación por daño directo; separación temporal de tareas comunes por mayoría simple, con audiencia previa y proporcionalidad; sin trabajo forzado, confinamiento ni castigos crueles."
+    },
+    "salida": {
+      "valor": "libre",
+      "evidencia": "Si alguien se retira: puede salir libremente con sus herramientas y ropa"
+    },
+    "principio_distributivo": {
+      "valor": "promedio_con_piso",
+      "evidencia": "derecho a ración, atención médica según necesidad clínica determinada por Parte 2, voz y voto, igualdad ante estas reglas"
+    },
+    "medicamentos": {
+      "valor": "custodia_medica",
+      "evidencia": "medicamentos bajo custodia de Parte 2, uso clínico según necesidad médica objetiva; Parte 2 autoriza y registra cada uso"
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "bote de uso común para emergencia vital, expedición inicial y decisión por mayoría simple, bajo custodia de Parte 1, sin veto personal"
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "mixto",
+      "evidencia": "racionamiento por asamblea; ... Expedición inicial: dentro de 24 horas saldrá hacia la otra orilla con al menos dos voluntarios que sepan o quieran aprender a remar, para buscar medicamentos y ayuda"
+    },
+    "eje_colectivo_individual": {
+      "valor": "equilibrado",
+      "evidencia": "cooperación voluntaria; cada participante conserva su autonomía. ... ropa y herramientas personales privadas; bote de uso común"
+    },
+    "proteccion_ambiental": {
+      "valor": "prohibiciones",
+      "evidencia": "prohibido talar en riberas o laderas y cazar en época reproductiva; minería solo sin alternativa viable y con restauración obligatoria posterior"
+    }
+  },
+  "problemas": []
+}

@@ -1,0 +1,63 @@
+{
+  "corrida": "v2_kimi_mono_20260915-020320_1",
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "mixto",
+      "evidencia": "1. La asamblea es la autoridad máxima de la isla. 2. Existe un Coordinador, elegido por la asamblea por mayoría absoluta de los siete participantes (al menos cuatro votos)."
+    },
+    "regla_de_decision": {
+      "valor": "mayoria_simple",
+      "evidencia": "las decisiones de esta asamblea se toman por mayoría simple de los votos emitidos (más votos a favor que en contra)"
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "1. Bienes comunes e inapropiables: los recursos naturales, el bote, el botiquín, las herramientas y las reservas rescatadas del naufragio... 2. Bienes personales: la ropa y los efectos propios, el fruto del trabajo personal y la cuota recibida al separarse."
+    },
+    "sistema_economico": {
+      "valor": "mixto",
+      "evidencia": "Régimen comunitario: la producción de los turnos comunes integra la reserva común, administrada por el Coordinador según los planes aprobados por la asamblea... El fruto del trabajo personal fuera de los turnos comunes es propiedad personal"
+    },
+    "resolucion_de_disputas": {
+      "valor": "otro",
+      "evidencia": "Resolución escalonada: a) acuerdo directo entre las partes; b) mediación de un participante elegido de común acuerdo o, en defecto, por el Coordinador; c) decisión de la asamblea por mayoría absoluta"
+    },
+    "castigo": {
+      "valor": "graduado",
+      "evidencia": "2. Escala, aplicable según gravedad: a) Advertencia registrada. b) Reparación del daño con trabajo... e) Revocación de custodias e inhabilitación temporal para roles."
+    },
+    "salida": {
+      "valor": "libre",
+      "evidencia": "Separación voluntaria: cualquier participante podrá separarse del grupo en cualquier momento, sin que se le impida ni se le persiga. Al separarse, recibirá una cuota proporcional"
+    },
+    "principio_distributivo": {
+      "valor": "promedio_con_piso",
+      "evidencia": "A la ración de alimento y agua que fije el plan aprobado... Se constituirá un fondo de emergencia de diez días de alimento y agua... Quedan prohibidas... la suspensión de alimento, agua, refugio de emergencia o atención médica."
+    },
+    "medicamentos": {
+      "valor": "custodia_medica",
+      "evidencia": "Custodia del botiquín (parte 2, por su formación médica): a) Los medicamentos se administran por criterio médico: indicación, dosis y duración según necesidad clínica, no por rango ni preferencia."
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "Custodia del bote (parte 1, único remero): el bote se usa con la parte 1 o con su autorización; registro abierto de usos y estado del bote; revocable por mayoría absoluta por mal uso."
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "mixto",
+      "evidencia": "Racionamiento escalonado: el primer plan del Coordinador fijará raciones decrecientes de las reservas del naufragio, con la meta de que en sesenta días el consumo se cubra con producción propia (huerto, frutos, pesca y recolección)."
+    },
+    "eje_colectivo_individual": {
+      "valor": "mas_colectivo_que_individual",
+      "evidencia": "Los recursos naturales de la isla (bosque, frutales, fauna, río, minas y costa) son patrimonio común e inapropiables... El fruto del trabajo personal fuera de los turnos comunes es propiedad personal"
+    },
+    "proteccion_ambiental": {
+      "valor": "reglas_concretas",
+      "evidencia": "a) Madera: se prioriza la madera caída; la tala selectiva requiere autorización de la asamblea y la reposición de dos árboles plantados por cada uno talado... c) Caza y pesca: cupo semanal por especie según informe técnico; vedas en época de cría y prohibición de capturar crías."
+    }
+  },
+  "problemas": []
+}

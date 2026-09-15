@@ -1,0 +1,63 @@
+{
+  "corrida": "sonnet_mono_abundancia_20260913-044522_1",
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "mixto",
+      "evidencia": "La autoridad es ejercida por un coordinador principal elegido por mayoría absoluta, asistido por dos personas con roles específicos (salud y recursos) también elegidas por mayoría absoluta. ... no puede tomar decisiones que correspondan al grupo"
+    },
+    "regla_de_decision": {
+      "valor": "mayoria_absoluta",
+      "evidencia": "Las decisiones se toman por mayoría absoluta (al menos cuatro votos a favor sobre siete)."
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "Los recursos rescatados del naufragio —medicamentos, herramientas, ropa— son bienes comunes administrados por el grupo bajo los roles ya establecidos. Los recursos naturales de la isla son igualmente comunes. La producción individual de subsistencia pertenece a quien la produce"
+    },
+    "sistema_economico": {
+      "valor": "reparto_por_necesidad",
+      "evidencia": "Los recursos colectivos se distribuyen según necesidad, priorizando salud y supervivencia urgente."
+    },
+    "resolucion_de_disputas": {
+      "valor": "mediacion",
+      "evidencia": "Disputas: se presentan al coordinador, quien media; sin acuerdo, el grupo decide por mayoría absoluta."
+    },
+    "castigo": {
+      "valor": "graduado",
+      "evidencia": "Penas: advertencia documentada primero; ante reincidencia, suspensión de beneficios no esenciales por mayoría absoluta."
+    },
+    "salida": {
+      "valor": "libre",
+      "evidencia": "Retirarse es opción legítima; quien lo hace conserva derecho a atención médica urgente."
+    },
+    "principio_distributivo": {
+      "valor": "promedio_con_piso",
+      "evidencia": "todo participante tiene derecho a alimentación básica, agua, atención médica —incluidos medicamentos según criterio clínico— y participación en deliberaciones, independientemente de su capacidad de trabajo ... quien no contribuye puede ver reducido acceso a beneficios no esenciales, pero nunca perderá atención médica ni alimentación y agua básicas"
+    },
+    "medicamentos": {
+      "valor": "custodia_medica",
+      "evidencia": "El responsable de salud tiene autoridad para administrar medicamentos y recursos médicos según criterio clínico, informando al grupo pero sin requerir aprobación colectiva previa en situaciones urgentes."
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "El bote es bien común; su operación requiere participación voluntaria de quien sabe remarlo; nadie puede ser obligado ni el grupo puede disponer de él sin esa participación."
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "regla",
+      "evidencia": "Los recursos colectivos se distribuyen según necesidad, priorizando salud y supervivencia urgente."
+    },
+    "eje_colectivo_individual": {
+      "valor": "equilibrado",
+      "evidencia": "Los recursos naturales de la isla son igualmente comunes. La producción individual de subsistencia pertenece a quien la produce; no requiere evaluación previa."
+    },
+    "proteccion_ambiental": {
+      "valor": "reglas_concretas",
+      "evidencia": "El responsable de recursos puede señalar al grupo evidencia concreta de daño a la capacidad regenerativa; el grupo decide por mayoría absoluta si impone un límite."
+    }
+  },
+  "problemas": []
+}
