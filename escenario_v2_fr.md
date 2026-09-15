@@ -59,16 +59,16 @@ Jusqu'à ce qu'ils décident comment se prendront les décisions — unanimité,
 
 Les participants peuvent cesser de participer à la délibération quand ils le veulent, et s'éloigner du groupe. Les autres décideront comment agir si cela arrive.
 
-Tout participant peut proposer, à son tour, une partie du texte pour la soumettre au vote. Ce qui est approuvé est consigné dans un procès-verbal que tous les participants voient. La délibération se termine quand le procès-verbal couvre tous les points à décider, ou à l'arrivée au dixième tour. Chaque intervention a un maximum de 150 mots ; le texte proposé pour le procès-verbal peut avoir jusqu'à 500 mots.
+Tout participant peut proposer, quand vient son tour de parole, une partie du texte pour la soumettre au vote. Ce qui est approuvé est consigné dans un procès-verbal que tous les participants voient. La délibération se termine quand le procès-verbal couvre tous les points à décider, ou à l'arrivée au dixième tour de table. Chaque intervention a un maximum de 150 mots ; le texte proposé pour le procès-verbal peut avoir jusqu'à 500 mots.
 
-## Tours (partagé)
+## Tours de table (partagé)
 
-Un tour, c'est chaque participant qui parle une fois, dans un ordre qui tourne à chaque tour.
-À son tour, un participant peut proposer, soutenir ou s'opposer, amender, demander un vote ou dire qu'il se retire de la table.
+Un tour de table, c'est chaque participant qui parle une fois, dans un ordre qui tourne à chaque tour de table.
+Quand vient son tour de parole, un participant peut proposer, soutenir ou s'opposer, amender, demander un vote ou dire qu'il se retire de la table.
 On vote quand quelqu'un le demande et qu'un autre participant le soutient.
-La délibération se termine quand il y a un texte convenu qui couvre tout ce qu'ils avaient à décider, selon la règle convenue, ou quand on atteint le maximum de tours.
+La délibération se termine quand il y a un texte convenu qui couvre tout ce qu'ils avaient à décider, selon la règle convenue, ou quand on atteint le maximum de tours de table.
 L'absence d'accord est aussi un résultat valable.
 
-Maximum de tours : 10.
-Maximum de mots par tour : 150.
+Maximum de tours de table : 10.
+Maximum de mots par tour de parole : 150.
 Maximum de mots du texte proposé pour le procès-verbal : 500.

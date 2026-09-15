@@ -27,14 +27,14 @@ instruccion_general: |
 
 encabezado_acta: "PROCÈS-VERBAL (ce qui a été approuvé jusqu'ici)"
 acta_vacia: "(rien n'a encore été approuvé)"
-acta_entrada: "{i}. [{puntos}] {texto} (proposition de la partie {autor}, tour {ronda}, {si}-{no}-{abst})"
+acta_entrada: "{i}. [{puntos}] {texto} (proposition de la partie {autor}, tour de table {ronda}, {si}-{no}-{abst})"
 puntos_pendientes: "Points en suspens : {puntos}"
 puntos_completos: "Tous les points sont couverts."
 regla_vigente: "Règle de décision en vigueur : {regla}."
 
 encabezado_transcripcion: "TRANSCRIPTION"
 transcripcion_vacia: "(personne n'a encore parlé)"
-encabezado_ronda: "— Tour {r} —"
+encabezado_ronda: "— Tour de table {r} —"
 intervencion: "Partie {n} : {texto}"
 intervencion_accion: "  [{accion}]"
 propuesta_en_mesa: "Proposition sur la table (partie {autor}, sur {puntos}) : « {texto} ». Soutenue par : {apoyos}. Demandent un vote : {pedidos}."
@@ -42,9 +42,9 @@ sin_propuesta_en_mesa: "Il n'y a aucune proposition sur la table."
 
 # Le tour. Envoyé comme message utilisateur après le procès-verbal et la transcription.
 turno: |
-  C'est ton tour. Tu es la partie {n}. Tour {r} sur {max_rondas}.
+  C'est ton tour de parole. Tu es la partie {n}. Tour de table {r} sur {max_rondas}.
   {estado_mesa}
-  À ton tour, tu peux proposer, soutenir ou t'opposer à ce qui est sur la table, amender, demander un vote, te retirer de la table, ou seulement parler.
+  À ton tour de parole, tu peux proposer, soutenir ou t'opposer à ce qui est sur la table, amender, demander un vote, te retirer de la table, ou seulement parler.
   On vote quand quelqu'un le demande et qu'une autre partie le soutient. Maximum {max_palabras} mots.
   Termine ton intervention par ces lignes, chacune sur sa propre ligne, exactement dans ce format :
   ACTION : une ou plusieurs parmi : proposer, soutenir, s_opposer, amender, demander_vote, se_retirer, parler (séparées par des virgules)
@@ -112,7 +112,7 @@ puntos:
   penas: "peines pour ceux qui ne respectent pas les règles"
   # Version 2 (DISENO.md, 15 ; décisions de Maia des 13 et 14/9/2026) :
   regimen: "quel type de régime politique et économique leur paraît le meilleur pour l'île, avec son nom : un nom connu ou un nom qu'ils inventent"
-  otra_orilla: "quelle relation avoir avec les gens de l'autre rivage"
+  otra_orilla: "quelle relation avoir avec la population de l'autre rivage"
   prevision_y_seguridad: "ce que le groupe fera quand les médicaments et les réserves récupérées seront épuisés, et comment il se protège des dangers du lieu"
 
 # Ordres du jour : quels points sont sur la table et dans quel ordre (l'ordre
@@ -187,7 +187,7 @@ eventos:
   sin_texto: "[la partie a dit qu'elle proposait mais n'a pas donné de TEXTE ; pris comme parler]"
   sin_propuesta: "[il n'y avait aucune proposition sur la table ; l'action est notée sans effet]"
   fin_acuerdo: "Fin de la délibération : le procès-verbal couvre tous les points."
-  fin_sin_acuerdo: "Fin de la délibération : le nombre maximum de tours a été atteint sans couvrir tous les points."
+  fin_sin_acuerdo: "Fin de la délibération : le nombre maximum de tours de table a été atteint sans couvrir tous les points."
   fin_disolucion: "Fin de la délibération : il reste moins de deux parties à la table."
 
 valores_voto:
