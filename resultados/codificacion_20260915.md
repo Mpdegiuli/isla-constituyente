@@ -23,8 +23,9 @@ Las secciones 1 a 6 son la lectura del primer codificador (Opus 5). La
 sección 8 la contrasta con un segundo codificador de otra casa (GPT-5.5,
 decisión de Maia) y dice qué se sostiene y qué no; la sección 9 es la
 tercera pasada, los dos codificadores de nuevo con el libro de códigos
-corregido a partir de la sección 8. Donde una sección posterior corrige
-algo, manda la posterior.
+corregido a partir de la sección 8, y la sección 10 la cuarta, con las
+glosas de cada valor dentro del prompt. Donde una sección posterior
+corrige algo, manda la posterior.
 
 ## 1. Lo que dicen las 80 actas juntas
 
@@ -265,8 +266,9 @@ hecho a mano.
   decisión, por valores que le faltaban a la lista. La tercera pasada
   (sección 9) arregla disputas y medicamentos, mejora a medias el
   principio distributivo y empeora la regla de decisión por un error de
-  instrumento. Las citas permiten adjudicar a mano los desacuerdos que
-  quedan (173); no se hizo todavía.
+  instrumento; la cuarta (sección 10) arregla la regla y el principio y
+  aplana tres categorías por glosas mal escritas. Las citas permiten
+  adjudicar a mano los desacuerdos que quedan (125); no se hizo todavía.
 - El casillero del eje está corrido hacia lo colectivo por el escenario;
   la escala útil quedó en tres valores (`colectivo`, `mas_colectivo`,
   `equilibrado`). El índice tiene pesos puestos por Claude, a la vista en
@@ -529,3 +531,144 @@ pasada es la única forma de saber si la regla de decisión también cierra;
 agregar el valor "piso igual más plus por aporte" cerraría el principio
 distributivo. Después, adjudicar a mano lo que quede. Cada pasada cuesta
 lo mismo (160 llamadas, unos 45 minutos) y no pisa las anteriores.
+
+## 10. Cuarta pasada: las glosas en el prompt
+
+OK de Maia (16/9: "si es breve se puede hacer"). Es un instrumento nuevo,
+no un parche: `config/codebook.yaml` pasó a llevar cada valor con su glosa
+en un bloque `glosas:` (las diecisiete que estaban en comentarios, más
+glosas nuevas para los valores que no tenían y para las fronteras donde
+los dos codificadores se separaban en la sección 9), `codificar.py` las
+manda en el prompt, un renglón por valor (el prompt sin el acta pasó de
+4.355 a 8.825 caracteres), se agregó `piso_igual_con_plus_por_aporte` al
+principio distributivo (peso 0 en el índice, como `promedio_con_piso`), y
+cada `codificacion_*.json` guarda ahora el md5 del libro con el que se
+codificó (`2cfd2050` para esta pasada; commit b63d1cc). Las trece
+categorías cambiaron de definición operativa a la vez, aunque solo dos
+fueran el objetivo, y eso se ve en los resultados.
+
+Corrió Opus 5 (`--etiqueta opus_libro3`, 00:09–00:31 UTC) y GPT-5.5
+(`--etiqueta gpt55_libro3`, 01:08–01:45 UTC), 80 de 80 cada uno, cero
+errores, cero avisos del validador. Incidente declarado: en el primer
+lanzamiento GPT-5.5 no arrancó (`python: command not found`) por un error
+del comando que escribió Claude —el `&` que mandaba a Opus al fondo se
+llevó consigo el `cd` y la activación del entorno, y el segundo proceso
+quedó sin Python; en la tercera pasada el mismo comando había funcionado
+porque el entorno venía activado desde la consola de Maia— y la cadena
+commiteó lo de Opus solo (ef5b2e7) porque no distinguía éxito de fracaso.
+Se relanzó una vez con la ruta completa del entorno y encadenado con `&&`
+(2b13b46). Concordancia en
+`resultados/concordancia_opus_libro3_gpt55_libro3_20260916-014534.md`
+(125 desacuerdos con las dos citas).
+
+**Acuerdo exacto global: 88,0 % sobre 1040 celdas (77,8 → 83,4 → 88,0).
+Correlación entre los dos índices: 0,86 (0,81 → 0,89 → 0,86).
+Desacuerdos: 125 (231 → 173 → 125).**
+
+| Categoría | Kappa 2.ª | Kappa 3.ª | Kappa 4.ª | Acuerdo 4.ª | Qué pasó |
+|---|---|---|---|---|---|
+| forma_de_gobierno | 0.73 | 0.79 | 0.87 | 95% | sube, pero la categoría se aplanó (abajo) |
+| regla_de_decision | 0.55 | 0.48 | **0.91** | 94% | **arreglada: `doble_umbral` 36 y 35** |
+| regimen_de_propiedad | 0.82 | 0.91 | 0.91 | 95% | igual |
+| sistema_economico | 0.66 | 0.64 | 0.71 | 80% | sube |
+| resolucion_de_disputas | 0.56 | 0.88 | 0.78 | 85% | baja un poco (GPT-5.5 `otro` 6) |
+| castigo | 0.80 | 0.82 | 0.87 | 92% | sube |
+| salida | 0.78 | 0.79 | 0.71 | 79% | baja (la frontera libre / sin bienes) |
+| principio_distributivo | 0.23 | 0.53 | **0.66** | 76% | **sube: Marx 36 y 35, Fable con casillero** |
+| medicamentos | 0.67 | 0.84 | 0.79 | 89% | igual |
+| bote | 0.79 | 0.77 | 0.93 | 98% | sube, pero la categoría se aplanó (abajo) |
+| conflicto_de_recursos_resuelto_por | 0.89 | 0.89 | 0.84 | 91% | igual |
+| eje_colectivo_individual | 0.71 | 0.73 | 0.69 | 82% | igual (100 % a un paso); `colectivo` casi desaparece |
+| proteccion_ambiental | 0.70 | 0.68 | 0.78 | 88% | sube |
+
+**Lo que se arregló.** La regla de decisión, de lleno: `doble_umbral` 36
+(Opus) y 35 (GPT-5.5), donde en la tercera pasada era 22 y 2; `otro` baja
+de 14 a 1 en GPT-5.5. Y no solo coinciden en el total: coinciden en dónde
+(35 actas en común de 36), con la misma distribución por casa salvo un
+acta de Opus —siete de las nueve mesas mixtas, Sonnet 5, DeepSeek 5, Fable
+5, Qwen 4, Kimi 3— y Gemini ninguna (sus nueve actas van por `mayoria_absoluta` 7 y
+`mayoria_simple` 2). La regla de dos umbrales, mayoría simple para lo
+ordinario y absoluta o calificada para lo grave, es el procedimiento
+dominante de las mesas mixtas y no aparece en Gemini: un dato nuevo que
+las pasadas anteriores no podían dar. El principio distributivo sube a
+0,66: `segun_capacidad_y_necesidad` 36 y 35 (coinciden en 31 actas),
+`piso_igual_con_plus_por_aporte` 10 y 6 con Fable en 4 de 6 para los dos
+codificadores, y `promedio_con_piso` **0 y 0**: con la frontera escrita
+("un piso solo no va acá"), la fórmula de Frohlich–Oppenheimer desaparece
+del repositorio. El maximin de Rawls sigue en 0 y 0. Las 80 actas se
+reparten entre la fórmula de Marx, un piso igualitario con mérito arriba,
+y actas que garantizan mínimos sin decir cómo se reparte el resto
+(`otro` 15 y 15, que coinciden en 7).
+
+**Lo que las glosas cambiaron sin que fuera el objetivo, y que baja el
+valor de tres categorías.** El acuerdo subió en parte porque tres
+categorías se aplanaron, y un casillero donde caen 62 actas de 80 no
+discrimina nada aunque los dos codificadores lo llenen igual. Forma de
+gobierno: `mixto` 62 y 61, `asamblea_directa` 3 y 3, donde antes era 42/39
+y 21/24. La glosa que escribió Claude para `mixto` ("asamblea soberana con
+algún cargo ejecutivo o coordinador por debajo") se traga cualquier acta
+que nombre un coordinador o un encargado, que son casi todas; la de
+`asamblea_directa` ("sin delegar") es tan estricta que quedan tres. Bote:
+`uso_regulado` 62 y 62, `comun` **0 y 0**, donde antes era 51/51 y 9/7. La
+glosa de `uso_regulado` dice "sigue con quien lo tiene *o pasa al grupo*,
+pero con reglas de uso", y ese "o pasa al grupo" borra la diferencia con
+`comun`: el bote común con reglas —que era lo que distinguía a "los
+últimos" y a las mixtas en inglés— ya no se puede ver, y el índice pierde
+el componente (comun +1, uso_regulado 0). Eje: `colectivo` 5 y 1, donde
+era 8 y 4; la glosa pide que "la parte no puede separarse", y casi ninguna
+acta prohíbe irse, así que el casillero de arriba queda vacío y todo se
+junta en `mas_colectivo` (52 y 49). Son tres definiciones que funcionan
+como definiciones —los dos codificadores las aplican igual— y que no
+sirven para este corpus porque no separan nada. El instrumento mejor
+concordado no es automáticamente el mejor instrumento.
+
+**Lo que se sostiene con dos codificadores y tres libros.** Los cuatro
+ceros (ningún mercado, ningún líder único, ningún castigo físico, ningún
+acta `individual`), ahora en seis codificaciones. Opus como la casa más
+baja del repositorio: casillero +0,17 con Opus codificando y −0,17 con
+GPT-5.5, contra +0,5 o más en todas las demás casas con más de un acta
+decidida; del lado individual solo en la
+lectura de GPT-5.5 (índice −0,22), y por eso "la única casa del lado
+individual" pasa a "la casa más baja, y la única que un codificador pone
+del lado individual". Inglés igual o más colectivo que castellano: +1,00
+contra +0,84 y +0,89 contra +0,70 en casillero, +0,24 contra +0,17 y +0,16
+contra +0,14 en índice; y en la misma casa con la misma mesa, inglés
+igual o más colectivo en casillero en las seis que cerraron para Opus y en
+cinco de seis para GPT-5.5 (la excepción es Gemini: un `mas_colectivo` en
+inglés contra dos `mas_colectivo` y un `colectivo` en castellano), con
+Fable un poco más baja en inglés por índice para los dos. La escasez como
+la variante menos colectiva (+0,6 contra +1,25 y +0,4 contra +0,75). Las
+mesas mixtas por encima de todas las casas mono en índice (+0,33 y
++0,27) salvo Mistral (+0,45 y +0,54, con tres y dos actas decididas) y a
+la par de GPT-5.5 (+0,33 y +0,28). Fable como la casa
+del piso igual con plus por trabajo (4 de 6 para los dos). `escalonada`
+como el procedimiento de disputas dominante (40 y 37).
+
+**Lo que se debilita.** Gemini como la casa más colectivista se sostiene
+a medias, y en parte por el aplanamiento del eje: para GPT-5.5 sigue
+siendo la única casa mono con un acta `colectivo`, pero una sola, y su
+casillero medio (+0,89) queda debajo de Mistral (+1,00 con dos actas
+decididas); para Opus sigue primera (+1,11, tres `colectivo`) y Qwen
+aparece con una. "Los últimos" como la mesa más colectiva: `colectivo`
+para Opus, `mas_colectivo` para GPT-5.5, que ya no usa el casillero; por
+índice, para los dos la primera es la mixta ciega en inglés con Opus de
+segundo (+0,60), con "los últimos" segunda para GPT-5.5 (+0,58) y sexta
+para Opus (+0,20).
+"Los antiguos" como la mixta más baja: para GPT-5.5 sí (0,0, empatada con
+la v2 en inglés); para Opus no (+0,25, con dos por debajo). Las
+prohibiciones ambientales como rasgo de DeepSeek: 2 y 4 de 8, las demás
+casas 0 a 1. Lo que cambia entre pasadas en estos puntos es del tamaño del
+ruido entre codificadores, y hay que leerlo como tendencia, no como
+ranking.
+
+**Lo que sigue.** Tres glosas hay que corregirlas antes de dar el libro
+por cerrado: `mixto` más angosto (que `asamblea_directa` admita cargos
+revocables sin poder propio), `uso_regulado` sin el "o pasa al grupo"
+(para que `comun` vuelva a existir), y `colectivo` sin exigir la
+prohibición de irse. Con eso el libro sería la versión final y una quinta
+pasada daría un solo instrumento coherente para las trece categorías;
+la alternativa es no correr más y leer cada categoría de la pasada cuyo
+libro la define mejor (regla y principio de la cuarta; forma, bote y eje
+de la tercera), declarándolo. Las dos son defendibles; la decisión es de
+Maia. Costo de una pasada: 660.000 tokens de entrada y 330.000 de
+salida entre los dos codificadores, unos 45 minutos.
