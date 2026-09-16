@@ -21,8 +21,10 @@ vacía o casi.
 
 Las secciones 1 a 6 son la lectura del primer codificador (Opus 5). La
 sección 8 la contrasta con un segundo codificador de otra casa (GPT-5.5,
-decisión de Maia) y dice qué se sostiene y qué no; donde la sección 8
-corrige algo, manda la sección 8.
+decisión de Maia) y dice qué se sostiene y qué no; la sección 9 es la
+tercera pasada, los dos codificadores de nuevo con el libro de códigos
+corregido a partir de la sección 8. Donde una sección posterior corrige
+algo, manda la posterior.
 
 ## 1. Lo que dicen las 80 actas juntas
 
@@ -54,9 +56,10 @@ antecedente), contra 5 `maximin` (Rawls) y 3 `igualitario_estricto`; 13
 GPT-5.5 pone `otro` en 56 de 80 y `promedio_con_piso` en 1. Lo que las
 actas dicen casi siempre es "de cada uno según su capacidad, a cada uno
 según su necesidad, con un piso vital garantizado", y el libro de códigos
-no tiene ese casillero: Opus lo asimiló al principio más cercano de la
+no tenía ese casillero: Opus lo asimiló al principio más cercano de la
 lista y GPT-5.5 se negó a asimilarlo. El dato firme es que la fórmula
-dominante es esa, no que sea Frohlich–Oppenheimer. El bote casi siempre `uso_regulado` (53): sigue con quien lo
+dominante es esa, no que sea Frohlich–Oppenheimer. Con el casillero
+agregado (sección 9), los dos codificadores lo usan: 29 y 23 de 80. El bote casi siempre `uso_regulado` (53): sigue con quien lo
 tiene, con reglas. Los medicamentos, `custodia_medica` (44) antes que
 `por_necesidad` (16). La salida es lo que más se deja sin decidir (27).
 
@@ -168,7 +171,11 @@ medical ration plan by need") y `custodia_medica` en 3, cuando en
 castellano la custodia médica gana 40 a 11. Pero es la categoría donde los
 dos codificadores más se cruzan (sección 8: GPT-5.5 lee `por_necesidad` en
 23 actas en castellano donde Opus leyó custodia), así que la diferencia
-por idioma es en buena parte una diferencia de lectura, no de acta.
+por idioma es en buena parte una diferencia de lectura, no de acta. **En
+la tercera pasada, con la frontera entre custodia y necesidad aclarada en
+el libro, la diferencia desaparece** (sección 9): en inglés, custodia
+médica 5 y por necesidad 3 para los dos codificadores; en castellano, 46 a
+6 y 42 a 7. Era lectura, no acta.
 
 **"Francés más ecologista": no se puede decidir con una acta, y lo que hay
 apunta a la casa, no al idioma.** El acta francesa es `reglas_concretas`
@@ -245,26 +252,30 @@ hecho a mano.
 - Da una lectura nueva por casa: Gemini colectivista, Opus la única con
   freno individual explícito, GPT-5.5 la más estable, DeepSeek en el medio.
 - La fórmula distributiva dominante es "según capacidad, según
-  necesidad, con piso vital"; si eso es Frohlich–Oppenheimer (piso y
-  después promedio) o algo que la lista no tiene depende del codificador
-  (sección 8). El maximin de Rawls es raro para los dos (5 y 3).
+  necesidad, con piso vital": la de Marx, no la de Frohlich–Oppenheimer
+  ni la de Rawls. Con el casillero en el libro, los dos codificadores la
+  leen (29 y 23 de 80; sección 9). El maximin de Rawls es raro o nulo
+  (5 y 3 en la segunda pasada, 0 y 0 en la tercera).
 
 ## 7. Límites
 
 - Dos codificadores (Opus 5 y GPT-5.5), con la concordancia en la
   sección 8: alta en propiedad, castigo, bote, salida, protección y en el
   eje; baja en principio distributivo, resolución de disputas y regla de
-  decisión, por valores que le faltan a la lista. Las citas permiten
-  adjudicar a mano los 231 desacuerdos; no se hizo todavía.
+  decisión, por valores que le faltaban a la lista. La tercera pasada
+  (sección 9) arregla disputas y medicamentos, mejora a medias el
+  principio distributivo y empeora la regla de decisión por un error de
+  instrumento. Las citas permiten adjudicar a mano los desacuerdos que
+  quedan (173); no se hizo todavía.
 - El casillero del eje está corrido hacia lo colectivo por el escenario;
   la escala útil quedó en tres valores (`colectivo`, `mas_colectivo`,
   `equilibrado`). El índice tiene pesos puestos por Claude, a la vista en
   el yaml, y no pondera lo que el acta calla.
 - `otro` en 13 principios distributivos y 8 resoluciones de disputas: la
-  lista no cubre "según capacidad y según necesidad, con piso" (que es
+  lista no cubría "según capacidad y según necesidad, con piso" (que es
   casi una fórmula fija de estas actas) ni la resolución escalonada
-  (diálogo → mediación → asamblea, en Sonnet, GPT, Kimi, Fable); se pueden
-  agregar como valores antes de la segunda pasada.
+  (diálogo → mediación → asamblea, en Sonnet, GPT, Kimi, Fable); se
+  agregaron como valores para la tercera pasada (sección 9).
 - n por casa entre 1 y 9; por idioma, 1 en francés y en chino; las
   comparaciones por idioma fuera de castellano/inglés v1 no son
   comparaciones.
@@ -279,10 +290,20 @@ Decisión de Maia (15/9): "me parece mejor 5.5". GPT-5.5 codificó las mismas
 (`codificar.py --codificador gpt-5.5-2026-04-23 --etiqueta gpt55
 --max-tokens 8000 --temperatura ninguna`; 19:13–19:53 UTC; las 80
 respuestas JSON válido, cero avisos; `codificacion_gpt55.json` en cada
-corrida, `resultados/codificacion_gpt55.csv`). Diferencia entre
-instrumentos, declarada: Opus codificó a temperatura 0 y GPT-5.5 a la suya
-por defecto, porque su API rechaza cualquier otra (el primer lanzamiento
-falló por eso y se relanzó). `comparar_codificaciones.py` produjo
+corrida, `resultados/codificacion_gpt55.csv`). Sobre la temperatura: el
+primer lanzamiento de GPT-5.5 falló porque su API rechaza cualquier
+temperatura que no sea la suya por defecto, y se relanzó sin mandarla. Lo
+que esta lectura dijo hasta la tercera pasada —que Opus había codificado
+a temperatura 0 y GPT-5.5 a la suya— era falso: Opus 5 tampoco acepta el
+parámetro (`config/modelos.yaml`, `acepta_temperatura: false`) y el
+registro lo muestra en las cuatro pasadas (`temperatura_pedida: 0.0`
+para Opus, `null` para GPT-5.5; `temperatura_enviada: null` para los
+dos). Los dos codificadores corrieron con su muestreo por defecto; la
+diferencia entre instrumentos es la casa y el razonamiento (Opus 5 razona
+siempre, `razonamiento_pedido: adaptativo`; a GPT-5.5 el script no le
+pidió razonamiento, `razonamiento_pedido: no`, y lo que haga por defecto
+queda del lado de su API), no la temperatura. Corregido el 15/9 al leer
+la tercera pasada. `comparar_codificaciones.py` produjo
 `resultados/concordancia_opus_gpt55_20260915-195352.md`, con la lista de
 los 231 desacuerdos y las dos citas.
 
@@ -354,3 +375,157 @@ sin consentimiento"). Es la ambigüedad de fondo del eje aplicada a una
 categoría: proteger lo propio de la votación ¿es propiedad privada o es un
 límite dentro de un régimen mixto?
 
+## 9. Tercera pasada: los dos codificadores con el libro corregido
+
+OK de Maia (15/9: "está bien hacerlo"). Al libro de códigos se le
+agregaron tres valores que la sección 8 había encontrado faltantes
+—`segun_capacidad_y_necesidad` (principio distributivo; la fórmula de
+Marx en la *Crítica del programa de Gotha*, 1875), `escalonada`
+(resolución de disputas) y `doble_umbral` (regla de decisión)— y se
+aclaró en la descripción de `medicamentos` dónde termina
+`custodia_medica` y dónde empieza `por_necesidad`. Con ese libro
+(`config/codebook.yaml` en el commit 8ce772c) corrieron otra vez los dos
+codificadores, en paralelo y sin ver ninguna pasada anterior: Opus 5
+(`--etiqueta opus_libro2`, 21:15–21:38 UTC) y GPT-5.5 (`--etiqueta
+gpt55_libro2`, 21:15–21:57 UTC). 80 de 80 cada uno, cero errores, cero
+avisos del validador. Archivos: `corridas/<id>/codificacion_opus_libro2.json`
+y `codificacion_gpt55_libro2.json`, `resultados/codificacion_opus_libro2.csv`
+y `codificacion_gpt55_libro2.csv`, las llamadas en
+`resultados/llamadas_codificacion_*_libro2.jsonl`, y la concordancia en
+`resultados/concordancia_opus_libro2_gpt55_libro2_20260915-215733.md`
+(con los 173 desacuerdos y las dos citas). La primera y la segunda pasada
+quedan intactas, con sus etiquetas.
+
+**Acuerdo exacto global: 83,4 % sobre 1040 celdas (era 77,8 %).
+Correlación entre los dos índices: 0,89 (era 0,81). Desacuerdos: 173
+(eran 231).**
+
+| Categoría | Kappa, 2.ª pasada | Kappa, 3.ª pasada | Acuerdo, 3.ª | Qué pasó |
+|---|---|---|---|---|
+| forma_de_gobierno | 0.73 | 0.79 | 86% | sube sola |
+| regla_de_decision | 0.55 | **0.48** | 60% | **empeora: error de instrumento (abajo)** |
+| regimen_de_propiedad | 0.82 | 0.91 | 95% | sube sola |
+| sistema_economico | 0.66 | 0.64 | 74% | igual |
+| resolucion_de_disputas | 0.56 | **0.88** | 92% | **arreglada: `escalonada` 44 y 45** |
+| castigo | 0.80 | 0.82 | 90% | igual |
+| salida | 0.78 | 0.79 | 85% | igual |
+| principio_distributivo | 0.23 | **0.53** | 64% | **a medias (abajo)** |
+| medicamentos | 0.67 | **0.84** | 91% | **arreglada por la aclaración** |
+| bote | 0.79 | 0.77 | 88% | igual |
+| conflicto_de_recursos_resuelto_por | 0.89 | 0.89 | 94% | igual |
+| eje_colectivo_individual | 0.71 | 0.73 | 82% | igual (100 % a un paso) |
+| proteccion_ambiental | 0.70 | 0.68 | 82% | igual |
+
+Las categorías que no se tocaron se mueven entre −0,02 y +0,09: es el
+ruido entre dos pasadas del mismo codificador con el mismo libro (ninguno
+de los dos corre a temperatura fija; ver la corrección en la sección 8),
+y da la escala para leer lo demás.
+
+**Lo que se arregló.** Resolución de disputas: los dos codificadores
+ponen `escalonada` en 44 y 45 actas, donde antes Opus ponía `mediacion`
+(22) y GPT-5.5 `otro` (27); la `asamblea` queda en 14 y 12, y `otro`
+desaparece (0 y 0). Medicamentos: `custodia_medica` 52 y 48,
+`por_necesidad` 9 y 10, donde antes era 44/29 y 16/30; la aclaración de
+la frontera bastó. Con eso cae la diferencia por idioma que la sección 4
+había dejado en duda (inglés: custodia 5, necesidad 3 para los dos), y
+cae también el rasgo de casa de GPT-5.5 de la sección 3 ("medicamentos
+`por_necesidad` en 5 de 8, la única casa"): en la tercera pasada son 1 de
+8 para Opus y 3 de 8 para GPT-5.5. Era lectura.
+
+**Lo que se arregló a medias: el principio distributivo.** El casillero
+nuevo funciona: `segun_capacidad_y_necesidad` 29 (Opus) y 23 (GPT-5.5),
+con 20 actas en las que coinciden; `maximin` baja a 0 y 0 (los 5 y 3 de
+antes eran la fórmula de Marx leída como Rawls). Pero quedan 29
+desacuerdos, y casi todos son la misma pregunta: cuánto de la fórmula
+hace falta para poner el casillero. Opus pone `promedio_con_piso` 16
+veces y GPT-5.5 una: en diez actas, Opus lee un piso solo ("mínimo vital
+igual salvo indicación de Salud"; "derecho a ración, atención médica
+según necesidad clínica"; "ninguna pena priva de agua, alimento básico ni
+medicación necesaria") como Frohlich–Oppenheimer, y GPT-5.5 lo deja en
+`otro` porque un piso sin regla para lo que está encima no es un
+principio de reparto. En otras ocho, Opus lee media fórmula ("se reparte
+según necesidad"; "trabajo según capacidad y racionamiento proporcional")
+como `segun_capacidad_y_necesidad` y GPT-5.5 la deja en `otro` porque
+falta la otra mitad. GPT-5.5 es el codificador estricto en las dos; por
+eso tiene 29 `otro` contra 12. Y hay un patrón que ninguno de los seis
+valores nombra y que es de una casa: ración base igual para todos y,
+encima, un plus por trabajo. "Everyone contributes work according to
+capacity and receives a full basic ration; surplus is distributed
+proportionally to work" (Fable, inglés); "repartido en raciones base
+iguales, más una porción adicional por tareas pesadas o riesgosas"
+(Fable, castellano); "partes iguales, ración adicional para enfermos y
+quien trajo dentro del cupo o hizo tareas pesadas" (Fable). Opus lo lee
+como `promedio_con_piso` y GPT-5.5 como `otro`, y los dos tienen razón a
+su manera: es un piso igualitario con mérito arriba. De las seis actas de
+Fable, Opus lee cinco como `promedio_con_piso` y GPT-5.5 cuatro como
+`otro`; Fable es la casa que escribe esa fórmula y no la de Marx (1 de 6 para
+los dos codificadores, contra Sonnet 6 y 5 de 9 y GPT-5.5 5 y 5 de 8). Para cerrar la
+categoría hace falta decir en el libro qué se hace con el piso solo y
+con la media fórmula, y agregar el valor "piso igual más plus por
+aporte".
+
+**Lo que empeoró, y por qué: la regla de decisión.** Kappa de 0,55 a
+0,48. Opus usa `doble_umbral` 22 veces; GPT-5.5, 2. De los 32
+desacuerdos, 20 son Opus `doble_umbral` contra GPT-5.5 `otro` (12),
+`mayoria_simple` (5) o `mayoria_absoluta` (3), y en los 12 de `otro`
+GPT-5.5 cita el texto de los dos umbrales completo ("Decision_rule:
+Simple majority, 2/3 for resource depletion risks"; "Mayoría simple para
+decisiones generales. Mayoría absoluta (4 de 7) para cambios
+constitucionales, destitución del Coordinador o aplicación de penas
+graves") y no lo pone en el casillero que existe para eso. La causa es un error mío de
+instrumento, encontrado al leer esta pasada: la glosa de `doble_umbral`
+("mayoría simple para lo ordinario y absoluta o calificada para lo
+grave") está en el yaml como comentario, y `codificar.py` arma el prompt
+con la descripción de cada categoría y la lista pelada de valores; los
+comentarios no viajan. El codificador vio el nombre `doble_umbral` y nada
+más (está verificado en el prompt guardado en el jsonl). Opus adivinó lo
+que significa; GPT-5.5, en general, no. `escalonada` se salvó porque el
+nombre se explica solo, y `segun_capacidad_y_necesidad` porque su glosa
+fue a la descripción de la categoría, no a un comentario. Lo mismo vale,
+desde la primera pasada, para las otras diecisiete glosas del libro que
+están en comentarios (`asamblea_directa: todas las partes deciden todo`,
+`libre_sin_bienes: puede irse pero no llevarse bienes comunes`,
+`uso_regulado: de quien lo tiene, pero con reglas de uso`, etcétera):
+ningún codificador las vio nunca; el libro que leyó el humano y el que
+leyó la máquina no son el mismo. Arreglarlo es cambiar el formato del
+yaml para que cada valor lleve su glosa y que `codificar.py` la ponga en
+el prompt, y volver a correr. Esta pasada no se relanzó: es una corrida
+nueva y la decide Maia.
+
+**Lo que se sostiene con dos codificadores y dos versiones del libro.**
+Los cuatro ceros (ningún mercado, ningún líder único, ningún castigo
+físico, ningún acta `individual`), en las cuatro codificaciones. Opus
+como la única casa con el casillero medio del lado individual (−0,17
+para los dos); en el índice también queda bajo cero para los dos (−0,09
+y −0,11), aunque ahí ya no está sola: Kimi (n = 3; −0,17 y −0,19) y Fable
+(−0,02 y −0,08) también, con casilleros positivos, que es la diferencia
+entre lo que el codificador lee del acta entera y lo que suman seis
+categorías. Gemini como la única casa mono con actas
+`colectivo` (4 y 3) y la de casillero más alto (+1,22 y +1,00). Inglés
+igual o más colectivo que castellano: casillero +1,11 y +1,00 contra
++0,76 y +0,69; índice +0,35 y +0,23 contra +0,17 y +0,13; y en la misma
+casa con la misma mesa en los dos idiomas, inglés ≥ castellano en las
+seis que cerraron en inglés (Sonnet, que en la segunda pasada iba al
+revés, ahora da `mas_colectivo` en inglés para los dos), Grok sin cerrar.
+Las mesas mixtas como el grupo más colectivo (+1,11 y +1,00; índice +0,37
+y +0,24), "los últimos" `colectivo` para los dos, "los antiguos" con el
+índice más bajo de las mixtas (0,0 y −0,2; para GPT-5.5 ahora
+`por_merito_o_aporte`, con la cita "Régimen: Meritocracia coordinada con
+controles democráticos"). La escasez como la variante menos colectiva (casillero
++0,4 contra +1,0 en abundancia, para los dos). `escalonada` como el
+procedimiento de disputas dominante del repositorio (44 y 45 de 80), que
+antes estaba repartido entre tres casilleros.
+
+**Lo que cambia.** La propiedad `privada`: los dos ven ahora el acta de
+Opus mono ("nadie dispone del cuerpo, del trabajo ni de los bienes ajenos
+sin consentimiento expreso"), y Opus además la de Gemini con escasez; ya
+no son una distinta para cada uno. Las prohibiciones ambientales como
+rasgo de casa se diluyen: DeepSeek 3 y 2, y todas las demás entre 0 y 2.
+Y el maximin de Rawls, que la sección 1 daba en 5, no aparece: en 80
+actas, cero para los dos.
+
+**Lo que sigue.** Poner las glosas en el prompt y correr una cuarta
+pasada es la única forma de saber si la regla de decisión también cierra;
+agregar el valor "piso igual más plus por aporte" cerraría el principio
+distributivo. Después, adjudicar a mano lo que quede. Cada pasada cuesta
+lo mismo (160 llamadas, unos 45 minutos) y no pisa las anteriores.
