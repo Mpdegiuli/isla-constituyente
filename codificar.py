@@ -21,6 +21,7 @@ Lee el acta en el idioma en que está, sin traducir (DISENO.md, sección 4).
 
 import argparse
 import csv
+import hashlib
 import json
 import re
 import sys
@@ -54,10 +55,24 @@ def esquema(codebook):
     return {"type": "object", "properties": props, "required": list(props), "additionalProperties": False}
 
 
+def lineas_de_valores(spec):
+    """Un renglón por valor, con su glosa si la tiene. Hasta la tercera pasada
+    (15/9/2026) las glosas eran comentarios del yaml y no llegaban al codificador:
+    veía el nombre pelado, y eso rompió regla_de_decision. Ahora van en `glosas:`
+    y se mandan en el prompt."""
+    glosas = spec.get("glosas") or {}
+    salida = []
+    for v in spec["valores"]:
+        glosa = " ".join((glosas.get(v) or "").split())
+        salida.append(f"    {v}" + (f": {glosa}" if glosa else ""))
+    return salida
+
+
 def prompt_codificacion(codebook, acta, resultado):
     lineas = [codebook["instrucciones"].strip(), "", "CATEGORÍAS Y VALORES PERMITIDOS:"]
     for cat, spec in codebook["categorias"].items():
-        lineas.append(f"- {cat}: {spec['descripcion'].strip()}. Valores: {', '.join(spec['valores'])}")
+        lineas.append(f"- {cat}: {' '.join(spec['descripcion'].split())}")
+        lineas += lineas_de_valores(spec)
     lineas += [
         "",
         f"Contexto de proceso (no lo codifiques, solo para entender el acta): fin={resultado.get('fin')}, "
@@ -86,6 +101,14 @@ def extraer_json(texto):
     return json.loads(texto)
 
 
+def revisar_codebook(codebook):
+    """Cada glosa tiene que ser de un valor que existe; si no, el libro tiene una errata."""
+    for cat, spec in codebook["categorias"].items():
+        sueltas = set(spec.get("glosas") or {}) - set(spec["valores"])
+        if sueltas:
+            raise SystemExit(f"codebook: {cat} tiene glosas de valores que no están en la lista: {sorted(sueltas)}")
+
+
 def validar(datos, codebook):
     limpio, problemas = {}, []
     for cat, spec in codebook["categorias"].items():
@@ -98,7 +121,7 @@ def validar(datos, codebook):
     return limpio, problemas
 
 
-def codificar_corrida(carpeta, codebook, registro, id_modelo, archivo="codificacion.json", max_tokens=4000, temperatura=0.0):
+def codificar_corrida(carpeta, codebook, registro, id_modelo, archivo="codificacion.json", max_tokens=4000, temperatura=0.0, codebook_md5=""):
     acta = (carpeta / "acta.md").read_text(encoding="utf-8")
     resultado = json.loads((carpeta / "resultado.json").read_text(encoding="utf-8"))
     sistema = "Sos un instrumento de codificación de contenido. Devolvés solo JSON válido."
@@ -112,7 +135,7 @@ def codificar_corrida(carpeta, codebook, registro, id_modelo, archivo="codificac
     salida = {
         "corrida": carpeta.name,
         "codificador": {"id": id_modelo, "modelo_pedido": registro.modelos[id_modelo]["modelo"],
-                        "modelo_respondido": r.modelo_respondido},
+                        "modelo_respondido": r.modelo_respondido, "codebook_md5": codebook_md5},
         "categorias": limpio,
         "problemas": problemas,
     }
@@ -192,6 +215,8 @@ def main():
 
     load_dotenv(RAIZ / ".env")
     codebook = leer_yaml(args.codebook)
+    revisar_codebook(codebook)
+    codebook_md5 = hashlib.md5(Path(args.codebook).read_bytes()).hexdigest()[:8]  # con qué libro se codificó (desde la cuarta pasada)
     modelos = cargar_modelos(args.modelos)
     carpetas = [Path(c) for c in args.corridas] or sorted(p for p in Path("corridas").iterdir() if p.is_dir())
     carpetas = [c for c in carpetas if (c / "acta.md").exists() and (c / "resultado.json").exists()]
@@ -213,7 +238,7 @@ def main():
         else:
             print(f"Codificando {c.name} con {args.codificador}...", flush=True)
             try:
-                cod = codificar_corrida(c, codebook, registro, args.codificador, archivo, args.max_tokens, temperatura)
+                cod = codificar_corrida(c, codebook, registro, args.codificador, archivo, args.max_tokens, temperatura, codebook_md5)
             except Exception as e:  # una corrida fallida no tira las demás; se relanza sola con el mismo comando
                 print(f"  FALLÓ {c.name}: {str(e)[:300]}", flush=True)
                 fallidas.append(c.name)

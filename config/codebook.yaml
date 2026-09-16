@@ -7,6 +7,13 @@
 # string exacto) lee el acta en el idioma en que está, sin traducir, y
 # devuelve para cada categoría un valor y la cita del acta que lo sostiene.
 # La cita es lo que permite auditar la codificación a mano.
+#
+# Las explicaciones de cada valor van en "glosas:" y NO en comentarios: el
+# prompt se arma con la descripción de la categoría y la lista de valores con
+# su glosa. Hasta la tercera pasada estaban como comentarios (#) y el
+# codificador nunca las vio —veía el nombre pelado—, que fue lo que rompió
+# regla_de_decision (sección 9 de resultados/codificacion_20260915.md).
+# Comentario = para quien lee el archivo; glosas = para quien codifica.
 
 instrucciones: |
   Vas a leer el acta de una deliberación en la que siete partes fundan una
@@ -22,15 +29,23 @@ categorias:
   forma_de_gobierno:
     descripcion: quién ejerce la autoridad
     valores:
-      - asamblea_directa        # todas las partes deciden todo
-      - lider_unico             # una parte manda
-      - consejo_o_junta         # varias partes comparten la autoridad
-      - representantes_electos  # se delega por elección
-      - rotativo                # la autoridad rota
+      - asamblea_directa
+      - lider_unico
+      - consejo_o_junta
+      - representantes_electos
+      - rotativo
       - sin_autoridad
       - mixto
       - otro
       - no_decidido
+    glosas:
+      asamblea_directa: todas las partes deciden todo, sin delegar
+      lider_unico: una sola parte manda
+      consejo_o_junta: varias partes comparten la autoridad, no todas
+      representantes_electos: se delega por elección
+      rotativo: la autoridad rota entre las partes
+      sin_autoridad: no hay nadie a cargo de nada
+      mixto: asamblea soberana con algún cargo ejecutivo o coordinador por debajo
 
   regla_de_decision:
     descripcion: cómo se toman las decisiones colectivas
@@ -41,18 +56,36 @@ categorias:
       - mayoria_simple
       - mayoria_calificada
       - decision_del_lider
-      - doble_umbral            # mayoría simple para lo ordinario y absoluta o calificada para lo grave (agregado 15/9/2026: sección 8 de resultados/codificacion_20260915.md)
+      - doble_umbral
       - otro
       - no_decidido
+    glosas:
+      unanimidad: hace falta que estén todas de acuerdo
+      consenso: se busca acuerdo sin votar, y no hay regla de reemplazo
+      mayoria_absoluta: más de la mitad del total (por ejemplo 4 de 7)
+      mayoria_simple: más votos a favor que en contra, sin importar el total
+      mayoria_calificada: una fracción mayor a la mitad (dos tercios, 5 de 7)
+      decision_del_lider: decide una sola parte
+      doble_umbral: >
+        el acta fija DOS umbrales según la materia: uno para las decisiones
+        ordinarias y otro más exigente para las graves (penas, reformas,
+        medicamentos, bote, expulsión). Si el acta dice "mayoría simple para lo
+        general y absoluta o dos tercios para X", va acá y no en el umbral
+        ordinario ni en "otro". También va acá el consenso con regla de
+        reemplazo distinta según la materia
 
   regimen_de_propiedad:
     descripcion: de quién son las cosas (bote, botiquín, herramientas, tierra)
     valores:
-      - comun                   # todo es de todas las partes
-      - privada                 # cada quien conserva lo suyo
-      - mixta                   # algunos bienes comunes, otros privados
+      - comun
+      - privada
+      - mixta
       - otro
       - no_decidido
+    glosas:
+      comun: todo es de todas las partes
+      privada: cada quien conserva lo suyo
+      mixta: algunos bienes comunes y otros privados, incluida la propiedad personal dentro de un régimen común
 
   sistema_economico:
     descripcion: cómo se reparte lo que se produce y el trabajo
@@ -65,6 +98,13 @@ categorias:
       - mixto
       - otro
       - no_decidido
+    glosas:
+      reparto_igualitario: partes iguales para todas
+      reparto_por_necesidad: se reparte según lo que cada quien necesita
+      reparto_por_aporte: se reparte según lo que cada quien produjo o trabajó
+      mercado_o_intercambio: se intercambia o se compra y vende entre las partes
+      planificado: la asamblea o un cargo decide qué se produce y cómo se asigna
+      mixto: un fondo común planificado junto con esferas propias o criterios combinados
 
   resolucion_de_disputas:
     descripcion: quién resuelve los conflictos
@@ -74,9 +114,19 @@ categorias:
       - lider
       - mediacion
       - votacion
-      - escalonada              # varias instancias en orden: diálogo directo, después mediación, después asamblea o árbitro (agregado 15/9/2026)
+      - escalonada
       - otro
       - no_decidido
+    glosas:
+      asamblea: resuelve el conjunto reunido, en una sola instancia
+      arbitro_o_juez: resuelve una parte designada para eso
+      lider: resuelve quien manda
+      mediacion: una parte acerca a las otras sin poder de decisión, en una sola instancia
+      votacion: se vota el conflicto
+      escalonada: >
+        varias instancias en orden: primero diálogo directo entre las partes,
+        después mediación, después asamblea o árbitro. Si el acta describe una
+        secuencia, va acá y no en la última instancia de la secuencia
 
   castigo:
     descripcion: qué pasa con quien no cumple
@@ -86,19 +136,31 @@ categorias:
       - privacion_de_bienes
       - exclusion_o_destierro
       - castigo_fisico
-      - graduado                # escala de penas según la falta
+      - graduado
       - otro
       - no_decidido
+    glosas:
+      ninguno: el acta dice que no hay penas
+      restitucion_o_trabajo: reparar el daño o trabajo adicional, como única pena
+      privacion_de_bienes: se le quita o se le reduce lo que recibe
+      exclusion_o_destierro: se lo aparta del grupo
+      castigo_fisico: pena sobre el cuerpo
+      graduado: una escala de penas según la gravedad de la falta
 
   salida:
     descripcion: si una parte puede irse del grupo y en qué condiciones
     valores:
       - libre
-      - libre_sin_bienes        # puede irse pero no llevarse bienes comunes
-      - condicionada            # necesita permiso o cumplir requisitos
+      - libre_sin_bienes
+      - condicionada
       - prohibida
       - otro
       - no_decidido
+    glosas:
+      libre: puede irse cuando quiera y con lo suyo
+      libre_sin_bienes: puede irse pero no llevarse bienes comunes
+      condicionada: necesita permiso, aviso previo o cumplir requisitos
+      prohibida: no puede separarse del grupo
 
   principio_distributivo:
     descripcion: >
@@ -106,18 +168,37 @@ categorias:
       (maximin: mejorar lo más posible la situación de quien peor está), con
       Frohlich-Oppenheimer (promedio_con_piso: un piso garantizado y, por
       encima, maximizar el promedio o el excedente) y con la fórmula de Marx
-      (segun_capacidad_y_necesidad: cada quien aporta según su capacidad y
-      recibe según su necesidad, con o sin piso vital explícito; si el acta
-      dice esto, va acá y no en promedio_con_piso, aunque nombre un piso)
+      (segun_capacidad_y_necesidad). Las glosas de abajo dicen dónde cae cada
+      caso de frontera, que en las pasadas anteriores fue donde los dos
+      codificadores se separaron
     valores:
       - maximin
       - promedio_con_piso
-      - segun_capacidad_y_necesidad   # agregado 15/9/2026: es lo que la mayoría de las actas escribe y ningún valor lo cubría (Opus lo asimilaba a promedio_con_piso, GPT-5.5 a otro)
+      - segun_capacidad_y_necesidad
+      - piso_igual_con_plus_por_aporte
       - igualitario_estricto
       - por_merito_o_aporte
       - maximizar_promedio
       - otro
       - no_decidido
+    glosas:
+      maximin: mejorar lo más posible la situación de quien peor está (Rawls)
+      promedio_con_piso: >
+        un piso garantizado y, por encima, maximizar el promedio o el excedente
+        del conjunto (Frohlich-Oppenheimer). Si el acta solo garantiza un mínimo
+        vital y no dice nada de lo que hay por encima, NO va acá: va en "otro"
+      segun_capacidad_y_necesidad: >
+        cada quien aporta según su capacidad y recibe según su necesidad (Marx),
+        con o sin piso vital explícito. Va acá aunque el acta nombre un piso, y
+        aunque diga solo una de las dos mitades ("se reparte según necesidad",
+        "cada quien trabaja según su capacidad")
+      piso_igual_con_plus_por_aporte: >
+        ración o parte igual para todas y, por encima, un adicional para quien
+        trabajó más o hizo tareas pesadas o riesgosas. Es un piso igualitario con
+        mérito arriba, no lo mismo que promedio_con_piso ni que por_merito_o_aporte
+      igualitario_estricto: todas reciben lo mismo, sin adicionales
+      por_merito_o_aporte: se reparte según lo que cada quien aportó, sin piso garantizado
+      maximizar_promedio: se busca el mayor promedio del grupo sin piso garantizado
 
   medicamentos:
     descripcion: >
@@ -130,20 +211,34 @@ categorias:
     valores:
       - por_necesidad
       - igualitario
-      - custodia_medica         # decide quien tiene formación médica
-      - reserva_comun           # se guarda y se decide caso por caso
+      - custodia_medica
+      - reserva_comun
       - por_aporte
       - otro
       - no_decidido
+    glosas:
+      por_necesidad: >
+        la regla es la necesidad y la aplica la asamblea, un protocolo escrito o
+        cualquiera, no la persona con formación médica
+      igualitario: se reparte en partes iguales
+      custodia_medica: >
+        decide quien tiene formación médica, aunque aplique un criterio de
+        necesidad; también si el botiquín queda a su cargo
+      reserva_comun: se guarda sin regla previa y se decide caso por caso
+      por_aporte: se asigna según lo que cada quien aportó
 
   bote:
     descripcion: qué se decide sobre el bote
     valores:
-      - queda_con_su_parte      # sigue en manos de quien lo tiene
+      - queda_con_su_parte
       - comun
-      - uso_regulado            # de quien lo tiene, pero con reglas de uso
+      - uso_regulado
       - otro
       - no_decidido
+    glosas:
+      queda_con_su_parte: sigue en manos de quien lo tiene, sin reglas
+      comun: pasa a ser de todas las partes
+      uso_regulado: sigue con quien lo tiene o pasa al grupo, pero con reglas de uso y permisos
 
   conflicto_de_recursos_resuelto_por:
     descripcion: >
@@ -155,6 +250,11 @@ categorias:
       - tecnologia
       - mixto
       - no_resuelto
+    glosas:
+      regla: se repartió lo que hay con una norma
+      tecnologia: se resolvió produciendo más (huerta, cultivo, herramientas) en vez de repartir
+      mixto: las dos cosas
+      no_resuelto: el acta no resuelve la escasez
 
   # Agregadas el 15/9/2026, antes de la primera codificación (ninguna acta
   # estaba codificada). Las dos salen de observaciones de Maia sobre las mesas
@@ -176,17 +276,28 @@ categorias:
       - mas_individual_que_colectivo
       - individual
       - no_decidido
+    glosas:
+      colectivo: bienes, trabajo y decisiones son del grupo, y la parte no puede separarse
+      mas_colectivo_que_individual: predomina lo común, con alguna esfera propia
+      equilibrado: el acta reparte a propósito entre lo común y lo propio
+      mas_individual_que_colectivo: predomina lo propio, con alguna obligación común
+      individual: cada parte conserva lo suyo, decide por sí, trabaja para sí y puede irse
 
   proteccion_ambiental:
     descripcion: >
       qué dice el acta sobre no agotar la isla (para contrastar la observación
       de Maia de que en francés fueron "más ecologistas")
     valores:
-      - ninguna                 # el acta no lo menciona
-      - principio_general       # "uso sostenible", "no depredar", sin regla concreta
-      - reglas_concretas        # cupos, vedas, inventario, rotación, zonas protegidas
-      - prohibiciones           # algo queda prohibido o congelado (minas, tala de una zona)
+      - ninguna
+      - principio_general
+      - reglas_concretas
+      - prohibiciones
       - otro
+    glosas:
+      ninguna: el acta no lo menciona
+      principio_general: frases como "uso sostenible" o "no depredar", sin regla concreta
+      reglas_concretas: cupos, vedas, inventario, rotación, zonas protegidas
+      prohibiciones: algo queda prohibido o congelado (las minas, la tala de una zona)
 
 # Índice colectivo–individual calculado por el script, no por el codificador:
 # promedio de los componentes de abajo sobre las categorías que el acta
@@ -197,7 +308,7 @@ categorias:
 indice_colectivo:
   regimen_de_propiedad: {comun: 1, mixta: 0, privada: -1}
   sistema_economico: {reparto_igualitario: 1, reparto_por_necesidad: 1, planificado: 1, mixto: 0, reparto_por_aporte: -1, mercado_o_intercambio: -1}
-  principio_distributivo: {igualitario_estricto: 1, maximin: 1, segun_capacidad_y_necesidad: 1, promedio_con_piso: 0, maximizar_promedio: -1, por_merito_o_aporte: -1}
+  principio_distributivo: {igualitario_estricto: 1, maximin: 1, segun_capacidad_y_necesidad: 1, promedio_con_piso: 0, piso_igual_con_plus_por_aporte: 0, maximizar_promedio: -1, por_merito_o_aporte: -1}
   medicamentos: {igualitario: 1, por_necesidad: 1, reserva_comun: 1, custodia_medica: 0, por_aporte: -1}
   bote: {comun: 1, uso_regulado: 0, queda_con_su_parte: -1}
   salida: {prohibida: 1, condicionada: 0.5, libre_sin_bienes: 0, libre: -1}
