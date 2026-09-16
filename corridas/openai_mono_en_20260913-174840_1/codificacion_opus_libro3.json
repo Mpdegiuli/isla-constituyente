@@ -1,0 +1,64 @@
+{
+  "corrida": "openai_mono_en_20260913-174840_1",
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "codebook_md5": "2cfd2050"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "mixto",
+      "evidencia": "Subsequent decisions are approved by an absolute majority of participants who remain in the group and take part in deliberation, with at least three votes in favor required. ... No one may launch, take, or alter the boat without Council approval and Boatkeeper safety approval."
+    },
+    "regla_de_decision": {
+      "valor": "mayoria_absoluta",
+      "evidencia": "Decision rule in force: absolute majority (more than half of the parties present)."
+    },
+    "regimen_de_propiedad": {
+      "valor": "comun",
+      "evidencia": "Boat remains common property but is kept under recorded custody"
+    },
+    "sistema_economico": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "resolucion_de_disputas": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "castigo": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "salida": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "principio_distributivo": {
+      "valor": "segun_capacidad_y_necesidad",
+      "evidencia": "issue an immediate seven-day medical ration plan by need"
+    },
+    "medicamentos": {
+      "valor": "por_necesidad",
+      "evidencia": "Health/Medicines must inventory medicines today, keep a witnessed log, and issue an immediate seven-day medical ration plan by need."
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "Boat remains common property but is kept under recorded custody; Party 1 is Boatkeeper/rowing instructor due to skill. No one may launch, take, or alter the boat without Council approval and Boatkeeper safety approval."
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "regla",
+      "evidencia": "Health/Medicines must inventory medicines today, keep a witnessed log, and issue an immediate seven-day medical ration plan by need."
+    },
+    "eje_colectivo_individual": {
+      "valor": "mas_colectivo_que_individual",
+      "evidencia": "Boat remains common property but is kept under recorded custody ... No rower is compelled except immediate life-saving emergency."
+    },
+    "proteccion_ambiental": {
+      "valor": "ninguna",
+      "evidencia": ""
+    }
+  },
+  "problemas": []
+}

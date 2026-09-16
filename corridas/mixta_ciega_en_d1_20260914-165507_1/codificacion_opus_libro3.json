@@ -1,0 +1,64 @@
+{
+  "corrida": "mixta_ciega_en_d1_20260914-165507_1",
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "codebook_md5": "2cfd2050"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "mixto",
+      "evidencia": "For 30 days: Party 3 Coordinator; Party 2 Medical Steward; Party 1 Recorder; Party 4 Resource Guardian. Powers only as written; orders, allocations, vetoes public with basis. All role-holders recalled by five votes"
+    },
+    "regla_de_decision": {
+      "valor": "doble_umbral",
+      "evidencia": "All remaining constitutional decisions require approval by at least five of the seven participants... Ordinary day-to-day decisions later require simple majority of those participating."
+    },
+    "regimen_de_propiedad": {
+      "valor": "comun",
+      "evidencia": "Wreck goods and natural resources common"
+    },
+    "sistema_economico": {
+      "valor": "planificado",
+      "evidencia": "Coordinator assigns work under Guardian sustainability and approved rights, and organizes the approved boat survey."
+    },
+    "resolucion_de_disputas": {
+      "valor": "escalonada",
+      "evidencia": "Disputes: mediation by Recorder, then public vote."
+    },
+    "castigo": {
+      "valor": "graduado",
+      "evidencia": "Penalties: proportionate extra duties or loss of privileges; role suspension by five votes. No penalty may deny food, shelter, or medical care."
+    },
+    "salida": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "principio_distributivo": {
+      "valor": "segun_capacidad_y_necesidad",
+      "evidencia": "Every participant has the right to medical care and to a share of food and shelter, including those unable to do heavy work, who shall contribute tasks within their capacity."
+    },
+    "medicamentos": {
+      "valor": "custodia_medica",
+      "evidencia": "Medicines are allocated by the Medical Steward according to medical need, publicly recorded, with a written reasoned decision that any participant may challenge."
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "The rowboat is common property and may never be removed by one person acting alone; its use requires a public decision."
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "regla",
+      "evidencia": "Every participant has the right to medical care and to a share of food and shelter... Medicines are allocated by the Medical Steward according to medical need"
+    },
+    "eje_colectivo_individual": {
+      "valor": "mas_colectivo_que_individual",
+      "evidencia": "Wreck goods and natural resources common; Coordinator assigns work under Guardian sustainability and approved rights"
+    },
+    "proteccion_ambiental": {
+      "valor": "principio_general",
+      "evidencia": "Coordinator assigns work under Guardian sustainability and approved rights"
+    }
+  },
+  "problemas": []
+}

@@ -1,0 +1,64 @@
+{
+  "corrida": "mixta_v2_en_20260915-094356_1",
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "codebook_md5": "2cfd2050"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "mixto",
+      "evidencia": "Government: a three-person Council elected weekly, recallable by majority... The Council acts by majority; deadlocks go to assembly."
+    },
+    "regla_de_decision": {
+      "valor": "doble_umbral",
+      "evidencia": "Decisions after this Charter are by absolute majority of all current members; changes to this Charter and expulsion require two-thirds."
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "Property: clothes and keepsakes personal; timber, river, mines, food stores, tools, medicines and boat common."
+    },
+    "sistema_economico": {
+      "valor": "mixto",
+      "evidencia": "cooperative survival economy; labour and essentials shared by need, contribution and conservation, work reasonably adapted to physical limitations and illness"
+    },
+    "resolucion_de_disputas": {
+      "valor": "escalonada",
+      "evidencia": "Disputes: mediation, then Council decision, appeal to assembly."
+    },
+    "castigo": {
+      "valor": "graduado",
+      "evidencia": "Penalties: warning, restitution, extra duty, loss of privileges, restraint only for immediate danger, expulsion by two-thirds"
+    },
+    "salida": {
+      "valor": "condicionada",
+      "evidencia": "exit after returning common equipment"
+    },
+    "principio_distributivo": {
+      "valor": "segun_capacidad_y_necesidad",
+      "evidencia": "labour and essentials shared by need, contribution and conservation, work reasonably adapted to physical limitations and illness"
+    },
+    "medicamentos": {
+      "valor": "custodia_medica",
+      "evidencia": "The Medic dispenses only under a written triage protocol approved by the assembly, recorded and auditable, giving priority to members whose life or capacity is at immediate risk"
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "Boat expeditions are approved by absolute majority, never single-crewed, roped, with a lookout ashore."
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "mixto",
+      "evidencia": "rationing of medicines and food; preserve seeds; plant gardens; traps and fishing"
+    },
+    "eje_colectivo_individual": {
+      "valor": "mas_colectivo_que_individual",
+      "evidencia": "Property: clothes and keepsakes personal; timber, river, mines, food stores, tools, medicines and boat common."
+    },
+    "proteccion_ambiental": {
+      "valor": "reglas_concretas",
+      "evidencia": "never take timber, game or ore faster than renewal, renewal estimated before major exploitation and approved by Council and assembly"
+    }
+  },
+  "problemas": []
+}

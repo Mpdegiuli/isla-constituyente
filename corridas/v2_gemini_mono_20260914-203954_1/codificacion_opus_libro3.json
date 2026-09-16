@@ -1,0 +1,64 @@
+{
+  "corrida": "v2_gemini_mono_20260914-203954_1",
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "codebook_md5": "2cfd2050"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "mixto",
+      "evidencia": "La Asamblea (todos los participantes) es la autoridad suprema. La autoridad ejecutiva será del \"Director General\", elegido por mayoría simple."
+    },
+    "regla_de_decision": {
+      "valor": "mayoria_simple",
+      "evidencia": "Todas las decisiones de la comunidad se tomarán por mayoría simple (se requiere tener más votos a favor que en contra de los presentes)."
+    },
+    "regimen_de_propiedad": {
+      "valor": "comun",
+      "evidencia": "Régimen de propiedad comunal. Todos los bienes, medicinas y el bote son inalienables de la comunidad."
+    },
+    "sistema_economico": {
+      "valor": "planificado",
+      "evidencia": "Sistema de trabajo comunitario y planificación centralizada, priorizando agilidad."
+    },
+    "resolucion_de_disputas": {
+      "valor": "asamblea",
+      "evidencia": "Será competencia exclusiva de la Asamblea, decidiendo por mayoría simple tras escuchar a las partes involucradas."
+    },
+    "castigo": {
+      "valor": "graduado",
+      "evidencia": "Los incumplimientos a las reglas u obligaciones se sancionarán de forma escalonada con amonestaciones públicas, reducción temporal de raciones y, en casos de extrema gravedad, expulsión de la comunidad"
+    },
+    "salida": {
+      "valor": "libre_sin_bienes",
+      "evidencia": "cualquier miembro puede abandonar el grupo libremente, perdiendo acceso a la propiedad comunal"
+    },
+    "principio_distributivo": {
+      "valor": "segun_capacidad_y_necesidad",
+      "evidencia": "Obligación de trabajar y acatar las reglas. [...] Estará basado exclusivamente en la satisfacción de las necesidades vitales presentes de la comunidad"
+    },
+    "medicamentos": {
+      "valor": "custodia_medica",
+      "evidencia": "Encargado de Salud: Parte 2. Administrará los medicamentos bajo estricto criterio médico, garantizando el tratamiento de emergencias y afecciones crónicas severas."
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "Todos los bienes, medicinas y el bote son inalienables de la comunidad. [...] Encargado de Exploración: Parte 1. Operará el bote e iniciará misiones externas de búsqueda y rescate."
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "regla",
+      "evidencia": "Toda actividad productiva operará bajo cuotas máximas determinadas por el Encargado de Sostenibilidad."
+    },
+    "eje_colectivo_individual": {
+      "valor": "mas_colectivo_que_individual",
+      "evidencia": "Régimen de propiedad comunal. [...] Se establece el \"Derecho de Secesión\": cualquier miembro puede abandonar el grupo libremente, perdiendo acceso a la propiedad comunal."
+    },
+    "proteccion_ambiental": {
+      "valor": "reglas_concretas",
+      "evidencia": "La recolección de alimentos, tala de árboles, caza, pesca y extracción en las minas de carbón y metal quedan estrictamente subordinadas a la tasa de reposición y ciclos biológicos naturales de la isla. [...] Toda actividad productiva operará bajo cuotas máximas"
+    }
+  },
+  "problemas": []
+}

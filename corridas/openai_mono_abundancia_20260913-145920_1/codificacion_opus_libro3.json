@@ -1,0 +1,64 @@
+{
+  "corrida": "openai_mono_abundancia_20260913-145920_1",
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "codebook_md5": "2cfd2050"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "mixto",
+      "evidencia": "Coordinación General: parte 3 por 7 días, renovable y revocable. Custodia de Recursos: parte 4, informa riesgos y sustentabilidad sin veto. Secretaría de Actas: parte 5. ... Ningún cargo da privilegios ni exime obligaciones."
+    },
+    "regla_de_decision": {
+      "valor": "mayoria_absoluta",
+      "evidencia": "Las decisiones siguientes se aprobarán por mayoría absoluta de quienes permanezcan participando en la mesa al momento de votar, con un mínimo de cuatro votantes."
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "agua, alimentos silvestres, bosques, fauna, suelos, minas, herramientas, medicamentos rescatados y bote serán comunes con inventario público. ... Objetos personales siguen personales salvo emergencia votada, con devolución o compensación."
+    },
+    "sistema_economico": {
+      "valor": "reparto_por_necesidad",
+      "evidencia": "Trabajo por turnos según capacidad real; raciones comunes priorizando necesidad médica, esfuerzo posible e incapacidad."
+    },
+    "resolucion_de_disputas": {
+      "valor": "escalonada",
+      "evidencia": "Disputas: diálogo; mediación de Coordinación y Secretaría con constancia escrita; si falla, mesa, oyendo versiones y pruebas, sin votar quien sea parte directa."
+    },
+    "castigo": {
+      "valor": "graduado",
+      "evidencia": "Penas proporcionales, revisables y registradas: advertencia, reparación, reposición de trabajo, restricción temporal de bienes riesgosos o separación vigilada breve ante peligro."
+    },
+    "salida": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "principio_distributivo": {
+      "valor": "segun_capacidad_y_necesidad",
+      "evidencia": "Trabajo por turnos según capacidad real; raciones comunes priorizando necesidad médica, esfuerzo posible e incapacidad."
+    },
+    "medicamentos": {
+      "valor": "custodia_medica",
+      "evidencia": "Salud y Medicamentos: parte 2, con registro público de inventario y usos; medicación escasa por criterio médico, urgencia y votación si no es emergencia vital."
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "El bote quedará bajo custodia material de la parte 1 y solo saldrá con evaluación de clima, fuerzas y utilidad; lo remará la parte 1 o quien aprenda y acepte el riesgo."
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "regla",
+      "evidencia": "raciones comunes priorizando necesidad médica, esfuerzo posible e incapacidad. Extracción con límites revisables, sin paralizar urgencias."
+    },
+    "eje_colectivo_individual": {
+      "valor": "mas_colectivo_que_individual",
+      "evidencia": "Régimen común práctico: ... serán comunes con inventario público. ... Objetos personales siguen personales salvo emergencia votada, con devolución o compensación."
+    },
+    "proteccion_ambiental": {
+      "valor": "reglas_concretas",
+      "evidencia": "Custodia de Recursos: parte 4, informa riesgos y sustentabilidad sin veto. ... comunes con inventario público ... Extracción con límites revisables, sin paralizar urgencias."
+    }
+  },
+  "problemas": []
+}

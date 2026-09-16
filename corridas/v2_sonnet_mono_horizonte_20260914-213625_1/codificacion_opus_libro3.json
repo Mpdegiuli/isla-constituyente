@@ -1,0 +1,64 @@
+{
+  "corrida": "v2_sonnet_mono_horizonte_20260914-213625_1",
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "codebook_md5": "2cfd2050"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "mixto",
+      "evidencia": "El régimen político de la isla es una República de Asamblea Directa: todas las decisiones sustantivas son tomadas colectivamente por los siete miembros según las reglas de votación ya acordadas. No existe un cargo de autoridad permanente con poder unilateral sobre decisiones del grupo. El grupo reconoce roles funcionales asignados por votación según competencia probada"
+    },
+    "regla_de_decision": {
+      "valor": "doble_umbral",
+      "evidencia": "Las decisiones se toman por mayoría simple (más votos a favor que en contra, sin contar abstenciones). Solo las decisiones que afecten directamente la vida, la salud o la seguridad inmediata de cualquier miembro requieren mayoría absoluta (cuatro votos sobre siete)."
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "Los bienes rescatados del naufragio —incluidos medicamentos, herramientas, ropa y el bote— son propiedad común del grupo. [...] Quien se retire puede llevarse sus efectos personales —ropa y objetos de uso estrictamente personal traídos o rescatados individualmente—"
+    },
+    "sistema_economico": {
+      "valor": "reparto_por_necesidad",
+      "evidencia": "Todo miembro tiene derecho a acceso igualitario a los bienes comunes según criterio de necesidad y sostenibilidad."
+    },
+    "resolucion_de_disputas": {
+      "valor": "escalonada",
+      "evidencia": "Las disputas menores de convivencia son resueltas por el Coordinador general. Las disputas que involucren derechos, bienes comunes o acusaciones graves se resuelven ante la asamblea completa."
+    },
+    "castigo": {
+      "valor": "graduado",
+      "evidencia": "advertencia formal registrada en acta; reducción temporal de acceso a bienes no esenciales; en casos graves o reiterados, remoción del rol que ocupe. La pena máxima es la exclusión del grupo"
+    },
+    "salida": {
+      "valor": "libre_sin_bienes",
+      "evidencia": "quien se retire voluntariamente del grupo pierde acceso a los bienes comunes administrados por la asamblea. [...] Los bienes rescatados colectivamente del naufragio permanecen como propiedad común."
+    },
+    "principio_distributivo": {
+      "valor": "segun_capacidad_y_necesidad",
+      "evidencia": "Todo miembro debe contribuir al trabajo común según su capacidad. [...] derecho a acceso igualitario a los bienes comunes según criterio de necesidad y sostenibilidad"
+    },
+    "medicamentos": {
+      "valor": "custodia_medica",
+      "evidencia": "Los medicamentos existentes son administrados exclusivamente por la Parte 2, según criterio clínico. [...] El grupo no puede ordenar una distribución que contradiga el criterio médico de la Parte 2."
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "En ningún caso puede ningún miembro utilizar el bote sin la participación activa del Operador designado: hacerlo constituye sustracción de un bien común y es pasible de las sanciones que el grupo establezca."
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "mixto",
+      "evidencia": "Toda extracción o uso de recursos naturales debe respetar el principio de sostenibilidad: no extraer más de lo que el entorno puede regenerar. [...] La asamblea encarga a la Parte 4 un relevamiento urgente de la capacidad productiva de la isla —frutas, animales, agua, posibilidad de cultivo—"
+    },
+    "eje_colectivo_individual": {
+      "valor": "mas_colectivo_que_individual",
+      "evidencia": "Ningún miembro puede extraer, acumular o disponer de recursos comunes sin acuerdo del grupo. [...] Quien se retire puede llevarse sus efectos personales"
+    },
+    "proteccion_ambiental": {
+      "valor": "reglas_concretas",
+      "evidencia": "El grupo designa por votación un evaluador de recursos [...] El evaluador tiene obligación proactiva de relevar periódicamente el estado de los recursos naturales de la isla y de alertar a la asamblea ante cualquier indicio de agotamiento, daño irreversible o riesgo de colapso ecológico"
+    }
+  },
+  "problemas": []
+}

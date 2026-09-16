@@ -1,0 +1,64 @@
+{
+  "corrida": "openai_mono_escasez_20260913-145542_1",
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "codebook_md5": "2cfd2050"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "mixto",
+      "evidencia": "La autoridad superior será la asamblea. Habrá Coordinador General, parte 3; Encargado de Recursos, parte 4; y Responsable de Salud, parte 2"
+    },
+    "regla_de_decision": {
+      "valor": "mayoria_absoluta",
+      "evidencia": "Las decisiones posteriores se tomarán por mayoría absoluta de quienes sigan participando en la deliberación, requiriendo al menos cuatro votos afirmativos mientras los siete permanezcan en la isla."
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "Son comunes inventariados públicamente y actualizados: agua, medicamentos, bote, herramientas, refugios, señales, recursos médicos y naturales críticos. [...] Ropa y objetos personales son privados si no comprometen supervivencia."
+    },
+    "sistema_economico": {
+      "valor": "mixto",
+      "evidencia": "Racionamiento por criterios escritos: supervivencia, salud, reservas y reposición; mínimo vital igual salvo indicación de Salud. [...] Lo obtenido individualmente será privado solo si no depreda ni afecta recursos críticos; aportará cuota fijada por regla previa o asamblea si usó bienes comunes."
+    },
+    "resolucion_de_disputas": {
+      "valor": "escalonada",
+      "evidencia": "Disputas: mediación por Coordinador; con salud o recursos intervienen responsables; si son parte, decide asamblea con registros."
+    },
+    "castigo": {
+      "valor": "graduado",
+      "evidencia": "Penas proporcionales: advertencia, restitución, reparación común o ambiental, reducción no vital, pérdida temporal de uso común."
+    },
+    "salida": {
+      "valor": "libre_sin_bienes",
+      "evidencia": "Quien se aparte no será perseguido salvo robo, agresión o daño común."
+    },
+    "principio_distributivo": {
+      "valor": "piso_igual_con_plus_por_aporte",
+      "evidencia": "mínimo vital igual salvo indicación de Salud. [...] Lo obtenido individualmente será privado solo si no depreda ni afecta recursos críticos"
+    },
+    "medicamentos": {
+      "valor": "custodia_medica",
+      "evidencia": "Responsable de Salud, parte 2, para custodiar, inventariar y administrar medicamentos según necesidad clínica"
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "Bote común: custodia y mantenimiento parte 1; uso por plan aprobado o urgencia registrada, con voluntarios."
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "regla",
+      "evidencia": "Racionamiento por criterios escritos: supervivencia, salud, reservas y reposición; mínimo vital igual salvo indicación de Salud."
+    },
+    "eje_colectivo_individual": {
+      "valor": "mas_colectivo_que_individual",
+      "evidencia": "Son comunes inventariados públicamente y actualizados: agua, medicamentos, bote, herramientas, refugios, señales, recursos médicos y naturales críticos. [...] Ropa y objetos personales son privados si no comprometen supervivencia."
+    },
+    "proteccion_ambiental": {
+      "valor": "prohibiciones",
+      "evidencia": "Prohibido desperdiciar o contaminar agua, destruir vegetación útil, cazar/capturar fauna sin autorización, ocultar comunes."
+    }
+  },
+  "problemas": []
+}

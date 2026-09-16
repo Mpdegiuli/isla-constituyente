@@ -1,0 +1,64 @@
+{
+  "corrida": "v2_fable_mono_20260914-220644_1",
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "codebook_md5": "2cfd2050"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "mixto",
+      "evidencia": "La asamblea de todos los miembros es la autoridad máxima. Decide por mayoría absoluta... La asamblea elige por mayoría absoluta un coordinador, por dos meses, reelegible."
+    },
+    "regla_de_decision": {
+      "valor": "doble_umbral",
+      "evidencia": "las decisiones que entran al acta se toman por mayoría absoluta (al menos cuatro votos de siete)... La expulsión requiere cinco votos de siete, o cuatro quintos de los presentes si el grupo se reduce"
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "la tierra, el agua, las minas, los árboles y los animales de la isla son propiedad común de la comunidad... cada persona conserva sus prendas y objetos de uso personal"
+    },
+    "sistema_economico": {
+      "valor": "mixto",
+      "evidencia": "todos los miembros aptos trabajan según un plan semanal aprobado por la asamblea. La producción es común. Cada miembro recibe una ración básica igual... El excedente se reparte en proporción al trabajo aportado"
+    },
+    "resolucion_de_disputas": {
+      "valor": "escalonada",
+      "evidencia": "Toda disputa entre miembros se plantea primero directamente entre ellos. Si no se resuelve, cualquiera la lleva a la asamblea, que la trata en su próxima sesión"
+    },
+    "castigo": {
+      "valor": "graduado",
+      "evidencia": "Falta leve... aviso escrito en el registro de faltas... Falta media... pérdida del excedente de una a cuatro semanas... Falta grave... pérdida del excedente hasta dos meses más tarea extra; si se reitera... expulsión de la comunidad"
+    },
+    "salida": {
+      "valor": "condicionada",
+      "evidencia": "todo miembro puede dejar la comunidad avisando a la asamblea. Se lleva su ropa, objetos personales y una herramienta básica"
+    },
+    "principio_distributivo": {
+      "valor": "piso_igual_con_plus_por_aporte",
+      "evidencia": "Cada miembro recibe una ración básica igual, con prioridad a enfermos y heridos... El excedente se reparte en proporción al trabajo aportado, con parte mayor a quien realice tareas más pesadas o riesgosas."
+    },
+    "medicamentos": {
+      "valor": "custodia_medica",
+      "evidencia": "los medicamentos quedan bajo custodia de la Parte 2, única persona con formación médica, quien los administra con criterio exclusivamente clínico"
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "el bote a remos es patrimonio de la comunidad, indivisible e inalienable... El bote solo se usa con decisión de la mayoría absoluta, que también designa quién va a bordo, salvo emergencia de vida o muerte."
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "mixto",
+      "evidencia": "propone cupos de extracción quincenales, verificables por cualquier miembro... Se destina espacio a huerto medicinal y alimentario."
+    },
+    "eje_colectivo_individual": {
+      "valor": "mas_colectivo_que_individual",
+      "evidencia": "La producción es común... cada persona conserva sus prendas y objetos de uso personal"
+    },
+    "proteccion_ambiental": {
+      "valor": "reglas_concretas",
+      "evidencia": "la Parte 4 realiza en la primera semana un inventario de recursos... y propone cupos de extracción quincenales... No se tala en la ladera norte ni a veinte pasos de cada lado del río. Por cada árbol talado se plantan dos."
+    }
+  },
+  "problemas": []
+}

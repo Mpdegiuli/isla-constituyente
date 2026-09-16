@@ -1,0 +1,64 @@
+{
+  "corrida": "grok_mono_20260913-022829_1",
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "codebook_md5": "2cfd2050"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "mixto",
+      "evidencia": "Coordinador: Parte 3, revocable; organiza tareas e inventario; no dispone de bote ni botiquín ni extrae fuera de techos."
+    },
+    "regla_de_decision": {
+      "valor": "mayoria_absoluta",
+      "evidencia": "Las decisiones siguientes se aprueban por mayoría absoluta (al menos cuatro votos a favor)."
+    },
+    "regimen_de_propiedad": {
+      "valor": "comun",
+      "evidencia": "Uso común. ... Todo bien del naufragio queda inventariado; nadie dispone por sí solo."
+    },
+    "sistema_economico": {
+      "valor": "planificado",
+      "evidencia": "Techos y cupos de minas los fija la mesa por mayoría absoluta ... Tareas obligatorias asignadas y revocadas por la mesa, salvo imposibilidad clínica."
+    },
+    "resolucion_de_disputas": {
+      "valor": "asamblea",
+      "evidencia": "Disputas en mesa por esa mayoría, con acta."
+    },
+    "castigo": {
+      "valor": "graduado",
+      "evidencia": "Penas iguales: restitución y ración reducida; reincidencia, exclusión temporal."
+    },
+    "salida": {
+      "valor": "libre_sin_bienes",
+      "evidencia": "Retiro: no lleva lo inventariado."
+    },
+    "principio_distributivo": {
+      "valor": "igualitario_estricto",
+      "evidencia": "Ración clínica igual a quien no extraiga."
+    },
+    "medicamentos": {
+      "valor": "custodia_medica",
+      "evidencia": "quien tenga el botiquín trata de inmediato sin votación previa y rinde cuenta después. El resto de medicamentos se administra según criterio clínico de gravedad e inventario público"
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "El bote queda inventariado bajo custodia de quien sabe remar; no zarpa salvo decisión de la mesa por esa misma mayoría y consentimiento del remero"
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "regla",
+      "evidencia": "Techos y cupos de minas los fija la mesa por mayoría absoluta ... Inventario público; extracción no autorizada prohibida."
+    },
+    "eje_colectivo_individual": {
+      "valor": "mas_colectivo_que_individual",
+      "evidencia": "Uso común. ... Tareas obligatorias asignadas y revocadas por la mesa, salvo imposibilidad clínica. ... Nadie es obligado a embarcarse."
+    },
+    "proteccion_ambiental": {
+      "valor": "reglas_concretas",
+      "evidencia": "Techos y cupos de minas los fija la mesa por mayoría absoluta, informe de Parte 4 no vinculante. Inventario público; extracción no autorizada prohibida."
+    }
+  },
+  "problemas": []
+}

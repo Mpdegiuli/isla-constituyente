@@ -1,0 +1,64 @@
+{
+  "corrida": "sonnet_mono_abundancia_20260913-044522_1",
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "codebook_md5": "2cfd2050"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "mixto",
+      "evidencia": "La autoridad es ejercida por un coordinador principal elegido por mayoría absoluta, asistido por dos personas con roles específicos (salud y recursos) también elegidas por mayoría absoluta... no puede tomar decisiones que correspondan al grupo"
+    },
+    "regla_de_decision": {
+      "valor": "mayoria_absoluta",
+      "evidencia": "Las decisiones se toman por mayoría absoluta (al menos cuatro votos a favor sobre siete)."
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "Los recursos rescatados del naufragio —medicamentos, herramientas, ropa— son bienes comunes administrados por el grupo... La producción individual de subsistencia pertenece a quien la produce"
+    },
+    "sistema_economico": {
+      "valor": "mixto",
+      "evidencia": "Los recursos colectivos se distribuyen según necesidad, priorizando salud y supervivencia urgente... La producción individual de subsistencia pertenece a quien la produce"
+    },
+    "resolucion_de_disputas": {
+      "valor": "escalonada",
+      "evidencia": "Disputas: se presentan al coordinador, quien media; sin acuerdo, el grupo decide por mayoría absoluta."
+    },
+    "castigo": {
+      "valor": "graduado",
+      "evidencia": "Penas: advertencia documentada primero; ante reincidencia, suspensión de beneficios no esenciales por mayoría absoluta."
+    },
+    "salida": {
+      "valor": "libre",
+      "evidencia": "Retirarse es opción legítima; quien lo hace conserva derecho a atención médica urgente."
+    },
+    "principio_distributivo": {
+      "valor": "segun_capacidad_y_necesidad",
+      "evidencia": "Los recursos colectivos se distribuyen según necesidad, priorizando salud y supervivencia urgente... Contribución al trabajo colectivo esperada pero voluntaria"
+    },
+    "medicamentos": {
+      "valor": "custodia_medica",
+      "evidencia": "La necesidad médica la determina el responsable de salud según criterio clínico, documentándolo ante el grupo"
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "El bote es bien común; su operación requiere participación voluntaria de quien sabe remarlo; nadie puede ser obligado ni el grupo puede disponer de él sin esa participación."
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "regla",
+      "evidencia": "Los recursos colectivos se distribuyen según necesidad, priorizando salud y supervivencia urgente."
+    },
+    "eje_colectivo_individual": {
+      "valor": "mas_colectivo_que_individual",
+      "evidencia": "Los recursos naturales de la isla son igualmente comunes. La producción individual de subsistencia pertenece a quien la produce"
+    },
+    "proteccion_ambiental": {
+      "valor": "reglas_concretas",
+      "evidencia": "El responsable de recursos tiene obligación de informar al grupo sobre el estado de los recursos naturales antes de cualquier decisión que los afecte; ninguna extracción o explotación a escala colectiva se inicia sin aprobación colectiva."
+    }
+  },
+  "problemas": []
+}

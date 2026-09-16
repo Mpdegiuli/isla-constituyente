@@ -1,0 +1,64 @@
+{
+  "corrida": "v2_deepseek_mono_horizonte_20260914-223840_1",
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "codebook_md5": "2cfd2050"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "mixto",
+      "evidencia": "Gobierno: asamblea decide solo cuestiones comunes; sin autoridad permanente; ... Parte 1 custodia el bote ...; Parte 2 custodia el botiquín ...; asamblea elige custodio de raciones. ... Toda custodia es revocable por mayoría simple"
+    },
+    "regla_de_decision": {
+      "valor": "doble_umbral",
+      "evidencia": "Regla de decisión: mayoría simple; dos tercios para contacto permanente o alianza; expedición inicial por mayoría simple."
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "Propiedad: ropa y herramientas personales privadas; bote de uso común para emergencia vital, expedición inicial y decisión por mayoría simple"
+    },
+    "sistema_economico": {
+      "valor": "mixto",
+      "evidencia": "Economía: inventario común solo de bienes rescatados y recursos críticos; racionamiento por asamblea; ... trabajo voluntario salvo emergencia vital inmediata"
+    },
+    "resolucion_de_disputas": {
+      "valor": "escalonada",
+      "evidencia": "Disputas: mediación voluntaria por persona sin interés directo; nadie juzga su propia causa; si no hay acuerdo, asamblea decide por mayoría simple."
+    },
+    "castigo": {
+      "valor": "graduado",
+      "evidencia": "Penas: restitución o reparación por daño directo; separación temporal de tareas comunes por mayoría simple, con audiencia previa y proporcionalidad; sin trabajo forzado, confinamiento ni castigos crueles."
+    },
+    "salida": {
+      "valor": "libre",
+      "evidencia": "Si alguien se retira: puede salir libremente con sus herramientas y ropa"
+    },
+    "principio_distributivo": {
+      "valor": "segun_capacidad_y_necesidad",
+      "evidencia": "derecho a ración, atención médica según necesidad clínica determinada por Parte 2 ... trabajo voluntario salvo emergencia vital inmediata; no se exigirá trabajo que agrave condición médica"
+    },
+    "medicamentos": {
+      "valor": "custodia_medica",
+      "evidencia": "medicamentos bajo custodia de Parte 2, uso clínico según necesidad médica objetiva; Parte 2 autoriza y registra cada uso"
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "bote de uso común para emergencia vital, expedición inicial y decisión por mayoría simple, bajo custodia de Parte 1, sin veto personal"
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "regla",
+      "evidencia": "racionamiento por asamblea; caza, tala y minería solo por necesidad y con cupos máximos fijados por asamblea tras informe de monitoreo semanal"
+    },
+    "eje_colectivo_individual": {
+      "valor": "equilibrado",
+      "evidencia": "cooperación voluntaria; cada participante conserva su autonomía ... inventario común solo de bienes rescatados y recursos críticos; racionamiento por asamblea ... ropa y herramientas personales privadas"
+    },
+    "proteccion_ambiental": {
+      "valor": "reglas_concretas",
+      "evidencia": "cupos máximos fijados por asamblea tras informe de monitoreo semanal; los cupos no podrán aumentarse si el recurso o su regeneración disminuye y se reducirán ante señales de agotamiento; prohibido talar en riberas o laderas y cazar en época reproductiva"
+    }
+  },
+  "problemas": []
+}

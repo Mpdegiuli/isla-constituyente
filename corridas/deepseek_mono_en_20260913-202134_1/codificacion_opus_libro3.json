@@ -1,0 +1,64 @@
+{
+  "corrida": "deepseek_mono_en_20260913-202134_1",
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "codebook_md5": "2cfd2050"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "mixto",
+      "evidencia": "All officers serve at most two consecutive weeks; any officer may be removed at any time by majority for abuse, incapacity, or failure to perform duties."
+    },
+    "regla_de_decision": {
+      "valor": "mayoria_simple",
+      "evidencia": "The remaining decisions are taken by simple majority (more votes in favor than against)."
+    },
+    "regimen_de_propiedad": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "sistema_economico": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "resolucion_de_disputas": {
+      "valor": "votacion",
+      "evidencia": "A dispute decision by majority must be recorded with reasons and cannot create new rules, impose penalties, or override these minutes."
+    },
+    "castigo": {
+      "valor": "graduado",
+      "evidencia": "Violators must repair or compensate. Repeated violations are subject to penalty."
+    },
+    "salida": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "principio_distributivo": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "medicamentos": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "bote": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "regla",
+      "evidencia": "Renewable resources (fruit trees, timber, fresh water, animals) may be taken only at or below replacement rate."
+    },
+    "eje_colectivo_individual": {
+      "valor": "mas_colectivo_que_individual",
+      "evidencia": "These rules apply equally to all participants; no person, majority, or future authority may exempt themselves."
+    },
+    "proteccion_ambiental": {
+      "valor": "reglas_concretas",
+      "evidencia": "Non-renewable resources (coal, metals) may be extracted only after majority approval and only for survival, rescue, or essential tools, in the smallest amount necessary, with a conservation plan."
+    }
+  },
+  "problemas": []
+}

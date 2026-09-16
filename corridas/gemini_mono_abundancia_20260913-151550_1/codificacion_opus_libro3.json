@@ -1,0 +1,64 @@
+{
+  "corrida": "gemini_mono_abundancia_20260913-151550_1",
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "codebook_md5": "2cfd2050"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "mixto",
+      "evidencia": "Gobierno: La Asamblea es suprema, delegando el poder al Coordinador General."
+    },
+    "regla_de_decision": {
+      "valor": "mayoria_absoluta",
+      "evidencia": "Las decisiones se tomarán por mayoría absoluta de los participantes."
+    },
+    "regimen_de_propiedad": {
+      "valor": "comun",
+      "evidencia": "Propiedad: Recursos y bienes rescatados son comunales, bajo custodia de los roles técnicos."
+    },
+    "sistema_economico": {
+      "valor": "planificado",
+      "evidencia": "Economía: Planificación ecológica comunitaria, limitando la extracción a la capacidad de regeneración natural del ecosistema."
+    },
+    "resolucion_de_disputas": {
+      "valor": "asamblea",
+      "evidencia": "Disputas: Resuelve la Asamblea."
+    },
+    "castigo": {
+      "valor": "otro",
+      "evidencia": "Penas: Depredar recursos, dañar bienes o incumplir tareas implica trabajo extra o menos raciones. — combina trabajo adicional y privación de bienes, sin escala graduada explícita"
+    },
+    "salida": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "principio_distributivo": {
+      "valor": "otro",
+      "evidencia": "Derecho a salud y sustento. Obligación de cooperar."
+    },
+    "medicamentos": {
+      "valor": "custodia_medica",
+      "evidencia": "el Médico administra en exclusiva las medicinas por criterio clínico y escasez"
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "El bote es para pesca y exploración segura."
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "regla",
+      "evidencia": "Planificación ecológica comunitaria, limitando la extracción a la capacidad de regeneración natural del ecosistema."
+    },
+    "eje_colectivo_individual": {
+      "valor": "colectivo",
+      "evidencia": "Recursos y bienes rescatados son comunales, bajo custodia de los roles técnicos... Obligación de cooperar."
+    },
+    "proteccion_ambiental": {
+      "valor": "reglas_concretas",
+      "evidencia": "limitando la extracción a la capacidad de regeneración natural del ecosistema... el Guardián Ecológico aprueba la extracción"
+    }
+  },
+  "problemas": []
+}

@@ -1,0 +1,64 @@
+{
+  "corrida": "grok_mono_20260913-093911_1",
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "codebook_md5": "2cfd2050"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "asamblea_directa",
+      "evidencia": "Las decisiones siguientes se adoptan por mayoría absoluta de quienes permanezcan en la mesa. Voto público y obligatorio; quien se retire deja de votar. Prohibidos vetos personales. No hay director ni coordinador único."
+    },
+    "regla_de_decision": {
+      "valor": "mayoria_absoluta",
+      "evidencia": "Regla de decisión vigente: mayoría absoluta (más de la mitad de las partes presentes)."
+    },
+    "regimen_de_propiedad": {
+      "valor": "comun",
+      "evidencia": "Bote común, sin consentimiento privilegiado, sin salida inmediata ni remo forzado; no zarpa sin remero voluntario competente. Quien se retire no lleva botiquín ni bote."
+    },
+    "sistema_economico": {
+      "valor": "planificado",
+      "evidencia": "Prohibida extracción que exceda la regeneración. Inventario público y auditable; cupos por esa mayoría."
+    },
+    "resolucion_de_disputas": {
+      "valor": "asamblea",
+      "evidencia": "Disputas por esa mayoría con audiencia."
+    },
+    "castigo": {
+      "valor": "otro",
+      "evidencia": "Penas escritas e iguales; extraer sobre cupo se sanciona. (el acta manda que haya penas escritas e iguales pero no especifica su tipo ni una escala)"
+    },
+    "salida": {
+      "valor": "libre_sin_bienes",
+      "evidencia": "quien se retire deja de votar ... Quien se retire no lleva botiquín ni bote."
+    },
+    "principio_distributivo": {
+      "valor": "otro",
+      "evidencia": "No se niega lo mínimo vital clínico. (garantiza solo un mínimo vital, sin decir nada sobre el reparto por encima de ese piso)"
+    },
+    "medicamentos": {
+      "valor": "custodia_medica",
+      "evidencia": "Botiquín clínico Parte 2, sin trueque ni reclamo; Parte 2 se somete; analgésicos solo dolor incapacitante o procedimientos."
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "Bote común, sin consentimiento privilegiado, sin salida inmediata ni remo forzado; no zarpa sin remero voluntario competente."
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "regla",
+      "evidencia": "Prohibida extracción que exceda la regeneración. Inventario público y auditable; cupos por esa mayoría."
+    },
+    "eje_colectivo_individual": {
+      "valor": "mas_colectivo_que_individual",
+      "evidencia": "Bote común ... Nadie obligado a labor contraindicada ni a remar."
+    },
+    "proteccion_ambiental": {
+      "valor": "reglas_concretas",
+      "evidencia": "Prohibida extracción que exceda la regeneración. Inventario público y auditable; cupos por esa mayoría."
+    }
+  },
+  "problemas": []
+}

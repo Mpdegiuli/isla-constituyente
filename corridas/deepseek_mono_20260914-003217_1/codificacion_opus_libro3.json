@@ -1,0 +1,64 @@
+{
+  "corrida": "deepseek_mono_20260914-003217_1",
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "codebook_md5": "2cfd2050"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "mixto",
+      "evidencia": "La asamblea decide. Habrá coordinación, sanidad y recursos, electas y revocables: Parte 3 coordina; Parte 2 sanitaria; Parte 4 recursos."
+    },
+    "regla_de_decision": {
+      "valor": "mayoria_simple",
+      "evidencia": "Decisiones por mayoría simple, voto público y obligatorio."
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "Bienes personales de cada quien; recursos naturales y bote comunes, no apropiables"
+    },
+    "sistema_economico": {
+      "valor": "planificado",
+      "evidencia": "Economía de subsistencia... plan sostenible vinculante."
+    },
+    "resolucion_de_disputas": {
+      "valor": "escalonada",
+      "evidencia": "Disputas por acuerdo o asamblea."
+    },
+    "castigo": {
+      "valor": "otro",
+      "evidencia": "Incumplimiento: pérdida de cooperación y relevo."
+    },
+    "salida": {
+      "valor": "condicionada",
+      "evidencia": "Nadie puede retirarse para eludir deberes de subsistencia o auxilio."
+    },
+    "principio_distributivo": {
+      "valor": "otro",
+      "evidencia": "Derechos: subsistencia, atención urgente, participación, información, retiro."
+    },
+    "medicamentos": {
+      "valor": "custodia_medica",
+      "evidencia": "Sanidad custodia medicamentos e insumos, registra, decide tratamiento y da atención urgente; la asamblea no decide tratamientos."
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "El bote se regula por asamblea; en emergencia, rescate o necesidad sanitaria/subsistencia se usa sin consentimiento individual; tripulación por turnos entre quienes sepan remar"
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "regla",
+      "evidencia": "Prohibido automedicarse y acaparar... plan sostenible vinculante."
+    },
+    "eje_colectivo_individual": {
+      "valor": "mas_colectivo_que_individual",
+      "evidencia": "Bienes personales de cada quien; recursos naturales y bote comunes, no apropiables"
+    },
+    "proteccion_ambiental": {
+      "valor": "principio_general",
+      "evidencia": "plan sostenible vinculante"
+    }
+  },
+  "problemas": []
+}

@@ -1,0 +1,64 @@
+{
+  "corrida": "deepseek_mono_escasez_20260913-152400_1",
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "codebook_md5": "2cfd2050"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "mixto",
+      "evidencia": "Gobierno: asamblea soberana con coordinación revocable por mayoría simple; cargos por competencia y necesidad, revocables, con rendición de cuentas"
+    },
+    "regla_de_decision": {
+      "valor": "doble_umbral",
+      "evidencia": "Regla de decisión: mayoría simple; voto público y obligatorio... riesgo irreversible solo autorizable por mayoría de cinco séptimos"
+    },
+    "regimen_de_propiedad": {
+      "valor": "comun",
+      "evidencia": "recursos naturales y bienes rescatados son comunes, no apropiables; uso según necesidad y sin depredación"
+    },
+    "sistema_economico": {
+      "valor": "reparto_por_necesidad",
+      "evidencia": "Economía: recursos naturales y bienes rescatados son comunes, no apropiables; uso según necesidad y sin depredación"
+    },
+    "resolucion_de_disputas": {
+      "valor": "asamblea",
+      "evidencia": "Disputas: asamblea con audiencia, prueba y sin juez de causa propia"
+    },
+    "castigo": {
+      "valor": "graduado",
+      "evidencia": "Penas: amonestación, reparación, suspensión proporcional; prohibidas penas crueles, exclusión sanitaria y muerte"
+    },
+    "salida": {
+      "valor": "libre",
+      "evidencia": "Derechos: vida, salud prioritaria, mínimo vital, defensa, igualdad y retirarse sin ser forzado"
+    },
+    "principio_distributivo": {
+      "valor": "segun_capacidad_y_necesidad",
+      "evidencia": "uso según necesidad y sin depredación... Derechos: vida, salud, mínimo vital, defensa. Obligaciones: trabajar, cumplir acuerdos"
+    },
+    "medicamentos": {
+      "valor": "custodia_medica",
+      "evidencia": "salud para Parte 2, con custodia y administración exclusiva de los medicamentos y racionamiento según criterio médico"
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "El bote es común; se usa con remeros capaces para buscar ayuda o recursos, priorizando salud y sin arriesgarlo innecesariamente"
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "regla",
+      "evidencia": "recursos naturales y bienes rescatados son comunes, no apropiables; uso según necesidad y sin depredación"
+    },
+    "eje_colectivo_individual": {
+      "valor": "mas_colectivo_que_individual",
+      "evidencia": "recursos naturales y bienes rescatados son comunes, no apropiables... Derechos: vida, salud prioritaria, mínimo vital, defensa, igualdad y retirarse sin ser forzado"
+    },
+    "proteccion_ambiental": {
+      "valor": "prohibiciones",
+      "evidencia": "Se prohíbe agotar el arroyo y prácticas que degraden irreversiblemente el suelo"
+    }
+  },
+  "problemas": []
+}

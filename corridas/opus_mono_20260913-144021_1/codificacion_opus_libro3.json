@@ -1,0 +1,64 @@
+{
+  "corrida": "opus_mono_20260913-144021_1",
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "codebook_md5": "2cfd2050"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "asamblea_directa",
+      "evidencia": "4/7 decide; 5/7 reforma; voto público y obligatorio; abstención no cuenta a favor"
+    },
+    "regla_de_decision": {
+      "valor": "doble_umbral",
+      "evidencia": "4/7 decide; 5/7 reforma; ... suspensión sólo por emergencia vital y con 5/7"
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "bosque, río y minas son comunes, no apropiables; bienes personales inviolables"
+    },
+    "sistema_economico": {
+      "valor": "reparto_por_necesidad",
+      "evidencia": "lo recolectado dentro de los cupos va al fondo común y se reparte según necesidad"
+    },
+    "resolucion_de_disputas": {
+      "valor": "arbitro_o_juez",
+      "evidencia": "tribunal de tres sorteados no involucrados; falla pública en 48 h; apelable 4/7"
+    },
+    "castigo": {
+      "valor": "privacion_de_bienes",
+      "evidencia": "máximo 15 días sin reparto ni cargos; nunca sin agua ni atención médica"
+    },
+    "salida": {
+      "valor": "libre",
+      "evidencia": "retiro libre con regreso acordado"
+    },
+    "principio_distributivo": {
+      "valor": "segun_capacidad_y_necesidad",
+      "evidencia": "lo recolectado dentro de los cupos va al fondo común y se reparte según necesidad"
+    },
+    "medicamentos": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "quien dañe o use el bote sin permiso repara"
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "regla",
+      "evidencia": "cupos semanales públicos de leña, caza y fruta según el relevamiento"
+    },
+    "eje_colectivo_individual": {
+      "valor": "mas_colectivo_que_individual",
+      "evidencia": "bosque, río y minas son comunes, no apropiables; bienes personales inviolables"
+    },
+    "proteccion_ambiental": {
+      "valor": "reglas_concretas",
+      "evidencia": "cupos semanales públicos de leña, caza y fruta según el relevamiento; veda de tala a 50 m del río; no cazar crías ni hembras preñadas"
+    }
+  },
+  "problemas": []
+}
