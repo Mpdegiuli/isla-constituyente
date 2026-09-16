@@ -1,0 +1,64 @@
+{
+  "corrida": "v2_kimi_mono_horizonte_20260915-024549_1",
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "codebook_md5": "2cfd2050"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "mixto",
+      "evidencia": "La autoridad máxima es la mesa, integrada por todos los participantes presentes. La mesa elige un Coordinador por mayoría simple, por períodos de treinta días, reelegible."
+    },
+    "regla_de_decision": {
+      "valor": "doble_umbral",
+      "evidencia": "Las decisiones ordinarias se adoptan por mayoría simple de los participantes presentes en la mesa (más votos a favor que en contra). Esta regla puede reformarse solo por mayoría absoluta del total de participantes (al menos cuatro votos)."
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "se respeta la propiedad personal de lo rescatado del naufragio; lo producido con trabajo común (cosechas, construcciones, herramientas nuevas, carbón y metal extraídos) es propiedad común"
+    },
+    "sistema_economico": {
+      "valor": "mixto",
+      "evidencia": "Economía mixta de subsistencia: se respeta la propiedad personal de lo rescatado del naufragio; lo producido con trabajo común (cosechas, construcciones, herramientas nuevas, carbón y metal extraídos) es propiedad común, administrada por la mesa con transparencia; el intercambio voluntario entre participantes es libre."
+    },
+    "resolucion_de_disputas": {
+      "valor": "escalonada",
+      "evidencia": "Toda disputa se somete primero a mediación del Coordinador, que propone solución dentro de tres días. Sin acuerdo, la mesa resuelve en sesión, oyendo a las partes por igual"
+    },
+    "castigo": {
+      "valor": "graduado",
+      "evidencia": "Escala según gravedad y reiteración: a) amonestación registrada; b) reparación del daño (restitución o trabajo compensatorio equivalente); c) restricción temporal de acceso a bienes comunes no esenciales; d) suspensión temporal del voto, hasta diez días; e) solo por violencia contra la persona, apropiación de bienes comunes esenciales o sabotaje: separación del grupo"
+    },
+    "salida": {
+      "valor": "libre",
+      "evidencia": "Todo participante puede retirarse del grupo cuando quiera, llevándose sus bienes personales y el fruto de su trabajo individual"
+    },
+    "principio_distributivo": {
+      "valor": "segun_capacidad_y_necesidad",
+      "evidencia": "una cuota diaria de subsistencia del fondo común (agua, alimento, refugio básico) mientras contribuya al trabajo común según su capacidad"
+    },
+    "medicamentos": {
+      "valor": "otro",
+      "evidencia": "atención sanitaria conforme al criterio de la delegación de Salud"
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "El bote es propiedad personal de la parte 1, protegido por el límite material del punto 1 de este acta: ninguna decisión de la mesa puede disponer de él sin su consentimiento expreso. Solo la parte 1 rema el bote; nadie lo usa, lo mueve ni lo desamarra sin su presencia y permiso."
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "mixto",
+      "evidencia": "El fondo común garantiza la cuota diaria de subsistencia en los términos del punto 4 del acta. Huerta común: se destina terreno junto al río y se prioriza su trabajo común en las primeras cuatro semanas, para asegurar alimento propio antes de que se agoten las reservas del naufragio."
+    },
+    "eje_colectivo_individual": {
+      "valor": "equilibrado",
+      "evidencia": "Se confirma la economía mixta de subsistencia del punto 2 del acta: propiedad personal protegida, propiedad común del trabajo colectivo e intercambio voluntario libre."
+    },
+    "proteccion_ambiental": {
+      "valor": "reglas_concretas",
+      "evidencia": "Censo inicial: en diez días la delegación levanta un censo del bosque, los frutales, la fauna, el río y las vetas de carbón y metal, con estimación de tasas de regeneración; consta en el acta y se actualiza cada treinta días. Bosque: cupo de tala por zonas rotadas según el censo; toda tala exige reposición plantada de al menos dos plantas por árbol; se prioriza madera caída y podas; vedas en zonas de regeneración."
+    }
+  },
+  "problemas": []
+}

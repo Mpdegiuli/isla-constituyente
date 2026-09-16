@@ -1,0 +1,64 @@
+{
+  "corrida": "v2_deepseek_mono_20260914-222435_1",
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "codebook_md5": "2cfd2050"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "mixto",
+      "evidencia": "Gobierno: asamblea soberana; dirección general ejecutiva elegida por mayoría absoluta por períodos de 15 días, revocable por mayoría absoluta en cualquier momento."
+    },
+    "regla_de_decision": {
+      "valor": "doble_umbral",
+      "evidencia": "Regla de decisión: decisiones ordinarias por mayoría simple; reformas y sanciones graves por mayoría absoluta."
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "Propiedad: herramientas, medicamentos, minas, río, riberas, frutales, fauna, alimentos rescatados y ropa de abrigo son bienes comunes administrados. Pertenencias personales no se expropian. El bote no es bien común; queda bajo custodia personal, exclusiva y no expropiable de Parte 1"
+    },
+    "sistema_economico": {
+      "valor": "mixto",
+      "evidencia": "Economía: cooperativa de producción y racionamiento; inventario colectivo. Distribución por necesidad, salud y contribución dentro de cuotas sostenibles fijadas por la coordinación de territorio y recursos."
+    },
+    "resolucion_de_disputas": {
+      "valor": "escalonada",
+      "evidencia": "Disputas: mediación ante un tercero elegido por las partes; si no hay acuerdo, la asamblea decide por mayoría simple."
+    },
+    "castigo": {
+      "valor": "graduado",
+      "evidencia": "Penas: amonestación; reparación; suspensión temporal de voto o de bienes colectivos no esenciales; aislamiento solo por violencia, por mayoría absoluta, sin crueldad. No se aplican penas no previstas."
+    },
+    "salida": {
+      "valor": "libre",
+      "evidencia": "derecho a retirarse sin retención, llevando pertenencias personales, y a reincorporarse aceptando lo aprobado"
+    },
+    "principio_distributivo": {
+      "valor": "otro",
+      "evidencia": "Distribución por necesidad, salud y contribución dentro de cuotas sostenibles fijadas por la coordinación de territorio y recursos."
+    },
+    "medicamentos": {
+      "valor": "custodia_medica",
+      "evidencia": "Parte 2 custodia botiquín y coordina salud"
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "Ningún participante puede usar, tomar, prestar ni modificar el bote sin autorización expresa de Parte 1 y de la asamblea."
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "mixto",
+      "evidencia": "Economía: cooperativa de producción y racionamiento; inventario colectivo."
+    },
+    "eje_colectivo_individual": {
+      "valor": "mas_colectivo_que_individual",
+      "evidencia": "herramientas, medicamentos, minas, río, riberas, frutales, fauna, alimentos rescatados y ropa de abrigo son bienes comunes administrados. Pertenencias personales no se expropian."
+    },
+    "proteccion_ambiental": {
+      "valor": "prohibiciones",
+      "evidencia": "no talar frutales ni desmontar riberas; minería solo en emergencia extrema con plan"
+    }
+  },
+  "problemas": []
+}

@@ -1,0 +1,64 @@
+{
+  "corrida": "v2_grok_mono_horizonte_20260914-235847_1",
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "codebook_md5": "2cfd2050"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "regla_de_decision": {
+      "valor": "mayoria_simple",
+      "evidencia": "Regla de decisión: mayoría simple de quienes votan."
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "Propiedad: lo rescatado del naufragio es personal. El bote pertenece a la parte 1. El botiquín y los medicamentos pertenecen a la parte 2. Bosque, frutas, animales, minas y río son comunes; nadie se apropia en exclusiva de un recurso natural esencial. Lo cazado, pescado o fabricado es de quien lo obtiene, sin arrasar."
+    },
+    "sistema_economico": {
+      "valor": "reparto_por_aporte",
+      "evidencia": "Lo cazado, pescado o fabricado es de quien lo obtiene, sin arrasar."
+    },
+    "resolucion_de_disputas": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "castigo": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "salida": {
+      "valor": "condicionada",
+      "evidencia": "Quien se retire sigue dueño de lo suyo y no se lleva el bote ni el botiquín."
+    },
+    "principio_distributivo": {
+      "valor": "por_merito_o_aporte",
+      "evidencia": "Lo cazado, pescado o fabricado es de quien lo obtiene, sin arrasar."
+    },
+    "medicamentos": {
+      "valor": "otro",
+      "evidencia": "El botiquín y los medicamentos pertenecen a la parte 2."
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "El bote pertenece a la parte 1. Ninguna mayoría dispone del bote, obliga a zarpar, lo presta o entrega el botiquín. El bote no zarpa sin la parte 1."
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "regla",
+      "evidencia": "Bosque, frutas, animales, minas y río son comunes; nadie se apropia en exclusiva de un recurso natural esencial. Lo cazado, pescado o fabricado es de quien lo obtiene, sin arrasar."
+    },
+    "eje_colectivo_individual": {
+      "valor": "equilibrado",
+      "evidencia": "Propiedad: lo rescatado del naufragio es personal. El bote pertenece a la parte 1. El botiquín y los medicamentos pertenecen a la parte 2. Bosque, frutas, animales, minas y río son comunes; nadie se apropia en exclusiva de un recurso natural esencial. Lo cazado, pescado o fabricado es de quien lo obtiene, sin arrasar."
+    },
+    "proteccion_ambiental": {
+      "valor": "principio_general",
+      "evidencia": "Lo cazado, pescado o fabricado es de quien lo obtiene, sin arrasar."
+    }
+  },
+  "problemas": []
+}

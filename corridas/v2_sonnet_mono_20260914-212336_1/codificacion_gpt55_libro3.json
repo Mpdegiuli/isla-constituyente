@@ -1,0 +1,64 @@
+{
+  "corrida": "v2_sonnet_mono_20260914-212336_1",
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "codebook_md5": "2cfd2050"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "mixto",
+      "evidencia": "El régimen político de la isla es una república coordinada: existe un coordinador general elegido por mayoría absoluta de los participantes activos, con mandato de treinta días renovable por igual mayoría. El coordinador organiza el trabajo diario, convoca y facilita las deliberaciones, y distribuye las tareas según lo acordado colectivamente. No tiene poder unilateral sobre los recursos ni voto de desempate. Todas las decisiones sustantivas —uso de recursos, roles, sanciones— siguen las reglas de votación aprobadas."
+    },
+    "regla_de_decision": {
+      "valor": "doble_umbral",
+      "evidencia": "Las decisiones se toman por mayoría simple: más votos a favor que en contra. Las abstenciones no cuentan. En caso de empate, la propuesta se considera rechazada y puede volver a presentarse en la siguiente ronda con modificaciones. El voto es secreto y obligatorio para todos los participantes activos en la deliberación. Se entiende por mayoría absoluta más de la mitad del total de participantes activos en la deliberación, independientemente de cuántos voten en un turno dado. Las decisiones que afecten el uso de recursos naturales de la isla —extracción minera, tala, caza, pesca— requieren mayoría absoluta. Las decisiones sobre el uso de los medicamentos requieren mayoría absoluta. El uso del bote se decide por mayoría simple. Cualquier modificación a las reglas aprobadas solo puede hacerse por mayoría absoluta."
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "Todos los bienes rescatados del naufragio —medicamentos, herramientas, ropa, alimentos— son propiedad común del grupo y se administran colectivamente según las reglas de votación aprobadas. Los recursos naturales de la isla —frutos, animales, madera, minerales, agua del río— son igualmente bienes comunes; ningún participante puede apropiarse de ellos en forma exclusiva. [...] Los objetos personales de uso exclusivo —ropa propia, efectos personales, herramientas y objetos de uso personal que el participante trajo originalmente al grupo— permanecen bajo custodia individual pero no constituyen capital acumulable ni pueden usarse como moneda de intercambio para obtener ventajas en las decisiones colectivas."
+    },
+    "sistema_economico": {
+      "valor": "mixto",
+      "evidencia": "El régimen económico de la isla es de administración colectiva de recursos. [...] La distribución de bienes y recursos sigue el principio de contribución según capacidad y distribución según necesidad, evaluada colectivamente."
+    },
+    "resolucion_de_disputas": {
+      "valor": "escalonada",
+      "evidencia": "Resolución de disputas: las disputas entre participantes se resuelven en tres pasos. Primero, diálogo directo entre las partes. Segundo, si no hay acuerdo, mediación del coordinador general, quien puede convocar una deliberación grupal. Si el coordinador es parte en la disputa, la mediación recae en un participante designado por el grupo por mayoría simple en ese momento. Tercero, si persiste el conflicto, el grupo delibera y decide por mayoría absoluta."
+    },
+    "castigo": {
+      "valor": "graduado",
+      "evidencia": "Penas: las sanciones por incumplimiento son graduales y proporcionales. Primera instancia: advertencia formal registrada en el acta. Segunda instancia: suspensión temporal del rol asignado, con redistribución colectiva de sus funciones. Tercera instancia: reducción temporal de acceso a recursos no básicos, decidida por mayoría absoluta."
+    },
+    "salida": {
+      "valor": "libre_sin_bienes",
+      "evidencia": "Si un participante abandona el grupo voluntariamente, conserva sus efectos personales en el sentido definido arriba, pero cualquier bien común que estuviera bajo su custodia —incluidos recursos rescatados del naufragio que no le pertenecían previamente— debe ser devuelto al grupo antes de retirarse."
+    },
+    "principio_distributivo": {
+      "valor": "segun_capacidad_y_necesidad",
+      "evidencia": "La distribución de bienes y recursos sigue el principio de contribución según capacidad y distribución según necesidad, evaluada colectivamente."
+    },
+    "medicamentos": {
+      "valor": "custodia_medica",
+      "evidencia": "Los medicamentos son administrados por el participante con formación médica, quien tiene la obligación de mantener un inventario actualizado, informar al grupo periódicamente sobre su estado y registrar cada uso. El criterio de indicación es médico; si el grupo discrepa, puede deliberar y decidir por mayoría absoluta, pero ningún medicamento puede usarse sin registro."
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "Exploración costera y uso del bote: el bote puede utilizarse para explorar la costa cercana de la isla en busca de recursos adicionales, previa votación por mayoría simple. Para cualquier uso del bote se requiere evaluación técnica del responsable de navegación sobre condiciones de seguridad; dicha evaluación es condición necesaria para proceder."
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "mixto",
+      "evidencia": "A partir de ese informe, el grupo delibera y decide por mayoría absoluta un plan de racionamiento proporcional a las necesidades de cada participante; dicho plan establece prioridades y límites de uso [...] El grupo tiene la obligación colectiva de explorar activamente alternativas médicas naturales disponibles en la isla. [...] El coordinador presenta al grupo, dentro de los primeros catorce días, una propuesta de plan de contingencia a largo plazo —producción de alimentos, minería, construcción de refugio permanente—"
+    },
+    "eje_colectivo_individual": {
+      "valor": "mas_colectivo_que_individual",
+      "evidencia": "Todos los bienes rescatados del naufragio —medicamentos, herramientas, ropa, alimentos— son propiedad común del grupo y se administran colectivamente según las reglas de votación aprobadas. [...] Todo participante tiene la obligación de contribuir al grupo según su capacidad real; de respetar las decisiones colectivas aprobadas; de no apropiarse de bienes comunes [...] Los objetos personales de uso exclusivo —ropa propia, efectos personales, herramientas y objetos de uso personal que el participante trajo originalmente al grupo— permanecen bajo custodia individual"
+    },
+    "proteccion_ambiental": {
+      "valor": "reglas_concretas",
+      "evidencia": "Su uso se rige por el principio de sostenibilidad: no se extrae más de lo que el sistema puede regenerar en el mismo período. Antes de cada decisión por mayoría absoluta sobre extracción de recursos naturales, el participante con mayor conocimiento del ecosistema de la isla tiene la obligación de informar al grupo sobre el estado estimado del recurso y los límites razonables de extracción; dicho informe queda registrado en el acta."
+    }
+  },
+  "problemas": []
+}

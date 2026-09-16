@@ -1,0 +1,64 @@
+{
+  "corrida": "kimi_mono_20260914-043333_1",
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "codebook_md5": "2cfd2050"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "mixto",
+      "evidencia": "Gobierno: una parte coordina, electa y revocable por mayoría calificada de 5 de 7, candidaturas abiertas. Organiza tareas, turnos y deliberaciones; ejecuta lo aprobado según las penas acordadas; registra en el acta; actos ultra mandato nulos. No altera cuotas, repartos, penas ni esta regla; no dispone de recursos fuera de lo acordado ni acumula custodias vitales; responde como cualquier parte."
+    },
+    "regla_de_decision": {
+      "valor": "doble_umbral",
+      "evidencia": "Las decisiones se buscan por consenso. Si no se alcanza: (a) los temas fundamentales —gobierno, propiedad, penas, derechos y obligaciones, y la administración de recursos vitales escasos, como medicamentos, bote y herramientas— requieren mayoría calificada de 5 de 7; (b) los temas cotidianos se deciden por mayoría simple."
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "Son propiedad común e indivisa de los siete: (a) los recursos naturales —árboles, frutos, animales, río, carbón y metal— y (b) los bienes rescatados —herramientas, ropa, medicamentos y bote—, asignados en custodia responsable con registro público. El excedente que cada parte produzca sobre su cuota es propiedad personal."
+    },
+    "sistema_economico": {
+      "valor": "mixto",
+      "evidencia": "Régimen económico: comunitario de subsistencia con excedente personal. Cada parte aporta trabajo según su capacidad —fijada en el acta, impugnable, y evaluada considerando el estado de salud que determine la parte con formación médica— en las tareas comunes asignadas por la coordinación. Los bienes comunes de consumo se reparten en partes iguales, salvo necesidad médica. El excedente personal es libremente intercambiable; todo intercambio se registra en el acta."
+    },
+    "resolucion_de_disputas": {
+      "valor": "otro",
+      "evidencia": "Resuelve un panel de tres partes sorteadas entre las no involucradas; si no hay tres disponibles, decide la asamblea por 5 de 7. Las penas (d) y (e) admiten apelación a la asamblea, por 5 de 7."
+    },
+    "castigo": {
+      "valor": "graduado",
+      "evidencia": "Catálogo creciente: (a) reprensión registrada; (b) restitución o reparación del daño; (c) trabajo compensatorio, según la capacidad de salud que evalúa la parte médica; (d) pérdida parcial o total del excedente personal; (e) revocación de rol o custodia. La gravedad se fija por daño, intención y reincidencia, según el procedimiento de disputas."
+    },
+    "salida": {
+      "valor": "libre",
+      "evidencia": "Derechos: (a) vida y salud, con medicamentos según necesidad médica; (b) porción igual de bienes comunes y excedente personal; (c) hablar, proponer, votar e impugnar; (d) conocer el acta; (e) separarse del grupo libremente, según lo acordado;"
+    },
+    "principio_distributivo": {
+      "valor": "segun_capacidad_y_necesidad",
+      "evidencia": "Cada parte aporta trabajo según su capacidad —fijada en el acta, impugnable, y evaluada considerando el estado de salud que determine la parte con formación médica— en las tareas comunes asignadas por la coordinación. Los bienes comunes de consumo se reparten en partes iguales, salvo necesidad médica."
+    },
+    "medicamentos": {
+      "valor": "custodia_medica",
+      "evidencia": "Los medicamentos se asignan por necesidad médica, fuera de toda cuota y reparto; esa necesidad la evalúa la parte con formación médica, con registro en el acta e impugnable por cualquier parte."
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "parte 1, única remera: custodia el bote, conduce expediciones, decide si es navegable; nadie lo usa sin su acuerdo o sin 5 de 7."
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "regla",
+      "evidencia": "Su aprovechamiento se rige por cuotas según la tasa de renovación de cada recurso, documentadas en el acta e impugnables por cualquier parte. Superarlas solo ante riesgo inminente de muerte o daño grave, con mayoría calificada de 5 de 7."
+    },
+    "eje_colectivo_individual": {
+      "valor": "mas_colectivo_que_individual",
+      "evidencia": "Régimen económico: comunitario de subsistencia con excedente personal. Cada parte aporta trabajo según su capacidad —fijada en el acta, impugnable, y evaluada considerando el estado de salud que determine la parte con formación médica— en las tareas comunes asignadas por la coordinación."
+    },
+    "proteccion_ambiental": {
+      "valor": "reglas_concretas",
+      "evidencia": "Su aprovechamiento se rige por cuotas según la tasa de renovación de cada recurso, documentadas en el acta e impugnables por cualquier parte."
+    }
+  },
+  "problemas": []
+}

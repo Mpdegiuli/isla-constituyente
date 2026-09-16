@@ -1,0 +1,64 @@
+{
+  "corrida": "v2_opus_mono_20260914-214921_1",
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "codebook_md5": "2cfd2050"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "mixto",
+      "evidencia": "Ante vacío o duda, la asamblea resuelve por la regla del artículo 1 e interpreta conforme al artículo 21: en el sentido que menos privilegio otorgue a quien ejerce un cargo o controla un recurso"
+    },
+    "regla_de_decision": {
+      "valor": "mayoria_simple",
+      "evidencia": "Regla de decisión vigente: mayoría simple (más votos a favor que en contra)."
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "No podrá tomar bienes comunes, reservas ni medicamentos fuera del caso del artículo 42."
+    },
+    "sistema_economico": {
+      "valor": "mixto",
+      "evidencia": "Quien se retira de la vida común y por ello no recibe ración del fondo común conserva el derecho de proveerse por sí mismo alimento, agua, leña y abrigo mediante caza, pesca y recolección para su sola subsistencia"
+    },
+    "resolucion_de_disputas": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "castigo": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "salida": {
+      "valor": "libre_sin_bienes",
+      "evidencia": "Quien se retira de la vida común y por ello no recibe ración del fondo común conserva el derecho de proveerse por sí mismo alimento, agua, leña y abrigo mediante caza, pesca y recolección para su sola subsistencia"
+    },
+    "principio_distributivo": {
+      "valor": "otro",
+      "evidencia": "conserva el derecho de proveerse por sí mismo alimento, agua, leña y abrigo mediante caza, pesca y recolección para su sola subsistencia"
+    },
+    "medicamentos": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "bote": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "regla",
+      "evidencia": "dentro de los cupos de los artículos 13, 54 y 55 y respetando las prohibiciones del artículo 12"
+    },
+    "eje_colectivo_individual": {
+      "valor": "equilibrado",
+      "evidencia": "Quien se retira de la vida común y por ello no recibe ración del fondo común conserva el derecho de proveerse por sí mismo alimento, agua, leña y abrigo mediante caza, pesca y recolección para su sola subsistencia"
+    },
+    "proteccion_ambiental": {
+      "valor": "reglas_concretas",
+      "evidencia": "dentro de los cupos de los artículos 13, 54 y 55 y respetando las prohibiciones del artículo 12"
+    }
+  },
+  "problemas": []
+}

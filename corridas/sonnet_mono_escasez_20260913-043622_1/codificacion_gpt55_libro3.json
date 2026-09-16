@@ -1,0 +1,64 @@
+{
+  "corrida": "sonnet_mono_escasez_20260913-043622_1",
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "codebook_md5": "2cfd2050"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "mixto",
+      "evidencia": "El gobierno de la isla se ejerce mediante un consejo de tres personas con mandatos rotativos de dos semanas. El consejo coordina y ejecuta las decisiones del grupo."
+    },
+    "regla_de_decision": {
+      "valor": "doble_umbral",
+      "evidencia": "Las decisiones se toman por mayoría simple (más votos a favor que en contra entre los presentes al momento de votar). [...] Las decisiones sobre uso o alteración de recursos naturales de la isla requieren mayoría absoluta, sin excepción."
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "Los recursos críticos —arroyo, herramientas, medicamentos y bote— son bienes comunes administrados por el consejo conforme a las reglas vigentes. [...] Los objetos personales son propiedad individual"
+    },
+    "sistema_economico": {
+      "valor": "mixto",
+      "evidencia": "Lo producido colectivamente es bien común; lo producido individualmente con recursos propios puede declararse personal o común por el grupo. El trabajo se organiza cooperativamente según habilidades declaradas; el consejo coordina"
+    },
+    "resolucion_de_disputas": {
+      "valor": "escalonada",
+      "evidencia": "Las disputas entre participantes se resuelven en tres instancias. Primera: mediación directa entre las partes, con plazo máximo de 24 horas. Segunda: si no hay acuerdo, el consejo actúa como árbitro y emite una decisión vinculante dentro de las 24 horas siguientes. Tercera: cualquiera de las partes puede apelar la decisión del consejo al grupo completo, que resuelve por mayoría absoluta."
+    },
+    "castigo": {
+      "valor": "graduado",
+      "evidencia": "Las penas por incumplimiento son proporcionales y progresivas. Primera infracción: advertencia formal registrada en acta. Segunda infracción por el mismo tipo de conducta: reducción temporal de beneficios no básicos, determinada por el consejo con fundamentación registrada en acta. Tercera infracción o infracción grave: el grupo decide la sanción por mayoría absoluta con voto secreto."
+    },
+    "salida": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "principio_distributivo": {
+      "valor": "segun_capacidad_y_necesidad",
+      "evidencia": "Todo participante tiene obligación de: contribuir al trabajo colectivo según su capacidad real y declarada [...] Ninguna obligación puede invocarse para negar el acceso a recursos básicos."
+    },
+    "medicamentos": {
+      "valor": "custodia_medica",
+      "evidencia": "Los medicamentos requieren evaluación de quien tenga formación médica; el consejo no puede disponer de ellos contra ese criterio."
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "Los recursos críticos —arroyo, herramientas, medicamentos y bote— son bienes comunes administrados por el consejo conforme a las reglas vigentes. [...] El bote puede usarse sin votación previa en emergencias; su uso requiere a quien sepa remarlo."
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "regla",
+      "evidencia": "La distribución de recursos básicos —alimento, agua, abrigo, atención médica— es equitativa: nadie pierde acceso por incapacidad, enfermedad o condición de salud."
+    },
+    "eje_colectivo_individual": {
+      "valor": "mas_colectivo_que_individual",
+      "evidencia": "Los recursos críticos —arroyo, herramientas, medicamentos y bote— son bienes comunes administrados por el consejo conforme a las reglas vigentes. [...] Los objetos personales son propiedad individual"
+    },
+    "proteccion_ambiental": {
+      "valor": "prohibiciones",
+      "evidencia": "El uso del arroyo y la vegetación no puede superar su capacidad de regeneración natural."
+    }
+  },
+  "problemas": []
+}

@@ -1,0 +1,64 @@
+{
+  "corrida": "opus_mono_20260914-000055_1",
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "codebook_md5": "2cfd2050"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "mixto",
+      "evidencia": "REGLA DE DECISIÓN: mayoría absoluta (4 de 7). Revisión del acta a los 30 días por 4 votos. 2) VOTO: público y obligatorio para quienes están en la mesa. 3) DERECHOS Y OBLIGACIONES: nadie dispone del cuerpo, del trabajo ni de los bienes ajenos sin consentimiento expreso; el trabajo se asigna por acuerdo individual, nunca por mandato. 4) MEDICAMENTOS: no se votan; los administra el sanitario por criterio clínico"
+    },
+    "regla_de_decision": {
+      "valor": "mayoria_absoluta",
+      "evidencia": "REGLA DE DECISIÓN: mayoría absoluta (4 de 7)."
+    },
+    "regimen_de_propiedad": {
+      "valor": "privada",
+      "evidencia": "nadie dispone del cuerpo, del trabajo ni de los bienes ajenos sin consentimiento expreso"
+    },
+    "sistema_economico": {
+      "valor": "otro",
+      "evidencia": "el trabajo se asigna por acuerdo individual, nunca por mandato."
+    },
+    "resolucion_de_disputas": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "castigo": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "salida": {
+      "valor": "libre",
+      "evidencia": "Derecho de salida: quien se aleja no queda mandado por la mesa ni recibe raciones ni cuidados programados, conserva atención en urgencia vital y queda obligado solo por el piso mínimo —no dañar personas, no contaminar el río, no tomar bienes ajenos—; reingreso por 4 votos."
+    },
+    "principio_distributivo": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "medicamentos": {
+      "valor": "custodia_medica",
+      "evidencia": "MEDICAMENTOS: no se votan; los administra el sanitario por criterio clínico (urgencia, gravedad y cronicidad con riesgo de agravamiento), con consentimiento salvo inconsciencia con riesgo vital, con registro escrito"
+    },
+    "bote": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "regla",
+      "evidencia": "MEDICAMENTOS: no se votan; los administra el sanitario por criterio clínico (urgencia, gravedad y cronicidad con riesgo de agravamiento)"
+    },
+    "eje_colectivo_individual": {
+      "valor": "mas_individual_que_colectivo",
+      "evidencia": "nadie dispone del cuerpo, del trabajo ni de los bienes ajenos sin consentimiento expreso; el trabajo se asigna por acuerdo individual, nunca por mandato. Derecho de salida: quien se aleja no queda mandado por la mesa"
+    },
+    "proteccion_ambiental": {
+      "valor": "prohibiciones",
+      "evidencia": "no contaminar el río"
+    }
+  },
+  "problemas": []
+}

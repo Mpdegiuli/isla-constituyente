@@ -1,0 +1,64 @@
+{
+  "corrida": "base_mono_20260913-013751_1",
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "codebook_md5": "2cfd2050"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "mixto",
+      "evidencia": "La autoridad reside en la asamblea, que decide por la regla ya aprobada. Se designan responsables por área [...] Se elige un coordinador general por votación, revocable por mayoría absoluta, que ejecuta las decisiones de la asamblea y coordina a los responsables."
+    },
+    "regla_de_decision": {
+      "valor": "mayoria_absoluta",
+      "evidencia": "Las decisiones se toman por mayoría absoluta (más de la mitad de los presentes en la mesa)."
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "Los recursos naturales de la isla (árboles, animales, minerales, agua del río, tierra) son bienes comunes, no apropiables individualmente. [...] Los bienes personales (ropa, herramientas) son inviolables; cesión voluntaria."
+    },
+    "sistema_economico": {
+      "valor": "reparto_por_necesidad",
+      "evidencia": "La producción colectiva se distribuye según necesidad, por decisión de la asamblea."
+    },
+    "resolucion_de_disputas": {
+      "valor": "escalonada",
+      "evidencia": "ante un conflicto entre partes, se intenta resolución directa primero. Si no hay acuerdo en 24 horas, cualquier parte involucrada puede llevar el caso a la asamblea."
+    },
+    "castigo": {
+      "valor": "graduado",
+      "evidencia": "Penas graduadas por la asamblea: (1) advertencia en acta; (2) reducción temporal de ración, salvo certificación de riesgo por el responsable de salud; (3) suspensión temporal de voz en la asamblea; (4) exclusión temporal de bienes comunes, para incumplimientos graves, por mayoría absoluta."
+    },
+    "salida": {
+      "valor": "libre_sin_bienes",
+      "evidencia": "Quien se retire voluntariamente pierde acceso a bienes comunes pero conserva sus bienes personales."
+    },
+    "principio_distributivo": {
+      "valor": "segun_capacidad_y_necesidad",
+      "evidencia": "Obligaciones: contribuir al trabajo colectivo según capacidad [...] La producción colectiva se distribuye según necesidad, por decisión de la asamblea."
+    },
+    "medicamentos": {
+      "valor": "custodia_medica",
+      "evidencia": "Los medicamentos los administra el responsable de salud con criterio técnico autónomo; en emergencias actúa sin consulta e informa luego; para usos no urgentes que afecten el stock, decide la asamblea por mayoría absoluta."
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "El bote es bien personal pero usable colectivamente por decisión de la asamblea, siempre con el operador calificado; sin él, no puede usarse."
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "regla",
+      "evidencia": "La producción colectiva se distribuye según necesidad, por decisión de la asamblea."
+    },
+    "eje_colectivo_individual": {
+      "valor": "mas_colectivo_que_individual",
+      "evidencia": "Los recursos naturales de la isla (árboles, animales, minerales, agua del río, tierra) son bienes comunes, no apropiables individualmente. [...] Los bienes personales (ropa, herramientas) son inviolables; cesión voluntaria."
+    },
+    "proteccion_ambiental": {
+      "valor": "reglas_concretas",
+      "evidencia": "Su uso y extracción son regulados por la asamblea con criterio de sostenibilidad: no se extrae más de lo que el recurso puede regenerar, según evaluación del responsable de recursos naturales."
+    }
+  },
+  "problemas": []
+}

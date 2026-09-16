@@ -1,0 +1,64 @@
+{
+  "corrida": "mixta_v2_20260915-072714_1",
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "codebook_md5": "2cfd2050"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "mixto",
+      "evidencia": "La soberanía reside en la Asamblea, que decide por mayoría absoluta. El gobierno se ejerce mediante la Asamblea, un Consejo Operativo (Coordinación, Salud y Seguridad, Producción) elegido por un mes y un Custodio de Recursos."
+    },
+    "regla_de_decision": {
+      "valor": "mayoria_absoluta",
+      "evidencia": "Las decisiones sobre los puntos pendientes se tomarán por mayoría absoluta de los participantes que sigan integrando la comunidad."
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "Bote, herramientas, medicamentos y recursos naturales son bienes comunes de uso regulado. Propiedad personal limitada a ropa y objetos de uso individual."
+    },
+    "sistema_economico": {
+      "valor": "mixto",
+      "evidencia": "Economía: trabajo según capacidad y racionamiento proporcional. Bote, herramientas, medicamentos y recursos naturales son bienes comunes de uso regulado. Propiedad personal limitada a ropa y objetos de uso individual."
+    },
+    "resolucion_de_disputas": {
+      "valor": "escalonada",
+      "evidencia": "Disputas: mediación del Consejo y, si no hay acuerdo, votación de la Asamblea."
+    },
+    "castigo": {
+      "valor": "graduado",
+      "evidencia": "Penas: incumplimiento reiterado, limitación de voto, bienes no esenciales o tareas reparadoras. Nunca se quitará agua, comida básica ni atención médica urgente. Robo, sabotaje o daño grave a recursos vitales: expulsión con mínimo vital."
+    },
+    "salida": {
+      "valor": "condicionada",
+      "evidencia": "Quien se retire respeta los bienes comunes si los usa."
+    },
+    "principio_distributivo": {
+      "valor": "segun_capacidad_y_necesidad",
+      "evidencia": "Economía: trabajo según capacidad y racionamiento proporcional."
+    },
+    "medicamentos": {
+      "valor": "custodia_medica",
+      "evidencia": "Roles del primer mes: Parte 3, Coordinación; Parte 2, Salud y botiquín; Parte 4, Custodio de Recursos;"
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "Sin embargo, la decisión de cuándo y cómo zarpar corresponde exclusivamente a la Parte 1, quien evaluará las condiciones de seguridad náutica y rendirá cuentas al Consejo."
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "mixto",
+      "evidencia": "medicamentos y reservas dosificados al máximo. Al agotarse, se intensificará pesca, recolección sostenible y búsqueda de alternativas locales, con cupos."
+    },
+    "eje_colectivo_individual": {
+      "valor": "mas_colectivo_que_individual",
+      "evidencia": "Bote, herramientas, medicamentos y recursos naturales son bienes comunes de uso regulado. Propiedad personal limitada a ropa y objetos de uso individual."
+    },
+    "proteccion_ambiental": {
+      "valor": "reglas_concretas",
+      "evidencia": "El Custodio tendrá veto suspensivo sobre toda extracción no sostenible; el veto solo se levantará si la Asamblea aprueba un plan con cupos, reposición y monitoreo."
+    }
+  },
+  "problemas": []
+}

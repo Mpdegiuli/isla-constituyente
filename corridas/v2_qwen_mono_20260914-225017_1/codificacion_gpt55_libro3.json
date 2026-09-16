@@ -1,0 +1,64 @@
+{
+  "corrida": "v2_qwen_mono_20260914-225017_1",
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "codebook_md5": "2cfd2050"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "mixto",
+      "evidencia": "la Asamblea es la autoridad suprema. Elige por mayoría absoluta una Dirección Operativa unipersonal, revocable por mayoría simple, sin privilegios."
+    },
+    "regla_de_decision": {
+      "valor": "doble_umbral",
+      "evidencia": "Regla general: mayoría simple. Mayoría absoluta para aprobar/modificar esta acta, crear penas graves, expropiar, disponer del bote, medicamentos, herramientas comunes, reservas, recursos minerales y salir de la isla. Unanimidad para obligar a alguien a arriesgar su vida."
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "recursos naturales y bienes esenciales rescatados son comunes, administrados por inventario. Ropa y objetos íntimos son personales."
+    },
+    "sistema_economico": {
+      "valor": "mixto",
+      "evidencia": "Comunidad del Remo, democracia asamblearia directa con economía mixta de subsistencia, custodia responsable y sostenibilidad."
+    },
+    "resolucion_de_disputas": {
+      "valor": "escalonada",
+      "evidencia": "Las disputas se resuelven primero por mediación de dos personas elegidas por las partes; si falla, Asamblea con mayoría simple, respetando defensa."
+    },
+    "castigo": {
+      "valor": "graduado",
+      "evidencia": "Penas: amonestación, reparación, trabajo comunitario, suspensión temporal de privilegios y, por mayoría absoluta, confinamiento temporal en zona segura. No hay destierro ni pena corporal."
+    },
+    "salida": {
+      "valor": "libre",
+      "evidencia": "Ninguna regla puede impedir a una persona actuar de inmediato para salvar su vida, asegurar alimento, fuego, refugio, defensa o atención médica urgente, ni obligarla a permanecer en el grupo."
+    },
+    "principio_distributivo": {
+      "valor": "otro",
+      "evidencia": "se priorizan agua segura, alimento, refugio, fuego, salud y protección contra peligros."
+    },
+    "medicamentos": {
+      "valor": "custodia_medica",
+      "evidencia": "Parte 2, Responsabilidad Sanitaria, por formación médica"
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "Parte 1, Custodia del Bote y Remo, por saber remar"
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "mixto",
+      "evidencia": "recursos naturales y bienes esenciales rescatados son comunes, administrados por inventario. Ropa y objetos íntimos son personales. El trabajo se reparte; excedentes se almacenan. Toda extracción que supere capacidad de carga requiere mayoría absoluta; se priorizan agua segura, alimento, refugio, fuego, salud y protección contra peligros. Al agotarse medicamentos o reservas, se priorizarán prevención, agua segura, higiene, primeros auxilios, plantas medicinales seguras, alimentos sostenibles y guardias contra incendio, animales y tormentas."
+    },
+    "eje_colectivo_individual": {
+      "valor": "mas_colectivo_que_individual",
+      "evidencia": "recursos naturales y bienes esenciales rescatados son comunes, administrados por inventario. Ropa y objetos íntimos son personales. El trabajo se reparte; excedentes se almacenan."
+    },
+    "proteccion_ambiental": {
+      "valor": "reglas_concretas",
+      "evidencia": "Toda extracción que supere capacidad de carga requiere mayoría absoluta"
+    }
+  },
+  "problemas": []
+}

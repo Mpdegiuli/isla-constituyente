@@ -1,0 +1,64 @@
+{
+  "corrida": "qwen_mono_20260914-062300_1",
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "codebook_md5": "2cfd2050"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "mixto",
+      "evidencia": "Decisiones comunes: mayoría simple; críticas: penas, propiedad, bote, medicinas y alimentos, mayoría absoluta de activos. Voto público y obligatorio. Coordinaciones revocables, designadas por mayoría simple: general Parte 3, sanitaria Parte 2, ambiental Parte 4 con veto suspensivo salvo riesgo vital, operativa Parte 6 para expediciones, seguridad y refugio con autonomía urgente y rendición posterior."
+    },
+    "regla_de_decision": {
+      "valor": "doble_umbral",
+      "evidencia": "Decisiones comunes: mayoría simple; críticas: penas, propiedad, bote, medicinas y alimentos, mayoría absoluta de activos."
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "Propiedad: ropa y objetos personales son uso personal; valijas, herramientas, alimentos, medicinas bajo indicación sanitaria, carbón, metal, bote y recursos naturales son comunes críticos, bajo inventario."
+    },
+    "sistema_economico": {
+      "valor": "mixto",
+      "evidencia": "Economía comunitaria de subsistencia: trabajo por turnos, consumo según necesidad, aporte y sostenibilidad."
+    },
+    "resolucion_de_disputas": {
+      "valor": "escalonada",
+      "evidencia": "Disputas: mediación; si persiste, asamblea escucha a partes y resuelve fundada según regla vigente, salvo urgencia registrada."
+    },
+    "castigo": {
+      "valor": "graduado",
+      "evidencia": "Penas: apercibimiento, reparación, tareas adicionales y restricción de usos no esenciales, por resolución fundada; prohibidas penas corporales o exilio; faltas graves contra bote o medicinas requieren mayoría absoluta."
+    },
+    "salida": {
+      "valor": "condicionada",
+      "evidencia": "Retiro: deciden activos."
+    },
+    "principio_distributivo": {
+      "valor": "segun_capacidad_y_necesidad",
+      "evidencia": "Economía comunitaria de subsistencia: trabajo por turnos, consumo según necesidad, aporte y sostenibilidad. Obligaciones: trabajar según capacidad, cuidar recursos, cumplir actas y órdenes registradas."
+    },
+    "medicamentos": {
+      "valor": "custodia_medica",
+      "evidencia": "Urgencia sanitaria: Parte 2 autoriza tratamiento y bote seguro, registro y ratificación. Coordinaciones revocables, designadas por mayoría simple: general Parte 3, sanitaria Parte 2, ambiental Parte 4 con veto suspensivo salvo riesgo vital, operativa Parte 6 para expediciones, seguridad y refugio con autonomía urgente y rendición posterior. Propiedad: ropa y objetos personales son uso personal; valijas, herramientas, alimentos, medicinas bajo indicación sanitaria, carbón, metal, bote y recursos naturales son comunes críticos, bajo inventario."
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "Bote: custodia operativa de Parte 1, revocable, sin privilegios; solo remeros aptos, autorización y registro."
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "regla",
+      "evidencia": "Economía comunitaria de subsistencia: trabajo por turnos, consumo según necesidad, aporte y sostenibilidad."
+    },
+    "eje_colectivo_individual": {
+      "valor": "mas_colectivo_que_individual",
+      "evidencia": "Propiedad: ropa y objetos personales son uso personal; valijas, herramientas, alimentos, medicinas bajo indicación sanitaria, carbón, metal, bote y recursos naturales son comunes críticos, bajo inventario. Obligaciones: trabajar según capacidad, cuidar recursos, cumplir actas y órdenes registradas."
+    },
+    "proteccion_ambiental": {
+      "valor": "reglas_concretas",
+      "evidencia": "Extracción sostenible. Coordinaciones revocables, designadas por mayoría simple: general Parte 3, sanitaria Parte 2, ambiental Parte 4 con veto suspensivo salvo riesgo vital, operativa Parte 6 para expediciones, seguridad y refugio con autonomía urgente y rendición posterior. Propiedad: ropa y objetos personales son uso personal; valijas, herramientas, alimentos, medicinas bajo indicación sanitaria, carbón, metal, bote y recursos naturales son comunes críticos, bajo inventario."
+    }
+  },
+  "problemas": []
+}

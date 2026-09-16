@@ -1,0 +1,64 @@
+{
+  "corrida": "sonnet_mono_en_20260913-174217_1",
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "codebook_md5": "2cfd2050"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "mixto",
+      "evidencia": "The group is governed by an elected Coordinator, chosen by absolute majority. The Coordinator's role is limited to organizing daily tasks, mediating disputes, and representing the group. The Coordinator has no unilateral authority over medicines, the boat, or resources. The Coordinator has no special procedural authority — any participant may propose, challenge classifications, or call for votes on equal terms. The Coordinator may be removed at any time by absolute majority vote. All other decisions remain with the group under the rules already approved."
+    },
+    "regla_de_decision": {
+      "valor": "doble_umbral",
+      "evidencia": "Fundamental decisions (government, property, penalties, resource management, medicines and boat use) require absolute majority (4 of 7 votes). Routine decisions require simple majority."
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "Natural resources (land, forest, mines, river, fish) and medicines are collective property, managed by group decision under approved rules and subject to the sustainability obligations in point 3. Personal items from the wreck (clothing, tools, and similar individual items, explicitly excluding the boat governed by point 3) remain individual property."
+    },
+    "sistema_economico": {
+      "valor": "mixto",
+      "evidencia": "Natural resources (land, forest, mines, river, fish) and medicines are collective property, managed by group decision under approved rules and subject to the sustainability obligations in point 3. Personal items from the wreck (clothing, tools, and similar individual items, explicitly excluding the boat governed by point 3) remain individual property."
+    },
+    "resolucion_de_disputas": {
+      "valor": "escalonada",
+      "evidencia": "Any participant may request mediation by a mutually agreed mediator; parties directly involved may not serve as mediator but may participate in the group vote. If mediation fails within two days, the dispute is resolved by absolute majority vote of the full group."
+    },
+    "castigo": {
+      "valor": "graduado",
+      "evidencia": "Penalties: first instance — formal warning recorded in minutes; second instance — reduced access to non-essential collective resources decided by absolute majority; third instance — suspension of non-essential rights decided by absolute majority."
+    },
+    "salida": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "principio_distributivo": {
+      "valor": "segun_capacidad_y_necesidad",
+      "evidencia": "Every participant has the right to medical care from the shared medicines, distributed according to need as decided by absolute majority. Every participant has an obligation to contribute to collective survival according to their capacity, taking into account health and physical limitations."
+    },
+    "medicamentos": {
+      "valor": "por_necesidad",
+      "evidencia": "Every participant has the right to medical care from the shared medicines, distributed according to need as decided by absolute majority."
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "The boat is a shared community asset; its use requires absolute majority approval, and it may only be operated by a person with demonstrated rowing competence or under direct supervision of such a person."
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "regla",
+      "evidencia": "Every participant also has an obligation not to consume or extract resources beyond sustainable levels; sustainable levels are assessed by the group using the best available knowledge, with input from those with relevant expertise."
+    },
+    "eje_colectivo_individual": {
+      "valor": "mas_colectivo_que_individual",
+      "evidencia": "Natural resources (land, forest, mines, river, fish) and medicines are collective property, managed by group decision under approved rules and subject to the sustainability obligations in point 3. Personal items from the wreck (clothing, tools, and similar individual items, explicitly excluding the boat governed by point 3) remain individual property."
+    },
+    "proteccion_ambiental": {
+      "valor": "principio_general",
+      "evidencia": "Every participant also has an obligation not to consume or extract resources beyond sustainable levels; sustainable levels are assessed by the group using the best available knowledge, with input from those with relevant expertise."
+    }
+  },
+  "problemas": []
+}

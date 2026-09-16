@@ -1,0 +1,64 @@
+{
+  "corrida": "openai_mono_20260914-002120_1",
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "codebook_md5": "2cfd2050"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "mixto",
+      "evidencia": "Las siguientes decisiones se adoptarán por mayoría absoluta de quienes participen en la mesa al momento de votar, con mínimo de 4 votos afirmativos para normas permanentes. Gobierno de emergencia: Coordinador General parte 3 organiza tareas comunes, sin mando sobre decisiones personales fuera de bienes comunes."
+    },
+    "regla_de_decision": {
+      "valor": "doble_umbral",
+      "evidencia": "Las siguientes decisiones se adoptarán por mayoría absoluta de quienes participen en la mesa al momento de votar, con mínimo de 4 votos afirmativos para normas permanentes. Las decisiones urgentes de supervivencia se adoptarán por mayoría simple de presentes."
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "Agua, alimentos silvestres, madera, animales, carbón, metal, herramientas, bote, medicamentos y demás bienes necesarios para sobrevivir serán de uso común regulado, no apropiables privadamente. Ropa y efectos estrictamente personales serán propiedad privada."
+    },
+    "sistema_economico": {
+      "valor": "mixto",
+      "evidencia": "Agua, alimentos silvestres, madera, animales, carbón, metal, herramientas, bote, medicamentos y demás bienes necesarios para sobrevivir serán de uso común regulado, no apropiables privadamente. Habrá inventario público y cuotas sostenibles; hasta aprobarlas, cada responsable podrá fijar límites provisionales informados."
+    },
+    "resolucion_de_disputas": {
+      "valor": "escalonada",
+      "evidencia": "Disputas: mediación por Coordinador y Secretaría; si falla, decisión de tres responsables no involucrados, oyendo a las partes y con acta; apelable a la mesa."
+    },
+    "castigo": {
+      "valor": "graduado",
+      "evidencia": "Penas proporcionales y reparadoras: advertencia, disculpa, reparación, trabajo extra, restricción temporal de uso de bienes comunes o separación de tareas."
+    },
+    "salida": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "principio_distributivo": {
+      "valor": "otro",
+      "evidencia": "Todas las personas tienen derecho a vida, agua, alimento, atención sanitaria, refugio, seguridad, palabra y defensa; y obligación de no dañar, cumplir turnos razonables, cuotas, registros e higiene."
+    },
+    "medicamentos": {
+      "valor": "custodia_medica",
+      "evidencia": "Sanidad parte 2 administra medicamentos, higiene y prioridades médicas con registro público."
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "Agua, alimentos silvestres, madera, animales, carbón, metal, herramientas, bote, medicamentos y demás bienes necesarios para sobrevivir serán de uso común regulado, no apropiables privadamente."
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "regla",
+      "evidencia": "Habrá inventario público y cuotas sostenibles; hasta aprobarlas, cada responsable podrá fijar límites provisionales informados."
+    },
+    "eje_colectivo_individual": {
+      "valor": "mas_colectivo_que_individual",
+      "evidencia": "Agua, alimentos silvestres, madera, animales, carbón, metal, herramientas, bote, medicamentos y demás bienes necesarios para sobrevivir serán de uso común regulado, no apropiables privadamente. Ropa y efectos estrictamente personales serán propiedad privada."
+    },
+    "proteccion_ambiental": {
+      "valor": "reglas_concretas",
+      "evidencia": "Habrá inventario público y cuotas sostenibles; hasta aprobarlas, cada responsable podrá fijar límites provisionales informados."
+    }
+  },
+  "problemas": []
+}

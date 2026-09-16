@@ -1,0 +1,64 @@
+{
+  "corrida": "mixta_v2_fable_20260915-114346_1",
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "codebook_md5": "2cfd2050"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "mixto",
+      "evidencia": "Asamblea soberana. Parte 3 coordina logística y turnos voluntarios, sin sancionar ni disponer de botiquín, bote ni cupos."
+    },
+    "regla_de_decision": {
+      "valor": "doble_umbral",
+      "evidencia": "Ordinarias: mayoría simple de presentes. Salud, medicamentos y extracción: mayoría simple, de aplicación inmediata. Uso del bote fuera de la costa y reforma del acta: cinco votos."
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "Recursos, herramientas, ropa, medicamentos, reservas y bote son comunes. Efectos íntimos, personales."
+    },
+    "sistema_economico": {
+      "valor": "mixto",
+      "evidencia": "Subsistencia comunitaria. Ración según necesidad y capacidad. Trueque voluntario. Sin moneda. Extracción con cupos sostenibles informados por Parte 4."
+    },
+    "resolucion_de_disputas": {
+      "valor": "escalonada",
+      "evidencia": "Mediación de dos; si no hay acuerdo, Asamblea por mayoría simple."
+    },
+    "castigo": {
+      "valor": "graduado",
+      "evidencia": "Amonestación, reparación del daño o exclusión temporal de bienes no esenciales, por mayoría simple. Prohibidos confinamiento, penas físicas y trabajo forzado como pena. Tomar bote o botiquín sin autorización, dañarlos o negar atención urgente es falta grave: exclusión de bienes no esenciales, reparación y, si el culpable tiene custodia, suspensión de ese rol."
+    },
+    "salida": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "principio_distributivo": {
+      "valor": "segun_capacidad_y_necesidad",
+      "evidencia": "Ración según necesidad y capacidad. No sabotear, no robar, devolver herramientas, aportar según capacidad."
+    },
+    "medicamentos": {
+      "valor": "custodia_medica",
+      "evidencia": "Parte 2: botiquín, inventario público y triaje (urgencia, gravedad, beneficio esperado, dosis mínima)."
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "Recursos, herramientas, ropa, medicamentos, reservas y bote son comunes. Efectos íntimos, personales. Nadie toma botiquín ni bote sin autorización."
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "mixto",
+      "evidencia": "Ración según necesidad y capacidad. Al agotarse reservas: higiene, agua hervida o filtrada, plantas validadas por Partes 2 y 4, racionamiento."
+    },
+    "eje_colectivo_individual": {
+      "valor": "mas_colectivo_que_individual",
+      "evidencia": "Comunidad de supervivencia “Isla Franca”: asamblea soberana, economía comunitaria y protocolos de emergencia para salud y rescate."
+    },
+    "proteccion_ambiental": {
+      "valor": "reglas_concretas",
+      "evidencia": "Extracción con cupos sostenibles informados por Parte 4. Río protegido: no contaminar."
+    }
+  },
+  "problemas": []
+}

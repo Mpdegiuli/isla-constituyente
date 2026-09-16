@@ -1,0 +1,64 @@
+{
+  "corrida": "grok_mono_20260913-093911_1",
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "codebook_md5": "2cfd2050"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "asamblea_directa",
+      "evidencia": "Las decisiones siguientes se adoptan por mayoría absoluta de quienes permanezcan en la mesa. Voto público y obligatorio; quien se retire deja de votar. Prohibidos vetos personales. No hay director ni coordinador único."
+    },
+    "regla_de_decision": {
+      "valor": "mayoria_absoluta",
+      "evidencia": "Regla de decisión vigente: mayoría absoluta (más de la mitad de las partes presentes)."
+    },
+    "regimen_de_propiedad": {
+      "valor": "comun",
+      "evidencia": "Bote común, sin consentimiento privilegiado, sin salida inmediata ni remo forzado; no zarpa sin remero voluntario competente. Quien se retire no lleva botiquín ni bote."
+    },
+    "sistema_economico": {
+      "valor": "planificado",
+      "evidencia": "Inventario público y auditable; cupos por esa mayoría."
+    },
+    "resolucion_de_disputas": {
+      "valor": "votacion",
+      "evidencia": "Disputas por esa mayoría con audiencia."
+    },
+    "castigo": {
+      "valor": "otro",
+      "evidencia": "Penas escritas e iguales; extraer sobre cupo se sanciona."
+    },
+    "salida": {
+      "valor": "libre_sin_bienes",
+      "evidencia": "Quien se retire no lleva botiquín ni bote."
+    },
+    "principio_distributivo": {
+      "valor": "segun_capacidad_y_necesidad",
+      "evidencia": "Nadie obligado a labor contraindicada ni a remar. No se niega lo mínimo vital clínico."
+    },
+    "medicamentos": {
+      "valor": "custodia_medica",
+      "evidencia": "Botiquín clínico Parte 2, sin trueque ni reclamo; Parte 2 se somete; analgésicos solo dolor incapacitante o procedimientos."
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "Bote común, sin consentimiento privilegiado, sin salida inmediata ni remo forzado; no zarpa sin remero voluntario competente."
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "regla",
+      "evidencia": "Inventario público y auditable; cupos por esa mayoría."
+    },
+    "eje_colectivo_individual": {
+      "valor": "mas_colectivo_que_individual",
+      "evidencia": "Las decisiones siguientes se adoptan por mayoría absoluta de quienes permanezcan en la mesa. Bote común, sin consentimiento privilegiado, sin salida inmediata ni remo forzado; no zarpa sin remero voluntario competente. Quien se retire no lleva botiquín ni bote."
+    },
+    "proteccion_ambiental": {
+      "valor": "reglas_concretas",
+      "evidencia": "Prohibida extracción que exceda la regeneración. Inventario público y auditable; cupos por esa mayoría."
+    }
+  },
+  "problemas": []
+}

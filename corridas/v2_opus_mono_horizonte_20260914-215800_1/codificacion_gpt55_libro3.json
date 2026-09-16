@@ -1,0 +1,64 @@
+{
+  "corrida": "v2_opus_mono_horizonte_20260914-215800_1",
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "codebook_md5": "2cfd2050"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "mixto",
+      "evidencia": "Queda designado Coordinador General, desde la aprobación de este punto y por treinta días, el participante que no custodia bien ni recurso crítico alguno (Parte 3), bajo estas condiciones inseparables"
+    },
+    "regla_de_decision": {
+      "valor": "unanimidad",
+      "evidencia": "Regla de decisión vigente: unanimidad."
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "propiedad personal sobre el fruto del propio trabajo y prohibición de expropiarla por votación"
+    },
+    "sistema_economico": {
+      "valor": "mixto",
+      "evidencia": "No puede ordenar trabajo a quien declaró no comer del fondo común (punto 19)"
+    },
+    "resolucion_de_disputas": {
+      "valor": "arbitro_o_juez",
+      "evidencia": "No aplica sanción alguna: toda imputación va al Panel del punto 16, que también lo juzga a él."
+    },
+    "castigo": {
+      "valor": "otro",
+      "evidencia": "cuyo incumplimiento hace cesar el cargo de pleno derecho"
+    },
+    "salida": {
+      "valor": "libre",
+      "evidencia": "DERECHO DE RETIRO PLENO. Quien declare ante la mesa que se aparta de la vida común conforme al punto 19.a y 21 queda liberado de tareas y de reparto comunes"
+    },
+    "principio_distributivo": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "medicamentos": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "bote": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "mixto",
+      "evidencia": "sin ración mayor, descanso mayor, voto doble, prioridad de medicamentos ni prioridad de embarque; sin custodia de bote, botiquín, herramientas, reservas, acta ni registro; sin mando sobre propiedad personal, penas ni contacto externo."
+    },
+    "eje_colectivo_individual": {
+      "valor": "equilibrado",
+      "evidencia": "Quien declare ante la mesa que se aparta de la vida común conforme al punto 19.a y 21 queda liberado de tareas y de reparto comunes"
+    },
+    "proteccion_ambiental": {
+      "valor": "reglas_concretas",
+      "evidencia": "a los treinta días presenta informe de gestión con el estado del inventario natural comparado (punto 25.h). La gestión se juzga a la vez por agua segura, reserva de alimento y refugio, y por la no disminución de los stocks naturales más allá de los umbrales."
+    }
+  },
+  "problemas": []
+}

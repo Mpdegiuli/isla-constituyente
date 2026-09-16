@@ -1,0 +1,64 @@
+{
+  "corrida": "deepseek_mono_abundancia_20260913-155044_1",
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "codebook_md5": "2cfd2050"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "mixto",
+      "evidencia": "Disputas resueltas por asamblea por mayoría simple. Habrá coordinador/a electo y revocable; inicialmente Parte 3."
+    },
+    "regla_de_decision": {
+      "valor": "mayoria_simple",
+      "evidencia": "Regla de decisión vigente: mayoría simple (más votos a favor que en contra)."
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "Objetos personales se conservan. Medicamentos y recursos naturales son bienes comunes"
+    },
+    "sistema_economico": {
+      "valor": "mixto",
+      "evidencia": "Objetos personales se conservan. Medicamentos y recursos naturales son bienes comunes; Parte 2 custodia y administra el botiquín según urgencia médica."
+    },
+    "resolucion_de_disputas": {
+      "valor": "escalonada",
+      "evidencia": "Disputas: intento previo de acuerdo voluntario y, si no, asamblea por mayoría simple."
+    },
+    "castigo": {
+      "valor": "graduado",
+      "evidencia": "Penas: amonestación, restricción temporal del uso del recurso, reparación ecológica proporcional y, si hay cargo, destitución; constarán por escrito."
+    },
+    "salida": {
+      "valor": "no_decidido",
+      "evidencia": ""
+    },
+    "principio_distributivo": {
+      "valor": "segun_capacidad_y_necesidad",
+      "evidencia": "la asamblea asigna su uso según necesidad y capacidad de regeneración"
+    },
+    "medicamentos": {
+      "valor": "custodia_medica",
+      "evidencia": "Parte 2 custodia y administra el botiquín según urgencia médica."
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "Bote bajo custodia exclusiva de Parte 1, quien decide si mar, clima y estado permiten navegar; nadie más lo usará sin su permiso. La asamblea puede ordenar salidas"
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "regla",
+      "evidencia": "Toda extracción requiere autorización; se prioriza la conservación."
+    },
+    "eje_colectivo_individual": {
+      "valor": "mas_colectivo_que_individual",
+      "evidencia": "Objetos personales se conservan. Medicamentos y recursos naturales son bienes comunes"
+    },
+    "proteccion_ambiental": {
+      "valor": "reglas_concretas",
+      "evidencia": "Recursos se usan sin agotarlos; extracción autorizada por asamblea según regeneración."
+    }
+  },
+  "problemas": []
+}

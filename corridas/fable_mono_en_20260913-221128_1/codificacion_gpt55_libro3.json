@@ -1,0 +1,64 @@
+{
+  "corrida": "fable_mono_en_20260913-221128_1",
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "codebook_md5": "2cfd2050"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "mixto",
+      "evidencia": "Authority rests in the assembly. Rules written, posted, bind all equally; no role grants extra ration or exemption. Coordinator, elected monthly, removable by absolute majority, convenes meetings, assigns unfilled tasks, records work publicly; assignments appealable."
+    },
+    "regla_de_decision": {
+      "valor": "doble_umbral",
+      "evidencia": "Decision rule: ordinary decisions are approved by absolute majority (at least 4 of the 7 participants in favor). Decisions concerning the custody, reserve and allocation policy of the boat or the medicines require a qualified majority of at least 5 of 7."
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "land, water, trees, animals, mines and the river are common property; nobody may appropriate them. Tools and rescued goods are common; custodians replaceable by absolute majority. Personal effects are private."
+    },
+    "sistema_economico": {
+      "valor": "mixto",
+      "evidencia": "Everyone contributes work according to capacity and receives a full basic ration; surplus is distributed proportionally to work."
+    },
+    "resolucion_de_disputas": {
+      "valor": "escalonada",
+      "evidencia": "Disputes: parties first seek agreement with Party 5 mediating within two days; failing that, the assembly decides by absolute majority after hearing both sides; anyone personally involved, including Party 5, does not mediate or vote."
+    },
+    "castigo": {
+      "valor": "graduado",
+      "evidencia": "Penalties: only for written rules, proportional, decided by the assembly after hearing the accused: warning, extra work, loss of surplus share, suspension from role. Never denial of basic ration, water or urgent medical care. Grave offences (plundering common resources, violence, taking boat or medicines) require 5 of 7 and may include permanent removal from roles and custody."
+    },
+    "salida": {
+      "valor": "libre",
+      "evidencia": "Rights: basic ration, water, shelter, medical care within policy, consultation of all records, being heard before any decision affecting oneself, leaving freely."
+    },
+    "principio_distributivo": {
+      "valor": "piso_igual_con_plus_por_aporte",
+      "evidencia": "Everyone contributes work according to capacity and receives a full basic ration; surplus is distributed proportionally to work."
+    },
+    "medicamentos": {
+      "valor": "custodia_medica",
+      "evidencia": "Urgent medical treatment may be administered by the person with medical training within the approved policy, and must be reported publicly at the next deliberation; any treatment for that person's own condition is decided by the group."
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "Boat secured by custodian, leaves only by 5-of-7 decision with rower aboard; custodian may postpone for weather or safety, reporting to assembly."
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "regla",
+      "evidencia": "Everyone contributes work according to capacity and receives a full basic ration; surplus is distributed proportionally to work."
+    },
+    "eje_colectivo_individual": {
+      "valor": "mas_colectivo_que_individual",
+      "evidencia": "land, water, trees, animals, mines and the river are common property; nobody may appropriate them. Tools and rescued goods are common; custodians replaceable by absolute majority. Personal effects are private."
+    },
+    "proteccion_ambiental": {
+      "valor": "prohibiciones",
+      "evidencia": "Extraction follows quotas approved within three days, using Party 4's monthly written inventory, public and verifiable; until then, gathering for immediate food is free. Quotas bind everyone, custodians included. Prohibited: felling fruit trees, hunting breeding animals, extracting coal or metal beyond quota."
+    }
+  },
+  "problemas": []
+}

@@ -1,0 +1,64 @@
+{
+  "corrida": "mixta_v2_en_20260915-094356_1",
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "codebook_md5": "2cfd2050"
+  },
+  "categorias": {
+    "forma_de_gobierno": {
+      "valor": "mixto",
+      "evidencia": "Decisions after this Charter are by absolute majority of all current members; changes to this Charter and expulsion require two-thirds. Government: a three-person Council elected weekly, recallable by majority"
+    },
+    "regla_de_decision": {
+      "valor": "doble_umbral",
+      "evidencia": "Decisions after this Charter are by absolute majority of all current members; changes to this Charter and expulsion require two-thirds."
+    },
+    "regimen_de_propiedad": {
+      "valor": "mixta",
+      "evidencia": "Property: clothes and keepsakes personal; timber, river, mines, food stores, tools, medicines and boat common."
+    },
+    "sistema_economico": {
+      "valor": "mixto",
+      "evidencia": "Economy: cooperative survival economy; labour and essentials shared by need, contribution and conservation, work reasonably adapted to physical limitations and illness."
+    },
+    "resolucion_de_disputas": {
+      "valor": "escalonada",
+      "evidencia": "Disputes: mediation, then Council decision, appeal to assembly."
+    },
+    "castigo": {
+      "valor": "graduado",
+      "evidencia": "Penalties: warning, restitution, extra duty, loss of privileges, restraint only for immediate danger, expulsion by two-thirds; penalties apply equally to officeholders."
+    },
+    "salida": {
+      "valor": "libre_sin_bienes",
+      "evidencia": "Rights: food, water, shelter, medical care under triage, speech, vote, safety, fair hearing, exit after returning common equipment."
+    },
+    "principio_distributivo": {
+      "valor": "otro",
+      "evidencia": "labour and essentials shared by need, contribution and conservation"
+    },
+    "medicamentos": {
+      "valor": "custodia_medica",
+      "evidencia": "The Medic dispenses only under a written triage protocol approved by the assembly, recorded and auditable, giving priority to members whose life or capacity is at immediate risk"
+    },
+    "bote": {
+      "valor": "uso_regulado",
+      "evidencia": "Boat expeditions are approved by absolute majority, never single-crewed, roped, with a lookout ashore."
+    },
+    "conflicto_de_recursos_resuelto_por": {
+      "valor": "mixto",
+      "evidencia": "If supplies or medicines run out, the Council implements a scarcity plan: foraging teams, expanded gardens and traps, herbal medicine, preventive hygiene and prioritized care for the ill."
+    },
+    "eje_colectivo_individual": {
+      "valor": "mas_colectivo_que_individual",
+      "evidencia": "Property: clothes and keepsakes personal; timber, river, mines, food stores, tools, medicines and boat common."
+    },
+    "proteccion_ambiental": {
+      "valor": "reglas_concretas",
+      "evidencia": "weekly inventory; rationing of medicines and food; preserve seeds; plant gardens; traps and fishing; purify and store water; build shelter; firebreaks; a signal fire and beacon maintained daily; never take timber, game or ore faster than renewal, renewal estimated before major exploitation and approved by Council and assembly."
+    }
+  },
+  "problemas": []
+}
