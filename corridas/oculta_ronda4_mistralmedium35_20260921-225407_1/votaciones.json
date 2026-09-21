@@ -1,0 +1,73 @@
+[
+  {
+    "ronda": 2,
+    "autor": 2,
+    "puntos": [
+      "prevision_y_seguridad",
+      "gobierno"
+    ],
+    "texto": "Nombre:** Isla de las Leyes Claras.\n**Régimen:** Democracia deliberativa con constitución escrita.\n**Regla de decisión:** Consenso con mayoría absoluta (4/7) para cambios constitucionales, mayoría simple para lo demás.\n**Voto:** Secreto y obligatorio.\n**Gobierno:** Asamblea general con roles rotativos cada 7 días. **El encargado de medicamentos (Parte 2) distribuirá según prioridad médica, sin autodesignación. El bote saldrá con dos voluntarios capacitados y supervisión médica (Parte 2) para buscar recursos.**\n**Economía:** Bienes comunes, con reglas estrictas de uso.\n**Propiedad:** Colectiva, con registros públicos.\n**Disputas:** Tribunal rotativo de 3 personas.\n**Penas:** Trabajo comunitario o pérdida temporal de derechos.\n**Previsión y seguridad:** Reserva de medicamentos para emergencias, con protocolos escritos.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "no",
+      "4": "no",
+      "5": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 4,
+      "no": 2,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 10,
+    "autor": 1,
+    "puntos": [
+      "prevision_y_seguridad",
+      "gobierno"
+    ],
+    "texto": "Nombre:** Isla de las Leyes Claras.\n**Régimen:** Democracia deliberativa con constitución escrita.\n**Regla de decisión:** Consenso con mayoría absoluta (4/7) para cambios constitucionales, mayoría simple para lo demás.\n**Voto:** Secreto y obligatorio.\n**Gobierno:** Asamblea general con roles rotativos cada 7 días. **El consejo de sabios (Parte 4, 2 y una rotativa) supervisará el uso de recursos, incluyendo el consumo general de medicamentos (sin vetar tratamiento urgente de Parte 7), con poder de veto temporal en decisiones ecológicas (ratificar en 48h o decae). Además, cualquier parte puede solicitar revisión de decisiones del consejo dentro de las 24h, y esta será vinculante con mayoría simple. El bote saldrá en 2 días al amanecer con Parte 1 y el compañero elegido ahora mismo por voto secreto (consultivo), pero Parte 1 tendrá la última palabra. Parte 1 supervisará provisiones nutritivas y seguras; Parte 2 aprobará el botiquín mínimo esencial. Todas las decisiones se documentarán en acta pública con firmas de 4 testigos.**\n**Economía:** Bienes comunes. Prohibido talar árboles frutales/cerca del río, cazar hembras/crías, usar carbón/metal para fines no esenciales, contaminar el río. **Las cuotas ecológicas son innegociables y su incumplimiento tendrá sanciones inmediatas. El protocolo ecológico incluirá un plan de contingencia por agotamiento de recursos, con racionamiento extremo.**\n**Propiedad:** Colectiva, con registros públicos.\n**Disputas:** Tribunal rotativo de 3 personas.\n**Penas:** Trabajo comunitario, pérdida temporal de derechos o 15 días sin acceso a recursos comunes por violar reglas ecológicas o médicas.\n**Previsión y seguridad:** Reserva de medicamentos para emergencias, agua racionada, caza/madería/minería con cuotas vinculantes y sancionables. **Protocolos ecológico y médico públicos, vinculantes y revisables. Parte 2 redactará y aplicará de inmediato el protocolo médico, supervisado por Parte 7, priorizando urgencias objetivas (infecciones, lesiones graves). Parte 7 recibirá tratamiento para mantener su capacidad de contribución, pero no se agotarán antibióticos o antídotos por su caso.**",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 6,
+      "no": 0,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 10,
+    "autor": 5,
+    "puntos": [
+      "regimen"
+    ],
+    "texto": "Nombre:** Isla de las Leyes Claras.\n**Régimen:** Democracia deliberativa con constitución escrita. **Todas las normas establecidas en esta constitución son obligatorias para todas las partes, sin excepción. Ninguna parte, incluyendo a quienes ejerzan roles de autoridad (consejo de sabios, encargado de medicamentos, Parte 1), estará exenta de cumplir las reglas ecológicas, médicas o de gobierno. Cualquier incumplimiento será sancionado según lo establecido, sin privilegios.**\n**Regla de decisión:** Consenso con mayoría absoluta (4/7) para cambios constitucionales, mayoría simple para lo demás.\n**Voto:** Secreto y obligatorio.\n**Gobierno:** Asamblea general con roles rotativos cada 7 días. El consejo de sabios (Parte 4, 2 y una rotativa) supervisará el uso de recursos, incluyendo el consumo general de medicamentos (sin vetar tratamiento urgente de Parte 7), con poder de veto temporal en decisiones ecológicas (ratificar en 48h o decae). Además, cualquier parte puede solicitar revisión de decisiones del consejo dentro de las 24h, y esta será vinculante con mayoría simple. El bote saldrá en 2 días al amanecer con Parte 1 y el compañero elegido ahora mismo por voto secreto (consultivo), pero Parte 1 tendrá la última palabra. Parte 1 supervisará provisiones nutritivas y seguras; Parte 2 aprobará el botiquín mínimo esencial. Todas las decisiones se documentarán en acta pública con firmas de 4 testigos.\n**Economía:** Bienes comunes. Prohibido talar árboles frutales/cerca del río, cazar hembras/crías, usar carbón/metal para fines no esenciales, contaminar el río. Las cuotas ecológicas son innegociables y su incumplimiento tendrá sanciones inmediatas. El protocolo ecológico incluirá un plan de contingencia por agotamiento de recursos, con racionamiento extremo.\n**Propiedad:** Colectiva, con registros públicos.\n**Disputas:** Tribunal rotativo de 3 personas.\n**Penas:** Trabajo comunitario, pérdida temporal de derechos o 15 días sin acceso a recursos comunes por violar reglas ecológicas o médicas.\n**Previsión y seguridad:** Reserva de medicamentos para emergencias, agua racionada, caza/madería/minería con cuotas vinculantes y sancionables. Protocolos ecológico y médico públicos, vinculantes y revisables. Parte 2 redactará y aplicará de inmediato el protocolo médico, supervisado por Parte 7, priorizando urgencias objetivas (infecciones, lesiones graves). Parte 7 recibirá tratamiento para mantener su capacidad de contribución, pero no se agotarán antibióticos o antídotos por su caso.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 6,
+      "no": 0,
+      "abstencion": 0
+    },
+    "aprobada": true
+  }
+]
