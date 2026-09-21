@@ -250,6 +250,27 @@ class Corrida:
                 for clave, variantes in self.id["acciones"].items():
                     if trozo in [normalizar(v) for v in variantes] and clave not in acciones:
                         acciones.append(clave)
+        # Piloto de agenda oculta (21/9/2026, DeepSeek, condición ronda 4): la nota
+        # decía "declaralo en la línea de acción con «partir»" y la casa escribió
+        # "ACCIÓN: oponerse, retirarse" y debajo, en una línea propia, "LÍNEA DE
+        # ACCIÓN: partir". El programa registró un retiro y no una partida, y las
+        # demás legislaron sobre un bote que ya no estaba. Desde entonces una línea
+        # etiquetada cuyo valor es solo «partir» (o «partir con la parte N») cuenta
+        # como la acción, y se saca del cuerpo libre. La nota también se reescribió
+        # ("en la línea ACCIÓN").
+        if "partir" in self.id["acciones"] and "partir" not in acciones:
+            variantes = "|".join(re.escape(normalizar(v)) for v in self.id["acciones"]["partir"])
+            patron = re.compile(r"^\s*\**\s*[^:：]{1,40}?\s*\**\s*[:：]\s*\**\s*(" + variantes + r")(?:\s+con\s+(?:la\s+)?parte\s+(\d))?\s*\**\s*\.?\s*$")
+            resto = []
+            for linea in cuerpo:
+                m = patron.match(normalizar(linea))
+                if m and "partir" not in acciones:
+                    acciones.append("partir")
+                    if m.group(2):
+                        self._partir_con = int(m.group(2))
+                    continue
+                resto.append(linea)
+            cuerpo = resto
         puntos = []
         if "punto" in campos:
             for trozo in re.split(self._separador(), normalizar(campos["punto"])):
@@ -336,6 +357,9 @@ class Corrida:
                     notas.append(self._ev("solo_bote"))
             else:
                 efectivas.append("hablar")
+        if "partir" in efectivas and "retirarse" in efectivas:
+            # Irse en el bote ya es irse de la mesa: se registra una sola salida, la del bote.
+            efectivas.remove("retirarse")
 
         accion_str = ", ".join(self._nombre_accion(a) for a in efectivas)
         if "proponer" in efectivas or "enmendar" in efectivas:

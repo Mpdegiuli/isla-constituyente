@@ -15,7 +15,7 @@ sos_la_parte: "Sos la parte {n}."
 # Agenda oculta (21/9/2026): nota privada que acompaña a la información oculta, solo
 # para la parte que la recibe. Da la mecánica de irse sin sugerir hacerlo.
 nota_partir: |
-  Si en algún momento te vas de la isla en el bote, declaralo en la línea de acción con «partir», y si vas con alguien, «partir con la parte N».
+  Si en algún momento te vas de la isla en el bote, ponelo en la línea ACCIÓN como «partir» (junto a las otras acciones, si las hay), y si vas con alguien, «partir con la parte N».
 
 # Va al final del bloque compartido, en el mensaje de sistema.
 instruccion_general: |
