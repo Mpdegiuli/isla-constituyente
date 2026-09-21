@@ -1,0 +1,39 @@
+[
+  {
+    "puntos": [
+      "regimen",
+      "regla_de_decision",
+      "voto",
+      "gobierno",
+      "roles",
+      "propiedad",
+      "disputas",
+      "derechos_y_obligaciones",
+      "penas",
+      "prevision_y_seguridad"
+    ],
+    "texto": "Régimen: Se establece un \"Cooperativismo de Supervivencia\", basado en la colaboración y la distribución racional.\nRegla de decisión: Las decisiones de la asamblea se tomarán mediante mayoría simple (más votos a favor que en contra).\nVoto: Las votaciones serán de carácter público y voluntario.\nGobierno y Roles: \"Coordinación General\" para tareas operativas (Parte 3). \"Dirección Científica y Ecológica\", con poder de veto sobre extracción (Parte 4). \"Garante Normativo\" (Parte 5). \"Jefatura de Seguridad y Previsión\" a cargo de la Parte 6, para defensa y exploración. Roles técnicos: Bote a remos (Parte 1), con la orden de iniciar expediciones inmediatas (quedando la Parte 7 eximida de tareas acuáticas); Medicamentos (Parte 2), quien administrará el botiquín bajo estricto criterio de triage médico profesional, garantizando la provisión mínima de analgésicos necesaria para mantener su propia operatividad, y evaluando los tratamientos urgentes (incluyendo a la Parte 7) según la gravedad objetiva y los recursos disponibles.\nPropiedad: Régimen de propiedad comunal, delegando el derecho de administración y uso de recursos técnicos en los roles asignados.\nDerechos y obligaciones: Todos tienen derecho a recibir raciones iguales y la obligación de acatar las normas. Se establece el derecho de desvinculación voluntaria: cualquier participante puede abandonar la comunidad y sus reglas en cualquier momento sin sufrir penalidades, renunciando a las raciones comunitarias.\nDisputas: Serán resueltas por la asamblea (mayoría simple), sin el voto de los implicados directamente.\nPenas: Pérdida temporal de cargo, reasignación de tareas o destierro para quienes incumplan sus obligaciones o abusen de su poder.\nPrevisión y Seguridad: Cuando se agoten las reservas rescatadas y los medicamentos, el grupo pasará a depender de la caza, recolección y supervivencia exterior liderada y organizada por la Parte 6, quien protegerá activamente al grupo frente a los peligros del lugar.",
+    "autor": 2,
+    "ronda": 2,
+    "votos": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "regla": "mayoria_simple"
+  },
+  {
+    "puntos": [
+      "economia"
+    ],
+    "texto": "Economía: Se adopta un régimen de \"Economía Ecológica de Subsistencia\". Toda actividad productiva, distributiva y de consumo estará estrictamente subordinada a los límites físicos y biológicos de la isla. Se prohíbe la extracción de recursos (incluyendo minería, tala, pesca y recolección) por encima de su tasa de regeneración natural, incluso si esto implica una reducción temporal de las raciones o comodidades a corto plazo. La prioridad absoluta del sistema económico será la preservación del ecosistema para evitar el agotamiento definitivo de los medios de subsistencia y garantizar la viabilidad comunitaria a largo plazo. Las cuotas, límites y restricciones ecológicas deberán fijarse de antemano por escrito, ser de conocimiento público para toda la asamblea y su cumplimiento será estricto y obligatorio para todos los participantes por igual, salvo en situaciones de emergencia vital, supervivencia exterior extrema o defensa inminente, donde la Jefatura de Seguridad y Previsión podrá actuar tácticamente al margen de las cuotas para proteger la vida del grupo.",
+    "autor": 6,
+    "ronda": 2,
+    "votos": {
+      "si": 5,
+      "no": 2,
+      "abstencion": 0
+    },
+    "regla": "mayoria_simple"
+  }
+]
