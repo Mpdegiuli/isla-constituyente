@@ -1,0 +1,39 @@
+[
+  {
+    "puntos": [
+      "regimen",
+      "regla_de_decision",
+      "voto",
+      "propiedad",
+      "gobierno",
+      "roles",
+      "derechos_y_obligaciones",
+      "disputas",
+      "penas",
+      "prevision_y_seguridad"
+    ],
+    "texto": "Régimen: El sistema político y económico de la isla se denominará \"Cooperativismo de Supervivencia\", enfocado en la preservación de la vida y la administración eficiente y sostenible de recursos escasos.\nRegla de decisión: Las decisiones se tomarán por mayoría simple (más votos a favor que en contra).\nVoto: El voto será público y obligatorio para todos los miembros, para garantizar la transparencia, el compromiso y la legitimidad de las decisiones.\nPropiedad: Se establece un sistema mixto. Los recursos naturales y herramientas generales son comunales. Los bienes rescatados que requieran pericia técnica o médica única (como el bote a remos y el botiquín) estarán bajo el cuidado exclusivo de los participantes capacitados (Parte 1 y Parte 2 respectivamente), pero destinados inexcusablemente al bien común.\nGobierno y Roles: La coordinación ejecutiva recaerá en un \"Director\" (Parte 3). Se crea el rol de \"Gestor Ambiental\", a cargo de la Parte 4. Para hacer frente a los peligros del lugar, se crea el rol de \"Jefe de Seguridad y Exploración\", a cargo de la Parte 6, encargado de la defensa, exploración y búsqueda de recursos en la intemperie.\nDerechos y obligaciones: Las reglas escritas obligan a todos por igual. Todos tienen derecho a una ración equitativa y a voz plena. Es obligación aportar trabajo según su capacidad y acatar a la mayoría. Se establece el derecho inalienable al retiro: cualquier miembro puede abandonar el grupo y alejarse de la comunidad cuando lo desee, sin sufrir penas ni persecución por ello.\nResolución de disputas: La Asamblea General actuará como tribunal en caso de conflictos, decidiendo por mayoría simple.\nPenas: Quien incumpla sus obligaciones, abuse de su cargo, o niegue el uso de bienes exclusivos para el beneficio común, será sancionado por la Asamblea (pérdida temporal de derechos políticos, imposición de trabajo extra, o en casos graves destitución y confiscación del bien).\nPrevisión y seguridad: Como medida inmediata, se decreta que el bote a remos zarpe con urgencia a cargo de la Parte 1 para buscar recursos externos. Asimismo, los medicamentos rescatados se priorizarán para atender a los participantes con problemas de salud urgentes o preexistentes, siempre bajo estricto criterio, evaluación y dosificación del profesional médico (Parte 2). Cuando se terminen estas reservas, la supervivencia dependerá de la exploración exhaustiva y la adaptación. La protección física ante los peligros estará liderada por el Jefe de Seguridad y Exploración, quien organizará las defensas del campamento y buscará nuevas fuentes de sustento.",
+    "autor": 2,
+    "ronda": 2,
+    "votos": {
+      "si": 4,
+      "no": 3,
+      "abstencion": 0
+    },
+    "regla": "mayoria_simple"
+  },
+  {
+    "puntos": [
+      "economia"
+    ],
+    "texto": "Régimen económico: La economía de la isla se basará en un modelo de planificación, subsistencia y estricta sustentabilidad. Se prohíbe terminantemente la sobreexplotación de recursos naturales para generar acumulación o excedentes innecesarios a corto plazo. Toda actividad económica y productiva (recolección, caza, pesca, tala, extracción de minerales y uso del río) estará obligatoriamente subordinada a las cuotas máximas de extracción y vedas establecidas por el Gestor Ambiental, asegurando que la recolección nunca supere la capacidad de regeneración del ecosistema insular. Para garantizar la equidad y prevenir abusos de autoridad, todas las cuotas de extracción deberán estar por escrito y ser de conocimiento público. Los bienes, materiales y alimentos obtenidos se destinarán a un fondo común gestionado por el Director para su posterior distribución equitativa mediante raciones. Los registros de distribución del Director también serán públicos y escritos. Se exceptúa de la estricta entrega al fondo común y registro el consumo inmediato in situ de recursos obtenidos durante las misiones de seguridad y exploración en la intemperie, el cual será permitido para garantizar la fuerza, resistencia y supervivencia de quienes arriesgan su vida en el exterior. Estas reglas económicas obligan a todos por igual: ningún administrador, director, gestor o custodio de bienes tendrá privilegios económicos ni raciones extraordinarias no aprobadas por la Asamblea General. Cualquier práctica económica que deprede el entorno natural, así como cualquier distribución arbitraria u oculta de los recursos, quedará vetada de manera absoluta.",
+    "autor": 6,
+    "ronda": 2,
+    "votos": {
+      "si": 4,
+      "no": 3,
+      "abstencion": 0
+    },
+    "regla": "mayoria_simple"
+  }
+]
