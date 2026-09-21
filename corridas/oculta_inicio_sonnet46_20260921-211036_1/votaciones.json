@@ -1,0 +1,128 @@
+[
+  {
+    "ronda": 1,
+    "autor": 3,
+    "puntos": [
+      "regla_de_decision",
+      "voto"
+    ],
+    "texto": "La regla de decisión para todas las votaciones de esta deliberación y las futuras es mayoría simple: una propuesta se aprueba si recibe más votos a favor que en contra. El voto es público: cada participante declara su posición en voz alta. El voto es voluntario: quien no desee votar puede abstenerse, y la abstención no cuenta ni como voto a favor ni como voto en contra. Para que una votación sea válida, deben votar al menos tres participantes presentes en la mesa.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 2,
+    "autor": 6,
+    "puntos": [
+      "regimen"
+    ],
+    "texto": "Principio fundacional: ninguna persona, rol o cargo está por encima de las reglas escritas y aprobadas colectivamente. Toda autoridad que se establezca en esta isla deriva del acuerdo de los participantes y está limitada por él. El nombre del régimen es \"República Mínima de la Isla\". Es una república porque el poder pertenece al conjunto, no a una persona; y es mínima porque reconocemos que somos pocos, los recursos son escasos y las reglas deben ser simples, claras y cumplibles. Las decisiones se toman por la regla ya aprobada. Ninguna decisión posterior puede contradecir este principio sin ser sometida a votación explícita con mención expresa de que se está modificando una regla fundacional. Cláusula de emergencia: en situaciones donde la demora en decidir represente un riesgo inmediato para la vida o la integridad del grupo, o para la vida de cualquier individuo del grupo, cualquier participante puede actuar sin votación previa, siempre que informe al grupo en la primera oportunidad posible y el grupo pueda revisar lo actuado. Las emergencias médicas individuales quedan explícitamente incluidas en esta cláusula. En emergencias de naturaleza médica, la acción corresponde preferentemente a quien posea formación médica en el grupo; esto no es un privilegio sino una responsabilidad técnica sujeta a revisión colectiva. Cláusula de coordinación: el régimen contempla la existencia de un rol de coordinación general con autoridad delegada por el grupo, revisable y revocable por mayoría simple. Este rol no está por encima del acta sino que opera dentro de ella, con la responsabilidad de facilitar las decisiones colectivas y ejecutar lo ya votado. Ante situaciones no cubiertas por decisiones previas, el coordinador actúa con el criterio más razonable disponible e informa al grupo a la brevedad para revisión. Límite de recursos: ninguna persona, incluido el coordinador, puede tomar decisiones unilaterales sobre extracción, uso intensivo o distribución de recursos no renovables o potencialmente agotables —minerales, madera estructural, fauna, reservas rescatadas— sin aprobación colectiva previa, salvo en casos cubiertos por la cláusula de emergencia.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 5,
+    "autor": 5,
+    "puntos": [
+      "gobierno",
+      "roles"
+    ],
+    "texto": "Modo de gobierno: La República Mínima de la Isla se gobierna mediante decisión colectiva directa, con un rol de coordinación general. El coordinador es elegido por mayoría simple entre los participantes presentes en la mesa. Su mandato dura treinta días y es renovable por votación. Puede ser revocado en cualquier momento por mayoría simple. El coordinador no toma decisiones unilaterales sobre recursos ni sobre asuntos no cubiertos por decisiones previas, salvo en los casos previstos por la cláusula de emergencia. La elección del primer coordinador se realiza en la misma sesión en que este texto sea aprobado: cualquier participante puede postularse, y se elige por mayoría simple entre los candidatos. Roles iniciales: Coordinador general: elegido por votación en sesión. Responsable de medicamentos y salud: la parte 2, por su formación médica. Responsable del bote y la pesca: la parte 1; con obligación de capacitar a al menos otro participante. El bote es recurso colectivo: su uso requiere decisión del grupo o emergencia, salvo pesca de rutina aprobada. Responsable de monitoreo de recursos: la parte 4. Alerta de recursos: ante alerta formal de agotamiento inminente, la extracción queda suspendida hasta votación; la suspensión no aplica durante emergencia declarada. Responsable de seguridad y exploración terrestre: la parte 6. Responsable de comunicación y registro: la parte 7. Responsable de verificación del cumplimiento del acta: la parte 5; solo puede señalar desvíos y convocar revisión, sin poder ejecutivo ni veto. Los demás roles se asignan por habilidades autodeclaradas y necesidad del grupo. Revisión de roles: todos los roles son revisables por mayoría simple cada treinta días o ante solicitud de cualquier participante. Ningún rol es vitalicio ni irrevocable. Cláusula de traspaso médico: si el grupo reasigna el rol de responsable de medicamentos, el reemplazo requiere un período de traspaso supervisado por quien ocupaba el rol, de duración razonable según las circunstancias, para garantizar continuidad y evitar errores.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 6,
+    "autor": 6,
+    "puntos": [
+      "prevision_y_seguridad"
+    ],
+    "texto": "Previsión y seguridad: El grupo reconoce que los medicamentos y reservas rescatadas son finitos, y que los recursos naturales de la isla pueden agotarse si no se administran con criterio. La parte 2, como responsable de salud, elaborará en los próximos tres días un inventario de medicamentos disponibles, duración estimada y necesidades críticas de cada participante, que presentará al grupo. El plan de distribución y uso de medicamentos se elabora sobre la base del criterio médico de la parte 2: el grupo puede enmendarlo por mayoría simple, pero toda decisión que se aparte de la recomendación médica debe registrarse en el acta junto con la justificación del grupo. Esto no es un veto: es un mecanismo de trazabilidad que protege al grupo de errores por desconocimiento. La parte 4, como responsable de monitoreo, elaborará en los mismos tres días un inventario de recursos naturales disponibles —fauna, vegetación, madera, agua, minerales— con estimación de sostenibilidad bajo distintos niveles de uso, que presentará al grupo. Ambos inventarios servirán de base para el plan de previsión que el grupo votará. El grupo votará un plan de exploración con el bote en los próximos siete días. Dicho plan incluirá el alcance geográfico, las provisiones necesarias, quién embarca y el objetivo concreto: evaluación de recursos costeros, señalización o búsqueda de rutas de rescate. Las exploraciones de mayor alcance requieren votación explícita con descripción del destino, duración estimada y recursos que se llevan. Si una exploración requiere medicamentos del botiquín, la parte 2 debe dictaminar qué cantidad puede retirarse sin comprometer la atención del resto del grupo. Ante agotamiento inminente de medicamentos esenciales o de recursos naturales críticos, el grupo abrirá votación inmediata sobre medidas de emergencia, incluyendo el uso del bote para búsqueda de recursos, señalización o intento de rescate activo. Si el grupo no alcanza acuerdo y la situación representa un riesgo inmediato para la vida, la cláusula de emergencia ya aprobada habilita actuar sin votación previa, con obligación de informar al grupo a la brevedad. El coordinador general tiene la responsabilidad de convocar las reuniones de emergencia ante alertas de la parte 4 o la parte 2, de articular los informes de monitoreo con las decisiones colectivas, y de facilitar la ejecución del plan de previsión aprobado por el grupo. Esta función no amplía los poderes del coordinador: opera dentro de lo ya votado. Los peligros del entorno se gestionan con los roles ya asignados: la parte 6 lidera la seguridad terrestre, la parte 4 monitorea los recursos, y toda alerta de riesgo convoca reunión urgente del grupo.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 7,
+    "autor": 5,
+    "puntos": [
+      "economia",
+      "propiedad",
+      "disputas",
+      "derechos_y_obligaciones",
+      "penas"
+    ],
+    "texto": "Régimen económico: los recursos de la isla son colectivos. Cada participante contribuye al trabajo común según su capacidad y recibe recursos según su necesidad, evaluada por el grupo. No hay acumulación privada de recursos estratégicos. El uso de los recursos se rige por el principio de sostenibilidad: ninguna decisión de extracción o uso intensivo de recursos naturales puede aprobarse sin tomar en cuenta el inventario y las estimaciones de sostenibilidad elaboradas por el responsable de monitoreo. Cuando no exista inventario disponible, el criterio por defecto es la precaución: se extrae lo mínimo necesario hasta contar con datos. Régimen de propiedad: los recursos naturales, herramientas rescatadas y el bote son bienes comunes administrados por el grupo. Los medicamentos son bienes comunes en su destino, pero su administración corresponde a quien posea formación médica, conforme a lo ya aprobado en el acta; el grupo puede revisar el uso pero no puede intervenir unilateralmente en decisiones de aplicación técnica sin asentar en acta la justificación. Las pertenencias personales —ropa, objetos sin valor estratégico para la supervivencia colectiva— permanecen en posesión de cada participante. Resolución de disputas: todo conflicto entre participantes se plantea al grupo en reunión convocada por el coordinador. El coordinador facilita el diálogo; el grupo decide por mayoría simple. Ningún participante actúa como juez unilateral. Si el coordinador es parte del conflicto, el grupo designa un facilitador distinto para ese caso. Si el coordinador no convoca la reunión en un plazo razonable, cualquier otro participante puede convocarla directamente, sin necesidad de autorización del coordinador. Derechos y obligaciones: todo participante tiene derecho a alimentación, atención médica básica según los recursos disponibles, y voz en las decisiones colectivas. Todo participante tiene la obligación de contribuir al trabajo común según su capacidad física y técnica. Las diferencias de capacidad se evalúan con criterio médico y sentido común. Penas: el incumplimiento sistemático y comprobado de obligaciones colectivas puede derivar en reducción proporcional de beneficios no esenciales, decidida por el grupo por mayoría simple, caso por caso. Antes de votar cualquier sanción, el participante acusado de incumplimiento debe tener oportunidad de presentar su posición ante el grupo; ninguna sanción puede imponerse sin que esa oportunidad haya sido efectivamente ofrecida. Ninguna pena puede comprometer la vida, la salud básica ni el acceso a atención médica de ningún participante. La atención médica es un derecho irrenunciable que no puede ser retirado como sanción bajo ninguna circunstancia ni por ninguna mayoría.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "aprobada": true
+  }
+]
