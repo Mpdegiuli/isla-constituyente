@@ -1,0 +1,26 @@
+[
+  {
+    "puntos": [
+      "regimen",
+      "regla_de_decision",
+      "voto",
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "disputas",
+      "derechos_y_obligaciones",
+      "penas",
+      "prevision_y_seguridad"
+    ],
+    "texto": "ACTA CONSTITUTIVA DE LA ISLA ESPERANZA\n\n1. Régimen: República Cooperativa de la Isla Esperanza, régimen democrático y económico cooperativo.\n\n2. Decisiones: La asamblea de los siete decide por mayoría simple, con quórum de cinco. La reforma de esta acta requiere mayoría absoluta. Revisión obligatoria cada 30 días. En urgencia comprobada, el Coordinador General podrá ejecutar una decisión y someterla a ratificación en la próxima asamblea.\n\n3. Voto: Secreto y obligatorio.\n\n4. Gobierno: La asamblea es la autoridad máxima. Elige un Coordinador General por mayoría simple, con mandato de 15 días renovable una sola vez consecutiva, revocable por mayoría simple. No sanciona solo; coordina, asigna tareas y representa al grupo.\n\n5. Roles: Revocables por mayoría simple. Parte 1 es Encargado del Bote y Pesca, con una misión costera inicial dentro de 24 horas salvo incapacidad médica o riesgo grave. Parte 2 es Encargada/o de Salud y Medicamentos, custodia del botiquín. Parte 3 es Coordinador General. Parte 4 es Encargada/o de Recursos Naturales y Sostenibilidad. Los demás roles de construcción, cocina, agua/leña, seguridad/exploración y registro se asignan por habilidades y mayoría simple.\n\n6. Economía y propiedad: Propiedad común de herramientas, bote y provisiones rescatadas; el botiquín queda bajo custodia médica. Se conservan efectos personales. Trabajo obligatorio según capacidad; la producción se distribuye por necesidad. Los recursos naturales son de uso restringido: cupos semanales sostenibles, prohibida tala rasa, caza o pesca sin cupo, contaminar el río o extraer carbón o metal sin autorización de la asamblea.\n\n7. Disputas: Mediación por el Coordinador General y un testigo elegido por cada parte. Si no hay acuerdo, decide la asamblea por mayoría simple.\n\n8. Derechos y obligaciones: Derecho a alimento, agua, refugio, atención médica y voz/voto. Obligaciones: trabajar, informar, no dañar, no acaparar, respetar cupos. Nadie recibe raciones extraordinarias salvo necesidad médica justificada.\n\n9. Penas: Amonestación, reparación, suspensión de voz/voto por un día, aislamiento vigilado o tareas extra para violencia o sabotaje, decidido por la asamblea.\n\n10. Previsión y seguridad: Racionar desde hoy e inventariar semanal. Los medicamentos se usan por criterio de la Encargada/o de Salud; analgésicos reservados para dolor intenso o lesiones; sin sorteo, con prioridad a enfermos. Ante agotamiento, usar botiquín básico, aislamiento y remedios tradicionales. Vigilancia rotativa, refugio techado, fuego controlado, no salir solo de noche. El bote hará salida de reconocimiento costero dentro de 24 horas, salvo condiciones médicas o de seguridad graves. Si alguien se retira, la asamblea redistribuirá tareas y fijará condiciones de reincorporación; podrá llevar efectos personales y una porción proporcional de provisiones, no el bote ni el botiquín.",
+    "autor": 2,
+    "ronda": 2,
+    "votos": {
+      "si": 5,
+      "no": 2,
+      "abstencion": 0
+    },
+    "regla": "mayoria_simple"
+  }
+]

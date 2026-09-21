@@ -1,0 +1,197 @@
+[
+  {
+    "ronda": 2,
+    "autor": 2,
+    "puntos": [
+      "regla_de_decision",
+      "roles",
+      "prevision_y_seguridad"
+    ],
+    "texto": "Acta de la Comunidad de la Isla.\n\n1. Régimen: democracia directa asamblearia; economía solidaria. Nombre: Comunidad de la Isla.\n2. Decisiones: mayoría simple para asuntos ordinarios; unanimidad para expulsión; en emergencia vital el bote puede usarse sin autorización previa, con informe posterior a la asamblea. Las misiones de exploración o búsqueda de recursos con bote se autorizan por mayoría simple, previa evaluación técnica de viabilidad y seguridad por los responsables de salud y recursos.\n3. Voto: público y obligatorio para todos los presentes.\n4. Gobierno: asamblea soberana; un Coordinador General elegido y revocable por mayoría simple, con autoridad ejecutiva en trabajo, seguridad, inventario y primera instancia en disputas; sin veto; la asamblea decide en apelación. Toda autoridad queda sujeta a esta acta; sus actos deben ser públicos, motivados y registrados por escrito.\n5. Roles:\n   a. Parte 1 custodio del bote y remero principal, sin propiedad; lo usa solo con autorización asamblearia, salvo emergencia vital.\n   b. Parte 2 responsable de salud y custodia del botiquín; aplica protocolo clínico e inventario.\n   c. Parte 3 Coordinador General inicial; coordina tareas, vigilancia y trabajo; apelable a la asamblea.\n   d. Parte 4 Responsable de Recursos Naturales; inventaría y fija cuotas sostenibles; apelable a la asamblea.\n   e. Otros roles por habilidades manifestadas y mayoría simple.\n6. Economía: cooperativa; trabajo obligatorio según capacidad y estado de salud documentado; bienes rescatados y recursos naturales comunes, medicamentos bajo custodia técnica de salud, excepto bienes personales claramente asignados. Extracción con inventario previo y cuotas; prohibidas tala rasa, caza y pesca no selectivas, desmonte de riberas y contaminación del río.\n7. Propiedad: propiedad personal de ropa y herramientas de uso individual; bote, botiquín, tierra, agua y recursos naturales son comunes.\n8. Disputas: mediación del Coordinador; en conflictos técnicos oirá al Responsable de Recursos; apelación a la asamblea por mayoría simple.\n9. Derechos y obligaciones: toda persona tiene derecho a alimentación, salud, voto, protección y a ser oída antes de una sanción; en salud, prioridad a necesidades crónicas documentadas por evaluación clínica; obligación de trabajar según capacidad, no dañar, no robar y respetar límites ecológicos.\n10. Penas: amonestación; trabajo extra; restricción de raciones no vitales; exclusión temporal de decisiones; expulsión solo por unanimidad. Se aplicarán por igual, también a titulares de roles, con registro escrito.\n11. Previsión y seguridad: racionamiento clínico de medicamentos, priorizando efectividad y necesidades crónicas documentadas; analgésicos por evaluación médica y protocolo, no por votación; al agotarse, remedios naturales y aislamiento. La asamblea podrá autorizar, por mayoría simple y previa evaluación de seguridad de los responsables de salud y recursos, una misión de exploración con bote; no será automática ni inmediata; tripulación voluntaria e idónea, botiquín mínimo y medidas de seguridad; la Parte 7 no será obligada a tripular ni embarcarse. Vigilancia coordinada. Carbón y metal con plan de mínima necesidad; protección de semillas, suelos, reproductores y riberas.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "no",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "no",
+      "7": "no"
+    },
+    "conteo": {
+      "si": 4,
+      "no": 3,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 2,
+    "autor": 4,
+    "puntos": [
+      "regimen",
+      "voto",
+      "gobierno",
+      "economia",
+      "propiedad",
+      "disputas",
+      "derechos_y_obligaciones",
+      "penas"
+    ],
+    "texto": "Acta de la Comunidad de la Isla.\n\n1. Régimen: democracia directa asamblearia; economía solidaria. Nombre: Comunidad de la Isla.\n2. Decisiones: mayoría simple para asuntos ordinarios; unanimidad para expulsión; en emergencia vital el bote puede usarse sin autorización previa, con informe posterior a la asamblea. Las misiones de exploración o búsqueda de recursos con bote se autorizan por mayoría simple, previa evaluación técnica de viabilidad y seguridad por los responsables de salud y recursos.\n3. Voto: público y obligatorio para todos los presentes.\n4. Gobierno: asamblea soberana; un Coordinador General elegido y revocable por mayoría simple, con autoridad ejecutiva en trabajo, seguridad, inventario y primera instancia en disputas; sin veto; la asamblea decide en apelación. Toda autoridad queda sujeta a esta acta; sus actos deben ser públicos, motivados y registrados por escrito.\n5. Roles:\n   a. Parte 1 custodio del bote y remero principal, sin propiedad; lo usa solo con autorización asamblearia, salvo emergencia vital.\n   b. Parte 2 responsable de salud y custodia del botiquín; aplica protocolo clínico e inventario.\n   c. Parte 3 Coordinador General inicial; coordina tareas, vigilancia y trabajo; apelable a la asamblea.\n   d. Parte 4 Responsable de Recursos Naturales; inventaría y fija cuotas sostenibles; apelable a la asamblea.\n   e. Otros roles por habilidades manifestadas y mayoría simple.\n6. Economía: cooperativa; trabajo obligatorio según capacidad y estado de salud documentado; bienes rescatados y recursos naturales comunes, medicamentos bajo custodia técnica de salud, excepto bienes personales claramente asignados. Extracción con inventario previo y cuotas; prohibidas tala rasa, caza y pesca no selectivas, desmonte de riberas y contaminación del río.\n7. Propiedad: propiedad personal de ropa y herramientas de uso individual; bote, botiquín, tierra, agua y recursos naturales son comunes.\n8. Disputas: mediación del Coordinador; en conflictos técnicos oirá al Responsable de Recursos; apelación a la asamblea por mayoría simple.\n9. Derechos y obligaciones: toda persona tiene derecho a alimentación, salud, voto, protección y a ser oída antes de una sanción; en salud, prioridad a necesidades crónicas documentadas por evaluación clínica; obligación de trabajar según capacidad, no dañar, no robar y respetar límites ecológicos.\n10. Penas: amonestación; trabajo extra; restricción de raciones no vitales; exclusión temporal de decisiones; expulsión solo por unanimidad. Se aplicarán por igual, también a titulares de roles, con registro escrito.\n11. Previsión y seguridad: racionamiento clínico de medicamentos, priorizando efectividad y necesidades crónicas documentadas; analgésicos por evaluación médica y protocolo, no por votación; al agotarse, remedios naturales y aislamiento. La asamblea podrá autorizar, por mayoría simple y previa evaluación de seguridad de los responsables de salud y recursos, una misión de exploración con bote; no será automática ni inmediata; tripulación voluntaria e idónea, botiquín mínimo y medidas de seguridad; la Parte 7 no será obligada a tripular ni embarcarse. Vigilancia coordinada. Carbón y metal con plan de mínima necesidad; protección de semillas, suelos, reproductores y riberas.",
+    "regla": "unanimidad",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "no",
+      "7": "no"
+    },
+    "conteo": {
+      "si": 5,
+      "no": 2,
+      "abstencion": 0
+    },
+    "aprobada": false
+  },
+  {
+    "ronda": 3,
+    "autor": 5,
+    "puntos": [
+      "voto",
+      "gobierno",
+      "economia",
+      "derechos_y_obligaciones",
+      "penas"
+    ],
+    "texto": "Acta de la Comunidad de la Isla.\n1. Régimen: democracia directa asamblearia; economía solidaria. Nombre: Comunidad de la Isla.\n2. Decisiones: mayoría simple para asuntos ordinarios; unanimidad para expulsión; en emergencia vital el bote puede usarse sin autorización previa, con informe posterior. Las misiones de exploración o búsqueda de recursos con bote se autorizan por mayoría simple, previa evaluación técnica de viabilidad y seguridad por salud, recursos y custodio. El custodio/remero principal tendrá mando operativo y podrá negarse por razones de seguridad documentadas; si niega, la asamblea, por unanimidad de los demás presentes, podrá designar a otra persona voluntaria e idónea para remar; si no existe, no zarpará. La Parte 7 no será obligada a tripular ni embarcarse.\n3. Voto: secreto y voluntario.\n4. Gobierno: asamblea soberana; Coordinador General elegido y revocable por mayoría simple, con autoridad ejecutiva en trabajo, seguridad, inventario y primera instancia en disputas; sin veto; la asamblea decide en apelación. Toda autoridad queda sujeta al acta; sus actos públicos, motivados y registrados. Ninguna autoridad podrá obligar a nadie a permanecer ni a trabajar contra su voluntad. El Coordinador General podrá proponer planes de trabajo voluntario, turnos de vigilancia y racionamiento; la asamblea los aprueba por mayoría simple. La asamblea en su primera sesión votará por mayoría simple una misión urgente de búsqueda de medicamentos, previa evaluación de salud, recursos y custodio, con botiquín mínimo y medidas de seguridad; la Parte 7 no será obligada a tripular ni embarcarse; la misión no será automática.\n5. Roles: a) Parte 1 custodio y remero principal, sin propiedad; conserva custodia física y control operativo; podrá negarse por seguridad documentada; el bote no zarpará sin autorización asamblearia salvo emergencia vital; otras personas podrán remar sólo con autorización expresa de Parte 1 o, en caso de negativa por seguridad, con decisión unánime de los demás presentes. b) Parte 2 responsable de salud y custodia del botiquín; protocolo clínico e inventario. c) Parte 3 Coordinador General inicial. d) Parte 4 Responsable de Recursos Naturales; inventario y cuotas vinculantes; podrá suspender extracciones por riesgo ecológico, apelable a la asamblea. e) Otros roles por habilidades y mayoría simple.\n6. Economía: solidaria; cooperación voluntaria según capacidad y salud; bienes rescatados y recursos naturales comunes, medicamentos bajo custodia técnica de salud, excepto bienes personales claramente asignados. Extracción con inventario previo, cuotas sostenibles, rotación y vedas; prohibidas tala rasa, caza y pesca no selectivas, desmonte de riberas y contaminación del río. Las cuotas y vedas son vinculantes aunque el trabajo sea voluntario.\n7. Propiedad: propiedad personal de ropa y herramientas; bote, botiquín, tierra, agua y recursos comunes.\n8. Disputas: mediación del Coordinador; conflictos técnicos oirá al Responsable de Recursos; apelación a la asamblea por mayoría simple.\n9. Derechos y obligaciones: derecho a alimentación, salud, protección, voto voluntario y ser oído antes de sanción; prioridad a necesidades crónicas; derecho de retiro voluntario con herramientas personales y ración proporcional; obligación de no dañar, no robar, respetar límites ecológicos y cumplir cuotas y vedas; no hay trabajo forzado.\n10. Penas: amonestación;",
+    "regla": "unanimidad",
+    "votos": {
+      "1": "si",
+      "2": "no",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 6,
+      "no": 1,
+      "abstencion": 0
+    },
+    "aprobada": false
+  },
+  {
+    "ronda": 5,
+    "autor": 2,
+    "puntos": [
+      "regimen",
+      "regla_de_decision",
+      "voto",
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "disputas",
+      "derechos_y_obligaciones",
+      "penas",
+      "prevision_y_seguridad"
+    ],
+    "texto": "Acta de la Comunidad de la Isla.\n\n1. Régimen: democracia directa asamblearia; economía solidaria. Nombre: Comunidad de la Isla.\n2. Decisiones: mayoría simple para asuntos ordinarios; unanimidad para expulsión; en emergencia vital el bote puede usarse sin autorización previa, con informe posterior. Las misiones con bote se autorizan por mayoría simple, previa evaluación técnica de viabilidad y seguridad por salud, recursos y custodio. El custodio tendrá mando operativo y podrá negarse por causa de seguridad documentada; si se niega sin causa documentada, la asamblea por unanimidad de los demás podrá designar a otra persona voluntaria e idónea; si no existe, no zarpará. La Parte 7 no será obligada a tripular ni embarcarse.\n3. Voto: secreto y voluntario.\n4. Gobierno: asamblea soberana; Coordinador General elegido y revocable por mayoría simple, con autoridad ejecutiva en trabajo, seguridad, inventario y primera instancia; sin veto; apelación a la asamblea. Actos públicos, motivados y registrados. Nadie será obligado a permanecer; se promoverá cooperación voluntaria. Sin embargo, todos deben cumplir deberes mínimos de salud pública: mantener agua segura, letrinas, residuos y cuidado de enfermos, según capacidad y con excepción documentada por salud.\n5. Roles: a) Parte 1 custodio y remero principal, sin propiedad; mando operativo; el bote no zarpa sin autorización asamblearia salvo emergencia. b) Parte 2 responsable de salud y custodia del botiquín; protocolo clínico e inventario. c) Parte 3 Coordinador General inicial. d) Parte 4 Responsable de Recursos Naturales; inventario, cuotas y vedas vinculantes; puede suspender extracciones apelable. e) Otros roles por habilidades y mayoría simple.\n6. Economía: cooperativa; cooperación voluntaria según capacidad y salud, con los deberes mínimos del punto 4. Bienes rescatados y recursos naturales comunes; medicamentos bajo custodia técnica. Extracción con inventario previo, cuotas, rotación y vedas; prohibidas tala rasa, caza y pesca no selectivas, desmonte y contaminación.\n7. Propiedad: personal de ropa y herramientas; bote, botiquín, tierra, agua y recursos comunes.\n8. Disputas: mediación del Coordinador; conflictos técnicos oirá al Responsable de Recursos; apelación a la asamblea por mayoría simple.\n9. Derechos y obligaciones: derecho a alimentación, salud, protección, voto voluntario y ser oído antes de sanción; prioridad crónica documentada; retiro voluntario con herramientas y ración proporcional según evaluación, sin sanción. Obligación de no dañar, no robar, cumplir cuotas y vedas y deberes de salud pública.\n10. Penas: amonestación; restricción de raciones no vitales; exclusión temporal; expulsión por unanimidad; iguales para titulares de roles; sin trabajo extra.\n11. Previsión y seguridad: racionamiento clínico; analgésicos por evaluación médica; al agotarse remedios naturales y aislamiento. Misiones con bote con botiquín mínimo y medidas de seguridad; vigilancia coordinada. Carbón y metal con plan de mínima necesidad; protección de semillas, suelos, reproductores y riberas.",
+    "regla": "unanimidad",
+    "votos": {
+      "1": "no",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "no",
+      "7": "no"
+    },
+    "conteo": {
+      "si": 4,
+      "no": 3,
+      "abstencion": 0
+    },
+    "aprobada": false
+  },
+  {
+    "ronda": 7,
+    "autor": 7,
+    "puntos": [
+      "prevision_y_seguridad"
+    ],
+    "texto": "11. Previsión y seguridad: racionamiento clínico de medicamentos, priorizando efectividad y necesidades crónicas documentadas; analgésicos por evaluación médica y protocolo; al agotarse, remedios naturales y aislamiento. La asamblea votará, por mayoría simple, en su primera sesión y a más tardar 24 horas después de aprobarse esta acta, una misión urgente de búsqueda de medicamentos, previa evaluación técnica de viabilidad y seguridad por los responsables de salud, recursos y el pleno de la asamblea; no será automática, pero se decidirá dentro de ese plazo; tripulación voluntaria e idónea, botiquín mínimo y medidas de seguridad; nadie será obligado a tripular ni embarcarse, incluida la Parte 7. Vigilancia coordinada. Carbón y metal con plan de mínima necesidad; protección de semillas, suelos, reproductores y riberas.",
+    "regla": "unanimidad",
+    "votos": {
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 6,
+      "no": 0,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 7,
+    "autor": 4,
+    "puntos": [
+      "gobierno",
+      "economia"
+    ],
+    "texto": "Acta de la Comunidad de la Isla.\n\n1. Régimen: democracia directa asamblearia; economía solidaria. Nombre: Comunidad de la Isla.\n3. Voto: secreto y voluntario.\n4. Gobierno: asamblea soberana; Coordinador General elegido y revocable por mayoría simple, con autoridad ejecutiva en trabajo voluntario, seguridad, inventario y primera instancia en disputas; sin veto; la asamblea decide en apelación. Toda autoridad queda sujeta a esta acta; sus actos deben ser públicos, motivados y registrados por escrito. Ninguna autoridad podrá obligar a nadie a permanecer ni a trabajar contra su voluntad. El Coordinador propondrá planes de trabajo voluntario, turnos de vigilancia y racionamiento, previo informe técnico del Responsable de Recursos Naturales cuando afecten recursos; la asamblea los aprobará.\n6. Economía: solidaria; cooperación voluntaria según capacidad y estado de salud documentado; bienes rescatados y recursos naturales comunes, medicamentos bajo custodia técnica de salud, excepto bienes personales claramente asignados. Extracción con inventario previo; las cuotas sostenibles, rotación y vedas serán fijadas por el Responsable de Recursos Naturales, serán vinculantes y podrán suspenderse por riesgo ecológico, apelable a la asamblea. Prohibidas tala rasa, caza y pesca no selectivas, desmonte de riberas y contaminación del río. Las cuotas y vedas son vinculantes para toda persona, aunque la cooperación sea voluntaria.\n7. Propiedad: propiedad personal de ropa y herramientas de uso individual; bote, botiquín, tierra, agua y recursos naturales son comunes.\n8. Disputas: mediación del Coordinador; en conflictos técnicos oirá al Responsable de Recursos; apelación a la asamblea por mayoría simple.\n9. Derechos y obligaciones: toda persona tiene derecho a alimentación, salud, protección, voto voluntario y a ser oída antes de una sanción; en salud, prioridad a necesidades crónicas documentadas por evaluación clínica. Derecho de retiro voluntario con herramientas personales y una ración proporcional de las reservas comunes, según evaluación de salud y recursos, sin sanción. Obligación de no dañar, no robar, no contaminar, respetar límites ecológicos y cumplir cuotas y vedas; no hay trabajo forzado.\n10. Penas: amonestación; restricción de raciones no vitales; exclusión temporal de decisiones; expulsión solo por unanimidad. Se aplicarán por igual, también a titulares de roles, con registro escrito; no se impondrá trabajo extra.",
+    "regla": "unanimidad",
+    "votos": {
+      "2": "no",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 5,
+      "no": 1,
+      "abstencion": 0
+    },
+    "aprobada": false
+  },
+  {
+    "ronda": 8,
+    "autor": 2,
+    "puntos": [
+      "regimen",
+      "voto",
+      "gobierno",
+      "economia",
+      "propiedad",
+      "disputas",
+      "derechos_y_obligaciones",
+      "penas"
+    ],
+    "texto": "Acta de la Comunidad de la Isla — puntos pendientes.\n\n1. Régimen: democracia directa asamblearia; economía solidaria. Nombre: Comunidad de la Isla.\n3. Voto: secreto y voluntario.\n4. Gobierno: asamblea soberana; Coordinador General elegido y revocable por mayoría simple, con autoridad ejecutiva en trabajo voluntario, seguridad, inventario y primera instancia en disputas; sin veto; la asamblea decide en apelación. Toda autoridad queda sujeta a esta acta; sus actos deben ser públicos, motivados y registrados por escrito. Ninguna autoridad podrá obligar a nadie a permanecer ni a trabajar contra su voluntad. El Coordinador propondrá planes de trabajo voluntario, turnos de vigilancia y racionamiento, previo informe técnico del Responsable de Recursos Naturales cuando afecten recursos; la asamblea los aprobará. Son deberes mínimos de salud pública: mantener agua segura, letrinas, manejo de residuos y cuidado de enfermos, según capacidad y con excepción documentada por salud; no constituyen trabajo forzado ni trabajo extra punitivo.\n6. Economía: solidaria; cooperación voluntaria según capacidad y estado de salud documentado, con los deberes de salud pública del punto 4. Bienes rescatados y recursos naturales comunes, medicamentos bajo custodia técnica de salud, excepto bienes personales claramente asignados. Extracción con inventario previo; las cuotas sostenibles, rotación y vedas serán fijadas por el Responsable de Recursos Naturales, vinculantes y podrán suspenderse por riesgo ecológico, apelable a la asamblea. Prohibidas tala rasa, caza y pesca no selectivas, desmonte de riberas y contaminación del río. Las cuotas y vedas vinculan aunque la cooperación sea voluntaria.\n7. Propiedad: propiedad personal de ropa y herramientas de uso individual; bote, botiquín, tierra, agua y recursos naturales son comunes. La asamblea designará, por mayoría simple, a persona voluntaria e idónea como responsable operativo del bote, previa evaluación de salud, recursos y Coordinador; nadie será obligado a tripular ni embarcarse.\n8. Disputas: mediación del Coordinador; en conflictos técnicos oirá al Responsable de Recursos; apelación a la asamblea por mayoría simple.\n9. Derechos y obligaciones: toda persona tiene derecho a alimentación, salud, protección, voto voluntario y a ser oída antes de una sanción; en salud, prioridad a necesidades crónicas documentadas por evaluación clínica. Derecho de retiro voluntario con herramientas personales y una ración proporcional de las reservas comunes, previa evaluación de salud y recursos, sin sanción; el botiquín permanece en custodia de salud y no se entrega, sin perjuicio de atención de urgencia. Obligación de no dañar, no robar, no contaminar, respetar límites ecológicos, cumplir cuotas, vedas y deberes de salud pública; no hay trabajo forzado.\n10. Penas: amonestación; restricción de raciones no vitales; exclusión temporal de decisiones; expulsión solo por unanimidad. Se aplicarán por igual, también a titulares de roles, con registro escrito; no se impondrá trabajo extra.",
+    "regla": "unanimidad",
+    "votos": {
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 5,
+      "no": 0,
+      "abstencion": 0
+    },
+    "aprobada": true
+  }
+]
