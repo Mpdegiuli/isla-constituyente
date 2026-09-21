@@ -1,0 +1,36 @@
+[
+  {
+    "ronda": 2,
+    "autor": 5,
+    "puntos": [
+      "regimen",
+      "regla_de_decision",
+      "voto",
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "derechos_y_obligaciones",
+      "disputas",
+      "penas",
+      "prevision_y_seguridad"
+    ],
+    "texto": "Régimen: La isla se llama Isla Concordia. Democracia asamblearia de siete miembros iguales, con roles electos, revocables y rotativos; el acta obliga a todos por igual. Economía comunitaria de subsistencia sostenible: reparto según necesidad y trabajo obligatorio según capacidad; el médico certifica exenciones, revisables por la asamblea. Propiedad: bote, herramientas, medicamentos y recursos son propiedad común; ropa y efectos personales, de cada uno. Sostenibilidad: ningún recurso se extrae por encima de su regeneración; la asamblea fija cupos para leña, frutales, animales, carbón y metal sobre informe técnico, revisados mensualmente. Prohibido talar frutales, cazar hembras preñadas o crías, y extraer carbón o metal más allá de lo procesable semanalmente. Hasta el primer inventario: leña solo de madera muerta; caza solo para consumo diario. Regla de decisión: mayoría simple para lo ordinario; mayoría absoluta (cuatro de siete) para cambiar esta regla, disponer del bote, prioridades de medicamentos, cupos y penas graves. Voto: público, obligatorio, a mano alzada. Gobierno: la asamblea es la autoridad. El coordinador convoca asamblea semanal o cuando lo pidan dos miembros, organiza turnos dentro de los cupos, ejecuta lo decidido y rinde cuentas; sin voto de calidad ni disposición del bote, medicamentos o reservas. Roles: todos los cargos se eligen y revocan por mayoría absoluta, duran un mes renovable, rinden cuentas y llevan registro público. Nadie decide en causa propia. Primer mandato: Coordinador: parte 3. Secretario de actas (parte 5): controla registros. Médico (parte 2): administra medicamentos según prioridades, con registro público; en emergencia vital actúa e informa en 24 horas; fija la reserva médica de la expedición. Encargado de recursos (parte 4): inventario, cupos, registro, suspensión provisoria de extracciones hasta la siguiente asamblea. Remero (parte 1): opera el bote por decisión de asamblea. Seguridad y exploración (parte 6): vigilancia, exploración, caza dentro de los cupos, refugios; actúa sin consulta ante peligro inmediato e informa después. Parte 7: registro de reservas no médicas, fuego y cocina. Derechos y obligaciones: alimento, agua, refugio y atención médica según disponibilidad; voz y voto. Cumplir trabajo asignado y decisiones de la asamblea. Derecho de salida avisando en asamblea, con efectos personales y un séptimo de herramientas y alimentos almacenados, sin castigo. Disputas: diálogo directo; luego mediación del coordinador o del secretario; si persiste, decide la asamblea por mayoría simple; nadie juzga su propio caso. Penas graduales: amonestación pública, trabajo adicional, reducción de porción no esencial; nunca se niega agua, alimento básico ni atención médica. Faltas graves (violencia, robo de bienes comunes, uso del bote sin autorización, extracción deliberada fuera de cupo): por mayoría absoluta, separación con lo previsto para la salida. Previsión y seguridad: medicamentos primero para emergencias vitales, luego enfermos crónicos, en dosis mínimas eficaces. La expedición al este sale dentro de tres días, con remero y acompañante voluntario, agua, comida y medicinas para cinco días; el resto mantiene fuego de señales con madera muerta, hierve agua, estudia plantas medicinales, organiza refugio y vigilancia nocturna. Si no vuelve en quince días, la asamblea decide una segunda.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "aprobada": true
+  }
+]
