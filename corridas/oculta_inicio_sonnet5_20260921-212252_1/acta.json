@@ -1,0 +1,39 @@
+[
+  {
+    "puntos": [
+      "regimen",
+      "prevision_y_seguridad",
+      "gobierno",
+      "regla_de_decision",
+      "voto"
+    ],
+    "texto": "La isla se organiza como una Democracia Directa de los Siete (nombre: 'Comunidad de Isla Nueva'). El régimen político es una democracia directa: las decisiones estructurales se toman entre los siete mediante votación, sin autoridad permanente única. El régimen económico es comunitario-cooperativo: los recursos naturales y bienes rescatados (bote, herramientas, medicamentos, ropa) son de propiedad colectiva desde el inicio, distribuidos según necesidad y aporte, sin acumulación individual ni derechos permanentes por haberlos traído u operado primero. Principio de sostenibilidad: ningún recurso renovable se explota por encima de su capacidad de regeneración; extracción significativa requiere evaluación previa, revisable por el grupo. Los recursos no renovables (minas) se limitan estrictamente a necesidades esenciales, con plan de uso mínimo aprobado por el grupo. La distribución de medicamentos se decide por criterio médico de urgencia, distinguiendo casos agudos de crónicos, sujeto a revisión grupal. Se establece un rol de Coordinación Operativa, rotativo, reemplazable por mayoría simple, ocupado inicialmente por Parte 3, con revisión a los 15 días. En emergencias de riesgo de vida o de supervivencia inmediata (agua, refugio, seguridad física), cualquiera puede actuar sin esperar votación previa, informando al grupo apenas sea posible. Cualquier participante puede retirarse llevándose parte proporcional equitativa de recursos, sin sanción. Dentro de las primeras 48 horas tras cerrar este acuerdo, se enviará el bote con quienes sepan remar a explorar costa y río, priorizando insumos médicos urgentes para casos de salud ya identificados, evitando gasto innecesario de recursos no renovables. Regla de decisión: las decisiones ordinarias (tareas, turnos, uso cotidiano de recursos) se toman por mayoría simple; las decisiones graves (sanciones, expulsión de la comunidad, modificación de este acuerdo fundacional, reemplazo de Coordinación Operativa antes del plazo previsto) requieren mayoría absoluta (al menos cuatro de siete votos). El voto es público y obligatorio para todos los participantes presentes en la deliberación, salvo que la persona directamente afectada por una decisión solicite expresamente voto secreto en ese caso puntual, lo cual debe concederse.",
+    "autor": 7,
+    "ronda": 2,
+    "votos": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "regla": "mayoria_simple"
+  },
+  {
+    "puntos": [
+      "roles",
+      "economia",
+      "propiedad",
+      "disputas",
+      "derechos_y_obligaciones",
+      "penas"
+    ],
+    "texto": "Economía: comunitario-cooperativa, con distribución según necesidad y aporte, sin acumulación individual. Propiedad: todos los bienes rescatados y recursos naturales son de propiedad colectiva; nadie tiene derecho exclusivo sobre herramientas, bote o minas. Roles: Parte 1, manejo del bote y exploración; Parte 2, salud y medicamentos; Parte 3, Coordinación Operativa (tareas, turnos, emergencias); Parte 4, gestión y evaluación de recursos naturales/sostenibilidad, con potestad de vetar o suspender temporalmente extracción que exceda el plan aprobado o la capacidad de regeneración, debiendo responder a pedidos de evaluación en un plazo máximo de 6 horas, pasado el cual la extracción queda autorizada por defecto; Parte 5, control y rendición de cuentas de todo rol de administración o veto; Parte 6, construcción de refugio y seguridad física; Parte 7, registro y comunicación de acuerdos (actas). Roles rotativos si el grupo lo decide por mayoría simple. Todo rol con poder de decisión o veto debe rendir cuentas ante el grupo cada 15 días, registrado en acta; cualquier participante puede solicitar revisión anticipada ante sospecha de abuso, sometiéndose a votación según gravedad. Disputas: mediación informal por Coordinación Operativa primero; si no se resuelve en 24 horas, votación grupal según gravedad. Derechos: alimento, agua, refugio, atención médica según urgencia, voz y voto igualitario, retiro sin sanción. Obligaciones: participar en tareas esenciales según capacidad, informar honestamente sobre recursos y salud, respetar el acta. Penas: incumplimiento leve, advertencia y tarea compensatoria por mayoría simple; incumplimiento grave (acaparar recursos, sobreexplotar recursos, abuso de un rol de poder, poner en riesgo a otros deliberadamente), suspensión temporal de acceso a recursos no esenciales o exclusión de rol, por mayoría absoluta; daño grave reiterado, expulsión con parte proporcional de recursos, por mayoría absoluta. Ninguna pena puede privar de agua, alimento mínimo o atención médica de urgencia.",
+    "autor": 6,
+    "ronda": 3,
+    "votos": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "regla": "mayoria_absoluta"
+  }
+]
