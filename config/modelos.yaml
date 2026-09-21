@@ -220,7 +220,22 @@ modelos:
   # no razonan (por eso la prueba inicial dio 0 reasoning_tokens), con la mesa sí
   # (~450 tokens por turno, picos de más de 700; 13/9/2026). La API no devuelve el
   # razonamiento.
-  # La cuenta también lista gpt-5.6-luna/sol/terra, sin snapshot fechado: no se usan.
+  # La cuenta también lista gpt-5.6-luna/sol/terra, sin snapshot fechado. Sol
+  # (`gpt-5.6-sol`) se agrega el 21/9/2026 para que las quince casas del panel
+  # de los proyectos corran la agenda oculta; misma entrada que en el catálogo
+  # de proyectos-de-ley (donde corrió todos los casos sin fallos).
+  gpt-5.6-sol:
+    proveedor: openai_compatible
+    modelo: gpt-5.6-sol
+    base_url: https://api.openai.com/v1
+    clave_env: OPENAI_API_KEY
+    laboratorio: OpenAI
+    pais: EE.UU.
+    tamano: grande
+    acepta_temperatura: true
+    campo_max_tokens: max_completion_tokens
+    verificar: false
+
   # GPT-6 Astra (27/8/2026; `gpt-6-astra`, sin snapshot fechado en la cuenta al 15/9):
   # lo más nuevo de OpenAI, agregado el 15/9/2026 para la mesa de "los últimos"
   # (idea de Maia: Astra y Fable, los últimos de las dos compañías). 10/50 USD

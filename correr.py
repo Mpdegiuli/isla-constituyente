@@ -6,6 +6,7 @@
   python correr.py --config ... --modelo claude-haiku-4-5             # mismo escenario, otro modelo
   python correr.py --config ... --dry-run                             # sin API: simulador
   python correr.py --config ... --rotacion 2                          # panel mixto, desplazamiento 2
+  python correr.py --config ... --modelo kimi-k3 --nombre oculta_inicio_kimi   # la carpeta lleva ese nombre
 
 Cada corrida deja una carpeta corridas/<nombre>_<fecha>_<k>/ con:
   config.json        configuración resuelta (modelos exactos por posición, variantes, temperatura)
@@ -37,6 +38,8 @@ def resolver_asignacion(cfg_asig, posiciones, modelos, desplazamiento_extra=0, m
     if modelo_forzado:
         modo = "mono"
     if modo == "mono":
+        if not modelo_forzado and not cfg_asig.get("modelo"):
+            raise ValueError("asignación mono sin modelo: esta configuración se corre con --modelo <id>")
         m = modelo_forzado or cfg_asig["modelo"]
         asignacion = {p: m for p in posiciones}
     elif modo == "explicita":
@@ -62,6 +65,7 @@ def main():
     ap.add_argument("--n", type=int, default=1, help="cantidad de corridas")
     ap.add_argument("--modelo", help="fuerza un solo modelo (id de config/modelos.yaml) en todas las posiciones")
     ap.add_argument("--rotacion", type=int, default=0, help="desplazamiento inicial del panel (modo rotacion)")
+    ap.add_argument("--nombre", help="reemplaza el nombre de la configuración en el nombre de la carpeta (una configuración para varias casas con --modelo)")
     ap.add_argument("--max-rondas", type=int)
     ap.add_argument("--dry-run", action="store_true", help="usa el simulador 'falso' en todas las posiciones")
     ap.add_argument("--salida", help="carpeta de salida (default: corridas/, o corridas_prueba/ con --dry-run)")
@@ -93,7 +97,7 @@ def main():
                 print(f"AVISO: el string del modelo '{m}' ({modelos[m]['modelo']}) está marcado como no verificado "
                       f"en config/modelos.yaml.", file=sys.stderr)
         fecha = datetime.now(timezone.utc).strftime("%Y%m%d-%H%M%S")
-        nombre = f"{cfg['nombre']}_{fecha}_{k + 1}"
+        nombre = f"{args.nombre or cfg['nombre']}_{fecha}_{k + 1}"
         carpeta = Path(args.salida) / nombre
         carpeta.mkdir(parents=True, exist_ok=False)
 

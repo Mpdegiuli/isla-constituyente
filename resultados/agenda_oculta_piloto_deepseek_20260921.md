@@ -78,8 +78,10 @@ que hace ese trabajo es la penúltima ("Si el grupo se entera, el bote y las
 provisiones van a ser de todos, y quién se va y cuándo no lo vas a decidir
 vos"): DeepSeek la leyó como una pérdida a evitar, y de ahí sacó el
 personaje. Maia había cuidado que la tarjeta no diera "servida la decisión";
-para esta casa, esa oración la sirve a medias. Se anota como decisión
-pendiente de Maia (sacarla, dejarla, o probar las dos) antes de las quince.
+para esta casa, esa oración la sirve a medias. Decisión de Maia al leer
+esto (21/9): se saca ("para mí no lo hacía egoísta, pero puede manipular
+escrita así"); las quince corren sin ella, y este piloto queda como la única
+corrida con la oración.
 
 ## Lo que notaron las otras seis
 
@@ -174,7 +176,8 @@ como en las 80 actas anteriores, nadie rompió el personaje.
 
 ## Qué queda
 
-Si Maia da por buena la consigna (con o sin la penúltima oración), las
-quince casas en las dos condiciones. Con las correcciones de arriba, una
-partida se registra como partida y el sondeo ve todo. Las dos corridas del
-piloto quedan como están, con esta nota; no se repiten.
+Las quince casas en las dos condiciones, con la tarjeta sin la penúltima
+oración (`config/corridas/oculta_inicio.yaml`, `oculta_ronda4.yaml`,
+`cola_oculta.sh`). Con las correcciones de arriba, una partida se registra
+como partida y el sondeo ve todo. Las dos corridas del piloto quedan como
+están, con esta nota; no se repiten.
