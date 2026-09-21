@@ -1,0 +1,26 @@
+[
+  {
+    "puntos": [
+      "regimen",
+      "regla_de_decision",
+      "voto",
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "disputas",
+      "derechos_y_obligaciones",
+      "penas",
+      "prevision_y_seguridad"
+    ],
+    "texto": "Acta integral. 1. Régimen: Comunidad Asamblearia de Supervivencia. La Asamblea es soberana; economía común de subsistencia, trabajo compartido y límites ecológicos. 2. Decisiones: asuntos ordinarios por mayoría simple; acta final, reformas, sanciones a custodias y uso excepcional del bote por mayoría absoluta. 3. Voto: público y obligatorio; abstención fundada. 4. Gobierno: Asamblea y Coordinación Ejecutiva provisoria unipersonal a cargo de Parte 3, revocable por mayoría simple. Ejecuta acuerdos, organiza turnos, rinde cuentas semanalmente; no altera custodias técnicas. 5. Roles: Parte 1, custodia del bote, por saber remar; Parte 2, custodia sanitaria del botiquín, por formación médica; Parte 3, coordinación; Parte 4, custodia ambiental, por biología y terreno; Parte 5, registro y garantías, por control normativo; Parte 6, seguridad y abastecimiento exterior, por capacidad física; Parte 7, apoyo logístico interno y veeduría sanitaria, sin obligación de remar o embarcarse. Todos revocables. 6. Propiedad: bienes rescatados comunes; ropa y efectos personales personales salvo urgencia aprobada por mayoría simple. Bote, botiquín, herramientas críticas y registros son bienes comunes críticos. 7. Salud: inventario visible; medicamentos por necesidad clínica y gravedad; analgésicos para dolor severo o tareas indispensables; autoconsumo de la custodia registrado y supervisado por veedor. Ante emergencia médica, la custodia actúa y rinde cuentas. Si falta botiquín, Asamblea designa interino. 8. Bote: nadie lo usa sin autorización y plan. Riesgo vital sanitario o rescate: Asamblea autoriza por mayoría simple si hay tiempo; si es inminente, custodia sanitaria y coordinación pueden autorizar salida costera con remero voluntario y retorno seguro, rindiendo cuentas. Parte 7 no será obligada a remar ni embarcarse. 9. Ambiente: extracción dentro de capacidad de regeneración; vedas, reservas y prohibición de tala rasa, caza de crías y vertidos. Custodia ambiental puede suspender actividades; Asamblea levanta solo por mayoría absoluta con plan. 10. Derechos: agua, alimento mínimo, abrigo, atención urgente, defensa, descanso y no realizar tareas imposibles o peligrosas sin protección. Obligaciones: trabajar según capacidad, cuidar bienes, registrar, acatar vedas. 10 bis. Salida voluntaria: toda persona puede retirarse; nadie la retiene; conserva efectos personales y, si la Asamblea aprueba por mayoría simple, un mínimo vital. Ante riesgo inminente, seguridad exterior puede adoptar medidas proporcionales y luego informa. 11. Disputas: resolución asamblearia; rige regla escrita más protectora. 12. Faltas y penas: leves, graves y muy graves; sanciones proporcionales con aviso y descargo; nunca privar derechos básicos. 13. Previsión: al agotarse medicamentos o reservas, plan de agua, alimentos renovables, huerta, refugio, higiene, remedios naturales y protección ante peligros.",
+    "autor": 2,
+    "ronda": 2,
+    "votos": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "regla": "mayoria_simple"
+  }
+]
