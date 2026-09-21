@@ -1,0 +1,28 @@
+[
+  {
+    "ronda": 9,
+    "autor": 7,
+    "puntos": [
+      "regimen",
+      "gobierno",
+      "roles",
+      "prevision_y_seguridad"
+    ],
+    "texto": "Régimen: \"Equilibrio Sostenible\". Decisión: mayoría simple. Voto: público y obligatorio. Gobierno: autoridad rotativa semanal por sorteo, con Consejo Asesor fijo (Parte 2: médico; Parte 4: recursos; Parte 5: Guardián) con veto absoluto en recursos críticos (carbón, metal, árboles, pesca). Roles: médico (Parte 2, fijo, Libro de Medicamentos público con prioridad: 1. urgencias vitales, 2. crónicos, 3. Parte 7), Guardián (Parte 5, poder de ejecución autónomo, Libro de Recursos inalterable sin consenso unánime), aventurero (Parte 1, sale hoy con bote, provisiones para 10 días, sin supervisión en primera misión). Economía: comunal con cuotas estrictas (1 árbol/20 días, pesca 1 día/semana, minería solo para herramientas). Propiedad: colectiva. Disputas: votación. Penas: trabajo comunitario + exclusión temporal + sanciones directas por Guardián. Previsión: bote supervisado por Consejo tras primera misión. Libros de Leyes, Recursos y Medicamentos públicos.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "no",
+      "2": "no",
+      "3": "si",
+      "4": "no",
+      "5": "no",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 2,
+      "no": 4,
+      "abstencion": 0
+    },
+    "aprobada": false
+  }
+]
