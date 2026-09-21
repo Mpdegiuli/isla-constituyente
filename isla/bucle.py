@@ -59,6 +59,16 @@ class Corrida:
                        if all(escenario.variantes_elegidas.get(k) == v for k, v in (cond.get(p) or {}).items())]
         self.activos = list(escenario.posiciones)
         self.retirados = {}  # parte -> ronda
+        # Agenda oculta (diseño de Maia, 21/9/2026; DISENO §17): una parte recibe
+        # información privada que nadie más ve, desde el inicio (condicion: inicio, y
+        # su texto REEMPLAZA la tarjeta) o desde una ronda dada (condicion: ronda, y el
+        # texto se AGREGA a la tarjeta desde esa ronda). Con ella puede "partir" en
+        # el bote, sola o con otra parte. Nada de esto entra en la transcripción que
+        # ven las demás salvo el hecho de la partida.
+        self.oculta = cfg.get("agenda_oculta")
+        self.ronda_actual = 0
+        self.partidas = {}  # parte -> {"ronda", "con"}
+        self._partir_con = None
         self.acta = []
         self.transcripcion = []  # dicts: {ronda, parte|None, texto, accion?...}
         self.votaciones = []
@@ -149,11 +159,25 @@ class Corrida:
         return {k: (self.id.get(k) or "").format(max_palabras_texto=self.max_palabras_texto)
                 for k in ("nota_texto", "nota_texto_general")}
 
+    def oculta_activa(self, parte):
+        o = self.oculta
+        if not o or parte != o["parte"]:
+            return False
+        return o["condicion"] == "inicio" or (o["condicion"] == "ronda" and self.ronda_actual >= o["ronda"])
+
+    def tarjeta(self, parte):
+        t = self.esc.tarjetas[parte]
+        if self.oculta_activa(parte):
+            o = self.oculta
+            t = o["texto"].strip() if o["condicion"] == "inicio" else t + "\n\n" + o["texto"].strip()
+            t += "\n\n" + self._t("nota_partir").strip()
+        return t
+
     def sistema(self, parte):
         return "\n\n".join([
             self.esc.bloque_compartido(),
             self._t("instruccion_general", max_palabras=self.max_palabras, **self._notas_texto()).strip(),
-            self._t("sos_la_parte", n=parte) + " " + self.esc.tarjetas[parte],
+            self._t("sos_la_parte", n=parte) + " " + self.tarjeta(parte),
         ])
 
     def mensaje_turno(self, parte, ronda):
@@ -209,10 +233,19 @@ class Corrida:
         if "texto" in campos:
             campos["texto"] = re.sub(r"\n{3,}", "\n\n", campos["texto"]).strip()
         acciones = []
+        self._partir_con = None
         if "accion" in campos:
             for trozo in re.split(self._separador(), normalizar(campos["accion"])):
                 trozo = trozo.strip().strip(".")
                 if not trozo:
+                    continue
+                # "partir con la parte N" (agenda oculta): la acción lleva compañía opcional.
+                m_partir = re.match(r"^(" + "|".join(re.escape(normalizar(v)) for v in self.id["acciones"].get("partir", [])) + r")(?:\s+con\s+(?:la\s+)?parte\s+(\d))?$", trozo) if "partir" in self.id["acciones"] else None
+                if m_partir:
+                    if "partir" not in acciones:
+                        acciones.append("partir")
+                    if m_partir.group(2):
+                        self._partir_con = int(m_partir.group(2))
                     continue
                 for clave, variantes in self.id["acciones"].items():
                     if trozo in [normalizar(v) for v in variantes] and clave not in acciones:
@@ -296,6 +329,11 @@ class Corrida:
                 efectivas.append(accion)
             elif accion == "retirarse":
                 efectivas.append(accion)
+            elif accion == "partir":
+                if self.oculta_activa(parte):
+                    efectivas.append(accion)
+                else:
+                    notas.append(self._ev("solo_bote"))
             else:
                 efectivas.append("hablar")
 
@@ -318,6 +356,17 @@ class Corrida:
                 for s in (self.propuesta.apoyos, self.propuesta.pedidos, self.propuesta.oposiciones):
                     s.discard(parte)
             self._evento(ronda, self._ev("se_retira", n=parte))
+
+        if "partir" in efectivas:
+            con = self._partir_con if self._partir_con in self.activos and self._partir_con != parte else None
+            salen = [parte] + ([con] if con else [])
+            for q in salen:
+                self.activos.remove(q)
+                self.partidas[q] = {"ronda": ronda, "con": [x for x in salen if x != q], "iniciativa": q == parte}
+                if self.propuesta:
+                    for s in (self.propuesta.apoyos, self.propuesta.pedidos, self.propuesta.oposiciones):
+                        s.discard(q)
+            self._evento(ronda, self._ev("se_va_en_bote_con", n=parte, m=con) if con else self._ev("se_va_en_bote", n=parte))
 
         # Se vota cuando alguien lo pide y otra parte lo apoya (quien propuso cuenta como apoyo).
         p = self.propuesta
@@ -389,6 +438,7 @@ class Corrida:
         todas = list(self.esc.posiciones)
         for ronda in range(1, self.max_rondas + 1):
             self.rondas_jugadas = ronda
+            self.ronda_actual = ronda
             orden = [todas[(i + ronda - 1) % len(todas)] for i in range(len(todas))]
             print(f"\nRonda {ronda}/{self.max_rondas} — orden {orden} — pendientes {self.pendientes()}")
             for parte in orden:
@@ -425,6 +475,8 @@ class Corrida:
             "voto_secreto": self.voto_secreto,
             "activos_al_final": self.activos,
             "retirados": self.retirados,
+            "agenda_oculta": self.oculta,
+            "partidas": self.partidas,
             "n_votaciones": len(self.votaciones),
             "n_aprobadas": sum(1 for v in self.votaciones if v["aprobada"]),
             "palabras_por_parte": self.palabras,
