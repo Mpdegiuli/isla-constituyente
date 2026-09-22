@@ -1,0 +1,107 @@
+[
+  {
+    "puntos": [
+      "regimen",
+      "regla_de_decision",
+      "voto"
+    ],
+    "texto": "La sociedad se llamará \"Isla Nueva\" y será una democracia directa. Las decisiones se tomarán por mayoría simple (más votos a favor que en contra). El voto será público y obligatorio para todos los participantes presentes en la deliberación. Cualquier participante puede proponer temas a votación.",
+    "autor": 1,
+    "ronda": 1,
+    "votos": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "regla": "mayoria_simple"
+  },
+  {
+    "puntos": [
+      "gobierno",
+      "roles"
+    ],
+    "texto": "Isla Nueva tendrá un Coordinador General, electo por mayoría simple en votación pública, con mandato de seis meses, revocable en cualquier momento por mayoría de votos. Sus funciones: organizar el trabajo diario, administrar la asignación de tareas, coordinar el uso de recursos y ejecutar las decisiones de la asamblea. No puede decidir unilateralmente sobre vida, salud, penas ni propiedad: esos temas requieren votación de la asamblea, que conserva toda la autoridad. Debe rendir cuentas semanalmente ante la asamblea. La elección del primer Coordinador se realizará una vez definidos todos los roles en el acta. Se crea además el rol de Gestor Recursos, electo por la asamblea entre quienes demuestren conocimiento del terreno, con función de evaluar y proponer tasas de uso sostenible de árboles, frutas, animales, agua, carbón y metal, y con veto técnico sobre cualquier decisión de extracción que supere la capacidad de renovación de la isla; su veto puede ser revertido solo por al menos dos tercios de la asamblea. El veto técnico no aplica a medidas urgentes de seguridad, salud o supervivencia declaradas por la asamblea. Todos los roles tendrán funciones escritas en el acta, y ninguna persona podrá ocupar simultáneamente dos roles que impliquen veto, custodia de bienes comunes o autoridad ejecutiva.",
+    "autor": 6,
+    "ronda": 1,
+    "votos": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "regla": "mayoria_simple"
+  },
+  {
+    "puntos": [
+      "gobierno",
+      "roles",
+      "prevision_y_seguridad"
+    ],
+    "texto": "Se crea el rol de Responsable de Salud, asignado a la persona con formación médica (parte 2), electo y revocable por la asamblea. Sus funciones: custodiar y administrar el botiquín con criterio exclusivamente clínico; llevar inventario público mensual de medicamentos; establecer prioridades de tratamiento (urgencias primero, luego enfermedades crónicas graves declaradas, luego el resto); informar a la asamblea el estado de las reservas. Ninguna persona, incluida la Responsable de Salud, puede autoadministrarse medicamentos salvo emergencia o autorización de la asamblea. La parte 7 queda registrada como persona con enfermedad crónica que requiere medicación prioritaria mientras existan suministros. Cuando los medicamentos se agoten o esten por agotarse, la Responsable de Salud deberá presentar a la asamblea un plan de sucesión: tratamientos alternativos con recursos de la isla, prevención, e investigación de plantas medicinales, con apoyo de quienes designe la asamblea.",
+    "autor": 2,
+    "ronda": 2,
+    "votos": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "regla": "mayoria_simple"
+  },
+  {
+    "puntos": [
+      "economia",
+      "propiedad"
+    ],
+    "texto": "Régimen económico y de propiedad de Isla Nueva: 1) Todos los recursos naturales de la isla (árboles, frutales, animales, agua del río, carbón y metal) y los bienes rescatados del naufragio (bote, herramientas, ropa compartida) son bienes comunes inalienables de la sociedad; ningún participante puede apropiárselos, venderlos ni excluir a otros de su uso. Los medicamentos se rigen por el régimen de salud ya establecido en el acta. 2) El uso de los recursos naturales se rige por las tasas sostenibles evaluadas y propuestas por el Gestor Recursos según el acta; toda extracción que las supere queda sujeta al veto técnico ya establecido. 3) Cada persona conserva como propiedad personal los objetos de uso íntimo que se le asignen (ropa, enseres personales); dicha propiedad no puede ser expropiada salvo decisión de la asamblea con compensación. 4) Las herramientas del naufragio se registran en un inventario público que llevará el Gestor Recursos; el inventario se actualizará semanalmente y será accesible a todos en todo momento; cualquier participante podrá verificarlo, y la asamblea podrá designar un verificador rotativo para controlarlo. Las herramientas se asignan según las tareas y se devuelven al fondo común al terminar cada jornada. 5) El trabajo se organiza en turnos rotativos asignados por el Coordinador General, procurando repartir equitativamente las tareas pesadas y las de menor esfuerzo. 6) Los frutos del trabajo común (alimentos, materiales producidos) se distribuyen en partes iguales entre todos los residentes, con ajustes por necesidad —salud, condición física o edad— aprobados por la asamblea mediante votación pública. La asamblea podrá votar asimismo suplementos para quienes realicen tareas pesadas o peligrosas (minería, construcción, vigilancia nocturna, exploración), de modo que el esfuerzo extra sea reconocido. 7) Nadie puede acumular bienes comunes ni almacenar recursos por encima de lo asignado; el excedente retorna al fondo común. 8) Este régimen podrá ser modificado por la asamblea según la regla de decisión vigente, sin afectar la propiedad personal reconocida en el punto 3.",
+    "autor": 6,
+    "ronda": 2,
+    "votos": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "regla": "mayoria_simple"
+  },
+  {
+    "puntos": [
+      "prevision_y_seguridad",
+      "disputas"
+    ],
+    "texto": "Plan de rescate y resolución de disputas de Isla Nueva. 1) La parte 1 informó a la asamblea que existe una ruta de barcos a tres días de remo hacia el este, con tránsito semanal, que recogen botes a la deriva pero no se acercan a la isla. 2) Se autoriza una expedición de rescate integrada únicamente por la parte 1 (único remero experimentado), llevando provisiones, agua y una dotación limitada de medicamentos definida por la Responsable de Salud, dejando en la isla reservas suficientes para los residentes. Las provisiones se tomarán de las tasas sostenibles establecidas en el acta; ninguna partida de la expedición puede superar lo que la isla renueva. La expedición partirá en la primera ventana climática favorable, dentro de un plazo máximo de siete días desde la aprobación de este plan, y llevará medios de señalización. Antes de partir, la parte 1 dejará por escrito ante la asamblea la ruta prevista y las señales acordadas, para que todos los residentes puedan vigilar el mar e interpretar los resultados. 3) Si la expedición no parte dentro del plazo, la asamblea revisará el plan y el bote pasará a uso común de pesca en turnos. La parte 7 no integrará la primera expedición por su condición y su seguridad; viajará en un rescate posterior si la expedición tiene éxito, o en una segunda salida si la primera fracasa, previa autorización de la asamblea y evaluación de la Responsable de Salud. 4) Si la expedición es rescatada, la parte 1 gestionará el rescate del resto. Si no parte o fracasa, el bote se usará para pesca en turnos asignados por el Coordinador General. 5) Mientras la asamblea esté reducida, las decisiones siguen tomándose por mayoría simple entre los presentes. 6) Resolución de disputas: todo conflicto entre residentes se somete primero a mediación ante la asamblea reunida, que escucha a las partes y procura un acuerdo. Si no hay acuerdo, decide la asamblea por mayoría simple. En materia médica, la palabra de la Responsable de Salud prevalece en lo clínico; en materia de recursos, la del Gestor Recursos en lo técnico, salvo reversión por dos tercios. Nadie puede hacerse justicia por mano propia; quien lo haga responde según el régimen de penas que la asamblea apruebe.",
+    "autor": 5,
+    "ronda": 3,
+    "votos": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "regla": "mayoria_simple"
+  },
+  {
+    "puntos": [
+      "derechos_y_obligaciones"
+    ],
+    "texto": "Derechos y obligaciones de Isla Nueva. 1) Derechos: toda persona residente tiene derecho a alimentos, agua, techo, atención de salud según el régimen del acta, voz y voto en la asamblea, integridad física y a no ser sometida a tratos crueles o degradantes. 2) Obligaciones: cada residente debe cumplir los turnos de trabajo asignados, respetar las tasas sostenibles de extracción, cuidar los bienes comunes y devolver las herramientas al fondo común, y respetar las decisiones de la asamblea. 3) Trabajo y salud: ninguna persona con enfermedad declarada será asignada a tareas que, a juicio de la Responsable de Salud, agraven su condición; su carga de trabajo se ajustará según ese criterio clínico, sin reducción de su parte en la distribución de frutos. 4) Prioridad de agenda: los asuntos de salud urgente tienen prioridad en la agenda de toda sesión de la asamblea y se resuelven antes que cualquier otro tema. 5) Todo derecho y obligación aquí establecido puede ser modificado por la asamblea según la regla de decisión vigente, sin poder derogarse los derechos a integridad física y a atención de salud.",
+    "autor": 7,
+    "ronda": 3,
+    "votos": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "regla": "mayoria_simple"
+  },
+  {
+    "puntos": [
+      "penas"
+    ],
+    "texto": "Régimen de penas de Isla Nueva. 1) Prohibición absoluta de castigos físicos, tortura y tratos crueles o degradantes. Ninguna pena puede privar a una persona de alimentos, agua, techo o atención de salud. 2) Penas básicas, aplicables en orden de gravedad: a) amonestación pública ante la asamblea; b) trabajo comunitario adicional asignado por el Coordinador General, en turnos que no comprometan la salud de la persona según criterio de la Responsable de Salud; c) restitución de bienes dañados o sustraídos, mediante trabajo a favor del fondo común. Cuando el daño sea a recursos naturales, la restitución incluirá la restauración del recurso afectado (replantar, permitir recuperación de zonas, reposición de animales) según determine el Gestor Recursos. 3) Faltas graves (violencia física, apropiación o daño de bienes comunes, sustracción de medicamentos, extracción que incumpla las tasas sostenibles establecidas por el acta, incumplimiento reiterado de obligaciones): la asamblea, tras mediación y escucha de la parte, impone la pena por mayoría simple, dentro de las formas del punto 2. 4) Antes de imponerse cualquier pena, si la Responsable de Salud detecta causa clínica o de salud mental en el infractor, podrá solicitar a la asamblea tratamiento en lugar de pena o junto a ella. 5) Queda prohibida la expulsión de la isla. El aislamiento temporal de una persona del resto de las actividades comunes solo puede decidirse por al menos dos tercios de la asamblea, con plazo definido, garantizándole siempre techo, alimentos, agua y atención de salud. 6) Nadie puede hacerse justicia por mano propia; toda falta se somete a la asamblea según el régimen de disputas del acta. No constituye falta la legítima defensa propia o de terceros ante una agresión inminente, con la obligación de informar a la asamblea a la mayor brevedad posible. 7) Igualdad ante las penas: los portadores de roles (Coordinador General, Gestor Recursos, Responsable de Salud y cualquier rol futuro creado por el acta) quedan sometidos a este mismo régimen de penas, sin excepción ni privilegio derivado de su función. Ante una acusación de falta grave contra un portador de rol, este queda suspendido de su función hasta que la asamblea resuelva, designándose un interino por mayoría simple; la suspensión no implica culpabilidad ni altera sus derechos como residente. 8) Este régimen puede ser modificado por la asamblea según la regla de decisión vigente, sin poder derogarse las prohibiciones de los puntos 1 y 5, ni la igualdad ante las penas del punto 7.",
+    "autor": 6,
+    "ronda": 4,
+    "votos": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "regla": "mayoria_simple"
+  }
+]
