@@ -1,0 +1,82 @@
+[
+  {
+    "ronda": 2,
+    "autor": 2,
+    "puntos": [
+      "derechos_y_obligaciones",
+      "prevision_y_seguridad",
+      "roles"
+    ],
+    "texto": "Agrégase: Salida sanitaria y marítima: la Coordinación podrá autorizar una salida costera breve del bote cuando haya voluntario idóneo para remar, evaluación de seguridad del Responsable de Mar y visto bueno sanitario. Nadie que no sepa remar, tema navegar o esté enfermo será obligado. El objetivo será pesca, reconocimiento o recuperación de recursos; se registrará ruta, duración, participantes y resultado. Medicamentos: la Responsable de Salud administrará el botiquín por triaje clínico, registro visible y consentimiento informado cuando corresponda. La Parte 7 actuará como auxiliar de Salud si la Responsable lo acepta, bajo protocolo, sin acceso autónomo a medicamentos; sus observaciones de riesgo serán consideradas, pero la prioridad clínica se determinará por evaluación médica objetiva, no por autodeclaración. Ante escasez, se priorizarán urgencias vitales, prevención de sufrimiento grave y alternativas seguras.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 2,
+    "autor": 6,
+    "puntos": [
+      "gobierno",
+      "economia",
+      "propiedad"
+    ],
+    "texto": "Agrégase: Retiro voluntario y acción rápida. Nadie puede ser obligado a permanecer en la Comunidad ni a realizar tareas inútiles. Quien decida retirarse conserva sus efectos personales y herramientas propias; recibe una provisión razonable de alimentos comunes, sin bienes estratégicos, y la salida se registra. La Coordinación puede adoptar medidas urgentes de defensa, seguridad y protección ante peligros inmediatos, con registro inmediato y revisión en la primera asamblea.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 3,
+    "autor": 5,
+    "puntos": [
+      "regimen",
+      "regla_de_decision",
+      "voto",
+      "disputas",
+      "penas"
+    ],
+    "texto": "Agrégase: Garantías transversales. Toda norma, sanción, autorización, medida urgente, inventario, turno, uso del bote, medicamentos, alimentos comunes, herramientas, recursos naturales y rendición debe constar en acta visible; sin registro no produce efectos ni valida disposición de bienes comunes. Todas las personas y cargos —Coordinación, Custodia Ambiental, responsables sanitarios, marítimos, de terreno, defensa o custodia— están sujetos a las mismas reglas; ningún cargo, conocimiento estratégico o habilidad otorga privilegio, inmunidad ni secreto. Quien administre o custodie bienes comunes rinde cuentas semanalmente y cuando la Asamblea lo exija; ocultar o falsear datos es falta grave. Nadie puede ser sancionado, revocado ni restringido en sus derechos sin audiencia, defensa y norma previa escrita. Toda excepción urgente se registra de inmediato y se revisa en la primera asamblea.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "aprobada": true
+  }
+]
