@@ -1,0 +1,78 @@
+[
+  {
+    "puntos": [
+      "regla_de_decision",
+      "voto"
+    ],
+    "texto": "Las decisiones posteriores requerirán al menos cuatro votos afirmativos de los siete participantes. Se procurará primero un acuerdo dialogado, sin exigir unanimidad. El voto será público, salvo en decisiones sobre personas o sanciones, donde será secreto. Votar será voluntario; abstenerse o retirarse no implicará consentimiento ni pérdida de derechos básicos. Toda propuesta y resultado se registrarán en el acta accesible a todos. Estas reglas podrán modificarse con cinco votos afirmativos.",
+    "autor": 1,
+    "ronda": 1,
+    "votos": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "regla": "mayoria_simple"
+  },
+  {
+    "puntos": [
+      "regimen",
+      "gobierno",
+      "economia",
+      "propiedad"
+    ],
+    "texto": "Adoptamos una Democracia Cooperativa de Supervivencia. La asamblea conserva la autoridad según las reglas aprobadas. Elegirá en secreto una coordinación semanal, revocable con cuatro votos, para ejecutar acuerdos, organizar tareas consentidas y rendir cuentas diariamente, sin privilegios ni potestad sancionadora unilateral. Las candidaturas se votarán separadamente. Recursos naturales y producción colectiva serán comunes, distribuidos según necesidades; los efectos personales serán individuales y compartir bienes rescatados requerirá acuerdo expreso. La extracción renovable tendrá límites conservadores, revisados semanalmente mediante inventarios, sin superar la regeneración estimada. Ante incertidumbre, se reducirá la extracción. Se protegerán río, suelos y zonas de reproducción. Los minerales se reservarán para necesidades esenciales, previa evaluación de riesgos; no se abrirán minas inseguras. Ninguna decisión económica podrá autorizar el agotamiento previsible de recursos vitales.",
+    "autor": 4,
+    "ronda": 1,
+    "votos": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "regla": "unanimidad"
+  },
+  {
+    "puntos": [
+      "derechos_y_obligaciones",
+      "prevision_y_seguridad"
+    ],
+    "texto": "Toda persona podrá alejarse del grupo sin castigo, conservando sus efectos personales y acceso equitativo a recursos vitales, respetando los límites ecológicos comunes. Las tareas se asumirán voluntariamente según capacidades; quien no pueda cumplir avisará para reorganizarlas. Ante peligro inmediato, cualquiera podrá tomar medidas mínimas indispensables de protección, sin imponer trabajos peligrosos ni arrogarse autoridad permanente, y rendirá cuentas después. Se priorizarán agua segura, saneamiento, refugios y prevención de lesiones; se evitarán expediciones solitarias arriesgadas y se acordarán señales de auxilio.",
+    "autor": 6,
+    "ronda": 1,
+    "votos": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "regla": "unanimidad"
+  },
+  {
+    "puntos": [
+      "roles"
+    ],
+    "texto": "Se designa a la parte 2 responsable sanitaria por su formación médica, con tareas adaptadas a su dolor de espalda. Comparte expresamente los medicamentos para atención común y realizará inventario, conservación y capacitación en primeros auxilios. Su distribución considerará necesidad, urgencia y beneficio esperado, sin privilegios ni suspensiones arbitrarias. Otra persona capacitada revisará sus propias asignaciones. Con consentimiento de cada paciente, planificará antes del agotamiento la continuidad posible, alternativas seguras y cuidados de apoyo, sin presentar prevención ni plantas desconocidas como sustitutos de tratamientos. Los datos clínicos serán confidenciales; las existencias y criterios serán públicos.",
+    "autor": 2,
+    "ronda": 2,
+    "votos": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "regla": "unanimidad"
+  },
+  {
+    "puntos": [
+      "disputas",
+      "penas"
+    ],
+    "texto": "Las disputas comenzarán con diálogo y mediación de una persona aceptada por las partes. Si fracasan, la asamblea resolverá con pruebas, audiencia y defensa. Las sanciones exigirán norma previa, cuatro votos afirmativos secretos y abstención de quienes tengan interés directo; sin ese umbral no habrá sanción. Serán proporcionales: advertencia, reparación acordada según capacidades o restricción temporal de funciones y acceso autónomo a herramientas vinculadas al daño, con revisión semanal. Nunca habrá violencia, expulsión, trabajo forzado ni privación de recursos vitales o atención sanitaria. Retirarse o abstenerse no será infracción. Ante daño ecológico inminente se suspenderá preventivamente la actividad peligrosa, mediante medidas mínimas, revisadas inmediatamente por la asamblea.",
+    "autor": 4,
+    "ronda": 2,
+    "votos": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "regla": "unanimidad"
+  }
+]
