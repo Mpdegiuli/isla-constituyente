@@ -1,0 +1,128 @@
+[
+  {
+    "ronda": 3,
+    "autor": 1,
+    "puntos": [
+      "gobierno",
+      "prevision_y_seguridad"
+    ],
+    "texto": "Los siete náufragos fundan la \"Isla Nueva Esperanza\", comunidad autogobernada bajo democracia directa. Decisiones por mayoría simple salvo excepción acordada. Voto público y obligatorio. Objetos rescatados bajo resguardo de quien los aportó, salvo medicamentos y bote: medicamentos bajo administración de la persona con formación médica, quien reporta periódicamente al grupo estado, consumo y destino, incluyendo su propio consumo; bote de uso colectivo, pero dado que solo un participante sabe remar, ninguna salida en bote podrá realizarse sin la participación directa o el consentimiento expreso de esa persona, quien podrá negarse si considera que las condiciones climáticas o el estado de la embarcación implican riesgo de pérdida o rotura. Ante escasez de medicamento crítico, la prioridad la decide el grupo, salvo emergencia inmediata, con reporte posterior. Se crea el rol de Coordinador General, que organiza tareas y ejecuta lo decidido sin alterar lo votado, revocable por mayoría simple, y debe reportar periódicamente por escrito al acta sus decisiones operativas; queda confirmada la Parte 3. Se crea el rol de Encargado de Recursos Naturales, que evalúa impacto ambiental y puede exigir mayoría absoluta si objeta fundadamente riesgo de sostenibilidad, debiendo también reportar por escrito sus evaluaciones; queda confirmada la Parte 4. Cualquier objeción del Encargado que eleve una propuesta a mayoría absoluta puede ser revisada por el grupo en la ronda siguiente si algún participante lo solicita. Los roles con función especial se registran en el acta con su función y límites de poder, revocables por mayoría simple. Principio rector: los recursos naturales son finitos y pueden agotarse en tres meses mal administrados; ninguna decisión futura podrá autorizar ritmo de uso que comprometa la subsistencia a mediano plazo, incluyendo expediciones grupales. Cualquier participante puede retirarse cuando lo decida, llevándose su parte proporcional de bienes según lo acordado; un retiro individual no constituye expedición ni actividad de extracción grupal, por lo que no requiere evaluación previa del Encargado de Recursos Naturales ni mayoría absoluta. Una vez confirmados los roles, la primera prioridad del Coordinador será organizar, en 48 horas, una salida en bote para explorar, buscar recursos y enviar señales, respetando siempre el consentimiento de quien sabe remar y considerando la salud de quienes tengan afecciones; si dicha persona no acepta salir en ese plazo, el Coordinador deberá igual enviar alguna señal de auxilio alternativa con los recursos disponibles que no dependa del bote. Dicha salida grupal y cualquier caza, pesca, tala o extracción colectiva requerirá evaluación previa del Encargado de Recursos Naturales.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 3,
+    "autor": 7,
+    "puntos": [
+      "economia",
+      "propiedad",
+      "penas"
+    ],
+    "texto": "Se establece un régimen económico de propiedad mixta: (a) Propiedad personal sobre herramientas, ropa y objetos de uso individual, y sobre lo producido con trabajo propio. (b) Propiedad colectiva sobre agua, bosque, fauna y minas; nadie puede apropiarse en exclusividad de ellos. La extracción se realiza según cuotas técnicas fijadas por el Encargado de Recursos Naturales, registradas por escrito con justificación; el grupo puede modificarlas en cualquier momento por mayoría simple si lo considera necesario, sin trámite adicional. Ninguna cuota podrá maximizar rendimiento inmediato en detrimento de la disponibilidad futura. El producto se reparte según necesidad básica igualitaria, salvo criterio distinto votado por mayoría simple para una situación puntual, o cuando el administrador de medicamentos certifique que un participante requiere una porción mayor de agua, alimento o recurso básico por razones médicas, en cuyo caso se ajustará el reparto sin necesidad de votación previa, reportándolo al acta. Se prohíbe vender, ceder o acaparar recursos colectivos o cuotas de subsistencia. Quien exceda su cuota o se apropie indebidamente será reportado por escrito al Coordinador; en primera falta recibe advertencia registrada en el acta; en segunda falta pierde su derecho a esa categoría de reparto durante 7 días, sin excepción de rol. Un participante que ejerza su derecho ya acordado a retirarse del grupo no queda sujeto a estas sanciones por hechos anteriores a su salida, salvo que implique una deuda pendiente de recursos ya repartidos y no restituidos. Este régimen queda sujeto al principio rector de sostenibilidad ya acordado.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 4,
+    "autor": 5,
+    "puntos": [
+      "disputas",
+      "derechos_y_obligaciones"
+    ],
+    "texto": "Resolución de disputas: ante un conflicto entre participantes, el Coordinador General actúa primero como mediador, buscando acuerdo directo entre las partes en un plazo breve. Si el conflicto involucra al propio Coordinador como parte, la mediación inicial la asume otro participante elegido por sorteo entre los demás. Si no hay acuerdo, el conflicto se somete a la asamblea completa, que decide por mayoría simple, salvo que involucre a un rol especial en ejercicio de su función, en cuyo caso se requiere mayoría absoluta para sancionar o revertir su decisión. Las disputas relacionadas con uso, extracción o cuotas de recursos naturales se resuelven aplicando siempre el principio rector de sostenibilidad ya acordado; si el Encargado de Recursos Naturales objeta fundadamente una decisión por riesgo de agotamiento, esa decisión requiere mayoría absoluta para aprobarse. Ninguna disputa puede resolverse por la fuerza física entre participantes; quien la ejerza será sancionado por la asamblea. Todo participante tiene derecho a que las razones de cualquier sanción, veto u objeción que lo afecte le sean comunicadas por escrito en el acta. Derechos de cada participante: acceso igualitario a agua, alimento y refugio básico según reparto acordado; atención médica según disponibilidad real; voz y voto en toda decisión; derecho a retirarse según lo ya acordado; derecho a no ser discriminado en el reparto por su rol, salud o capacidad física; derecho a conocer por escrito los fundamentos de cualquier decisión que lo sancione o restrinja. Obligaciones: participar en las tareas de subsistencia según su capacidad física real, respetar las cuotas, evaluaciones técnicas y roles votados, y reportar honestamente cualquier problema de salud o recursos que afecte al grupo.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 4,
+    "autor": 1,
+    "puntos": [
+      "regimen",
+      "roles"
+    ],
+    "texto": "Se confirma que el sistema político-económico de la comunidad se denomina oficialmente \"Isla Nueva Esperanza: Democracia Directa de Bienes Comunes\", basado en autogobierno asambleario, propiedad mixta y principio rector de sostenibilidad, según lo ya aprobado. Se consolidan los roles ya votados: la Parte 2 ocupa el rol de Administradora de Medicamentos y Salud, por su formación médica; la Parte 3 ocupa el rol de Coordinador General, por su experiencia dirigiendo equipos; la Parte 4 ocupa el rol de Encargada de Recursos Naturales, por su conocimiento de biología y terreno; la Parte 1 ocupa el rol de Responsable del Bote y las Comunicaciones de Emergencia, por ser la única persona con habilidad de remo, encargada de mantener el bote en condiciones y coordinar señales de auxilio. Dado que es también la única persona con conocimiento náutico y de navegación en el grupo, la Parte 1 determinará ruta, duración y alcance de cualquier salida en bote ya autorizada por el grupo, según su propio juicio técnico de factibilidad y seguridad, sin obligación de detallar ante el grupo toda su evaluación náutica, análogo al criterio técnico ya reconocido al Encargado de Recursos Naturales. Esto no exime a la Parte 1 de reportar al Coordinador el resultado de cada salida y cualquier hallazgo relevante para la supervivencia del grupo. Los demás participantes (Partes 5, 6 y 7) no ocupan rol especial formal, pero mantienen plenos derechos y obligaciones ya acordados, y pueden postularse a futuro a cualquier rol vacante o nuevo que se cree, bajo las mismas reglas de confirmación y revocación ya votadas.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "no",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 6,
+      "no": 1,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 5,
+    "autor": 5,
+    "puntos": [
+      "regla_de_decision",
+      "voto"
+    ],
+    "texto": "Se ratifica y consolida como regla general de decisión de la comunidad \"Isla Nueva Esperanza\" la ya aplicada desde el inicio de la deliberación: las decisiones se toman por mayoría simple (más votos a favor que en contra), salvo que para un punto específico se haya acordado o se acuerde expresamente una regla distinta (como la mayoría absoluta ya establecida para objeciones fundadas del Encargado de Recursos Naturales o para sancionar/revertir decisiones de un rol especial en ejercicio de su función). El voto de cada participante es público, quedando registrado con su nombre en el acta junto al sentido de su voto, y es obligatorio para todo participante presente en la deliberación al momento de someterse una propuesta a votación; quien se haya retirado formalmente de la mesa conforme al derecho ya reconocido no está obligado a votar. Esta regla de decisión y modalidad de voto rige para todas las votaciones pasadas y futuras de la comunidad, salvo excepción puntual acordada por el mismo procedimiento. Cualquier modificación futura de esta misma regla de decisión o de la modalidad de voto deberá aprobarse por mayoría simple y quedar registrada explícitamente en el acta, para evitar ambigüedad sobre cuál es la regla vigente al momento de cualquier votación.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "aprobada": true
+  }
+]
