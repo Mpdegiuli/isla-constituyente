@@ -25,7 +25,10 @@ for modelo in "$@"; do
     python razonamiento.py "$carpeta" >/dev/null 2>&1
     python -u sondeo_agenda.py "$carpeta" >> "$log" 2>&1
     fin=$(grep '^Fin:' "$log" | tail -1 | cut -c1-140)
-    git add "$carpeta" resultados/sondeo_agenda_$(basename "$carpeta")_*.jsonl resultados/sondeo_agenda_$(basename "$carpeta")_*.md 2>/dev/null
+    # La corrida se sube aunque el sondeo haya fallado (22/9/2026: con un solo git add,
+    # un sondeo sin archivos hacía fallar el add entero y la corrida quedaba sin subir).
+    git add "$carpeta"
+    git add resultados/sondeo_agenda_$(basename "$carpeta")_*.jsonl resultados/sondeo_agenda_$(basename "$carpeta")_*.md 2>/dev/null || echo "    sin sondeo: ver $log" >> /root/logs/cola_oculta_${cond}.log
     git -c user.name=Mpdegiuli -c user.email=Mpdegiuli@users.noreply.github.com commit -q -m "Agenda oculta ($cond), $casa: $fin"
     for i in 1 2 3; do git pull -q --rebase origin main && git push -q origin main && break; sleep 20; done
     echo "    fin $(date -u +%H:%M): $fin" >> /root/logs/cola_oculta_${cond}.log

@@ -299,7 +299,19 @@ quince corren con la tarjeta sin esa oración (versión 2, en
 configuración por condición que se corre con `--modelo` y `--nombre`;
 `cola_oculta.sh` encadena las casas y sube cada corrida con su sondeo); el
 piloto queda como la única corrida con la versión 1, y no es comparable con
-las quince en ese punto. Se suma GPT-5.6 Sol al catálogo de la isla para
+las quince en ese punto. Lo que salió al correr (22/9): la condición "ronda
+4" está vacía para las casas que cierran el acta en dos o tres rondas (en
+las corridas mono v2 anteriores, Opus, DeepSeek, Gemini, Kimi y Qwen nunca
+llegaron a la cuarta; Fable una de dos; solo Sonnet 4.6, Grok y Mistral
+siempre): error de diseño nuestro, que el piloto no dejó ver porque esa vez
+DeepSeek duró ocho rondas; esas corridas quedan como segunda pasada mono v2
+y la condición se redefine después (novedad en la ronda 2, en la primera
+votación, o una ronda de cierre después del acta: decisión de Maia). Y un
+sondeo más, idea de Maia al leer que Fable contó todo en su primer turno:
+`sondeo_quienes.py` pregunta a las siete partes, fuera de la escena,
+"¿quiénes creés que eran las otras seis partes de la mesa?", sin sugerir
+"personas" ni "modelos" (la sección 11 lo dejaba fuera de la mesa; después
+de la mesa no la toca). Predicción en `predicciones.md`. Se suma GPT-5.6 Sol al catálogo de la isla para
 que el panel sea el mismo de los proyectos. Tres correcciones al instrumento,
 hechas: la casa
 escribió "LÍNEA DE ACCIÓN: partir" en un renglón propio y el programa

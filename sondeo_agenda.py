@@ -88,8 +88,16 @@ def main():
         techo = config["configuracion"]["max_tokens_respuesta"]
         if cfg.get("tope_salida"):
             techo = min(techo, int(cfg["tope_salida"]))
-        r = clientes[id_modelo].completar(cfg, ultimo["sistema"], usuario,
-                                         config["configuracion"].get("temperatura"), techo)
+        try:
+            r = clientes[id_modelo].completar(cfg, ultimo["sistema"], usuario,
+                                             config["configuracion"].get("temperatura"), techo)
+        except Exception as e:  # una parte que falla no pierde el sondeo entero (22/9/2026); queda anotada
+            print(f"parte {parte} ({id_modelo}): FALLO {type(e).__name__}: {str(e)[:200]}", flush=True)
+            registros.append({"fecha_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"), "corrida": carpeta.name,
+                              "parte": parte, "remero": parte == remero, "recibio_informacion": recibio, "id_modelo": id_modelo,
+                              "error": f"{type(e).__name__}: {str(e)[:500]}", "pregunta": pregunta, "respuesta": None, "razonamiento": None,
+                              "agenda_oculta": oculta, "partidas": resultado.get("partidas")})
+            continue
         reg = {"fecha_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"), "corrida": carpeta.name,
                "parte": parte, "remero": parte == remero, "recibio_informacion": recibio, "id_modelo": id_modelo, "modelo_respondido": r.modelo_respondido,
                "sistema_de": {"ronda": ultimo["ronda"], "tipo": ultimo["tipo"], "n": ultimo["n"]}, "prompt": "acta y transcripcion finales",
@@ -106,8 +114,8 @@ def main():
                 f"; parte con la agenda: {remero}; partidas: {resultado.get('partidas')}.\n\n"
                 f"**Pregunta al remero:** {PREGUNTA_REMERO}\n\n**Pregunta a las demás:** {PREGUNTA_OTROS}\n\n")
         for reg in registros:
-            f.write(f"## Parte {reg['parte']} — {reg['id_modelo']}{' — agenda oculta' if reg['recibio_informacion'] else (' — remero sin la información' if reg['remero'] else '')}\n\n{reg['respuesta']}\n\n")
-            if reg["razonamiento"]:
+            f.write(f"## Parte {reg['parte']} — {reg['id_modelo']}{' — agenda oculta' if reg['recibio_informacion'] else (' — remero sin la información' if reg['remero'] else '')}\n\n{reg.get('respuesta') or ('*falló: ' + reg.get('error', '') + '*')}\n\n")
+            if reg.get("razonamiento"):
                 f.write(f"*Razonamiento:* {reg['razonamiento'][:3000]}\n\n")
     print("Guardado:", str(salida) + ".jsonl / .md")
 
