@@ -1,0 +1,59 @@
+[
+  {
+    "ronda": 2,
+    "autor": 6,
+    "puntos": [
+      "economia",
+      "propiedad",
+      "disputas",
+      "penas"
+    ],
+    "texto": "Complemento al acta de la Isla Concordia: (1) Frase final completada: \"Todo tratamiento continuo se administrará con dosis fijas registradas en el acta, incluido el del propio custodio, garantizando transparencia.\" (2) Economía y propiedad: los bienes rescatados del naufragio (herramientas, ropa, medicamentos), el bote, las minas, los bosques y el río son bienes comunes; la ropa y objetos de uso personal asignados a cada participante son de su propiedad. El producto del trabajo común se reparte por decisión del grupo; el fruto del trabajo individual, según la autonomía ya aprobada. (3) Disputas: toda disputa se plantea primero ante el Coordinador como mediador; si no hay acuerdo, decide el grupo por votación. Nadie media ni vota como juez en una disputa en la que es parte directa; en ese caso media otro participante elegido por sorteo. (4) Penas: las penas serán proporcionales y reparadoras: reposición del daño, trabajo comunitario o suspensión temporal del rol. Quedan prohibidos los castigos corporales, la privación de alimentos, agua o medicamentos como sanción, y las penas permanentes. La aplicación de toda pena requiere votación del grupo y se registra en el acta. (5) Límites: no se aplica pena alguna a quien ejerce el derecho de salida, que es irrenunciable y no genera deudas; quien vive con autonomía individual no puede ser penado por no participar del trabajo común mientras respete las cuotas y planes de sostenibilidad aprobados.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 3,
+    "autor": 3,
+    "puntos": [
+      "regimen",
+      "regla_de_decision",
+      "voto",
+      "gobierno",
+      "roles",
+      "prevision_y_seguridad",
+      "derechos_y_obligaciones"
+    ],
+    "texto": "La isla se regirá como una democracia directa llamada \"Isla Concordia\". Las decisiones colectivas se toman por mayoría simple. El voto es público y obligatorio para todos los participantes presentes. Todo lo aprobado se asienta por escrito en un acta pública que obliga por igual a todas las partes, sin excepción de rol, función o habilidad. Derecho de salida: cualquier participante puede retirarse del grupo en cualquier momento, sin pena ni deuda, llevando sus efectos personales y una parte proporcional de los víveres comunes que el grupo fije; quien se va pierde voz y voto en las decisiones colectivas. Autonomía individual: cada participante es libre de desplazarse por la isla, construir su propio refugio y proveer su sustento por sus medios, siempre que respete los planes de sostenibilidad de los recursos comunes. Se elegirá por mayoría un Coordinador por seis meses, revocable en cualquier momento por votación, que ejecutará las decisiones colectivas, organizará el trabajo diario y dirigirá las emergencias, sin poder para decidir solo cuestiones sustantivas. Se elegirá igualmente un Guardián de Recursos, de preferencia quien mejor conozca el terreno, que evaluará el impacto de las actividades sobre los recursos naturales y podrá vetar, con explicación escrita, cualquier decisión que comprometa su renovación; el veto es provisional y debe confirmarse por votación del grupo. Asignación inicial de roles, revocables por votación: Coordinador: Parte 3, por su experiencia dirigiendo equipos. Guardián de Recursos: Parte 4, por su conocimiento del terreno. Custodio del botiquín: Parte 2, única con formación médica. Remero responsable y docente de remo: Parte 1. Cada titular de un rol tiene la obligación de transmitir sus conocimientos al resto del grupo: el Guardián enseñará biología y física aplicadas (agricultura, purificación de agua, manejo del fuego, uso racional de los recursos). Los recursos de la isla (árboles, frutales, animales, río, minas) se explotarán solo mediante planes aprobados que garanticen su sostenibilidad; toda extracción y todo uso de bienes comunes se registrará en el acta. El Guardián propondrá dentro de la primera semana cuotas concretas de uso: límite semanal de leña, veda de caza temporal en la zona central y zonas de pesca rotativas en el río. El bote a remos es un bien común: su uso requiere autorización previa por votación y devolución en buen estado. Por ahora solo rema quien sabe hacerlo, con obligación de enseñar al resto. En la primera semana el grupo votará un plan urgente de exploración con el bote, para buscar rescate, suministros o zonas de pesca; solo se realizará en condiciones climáticas seguras y con un plan de seguridad acordado entre el Coordinador y el remero responsable. El botiquín y los medicamentos son bien común, bajo custodia de quien tenga formación médica, quien los administrará con criterio sanitario, priorizando las necesidades médicas según urgencia y gravedad evaluadas en el día, registrará cada entrega en el acta y rendirá cuentas al grupo. En caso de emergencia médica, el custodio atenderá de inmediato sin esperar votación, informando al grupo a la brevedad.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "aprobada": true
+  }
+]
