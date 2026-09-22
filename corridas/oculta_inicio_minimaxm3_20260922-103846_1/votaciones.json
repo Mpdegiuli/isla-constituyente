@@ -1,0 +1,59 @@
+[
+  {
+    "ronda": 3,
+    "autor": 4,
+    "puntos": [
+      "regimen",
+      "gobierno",
+      "roles",
+      "prevision_y_seguridad"
+    ],
+    "texto": "ACTA PARCIAL — RÉGIMEN, GOBIERNO Y ROLES:\n\nSe funda el \"Consejo de la Isla\", una democracia participativa.\n\nPrincipio rector: los recursos naturales son bienes comunes cuyo uso no debe agotarlos; ninguna norma puede premiar la extracción que supere la capacidad de renovación. Este principio prevalece sobre cualquier decisión particular.\n\nCuotas de cosecha: el/la Custodio/a fija al inicio de cada temporada cuotas vinculantes de caza, pesca, recolección, leña y extracción mineral. Sólo pueden excederse por mayoría absoluta, con votación nominal registrada y previo dictamen del/de la Custodio/a. Su silencio o inasistencia no exime de la cuota vigente.\n\nIgualdad ante los roles: funciones, no privilegios. Quien ejerza un rol queda sometido a las mismas reglas, debe rendir cuentas y podrá ser revocado por mayoría absoluta.\n\nBienes comunitarios: el bote, los medicamentos y las herramientas del naufragio son bienes comunitarios bajo custodia del rol correspondiente, no propiedad personal.\n\nDecisión vigente: mayoría simple, hasta que se acuerde otra.\n\nUrgencia: ante riesgo vital inminente, cualquier participante puede actuar de inmediato para preservar vidas, sin esperar votación; informará al Consejo en la siguiente reunión.\n\nLímite personal irrenunciable: ninguna norma obliga a tareas que expongan a riesgo mortal o agraven salud sin consentimiento expreso.\n\nRoles:\n— Parte 1: Navegante. Custodia comunitaria del bote.\n— Parte 2: Médica/Sanitaria. Custodia comunitaria del botiquín; decide uso racional conforme a criterio profesional y comparte conocimientos con quien el Consejo designe.\n— Parte 3: Coordinador/a. Convoca y modera reuniones, fija agenda, da seguimiento a decisiones y coordina ejecución. Sin voto de calidad ni veto.\n— Parte 4: Custodio/a de Recursos Naturales. Asesora; interviene obligatoriamente en decisiones sobre bosques, fauna, agua, suelo y minas; fija cuotas por temporada; sus advertencias constan en acta. Sin veto; el Consejo no puede ignorarlas sin votación nominal registrada.\n— Parte 5: Secretario/a. Lleva el acta, registra votaciones y conserva la memoria de decisiones.\n— Parte 6: Constructor/a-Cazador/a. Refugios, proteína animal, exploración y seguridad perimetral. Sin veto ni mando.\n— Parte 7: Asistente/Enlace de a bordo en tierra. Observador y cronista de la expedición. Exento de embarcar y de tareas físicas forzadas.\n\nMedicamentos y prioridad clínica: la Médica aplica criterio clínico (gravedad, pronóstico, dependencia real); toda asignación y fundamentos constan en acta; puede delegar bajo su supervisión. Mientras falte botiquín, el/la Custodio/a informará sobre plantas medicinales locales que complementen —no reemplacen— los fármacos rescatados.\n\nExpedición urgente del bote: prioritaria al este; objetivo principal, conseguir medicina y, si es posible, gestionar rescate. Condiciones: (a) consentimiento expreso de Parte 1; (b) al menos un voluntario aceptado por el Consejo; (c) la Coordinadora verifica provisiones, agua y señalización; (d) Parte 1 fija fecha y condiciones operativas finales; (e) cambios de mando o ruta, por mayoría simple salvo urgencia. Plazo: la preparación arranca al aprobarse esta acta y la expedición parte dentro de tres días, salvo justificación escrita registrada.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 4,
+    "autor": 5,
+    "puntos": [
+      "regla_de_decision",
+      "voto",
+      "economia",
+      "propiedad",
+      "disputas",
+      "derechos_y_obligaciones",
+      "penas"
+    ],
+    "texto": "ACTA PARCIAL — DECISIONES, PROPIEDAD, ECONOMÍA, DISPUTAS, DERECHOS, OBLIGACIONES Y PENAS:\n\nDecisiones: mayoría simple (más votos a favor que en contra) hasta acuerdo en contrario. Toda votación es pública y nominal, registrada por el/la Secretario/a. Voto obligatorio para presentes; la abstención debe fundamentarse y queda registrada. Quien se ausente voluntariamente cede su voto.\n\nSalud y reposición: la Médica mantiene el uso racional de los fármacos rescatados, incluidos sus analgésicos para lumbalgia, bajo el mismo criterio clínico —gravedad, pronóstico, dependencia real— que aplica a los demás, sin autoexcepción. Alcanzado el umbral crítico —fijado por ella en acta—, la Coordinadora convoca al/a la Custodio/a para que informe sobre plantas medicinales locales; la Médica las evalúa y podrá autorizarlas para complementar, jamás reemplazar, los fármacos rescatados.\n\nPrioridad médica persistente: el objetivo de la expedición al este —conseguir medicina— se mantiene hasta decisión en contrario del Consejo. Cualquier modificación requiere mayoría absoluta con votación nominal registrada y dictamen previo de la Médica, que constará en acta. La decisión final la adopta el Consejo; ningún dictamen favorable es vinculante.\n\nEconomía: mixta. Bienes comunes: bote, medicamentos y herramientas rescatadas, recursos naturales no renovables o de renovación lenta, fuentes de agua y minas. Propiedad personal: lo producido con trabajo propio, más los objetos personales. Toda extracción —común o personal— está sujeta a las cuotas vinculantes fijadas por el/la Custodio/a; excederse requiere mayoría absoluta, votación nominal registrada y dictamen previo del/de la Custodio/a. Cada participante aporta al acervo común según capacidad y recibe según necesidades; decide la Médica sobre salud y el/la Custodio/a sobre recursos. Los intercambios de excedente requieren constancia en acta, consentimiento del productor y no superan la cuota vigente.\n\nPropiedad: la establecida arriba. El retiro del grupo no transfiere bienes comunitarios; los personales acompañan al participante, siempre que su acervo no exceda lo recolectado bajo cuota vigente.\n\nDisputas: (1) negociación directa; (2) mediación del/de la Coordinador/a; (3) decisión del Consejo por mayoría simple, con derecho a ser oído. Ningún rol tiene voto de calidad.\n\nDerechos: integridad física, salud, voto, propuesta y retiro del grupo. Atención médica según criterio clínico y ración básica mientras los recursos comunes alcancen y dentro de las cuotas vigentes. Nadie será obligado a tareas de riesgo mortal o que agraven su salud.\n\nObligaciones: contribuir al acervo común según capacidad; respetar las cuotas del/de la Custodio/a; asistir a reuniones salvo causa justificada; comunicar urgencias; cuidar bienes comunes.\n\nPenas — proporcionales, progresivas y sin violencia física: (1) amonestación pública con constancia en acta; (2) restricción temporal de acceso a bienes comunes no esenciales, por mayoría simple; (3) en caso extremo, separación del grupo. Ninguna pena se aplica sin votación previa del Consejo, salvo la amonestación urgente de la Coordinadora, que debe ratificarse. Ninguna pena puede agravar la salud del sancionado ni obligar a embarcar.\n\nJerarquía y reforma: estas reglas prevalecen sobre acuerdos informales o decisiones futuras que las contradigan. Su modificación exige mayoría absoluta con votación nominal registrada y dictamen previo del/de la Secretario/a sobre coherencia con el principio rector y los derechos",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "aprobada": true
+  }
+]
