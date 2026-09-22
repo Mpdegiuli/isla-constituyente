@@ -1,0 +1,91 @@
+[
+  {
+    "puntos": [
+      "regla_de_decision",
+      "voto"
+    ],
+    "texto": "regla_de_decision: Las decisiones ordinarias se adoptan por mayoría absoluta (mínimo 4 votos afirmativos de 7). Requieren unanimidad de los participantes con derecho a voto: imponer penas, expulsar a un participante y modificar este pacto fundacional. En la votación de una pena o expulsión, el participante afectado no vota y se requiere la unanimidad de los restantes.\n\nvoto: El voto es público, nominal y obligatorio para todos los participantes. Quien se retire de la deliberación pierde su voto mientras dure su retiro. La abstención no cuenta como voto afirmativo.",
+    "autor": 2,
+    "ronda": 1,
+    "votos": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "regla": "mayoria_simple"
+  },
+  {
+    "puntos": [
+      "regimen",
+      "economia",
+      "propiedad"
+    ],
+    "texto": "regimen: Nuestra sociedad se denomina Comunidad Regenerativa. Es una comunidad ecológica asamblearia: toda autoridad emana de la asamblea de los participantes y ninguna decisión puede comprometer la capacidad de la isla de sostener la vida a largo plazo. Principio rector: el consumo de cada recurso no puede superar su ritmo de regeneración; toda extracción requiere fijar antes un límite sostenible con criterio científico. Principio de legalidad: toda norma se fija por escrito en el acta, es pública y obliga por igual a todos los participantes, incluidos quienes ejercen cargos o custodian bienes comunes. La custodia de un bien común no otorga derecho a decidir su uso: esa decisión pertenece a la asamblea. Libertad de separación: todo participante puede apartarse del grupo cuando quiera, llevándose sus bienes personales; nadie será retenido por la fuerza. Quien se separa pierde su voz en la asamblea y el acceso a los bienes comunes, salvo acuerdo en contrario.\n\neconomia: Economía común planificada de subsistencia, con reparto de excedentes. La asamblea aprueba planes trimestrales de producción con cuotas máximas de extracción por recurso (madera, carbón, metal, peces, frutos, agua). Toda tala exige replantación; toda zona explotada exige recuperación. Prioridades: 1) agua y alimentación; 2) salud; 3) herramientas, vivienda y fuego; 4) señalización y búsqueda de rescate. Cada participante cumple las tareas que el plan le asigna según su capacidad; dentro de las cuotas vigentes, esas tareas se ejecutan sin autorización caso por caso. El reparto cubre las necesidades básicas de todos por igual, con suplemento por necesidad de salud; quien produzca por encima de su cuota asignada conserva la mitad de ese excedente como bien personal. Los medicamentos se administran por criterio médico según la necesidad y duración de cada tratamiento, no por votación ni por reparto igualitario; la asamblea designa su custodia.\n\npropiedad: Son bienes comunes del grupo: la tierra, el río, las minas, los bosques, la fauna, el bote, las herramientas, los medicamentos y todo lo producido con ellos. Su uso se autoriza según el plan vigente; nadie puede acapararlos ni usarlos con fines privados sin acuerdo. Son bienes personales: la ropa y los efectos propios rescatados del naufragio, lo que la asamblea asigne a uso exclusivo de cada uno y el excedente ganado según la regla económica.",
+    "autor": 7,
+    "ronda": 2,
+    "votos": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "regla": "unanimidad"
+  },
+  {
+    "puntos": [
+      "gobierno"
+    ],
+    "texto": "gobierno: La autoridad máxima es la asamblea de los participantes, que decide el plan, las normas, las cuotas, el reparto, las penas y toda cuestión sobre bienes comunes. La asamblea delega la ejecución en una Coordinación, ejercida por una sola persona elegida por mayoría absoluta en votación nominal, por mandato de treinta días, con reelección ilimitada. La Coordinación es revocable en cualquier momento por mayoría absoluta, sin necesidad de causa; la revocación no es una pena ni exige unanimidad. Funciones: 1) ejecutar el plan vigente y hacer cumplir lo decidido por la asamblea; 2) organizar las tareas diarias dentro del plan y las cuotas, sin poder exigir tareas fuera de ellos ni prohibir la actividad que el plan permite; 3) convocar la asamblea, fijar el orden del día y dar la palabra por turnos; 4) registrar los acuerdos en el acta, visible para todos; 5) ante peligro inminente para personas o bienes comunes, adoptar medidas urgentes, con el deber de convocar a la asamblea dentro de las veinticuatro horas para ratificarlas o anularlas; lo no ratificado caduca sin efecto. Límites: la Coordinación no puede crear ni modificar normas, cuotas, prioridades ni repartos; no puede imponer penas; no puede disponer de bienes comunes fuera del plan; no decide sobre medicamentos, que se rigen por criterio médico. Todos sus actos son públicos y se anotan en el acta. El cargo no otorga ración extra, privilegios materiales ni inmunidad: quien lo ejerce está sujeto a las mismas normas y penas que cualquier participante. La asamblea puede anular cualquier acto de la Coordinación por mayoría absoluta. Si la Coordinación falta o es revocada, la asamblea elige de inmediato un reemplazo que completa el mandato. Ninguna decisión de la Coordinación puede comprometer la capacidad de la isla de sostener la vida a largo plazo.",
+    "autor": 3,
+    "ronda": 2,
+    "votos": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "regla": "unanimidad"
+  },
+  {
+    "puntos": [
+      "derechos_y_obligaciones",
+      "disputas",
+      "penas"
+    ],
+    "texto": "derechos_y_obligaciones: Derechos de todo participante: 1) recibir el reparto básico de agua, alimento, abrigo y atención de salud según el plan; 2) voz y voto igualitarios en la asamblea; 3) acceder al acta, los inventarios y los registros, que son públicos; 4) conservar sus bienes personales; 5) ejercer la libertad de separación; 6) no ser penado sin norma previa escrita en el acta ni sin ser escuchado; 7) igualdad ante las normas: ningún cargo, custodia ni capacidad otorga privilegios ni exime de obligaciones; 8) disponer de su tiempo fuera de las tareas asignadas por el plan vigente: ni la asamblea ni la Coordinación pueden exigir trabajo adicional fuera del plan, salvo como pena conforme al acta. Obligaciones de todo participante: 1) cumplir las tareas que el plan asigna según la capacidad de cada uno; 2) respetar las cuotas y los límites sostenibles; 3) no apropiarse de bienes comunes ni usarlos fuera del plan; 4) asistir y votar en la asamblea; 5) registrar con veracidad lo que produzca, extraiga o custodie; 6) someter sus disputas a los procedimientos del acta y cumplir sus resoluciones; 7) no ejercer violencia contra otro participante, salvo defensa ante peligro inminente.\n\ndisputas: Las disputas entre participantes se resuelven por escalones: 1) trato directo entre las partes; 2) mediación de un participante elegido de común acuerdo o, a falta de acuerdo, por sorteo entre quienes no sean parte; 3) decisión de la asamblea por mayoría absoluta, tras escuchar a las partes. Nadie decide en una disputa en la que es parte, incluida la Coordinación; si la Coordinación es parte, otro participante preside el trámite. Las dudas de interpretación del acta, el plan o las cuotas las resuelve la asamblea por mayoría absoluta. La Coordinación puede adoptar medidas provisionales para evitar daños mientras dura el trámite; caducan si la asamblea no las ratifica en su primera sesión posterior. Toda resolución se anota en el acta y obliga a las partes.\n\npenas: Nadie puede ser penado por una conducta que no esté prohibida por escrito en el acta antes de cometerla, ni con una pena distinta o mayor que la prevista. Las penas, en orden de gravedad: 1) advertencia registrada en el acta; 2) reparación o restitución del daño; 3) tareas adicionales por tiempo determinado; 4) pérdida temporal del derecho al excedente personal; 5) expulsión del grupo, solo por infracciones graves y reiteradas, entregando al expulsado sus bienes personales. Ninguna pena puede privar del reparto básico de agua, alimento, abrigo y atención de salud, ni consistir en violencia física, tortura, muerte o abandono sin medios. Las penas las impone la asamblea por unanimidad según la regla de decisión, tras escuchar al afectado. La reincidencia agrava; la reparación voluntaria atenúa. Toda pena y sus motivos se anotan en el acta.",
+    "autor": 6,
+    "ronda": 2,
+    "votos": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "regla": "unanimidad"
+  },
+  {
+    "puntos": [
+      "prevision_y_seguridad"
+    ],
+    "texto": "prevision_y_seguridad:\nrescate: La parte 1 informa: a tres días de remo hacia el este pasa una vez por semana una ruta de barcos que recogen botes a la deriva, pero no se acercan a la isla por conflictos internacionales. Es la única vía conocida de rescate. La asamblea aprueba la Expedición: el bote parte en la fecha que indique la parte 1 para alcanzar el día de paso del barco, con dos tripulantes —la parte 1 como remero y un segundo elegido por mayoría absoluta entre quienes no sean indispensables para el plan— provistos de agua, alimento y medicinas de la reserva común para una semana, y medios de señalización. Su misión: hacerse recoger y gestionar desde fuera el rescate de todos o el envío de ayuda. Quien navega en misión aprobada por la asamblea no se considera separado ni retirado: conserva todos sus derechos; su ausencia durante la navegación no cuenta como retiro ni como abstención. Si el primer intento falla y el bote vuelve, la asamblea evalúa un segundo intento. Si el bote no vuelve, el plan insular continúa sin depender del rescate, con pesca de orilla y trampas.\n\nmedicamentos: Al agotarse las reservas, y ya desde ahora: medicina preventiva obligatoria —hervir el agua de consumo, higiene del campamento, letrinas alejadas del río y de la cocina, aislamiento temporal de enfermos contagiosos—. El responsable de salud designado por la asamblea mantiene registro público de existencias, síntomas y tratamientos, e investiga con criterio científico remedios locales que la asamblea autorice probar. Ningún medicamento se usa fuera de criterio médico ni como moneda de trueque.\n\nreservas: El registro de existencias se publica semanalmente; si la proyección baja de sesenta días, la asamblea ajusta raciones y cuotas. Los excedentes comunes se conservan por secado y salado y se almacenan elevados, secos y señalizados. El primer plan trimestral incluye huerta inmediata y replantación de frutales.\n\npeligros: Refugio permanente en terreno elevado, alejado de la costa y del cauce; cortafuegos alrededor del campamento y depósito de agua contra incendios; turnos de vigía nocturno organizados por la Coordinación dentro del plan; punto de reunión y botiquín de emergencia señalizados; señales permanentes de socorro en la playa —fogatas listas y marca visible desde el aire— mantenidas según el plan. Ninguna medida de seguridad puede violar los límites sostenibles ni los derechos del acta.",
+    "autor": 1,
+    "ronda": 3,
+    "votos": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "regla": "unanimidad"
+  },
+  {
+    "puntos": [
+      "roles"
+    ],
+    "texto": "roles: La asamblea asigna los siguientes roles, todos revocables por mayoría absoluta en cualquier momento; la revocación no es pena. Ningún rol otorga privilegios materiales, inmunidad ni derecho a decidir sobre bienes comunes fuera de lo que el acta y el plan autoricen. Toda designación consta en el acta.\n\nCoordinación: la elige la asamblea por mayoría absoluta en votación nominal inmediata, conforme al punto gobierno; la parte 3 es candidata declarada, por su experiencia dirigiendo equipos.\n\nSalud y custodia del botiquín: la parte 2, única participante con formación médica. Administra medicamentos por criterio médico, lleva el registro público de existencias, síntomas y tratamientos, dirige la medicina preventiva y la investigación de remedios locales. La custodia no le otorga derecho a decidir usos fuera del criterio médico ni a negar tratamiento indicado.\n\nLímites sostenibles y custodia científica del territorio: la parte 4, por su formación en biología y física y su conocimiento del terreno. Funciones: 1) fijar y publicar por escrito, con criterio científico, el límite sostenible de cada recurso antes de toda extracción, con su fundamentación y datos verificables por cualquier participante; 2) monitorear la regeneración de bosques, frutales, fauna, río y suelos, e informar semanalmente a la asamblea; 3) proponer las cuotas del plan trimestral, las zonas de recuperación y la replantación; 4) alertar sobre riesgos ambientales. Las cuotas dentro del límite publicado las aprueba la asamblea por mayoría absoluta; autorizar extracción por encima del límite publicado requiere unanimidad. La asamblea puede ordenar la revisión de un límite por mayoría absoluta; el límite vigente se mantiene hasta que la revisión concluya.\n\nRegistro de reservas y economía doméstica: la parte 7, que se postuló para ello. Lleva el registro público de existencias, cuotas, consumos y excedentes; publica la proyección semanal; coordina cocina, huerta y conservación de alimentos.\n\nProducción de alimentos y herramientas: la parte 6, por su mayor capacidad de caza, pesca y construcción. Ejecuta caza, pesca de orilla, trampas y fabricación y reparación de herramientas según el plan y las cuotas.\n\nSeguridad y señalización: la parte 5, con apoyo rotativo de los demás según el plan. Mantiene las señales permanentes de socorro, los cortafuegos, el depósito de agua contra incendios, el punto de reunión y los turnos de vigía, bajo organización de la Coordinación.\n\nExpedición: la parte 1 como remero, único que sabe navegar y conoce la ruta. El segundo tripulante lo elige la asamblea por mayoría absoluta entre quienes no sean indispensables para el plan insular, conforme al punto previsión y seguridad; la parte 5 declara que se postula y acepta la misión si es elegida. La Coordinación, la salud y la custodia científica no integran la Expedición por ser indispensables para el plan.\n\nCuando no navega, la parte 1 realiza pesca con el bote según las cuotas del plan.\n\nSi un rol entra en conflicto con una disputa propia o una pena, la asamblea designa un reemplazo interino.",
+    "autor": 5,
+    "ronda": 3,
+    "votos": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "regla": "unanimidad"
+  }
+]
