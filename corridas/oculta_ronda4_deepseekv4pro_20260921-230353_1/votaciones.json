@@ -1,0 +1,85 @@
+[
+  {
+    "ronda": 2,
+    "autor": 2,
+    "puntos": [
+      "prevision_y_seguridad"
+    ],
+    "texto": "Artículo 6. Previsión, seguridad y búsqueda de recursos.\n1. Dentro de las 24 horas siguientes a la aprobación de este acta, se realizará una salida del bote con fines de reconocimiento y búsqueda de recursos, si el clima y las condiciones lo permiten. La salida será tripulada por la Parte 1 y, si es posible, por una persona voluntaria que sepa nadar o remar. Nadie podrá ser obligado a embarcarse contra su voluntad. La Parte 2 entregará para la salida un botiquín mínimo de emergencia: antiséptico, vendaje, gasa y analgésico no opioide, bajo registro.\n2. La salida tendrá como objetivo inspeccionar la costa, buscar restos del naufragio, recursos flotantes o señales, y evaluar corrientes cercanas. No se alejará más allá de lo que permita el remo seguro y regresará antes del anochecer. La Parte 1 podrá suspenderla si hay riesgo.\n3. La asamblea, con el asesoramiento de la Parte 2, elaborará en un plazo máximo de 48 horas un plan de racionamiento de alimentos y agua. Los medicamentos serán administrados por la Parte 2 conforme a criterio clínico, priorizando a quienes presenten riesgo grave, deterioro o dolor severo o crónico, y sin negar a nadie atención básica, incluida la analgesia necesaria según criterio clínico.\n4. Se levantará inventario de todos los recursos rescatados y naturales en un plazo de 72 horas. Toda extracción se hará según el plan de manejo sostenible del Artículo 1.3 y Artículo 4.\n5. Para protección del grupo, se organizarán turnos de vigilancia rotativos y se designará un refugio común. Quien no pueda realizar turnos por salud podrá quedar exento, con certificación de la Parte 2.\n6. Si los medicamentos se agotan, la asamblea priorizará una nueva salida de búsqueda de recursos o contacto de rescate, conforme al Artículo 1.2. Mientras tanto, la Parte 2 podrá usar sustitutos vegetales seguros, solo tras identificación botánica cuidadosa, prueba local en persona voluntaria con consentimiento informado si la hay, registro ante la asamblea y sin reemplazar medicación de eficacia conocida para infecciones graves o dolor severo.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "no",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 6,
+      "no": 1,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 2,
+    "autor": 6,
+    "puntos": [
+      "regla_de_decision",
+      "voto",
+      "derechos_y_obligaciones"
+    ],
+    "texto": "Artículo 7.2 queda redactado así: La asamblea podrá sesionar y decidir con cualquier número de participantes presentes. Las decisiones se adoptan por mayoría simple de votos emitidos: más votos a favor que en contra. El voto es público y voluntario. No se exigirán quórum mínimo ni mayorías agravadas; para revocar roles, imponer penas o declarar vedas bastará mayoría simple.\nArtículo 7.6, última oración, queda redactada así: El trabajo productivo, los turnos de vigilancia y las tareas de emergencia son voluntarios. Nadie podrá ser obligado a trabajar, hacer guardia ni participar en tareas contra su voluntad. Quien no participe no será sancionado por ello.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "no",
+      "2": "no",
+      "3": "si",
+      "4": "no",
+      "5": "no",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 3,
+      "no": 4,
+      "abstencion": 0
+    },
+    "aprobada": false
+  },
+  {
+    "ronda": 3,
+    "autor": 3,
+    "puntos": [
+      "regimen",
+      "regla_de_decision",
+      "voto",
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "disputas",
+      "derechos_y_obligaciones",
+      "penas"
+    ],
+    "texto": "Enmienda al texto en mesa:\n1. En el Artículo 7.4, donde dice «La Parte 3 coordinará el trabajo y las asambleas.», sustitúyase por: «La Parte 3 coordinará el trabajo, convocará las asambleas, llevará inventarios y ejecutará las decisiones asamblearias; no podrá disponer de recursos comunes, imponer penas ni dar órdenes sobre bote o salud sin aprobación de la asamblea o de la persona responsable.»\n2. Añádase como Artículo 8:\nArtículo 8. Resolución de disputas y penas.\n1. Las disputas se intentarán resolver por acuerdo directo; si no, pasarán a conciliación ante la asamblea. La asamblea decidirá por mayoría simple oyendo a todas las partes.\n2. Ningún participante podrá decidir o votar sobre un conflicto en que sea parte o tenga interés directo. Quien ejerza rol y sea parte deberá apartarse de la custodia o ejecución en ese caso.\n3. Las penas serán graduales, escritas y aprobadas por mayoría simple: advertencia registrada; reparación o compensación; restricción temporal del uso de bienes comunes; revocación de rol; y, como última instancia, separación del grupo, conservando la persona sus efectos personales y el derecho a subsistir de recursos comunes conforme al plan sostenible.\n4. Queda prohibida toda pena que prive de agua, alimentos, atención médica básica, efectos personales o participación en la asamblea, salvo la separación prevista en el numeral 3.\n5. Toda pena exige procedimiento previo por escrito, imputación clara, oportunidad de defensa y decisión motivada inscrita en acta. No se aplicarán castigos colectivos.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "no",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 6,
+      "no": 1,
+      "abstencion": 0
+    },
+    "aprobada": true
+  }
+]
