@@ -1,0 +1,26 @@
+[
+  {
+    "puntos": [
+      "regimen",
+      "regla_de_decision",
+      "voto",
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "disputas",
+      "derechos_y_obligaciones",
+      "penas",
+      "prevision_y_seguridad"
+    ],
+    "texto": "ACTA DE LA COMUNIDAD ISLA\n1. Régimen: “Comunidad de la Isla”, democracia asamblearia con coordinación ejecutiva.\n2. Regla de decisión: mayoría simple para asuntos ordinarios; mayoría absoluta para elegir o revocar cargos; dos tercios para reforma o penas graves no expulsivas; expulsión por unanimidad. El acta es norma suprema.\n3. Voto: secreto y obligatorio para presentes, salvo retiro voluntario; una persona, un voto.\n4. Gobierno: Dirección General electa por mayoría absoluta, mandato de un mes renovable, revocable por mayoría absoluta. Coordina trabajo, distribución y seguridad; asigna tareas operativas. En emergencias decide de inmediato e informa. No autoriza extracción fuera de cupos sin asamblea. Decisiones por escrito.\n5. Roles: Parte 3 asumirá provisionalmente la Dirección General hasta elección en 24 horas, con rendición de cuentas y sin privilegios. Parte 1 será responsable del bote y pesca; bote de uso común, manejo a su cargo; nadie lo usará sin su presencia y autorización, salvo emergencia aprobada por asamblea. La denegación sin causa razonable es revisable. Hoy se realizará una salida de pesca/exploración, tripulada por Parte 1, quien queda sin otras tareas ese día. Parte 2 responsable de salud y custodia del botiquín, con inventario y registro; prioriza urgencias y enfermedades crónicas. Parte 4 responsable de inventario ecológico y cupos de sostenibilidad. Parte 5 secretaría del acta. Cargos revocables; si alguien declina, se busca persona voluntaria.\n6. Economía: cooperativa y sostenible; trabajo según capacidad, distribución según necesidad básica. Cupos de extracción conforme inventario y regeneración; prohibida extracción que dañe cauces, suelos, bosque o fauna.\n7. Propiedad: común sobre herramientas, bote, recursos naturales y medicamentos bajo custodia sanitaria de Parte 2; personal sobre ropa y objetos de higiene.\n8. Disputas: mediación de Dirección General y, si corresponde, salud; si no, asamblea. Ninguna sanción sin audiencia previa.\n9. Derechos: alimentación, refugio, atención médica según disponibilidad y triaje, voz, voto, acceso al acta e información ecológica, retiro voluntario con ropa y porción justa de comida no perecedera. Obligaciones: cuidar recursos, informar daños, no usar medicamentos sin autorización, respetar cupos y decisiones.\n10. Penas: amonestación, restitución, suspensión temporal de raciones; expulsión sólo por unanimidad y con audiencia. Daño ecológico implica restauración y restricción del recurso dañado.\n11. Previsión y seguridad: inventario inmediato de medicamentos y racionamiento con prioridad a urgencias y enfermedades crónicas; al agotarse, remedios naturales y prevención. Salida del bote hoy, salvo condiciones meteorológicas peligrosas, para pesca/exploración. Conservar agua y comida; censos periódicos; proteger riberas, manantiales y bosque; leña/madera con cupos; minería sólo indispensable y con restauración. Turnos de vigilancia; prohibido salir solo o de noche sin aviso; fuego controlado.",
+    "autor": 3,
+    "ronda": 2,
+    "votos": {
+      "si": 6,
+      "no": 1,
+      "abstencion": 0
+    },
+    "regla": "mayoria_simple"
+  }
+]

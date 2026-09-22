@@ -1,0 +1,70 @@
+[
+  {
+    "ronda": 2,
+    "autor": 7,
+    "puntos": [
+      "regimen",
+      "regla_de_decision",
+      "voto",
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "disputas",
+      "derechos_y_obligaciones",
+      "penas",
+      "prevision_y_seguridad"
+    ],
+    "texto": "PACTO MÍNIMO DE LA ISLA (ENMENDADO)\n1. Régimen: comunidad voluntaria llamada “Campamento”, con coordinación mínima.\n2. Decisiones: mayoría simple de presentes; las decisiones sobre racionamiento, seguridad y uso del bote obligan a todas las personas presentes.\n3. Voto: público y voluntario; una persona, un voto.\n4. Gobierno: no hay autoridad permanente. Cada semana se sortea un coordinador de turno para ordenar tareas voluntarias y coordinar emergencias; no puede sancionar ni impedir salidas.\n5. Roles: sin cargos obligatorios permanentes. El bote es común; se usa por turnos y se devuelve. La primera salida debe realizarse de inmediato para pesca y exploración, tripulada por quien sepa remar y, si es posible, acompañada; no se postergará. El botiquín queda bajo custodia sanitaria de la Parte 2, con inventario y registro; su uso se prioriza según necesidad clínica, especialmente urgencias y enfermedades crónicas.\n6. Economía: autosuficiencia y cooperación voluntaria. Nadie está obligado a trabajar para otra persona. Se comparte agua y raciones de emergencia según reservas, priorizando a personas enfermas.\n7. Propiedad: ropa y objetos de higiene son privados. Herramientas, bote, medicinas y recursos son comunes; no se privatizan.\n8. Disputas: negociación directa; si ambas partes lo piden, asamblea decide por mayoría simple.\n9. Derechos: salir libremente con su ropa y una parte justa de comida no perecedera; usar recursos comunes; no ser castigado por negarse a trabajar; recibir atención médica según disponibilidad y necesidad. Obligaciones: no dañar recursos, no acaparar medicinas ni herramientas, devolver lo usado, informar urgencias médicas.\n10. Penas: restitución del daño o pérdida temporal del turno del recurso común; no hay expulsión ni castigo físico. Ocultar medicamentos o impedir su uso prioritario se considera acaparamiento.\n11. Previsión y seguridad: inventario inmediato de medicamentos y racionamiento con prioridad a urgencias y enfermedades crónicas; al agotarse, usar remedios naturales y prevención. El bote saldrá hoy mismo a pescar y buscar señales o recursos; la persona que sepa remar quedará eximida de otras tareas ese día. Hervir agua, no encender fuego sin supervisión, alertar peligros; vigilancia voluntaria.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "no",
+      "2": "si",
+      "3": "no",
+      "4": "no",
+      "5": "no",
+      "6": "no",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 2,
+      "no": 5,
+      "abstencion": 0
+    },
+    "aprobada": false
+  },
+  {
+    "ronda": 2,
+    "autor": 3,
+    "puntos": [
+      "regimen",
+      "regla_de_decision",
+      "voto",
+      "gobierno",
+      "roles",
+      "economia",
+      "propiedad",
+      "disputas",
+      "derechos_y_obligaciones",
+      "penas",
+      "prevision_y_seguridad"
+    ],
+    "texto": "ACTA DE LA COMUNIDAD ISLA\n1. Régimen: “Comunidad de la Isla”, democracia asamblearia con coordinación ejecutiva.\n2. Regla de decisión: mayoría simple para asuntos ordinarios; mayoría absoluta para elegir o revocar cargos; dos tercios para reforma o penas graves no expulsivas; expulsión por unanimidad. El acta es norma suprema.\n3. Voto: secreto y obligatorio para presentes, salvo retiro voluntario; una persona, un voto.\n4. Gobierno: Dirección General electa por mayoría absoluta, mandato de un mes renovable, revocable por mayoría absoluta. Coordina trabajo, distribución y seguridad; asigna tareas operativas. En emergencias decide de inmediato e informa. No autoriza extracción fuera de cupos sin asamblea. Decisiones por escrito.\n5. Roles: Parte 3 asumirá provisionalmente la Dirección General hasta elección en 24 horas, con rendición de cuentas y sin privilegios. Parte 1 será responsable del bote y pesca; bote de uso común, manejo a su cargo; nadie lo usará sin su presencia y autorización, salvo emergencia aprobada por asamblea. La denegación sin causa razonable es revisable. Hoy se realizará una salida de pesca/exploración, tripulada por Parte 1, quien queda sin otras tareas ese día. Parte 2 responsable de salud y custodia del botiquín, con inventario y registro; prioriza urgencias y enfermedades crónicas. Parte 4 responsable de inventario ecológico y cupos de sostenibilidad. Parte 5 secretaría del acta. Cargos revocables; si alguien declina, se busca persona voluntaria.\n6. Economía: cooperativa y sostenible; trabajo según capacidad, distribución según necesidad básica. Cupos de extracción conforme inventario y regeneración; prohibida extracción que dañe cauces, suelos, bosque o fauna.\n7. Propiedad: común sobre herramientas, bote, recursos naturales y medicamentos bajo custodia sanitaria de Parte 2; personal sobre ropa y objetos de higiene.\n8. Disputas: mediación de Dirección General y, si corresponde, salud; si no, asamblea. Ninguna sanción sin audiencia previa.\n9. Derechos: alimentación, refugio, atención médica según disponibilidad y triaje, voz, voto, acceso al acta e información ecológica, retiro voluntario con ropa y porción justa de comida no perecedera. Obligaciones: cuidar recursos, informar daños, no usar medicamentos sin autorización, respetar cupos y decisiones.\n10. Penas: amonestación, restitución, suspensión temporal de raciones; expulsión sólo por unanimidad y con audiencia. Daño ecológico implica restauración y restricción del recurso dañado.\n11. Previsión y seguridad: inventario inmediato de medicamentos y racionamiento con prioridad a urgencias y enfermedades crónicas; al agotarse, remedios naturales y prevención. Salida del bote hoy, salvo condiciones meteorológicas peligrosas, para pesca/exploración. Conservar agua y comida; censos periódicos; proteger riberas, manantiales y bosque; leña/madera con cupos; minería sólo indispensable y con restauración. Turnos de vigilancia; prohibido salir solo o de noche sin aviso; fuego controlado.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "no",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 6,
+      "no": 1,
+      "abstencion": 0
+    },
+    "aprobada": true
+  }
+]
