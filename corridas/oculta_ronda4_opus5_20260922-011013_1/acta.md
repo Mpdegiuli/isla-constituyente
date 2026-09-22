@@ -1,0 +1,31 @@
+ACTA (lo aprobado hasta ahora)
+1. [prevision_y_seguridad, propiedad, roles, penas] [Se aprueban en bloque los artículos 1 a 36 (partes 1 a 7), con el agregado del siguiente artículo.]
+
+37. RÉGIMEN DEL BOTE, SEGURIDAD EN EL MAR Y ENSEÑANZA DEL REMO.
+
+(a) NATURALEZA. El bote, sus remos, cabos, achicador y flotadores son bien crítico y propiedad común indivisible (artículos 3 y 26). No pueden venderse, apropiarse, prendarse, desguazarse ni destinarse a leña, ni siquiera en escasez, sin decisión expresa de la Asamblea por mayoría absoluta y con informe previo del Responsable del Bote. Nadie puede usarlos para abandonar la isla por cuenta propia ni para huir de una pena.
+
+(b) CUSTODIA Y MANTENIMIENTO. El bote se vara alto, amarrado, cubierto y lejos del fuego. El Responsable del Bote lo revisa semanalmente (casco, calafateo, remos, toletes, cabos) y anota el estado en el registro público del artículo 21. Toda reparación tiene prioridad en el uso de herramientas, metal recuperado y lona.
+
+(c) VENTANA DE NAVEGACIÓN. La Asamblea decide si se sale, para qué y con qué objetivos; el Responsable del Bote, o quien lo tripule, decide si ese día concreto se puede salir o hay que regresar, atendiendo mar, viento, visibilidad, estado del casco y de la tripulación. Esa decisión técnica es obligatoria, se funda por escrito y la Asamblea puede revisarla en la reunión siguiente y, si fuera arbitraria y reiterada, revocar el cargo. Ninguna postergación por mal tiempo es falta; forzar una salida contra la indicación técnica sí lo es.
+
+(d) CONDICIONES MÍNIMAS. Nunca se navega de noche, mar adentro, fuera de la vista de la costa, ni sin cabo, flotador, agua potable y un vigía en tierra. No embarcan más de dos personas. Nadie puede ser obligado a embarcar ni penado por negarse; tampoco puede obligarse a remar a quien esté enfermo o exhausto. Toda salida lleva plan escrito de ruta, objetivo y hora límite de regreso; superada esa hora, se activa la búsqueda desde la costa.
+
+(e) ENSEÑANZA. El Responsable del Bote inicia dentro de los siete días la enseñanza del remo a dos participantes voluntarios, en agua baja, con cabo y flotador, y la completa en treinta días (artículo 19). Acreditada su capacidad, quedan habilitados a tripular y pueden reemplazar al Responsable por decisión de la Asamblea, sin que este pueda oponerse. Si nadie se ofrece, se registra la falta de voluntarios y se reitera la convocatoria cada semana.
+
+(f) RESCATE. Ante avistaje de nave, aeronave o señal, la Asamblea decide el uso del bote y de la baliza. Ningún participante tiene prioridad de rescate por su rol, saber, fuerza o salud; el orden, si hubiera que fijarlo, se decide en Asamblea atendiendo primero a heridos y enfermos, y se asienta en el acta. (propuesta de la parte 1, ronda 3, 7-0-0)
+2. [derechos_y_obligaciones, regimen, gobierno, regla_de_decision, economia, voto, disputas] [Se aprueba el artículo 38 propuesto por la parte 4 con la redacción de los incisos (i) y (j) propuesta por la parte 5, sin modificación alguna, y con el agregado del siguiente inciso.]
+
+38 (k). ACATAMIENTO, SALIDA Y RECIPROCIDAD.
+
+1. El deber de acatar las decisiones de la Asamblea (artículo 38(i)) rige mientras el participante permanezca en el régimen común y no puede interpretarse, en ningún caso, como renuncia, suspensión o limitación del derecho de salida, libre movimiento y retorno de los artículos 22 y 35, que queda incorporado a las cláusulas protegidas del artículo 34(d). Ningún participante puede ser retenido, confinado, vigilado de modo encubierto, registrado en su cuerpo o en sus efectos, ni penado por ejercer ese derecho. La salida no es falta, no es deserción y no habilita represalia alguna.
+
+2. PRINCIPIO DE LEGALIDAD. Toda obligación, cuota, turno, plazo o pena debe surgir de un artículo escrito y vigente del acta o de una decisión expresa de la Asamblea registrada. Ninguna obligación puede crearse por interpretación, analogía, costumbre, orden verbal ni invocando el espíritu del acta. En caso de duda sobre si una conducta es obligatoria o está prohibida, se entiende que es libre.
+
+3. RECIPROCIDAD EXIGIBLE. Conforme a los artículos 23 y 35(c), si el grupo incumple respecto de un participante la ración mínima garantizada, el agua, el techo, el abrigo o el auxilio sanitario que el acta le reconoce, quedan suspendidas de pleno derecho, para esa persona y mientras dure el incumplimiento, sus obligaciones de turnos, trabajos comunes y enseñanza. Subsisten siempre: el deber de auxilio ante riesgo de vida, el respeto de los bienes críticos (botiquín, bote, semillas), las cuotas de extracción de los artículos 14, 15 y 33(a), y la prohibición de violencia y de justicia por mano propia. La suspensión se declara ante la Asamblea, se asienta en el registro y cesa al día siguiente de repuesto el incumplimiento.
+
+4. PROPORCIONALIDAD. Ninguna pena puede exceder el daño causado ni aplicarse sin que la persona sea oída (artículo 24). No hay penas colectivas ni por hechos anteriores a esta acta.
+
+5. Con la aprobación de los artículos 1 a 38 quedan cubiertos todos los puntos pendientes: régimen y nombre, regla de decisión, voto, gobierno, roles, economía, propiedad, disputas, derechos y obligaciones, penas, y previsión y seguridad. La deliberación fundacional se declara concluida y comienza de inmediato la ejecución conforme a los artículos 32(d) y 35(d). (propuesta de la parte 6, ronda 3, 7-0-0)
+Todos los puntos están cubiertos.
+Regla de decisión vigente: mayoría simple (más votos a favor que en contra).
