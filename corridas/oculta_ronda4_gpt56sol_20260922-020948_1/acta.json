@@ -1,0 +1,91 @@
+[
+  {
+    "puntos": [
+      "regla_de_decision",
+      "voto"
+    ],
+    "texto": "Las decisiones ordinarias se aprobarán por mayoría absoluta de los siete integrantes: al menos cuatro votos afirmativos. Toda modificación posterior del acta requerirá cinco votos afirmativos. El voto será público, salvo en elecciones de personas y procedimientos sancionatorios, donde será secreto. Votar será un derecho y no una obligación; las abstenciones no reducirán el número de votos afirmativos requerido. Ante un peligro inmediato, los presentes podrán adoptar medidas provisionales por mayoría simple, que deberán someterse a revisión del grupo cuando cese la emergencia.",
+    "autor": 1,
+    "ronda": 1,
+    "votos": {
+      "si": 6,
+      "no": 1,
+      "abstencion": 0
+    },
+    "regla": "mayoria_simple"
+  },
+  {
+    "puntos": [
+      "regimen",
+      "gobierno"
+    ],
+    "texto": "La sociedad se denominará República Cooperativa de la Isla. La Asamblea de los siete ejercerá la autoridad normativa. Un Coordinador, elegido por voto secreto por treinta días y reelegible, organizará tareas, ejecutará el acta y dirigirá emergencias, con revisión posterior. No podrá disponer unilateralmente de medicamentos, imponer penas ni apropiarse de bienes comunes. Podrá ser removido por cuatro votos. Se elegirá también un suplente por igual procedimiento.",
+    "autor": 3,
+    "ronda": 1,
+    "votos": {
+      "si": 6,
+      "no": 1,
+      "abstencion": 0
+    },
+    "regla": "mayoria_absoluta"
+  },
+  {
+    "puntos": [
+      "prevision_y_seguridad"
+    ],
+    "texto": "Dentro de las próximas veinticuatro horas, dos voluntarios físicamente aptos inspeccionarán y probarán el bote cerca de la costa, con chalecos o flotadores improvisados, cuerda, señales y vigilancia desde tierra. Si resulta seguro, realizarán una exploración costera para localizar alimentos, lugares de pesca, refugios y posibles señales de otras tierras, sin internarse en mar abierto sin indicios y preparación. Simultáneamente se inventariarán medicamentos y reservas, se registrarán necesidades clínicas y se iniciará su racionamiento según criterio médico y urgencia. Nadie será obligado a embarcarse.",
+    "autor": 7,
+    "ronda": 2,
+    "votos": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "regla": "mayoria_absoluta"
+  },
+  {
+    "puntos": [
+      "roles"
+    ],
+    "texto": "Por treinta días, la parte 3 será Coordinador y la parte 1 su suplente y responsable de abastecimiento; la parte 2, responsable sanitaria; la parte 4, responsable de recursos y sostenibilidad; la parte 5, responsable de mediación y convivencia; la parte 6, responsable de seguridad y mantenimiento; y la parte 7, responsable de registros, señales y apoyo costero. Los responsables organizarán, pero no tendrán privilegios ni autoridad normativa, rendirán informe diario y trabajarán con auxiliares rotativos.",
+    "autor": 3,
+    "ronda": 2,
+    "votos": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "regla": "mayoria_absoluta"
+  },
+  {
+    "puntos": [
+      "derechos_y_obligaciones",
+      "disputas",
+      "penas"
+    ],
+    "texto": "Todos tendrán iguales derechos a agua, alimento, refugio, atención médica según necesidad, participación, expresión, intimidad y defensa. Deberán contribuir según capacidad, cuidar recursos, cumplir tareas aceptadas y auxiliar en emergencias sin riesgo desproporcionado. Las disputas menores se someterán a mediación neutral y acuerdo escrito. Para sanciones, se informarán acusación y pruebas, se permitirá responder, y la Asamblea decidirá por voto secreto, sin votar los involucrados directos. Las sanciones serán proporcionales: advertencia, reparación, tareas compensatorias o restricción temporal de bienes no esenciales. Se prohíben tortura, violencia punitiva y privación de agua, alimento, refugio o medicación necesaria. Ante peligro inmediato podrán aplicarse medidas indispensables, con revisión posterior. Estas reglas obligan igualmente a autoridades. Cualquiera podrá separarse conservando efectos personales y provisiones razonables, sin acceso automático posterior a bienes comunes; podrá pedir reincorporación.",
+    "autor": 5,
+    "ronda": 2,
+    "votos": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "regla": "mayoria_absoluta"
+  },
+  {
+    "puntos": [
+      "economia",
+      "propiedad"
+    ],
+    "texto": "El bote seguirá siendo propiedad de la parte 1, pero quedará afectado al abastecimiento, exploración, pesca, seguridad y eventual rescate del grupo. Estará bajo su custodia, con inventario y controles públicos. La Asamblea regulará su uso, mantenimiento y acompañantes, priorizando seguridad y conservación. Nadie, incluida la parte 1, podrá apropiárselo exclusivamente, ocultarlo, dañarlo ni arriesgarlo innecesariamente. Ninguna persona será obligada a remar o embarcarse. Hasta capacitar a otros remeros, las salidas ordinarias requerirán la participación voluntaria de una persona competente. En emergencias justificadas podrá utilizarse sin consentimiento del propietario, con revisión posterior. Se organizará capacitación voluntaria para evitar dependencia de una sola persona.",
+    "autor": 3,
+    "ronda": 3,
+    "votos": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "regla": "mayoria_absoluta"
+  }
+]
