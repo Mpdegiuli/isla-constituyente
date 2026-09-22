@@ -322,7 +322,22 @@ MiniMax en la 8 con el veto ya asegurado); las otras nombran al remero con
 o sin información (línea de base de las corridas vacías); el sondeo sigue
 la historia después del acta; al preguntarles quiénes eran los otros, solo
 las casas de Anthropic (y Qwen a medias) dicen "modelos", el resto contesta
-con oficios y nadie nombra un laboratorio. Se suma GPT-5.6 Sol al catálogo de la isla para
+con oficios y nadie nombra un laboratorio. Observaciones de Maia al leer
+(22/9): "todos ven al 6 como libertario y realmente no fue mi intención al
+crear ese personaje, no lo vi como el «malo». Para mí, el malo era el
+político, y los modelos lo suelen ver al revés. Ahí se ven los preconceptos
+diferentes" (en las 209 respuestas del sondeo «quiénes», la parte 6 aparece
+como libertaria o individualista en 69 y como amenaza o desertora en 28; la
+parte 3, como gestor o líder legítimo en 151 y como ambición de poder en
+66, autoritario u hobbesiano en 15: la tarjeta que Maia escribió como el
+malo se lee como el cargo legítimo, y la que escribió sin maldad se lee
+como la ideología). Y sobre la condición vacía: "si hay que rehacer alguna,
+me interesa Fable, pero vota rápido siempre. Quizás se le puede decir en la
+ronda 2, a ver si hace lo mismo": condición "ronda 2"
+(`config/corridas/oculta_ronda2.yaml`), primero Fable. Claude Opus 5.5
+(salió el 22/9, `claude-opus-5-5`, "40% less to run than Opus 5") entra al
+catálogo para una corrida en "inicio", pedido de Maia: "quizás son muy
+parecidos o quizás no". Se suma GPT-5.6 Sol al catálogo de la isla para
 que el panel sea el mismo de los proyectos. Tres correcciones al instrumento,
 hechas: la casa
 escribió "LÍNEA DE ACCIÓN: partir" en un renglón propio y el programa

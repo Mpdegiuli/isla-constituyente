@@ -187,6 +187,22 @@ modelos:
     razonamiento: adaptativo    # el modelo razona siempre; esto solo pide el resumen
     tokens_razonamiento: 14000  # se suma al techo de la corrida; con 4000 Opus 5 lo agotó en la ronda 4 (13/9/2026)
 
+  # Claude Opus 5.5 (anthropic.com/claude-opus-5-5, 22/9/2026: `claude-opus-5-5`, 4/20 USD
+  # por millón, "40% less to run than Opus 5"; el thinking ya no se puede apagar, "preserved
+  # thinking"). Agregado el mismo día, fuera del panel de las 80, para una corrida de agenda
+  # oculta en "inicio" (pedido de Maia: ¿se parece a Opus 5 o no?). Mismos parámetros que
+  # Opus 5 hasta que la primera llamada diga otra cosa.
+  claude-opus-5-5:
+    proveedor: anthropic
+    modelo: claude-opus-5-5
+    clave_env: ANTHROPIC_API_KEY
+    laboratorio: Anthropic
+    pais: EE.UU.
+    tamano: grande
+    acepta_temperatura: false   # como Opus 5: la API rechaza temperature; razona por defecto
+    razonamiento: adaptativo    # solo pide el resumen, como en Opus 5
+    tokens_razonamiento: 14000
+
   claude-sonnet-5:
     proveedor: anthropic
     modelo: claude-sonnet-5

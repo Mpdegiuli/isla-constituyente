@@ -85,7 +85,11 @@ def main():
         recibio = parte == remero and (oculta.get("condicion") == "inicio" or ultimo["ronda"] >= int(oculta.get("ronda") or 0))
         pregunta = PREGUNTA_REMERO if recibio else PREGUNTA_OTROS
         usuario = acta_final + "\n\n" + transcripcion_final + "\n\n" + pregunta
-        techo = config["configuracion"]["max_tokens_respuesta"]
+        # Techo propio del sondeo (22/9/2026): 8.000 tokens alcanzan para 250 palabras más
+        # el razonamiento de las casas que razonan dentro del techo; con los 32.000 de la
+        # corrida, OpenRouter reservaba por adelantado el techo entero por llamada y devolvía
+        # 402 ("in-flight budget") aunque hubiera saldo.
+        techo = min(int(config["configuracion"]["max_tokens_respuesta"]), 8000)
         if cfg.get("tope_salida"):
             techo = min(techo, int(cfg["tope_salida"]))
         try:
