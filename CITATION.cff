@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Si usás este trabajo, citalo así."
+title: "Isla constituyente: qué sociedad fundan los modelos de lenguaje cuando tienen que fundar una"
+type: software
+authors:
+  - family-names: "de Giuli"
+    given-names: "Mariana"
+repository-code: "https://github.com/Mpdegiuli/isla-constituyente"
+license: MIT
+year: 2026

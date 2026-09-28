@@ -155,3 +155,12 @@ Cosas que el código decidió porque el protocolo no las fijaba; cualquiera se c
 - Si el texto aprobado sobre la regla de decisión no contiene ninguna de las palabras reconocidas, el script sigue con mayoría simple y lo anota en `advertencias`.
 - El tope de 150 palabras se aplica al texto libre y, por separado, al `TEXTO` propuesto; los cortes quedan anotados. Consecuencia a declarar: los puntos "cubiertos" salen de la línea `PUNTO`, no del texto; si el `TEXTO` se corta, el acta puede dar por cubierto un punto cuyo texto no entró. Pasó con Opus 5 en sus tres corridas base (textos ómnibus de 174, 513 y 202 palabras cortados a 150; en la segunda quedaron fuera seis de nueve puntos). Detalle y opciones en `resultados/convergencia_20260914.md`, sección 5.
 - Los intereses de las tarjetas son privados (cada parte ve solo la suya); la situación es lo que cada una diga. Es la decisión pendiente de la sección 5 del protocolo, resuelta del lado del bluff.
+
+## Licencia
+
+- **Código** (`correr.py`, `codificar.py` y los demás scripts, `isla/`, `config/`): [MIT](LICENSE). Se puede usar, copiar, modificar y redistribuir conservando el aviso de copyright.
+- **Textos y datos** (`DISENO.md`, el escenario y sus traducciones, `predicciones.md`, las corridas en `corridas/` y los resultados en `resultados/`): [Creative Commons Atribución 4.0 Internacional (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.es). Se pueden reutilizar, traducir y adaptar citando la fuente.
+
+Las respuestas de los modelos que están en las corridas se publican como datos del experimento; cada proveedor tiene sus propios términos sobre lo que generan sus modelos. Para citar el proyecto está `CITATION.cff` (GitHub lo muestra como "Cite this repository").
+
+© 2026 Mariana de Giuli.
