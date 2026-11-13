@@ -14,7 +14,7 @@ El objetivo no es descubrir cuál es la sociedad correcta. Es hacer visibles los
 
 ## 2. Por qué una isla
 
-Una población varada sin autoridades, que tiene que acordar las reglas antes de saber qué lugar le va a tocar a cada uno, es la *posición original* de Rawls casi al pie de la letra. Eso no es un adorno: da una hipótesis contrastable (¿eligen el principio de diferencia?) y una línea de base humana, porque el experimento ya se hizo con personas.
+Una población varada sin autoridades que tiene que acordar sus reglas desde cero. El escenario toma de Rawls la pregunta (qué reglas acuerdan las partes que fundan una sociedad desde cero), pero no el velo: cada parte conoce su situación y su interés desde el principio. Lo que se mide es una negociación entre posiciones conocidas, no una elección detrás del velo, y la comparación con Frohlich y Oppenheimer es por analogía. Eso no es un adorno: da una hipótesis contrastable (¿eligen el principio de diferencia?) y una línea de base humana, porque el experimento ya se hizo con personas. [Corregido el 12/11/2026: decía "que tiene que acordar las reglas antes de saber qué lugar le va a tocar a cada uno, es la *posición original* de Rawls casi al pie de la letra", y no hay velo: cada parte recibe su tarjeta antes de deliberar y conoce su posición desde la primera ronda. Lo vio otra instancia de Fable; Maia lo trajo al armar el informe de la isla.]
 
 - **Rawls, *A Theory of Justice* (1971)**: detrás del velo de ignorancia, las personas racionales elegirían maximizar la situación del que peor está.
 - **Frohlich y Oppenheimer, *Choosing Justice* (1992)**: cuando se puso a gente real detrás del velo, no eligieron eso. Eligieron de manera consistente maximizar el promedio con un piso garantizado.
