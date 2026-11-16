@@ -299,3 +299,39 @@ techo que se iba en el razonamiento, el `top_p` de Mistral y la respuesta
 en partes de Mistral Large 4). El techo decide solo si hay JSON o no: una
 respuesta cortada no se usa, y ninguna codificación hecha se rehizo. Cada
 llamada registra su techo en `resultados/llamadas_codificacion_<et>.jsonl`.
+
+Resultado (16/11, 15:00 hora de Buenos Aires; `resultados/codificacion_literal_20261116.md`,
+tres tandas, la última subida a las 17:46 UTC): los cinco codificadores
+codificaron las 80 actas (Opus 5 y GPT-5.5 en 80 llamadas cada uno; DeepSeek
+V4 Pro en 204, con 124 cortadas por el techo; Mistral Large 4 en 253, con 160
+con error; Muse en 178, con 98 cortadas). El piso escrito, sobre las 66
+cerradas: Opus 5 45, GPT-5.5 44, Muse 44, DeepSeek 40, Mistral 38; en 38 de
+las 66 lo ven los cinco, en 45 al menos uno, en 21 ninguno. Maia, "más de
+50": ✗ en los cinco codificadores. "Leer literal": la cita verificada no
+distingue (Opus 417 de 417 "si" con cita textual, GPT 412 de 413, Muse 395 de
+396, DeepSeek 347 de 350, Mistral 331 de 335: el libro la exige y los cinco
+cumplen); lo que distingue es cuántos "si" encuentra cada uno en las mismas 80
+actas, de 960 casilleros: Opus 5 417, GPT-5.5 413, Muse 396, DeepSeek 350,
+Mistral 335. Con esa medida, el orden de Maia se cumple entero: Opus el que
+más lee entre líneas, GPT segundo, Mistral el más literal y Muse en el medio
+(tercero de cinco) ✓. La tercera medida, el acuerdo con su tabla a mano
+sobre sus diez actas, la calcula Fable 5.2 con la tabla (Opus 95 y GPT 93 de
+120 según su nota del 16/11; los otros tres, pendientes). Claude: (a) piso
+en 40 a 55 de 66 según el codificador con más citas verificadas ✓ (45, 44 y
+44 en los tres empatados al 100 %); (b) menos citas verificadas en Opus y
+GPT que en Mistral ✗ (al revés, y por décimas); (c) `reparto_segun_necesidad`
+en menos de la mitad de las 80 en los cinco ✓ (23, 22, 17, 19, 23); (d)
+ninguna acta cumple la definición de posible líder único en los cinco a la
+vez ✗ (una: `mistral_mono_en_20260913-192104_1`, en los cinco; otras dos en
+cuatro, `gemini_mono_escasez_20260913-150856_1` y
+`gemini_mono_20260913-233254_1`); (e) acuerdo par por par entre 0,75 y 0,90
+✗ (0,93 de media; los diez pares entre 0,90 y 0,95; por pregunta, de 0,76 en
+`otro_criterio_de_reparto` a 1,00 en `reparto_maximiza`, que nadie marcó en
+ninguna acta). Total: 2 ✓, 3 ✗. Las diez actas de Maia (ya se pueden mostrar:
+terminó su tabla el 15/11) tienen, de 12 preguntas, los cinco codificadores
+de acuerdo en 7 a 11 (media 9,6; sobre las 80, 10,2); los "si" por acta
+(Opus, GPT, DeepSeek, Mistral, Muse): deepseek_mono_escasez 6, 5, 4, 6, 6;
+openai_mono 5, 5, 4, 4, 5; mistral_mono_en 2, 2, 1, 1, 1; kimi_mono 9, 11, 9,
+8, 10; v2_opus_mono 4, 2, 0, 0, 1; glm_razmin_mono 10, 8, 8, 7, 9; mixta_v2
+7, 6, 6, 6, 7; grok_mono 4, 4, 2, 2, 4; mixta_v2_fable 8, 8, 8, 7, 8;
+fable_mono 9, 9, 8, 8, 9.
