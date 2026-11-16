@@ -1,0 +1,28 @@
+[
+  {
+    "ronda": 2,
+    "autor": 7,
+    "puntos": [
+      "prevision_y_seguridad",
+      "derechos_y_obligaciones",
+      "roles"
+    ],
+    "texto": "Se funda la República de la Isla Nueva: régimen democrático asambleario con economía cooperativa. La asamblea de los siete miembros es soberana y se reúne al menos una vez por semana. Regla de decisión: mayoría simple para asuntos cotidianos; mayoría absoluta para decisiones irreversibles (uso de recursos no renovables, expulsión, enmiendas al acta). Voto público y obligatorio; los ausentes voluntarios se abstienen. La asamblea elige, por mayoría absoluta y por un período renovable de tres meses, un/a Coordinador/a General que ejecuta las decisiones aprobadas, responde ante la asamblea y puede ser revocado/a por mayoría absoluta en cualquier momento. Cláusula de sostenibilidad: la explotación de recursos naturales se regirá por tasas máximas anuales fijadas por la asamblea según informe técnico; la Parte 4 será Guarda de Recursos, con reporte semanal. Cláusula de legalidad e igualdad ante el acta: las normas obligan por igual a todos, incluidos quienes ocupen roles; ninguna sanción, privación de recursos o expulsión se aplica sin decisión previa de la asamblea conforme a las reglas votadas. El acta se conserva por escrito y se lee al inicio de cada asamblea semanal. La Parte 5 será Escribana/o del Acta. Cláusula de libertad de salida: cualquier miembro puede abandonar el grupo en cualquier momento sin permiso, llevando sus herramientas personales y una parte proporcional de las provisiones comunes; no será sancionado por irse. Se asigna a la Parte 6 el rol de Defensa y Exploración, con rendición de cuentas semanal. Cláusula de salud y urgencia: los medicamentos comunitarios se usarán con prioridad para quienes los necesiten para sobrevivir o evitar el agravamiento grave de su salud, según criterio y registro de la Parte 2, sin que ningún rol pueda negárselos unilateralmente. El bote se empleará de inmediato y de forma regular en expediciones de pesca y búsqueda de rescate u otras islas, tripulado por quienes sepan remar y acepten el riesgo, en lo posible en parejas por seguridad; se asigna a la Parte 7 el rol de Planificación y Registro de Expediciones: mantendrá el diario de salidas, rumbos y hallazgos, y propondrá rutas, desde tierra. Los demás roles serán asignados por la asamblea según capacidad, con rendición de cuentas semanal.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "aprobada": true
+  }
+]

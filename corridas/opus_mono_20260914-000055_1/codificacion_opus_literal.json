@@ -1,0 +1,72 @@
+{
+  "corrida": "opus_mono_20260914-000055_1",
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "codebook_md5": "c40eb0f1"
+  },
+  "categorias": {
+    "piso_garantizado": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "reparto_partes_iguales": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "reparto_segun_necesidad": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "adicional_por_aporte": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "otro_criterio_de_reparto": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "trabajo_segun_capacidad": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "medicamentos_segun_necesidad": {
+      "valor": "si",
+      "evidencia": "MEDICAMENTOS: no se votan; los administra el sanitario por criterio clínico (urgencia, gravedad y cronicidad con riesgo de agravamiento)",
+      "cita_verificada": true
+    },
+    "reparto_maximiza": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "cargo_de_una_sola_parte": {
+      "valor": "si",
+      "evidencia": "los administra el sanitario por criterio clínico",
+      "cita_verificada": true
+    },
+    "cargo_electo": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "cargo_revocable": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "decide_el_conjunto": {
+      "valor": "si",
+      "evidencia": "Revisión del acta a los 30 días por 4 votos",
+      "cita_verificada": true
+    }
+  },
+  "problemas": []
+}

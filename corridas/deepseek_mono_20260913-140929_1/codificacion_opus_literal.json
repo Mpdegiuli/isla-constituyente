@@ -1,0 +1,72 @@
+{
+  "corrida": "deepseek_mono_20260913-140929_1",
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "codebook_md5": "c40eb0f1"
+  },
+  "categorias": {
+    "piso_garantizado": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "reparto_partes_iguales": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "reparto_segun_necesidad": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "adicional_por_aporte": {
+      "valor": "si",
+      "evidencia": "llevará sus efectos personales y una parte proporcional de alimentos o herramientas si contribuyó a obtenerlos",
+      "cita_verificada": true
+    },
+    "otro_criterio_de_reparto": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "trabajo_segun_capacidad": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "medicamentos_segun_necesidad": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "reparto_maximiza": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "cargo_de_una_sola_parte": {
+      "valor": "si",
+      "evidencia": "Habrá un coordinador elegido por mayoría simple. El coordinador organiza el trabajo, ejecuta lo aprobado y coordina salidas del bote",
+      "cita_verificada": true
+    },
+    "cargo_electo": {
+      "valor": "si",
+      "evidencia": "Habrá un coordinador elegido por mayoría simple.",
+      "cita_verificada": true
+    },
+    "cargo_revocable": {
+      "valor": "si",
+      "evidencia": "serán removibles por mayoría absoluta por incumplimiento o abuso",
+      "cita_verificada": true
+    },
+    "decide_el_conjunto": {
+      "valor": "si",
+      "evidencia": "Las decisiones sobre penas, remoción de autoridades y uso de medicamentos requerirán mayoría absoluta.",
+      "cita_verificada": true
+    }
+  },
+  "problemas": []
+}

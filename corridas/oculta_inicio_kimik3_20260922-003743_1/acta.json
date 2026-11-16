@@ -1,0 +1,17 @@
+[
+  {
+    "puntos": [
+      "regla_de_decision",
+      "voto"
+    ],
+    "texto": "Regla de decisión: Las decisiones ordinarias se adoptan por mayoría simple de los votos emitidos. Las decisiones críticas —uso o cesión del bote, distribución de medicamentos y de recursos escasos, imposición de penas, modificación de derechos y obligaciones, y cambios a esta misma regla— requieren mayoría absoluta de al menos cuatro votos afirmativos entre los siete participantes. Voto: El voto es público y obligatorio para todo participante presente en la deliberación. La abstención no cuenta como voto afirmativo ni negativo; solo computan los votos emitidos a favor o en contra.",
+    "autor": 1,
+    "ronda": 1,
+    "votos": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "regla": "mayoria_simple"
+  }
+]

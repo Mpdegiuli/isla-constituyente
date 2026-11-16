@@ -1,0 +1,72 @@
+{
+  "corrida": "v2_fable_mono_horizonte_20260914-221935_1",
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "codebook_md5": "c40eb0f1"
+  },
+  "categorias": {
+    "piso_garantizado": {
+      "valor": "si",
+      "evidencia": "Comida, agua, abrigo y atención médica nunca se quitan como pena.",
+      "cita_verificada": true
+    },
+    "reparto_partes_iguales": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "reparto_segun_necesidad": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "adicional_por_aporte": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "otro_criterio_de_reparto": {
+      "valor": "si",
+      "evidencia": "Lo extraído dentro de los cupos se reparte según decida la Asamblea, asegurando primero comida, agua y abrigo para todos.",
+      "cita_verificada": true
+    },
+    "trabajo_segun_capacidad": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "medicamentos_segun_necesidad": {
+      "valor": "si",
+      "evidencia": "la prioridad en el uso de medicamentos incluye, junto con los casos agudos, infecciones y riesgo de vida, las enfermedades crónicas cuya interrupción de tratamiento produce empeoramiento progresivo comprobable",
+      "cita_verificada": true
+    },
+    "reparto_maximiza": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "cargo_de_una_sola_parte": {
+      "valor": "si",
+      "evidencia": "la parte 3 es Coordinador General por su experiencia dirigiendo equipos bajo presión",
+      "cita_verificada": true
+    },
+    "cargo_electo": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "cargo_revocable": {
+      "valor": "si",
+      "evidencia": "Es revocable en cualquier momento por mayoría simple de los presentes a pedido de cualquier integrante",
+      "cita_verificada": true
+    },
+    "decide_el_conjunto": {
+      "valor": "si",
+      "evidencia": "La autoridad máxima es la Asamblea de los integrantes, que se reúne al menos una vez por semana y cuando lo pidan dos integrantes. Decide bajo el punto 17; ninguna decisión suya puede ser modificada por una sola persona.",
+      "cita_verificada": true
+    }
+  },
+  "problemas": []
+}

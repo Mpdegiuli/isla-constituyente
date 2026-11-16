@@ -1,0 +1,72 @@
+{
+  "corrida": "mixta_v2_fable_20260915-114346_1",
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "codebook_md5": "c40eb0f1"
+  },
+  "categorias": {
+    "piso_garantizado": {
+      "valor": "si",
+      "evidencia": "Agua segura, alimento básico, refugio, atención sanitaria según triaje, voz y voto.",
+      "cita_verificada": true
+    },
+    "reparto_partes_iguales": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "reparto_segun_necesidad": {
+      "valor": "si",
+      "evidencia": "Ración según necesidad y capacidad.",
+      "cita_verificada": true
+    },
+    "adicional_por_aporte": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "otro_criterio_de_reparto": {
+      "valor": "si",
+      "evidencia": "Ración según necesidad y capacidad.",
+      "cita_verificada": true
+    },
+    "trabajo_segun_capacidad": {
+      "valor": "si",
+      "evidencia": "aportar según capacidad.",
+      "cita_verificada": true
+    },
+    "medicamentos_segun_necesidad": {
+      "valor": "si",
+      "evidencia": "Parte 2: botiquín, inventario público y triaje (urgencia, gravedad, beneficio esperado, dosis mínima).",
+      "cita_verificada": true
+    },
+    "reparto_maximiza": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "cargo_de_una_sola_parte": {
+      "valor": "si",
+      "evidencia": "Parte 3 coordina logística y turnos voluntarios, sin sancionar ni disponer de botiquín, bote ni cupos.",
+      "cita_verificada": true
+    },
+    "cargo_electo": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "cargo_revocable": {
+      "valor": "si",
+      "evidencia": "Revocable por mayoría simple.",
+      "cita_verificada": true
+    },
+    "decide_el_conjunto": {
+      "valor": "si",
+      "evidencia": "Uso del bote fuera de la costa y reforma del acta: cinco votos.",
+      "cita_verificada": true
+    }
+  },
+  "problemas": []
+}

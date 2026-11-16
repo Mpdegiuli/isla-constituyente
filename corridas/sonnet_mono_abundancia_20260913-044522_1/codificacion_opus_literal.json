@@ -1,0 +1,72 @@
+{
+  "corrida": "sonnet_mono_abundancia_20260913-044522_1",
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "codebook_md5": "c40eb0f1"
+  },
+  "categorias": {
+    "piso_garantizado": {
+      "valor": "si",
+      "evidencia": "todo participante tiene derecho a alimentación básica, agua, atención médica —incluidos medicamentos según criterio clínico— y participación en deliberaciones, independientemente de su capacidad de trabajo",
+      "cita_verificada": true
+    },
+    "reparto_partes_iguales": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "reparto_segun_necesidad": {
+      "valor": "si",
+      "evidencia": "Los recursos colectivos se distribuyen según necesidad, priorizando salud y supervivencia urgente.",
+      "cita_verificada": true
+    },
+    "adicional_por_aporte": {
+      "valor": "si",
+      "evidencia": "quien no contribuye puede ver reducido acceso a beneficios no esenciales",
+      "cita_verificada": true
+    },
+    "otro_criterio_de_reparto": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "trabajo_segun_capacidad": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "medicamentos_segun_necesidad": {
+      "valor": "si",
+      "evidencia": "La necesidad médica la determina el responsable de salud según criterio clínico, documentándolo ante el grupo",
+      "cita_verificada": true
+    },
+    "reparto_maximiza": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "cargo_de_una_sola_parte": {
+      "valor": "si",
+      "evidencia": "La autoridad es ejercida por un coordinador principal elegido por mayoría absoluta",
+      "cita_verificada": true
+    },
+    "cargo_electo": {
+      "valor": "si",
+      "evidencia": "Los roles se asignan por votación (mayoría absoluta). Coordinador principal: postulada la Parte 3.",
+      "cita_verificada": true
+    },
+    "cargo_revocable": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "decide_el_conjunto": {
+      "valor": "si",
+      "evidencia": "ninguna extracción o explotación a escala colectiva se inicia sin aprobación colectiva",
+      "cita_verificada": true
+    }
+  },
+  "problemas": []
+}

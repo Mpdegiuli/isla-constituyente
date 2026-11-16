@@ -1,0 +1,72 @@
+{
+  "corrida": "mistral_mono_en_20260913-192104_1",
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "codebook_md5": "c40eb0f1"
+  },
+  "categorias": {
+    "piso_garantizado": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "reparto_partes_iguales": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "reparto_segun_necesidad": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "adicional_por_aporte": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "otro_criterio_de_reparto": {
+      "valor": "si",
+      "evidencia": "Economy: Shared with strict sustainability quotas defined by the council with group input.",
+      "cita_verificada": true
+    },
+    "trabajo_segun_capacidad": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "medicamentos_segun_necesidad": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "reparto_maximiza": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "cargo_de_una_sola_parte": {
+      "valor": "si",
+      "evidencia": "Roles: Party 2 (medicine, with approval power), Party 4 (sustainability), Party 1 (boat).",
+      "cita_verificada": true
+    },
+    "cargo_electo": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "cargo_revocable": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "decide_el_conjunto": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    }
+  },
+  "problemas": []
+}

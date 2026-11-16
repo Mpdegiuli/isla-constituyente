@@ -1,0 +1,72 @@
+{
+  "corrida": "v2_fable_mono_horizonte_20260914-221935_1",
+  "codificador": {
+    "id": "deepseek-v4-pro",
+    "modelo_pedido": "deepseek-v4-pro",
+    "modelo_respondido": "deepseek-v4-pro",
+    "codebook_md5": "c40eb0f1"
+  },
+  "categorias": {
+    "piso_garantizado": {
+      "valor": "si",
+      "evidencia": "Comida, agua, abrigo y atención médica nunca se quitan como pena.",
+      "cita_verificada": true
+    },
+    "reparto_partes_iguales": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "reparto_segun_necesidad": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "adicional_por_aporte": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "otro_criterio_de_reparto": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "trabajo_segun_capacidad": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "medicamentos_segun_necesidad": {
+      "valor": "si",
+      "evidencia": "la prioridad en el uso de medicamentos incluye, junto con los casos agudos, infecciones y riesgo de vida, las enfermedades crónicas cuya interrupción de tratamiento produce empeoramiento progresivo comprobable, siempre que el botiquín contenga un medicamento adecuado para ellas.",
+      "cita_verificada": true
+    },
+    "reparto_maximiza": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "cargo_de_una_sola_parte": {
+      "valor": "si",
+      "evidencia": "La parte 3 es Coordinador General por su experiencia dirigiendo equipos bajo presión, sujeta a los puntos 7, 12, 14, 15 y 16.",
+      "cita_verificada": false
+    },
+    "cargo_electo": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "cargo_revocable": {
+      "valor": "si",
+      "evidencia": "Es revocable en cualquier momento por mayoría simple de los presentes a pedido de cualquier integrante; no vota en su revocación ni en la ratificación de sus medidas.",
+      "cita_verificada": true
+    },
+    "decide_el_conjunto": {
+      "valor": "si",
+      "evidencia": "Ninguna pena se aplica sin decisión de la Asamblea conforme al punto 15.",
+      "cita_verificada": true
+    }
+  },
+  "problemas": []
+}

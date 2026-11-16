@@ -1,0 +1,72 @@
+{
+  "corrida": "glm_razmin_mono_20260914-100115_1",
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "codebook_md5": "c40eb0f1"
+  },
+  "categorias": {
+    "piso_garantizado": {
+      "valor": "si",
+      "evidencia": "Todos tienen derecho a ración diaria equitativa",
+      "cita_verificada": true
+    },
+    "reparto_partes_iguales": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "reparto_segun_necesidad": {
+      "valor": "si",
+      "evidencia": "La comida y el agua se distribuyen por ración diaria equitativa, fijada por el coordinador con informe de la parte 4 sobre disponibilidad e indicación de la parte 2 sobre necesidad médica o esfuerzo físico extraordinario, que otorga ración complementaria.",
+      "cita_verificada": true
+    },
+    "adicional_por_aporte": {
+      "valor": "si",
+      "evidencia": "indicación de la parte 2 sobre necesidad médica o esfuerzo físico extraordinario, que otorga ración complementaria",
+      "cita_verificada": true
+    },
+    "otro_criterio_de_reparto": {
+      "valor": "si",
+      "evidencia": "La comida y el agua se distribuyen por ración diaria equitativa",
+      "cita_verificada": true
+    },
+    "trabajo_segun_capacidad": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "medicamentos_segun_necesidad": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "reparto_maximiza": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "cargo_de_una_sola_parte": {
+      "valor": "si",
+      "evidencia": "La autoridad ejecutiva la ejerce una sola persona",
+      "cita_verificada": true
+    },
+    "cargo_electo": {
+      "valor": "si",
+      "evidencia": "La autoridad ejecutiva la ejerce una sola persona, elegida por mayoría simple y revocable en cualquier momento por mayoría simple.",
+      "cita_verificada": true
+    },
+    "cargo_revocable": {
+      "valor": "si",
+      "evidencia": "La autoridad ejecutiva la ejerce una sola persona, elegida por mayoría simple y revocable en cualquier momento por mayoría simple.",
+      "cita_verificada": true
+    },
+    "decide_el_conjunto": {
+      "valor": "si",
+      "evidencia": "La pena no la fija quien coordina ni el mediador, sino el grupo por votación.",
+      "cita_verificada": true
+    }
+  },
+  "problemas": []
+}

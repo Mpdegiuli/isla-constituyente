@@ -1,0 +1,72 @@
+{
+  "corrida": "fable_mono_en_20260913-221128_1",
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "codebook_md5": "c40eb0f1"
+  },
+  "categorias": {
+    "piso_garantizado": {
+      "valor": "si",
+      "evidencia": "Everyone contributes work according to capacity and receives a full basic ration;",
+      "cita_verificada": true
+    },
+    "reparto_partes_iguales": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "reparto_segun_necesidad": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "adicional_por_aporte": {
+      "valor": "si",
+      "evidencia": "surplus is distributed proportionally to work.",
+      "cita_verificada": true
+    },
+    "otro_criterio_de_reparto": {
+      "valor": "si",
+      "evidencia": "Whoever leaves takes personal effects and a fair share of stored food, never medicines, tools or the boat.",
+      "cita_verificada": true
+    },
+    "trabajo_segun_capacidad": {
+      "valor": "si",
+      "evidencia": "Everyone contributes work according to capacity and receives a full basic ration;",
+      "cita_verificada": true
+    },
+    "medicamentos_segun_necesidad": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "reparto_maximiza": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "cargo_de_una_sola_parte": {
+      "valor": "si",
+      "evidencia": "Roles, revocable by absolute majority: P3 coordinator; P2 medic, kit custodian, reports stock each assembly; P4 inventory, quotas; P1 boat custodian, rower; P6 hunting, extraction lead; P5 records verification, disputes; P7 storage, rationing.",
+      "cita_verificada": true
+    },
+    "cargo_electo": {
+      "valor": "si",
+      "evidencia": "Coordinator, elected monthly, removable by absolute majority, convenes meetings, assigns unfilled tasks, records work publicly;",
+      "cita_verificada": true
+    },
+    "cargo_revocable": {
+      "valor": "si",
+      "evidencia": "Coordinator, elected monthly, removable by absolute majority, convenes meetings, assigns unfilled tasks, records work publicly;",
+      "cita_verificada": true
+    },
+    "decide_el_conjunto": {
+      "valor": "si",
+      "evidencia": "Penalties: only for written rules, proportional, decided by the assembly after hearing the accused:",
+      "cita_verificada": true
+    }
+  },
+  "problemas": []
+}

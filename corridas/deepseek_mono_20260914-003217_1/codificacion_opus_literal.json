@@ -1,0 +1,72 @@
+{
+  "corrida": "deepseek_mono_20260914-003217_1",
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "codebook_md5": "c40eb0f1"
+  },
+  "categorias": {
+    "piso_garantizado": {
+      "valor": "si",
+      "evidencia": "Derechos: subsistencia, atención urgente, participación, información, retiro.",
+      "cita_verificada": true
+    },
+    "reparto_partes_iguales": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "reparto_segun_necesidad": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "adicional_por_aporte": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "otro_criterio_de_reparto": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "trabajo_segun_capacidad": {
+      "valor": "si",
+      "evidencia": "tripulación por turnos entre quienes sepan remar, salvo contraindicación",
+      "cita_verificada": true
+    },
+    "medicamentos_segun_necesidad": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "reparto_maximiza": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "cargo_de_una_sola_parte": {
+      "valor": "si",
+      "evidencia": "Parte 3 coordina; Parte 2 sanitaria; Parte 4 recursos.",
+      "cita_verificada": true
+    },
+    "cargo_electo": {
+      "valor": "si",
+      "evidencia": "Habrá coordinación, sanidad y recursos, electas y revocables",
+      "cita_verificada": true
+    },
+    "cargo_revocable": {
+      "valor": "si",
+      "evidencia": "Habrá coordinación, sanidad y recursos, electas y revocables",
+      "cita_verificada": true
+    },
+    "decide_el_conjunto": {
+      "valor": "si",
+      "evidencia": "El bote se regula por asamblea",
+      "cita_verificada": true
+    }
+  },
+  "problemas": []
+}

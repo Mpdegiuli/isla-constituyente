@@ -1,0 +1,72 @@
+{
+  "corrida": "kimi_mono_20260914-043333_1",
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "codebook_md5": "c40eb0f1"
+  },
+  "categorias": {
+    "piso_garantizado": {
+      "valor": "si",
+      "evidencia": "Prohibidas: muerte, lesiones, destierro forzado y privación de agua, alimento o medicamentos.",
+      "cita_verificada": true
+    },
+    "reparto_partes_iguales": {
+      "valor": "si",
+      "evidencia": "Los bienes comunes de consumo se reparten en partes iguales, salvo necesidad médica.",
+      "cita_verificada": true
+    },
+    "reparto_segun_necesidad": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "adicional_por_aporte": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "otro_criterio_de_reparto": {
+      "valor": "si",
+      "evidencia": "Su aprovechamiento se rige por cuotas según la tasa de renovación de cada recurso",
+      "cita_verificada": true
+    },
+    "trabajo_segun_capacidad": {
+      "valor": "si",
+      "evidencia": "Cada parte aporta trabajo según su capacidad —fijada en el acta, impugnable, y evaluada considerando el estado de salud que determine la parte con formación médica—",
+      "cita_verificada": true
+    },
+    "medicamentos_segun_necesidad": {
+      "valor": "si",
+      "evidencia": "Los medicamentos se asignan por necesidad médica, fuera de toda cuota y reparto",
+      "cita_verificada": true
+    },
+    "reparto_maximiza": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "cargo_de_una_sola_parte": {
+      "valor": "si",
+      "evidencia": "Gobierno: una parte coordina, electa y revocable por mayoría calificada de 5 de 7, candidaturas abiertas.",
+      "cita_verificada": true
+    },
+    "cargo_electo": {
+      "valor": "si",
+      "evidencia": "una parte coordina, electa y revocable por mayoría calificada de 5 de 7, candidaturas abiertas",
+      "cita_verificada": true
+    },
+    "cargo_revocable": {
+      "valor": "si",
+      "evidencia": "una parte coordina, electa y revocable por mayoría calificada de 5 de 7",
+      "cita_verificada": true
+    },
+    "decide_el_conjunto": {
+      "valor": "si",
+      "evidencia": "los temas fundamentales —gobierno, propiedad, penas, derechos y obligaciones, y la administración de recursos vitales escasos, como medicamentos, bote y herramientas— requieren mayoría calificada de 5 de 7",
+      "cita_verificada": true
+    }
+  },
+  "problemas": []
+}

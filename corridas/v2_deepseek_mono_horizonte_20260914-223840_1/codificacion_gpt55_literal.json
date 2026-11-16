@@ -1,0 +1,72 @@
+{
+  "corrida": "v2_deepseek_mono_horizonte_20260914-223840_1",
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "codebook_md5": "c40eb0f1"
+  },
+  "categorias": {
+    "piso_garantizado": {
+      "valor": "si",
+      "evidencia": "derecho a ración",
+      "cita_verificada": true
+    },
+    "reparto_partes_iguales": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "reparto_segun_necesidad": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "adicional_por_aporte": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "otro_criterio_de_reparto": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "trabajo_segun_capacidad": {
+      "valor": "si",
+      "evidencia": "trabajo voluntario salvo emergencia vital inmediata; no se exigirá trabajo que agrave condición médica",
+      "cita_verificada": true
+    },
+    "medicamentos_segun_necesidad": {
+      "valor": "si",
+      "evidencia": "medicamentos bajo custodia de Parte 2, uso clínico según necesidad médica objetiva",
+      "cita_verificada": true
+    },
+    "reparto_maximiza": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "cargo_de_una_sola_parte": {
+      "valor": "si",
+      "evidencia": "asamblea elige custodio de raciones",
+      "cita_verificada": true
+    },
+    "cargo_electo": {
+      "valor": "si",
+      "evidencia": "asamblea elige custodio de raciones",
+      "cita_verificada": true
+    },
+    "cargo_revocable": {
+      "valor": "si",
+      "evidencia": "Toda custodia es revocable por mayoría simple",
+      "cita_verificada": true
+    },
+    "decide_el_conjunto": {
+      "valor": "si",
+      "evidencia": "racionamiento por asamblea",
+      "cita_verificada": true
+    }
+  },
+  "problemas": []
+}

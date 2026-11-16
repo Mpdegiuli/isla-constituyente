@@ -1,0 +1,72 @@
+{
+  "corrida": "base_mono_20260913-013751_1",
+  "codificador": {
+    "id": "muse-wonder-1.0",
+    "modelo_pedido": "muse-wonder-1.0",
+    "modelo_respondido": "muse-wonder-1.0",
+    "codebook_md5": "c40eb0f1"
+  },
+  "categorias": {
+    "piso_garantizado": {
+      "valor": "si",
+      "evidencia": "cada participante tiene derecho a alimentación básica",
+      "cita_verificada": true
+    },
+    "reparto_partes_iguales": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "reparto_segun_necesidad": {
+      "valor": "si",
+      "evidencia": "La producción colectiva se distribuye según necesidad, por decisión de la asamblea.",
+      "cita_verificada": true
+    },
+    "adicional_por_aporte": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "otro_criterio_de_reparto": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "trabajo_segun_capacidad": {
+      "valor": "si",
+      "evidencia": "contribuir al trabajo colectivo según capacidad",
+      "cita_verificada": true
+    },
+    "medicamentos_segun_necesidad": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "reparto_maximiza": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "cargo_de_una_sola_parte": {
+      "valor": "si",
+      "evidencia": "Se elige un coordinador general por votación, revocable por mayoría absoluta, que ejecuta las decisiones de la asamblea y coordina a los responsables.",
+      "cita_verificada": true
+    },
+    "cargo_electo": {
+      "valor": "si",
+      "evidencia": "Se elige un coordinador general por votación",
+      "cita_verificada": true
+    },
+    "cargo_revocable": {
+      "valor": "si",
+      "evidencia": "Se elige un coordinador general por votación, revocable por mayoría absoluta",
+      "cita_verificada": true
+    },
+    "decide_el_conjunto": {
+      "valor": "si",
+      "evidencia": "para usos no urgentes que afecten el stock, decide la asamblea por mayoría absoluta",
+      "cita_verificada": true
+    }
+  },
+  "problemas": []
+}

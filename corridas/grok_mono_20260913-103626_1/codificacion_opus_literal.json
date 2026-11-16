@@ -1,0 +1,72 @@
+{
+  "corrida": "grok_mono_20260913-103626_1",
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "codebook_md5": "c40eb0f1"
+  },
+  "categorias": {
+    "piso_garantizado": {
+      "valor": "si",
+      "evidencia": "reincidencia, exclusión de comunes salvo comida, agua y medicamentos clínicos",
+      "cita_verificada": true
+    },
+    "reparto_partes_iguales": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "reparto_segun_necesidad": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "adicional_por_aporte": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "otro_criterio_de_reparto": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "trabajo_segun_capacidad": {
+      "valor": "si",
+      "evidencia": "Todos trabajan tareas asignadas, compatibles por salud",
+      "cita_verificada": true
+    },
+    "medicamentos_segun_necesidad": {
+      "valor": "si",
+      "evidencia": "Los medicamentos se asignan por necesidad clínica, con inventario visible y prioridad a quien sin ellos empeora.",
+      "cita_verificada": true
+    },
+    "reparto_maximiza": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "cargo_de_una_sola_parte": {
+      "valor": "si",
+      "evidencia": "Parte 3 coordina turnos, inventario y prioridades.",
+      "cita_verificada": true
+    },
+    "cargo_electo": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "cargo_revocable": {
+      "valor": "si",
+      "evidencia": "Cargos temporales revocables por mayoría absoluta.",
+      "cita_verificada": true
+    },
+    "decide_el_conjunto": {
+      "valor": "si",
+      "evidencia": "Asamblea de no retirados: única autoridad; el acta prima.",
+      "cita_verificada": true
+    }
+  },
+  "problemas": []
+}

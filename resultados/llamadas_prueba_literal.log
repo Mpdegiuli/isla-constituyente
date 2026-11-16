@@ -1,0 +1,14 @@
+/root/isla-constituyente/.venv/lib64/python3.11/site-packages/pydantic/main.py:475: UserWarning: Pydantic serializer warnings:
+  PydanticSerializationUnexpectedValue(Expected `str` - serialized value may not be as expected [field_name='content', input_value=[{'type': 'thinking', 'th...l lunes es el martes.'}], input_type=list])
+  return self.__pydantic_serializer__.to_python(
+=== mistral-large -> mistral-large-latest (Mistral, via directo)
+  modelo_respondido: mistral-large-latest | servido_por: None | fin: stop
+  tokens: entrada 62, salida 283 | razonamiento: 0 caracteres
+Traceback (most recent call last):
+  File "/root/isla-constituyente/probar_modelo.py", line 42, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/root/isla-constituyente/probar_modelo.py", line 37, in main
+    print(f"  respuesta: {(r.texto or '').strip()[:300]}\n")
+                          ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'strip'

@@ -1,0 +1,72 @@
+{
+  "corrida": "sonnet_mono_horizonte_20260913-115812_1",
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "codebook_md5": "c40eb0f1"
+  },
+  "categorias": {
+    "piso_garantizado": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "reparto_partes_iguales": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "reparto_segun_necesidad": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "adicional_por_aporte": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "otro_criterio_de_reparto": {
+      "valor": "si",
+      "evidencia": "Los recursos individuales son de quien los obtuvo",
+      "cita_verificada": true
+    },
+    "trabajo_segun_capacidad": {
+      "valor": "si",
+      "evidencia": "la incapacidad temporal para contribuir se determina con criterio médico acreditado",
+      "cita_verificada": true
+    },
+    "medicamentos_segun_necesidad": {
+      "valor": "si",
+      "evidencia": "se exceptúan las emergencias médicas críticas, en las que el coordinador activa los medicamentos siguiendo criterio del administrador médico",
+      "cita_verificada": true
+    },
+    "reparto_maximiza": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "cargo_de_una_sola_parte": {
+      "valor": "si",
+      "evidencia": "el grupo designa por mayoría simple un coordinador operativo, que implementa las decisiones colectivas y gestiona las emergencias urgentes",
+      "cita_verificada": true
+    },
+    "cargo_electo": {
+      "valor": "si",
+      "evidencia": "Para la coordinación operativa, el grupo designa por mayoría simple un coordinador operativo",
+      "cita_verificada": true
+    },
+    "cargo_revocable": {
+      "valor": "si",
+      "evidencia": "Rinde cuentas periódicamente y puede ser removido por mayoría simple.",
+      "cita_verificada": true
+    },
+    "decide_el_conjunto": {
+      "valor": "si",
+      "evidencia": "Las sanciones las decide el grupo por mayoría",
+      "cita_verificada": true
+    }
+  },
+  "problemas": []
+}

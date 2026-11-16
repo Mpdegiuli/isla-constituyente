@@ -1,0 +1,72 @@
+{
+  "corrida": "v2_deepseek_mono_20260914-222435_1",
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "codebook_md5": "c40eb0f1"
+  },
+  "categorias": {
+    "piso_garantizado": {
+      "valor": "si",
+      "evidencia": "Nadie puede ser privado de alimentos, agua ni medicación necesaria como sanción.",
+      "cita_verificada": true
+    },
+    "reparto_partes_iguales": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "reparto_segun_necesidad": {
+      "valor": "si",
+      "evidencia": "Economía: cooperativa de producción y racionamiento; inventario colectivo. Distribución por necesidad, salud y contribución dentro de cuotas sostenibles fijadas por la coordinación de territorio y recursos.",
+      "cita_verificada": true
+    },
+    "adicional_por_aporte": {
+      "valor": "si",
+      "evidencia": "Economía: cooperativa de producción y racionamiento; inventario colectivo. Distribución por necesidad, salud y contribución dentro de cuotas sostenibles fijadas por la coordinación de territorio y recursos.",
+      "cita_verificada": true
+    },
+    "otro_criterio_de_reparto": {
+      "valor": "si",
+      "evidencia": "Economía: cooperativa de producción y racionamiento; inventario colectivo. Distribución por necesidad, salud y contribución dentro de cuotas sostenibles fijadas por la coordinación de territorio y recursos.",
+      "cita_verificada": true
+    },
+    "trabajo_segun_capacidad": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "medicamentos_segun_necesidad": {
+      "valor": "si",
+      "evidencia": "reservar al menos 30% del stock de medicamentos para emergencias; priorizar casos graves y crónicos.",
+      "cita_verificada": true
+    },
+    "reparto_maximiza": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "cargo_de_una_sola_parte": {
+      "valor": "si",
+      "evidencia": "Parte 2 custodia botiquín y coordina salud; Parte 3 dirección inicial 15 días; Parte 4 coordina territorio y recursos;",
+      "cita_verificada": true
+    },
+    "cargo_electo": {
+      "valor": "si",
+      "evidencia": "dirección general ejecutiva elegida por mayoría absoluta por períodos de 15 días",
+      "cita_verificada": true
+    },
+    "cargo_revocable": {
+      "valor": "si",
+      "evidencia": "dirección general ejecutiva elegida por mayoría absoluta por períodos de 15 días, revocable por mayoría absoluta en cualquier momento.",
+      "cita_verificada": true
+    },
+    "decide_el_conjunto": {
+      "valor": "si",
+      "evidencia": "decisiones ordinarias por mayoría simple; reformas y sanciones graves por mayoría absoluta.",
+      "cita_verificada": true
+    }
+  },
+  "problemas": []
+}

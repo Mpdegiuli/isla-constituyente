@@ -1,0 +1,72 @@
+{
+  "corrida": "fable_mono_en_20260913-221128_1",
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "codebook_md5": "c40eb0f1"
+  },
+  "categorias": {
+    "piso_garantizado": {
+      "valor": "si",
+      "evidencia": "Never denial of basic ration, water or urgent medical care.",
+      "cita_verificada": true
+    },
+    "reparto_partes_iguales": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "reparto_segun_necesidad": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "adicional_por_aporte": {
+      "valor": "si",
+      "evidencia": "surplus is distributed proportionally to work",
+      "cita_verificada": true
+    },
+    "otro_criterio_de_reparto": {
+      "valor": "si",
+      "evidencia": "Whoever leaves takes personal effects and a fair share of stored food",
+      "cita_verificada": true
+    },
+    "trabajo_segun_capacidad": {
+      "valor": "si",
+      "evidencia": "Everyone contributes work according to capacity and receives a full basic ration",
+      "cita_verificada": true
+    },
+    "medicamentos_segun_necesidad": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "reparto_maximiza": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "cargo_de_una_sola_parte": {
+      "valor": "si",
+      "evidencia": "Coordinator, elected monthly, removable by absolute majority, convenes meetings, assigns unfilled tasks, records work publicly",
+      "cita_verificada": true
+    },
+    "cargo_electo": {
+      "valor": "si",
+      "evidencia": "Coordinator, elected monthly",
+      "cita_verificada": true
+    },
+    "cargo_revocable": {
+      "valor": "si",
+      "evidencia": "removable by absolute majority",
+      "cita_verificada": true
+    },
+    "decide_el_conjunto": {
+      "valor": "si",
+      "evidencia": "Decisions concerning the custody, reserve and allocation policy of the boat or the medicines require a qualified majority of at least 5 of 7.",
+      "cita_verificada": true
+    }
+  },
+  "problemas": []
+}

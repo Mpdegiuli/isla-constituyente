@@ -1,0 +1,72 @@
+{
+  "corrida": "fable_mono_20260914-014045_1",
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "codebook_md5": "c40eb0f1"
+  },
+  "categorias": {
+    "piso_garantizado": {
+      "valor": "si",
+      "evidencia": "Ninguna pena niega agua, ración base ni atención médica",
+      "cita_verificada": true
+    },
+    "reparto_partes_iguales": {
+      "valor": "si",
+      "evidencia": "Lo extraído dentro del cupo va a un fondo común repartido en raciones base iguales",
+      "cita_verificada": true
+    },
+    "reparto_segun_necesidad": {
+      "valor": "si",
+      "evidencia": "más una porción adicional por tareas pesadas o riesgosas fijada de antemano por la asamblea, y ajustes por enfermedad",
+      "cita_verificada": true
+    },
+    "adicional_por_aporte": {
+      "valor": "si",
+      "evidencia": "más una porción adicional por tareas pesadas o riesgosas fijada de antemano por la asamblea",
+      "cita_verificada": true
+    },
+    "otro_criterio_de_reparto": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "trabajo_segun_capacidad": {
+      "valor": "si",
+      "evidencia": "Obligaciones: trabajar según capacidad en las tareas asignadas",
+      "cita_verificada": true
+    },
+    "medicamentos_segun_necesidad": {
+      "valor": "si",
+      "evidencia": "la asamblea decide el primer viaje del bote y las prioridades médicas, que se aplican con criterio médico y registro visible",
+      "cita_verificada": true
+    },
+    "reparto_maximiza": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "cargo_de_una_sola_parte": {
+      "valor": "si",
+      "evidencia": "La autoridad la ejerce un coordinador elegido por mayoría absoluta, mandato de dos meses",
+      "cita_verificada": true
+    },
+    "cargo_electo": {
+      "valor": "si",
+      "evidencia": "un coordinador elegido por mayoría absoluta",
+      "cita_verificada": true
+    },
+    "cargo_revocable": {
+      "valor": "si",
+      "evidencia": "mandato de dos meses, renovable y revocable por mayoría absoluta",
+      "cita_verificada": true
+    },
+    "decide_el_conjunto": {
+      "valor": "si",
+      "evidencia": "Bote, medicamentos, racionamiento y penas los decide la asamblea; el coordinador solo ejecuta",
+      "cita_verificada": true
+    }
+  },
+  "problemas": []
+}

@@ -1,0 +1,72 @@
+{
+  "corrida": "sonnet_mono_escasez_20260913-043622_1",
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "codebook_md5": "c40eb0f1"
+  },
+  "categorias": {
+    "piso_garantizado": {
+      "valor": "si",
+      "evidencia": "Ninguna sanción puede implicar la privación de acceso a recursos básicos —agua, alimento, abrigo, atención médica—.",
+      "cita_verificada": true
+    },
+    "reparto_partes_iguales": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "reparto_segun_necesidad": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "adicional_por_aporte": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "otro_criterio_de_reparto": {
+      "valor": "si",
+      "evidencia": "La distribución de recursos básicos —alimento, agua, abrigo, atención médica— es equitativa: nadie pierde acceso por incapacidad, enfermedad o condición de salud.",
+      "cita_verificada": true
+    },
+    "trabajo_segun_capacidad": {
+      "valor": "si",
+      "evidencia": "contribuir al trabajo colectivo según su capacidad real y declarada",
+      "cita_verificada": true
+    },
+    "medicamentos_segun_necesidad": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "reparto_maximiza": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "cargo_de_una_sola_parte": {
+      "valor": "si",
+      "evidencia": "El coordinador del consejo —quien convoca y modera— es propuesto por los tres miembros del consejo entre sí y ratificado por el grupo por mayoría simple.",
+      "cita_verificada": true
+    },
+    "cargo_electo": {
+      "valor": "si",
+      "evidencia": "el consejo coordina y puede delegar supervisión operativa en un coordinador elegido por el grupo",
+      "cita_verificada": true
+    },
+    "cargo_revocable": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "decide_el_conjunto": {
+      "valor": "si",
+      "evidencia": "El consejo no puede disponer de recursos comunes sin votación previa, salvo emergencia declarada por al menos dos miembros.",
+      "cita_verificada": true
+    }
+  },
+  "problemas": []
+}

@@ -1,0 +1,72 @@
+{
+  "corrida": "v2_fable_mono_horizonte_20260914-221935_1",
+  "codificador": {
+    "id": "muse-wonder-1.0",
+    "modelo_pedido": "muse-wonder-1.0",
+    "modelo_respondido": "muse-wonder-1.0",
+    "codebook_md5": "c40eb0f1"
+  },
+  "categorias": {
+    "piso_garantizado": {
+      "valor": "si",
+      "evidencia": "Comida, agua, abrigo y atención médica nunca se quitan como pena.",
+      "cita_verificada": true
+    },
+    "reparto_partes_iguales": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "reparto_segun_necesidad": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "adicional_por_aporte": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "otro_criterio_de_reparto": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "trabajo_segun_capacidad": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "medicamentos_segun_necesidad": {
+      "valor": "si",
+      "evidencia": "Se usan con criterio médico según las prioridades del punto 21.",
+      "cita_verificada": true
+    },
+    "reparto_maximiza": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "cargo_de_una_sola_parte": {
+      "valor": "si",
+      "evidencia": "La parte 3 es Coordinador General por su experiencia dirigiendo equipos bajo presión",
+      "cita_verificada": false
+    },
+    "cargo_electo": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "cargo_revocable": {
+      "valor": "si",
+      "evidencia": "Es revocable en cualquier momento por mayoría simple de los presentes a pedido de cualquier integrante",
+      "cita_verificada": true
+    },
+    "decide_el_conjunto": {
+      "valor": "si",
+      "evidencia": "Ninguna pena se aplica sin decisión de la Asamblea conforme al punto 15.",
+      "cita_verificada": true
+    }
+  },
+  "problemas": []
+}

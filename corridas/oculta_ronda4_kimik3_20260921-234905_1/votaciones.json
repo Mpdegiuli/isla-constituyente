@@ -1,0 +1,103 @@
+[
+  {
+    "ronda": 1,
+    "autor": 2,
+    "puntos": [
+      "regla_de_decision",
+      "voto",
+      "propiedad"
+    ],
+    "texto": "1) Regla de decisión: las decisiones ordinarias se adoptan por mayoría simple de los presentes en la mesa; modificar o derogar cualquier punto ya aprobado en este acta requiere mayoría absoluta (al menos 4 de 7 votos). 2) Voto: público y obligatorio para todo participante presente en la deliberación; la abstención no cuenta como voto. 3) Propiedad: los recursos naturales de la isla (agua, frutos, leña, carbón, metal, animales), las herramientas, los medicamentos y las reservas rescatadas del naufragio son de propiedad común y su uso lo administra la asamblea. Las pertenencias contenidas en la valija de cada participante son de propiedad personal de su dueño. El bote a remos es propiedad común bajo custodia exclusiva del participante que sabe remar (parte 1); nadie puede usarlo, trasladarlo o modificarlo sin su autorización y presencia, por ser la única vía de escape y existir riesgo cierto de pérdida o daño si lo opera quien no sabe remar. El botiquín y los medicamentos son propiedad común bajo custodia del participante con formación médica (parte 2), quien decide las dosis según criterio técnico y lleva un registro público de cada uso, disponible para todos los participantes. El consumo de analgésicos por parte del propio custodio médico requiere autorización previa de la asamblea por mayoría simple, dada la escasez de estos medicamentos y la condición de dolor crónico del custodio.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "no",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 6,
+      "no": 1,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 2,
+    "autor": 3,
+    "puntos": [
+      "gobierno"
+    ],
+    "texto": "9) Gobierno: a) La autoridad ejecutiva la ejerce un coordinador general electo por la asamblea por mayoría absoluta, con mandato de treinta días renovable, revocable en cualquier momento por mayoría simple, con efecto inmediato. b) Funciones del coordinador: convocar y ordenar las sesiones de la asamblea; organizar y asignar el trabajo diario según aptitudes y las rotaciones aprobadas; vigilar el cumplimiento de cuotas, calendarios de racionamiento y registros públicos; mediar en conflictos antes de elevarlos a la asamblea; y ejecutar lo que la asamblea decida. c) El coordinador no puede: modificar cuotas ni calendarios; usar bienes comunes fuera de lo autorizado; impedir o demorar una votación de revocación; ni decidir por su cuenta disputas, penas o cambios del acta. d) El coordinador no tiene privilegios materiales ni raciones extra y queda sujeto al control de cargos del punto 7, incluidos informe semanal, revocación y suspensión automática. e) Vacante el cargo, la asamblea elige reemplazo en la misma sesión o la siguiente; entretanto decide directamente por mayoría simple. f) Se designa primer coordinador a la parte 3, por su experiencia dirigiendo equipos y por no custodiar recurso alguno, lo que evita concentrar poder material y autoridad en una misma persona.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 2,
+    "autor": 5,
+    "puntos": [
+      "regimen",
+      "economia",
+      "roles"
+    ],
+    "texto": "4) Régimen: \"Comuna Regenerativa de las Siete Valijas\" (inventado): democracia asamblearia directa; la soberanía reside en la asamblea; cargos técnicos, electos, revocables en cualquier momento por mayoría simple, sin privilegios materiales ni raciones extra. Economía: común de subsistencia con cuotas de extracción sostenibles. 5) Economía y recursos: a) la parte 4, por conocer el terreno, hará en siete días un inventario público (árboles y frutales, animales, agua, carbón y metal) con tasas de regeneración estimadas; b) la extracción de renovables no superará su tasa de regeneración; la custodia fija cuotas técnicas, revisables por la asamblea, nunca al alza sin informe técnico; c) frutales: cosecha sin dañar los árboles; prohibido talarlos; d) leña: solo de árboles marcados por la custodia, con replantación obligatoria de un brote por árbol cortado; e) animales: caza y pesca con vedas de cría y cuotas que preserven la reproducción; f) carbón y metal: reservados a herramientas, refugio y necesidades esenciales; prohibido su uso para confort; g) río: prohibido verter desechos o desviarlo sin acuerdo de la asamblea e informe técnico; h) las reservas del naufragio se racionan en partes iguales según calendario de la asamblea; i) exceder la cuota requiere autorización previa de la asamblea con informe de la custodia; j) emergencia: ante necesidad urgente (hambre, lesión, tormenta u otro peligro inmediato), cualquiera puede excederla en lo mínimo indispensable, informando a la asamblea dentro de cuarenta y ocho horas. 6) Roles: parte 1 custodia el bote y parte 2 el botiquín (ya aprobado); la parte 4 custodia los recursos naturales y el inventario, con registro público y supervisión de la asamblea; los demás roles los asigna la asamblea según aptitud, con rotación de tareas penosas; la coordinación general se rige por el punto 9 y no podrá elevar cuotas sin informe técnico de la custodia. 7) Control de cargos: a) ratificación: todo cargo, incluidos bote y botiquín, requiere ratificación por mayoría simple al aprobarse este punto; b) cuentas: cada siete días, informe público del estado y uso del bien custodiado; c) revocación: cualquiera puede pedirla en cualquier momento; se vota de inmediato por mayoría simple con efecto inmediato; d) igualdad: los custodios siguen las mismas reglas, cuotas y penas; usar el bien fuera de lo autorizado, falsear registros o violar cuotas implica suspensión automática hasta que la asamblea decida, sin perjuicio de penas; e) las decisiones de los custodios se anotan por escrito y son públicas. 8) Expedición de búsqueda: en diez días, si el mar lo permite según informe de la parte 1, el bote saldrá a buscar ayuda, recursos y medicamentos, tripulado por la parte 1 y un acompañante voluntario elegido por la asamblea; la parte 1 fija fecha y ruta por seguridad, pudiendo postergar solo por mal tiempo, informando a la asamblea; la custodia médica proveerá un equipo de emergencia mínimo según criterio técnico, sin comprometer reservas críticas, y una lista de medicamentos prioritarios, incluidos analgésicos, que la expedición procurará conseguir.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "aprobada": true
+  },
+  {
+    "ronda": 3,
+    "autor": 5,
+    "puntos": [
+      "disputas",
+      "penas"
+    ],
+    "texto": "12) Resolución de disputas: a) Toda disputa entre participantes o sobre la aplicación de este acta se eleva primero al coordinador, que media y busca acuerdo dentro de cuarenta y ocho horas. b) Si no hay acuerdo, o si el coordinador es parte en la disputa, la asamblea la resuelve en su próxima sesión por mayoría simple, tras escuchar a las partes; cuando el coordinador es parte, la mediación la realiza un participante elegido por mayoría simple. c) Las decisiones técnicas de los custodios pueden ser revisadas por la asamblea a pedido de cualquier participante; en materia de cuotas e inventario, la asamblea decide con el informe técnico de la custodia de recursos y no puede elevar cuotas sin él, conforme al punto 5. d) Toda resolución queda anotada por escrito, es pública y sienta precedente para casos iguales. e) Mientras se resuelve una disputa, nadie puede tomar la justicia por su mano ni retener bienes comunes. f) Recusación: quien sea parte en una disputa no vota en su resolución ni en la pena correspondiente; nadie es juez en su propia causa. 13) Penas: a) Principios: no hay pena sin una regla previa de este acta que prohíba la conducta; ninguna pena sin que el acusado sea escuchado ante la asamblea; proporcionalidad a la gravedad y al daño; la reparación voluntaria atenúa; la reincidencia agrava; ninguna pena implica trato degradante, penas corporales ni privación de agua, alimento mínimo, refugio o atención médica. b) Escala: 1. advertencia pública anotada en el acta; 2. reparación del daño causado o trabajo compensatorio equivalente; el daño a recursos naturales se repara con restauración ecológica (replantación o recuperación del área) supervisada por la custodia; 3. restricción temporal, fijada por la asamblea, de bienes o actividades no esenciales; 4. suspensión o revocación de cargos, sin perjuicio del control del punto 7; 5. por faltas graves que pongan en riesgo la vida o la supervivencia del grupo (agresión, sabotaje, robo del bote o de medicamentos, o depredación deliberada de recursos naturales: tala de frutales, contaminación del río o exceso reiterado de cuotas), separación supervisada del trabajo común por tiempo definido, con agua, alimento, refugio y revisión semanal por la asamblea. c) La asamblea impone las penas por mayoría simple en la misma sesión o la siguiente a la mediación; el coordinador ejecuta y da cuenta en su informe semanal. d) El incumplimiento de una pena agrava la falta. e) Cumplida la pena y reparado el daño, la falta queda saldada y no se vuelve a invocar contra el participante.",
+    "regla": "mayoria_absoluta",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "aprobada": true
+  }
+]

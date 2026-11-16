@@ -1,0 +1,29 @@
+[
+  {
+    "ronda": 2,
+    "autor": 5,
+    "puntos": [
+      "regimen",
+      "gobierno",
+      "roles",
+      "prevision_y_seguridad"
+    ],
+    "texto": "1) La sociedad se denomina \"Asamblea de la Isla\", un régimen democrático. 2) Las decisiones se toman por mayoría simple de los presentes, salvo las indicadas expresamente. 3) El voto es público y obligatorio para quienes participan de la deliberación. 4) El gobierno es ejercido por un coordinador elegido por seis meses por la asamblea, reelegible, con autoridad ejecutiva limitada, revocable en cualquier momento por mayoría absoluta. El coordinador no decide solo en materia de penas, recursos escasos ni uso del bote. La asamblea elige como primer coordinador a la parte 3, en virtud de su experiencia de dirección. 5) El bote es bien comunitario; su custodia es fija y la asamblea la asigna a la parte 1, que no ocupa otro cargo, en virtud de su conocimiento del bote; todos los miembros deben aprender a manejarlo. Su uso requiere decisión de la asamblea. 6) Los recursos escasos (bote, botiquín, herramientas, reservas) son bienes comunitarios; su administración se asigna por la asamblea y su uso requiere decisión colectiva. 7) La parte 4 queda a cargo de la custodia del terreno y del inventario de recursos naturales, con informe mensual a la asamblea, verificable por cualquier miembro. La parte 2 queda a cargo de la custodia del botiquín bajo control de la asamblea. La parte 6 queda a cargo de la seguridad del campamento y la provisión de alimentos, con informe mensual a la asamblea. 8) Queda prohibido el uso de recursos naturales que supere su tasa de regeneración; se exceptúa el uso de subsistencia inmediata y de emergencia, que se informa a la asamblea a posteriori. La explotación de las minas de carbón y metal requiere decisión expresa de la asamblea. 9) Todos los cargos son revocables por mayoría absoluta. Nadie puede acumular dos cargos simultáneamente. Las reglas de esta acta obligan por igual a todos los miembros, sin excepciones. 10) Todo conocimiento técnico relevante debe transmitirse a todo quien quiera aprenderlo. 11) Distribución del botiquín: la asamblea fija, con informe técnico de quien lo custodia, un orden de prioridad médica basado en gravedad y tratabilidad. La asignación de medicamentos a casos individuales se rige por ese criterio técnico, no por votación sobre personas. Los analgésicos escasos se reservan para urgencias, no para dolores crónicos. 12) Urgencia: dentro de los diez días, la asamblea decide un plan de salida del bote en exploración y búsqueda de recursos, con tripulación voluntaria capacitada.",
+    "regla": "mayoria_simple",
+    "votos": {
+      "1": "si",
+      "2": "si",
+      "3": "si",
+      "4": "si",
+      "5": "si",
+      "6": "si",
+      "7": "si"
+    },
+    "conteo": {
+      "si": 7,
+      "no": 0,
+      "abstencion": 0
+    },
+    "aprobada": true
+  }
+]

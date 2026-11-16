@@ -1,0 +1,72 @@
+{
+  "corrida": "mixta_v2_fr_20260915-140413_1",
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "codebook_md5": "c40eb0f1"
+  },
+  "categorias": {
+    "piso_garantizado": {
+      "valor": "si",
+      "evidencia": "Il conserve accès de subsistance, mais reste soumis aux plafonds écologiques",
+      "cita_verificada": true
+    },
+    "reparto_partes_iguales": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "reparto_segun_necesidad": {
+      "valor": "si",
+      "evidencia": "production, collecte et consommation sont coordonnées pour couvrir les besoins vitaux sans dépasser la capacité de renouvellement",
+      "cita_verificada": true
+    },
+    "adicional_por_aporte": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "otro_criterio_de_reparto": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "trabajo_segun_capacidad": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "medicamentos_segun_necesidad": {
+      "valor": "si",
+      "evidencia": "Médicaments communs, registre public, soins selon gravité",
+      "cita_verificada": true
+    },
+    "reparto_maximiza": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "cargo_de_una_sola_parte": {
+      "valor": "si",
+      "evidencia": "Le Coordinateur général (membre 3), expérience d’organisation, organise tâches quotidiennes, abri, feu, garde, rationnement, sous contrôle de l’Assemblée",
+      "cita_verificada": true
+    },
+    "cargo_electo": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "cargo_revocable": {
+      "valor": "si",
+      "evidencia": "sous contrôle de l’Assemblée, révocable à 5/7",
+      "cita_verificada": true
+    },
+    "decide_el_conjunto": {
+      "valor": "si",
+      "evidencia": "L’Assemblée des Sept est souveraine. Les décisions ordinaires sont prises à la majorité simple (4/7). Les décisions fondamentales — modification du régime, propriété, peines, exclusion, usage de la barque hors urgence, baisse d’une protection écologique, ouverture des mines — exigent 5/7.",
+      "cita_verificada": true
+    }
+  },
+  "problemas": []
+}

@@ -1,0 +1,72 @@
+{
+  "corrida": "openai_mono_20260913-135901_1",
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "codebook_md5": "c40eb0f1"
+  },
+  "categorias": {
+    "piso_garantizado": {
+      "valor": "si",
+      "evidencia": "Prohibidas penas corporales, colectivas, exilio, y privación de agua, comida o atención médica.",
+      "cita_verificada": true
+    },
+    "reparto_partes_iguales": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "reparto_segun_necesidad": {
+      "valor": "si",
+      "evidencia": "Raciones y medicamentos se asignan por necesidad médica y aporte posible, no por fuerza.",
+      "cita_verificada": true
+    },
+    "adicional_por_aporte": {
+      "valor": "si",
+      "evidencia": "Raciones y medicamentos se asignan por necesidad médica y aporte posible, no por fuerza.",
+      "cita_verificada": true
+    },
+    "otro_criterio_de_reparto": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "trabajo_segun_capacidad": {
+      "valor": "si",
+      "evidencia": "Cada persona aporta trabajo según capacidad y salud; quien no pueda hará tareas livianas.",
+      "cita_verificada": true
+    },
+    "medicamentos_segun_necesidad": {
+      "valor": "si",
+      "evidencia": "Raciones y medicamentos se asignan por necesidad médica y aporte posible, no por fuerza.",
+      "cita_verificada": true
+    },
+    "reparto_maximiza": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "cargo_de_una_sola_parte": {
+      "valor": "si",
+      "evidencia": "Se crea un Consejo de Supervivencia por 30 días, revocable por mayoría absoluta: Parte 3 coordinación/guardias/agenda; Parte 4 recursos/ambiente; Parte 2 inventario/salud/medicamentos.",
+      "cita_verificada": true
+    },
+    "cargo_electo": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "cargo_revocable": {
+      "valor": "si",
+      "evidencia": "Se crea un Consejo de Supervivencia por 30 días, revocable por mayoría absoluta",
+      "cita_verificada": true
+    },
+    "decide_el_conjunto": {
+      "valor": "si",
+      "evidencia": "Sin acuerdo, decide la mesa por mayoría, oyendo a todos y con acta.",
+      "cita_verificada": true
+    }
+  },
+  "problemas": []
+}

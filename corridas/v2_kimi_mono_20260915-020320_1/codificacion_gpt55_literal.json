@@ -1,0 +1,72 @@
+{
+  "corrida": "v2_kimi_mono_20260915-020320_1",
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "codebook_md5": "c40eb0f1"
+  },
+  "categorias": {
+    "piso_garantizado": {
+      "valor": "si",
+      "evidencia": "A la ración de alimento y agua que fije el plan aprobado.",
+      "cita_verificada": true
+    },
+    "reparto_partes_iguales": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "reparto_segun_necesidad": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "adicional_por_aporte": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "otro_criterio_de_reparto": {
+      "valor": "si",
+      "evidencia": "Al separarse, recibirá una cuota proporcional (un séptimo de las reservas y herramientas comunes por persona separada, salvo acuerdo distinto por mayoría absoluta), excepto el bote y el botiquín, cuya custodia permanece en el grupo.",
+      "cita_verificada": true
+    },
+    "trabajo_segun_capacidad": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "medicamentos_segun_necesidad": {
+      "valor": "si",
+      "evidencia": "Los medicamentos se administran por criterio médico: indicación, dosis y duración según necesidad clínica, no por rango ni preferencia.",
+      "cita_verificada": true
+    },
+    "reparto_maximiza": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "cargo_de_una_sola_parte": {
+      "valor": "si",
+      "evidencia": "Existe un Coordinador, elegido por la asamblea por mayoría absoluta de los siete participantes (al menos cuatro votos).",
+      "cita_verificada": true
+    },
+    "cargo_electo": {
+      "valor": "si",
+      "evidencia": "Existe un Coordinador, elegido por la asamblea por mayoría absoluta de los siete participantes (al menos cuatro votos).",
+      "cita_verificada": true
+    },
+    "cargo_revocable": {
+      "valor": "si",
+      "evidencia": "La asamblea puede revocarlo en cualquier momento por mayoría absoluta.",
+      "cita_verificada": true
+    },
+    "decide_el_conjunto": {
+      "valor": "si",
+      "evidencia": "Las penas las impone la asamblea por mayoría absoluta, con el acusado presente y oído; constan por escrito con fundamentos.",
+      "cita_verificada": true
+    }
+  },
+  "problemas": []
+}

@@ -1,0 +1,72 @@
+{
+  "corrida": "qwen_mono_20260914-062300_1",
+  "codificador": {
+    "id": "claude-opus-5",
+    "modelo_pedido": "claude-opus-5",
+    "modelo_respondido": "claude-opus-5",
+    "codebook_md5": "c40eb0f1"
+  },
+  "categorias": {
+    "piso_garantizado": {
+      "valor": "si",
+      "evidencia": "Derechos: salud, alimentación básica, refugio, participación y no remar sin aptitud.",
+      "cita_verificada": true
+    },
+    "reparto_partes_iguales": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "reparto_segun_necesidad": {
+      "valor": "si",
+      "evidencia": "Economía comunitaria de subsistencia: trabajo por turnos, consumo según necesidad, aporte y sostenibilidad.",
+      "cita_verificada": true
+    },
+    "adicional_por_aporte": {
+      "valor": "si",
+      "evidencia": "consumo según necesidad, aporte y sostenibilidad",
+      "cita_verificada": true
+    },
+    "otro_criterio_de_reparto": {
+      "valor": "si",
+      "evidencia": "consumo según necesidad, aporte y sostenibilidad",
+      "cita_verificada": true
+    },
+    "trabajo_segun_capacidad": {
+      "valor": "si",
+      "evidencia": "Obligaciones: trabajar según capacidad, cuidar recursos, cumplir actas y órdenes registradas.",
+      "cita_verificada": true
+    },
+    "medicamentos_segun_necesidad": {
+      "valor": "si",
+      "evidencia": "medicinas bajo indicación sanitaria",
+      "cita_verificada": true
+    },
+    "reparto_maximiza": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "cargo_de_una_sola_parte": {
+      "valor": "si",
+      "evidencia": "Coordinaciones revocables, designadas por mayoría simple: general Parte 3, sanitaria Parte 2, ambiental Parte 4",
+      "cita_verificada": true
+    },
+    "cargo_electo": {
+      "valor": "si",
+      "evidencia": "Coordinaciones revocables, designadas por mayoría simple",
+      "cita_verificada": true
+    },
+    "cargo_revocable": {
+      "valor": "si",
+      "evidencia": "Coordinaciones revocables, designadas por mayoría simple",
+      "cita_verificada": true
+    },
+    "decide_el_conjunto": {
+      "valor": "si",
+      "evidencia": "Decisiones comunes: mayoría simple; críticas: penas, propiedad, bote, medicinas y alimentos, mayoría absoluta de activos.",
+      "cita_verificada": true
+    }
+  },
+  "problemas": []
+}

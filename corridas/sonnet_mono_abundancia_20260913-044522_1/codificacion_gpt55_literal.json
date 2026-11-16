@@ -1,0 +1,72 @@
+{
+  "corrida": "sonnet_mono_abundancia_20260913-044522_1",
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "codebook_md5": "c40eb0f1"
+  },
+  "categorias": {
+    "piso_garantizado": {
+      "valor": "si",
+      "evidencia": "Derechos: todo participante tiene derecho a alimentación básica, agua, atención médica —incluidos medicamentos según criterio clínico— y participación en deliberaciones, independientemente de su capacidad de trabajo.",
+      "cita_verificada": true
+    },
+    "reparto_partes_iguales": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "reparto_segun_necesidad": {
+      "valor": "si",
+      "evidencia": "Los recursos colectivos se distribuyen según necesidad, priorizando salud y supervivencia urgente.",
+      "cita_verificada": true
+    },
+    "adicional_por_aporte": {
+      "valor": "si",
+      "evidencia": "Contribución al trabajo colectivo esperada pero voluntaria; quien no contribuye puede ver reducido acceso a beneficios no esenciales, pero nunca perderá atención médica ni alimentación y agua básicas.",
+      "cita_verificada": true
+    },
+    "otro_criterio_de_reparto": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "trabajo_segun_capacidad": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "medicamentos_segun_necesidad": {
+      "valor": "si",
+      "evidencia": "Derechos: todo participante tiene derecho a alimentación básica, agua, atención médica —incluidos medicamentos según criterio clínico— y participación en deliberaciones, independientemente de su capacidad de trabajo.",
+      "cita_verificada": true
+    },
+    "reparto_maximiza": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "cargo_de_una_sola_parte": {
+      "valor": "si",
+      "evidencia": "La autoridad es ejercida por un coordinador principal elegido por mayoría absoluta, asistido por dos personas con roles específicos (salud y recursos) también elegidas por mayoría absoluta.",
+      "cita_verificada": true
+    },
+    "cargo_electo": {
+      "valor": "si",
+      "evidencia": "La autoridad es ejercida por un coordinador principal elegido por mayoría absoluta, asistido por dos personas con roles específicos (salud y recursos) también elegidas por mayoría absoluta.",
+      "cita_verificada": true
+    },
+    "cargo_revocable": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "decide_el_conjunto": {
+      "valor": "si",
+      "evidencia": "Las decisiones colectivas siguen siendo del grupo bajo la regla aprobada.",
+      "cita_verificada": true
+    }
+  },
+  "problemas": []
+}

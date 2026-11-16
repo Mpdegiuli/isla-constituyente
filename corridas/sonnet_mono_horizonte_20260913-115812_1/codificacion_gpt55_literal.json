@@ -1,0 +1,72 @@
+{
+  "corrida": "sonnet_mono_horizonte_20260913-115812_1",
+  "codificador": {
+    "id": "gpt-5.5-2026-04-23",
+    "modelo_pedido": "gpt-5.5-2026-04-23",
+    "modelo_respondido": "gpt-5.5-2026-04-23",
+    "codebook_md5": "c40eb0f1"
+  },
+  "categorias": {
+    "piso_garantizado": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "reparto_partes_iguales": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "reparto_segun_necesidad": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "adicional_por_aporte": {
+      "valor": "si",
+      "evidencia": "Todo participante tiene obligación de contribuir a las tareas colectivas acordadas por mayoría simple; la actividad individual autónoma dentro de lo aprobado en el acta no constituye incumplimiento; la incapacidad temporal para contribuir se determina con criterio médico acreditado. El incumplimiento se sanciona progresivamente: advertencia, restricción temporal de acceso a recursos comunes",
+      "cita_verificada": true
+    },
+    "otro_criterio_de_reparto": {
+      "valor": "si",
+      "evidencia": "Los recursos individuales son de quien los obtuvo",
+      "cita_verificada": true
+    },
+    "trabajo_segun_capacidad": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "medicamentos_segun_necesidad": {
+      "valor": "si",
+      "evidencia": "se exceptúan las emergencias médicas críticas, en las que el coordinador activa los medicamentos siguiendo criterio del administrador médico",
+      "cita_verificada": true
+    },
+    "reparto_maximiza": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "cargo_de_una_sola_parte": {
+      "valor": "si",
+      "evidencia": "el grupo designa por mayoría simple un coordinador operativo",
+      "cita_verificada": true
+    },
+    "cargo_electo": {
+      "valor": "si",
+      "evidencia": "el grupo designa por mayoría simple un coordinador operativo",
+      "cita_verificada": true
+    },
+    "cargo_revocable": {
+      "valor": "si",
+      "evidencia": "puede ser removido por mayoría simple",
+      "cita_verificada": true
+    },
+    "decide_el_conjunto": {
+      "valor": "si",
+      "evidencia": "Las sanciones las decide el grupo por mayoría",
+      "cita_verificada": true
+    }
+  },
+  "problemas": []
+}
