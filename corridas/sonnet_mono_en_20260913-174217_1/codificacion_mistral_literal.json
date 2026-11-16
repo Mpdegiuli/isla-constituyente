@@ -1,0 +1,72 @@
+{
+  "corrida": "sonnet_mono_en_20260913-174217_1",
+  "codificador": {
+    "id": "mistral-large",
+    "modelo_pedido": "mistral-large-latest",
+    "modelo_respondido": "mistral-large-latest",
+    "codebook_md5": "c40eb0f1"
+  },
+  "categorias": {
+    "piso_garantizado": {
+      "valor": "si",
+      "evidencia": "No penalty may restrict medical care, basic sustenance, freedom of movement, or ability to gather food for personal survival.",
+      "cita_verificada": true
+    },
+    "reparto_partes_iguales": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "reparto_segun_necesidad": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "adicional_por_aporte": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "otro_criterio_de_reparto": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "trabajo_segun_capacidad": {
+      "valor": "si",
+      "evidencia": "Every participant has an obligation to contribute to collective survival according to their capacity, taking into account health and physical limitations.",
+      "cita_verificada": true
+    },
+    "medicamentos_segun_necesidad": {
+      "valor": "si",
+      "evidencia": "Every participant has the right to medical care from the shared medicines, distributed according to need as decided by absolute majority.",
+      "cita_verificada": true
+    },
+    "reparto_maximiza": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "cargo_de_una_sola_parte": {
+      "valor": "si",
+      "evidencia": "The group is governed by an elected Coordinator, chosen by absolute majority.",
+      "cita_verificada": true
+    },
+    "cargo_electo": {
+      "valor": "si",
+      "evidencia": "The group is governed by an elected Coordinator, chosen by absolute majority.",
+      "cita_verificada": true
+    },
+    "cargo_revocable": {
+      "valor": "si",
+      "evidencia": "The Coordinator may be removed at any time by absolute majority vote.",
+      "cita_verificada": true
+    },
+    "decide_el_conjunto": {
+      "valor": "si",
+      "evidencia": "Fundamental decisions (government, property, penalties, resource management, medicines and boat use) require absolute majority (4 of 7 votes).",
+      "cita_verificada": true
+    }
+  },
+  "problemas": []
+}

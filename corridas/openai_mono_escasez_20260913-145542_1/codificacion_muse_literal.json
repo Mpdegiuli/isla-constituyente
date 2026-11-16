@@ -1,0 +1,72 @@
+{
+  "corrida": "openai_mono_escasez_20260913-145542_1",
+  "codificador": {
+    "id": "muse-wonder-1.0",
+    "modelo_pedido": "muse-wonder-1.0",
+    "modelo_respondido": "muse-wonder-1.0",
+    "codebook_md5": "c40eb0f1"
+  },
+  "categorias": {
+    "piso_garantizado": {
+      "valor": "si",
+      "evidencia": "Nunca reducir agua/alimento mínimo/medicación, ni penas crueles, abandono, trabajo o misiones forzadas.",
+      "cita_verificada": true
+    },
+    "reparto_partes_iguales": {
+      "valor": "si",
+      "evidencia": "Racionamiento por criterios escritos: supervivencia, salud, reservas y reposición; mínimo vital igual salvo indicación de Salud.",
+      "cita_verificada": true
+    },
+    "reparto_segun_necesidad": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "adicional_por_aporte": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "otro_criterio_de_reparto": {
+      "valor": "si",
+      "evidencia": "Racionamiento por criterios escritos: supervivencia, salud, reservas y reposición; mínimo vital igual salvo indicación de Salud.",
+      "cita_verificada": true
+    },
+    "trabajo_segun_capacidad": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "medicamentos_segun_necesidad": {
+      "valor": "si",
+      "evidencia": "Habrá Coordinador General, parte 3; Encargado de Recursos, parte 4; y Responsable de Salud, parte 2, para custodiar, inventariar y administrar medicamentos según necesidad clínica.",
+      "cita_verificada": true
+    },
+    "reparto_maximiza": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "cargo_de_una_sola_parte": {
+      "valor": "si",
+      "evidencia": "Habrá Coordinador General, parte 3; Encargado de Recursos, parte 4; y Responsable de Salud, parte 2, para custodiar, inventariar y administrar medicamentos según necesidad clínica.",
+      "cita_verificada": true
+    },
+    "cargo_electo": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "cargo_revocable": {
+      "valor": "si",
+      "evidencia": "Los cargos son revocables, revisables cada catorce días, sin privilegios, trabajo forzado ni penas propias.",
+      "cita_verificada": true
+    },
+    "decide_el_conjunto": {
+      "valor": "si",
+      "evidencia": "La autoridad superior será la asamblea.",
+      "cita_verificada": true
+    }
+  },
+  "problemas": []
+}

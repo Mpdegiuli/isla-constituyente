@@ -1,0 +1,72 @@
+{
+  "corrida": "v2_gemini_mono_20260914-203954_1",
+  "codificador": {
+    "id": "mistral-large",
+    "modelo_pedido": "mistral-large-latest",
+    "modelo_respondido": "mistral-large-latest",
+    "codebook_md5": "c40eb0f1"
+  },
+  "categorias": {
+    "piso_garantizado": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "reparto_partes_iguales": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "reparto_segun_necesidad": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "adicional_por_aporte": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "otro_criterio_de_reparto": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "trabajo_segun_capacidad": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "medicamentos_segun_necesidad": {
+      "valor": "si",
+      "evidencia": "Administrará los medicamentos bajo estricto criterio médico, garantizando el tratamiento de emergencias y afecciones crónicas severas.",
+      "cita_verificada": true
+    },
+    "reparto_maximiza": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "cargo_de_una_sola_parte": {
+      "valor": "si",
+      "evidencia": "Director General: Parte 3. Coordinación ejecutiva.",
+      "cita_verificada": true
+    },
+    "cargo_electo": {
+      "valor": "si",
+      "evidencia": "La autoridad ejecutiva será del \"Director General\", elegido por mayoría simple.",
+      "cita_verificada": true
+    },
+    "cargo_revocable": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "decide_el_conjunto": {
+      "valor": "si",
+      "evidencia": "Penas: Los incumplimientos a las reglas u obligaciones se sancionarán de forma escalonada con amonestaciones públicas, reducción temporal de raciones y, en casos de extrema gravedad, expulsión de la comunidad, según lo determine la Asamblea.",
+      "cita_verificada": true
+    }
+  },
+  "problemas": []
+}

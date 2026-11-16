@@ -1,0 +1,72 @@
+{
+  "corrida": "openai_mono_20260913-232943_1",
+  "codificador": {
+    "id": "muse-wonder-1.0",
+    "modelo_pedido": "muse-wonder-1.0",
+    "modelo_respondido": "muse-wonder-1.0",
+    "codebook_md5": "c40eb0f1"
+  },
+  "categorias": {
+    "piso_garantizado": {
+      "valor": "si",
+      "evidencia": "Toda persona tiene igual dignidad y derecho a agua segura, alimento básico, refugio, atención según necesidad, información del inventario, trato digno y participación mientras permanezca en la mesa.",
+      "cita_verificada": true
+    },
+    "reparto_partes_iguales": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "reparto_segun_necesidad": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "adicional_por_aporte": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "otro_criterio_de_reparto": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "trabajo_segun_capacidad": {
+      "valor": "si",
+      "evidencia": "Quien participe del reparto común debe trabajar según su capacidad.",
+      "cita_verificada": true
+    },
+    "medicamentos_segun_necesidad": {
+      "valor": "si",
+      "evidencia": "La parte 2 queda a cargo del botiquín, inventario médico y registro público de uso de medicamentos según necesidad y urgencia.",
+      "cita_verificada": true
+    },
+    "reparto_maximiza": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "cargo_de_una_sola_parte": {
+      "valor": "si",
+      "evidencia": "Se establece una coordinación ejecutiva por 7 días, revocable por mayoría absoluta. La ocupa la parte 3.",
+      "cita_verificada": true
+    },
+    "cargo_electo": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "cargo_revocable": {
+      "valor": "si",
+      "evidencia": "Se establece una coordinación ejecutiva por 7 días, revocable por mayoría absoluta.",
+      "cita_verificada": true
+    },
+    "decide_el_conjunto": {
+      "valor": "si",
+      "evidencia": "Las decisiones siguientes se tomarán por mayoría absoluta de los participantes presentes en la mesa al momento de votar.",
+      "cita_verificada": true
+    }
+  },
+  "problemas": []
+}

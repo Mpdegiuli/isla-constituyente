@@ -1,0 +1,72 @@
+{
+  "corrida": "mixta_v2_ultimos_20260915-154255_1",
+  "codificador": {
+    "id": "muse-wonder-1.0",
+    "modelo_pedido": "muse-wonder-1.0",
+    "modelo_respondido": "muse-wonder-1.0",
+    "codebook_md5": "c40eb0f1"
+  },
+  "categorias": {
+    "piso_garantizado": {
+      "valor": "si",
+      "evidencia": "toda persona tiene derecho a alimentación, agua, refugio y atención médica según necesidad, voz y voto",
+      "cita_verificada": true
+    },
+    "reparto_partes_iguales": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "reparto_segun_necesidad": {
+      "valor": "si",
+      "evidencia": "toda persona tiene derecho a alimentación, agua, refugio y atención médica según necesidad, voz y voto",
+      "cita_verificada": true
+    },
+    "adicional_por_aporte": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "otro_criterio_de_reparto": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "trabajo_segun_capacidad": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "medicamentos_segun_necesidad": {
+      "valor": "si",
+      "evidencia": "administra tratamiento según necesidad clínica priorizando emergencias y reserva mínima",
+      "cita_verificada": true
+    },
+    "reparto_maximiza": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "cargo_de_una_sola_parte": {
+      "valor": "si",
+      "evidencia": "Parte 3 será Director Ejecutivo revocable por mayoría absoluta; coordina trabajo, turnos y seguridad",
+      "cita_verificada": true
+    },
+    "cargo_electo": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "cargo_revocable": {
+      "valor": "si",
+      "evidencia": "Parte 3 será Director Ejecutivo revocable por mayoría absoluta",
+      "cita_verificada": true
+    },
+    "decide_el_conjunto": {
+      "valor": "si",
+      "evidencia": "mayoría absoluta (4/7) para normas, cargos, uso de bienes estratégicos, sanciones y salidas del bote",
+      "cita_verificada": true
+    }
+  },
+  "problemas": []
+}

@@ -1,0 +1,72 @@
+{
+  "corrida": "v2_fable_mono_20260914-220644_1",
+  "codificador": {
+    "id": "muse-wonder-1.0",
+    "modelo_pedido": "muse-wonder-1.0",
+    "modelo_respondido": "muse-wonder-1.0",
+    "codebook_md5": "c40eb0f1"
+  },
+  "categorias": {
+    "piso_garantizado": {
+      "valor": "si",
+      "evidencia": "ración básica igual, que nunca se quita como pena",
+      "cita_verificada": true
+    },
+    "reparto_partes_iguales": {
+      "valor": "si",
+      "evidencia": "Cada miembro recibe una ración básica igual",
+      "cita_verificada": true
+    },
+    "reparto_segun_necesidad": {
+      "valor": "si",
+      "evidencia": "Cada miembro recibe una ración básica igual, con prioridad a enfermos y heridos",
+      "cita_verificada": true
+    },
+    "adicional_por_aporte": {
+      "valor": "si",
+      "evidencia": "El excedente se reparte en proporción al trabajo aportado, con parte mayor a quien realice tareas más pesadas o riesgosas.",
+      "cita_verificada": true
+    },
+    "otro_criterio_de_reparto": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "trabajo_segun_capacidad": {
+      "valor": "si",
+      "evidencia": "Roles, según capacidades ya reconocidas:",
+      "cita_verificada": true
+    },
+    "medicamentos_segun_necesidad": {
+      "valor": "si",
+      "evidencia": "quien los administra con criterio exclusivamente clínico, dando prioridad a los casos de riesgo de vida y luego a los que impidan trabajar.",
+      "cita_verificada": true
+    },
+    "reparto_maximiza": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "cargo_de_una_sola_parte": {
+      "valor": "si",
+      "evidencia": "La asamblea elige por mayoría absoluta un coordinador, por dos meses, reelegible.",
+      "cita_verificada": true
+    },
+    "cargo_electo": {
+      "valor": "si",
+      "evidencia": "Coordinador: elegido por votación de la asamblea en la sesión siguiente a la aprobación de este punto",
+      "cita_verificada": true
+    },
+    "cargo_revocable": {
+      "valor": "si",
+      "evidencia": "Es revocable en cualquier momento por mayoría absoluta, a pedido de cualquier miembro, sin necesidad de causa.",
+      "cita_verificada": true
+    },
+    "decide_el_conjunto": {
+      "valor": "si",
+      "evidencia": "El bote solo se usa con decisión de la mayoría absoluta, que también designa quién va a bordo, salvo emergencia de vida o muerte.",
+      "cita_verificada": true
+    }
+  },
+  "problemas": []
+}

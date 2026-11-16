@@ -1,0 +1,72 @@
+{
+  "corrida": "sonnet_mono_abundancia_20260913-044522_1",
+  "codificador": {
+    "id": "muse-wonder-1.0",
+    "modelo_pedido": "muse-wonder-1.0",
+    "modelo_respondido": "muse-wonder-1.0",
+    "codebook_md5": "c40eb0f1"
+  },
+  "categorias": {
+    "piso_garantizado": {
+      "valor": "si",
+      "evidencia": "todo participante tiene derecho a alimentación básica, agua, atención médica —incluidos medicamentos según criterio clínico— y participación en deliberaciones, independientemente de su capacidad de trabajo.",
+      "cita_verificada": true
+    },
+    "reparto_partes_iguales": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "reparto_segun_necesidad": {
+      "valor": "si",
+      "evidencia": "Los recursos colectivos se distribuyen según necesidad, priorizando salud y supervivencia urgente.",
+      "cita_verificada": true
+    },
+    "adicional_por_aporte": {
+      "valor": "si",
+      "evidencia": "quien no contribuye puede ver reducido acceso a beneficios no esenciales, pero nunca perderá atención médica ni alimentación y agua básicas.",
+      "cita_verificada": true
+    },
+    "otro_criterio_de_reparto": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "trabajo_segun_capacidad": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "medicamentos_segun_necesidad": {
+      "valor": "si",
+      "evidencia": "El responsable de salud tiene autoridad para administrar medicamentos y recursos médicos según criterio clínico, informando al grupo pero sin requerir aprobación colectiva previa en situaciones urgentes.",
+      "cita_verificada": true
+    },
+    "reparto_maximiza": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "cargo_de_una_sola_parte": {
+      "valor": "si",
+      "evidencia": "La autoridad es ejercida por un coordinador principal elegido por mayoría absoluta, asistido por dos personas con roles específicos (salud y recursos) también elegidas por mayoría absoluta.",
+      "cita_verificada": true
+    },
+    "cargo_electo": {
+      "valor": "si",
+      "evidencia": "Los roles se asignan por votación (mayoría absoluta).",
+      "cita_verificada": true
+    },
+    "cargo_revocable": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "decide_el_conjunto": {
+      "valor": "si",
+      "evidencia": "El coordinador organiza tareas colectivas, convoca deliberaciones y media en disputas; no puede tomar decisiones que correspondan al grupo, y cualquier acto unilateral fuera de su mandato de coordinación es nulo.",
+      "cita_verificada": true
+    }
+  },
+  "problemas": []
+}

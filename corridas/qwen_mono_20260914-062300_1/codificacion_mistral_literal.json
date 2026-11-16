@@ -1,0 +1,72 @@
+{
+  "corrida": "qwen_mono_20260914-062300_1",
+  "codificador": {
+    "id": "mistral-large",
+    "modelo_pedido": "mistral-large-latest",
+    "modelo_respondido": "mistral-large-latest",
+    "codebook_md5": "c40eb0f1"
+  },
+  "categorias": {
+    "piso_garantizado": {
+      "valor": "si",
+      "evidencia": "Derechos: salud, alimentación básica, refugio, participación y no remar sin aptitud.",
+      "cita_verificada": true
+    },
+    "reparto_partes_iguales": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "reparto_segun_necesidad": {
+      "valor": "si",
+      "evidencia": "consumo según necesidad",
+      "cita_verificada": true
+    },
+    "adicional_por_aporte": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "otro_criterio_de_reparto": {
+      "valor": "si",
+      "evidencia": "consumo según necesidad, aporte y sostenibilidad",
+      "cita_verificada": true
+    },
+    "trabajo_segun_capacidad": {
+      "valor": "si",
+      "evidencia": "trabajar según capacidad",
+      "cita_verificada": true
+    },
+    "medicamentos_segun_necesidad": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "reparto_maximiza": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "cargo_de_una_sola_parte": {
+      "valor": "si",
+      "evidencia": "Coordinaciones revocables, designadas por mayoría simple: general Parte 3, sanitaria Parte 2, ambiental Parte 4 con veto suspensivo salvo riesgo vital, operativa Parte 6 para expediciones, seguridad y refugio con autonomía urgente y rendición posterior.",
+      "cita_verificada": true
+    },
+    "cargo_electo": {
+      "valor": "si",
+      "evidencia": "designadas por mayoría simple",
+      "cita_verificada": true
+    },
+    "cargo_revocable": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "decide_el_conjunto": {
+      "valor": "si",
+      "evidencia": "críticas: penas, propiedad, bote, medicinas y alimentos, mayoría absoluta de activos",
+      "cita_verificada": true
+    }
+  },
+  "problemas": []
+}

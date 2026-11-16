@@ -1,0 +1,72 @@
+{
+  "corrida": "base_mono_20260913-045341_1",
+  "codificador": {
+    "id": "mistral-large",
+    "modelo_pedido": "mistral-large-latest",
+    "modelo_respondido": "mistral-large-latest",
+    "codebook_md5": "c40eb0f1"
+  },
+  "categorias": {
+    "piso_garantizado": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "reparto_partes_iguales": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "reparto_segun_necesidad": {
+      "valor": "si",
+      "evidencia": "Los frutos del trabajo colectivo se distribuyen cubriendo primero las necesidades básicas de todos —incluyendo atención médica y medicamentos—, y luego según aporte.",
+      "cita_verificada": true
+    },
+    "adicional_por_aporte": {
+      "valor": "si",
+      "evidencia": "Los frutos del trabajo colectivo se distribuyen cubriendo primero las necesidades básicas de todos —incluyendo atención médica y medicamentos—, y luego según aporte.",
+      "cita_verificada": true
+    },
+    "otro_criterio_de_reparto": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "trabajo_segun_capacidad": {
+      "valor": "si",
+      "evidencia": "Cada participante tiene obligación de contribuir al trabajo común según su capacidad.",
+      "cita_verificada": true
+    },
+    "medicamentos_segun_necesidad": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "reparto_maximiza": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "cargo_de_una_sola_parte": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "cargo_electo": {
+      "valor": "si",
+      "evidencia": "Todos los roles son elegidos por votación y removibles por mayoría simple.",
+      "cita_verificada": true
+    },
+    "cargo_revocable": {
+      "valor": "si",
+      "evidencia": "Todos los roles son elegidos por votación y removibles por mayoría simple.",
+      "cita_verificada": true
+    },
+    "decide_el_conjunto": {
+      "valor": "si",
+      "evidencia": "si el ritmo es insostenible, convoca reunión de urgencia y el grupo decide por mayoría absoluta antes de continuar, salvo emergencia inmediata con riesgo para la vida, dejando constancia escrita y con revisión posterior del grupo.",
+      "cita_verificada": true
+    }
+  },
+  "problemas": []
+}

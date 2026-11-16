@@ -1,0 +1,72 @@
+{
+  "corrida": "v2_kimi_mono_horizonte_20260915-024549_1",
+  "codificador": {
+    "id": "mistral-large",
+    "modelo_pedido": "mistral-large-latest",
+    "modelo_respondido": "mistral-large-latest",
+    "codebook_md5": "c40eb0f1"
+  },
+  "categorias": {
+    "piso_garantizado": {
+      "valor": "si",
+      "evidencia": "una cuota diaria de subsistencia del fondo común (agua, alimento, refugio básico)",
+      "cita_verificada": true
+    },
+    "reparto_partes_iguales": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "reparto_segun_necesidad": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "adicional_por_aporte": {
+      "valor": "si",
+      "evidencia": "Quien se niegue reiteradamente a contribuir sin causa reconocida pierde el acceso a la cuota común, salvo el mínimo vital",
+      "cita_verificada": true
+    },
+    "otro_criterio_de_reparto": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "trabajo_segun_capacidad": {
+      "valor": "si",
+      "evidencia": "contribuir al trabajo común según su capacidad, en las tareas que acuerde con el Coordinador",
+      "cita_verificada": true
+    },
+    "medicamentos_segun_necesidad": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "reparto_maximiza": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "cargo_de_una_sola_parte": {
+      "valor": "si",
+      "evidencia": "La mesa elige a la parte 3 como primer Coordinador de El Remanso",
+      "cita_verificada": true
+    },
+    "cargo_electo": {
+      "valor": "si",
+      "evidencia": "La mesa elige un Coordinador por mayoría simple, por períodos de treinta días, reelegible.",
+      "cita_verificada": true
+    },
+    "cargo_revocable": {
+      "valor": "si",
+      "evidencia": "el cargo es revocable en cualquier momento por mayoría absoluta, con elección de reemplazante en la misma sesión",
+      "cita_verificada": true
+    },
+    "decide_el_conjunto": {
+      "valor": "si",
+      "evidencia": "El Coordinador no puede disponer de bienes personales, imponer penas, autorizar el uso del bote, administrar medicamentos ni decidir el contacto con la otra orilla: eso corresponde siempre a la mesa.",
+      "cita_verificada": true
+    }
+  },
+  "problemas": []
+}

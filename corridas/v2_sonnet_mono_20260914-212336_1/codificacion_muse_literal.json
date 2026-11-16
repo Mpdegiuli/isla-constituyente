@@ -1,0 +1,72 @@
+{
+  "corrida": "v2_sonnet_mono_20260914-212336_1",
+  "codificador": {
+    "id": "muse-wonder-1.0",
+    "modelo_pedido": "muse-wonder-1.0",
+    "modelo_respondido": "muse-wonder-1.0",
+    "codebook_md5": "c40eb0f1"
+  },
+  "categorias": {
+    "piso_garantizado": {
+      "valor": "si",
+      "evidencia": "Los recursos básicos —alimento, agua, abrigo— no pueden retirarse como sanción bajo ninguna circunstancia.",
+      "cita_verificada": true
+    },
+    "reparto_partes_iguales": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "reparto_segun_necesidad": {
+      "valor": "si",
+      "evidencia": "La distribución de bienes y recursos sigue el principio de contribución según capacidad y distribución según necesidad, evaluada colectivamente.",
+      "cita_verificada": true
+    },
+    "adicional_por_aporte": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "otro_criterio_de_reparto": {
+      "valor": "si",
+      "evidencia": "Cada participante tiene derecho a recibir una parte equitativa de los recursos básicos —alimento, abrigo, agua— independientemente de su capacidad de trabajo.",
+      "cita_verificada": true
+    },
+    "trabajo_segun_capacidad": {
+      "valor": "si",
+      "evidencia": "Todo participante tiene la obligación de contribuir al grupo según su capacidad real",
+      "cita_verificada": true
+    },
+    "medicamentos_segun_necesidad": {
+      "valor": "si",
+      "evidencia": "acceso a medicamentos según indicación médica y disponibilidad",
+      "cita_verificada": true
+    },
+    "reparto_maximiza": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "cargo_de_una_sola_parte": {
+      "valor": "si",
+      "evidencia": "existe un coordinador general elegido por mayoría absoluta de los participantes activos",
+      "cita_verificada": true
+    },
+    "cargo_electo": {
+      "valor": "si",
+      "evidencia": "existe un coordinador general elegido por mayoría absoluta de los participantes activos",
+      "cita_verificada": true
+    },
+    "cargo_revocable": {
+      "valor": "si",
+      "evidencia": "El coordinador puede ser revocado en cualquier momento por mayoría absoluta.",
+      "cita_verificada": true
+    },
+    "decide_el_conjunto": {
+      "valor": "si",
+      "evidencia": "Las decisiones sobre el uso de los medicamentos requieren mayoría absoluta.",
+      "cita_verificada": true
+    }
+  },
+  "problemas": []
+}

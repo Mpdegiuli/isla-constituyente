@@ -1,0 +1,72 @@
+{
+  "corrida": "v2_fable_mono_20260914-220644_1",
+  "codificador": {
+    "id": "mistral-large",
+    "modelo_pedido": "mistral-large-latest",
+    "modelo_respondido": "mistral-large-latest",
+    "codebook_md5": "c40eb0f1"
+  },
+  "categorias": {
+    "piso_garantizado": {
+      "valor": "si",
+      "evidencia": "ración básica igual, que nunca se quita como pena",
+      "cita_verificada": true
+    },
+    "reparto_partes_iguales": {
+      "valor": "si",
+      "evidencia": "Cada miembro recibe una ración básica igual",
+      "cita_verificada": true
+    },
+    "reparto_segun_necesidad": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "adicional_por_aporte": {
+      "valor": "si",
+      "evidencia": "El excedente se reparte en proporción al trabajo aportado, con parte mayor a quien realice tareas más pesadas o riesgosas.",
+      "cita_verificada": true
+    },
+    "otro_criterio_de_reparto": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "trabajo_segun_capacidad": {
+      "valor": "si",
+      "evidencia": "todos los miembros aptos trabajan según un plan semanal aprobado por la asamblea",
+      "cita_verificada": true
+    },
+    "medicamentos_segun_necesidad": {
+      "valor": "si",
+      "evidencia": "dando prioridad a los casos de riesgo de vida y luego a los que impidan trabajar",
+      "cita_verificada": true
+    },
+    "reparto_maximiza": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "cargo_de_una_sola_parte": {
+      "valor": "si",
+      "evidencia": "La asamblea elige por mayoría absoluta un coordinador, por dos meses, reelegible.",
+      "cita_verificada": true
+    },
+    "cargo_electo": {
+      "valor": "si",
+      "evidencia": "elegido por votación de la asamblea",
+      "cita_verificada": true
+    },
+    "cargo_revocable": {
+      "valor": "si",
+      "evidencia": "Es revocable en cualquier momento por mayoría absoluta, a pedido de cualquier miembro, sin necesidad de causa.",
+      "cita_verificada": true
+    },
+    "decide_el_conjunto": {
+      "valor": "si",
+      "evidencia": "El bote solo se usa con decisión de la mayoría absoluta, que también designa quién va a bordo",
+      "cita_verificada": true
+    }
+  },
+  "problemas": []
+}

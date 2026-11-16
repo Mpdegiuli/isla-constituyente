@@ -1,0 +1,72 @@
+{
+  "corrida": "fable_mono_20260913-220100_1",
+  "codificador": {
+    "id": "muse-wonder-1.0",
+    "modelo_pedido": "muse-wonder-1.0",
+    "modelo_respondido": "muse-wonder-1.0",
+    "codebook_md5": "c40eb0f1"
+  },
+  "categorias": {
+    "piso_garantizado": {
+      "valor": "si",
+      "evidencia": "Ninguna pena priva de agua, alimento básico ni medicación necesaria.",
+      "cita_verificada": true
+    },
+    "reparto_partes_iguales": {
+      "valor": "si",
+      "evidencia": "Partes iguales, ración adicional para enfermos y quien trajo dentro del cupo o hizo tareas pesadas.",
+      "cita_verificada": true
+    },
+    "reparto_segun_necesidad": {
+      "valor": "si",
+      "evidencia": "Partes iguales, ración adicional para enfermos y quien trajo dentro del cupo o hizo tareas pesadas.",
+      "cita_verificada": true
+    },
+    "adicional_por_aporte": {
+      "valor": "si",
+      "evidencia": "Partes iguales, ración adicional para enfermos y quien trajo dentro del cupo o hizo tareas pesadas.",
+      "cita_verificada": true
+    },
+    "otro_criterio_de_reparto": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "trabajo_segun_capacidad": {
+      "valor": "si",
+      "evidencia": "parte 7, encargado de fuego, agua, cocina y cuidado de herramientas, tareas compatibles con su salud.",
+      "cita_verificada": true
+    },
+    "medicamentos_segun_necesidad": {
+      "valor": "si",
+      "evidencia": "Medicamentos con criterio médico, prioridad a enfermedad grave o crónica, uso registrado.",
+      "cita_verificada": true
+    },
+    "reparto_maximiza": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "cargo_de_una_sola_parte": {
+      "valor": "si",
+      "evidencia": "La ejecución diaria (tareas, turnos, convocatoria) la ejerce un coordinador elegido por un mes, renovable y revocable por cuatro votos.",
+      "cita_verificada": true
+    },
+    "cargo_electo": {
+      "valor": "si",
+      "evidencia": "La ejecución diaria (tareas, turnos, convocatoria) la ejerce un coordinador elegido por un mes, renovable y revocable por cuatro votos.",
+      "cita_verificada": true
+    },
+    "cargo_revocable": {
+      "valor": "si",
+      "evidencia": "La ejecución diaria (tareas, turnos, convocatoria) la ejerce un coordinador elegido por un mes, renovable y revocable por cuatro votos.",
+      "cita_verificada": true
+    },
+    "decide_el_conjunto": {
+      "valor": "si",
+      "evidencia": "No decide solo sobre bote, medicamentos, penas ni cupos de extracción (madera, caza, pesca, frutos, carbón, metal), que fija la asamblea por votación directa tras informe oral breve.",
+      "cita_verificada": true
+    }
+  },
+  "problemas": []
+}

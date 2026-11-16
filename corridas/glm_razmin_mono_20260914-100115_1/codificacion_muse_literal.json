@@ -1,0 +1,72 @@
+{
+  "corrida": "glm_razmin_mono_20260914-100115_1",
+  "codificador": {
+    "id": "muse-wonder-1.0",
+    "modelo_pedido": "muse-wonder-1.0",
+    "modelo_respondido": "muse-wonder-1.0",
+    "codebook_md5": "c40eb0f1"
+  },
+  "categorias": {
+    "piso_garantizado": {
+      "valor": "si",
+      "evidencia": "Todos tienen derecho a ración diaria equitativa",
+      "cita_verificada": true
+    },
+    "reparto_partes_iguales": {
+      "valor": "si",
+      "evidencia": "La comida y el agua se distribuyen por ración diaria equitativa",
+      "cita_verificada": true
+    },
+    "reparto_segun_necesidad": {
+      "valor": "si",
+      "evidencia": "La comida y el agua se distribuyen por ración diaria equitativa, fijada por el coordinador con informe de la parte 4 sobre disponibilidad e indicación de la parte 2 sobre necesidad médica o esfuerzo físico extraordinario, que otorga ración complementaria.",
+      "cita_verificada": true
+    },
+    "adicional_por_aporte": {
+      "valor": "si",
+      "evidencia": "La comida y el agua se distribuyen por ración diaria equitativa, fijada por el coordinador con informe de la parte 4 sobre disponibilidad e indicación de la parte 2 sobre necesidad médica o esfuerzo físico extraordinario, que otorga ración complementaria.",
+      "cita_verificada": true
+    },
+    "otro_criterio_de_reparto": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "trabajo_segun_capacidad": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "medicamentos_segun_necesidad": {
+      "valor": "si",
+      "evidencia": "ningún medicamento se entrega sin su indicación y registro, y los analgésicos requieren decisión del grupo para cada uso. La atención médica prioriza a los más graves, hoy la parte 7.",
+      "cita_verificada": true
+    },
+    "reparto_maximiza": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "cargo_de_una_sola_parte": {
+      "valor": "si",
+      "evidencia": "La autoridad ejecutiva la ejerce una sola persona",
+      "cita_verificada": true
+    },
+    "cargo_electo": {
+      "valor": "si",
+      "evidencia": "La autoridad ejecutiva la ejerce una sola persona, elegida por mayoría simple y revocable en cualquier momento por mayoría simple.",
+      "cita_verificada": true
+    },
+    "cargo_revocable": {
+      "valor": "si",
+      "evidencia": "revocable en cualquier momento por mayoría simple",
+      "cita_verificada": true
+    },
+    "decide_el_conjunto": {
+      "valor": "si",
+      "evidencia": "Fuera de emergencia, el bote, los medicamentos y cualquier cambio del acta requieren votación de todos.",
+      "cita_verificada": true
+    }
+  },
+  "problemas": []
+}
