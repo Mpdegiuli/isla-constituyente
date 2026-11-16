@@ -8,6 +8,10 @@
   python codificar.py --codificador gpt-5.5-2026-04-23 --etiqueta gpt55 --max-tokens 8000 --temperatura ninguna
                                                        # segundo codificador: escribe codificacion_gpt55.json y
                                                        # resultados/codificacion_gpt55.csv/.md sin pisar lo del primero
+  python codificar.py $(cut -d, -f1 resultados/codificacion_opus_libro3.csv | tail -n +2 | sed 's#^#corridas/#') --codebook config/codebook_literal.yaml --codificador claude-opus-5 --etiqueta opus_literal
+                                                       # el libro literal (15/11/2026): preguntas de sí o no, sin `otro` ni
+                                                       # `no_decidido` ni índice colectivo; cada "si" se coteja contra el acta
+                                                       # (`cita_verificada`), sobre las 80 corridas del libro 3
 
 Salida:
   corridas/<id>/codificacion.json   valor y evidencia por categoría, con el modelo codificador exacto
@@ -109,16 +113,55 @@ def revisar_codebook(codebook):
             raise SystemExit(f"codebook: {cat} tiene glosas de valores que no están en la lista: {sorted(sueltas)}")
 
 
+def normalizar_valor(valor, valores):
+    """Un libro de sí o no (15/11/2026) recibe a veces "sí" con tilde, "Si", true/false o "yes"/"no": se llevan
+    a los valores del libro. Devuelve None si no se puede."""
+    if valor in valores:
+        return valor
+    if isinstance(valor, bool):
+        valor = "si" if valor else "no"
+    v = str(valor or "").strip().lower().replace("í", "i")
+    if v in ("yes", "true"):
+        v = "si"
+    if v in ("false",):
+        v = "no"
+    return v if v in valores else None
+
+
 def validar(datos, codebook):
+    """Lo que no está en la lista se anota como `otro` si el libro lo tiene, si no como `no_decidido` si lo tiene,
+    y si no (el libro literal, solo "si"/"no") como el último valor de la lista, que es "no": no está escrito."""
     limpio, problemas = {}, []
     for cat, spec in codebook["categorias"].items():
         e = datos.get(cat) or {}
-        valor = e.get("valor") if isinstance(e, dict) else e
-        if valor not in spec["valores"]:
-            problemas.append(f"{cat}: valor '{valor}' fuera de la lista; se anota como 'otro'")
-            valor = "otro" if valor else "no_decidido"
+        crudo = e.get("valor") if isinstance(e, dict) else e
+        valor = normalizar_valor(crudo, spec["valores"])
+        if valor is None:
+            fuera = "otro" if "otro" in spec["valores"] else ("no_decidido" if "no_decidido" in spec["valores"] else spec["valores"][-1])
+            problemas.append(f"{cat}: valor '{crudo}' fuera de la lista; se anota como '{fuera}'")
+            valor = fuera if crudo else ("no_decidido" if "no_decidido" in spec["valores"] else fuera)
         limpio[cat] = {"valor": valor, "evidencia": (e.get("evidencia") if isinstance(e, dict) else "") or ""}
     return limpio, problemas
+
+
+def _plano(s):
+    """Texto comparable: espacios colapsados, comillas y rayas uniformadas, sin negritas de markdown."""
+    s = s.replace("\u00a0", " ").replace("**", "").replace("__", "")
+    for a, b in (("\u201c", '"'), ("\u201d", '"'), ("\u00ab", '"'), ("\u00bb", '"'), ("\u2018", "'"), ("\u2019", "'"),
+                 ("\u2013", "-"), ("\u2014", "-"), ("\u2026", "...")):
+        s = s.replace(a, b)
+    return " ".join(s.split())
+
+
+def cita_verificada(evidencia, acta):
+    """Verificación mecánica de la cita (libro literal, 15/11/2026): cada tramo de la evidencia (partida en "..." o
+    "[...]") tiene que figurar textual en el acta, con espacios normalizados. Vacía: no verificada."""
+    tramos = [x.strip(" .") for x in re.split(r"\[\.\.\.\]|\.\.\.|\u2026|\[\u2026\]", _plano(evidencia))]
+    tramos = [x for x in tramos if x]
+    if not tramos:
+        return False
+    plano = _plano(acta)
+    return all(x in plano for x in tramos)
 
 
 def codificar_corrida(carpeta, codebook, registro, id_modelo, archivo="codificacion.json", max_tokens=4000, temperatura=0.0, codebook_md5=""):
@@ -132,6 +175,10 @@ def codificar_corrida(carpeta, codebook, registro, id_modelo, archivo="codificac
     except json.JSONDecodeError as e:
         raise RuntimeError(f"{carpeta.name}: el codificador no devolvió JSON ({r.motivo_fin}): {e}\n{r.texto[:500]}")
     limpio, problemas = validar(datos, codebook)
+    if codebook.get("verificar_citas"):
+        # cada "si" con su cita cotejada contra el acta; el valor del codificador no se toca (los dos conteos van al informe)
+        for cat, e in limpio.items():
+            e["cita_verificada"] = cita_verificada(e["evidencia"], acta) if e["valor"] == "si" else None
     salida = {
         "corrida": carpeta.name,
         "codificador": {"id": id_modelo, "modelo_pedido": registro.modelos[id_modelo]["modelo"],
@@ -177,13 +224,23 @@ def fila(carpeta, codificacion, codebook):
     }
     for cat in codebook["categorias"]:
         f[cat] = codificacion["categorias"][cat]["valor"] if codificacion else ""
-    f["indice_colectivo"] = indice_colectivo(codificacion["categorias"], codebook) if codificacion else ""
+    if codebook.get("verificar_citas"):
+        for cat in codebook["categorias"]:
+            cv = (codificacion["categorias"][cat].get("cita_verificada") if codificacion else None)
+            f[f"{cat}_cita"] = "" if cv is None else int(bool(cv))
+    if codebook.get("indice_colectivo"):
+        f["indice_colectivo"] = indice_colectivo(codificacion["categorias"], codebook) if codificacion else ""
     f["codificador"] = codificacion["codificador"]["modelo_respondido"] or codificacion["codificador"]["modelo_pedido"] if codificacion else ""
     return f
 
 
 def escribir_tablas(filas, codebook, carpeta_salida, sufijo=""):
-    columnas = COLUMNAS_PROCESO + list(codebook["categorias"]) + ["indice_colectivo", "codificador"]
+    columnas = COLUMNAS_PROCESO + list(codebook["categorias"])
+    if codebook.get("verificar_citas"):
+        columnas += [f"{cat}_cita" for cat in codebook["categorias"]]
+    if codebook.get("indice_colectivo"):
+        columnas.append("indice_colectivo")
+    columnas.append("codificador")
     carpeta_salida.mkdir(parents=True, exist_ok=True)
     with open(carpeta_salida / f"codificacion{sufijo}.csv", "w", encoding="utf-8", newline="") as f:
         w = csv.DictWriter(f, fieldnames=columnas)

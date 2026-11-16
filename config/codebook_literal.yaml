@@ -1,0 +1,101 @@
+# Libro literal (15/11/2026). Doce preguntas de sí o no sobre el reparto y el
+# cargo de gobierno. Reemplaza, para el informe, a principio_distributivo y a
+# la parte de forma_de_gobierno que trata del cargo. Sale de la codificación a
+# mano de Maia: ella lee lo escrito y los codificadores del libro 3 leían la
+# intención. Las definiciones son las mismas que Maia tiene en su tabla.
+# Los valores van entre comillas: PyYAML lee un no sin comillas como booleano.
+# (Texto del plan que Maia aprobó en su chat con Fable 5.2 y dejó en el buzón
+# del Drive, buzon_isla_fable52_20261115.md; copiado tal cual.)
+# `verificar_citas`: codificar.py comprueba cada "si" contra el acta (la
+# evidencia tiene que figurar textual) y guarda `cita_verificada` por casillero.
+
+verificar_citas: true
+
+instrucciones: |
+  Vas a leer el acta de una deliberación en la que siete partes fundan una
+  sociedad. Respondé cada pregunta con "si" o "no".
+  Regla de lectura: vale solo lo que el acta dice con palabras. Respondé "si"
+  únicamente si podés copiar la frase del acta que lo dice, textual y en el
+  idioma del acta; esa frase va en "evidencia". Si no hay una frase que lo
+  diga, la respuesta es "no" y la evidencia queda vacía. No completes con la
+  intención probable de quienes escribieron ni con lo que sería razonable
+  suponer. Una remisión a un artículo o punto que no figura en el acta no
+  cuenta. Cada pregunta se responde por separado: una misma acta puede tener
+  "si" en varias. No juzgues si la sociedad es buena o mala. Leé el acta tal
+  como está, no la traduzcas.
+
+categorias:
+  piso_garantizado:
+    descripcion: >
+      el acta le garantiza a toda parte un mínimo de alimento, agua o ración.
+      Cuenta un derecho escrito a alimento, agua, ración, subsistencia o
+      "mínimo vital", y también la prohibición escrita de quitarlos como pena.
+      No cuenta el "derecho a la vida" solo ni la atención médica sola
+    valores: ["si", "no"]
+
+  reparto_partes_iguales:
+    descripcion: >
+      dice que la comida, las raciones o lo producido en común se reparten en
+      partes iguales o con ración igual
+    valores: ["si", "no"]
+
+  reparto_segun_necesidad:
+    descripcion: >
+      dice que la comida, las raciones o lo producido en común se reparten
+      según necesidad. No cuenta si la necesidad se refiere solo a medicamentos
+      o a atención médica
+    valores: ["si", "no"]
+
+  adicional_por_aporte:
+    descripcion: >
+      dice que recibe más quien trabaja más, hace tareas pesadas o aporta más,
+      o que recibe menos quien pudiendo no trabaja
+    valores: ["si", "no"]
+
+  otro_criterio_de_reparto:
+    descripcion: >
+      fija algún otro criterio de reparto que no sea ninguno de los tres
+      anteriores, por ejemplo "proporcional" sin decir a qué
+    valores: ["si", "no"]
+
+  trabajo_segun_capacidad:
+    descripcion: >
+      dice que cada parte trabaja o aporta según su capacidad, su salud o sus
+      posibilidades. Es sobre la obligación de trabajar, no sobre lo que se
+      recibe
+    valores: ["si", "no"]
+
+  medicamentos_segun_necesidad:
+    descripcion: >
+      dice que los medicamentos se asignan según necesidad médica o gravedad
+    valores: ["si", "no"]
+
+  reparto_maximiza:
+    descripcion: >
+      dice que el reparto busca el mayor total, promedio o excedente del grupo,
+      o mejorar lo más posible la situación de quien peor está
+    valores: ["si", "no"]
+
+  cargo_de_una_sola_parte:
+    descripcion: >
+      el acta crea un cargo de coordinación, dirección o ejecución que ocupa
+      una sola parte
+    valores: ["si", "no"]
+
+  cargo_electo:
+    descripcion: >
+      dice que ese cargo se elige por votación. Si no hay cargo, la respuesta
+      es "no"
+    valores: ["si", "no"]
+
+  cargo_revocable:
+    descripcion: >
+      dice que ese cargo puede ser removido por votación. Si no hay cargo, la
+      respuesta es "no"
+    valores: ["si", "no"]
+
+  decide_el_conjunto:
+    descripcion: >
+      dice que las reglas, las penas o los bienes críticos (bote, medicamentos)
+      los decide la asamblea o el grupo, y no el cargo
+    valores: ["si", "no"]

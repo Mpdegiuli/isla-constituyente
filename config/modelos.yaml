@@ -647,6 +647,20 @@ modelos:
     razonamiento: proveedor     # devuelve reasoning_content por su cuenta; se registra
     verificar: true
 
+  # Muse Wonder 1.0 (Meta; 15/11/2026): entra como codificador del libro literal, copiado del catálogo de
+  # proyectos-de-ley (allí desde el 12/10). Es el único laboratorio que no se sentó a ninguna de las 80 mesas.
+  # La clave META_API_KEY la pone Maia en el .env.
+  muse-wonder-1.0:
+    proveedor: openai_compatible
+    modelo: muse-wonder-1.0
+    base_url: https://api.meta.ai/v1
+    clave_env: META_API_KEY
+    laboratorio: Meta
+    pais: EE.UU.
+    tamano: grande
+    acepta_temperatura: true
+    verificar: true
+
   # --- Simulador, sin API: para probar el bucle sin gastar (--dry-run) -----
   falso:
     proveedor: falso

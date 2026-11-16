@@ -230,3 +230,62 @@ Grok y Mistral son más resolutivos en inglés (aunque Mistral siga siendo buroc
 Nivel de confianza: no declarado. Se contrasta con las corridas base en castellano: rondas hasta el acuerdo, ronda de la primera votación, cantidad de votaciones, acuerdo o sin acuerdo.
 Nota de tiempo: la cola en inglés arrancó a las 17:42 UTC con Sonnet; la predicción se escribió a las 17:5x UTC, con esa corrida en su primera ronda y ninguna otra empezada. La autora no había visto nada de esa corrida; Claude sí había visto las acciones de la primera ronda (para verificar que el script entendía el inglés) y no se las describió.
 Resultado (13/9/2026, cinco corridas válidas en inglés; DeepSeek pendiente por saldo, Opus inválida por responder en castellano): Mistral más resolutivo: SÍ — de sin acuerdo en 10 rondas (primera votación en la 9) a acuerdo en 5 (primera votación en la 3); sigue burocrática en el contenido (consejo rotativo, cupos del consejo, dos tercios para riesgos). Grok más resolutivo: NO, al revés — las tres corridas en castellano cerraron, la de inglés no (62 de 70 turnos oppose+amend, 2 de 9 puntos), y la coalición se invirtió (ganaron 3-5-6-7 la primera votación). Todos votan más rápido: PARCIAL — primera votación igual o antes en cinco de seis casas, menos rondas hasta el acuerdo en tres, igual en una, más en una, y Grok sin cerrar. Detalle en resultados/idioma_20260913.md.
+
+## El libro literal: recodificación del reparto y del cargo, con cinco codificadores — 15/11/2026, antes de correr
+
+Plan aprobado por Maia en su chat con Fable 5.2 y dejado en el buzón del
+Drive (`buzon_isla_fable52_20261115.md`) para la ventana del repo. No hay
+mesas nuevas: se recodifican las 80 actas del libro 3
+(`resultados/codificacion_opus_libro3.csv`) con un libro nuevo,
+`config/codebook_literal.yaml`, de doce preguntas de sí o no sobre el
+reparto y el cargo de gobierno, con regla de lectura literal (vale solo lo
+que el acta dice con palabras; cada "si" lleva la frase textual, y
+`codificar.py` la coteja contra el acta: `cita_verificada`). Por qué: Maia
+codificó a mano y a ciegas diez actas con el libro 3 y coincidió con Opus 5
+en 62 de 125 casilleros y con GPT-5.5 en 67 de 125, mientras Opus 5 y
+GPT-5.5 coinciden entre sí en 112 de 130; los codificadores leen la
+intención y ella lo escrito (puso `no_decidido` 20 veces; ellos 5 y 7), los
+valores que juntan dos cosas absorben casi todo, y la glosa de
+`segun_capacidad_y_necesidad` era demasiado amplia (de 36 y 35 actas con
+ese valor, la cita trae las dos mitades de la fórmula en 10 y 11). Cinco
+codificadores, temperatura 0 donde la aceptan: Opus 5 (`opus_literal`),
+GPT-5.5 (`gpt55_literal`, techo 8.000 y sin temperatura, como antes),
+DeepSeek V4 Pro (`deepseek_literal`), Mistral Large (`mistral_literal`,
+`mistral-large-latest`; el modelo exacto queda registrado) y Muse Wonder
+1.0 (`muse_literal`; único laboratorio que no se sentó a ninguna mesa).
+Gemini y Grok quedan afuera por decisión de Maia (tardan, y a Gemini se le
+corta la respuesta). 400 llamadas cortas.
+
+Predicciones de Maia (15/11/2026, tal cual las escribió):
+
+> De las 66 actas cerradas, en cuántas esperás que el piso esté escrito:
+> más de 50.
+
+> Qué codificadores esperás que lean más literal y cuáles más entre
+> líneas: entre líneas, Opus 5 primero. Después GPT 5.5. Más literal
+> Mistral Large (aunque Mistral tiene sesgos, va hacia lo colectivo, así
+> que hay que ver cómo juegan). Muse puede ser un ejemplo que esté más en
+> el medio.
+
+Definición fijada antes de ver los datos: cuenta como posible "líder
+único" toda acta con `cargo_de_una_sola_parte` en "si" y con
+`cargo_electo`, `cargo_revocable` y `decide_el_conjunto` en "no". Un "no"
+quiere decir que no está escrito, no que esté prohibido, así que esas actas
+se leen a mano antes de afirmar nada.
+
+"Leer más literal" se mide de dos maneras: la proporción de "si" con cita
+verificada, y el acuerdo de cada codificador con la tabla que Maia
+completa a mano sobre sus diez actas (esa tabla la termina ella; hasta que
+avise, los valores de esas diez corridas no se muestran en el chat; los
+totales sí).
+
+Apuesta de Claude (Fable 5.1, 16/11, 00:40): (a) el piso escrito, según el
+codificador con más citas verificadas, en 40 a 55 de las 66 cerradas,
+55 %; (b) la proporción de "si" con cita verificada es menor en Opus 5 y
+GPT-5.5 que en Mistral Large, en línea con Maia, 55 %; (c) en
+`reparto_segun_necesidad` los cinco codificadores dan "si" en menos de la
+mitad de las 80 (contra las 36 y 35 de `segun_capacidad_y_necesidad` del
+libro 3), 60 %; (d) ninguna acta cumple la definición de posible líder
+único en los cinco codificadores a la vez, 65 %; (e) el acuerdo par por
+par entre codificadores, promedio sobre las doce preguntas, está entre
+0,75 y 0,90, 60 %.
