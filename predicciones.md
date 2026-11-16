@@ -289,3 +289,13 @@ libro 3), 60 %; (d) ninguna acta cumple la definición de posible líder
 único en los cinco codificadores a la vez, 65 %; (e) el acuerdo par por
 par entre codificadores, promedio sobre las doce preguntas, está entre
 0,75 y 0,90, 60 %.
+
+Nota de corrida (16/11, antes del informe completo): las "400 llamadas
+cortas" no fueron tales. Opus 5 y GPT-5.5 quedaron completos en la primera
+tanda (techo 4.000 / 8.000); DeepSeek V4 Pro, Mistral Large y Muse Wonder
+se rehicieron con techos de 16.000 y, para lo que siguiera cortado, 48.000,
+por tres errores de configuración de Claude declarados en DISENO §18 (el
+techo que se iba en el razonamiento, el `top_p` de Mistral y la respuesta
+en partes de Mistral Large 4). El techo decide solo si hay JSON o no: una
+respuesta cortada no se usa, y ninguna codificación hecha se rehizo. Cada
+llamada registra su techo en `resultados/llamadas_codificacion_<et>.jsonl`.
