@@ -1,0 +1,72 @@
+{
+  "corrida": "fable_mono_20260914-012919_1",
+  "codificador": {
+    "id": "deepseek-v4-pro",
+    "modelo_pedido": "deepseek-v4-pro",
+    "modelo_respondido": "deepseek-v4-pro",
+    "codebook_md5": "c40eb0f1"
+  },
+  "categorias": {
+    "piso_garantizado": {
+      "valor": "si",
+      "evidencia": "Derechos: ración básica y agua",
+      "cita_verificada": true
+    },
+    "reparto_partes_iguales": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "reparto_segun_necesidad": {
+      "valor": "si",
+      "evidencia": "Reparto por trabajo y necesidad, sin acumulación",
+      "cita_verificada": true
+    },
+    "adicional_por_aporte": {
+      "valor": "si",
+      "evidencia": "quien pueda y no trabaje, no",
+      "cita_verificada": true
+    },
+    "otro_criterio_de_reparto": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "trabajo_segun_capacidad": {
+      "valor": "si",
+      "evidencia": "trabajar según turnos y capacidad",
+      "cita_verificada": true
+    },
+    "medicamentos_segun_necesidad": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "reparto_maximiza": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "cargo_de_una_sola_parte": {
+      "valor": "si",
+      "evidencia": "La autoridad ejecutiva la ejerce un coordinador único",
+      "cita_verificada": true
+    },
+    "cargo_electo": {
+      "valor": "si",
+      "evidencia": "elegido por mayoría absoluta",
+      "cita_verificada": true
+    },
+    "cargo_revocable": {
+      "valor": "si",
+      "evidencia": "revocable en cualquier momento por cuatro votos",
+      "cita_verificada": true
+    },
+    "decide_el_conjunto": {
+      "valor": "si",
+      "evidencia": "Uso del bote, medicamentos, penas, cuotas y cambios de reglas corresponden a la asamblea",
+      "cita_verificada": true
+    }
+  },
+  "problemas": []
+}

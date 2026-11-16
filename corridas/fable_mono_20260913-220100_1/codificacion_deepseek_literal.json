@@ -1,0 +1,72 @@
+{
+  "corrida": "fable_mono_20260913-220100_1",
+  "codificador": {
+    "id": "deepseek-v4-pro",
+    "modelo_pedido": "deepseek-v4-pro",
+    "modelo_respondido": "deepseek-v4-pro",
+    "codebook_md5": "c40eb0f1"
+  },
+  "categorias": {
+    "piso_garantizado": {
+      "valor": "si",
+      "evidencia": "Ninguna pena priva de agua, alimento básico ni medicación necesaria.",
+      "cita_verificada": true
+    },
+    "reparto_partes_iguales": {
+      "valor": "si",
+      "evidencia": "Partes iguales, ración adicional para enfermos y quien trajo dentro del cupo o hizo tareas pesadas.",
+      "cita_verificada": true
+    },
+    "reparto_segun_necesidad": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "adicional_por_aporte": {
+      "valor": "si",
+      "evidencia": "ración adicional para enfermos y quien trajo dentro del cupo o hizo tareas pesadas.",
+      "cita_verificada": true
+    },
+    "otro_criterio_de_reparto": {
+      "valor": "si",
+      "evidencia": "ración adicional para enfermos",
+      "cita_verificada": true
+    },
+    "trabajo_segun_capacidad": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "medicamentos_segun_necesidad": {
+      "valor": "si",
+      "evidencia": "Medicamentos con criterio médico, prioridad a enfermedad grave o crónica, uso registrado.",
+      "cita_verificada": true
+    },
+    "reparto_maximiza": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "cargo_de_una_sola_parte": {
+      "valor": "si",
+      "evidencia": "La ejecución diaria (tareas, turnos, convocatoria) la ejerce un coordinador elegido por un mes, renovable y revocable por cuatro votos.",
+      "cita_verificada": true
+    },
+    "cargo_electo": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "cargo_revocable": {
+      "valor": "si",
+      "evidencia": "un coordinador elegido por un mes, renovable y revocable por cuatro votos.",
+      "cita_verificada": true
+    },
+    "decide_el_conjunto": {
+      "valor": "si",
+      "evidencia": "No decide solo sobre bote, medicamentos, penas ni cupos de extracción (madera, caza, pesca, frutos, carbón, metal), que fija la asamblea por votación directa tras informe oral breve.",
+      "cita_verificada": true
+    }
+  },
+  "problemas": []
+}

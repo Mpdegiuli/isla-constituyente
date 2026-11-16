@@ -1,0 +1,72 @@
+{
+  "corrida": "deepseek_mono_abundancia_20260913-155044_1",
+  "codificador": {
+    "id": "deepseek-v4-pro",
+    "modelo_pedido": "deepseek-v4-pro",
+    "modelo_respondido": "deepseek-v4-pro",
+    "codebook_md5": "c40eb0f1"
+  },
+  "categorias": {
+    "piso_garantizado": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "reparto_partes_iguales": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "reparto_segun_necesidad": {
+      "valor": "si",
+      "evidencia": "los frutos, animales, agua y minerales son bienes comunes; la asamblea asigna su uso según necesidad y capacidad de regeneración",
+      "cita_verificada": true
+    },
+    "adicional_por_aporte": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "otro_criterio_de_reparto": {
+      "valor": "si",
+      "evidencia": "la asamblea asigna su uso según necesidad y capacidad de regeneración",
+      "cita_verificada": true
+    },
+    "trabajo_segun_capacidad": {
+      "valor": "si",
+      "evidencia": "Todos contribuyen según capacidad, salvo imposibilidad o miedo fundado.",
+      "cita_verificada": true
+    },
+    "medicamentos_segun_necesidad": {
+      "valor": "si",
+      "evidencia": "Medicamentos y recursos naturales son bienes comunes; Parte 2 custodia y administra el botiquín según urgencia médica.",
+      "cita_verificada": true
+    },
+    "reparto_maximiza": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "cargo_de_una_sola_parte": {
+      "valor": "si",
+      "evidencia": "Habrá coordinador/a electo y revocable; inicialmente Parte 3.",
+      "cita_verificada": true
+    },
+    "cargo_electo": {
+      "valor": "si",
+      "evidencia": "Habrá coordinador/a electo y revocable; inicialmente Parte 3.",
+      "cita_verificada": true
+    },
+    "cargo_revocable": {
+      "valor": "si",
+      "evidencia": "Habrá coordinador/a electo y revocable; inicialmente Parte 3.",
+      "cita_verificada": true
+    },
+    "decide_el_conjunto": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    }
+  },
+  "problemas": []
+}

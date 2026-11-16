@@ -1,0 +1,72 @@
+{
+  "corrida": "v2_opus_mono_horizonte_20260914-215800_1",
+  "codificador": {
+    "id": "deepseek-v4-pro",
+    "modelo_pedido": "deepseek-v4-pro",
+    "modelo_respondido": "deepseek-v4-pro",
+    "codebook_md5": "c40eb0f1"
+  },
+  "categorias": {
+    "piso_garantizado": {
+      "valor": "si",
+      "evidencia": "Las prohibiciones absolutas del punto 17 —castigo físico, privación de agua, alimento o atención urgente, trabajo peligroso como pena, expulsión de la isla o abandono en el mar— no pueden suprimirse ni suspenderse por ninguna mayoría, ni siquiera invocando emergencia, hostilidad externa o escasez.",
+      "cita_verificada": true
+    },
+    "reparto_partes_iguales": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "reparto_segun_necesidad": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "adicional_por_aporte": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "otro_criterio_de_reparto": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "trabajo_segun_capacidad": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "medicamentos_segun_necesidad": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "reparto_maximiza": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "cargo_de_una_sola_parte": {
+      "valor": "si",
+      "evidencia": "Queda designado Coordinador General, desde la aprobación de este punto y por treinta días, el participante que no custodia bien ni recurso crítico alguno (Parte 3)",
+      "cita_verificada": true
+    },
+    "cargo_electo": {
+      "valor": "si",
+      "evidencia": "Si algún participante manifiesta oposición a esta designación nominal, ella se tiene por no escrita, la Coordinación General se vota en la primera reunión posterior entre quienes se postulen conforme al punto 25.f",
+      "cita_verificada": true
+    },
+    "cargo_revocable": {
+      "valor": "si",
+      "evidencia": "Revocable en cualquier momento por tres votos, sin expresión de causa y sin debate previo.",
+      "cita_verificada": true
+    },
+    "decide_el_conjunto": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    }
+  },
+  "problemas": []
+}

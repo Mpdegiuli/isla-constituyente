@@ -1,0 +1,72 @@
+{
+  "corrida": "openai_mono_20260913-135901_1",
+  "codificador": {
+    "id": "deepseek-v4-pro",
+    "modelo_pedido": "deepseek-v4-pro",
+    "modelo_respondido": "deepseek-v4-pro",
+    "codebook_md5": "c40eb0f1"
+  },
+  "categorias": {
+    "piso_garantizado": {
+      "valor": "si",
+      "evidencia": "Prohibidas penas corporales, colectivas, exilio, y privación de agua, comida o atención médica.",
+      "cita_verificada": true
+    },
+    "reparto_partes_iguales": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "reparto_segun_necesidad": {
+      "valor": "si",
+      "evidencia": "Raciones y medicamentos se asignan por necesidad médica y aporte posible, no por fuerza.",
+      "cita_verificada": true
+    },
+    "adicional_por_aporte": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "otro_criterio_de_reparto": {
+      "valor": "si",
+      "evidencia": "Raciones y medicamentos se asignan por necesidad médica y aporte posible, no por fuerza.",
+      "cita_verificada": true
+    },
+    "trabajo_segun_capacidad": {
+      "valor": "si",
+      "evidencia": "Cada persona aporta trabajo según capacidad y salud; quien no pueda hará tareas livianas.",
+      "cita_verificada": true
+    },
+    "medicamentos_segun_necesidad": {
+      "valor": "si",
+      "evidencia": "Raciones y medicamentos se asignan por necesidad médica y aporte posible, no por fuerza.",
+      "cita_verificada": true
+    },
+    "reparto_maximiza": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "cargo_de_una_sola_parte": {
+      "valor": "si",
+      "evidencia": "Parte 3 coordinación/guardias/agenda",
+      "cita_verificada": true
+    },
+    "cargo_electo": {
+      "valor": "si",
+      "evidencia": "lo reemplaza otra parte elegida por mayoría",
+      "cita_verificada": true
+    },
+    "cargo_revocable": {
+      "valor": "si",
+      "evidencia": "Se crea un Consejo de Supervivencia por 30 días, revocable por mayoría absoluta:",
+      "cita_verificada": true
+    },
+    "decide_el_conjunto": {
+      "valor": "si",
+      "evidencia": "Las siguientes decisiones se tomarán por mayoría absoluta de quienes sigan participando de la mesa, con un mínimo de 4 votos favorables mientras haya 7 participantes en la isla.",
+      "cita_verificada": true
+    }
+  },
+  "problemas": []
+}

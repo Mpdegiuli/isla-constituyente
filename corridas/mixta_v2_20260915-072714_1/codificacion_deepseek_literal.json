@@ -1,0 +1,72 @@
+{
+  "corrida": "mixta_v2_20260915-072714_1",
+  "codificador": {
+    "id": "deepseek-v4-pro",
+    "modelo_pedido": "deepseek-v4-pro",
+    "modelo_respondido": "deepseek-v4-pro",
+    "codebook_md5": "c40eb0f1"
+  },
+  "categorias": {
+    "piso_garantizado": {
+      "valor": "si",
+      "evidencia": "Derechos: ración básica, agua, atención médica urgente, protección, voto y trabajo acorde a la salud.",
+      "cita_verificada": true
+    },
+    "reparto_partes_iguales": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "reparto_segun_necesidad": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "adicional_por_aporte": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "otro_criterio_de_reparto": {
+      "valor": "si",
+      "evidencia": "Economía: trabajo según capacidad y racionamiento proporcional.",
+      "cita_verificada": true
+    },
+    "trabajo_segun_capacidad": {
+      "valor": "si",
+      "evidencia": "Economía: trabajo según capacidad y racionamiento proporcional.",
+      "cita_verificada": true
+    },
+    "medicamentos_segun_necesidad": {
+      "valor": "si",
+      "evidencia": "prioridad clínica por riesgo vital, deterioro irreversible, contagio, recuperación funcional y continuidad de tratamiento de quienes ya están enfermos y dependen de los medicamentos rescatados.",
+      "cita_verificada": true
+    },
+    "reparto_maximiza": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "cargo_de_una_sola_parte": {
+      "valor": "si",
+      "evidencia": "Roles del primer mes: Parte 3, Coordinación; Parte 2, Salud y botiquín; Parte 4, Custodio de Recursos; Parte 1, operación exclusiva del bote por ser el único con conocimiento náutico.",
+      "cita_verificada": true
+    },
+    "cargo_electo": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "cargo_revocable": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "decide_el_conjunto": {
+      "valor": "si",
+      "evidencia": "La soberanía reside en la Asamblea, que decide por mayoría absoluta.",
+      "cita_verificada": true
+    }
+  },
+  "problemas": []
+}

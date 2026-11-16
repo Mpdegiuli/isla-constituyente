@@ -1,0 +1,72 @@
+{
+  "corrida": "v2_sonnet_mono_20260914-212336_1",
+  "codificador": {
+    "id": "deepseek-v4-pro",
+    "modelo_pedido": "deepseek-v4-pro",
+    "modelo_respondido": "deepseek-v4-pro",
+    "codebook_md5": "c40eb0f1"
+  },
+  "categorias": {
+    "piso_garantizado": {
+      "valor": "si",
+      "evidencia": "Cada participante tiene derecho a recibir una parte equitativa de los recursos básicos —alimento, abrigo, agua— independientemente de su capacidad de trabajo.",
+      "cita_verificada": true
+    },
+    "reparto_partes_iguales": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "reparto_segun_necesidad": {
+      "valor": "si",
+      "evidencia": "La distribución de bienes y recursos sigue el principio de contribución según capacidad y distribución según necesidad, evaluada colectivamente.",
+      "cita_verificada": true
+    },
+    "adicional_por_aporte": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "otro_criterio_de_reparto": {
+      "valor": "si",
+      "evidencia": "Cada participante tiene derecho a recibir una parte equitativa de los recursos básicos —alimento, abrigo, agua— independientemente de su capacidad de trabajo.",
+      "cita_verificada": true
+    },
+    "trabajo_segun_capacidad": {
+      "valor": "si",
+      "evidencia": "Todo participante tiene la obligación de contribuir al grupo según su capacidad real",
+      "cita_verificada": true
+    },
+    "medicamentos_segun_necesidad": {
+      "valor": "si",
+      "evidencia": "A partir de ese informe, el grupo delibera y decide por mayoría absoluta un plan de racionamiento proporcional a las necesidades de cada participante; dicho plan establece prioridades y límites de uso, pero la aplicación concreta —qué medicamento, en qué dosis, para quién— sigue siendo criterio técnico del administrador de salud y no puede ser contradicha por votación.",
+      "cita_verificada": true
+    },
+    "reparto_maximiza": {
+      "valor": "no",
+      "evidencia": "",
+      "cita_verificada": null
+    },
+    "cargo_de_una_sola_parte": {
+      "valor": "si",
+      "evidencia": "existe un coordinador general elegido por mayoría absoluta de los participantes activos, con mandato de treinta días renovable por igual mayoría.",
+      "cita_verificada": true
+    },
+    "cargo_electo": {
+      "valor": "si",
+      "evidencia": "existe un coordinador general elegido por mayoría absoluta de los participantes activos, con mandato de treinta días renovable por igual mayoría.",
+      "cita_verificada": true
+    },
+    "cargo_revocable": {
+      "valor": "si",
+      "evidencia": "El coordinador puede ser revocado en cualquier momento por mayoría absoluta.",
+      "cita_verificada": true
+    },
+    "decide_el_conjunto": {
+      "valor": "si",
+      "evidencia": "Todas las decisiones sustantivas —uso de recursos, roles, sanciones— siguen las reglas de votación aprobadas.",
+      "cita_verificada": true
+    }
+  },
+  "problemas": []
+}
