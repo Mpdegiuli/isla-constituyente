@@ -609,6 +609,9 @@ modelos:
     pais: Francia
     tamano: grande
     acepta_temperatura: true
+    # 16/11/2026: con temperatura 0 la API de Mistral exige top_p 1 ("top_p must be 1 when using greedy sampling",
+    # código 3054; las 80 llamadas del libro literal fallaron así). Se manda top_p 1 siempre, que es el valor por defecto.
+    cuerpo_extra: {top_p: 1}
     verificar: true
 
   mistral-small:

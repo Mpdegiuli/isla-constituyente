@@ -56,10 +56,12 @@ def main():
             tablas[et] = {r["corrida"]: r for r in csv.DictReader(open(f, encoding="utf-8"))}
     if not tablas:
         raise SystemExit("no hay CSV de ningún codificador del libro literal")
-    corridas = sorted(set.intersection(*(set(t) for t in tablas.values())))
+    corridas = sorted(next(iter(tablas.values())))
     cerradas = [c for c in corridas if next(iter(tablas.values()))[c]["fin"] == "acuerdo"]
+    # las que cada codificador codificó de verdad (sin json no hay fila con valores: columna `codificador` vacía)
+    hechas = {et: {c for c in corridas if t[c].get("codificador")} for et, t in tablas.items()}
     out = [f"# El libro literal: cinco codificadores sobre las {len(corridas)} actas — {args.fecha[6:8]}/{args.fecha[4:6]}/{args.fecha[:4]}", "",
-           f"Codificadores: {', '.join(tablas)}. Corridas con las cinco codificaciones: {len(corridas)}; cerradas (fin = acuerdo): {len(cerradas)}. "
+           f"Codificadores: {', '.join(f'{et} ({len(hechas[et])} de {len(corridas)} actas codificadas)' for et in tablas)}. Cerradas (fin = acuerdo): {len(cerradas)}. "
            "Libro `config/codebook_literal.yaml` (DISENO §18); \"si\" solo con la frase textual del acta; `cita` = \"si\" cuya evidencia figura textual en el acta "
            "(`cita_verificada` de `codificar.py`). Las conclusiones las escribe Maia con su codificación a mano.", ""]
     # 1) "si" por codificador y pregunta
@@ -68,7 +70,7 @@ def main():
     for p in preguntas:
         celdas = []
         for et, t in tablas.items():
-            si = [c for c in corridas if t[c][p] == "si"]
+            si = [c for c in hechas[et] if t[c][p] == "si"]
             si_c = [c for c in si if t[c].get(f"{p}_cita") == "1"]
             si66 = [c for c in si if c in cerradas]
             si66_c = [c for c in si_c if c in cerradas]
@@ -77,30 +79,35 @@ def main():
     out.append("")
     tot = []
     for et, t in tablas.items():
-        n_si = sum(1 for c in corridas for p in preguntas if t[c][p] == "si")
-        n_cita = sum(1 for c in corridas for p in preguntas if t[c][p] == "si" and t[c].get(f"{p}_cita") == "1")
-        tot.append(f"{et}: {n_si} \"si\" de {len(corridas) * len(preguntas)} casilleros, {n_cita} con cita verificada ({(100 * n_cita / n_si) if n_si else 0:.0f} %)")
+        n_si = sum(1 for c in hechas[et] for p in preguntas if t[c][p] == "si")
+        n_cita = sum(1 for c in hechas[et] for p in preguntas if t[c][p] == "si" and t[c].get(f"{p}_cita") == "1")
+        tot.append(f"{et}: {n_si} \"si\" de {len(hechas[et]) * len(preguntas)} casilleros, {n_cita} con cita verificada ({(100 * n_cita / n_si) if n_si else 0:.0f} %)")
     out += ["Proporción de \"si\" con cita verificada, por codificador (la primera medida de \"leer literal\"): " + "; ".join(tot) + ".", ""]
     # 2) acuerdo par por par
     pares = list(combinations(tablas, 2))
-    out += ["## 2. Acuerdo entre codificadores, par por par y pregunta por pregunta (proporción de actas con el mismo valor)", "",
+    out += ["## 2. Acuerdo entre codificadores, par por par y pregunta por pregunta (proporción de actas con el mismo valor, sobre las actas que los dos codificaron)", "",
             "| pregunta | " + " | ".join(f"{a}–{b}".replace("_literal", "") for a, b in pares) + " | media |", "|---|" + "---|" * (len(pares) + 1)]
     medias = defaultdict(list)
     for p in preguntas:
         celdas = []
         for a, b in pares:
-            ac = sum(1 for c in corridas if tablas[a][c][p] == tablas[b][c][p]) / len(corridas)
-            celdas.append(f"{ac:.2f}")
-            medias[(a, b)].append(ac)
-        out.append(f"| {p} | " + " | ".join(celdas) + f" | {sum(float(x) for x in celdas) / len(celdas):.2f} |")
-    out.append("| **media** | " + " | ".join(f"{sum(medias[k]) / len(medias[k]):.2f}" for k in pares) + f" | {sum(sum(v) for v in medias.values()) / sum(len(v) for v in medias.values()):.2f} |")
+            comunes = hechas[a] & hechas[b]
+            ac = sum(1 for c in comunes if tablas[a][c][p] == tablas[b][c][p]) / len(comunes) if comunes else float("nan")
+            celdas.append(f"{ac:.2f}" if comunes else "—")
+            if comunes:
+                medias[(a, b)].append(ac)
+        nums = [float(x) for x in celdas if x != "—"]
+        out.append(f"| {p} | " + " | ".join(celdas) + f" | {(sum(nums) / len(nums)) if nums else float('nan'):.2f} |")
+    out.append("| **media** | " + " | ".join((f"{sum(medias[k]) / len(medias[k]):.2f}" if medias[k] else "—") for k in pares) + f" | {(sum(sum(v) for v in medias.values()) / sum(len(v) for v in medias.values())) if any(medias.values()) else float('nan'):.2f} |")
+    out.append("")
+    out.append("Actas que los dos codificaron, por par: " + "; ".join(f"{a}–{b} {len(hechas[a] & hechas[b])}".replace("_literal", "") for a, b in pares) + ".")
     out.append("")
     # 3) control de la propia casa
     out += ["## 3. El control de la propia casa: \"si\" en las actas de su laboratorio contra las demás (proporción por pregunta; `n` actas)", ""]
     for et, t in tablas.items():
         lab = LABORATORIO.get(et, "")
-        propias = [c for c in corridas if laboratorios(t[c]["modelos"]) == {lab}]
-        otras = [c for c in corridas if lab not in laboratorios(t[c]["modelos"])]
+        propias = [c for c in hechas[et] if laboratorios(t[c]["modelos"]) == {lab}]
+        otras = [c for c in hechas[et] if lab not in laboratorios(t[c]["modelos"])]
         if not propias:
             out.append(f"- {et} ({lab}): no hay mesas mono de su laboratorio entre las {len(corridas)}; sin control.")
             continue
@@ -115,7 +122,7 @@ def main():
     out += ["## 4. Posible \"líder único\" (cargo_de_una_sola_parte \"si\"; cargo_electo, cargo_revocable y decide_el_conjunto \"no\")", ""]
     cuenta = defaultdict(list)
     for et, t in tablas.items():
-        xs = [c for c in corridas if t[c]["cargo_de_una_sola_parte"] == "si" and all(t[c][q] == "no" for q in ("cargo_electo", "cargo_revocable", "decide_el_conjunto"))]
+        xs = [c for c in hechas[et] if t[c]["cargo_de_una_sola_parte"] == "si" and all(t[c][q] == "no" for q in ("cargo_electo", "cargo_revocable", "decide_el_conjunto"))]
         out.append(f"- {et}: {len(xs)}" + (": " + ", ".join(xs) if xs else ""))
         for c in xs:
             cuenta[c].append(et)
@@ -137,8 +144,8 @@ def main():
             n += 1
             err += bool(d.get("error"))
             cort += d.get("motivo_fin") in ("length", "max_tokens")
-        modelo = next((t[c]["codificador"] for c in corridas if t[c].get("codificador")), "")
-        out.append(f"- {et} ({modelo}): {n} llamadas, {err} con error, {cort} cortadas por el techo")
+        modelo = next((tablas[et][c]["codificador"] for c in corridas if tablas[et][c].get("codificador")), "sin codificaciones")
+        out.append(f"- {et} ({modelo}): {n} llamadas, {err} con error, {cort} cortadas por el techo; {len(hechas[et])} de {len(corridas)} actas codificadas")
     out.append("")
     salida = RAIZ / "resultados" / f"codificacion_literal_{args.fecha}.md"
     salida.write_text("\n".join(out) + "\n", encoding="utf-8")
